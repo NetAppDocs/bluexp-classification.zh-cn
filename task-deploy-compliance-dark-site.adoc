@@ -81,9 +81,9 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 
 数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。
 
-* 操作系统：Red Hat Enterprise Linux或CentOS 8.0、8.1或8.4版
+* 操作系统：Red Hat Enterprise Linux或CentOS 8.0至8.4版
 +
-** 可以使用7.8或7.9版、但Linux内核版本必须为4.14或更高版本
+** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 ** 操作系统必须能够安装 Docker 引擎（例如，根据需要禁用 _firewalld_ 服务）
 
 
@@ -174,7 +174,7 @@ Data sense 实例使用专用 IP 地址来确保索引数据不可供他人访�
 +
 [source, cli]
 ----
-tar -xzf DataSense-offline-bundle-v1.13.1.tar.gz
+tar -xzf DataSense-offline-bundle-v1.14.0.tar.gz
 ----
 +
 此操作将提取所需的软件和实际安装文件 * cc_onprem_installer_< 版本 >.tar.gz* 。
@@ -196,7 +196,7 @@ image:screenshot_cloud_compliance_deploy_darksite.png["选择按钮在内部部�
 +
 [source, cli]
 ----
-tar -xzf cc_onprem_installer_1.13.1.tar.gz
+tar -xzf cc_onprem_installer_1.14.0.tar.gz
 ----
 . 安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序：
 +
@@ -322,7 +322,7 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 +
 [source, cli]
 ----
-tar -xvf DataSense-offline-bundle-v1.13.1.tar.gz
+tar -xvf DataSense-offline-bundle-v1.14.0.tar.gz
 ----
 +
 此操作将提取安装文件 * cc_onprem_installer_< 版本 >.tar.gz* 。
@@ -331,7 +331,7 @@ tar -xvf DataSense-offline-bundle-v1.13.1.tar.gz
 +
 [source, cli]
 ----
-tar -xzf cc_onprem_installer_1.13.1.tar.gz
+tar -xzf cc_onprem_installer_1.14.0.tar.gz
 ----
 +
 此操作将提取升级脚本 * 启动 _didssite_upgrade.sh* 以及任何所需的第三方软件。

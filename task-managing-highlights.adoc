@@ -203,6 +203,8 @@ Cloud Sync UI 将在 Cloud Manager 中打开。
 
 您可以将 Data sense 正在扫描的源文件移动到任何 NFS 共享。NFS 共享不需要与 Data sense 集成（请参见 link:task-scanning-file-shares.html["正在扫描文件共享"]）。
 
+或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`<filename>-breadcrumb-<date>.txt`创建一个痕迹文件。您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。
+
 如果目标位置存在同名文件、则不会移动该文件。
 
 
@@ -222,13 +224,16 @@ image:screenshot_compliance_move_multi_files.png["显示如何从数据调查页
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 
 
 . 在按钮栏中，单击 * 移动 * 。
 +
 image:screenshot_compliance_move_files_dialog.png["显示移动文件对话框的屏幕截图，用于指定要移动所有选定文件的 NFS 共享的名称。"]
 
-. 在 _move Files_ 对话框中，以 ` <host_name> ： /<share_path>` 格式输入要移动所有选定文件的 NFS 共享的名称，然后单击 * 移动文件 * 。
+. 在_move Files_对话框中、输入要移动所有选定文件的NFS共享的名称、格式为`<host_name>：/<share_path>`。
+. 如果要保留痕迹文件、请选中_leave痕迹_框。您可以在对话框中输入文本、以指示文件的移动位置、移动文件的用户以及任何其他信息、例如文件移动的原因。
+. 单击*移动文件*。
 
 
 请注意，在查看文件的元数据详细信息时，您也可以移动单个文件。只需单击 * 移动文件 * 。

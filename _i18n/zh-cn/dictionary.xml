@@ -1195,7 +1195,6 @@
   <block id="cb947e43fc5b51270600556c1bdc9a6e" category="paragraph">您还可以从 " 数据调查 " 页面筛选结果，并以 CSV 文件的形式下载结果报告。请参见 <block ref="d866de3580f3d4e6c76a60eb4ffbd9e6" category="inline-xref-macro-rx"></block> 了解详细信息。</block>
   <block id="4dd66ca96fb96e8e0b7ea1d39b21b6d2" category="section-title">查看包含个人数据的文件</block>
   <block id="99c411b30c0d86f95c6416318f98106b" category="inline-link-macro">请参见完整列表</block>
-  <block id="81235bb8dbca2b584e21b3ca23730b54" category="paragraph">Cloud Data sense 可自动识别数据中的特定字词，字符串和模式（ Reex ）。例如，个人身份识别信息（ PiII ），信用卡号，社会保险号，银行帐号，密码， 等等。 <block ref="3a25cef7ea1e79696c3eac86ef0a5a72" category="inline-link-macro-rx"></block>。</block>
   <block id="c39a62af3ed5ce08e86086b818d3d335" category="paragraph">此外，如果您添加了要扫描的数据库服务器，则 _Data Fusion 功能允许您扫描文件，以确定这些文件或其他数据库中是否存在数据库中的唯一标识符。请参见 <block ref="e5fd618a95839b26abd9eb3c166b6d5a" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="ff63178a8a067a8614bbbfdf75252bf4" category="inline-link-macro">个人数据表</block>
   <block id="0b89e2aeea46e7ca57ab15ff5bbc7f74" category="paragraph">对于某些类型的个人数据， Data sense 使用 _proximity validation_来 验证其结果。通过查找与所发现的个人数据相邻的一个或多个预定义关键字来进行验证。例如， Data sense 可识别美国如果在 SSN 旁边看到一个接近词，则将社会安全号（ SSN ）作为 SSN ，例如 _SSN_ 或 _社交 安全 _ 。 <block ref="62bae47b4917c28b4ad589ca12fe7ebd" category="inline-link-macro-rx"></block> 显示 Data sense 何时使用接近验证。</block>
@@ -1206,10 +1205,8 @@
   <block id="8c17e3b1b4e627d4a92973aec9ef4ce0" category="inline-image-macro">个人文件对话框的屏幕截图，您可以在其中单击个人数据类型旁边的调查结果图标。</block>
   <block id="a08520118359e571f24b420e7729b107" category="paragraph"><block ref="a08520118359e571f24b420e7729b107" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bec06ffefcc7ab6b7882b310c3c7790a" category="list-text">通过搜索，排序，展开特定文件的详细信息，单击 * 调查结果 * 以查看屏蔽信息或下载文件列表来调查数据。</block>
-  <block id="7cdf7364a52ab6af797f1b1dcae76247" category="inline-image-macro">单击调查结果后的详细信息屏幕截图。</block>
   <block id="14e7cee2f25241a9d6084f5ac31f54b0" category="section-title">查看包含敏感个人数据的文件</block>
   <block id="8677494d8f5c3e6a2c69e93e5254639f" category="inline-link">《一般数据保护条例》第 9 条和第 10 条</block>
-  <block id="9c0bd6a9f0ddda0f88659e943db1d4cd" category="paragraph">Cloud Data sense 可自动识别隐私法规所定义的特殊类型的敏感个人信息<block ref="413dcff8641b851bffd5ca7e45c359a4" category="inline-link-rx"></block>。例如，有关个人健康，种族或性取向的信息。 <block ref="6507e706b290d038d0deb8cb0d263511" category="inline-link-macro-rx"></block>。</block>
   <block id="0bf6d005e569afb6ee5ee230348f89c1" category="paragraph">Cloud Data sense 利用人工智能（ AI ），自然语言处理（ NLP ），机器学习（ ML ）和认知计算（ CC ）来了解其扫描内容的含义，以便提取实体并相应地进行分类。</block>
   <block id="a99f79bee091a240f28dc9e017d5efd7" category="paragraph">例如，一个敏感的 GDPR 数据类别是种族起源。由于其 NLP 能力， Data sense 可以区分 "George is Mexican " 一词（表示《一般数据保护条例》第 9 条规定的敏感数据）与 "George is eating Mexican f尽 " 这两者之间的区别。</block>
   <block id="a8dc04f8b2b452296a4b47a8a5006a86" category="admonition">扫描敏感个人数据时，仅支持英语。稍后将添加对更多语言的支持。</block>
@@ -1293,7 +1290,6 @@
   <block id="dad25b649a281b9705d7fbdfc91bb96c" category="inline-link-macro">类别类型</block>
   <block id="0e44b2b774524434cca65d00db4db5b6" category="cell">选择 <block ref="d4eabbd4fb9268c1389fccae66300714" category="inline-link-macro-rx"></block></block>
   <block id="86171ac828a961155f1ccf4dfa1eb93f" category="cell">敏感度级别</block>
-  <block id="8745a2887b8fcb877ada09dffce47ece" category="cell">选择敏感度级别</block>
   <block id="d0902d27bce16ddeb2cb9c788db8ddcd" category="cell">个人数据</block>
   <block id="7a3dcbf3ed229470d34578d4f4f6fc43" category="inline-link-macro">个人数据的类型</block>
   <block id="4fcae143243cf4e0c0e7aacf6294e13a" category="cell">选择 <block ref="1b5fb6ede432593c04dc0306b78c1e56" category="inline-link-macro-rx"></block></block>
@@ -1427,7 +1423,6 @@
   <block id="2b6411ec708c0a6b6901665ecd561906" category="list-text">在按钮栏中，单击 * 移动 * 。</block>
   <block id="298d8e5bc86c1519b540e84e997c2325" category="inline-image-macro">显示移动文件对话框的屏幕截图，用于指定要移动所有选定文件的 NFS 共享的名称。</block>
   <block id="82d99b9b7230edf33a8c8b355ea71e98" category="paragraph"><block ref="82d99b9b7230edf33a8c8b355ea71e98" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e69431e5fa3d603583a708416843df99" category="list-text">在 _move Files_ 对话框中，以 ` &lt;host_name&gt; ： /&lt;share_path&gt;` 格式输入要移动所有选定文件的 NFS 共享的名称，然后单击 * 移动文件 * 。</block>
   <block id="b46806dad0d4346d50ec215cb81c8e7e" category="paragraph">请注意，在查看文件的元数据详细信息时，您也可以移动单个文件。只需单击 * 移动文件 * 。</block>
   <block id="652c33068cfd81ee8751b1f84d12e4a0" category="inline-image-macro">屏幕截图显示了从 " 数据调查 " 页面中的文件元数据详细信息中选择的移动文件按钮。</block>
   <block id="aea50b39bf674599cf913ca73fc8eeb2" category="paragraph"><block ref="aea50b39bf674599cf913ca73fc8eeb2" category="inline-image-macro-rx" type="image"></block></block>
@@ -2083,7 +2078,6 @@
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
   <block id="6fef68839fa6cc086be3d7d7abb69cad" category="paragraph">。<block ref="d5f59196a7b849b257c625be10a1d93c" category="inline-link-rx"></block> 现在支持 Cloud Data sense 。现在，除了使用 NetApp 的 BYOL 许可证之外，您还可以使用此按需购买（ PAYGO ）订阅从部署在 Google Cloud 存储上的 Cloud Volumes ONTAP 系统扫描数据。</block>
   <block id="9ffceb20e382df6e4587add0d24af321" category="cell">澳大利亚 TFN （税务文件编号）</block>
-  <block id="e1ae59ed032376d2ab05147c6442f610" category="cell">澳大利亚驱动程序许可证编号</block>
   <block id="67863eec6ed398cda366fe555c1746bd" category="cell">澳大利亚医疗保健计划编号</block>
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">澳大利亚护照编号</block>
   <block id="17dca5bf3d125aa4d0f3309727923bc6" category="list-text">如果您已将 AIP 标签与 Cloud Data sense 集成在一起，则可以为此文件分配一个标签，或者如果已存在另一个标签，则可以更改为其他标签。请参见 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 了解详细信息。</block>
@@ -2361,7 +2355,6 @@
   <block id="9f2913099fea83e0f323c9eaa2647551" category="inline-link-macro">从Data sense中删除整个SharePoint帐户</block>
   <block id="22653e7e1ce41c78cecfefd77069565b" category="paragraph">请注意，您可以 <block ref="b445b66eb7994fc8803d57fcbaaa50f1" category="inline-link-macro-rx"></block> 如果您不想再扫描SharePoint帐户中的任何用户数据。</block>
   <block id="3115aebdd180a7f37b3394bf8996ca30" category="list-text">您当前无法更改大于 30 MB 的文件中的标签。对于OneDrive、SharePoint和Google Drive帐户、最大文件大小为4 MB。</block>
-  <block id="ccff7c05ce1ff2ff0bafe406c61338f6" category="paragraph"><block ref="ccff7c05ce1ff2ff0bafe406c61338f6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5ba18772d6c4efd6fedbaf5fb29d559a" category="paragraph">您可以筛选调查页面的内容，以便仅显示要查看的结果。这是一项功能非常强大的功能、因为在对数据进行细化后、您可以使用页面顶部的按钮栏执行各种操作、包括复制文件、移动文件、向文件添加标记或AIP标签等。</block>
   <block id="fe340da6c921cdc51f04bc690aa53387" category="cell">选择一个或多个策略。开始 <block ref="55cb9da8823849acf874e6889a810e98" category="inline-link-macro-rx"></block> 可查看现有策略列表并创建您自己的自定义策略。</block>
   <block id="1a81671798e285bd46fa9b2aa3c86d00" category="cell">选择一个或多个用户名和/或组名称、或者输入部分名称</block>
@@ -2439,7 +2432,6 @@
   <block id="61e409921fe798c5667689af4656a112" category="inline-link">请参见如何编辑策略</block>
   <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>。</block>
   <block id="1f50cc006f0a9aa5fa08f3f58b10bf1d" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 <block ref="8c0c83431a0c54e3e158fb0a6b366a6d" category="inline-link-macro-rx"></block></block>
-  <block id="a26fd963c8509a271edf19a08fc0d3ae" category="list-text">操作系统：Red Hat Enterprise Linux或CentOS 8.0、8.1或8.4版</block>
   <block id="fbbd4044d95d7d79fb98ebd8d7daf546" category="summary">如果需要、您可以阻止Cloud Data sense扫描一个或多个工作环境、数据库、文件共享组、OneDrive帐户、Google Drive帐户、 或SharePoint帐户。</block>
   <block id="a80767bb4322f81d8b7bd0b15673f6ab" category="summary">您可以卸载Data sense软件以解决问题或从主机中永久删除该软件。删除此实例还会删除索引数据所在的关联磁盘—所有已扫描的数据感知信息都将被永久删除。</block>
   <block id="9cd2794f7afcdacb42a1ab6334e60324" category="doc">卸载Cloud Data sense</block>
@@ -2458,7 +2450,6 @@
   <block id="0dde885c45d0ef5ba59d628be1651196" category="inline-link-macro">有关数据调查报告的详细信息、请访问此处</block>
   <block id="d0db8780768b860617a4252d66600fdb" category="paragraph">如果要在优化页面内容后将其作为报告下载、请单击 <block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block> 按钮。您可以将报告本地保存为.CSV文件(最多可包含5、000行数据)或导出到NFS共享的.json文件(最多可包含不限数量的行)。 <block ref="94b4ac215f06d804e337d419fce0c8e4" category="inline-link-macro-rx"></block>。</block>
   <block id="26ec7ebe8b7297e79affc05b3e89352b" category="cell">标识符数量</block>
-  <block id="5eea9611e0978b939581b9bb18ff1a29" category="cell">选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。</block>
   <block id="9774801e5b642078494706b6a4b33bd0" category="paragraph">您可以在中查看复制操作的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
   <block id="a0f66640fa5131ddb32f4ddcbd1d9281" category="paragraph">您可以在中查看克隆操作的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
   <block id="1fdb52ff740ba099a079361368705733" category="paragraph">您可以在中查看删除操作的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
@@ -2537,26 +2528,20 @@
   <block id="a6e2475f148e034250ac7cb66419f3f3" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装了1.1.1.x版、则只能升级到1.12.x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="fae289ef9204f7c3119e084615a6d53f" category="list-text">如果您已在政府区域或无法访问Internet的内部位置(也称为非公开站点)部署Data sense、则AIP标签功能将不可用。</block>
   <block id="49346bec66601a23d58acfc71f396d3f" category="list-text">对于Azure NetApp Files 、必须将其部署在与要扫描的卷相同的区域中。</block>
-  <block id="87ebc84b19af9756bbc43a1c3850a080" category="list-text">可以使用7.8或7.9版、但Linux内核版本必须为4.14或更高版本</block>
   <block id="b39e81db6545fcc5e2567ec3c6930540" category="section-title">政府区域支持</block>
   <block id="1c8dc4f89ff17cff9b19b208d74ea4a3" category="paragraph">如果在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中部署了Connector、则支持Cloud Data sense。以这种方式部署时、Data sense具有以下限制：</block>
   <block id="b3478a494adde25715314b14559dd6a4" category="list-text">无法扫描OneDrive帐户、SharePoint帐户和Google Drive帐户。</block>
   <block id="d1f03114b8fef49b0f0cb0a28049ecdf" category="list-text">无法集成Microsoft Azure信息保护(AIP)标签功能。</block>
   <block id="d022b1f14ebf8b0b397ff02f8b6bfe78" category="section-title">在政府区域部署时是否存在任何限制？</block>
   <block id="3f1d923e5a351dcc541f10e98f5da114" category="summary">您可以管理每个工作环境和数据源中正在扫描的数据。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
-  <block id="cb73c564126960ae6ca282e79abf7c40" category="doc">更改存储库的扫描设置</block>
   <block id="e4723f182b426a80c2a46707ff02e15e" category="inline-link-macro">映射扫描或映射与映射；分类扫描</block>
   <block id="4645b000842c59ed1aaeb9e534c34e85" category="paragraph">您可以更改的部分内容包括存储库是否已扫描以及Data sense是否正在执行 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
-  <block id="1c4489a47397251870bd0d51f8701063" category="section-title">查看正在扫描的存储库</block>
-  <block id="bdedbcd07e14573fe6ff9e61fa471628" category="paragraph">您可以查看Data sense正在扫描的每个工作环境和数据源的各个存储库。</block>
   <block id="86cfaa233cd6203ca98aec701f702508" category="list-text">在配置选项卡中、单击工作环境对应的*配置*按钮。</block>
   <block id="c220e333c84311a5247ea56021c7f9af" category="inline-image-macro">显示如何在工作环境中单击配置按钮的屏幕截图。</block>
   <block id="42b33a03e844c37998934099293f35e3" category="paragraph"><block ref="42b33a03e844c37998934099293f35e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d572e0d4b826c4aedc53e9ebf7b16a8f" category="list-text">在扫描配置页面中、您可以查看所有存储库的扫描设置。</block>
-  <block id="2767187e50c5d0cd06a373007090d513" category="paragraph"><block ref="2767187e50c5d0cd06a373007090d513" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dbb0dfda8b378050531f81450c4bc33e" category="section-title">更改存储库的扫描类型</block>
   <block id="80442a9b9f6c43539008be8521ce5283" category="paragraph">您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。</block>
-  <block id="d2ec03a8c1a8422301c71b6c3e6e8b4c" category="admonition">不能将数据库设置为仅映射扫描。数据库扫描可以关闭或打开；相当于映射和分类。</block>
   <block id="e2fd7fccc8e37c687bd3d80bafb4e9fd" category="list-text">在扫描配置页面中、您可以更改任何存储库(本示例中的存储分段)以执行*映射*或*映射和分类*扫描、或者选择*关闭*以停止扫描特定存储分段。</block>
   <block id="d2c070afb22765e227addc428b9bb43d" category="inline-image-macro">显示如何为存储分段选择扫描类型的屏幕截图。</block>
   <block id="8d501a2dffff147be5f9997f70b34348" category="paragraph"><block ref="8d501a2dffff147be5f9997f70b34348" category="inline-image-macro-rx" type="image"></block></block>
@@ -2614,4 +2599,46 @@
   <block id="fb575acbb63d1898a1021e2856b18b6e" category="inline-image-macro">显示如何在SharePoint站点上暂停和恢复扫描的屏幕截图。</block>
   <block id="9e9d3c723f9f4d6ab1b9e783f2239e62" category="paragraph"><block ref="9e9d3c723f9f4d6ab1b9e783f2239e62" category="inline-image-macro-rx" type="image"></block></block>
   <block id="faa8551af182d75e7a3f5d7e7a6dc071" category="sidebar">更改扫描设置</block>
+  <block id="dd85b6e90159d1cdbde0d5badd022af0" category="paragraph">Cloud Data sense 可自动识别数据中的特定字词，字符串和模式（ Reex ）。例如，个人身份识别信息（ PiII ），信用卡号，社会保险号，银行帐号，密码， 等等。 <block ref="3a25cef7ea1e79696c3eac86ef0a5a72" category="inline-link-macro-rx"></block>。Data sense可在单个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。</block>
+  <block id="f4f50af532754b5670ea58ed6b969ba0" category="paragraph">下面的2个屏幕截图显示了在各个文件中找到的个人数据、以及在目录(共享和文件夹)中的文件中找到的个人数据。您还可以选择*结构化*选项卡以查看在数据库中找到的个人数据。</block>
+  <block id="bfe1194df41f0cc26cfdf2f75931ac0d" category="inline-image-macro">单击调查结果后文件中的详细信息屏幕截图。</block>
+  <block id="67524a6d2ea2d542c817bd783e914070" category="paragraph"><block ref="67524a6d2ea2d542c817bd783e914070" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5529cbafb2e0562120cf639c1f822fa6" category="inline-image-macro">单击调查结果后在目录中找到的详细信息的屏幕截图。</block>
+  <block id="886eca0ba693f7fa50ef2d9fe4c0887f" category="paragraph"><block ref="886eca0ba693f7fa50ef2d9fe4c0887f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bf5b7f26c8f48a1eb758b47185081250" category="paragraph">Cloud Data sense 可自动识别隐私法规所定义的特殊类型的敏感个人信息<block ref="413dcff8641b851bffd5ca7e45c359a4" category="inline-link-rx"></block>。例如，有关个人健康，种族或性取向的信息。 <block ref="6507e706b290d038d0deb8cb0d263511" category="inline-link-macro-rx"></block>。Data sense可在单个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。</block>
+  <block id="a3e2b4b381ddb4550a30923ee80c5bd7" category="cell">选择敏感度级别：个人、敏感个人或非敏感</block>
+  <block id="2c967160785c40cca46a7d4cade36507" category="cell">选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、Data sense会对每个文件夹(和子文件夹)中所有文件的匹配项进行汇总。</block>
+  <block id="c82ffa722bb30ecf26aa93c8c1f6491b" category="paragraph">或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`&lt;filename&gt;-breadcrumb-&lt;date&gt;.txt`创建一个痕迹文件。您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。</block>
+  <block id="e947d88fc82f247e554cf80e35ff0831" category="list-text">在_move Files_对话框中、输入要移动所有选定文件的NFS共享的名称、格式为`&lt;host_name&gt;：/&lt;share_path&gt;`。</block>
+  <block id="9bf85e569c6ef93411e4ce74471413a0" category="list-text">如果要保留痕迹文件、请选中_leave痕迹_框。您可以在对话框中输入文本、以指示文件的移动位置、移动文件的用户以及任何其他信息、例如文件移动的原因。</block>
+  <block id="b91992584de04476d486c6819d26aaf3" category="list-text">单击*移动文件*。</block>
+  <block id="e023ca0db491fe9b0e7722609710e69b" category="doc">更改存储库的扫描设置</block>
+  <block id="cc044854b72a7b1c98c22253b0aaedcd" category="section-title">查看存储库的扫描状态</block>
+  <block id="3b9cf0dce36d878eb8c76ab1d9a8dd16" category="paragraph">您可以查看Data sense正在扫描的各个存储库(卷、存储分段等)、以了解每个工作环境和数据源。此外、您还可以查看有多少已"映射"、有多少已"分类"。由于正在对所有数据执行完整的AI标识、因此分类需要较长时间。</block>
+  <block id="bf3aeefcdd65b55f2612004f45b7257f" category="inline-image-macro">显示是否正在扫描存储分段以及当前扫描状态的屏幕截图。</block>
+  <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">您可以将光标悬停在_Scan Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍待映射或分类的文件数。</block>
+  <block id="1a8f03950c641e2ffffb33146f70ef55" category="admonition">不能将数据库设置为仅映射扫描。数据库扫描可以关闭或打开；其中、"启用"相当于"映射和分类"。</block>
+  <block id="9db1ab99c3f7640c000fdc19054af26c" category="list-text">操作系统：Red Hat Enterprise Linux或CentOS 8.0至8.4版</block>
+  <block id="ce12cca419124f32a01c6fec5a3be62f" category="list-text">可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本</block>
+  <block id="9308bcab83008e639f95b088d89b11c4" category="cell">澳大利亚驾驶执照</block>
+  <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">新西兰银行帐户</block>
+  <block id="fd9022553098e5fa6a8b25ae3a2dc65d" category="cell">新西兰驾驶执照</block>
+  <block id="2be885677b02540592a1f44b87ee5fb9" category="cell">新西兰IRD编号(税务ID)</block>
+  <block id="52c2b4f82109d0afee40fe69db9a8cbe" category="cell">新西兰NHI (国家健康指数)编号 </block>
+  <block id="3c266b4db1bf588305e19eddcef36116" category="cell">新西兰的护照编号</block>
+  <block id="6006377785b7aa3dfed8795e05fbc569" category="section-title">2022年8月7日(1.15版)</block>
+  <block id="afae08b9f3014d73a3bf7e0c201b2b36" category="section-title">Data sense可识别来自新西兰的五种新类型的个人数据</block>
+  <block id="3b4b0faa54186ef002c6026e97e51a10" category="paragraph">Data sense可以识别包含以下类型数据的文件并对其进行分类：</block>
+  <block id="c189819be34e41f0ac712261c4bb10b0" category="list-text">新西兰银行帐号</block>
+  <block id="57d4e061073cf52ee992a5523c0e31cb" category="list-text">新西兰司机的许可证编号</block>
+  <block id="c8c8337bd5f0527c7ba4b08117f3d96f" category="paragraph"><block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
+  <block id="8d3dd83a131924f6dd08fdea2d8e7828" category="section-title">能够添加痕迹文件以指示文件移动的原因</block>
+  <block id="e92169a6172fd2cba6d57bfe01aea45a" category="paragraph">使用数据感知功能将源文件移动到NFS共享时、现在可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`&lt;filename&gt;-breadcrumb-&lt;date&gt;.txt`创建一个痕迹文件、以显示文件移动位置以及文件移动用户。<block ref="c1eac1298d336c56373b10262d37ad96" category="inline-link-rx"></block>。</block>
+  <block id="13cd21aa095db4c5e2c5cd12303ecc97" category="section-title">在您的目录中找到的个人数据和敏感的个人数据显示在调查结果中</block>
+  <block id="6b473faf5fc253b69b173e6b8b87f726" category="inline-link">请参见此处的示例</block>
+  <block id="e8886543955f7a165a88e44f53559443" category="paragraph">现在、"数据调查"页面将显示在您的目录(文件夹和共享)中找到的个人数据和敏感个人数据的结果。<block ref="37ae8b694ca9dace0885ec3ddd4e8904" category="inline-link-rx"></block>。</block>
+  <block id="76013a8e1044d1903752927bac2c2799" category="section-title">查看已成功分类的卷、分段等数量的状态</block>
+  <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">请参见如何查看此信息</block>
+  <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>。</block>
 </blocks>
