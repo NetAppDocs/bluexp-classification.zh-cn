@@ -951,7 +951,6 @@
   <block id="399d9d9194e5aac73d00fdd68d88fed1" category="paragraph"><block ref="d2df47398690701c36c48ad6a1a06ca4" category="inline-link-macro-rx"></block>。</block>
   <block id="883ee475fde85ed340a34ff3e7779a40" category="section-title">是否可以将云数据感知信息限制为特定用户？</block>
   <block id="a4d3498bfb4708ef940bb7704acbd0aa" category="paragraph">是的， Cloud Data sense 已与 Cloud Manager 完全集成。Cloud Manager 用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。</block>
-  <block id="a7bfd66e1935af8f12cb8a19f3000290" category="paragraph">此外，如果您希望允许某些用户只查看数据感知扫描结果而不能管理数据感知设置，则可以为这些用户分配 _Cloud Compliance Viewer_ 角色。</block>
   <block id="70e4204451ab8b7224b342245071bd70" category="paragraph"><block ref="8b78b4503f012c98d9a7bad6859a8875" category="inline-link-macro-rx"></block>。</block>
   <block id="7ffd1bb560f33a5347a7a153f2a393a8" category="summary">Cloud Data sense 为您提供了多种管理和组织私有数据的方式。这样可以更轻松地查看对您最重要的数据。</block>
   <block id="82e6e10597cf7de906fad4f53b7deab7" category="doc">组织私有数据</block>
@@ -2273,7 +2272,6 @@
   <block id="ddc3aba4eccf7778417b3605919f552e" category="list-text">将数据从传统系统迁移到云。</block>
   <block id="929a567aeb50b6bfed31d080645db9d2" category="paragraph">Cloud Data sense 可在 Cloud Manager 系统和存储系统的同时部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。</block>
   <block id="d7f674bb407247f888d30ade7b86a73a" category="section-title">Cloud Data sense支持哪些部署模式？</block>
-  <block id="bf804f144530d65026fe3d0982584bc2" category="paragraph">Cloud Data sense通常使用SaaS模式进行部署、在这种模式中、服务通过Cloud Manager界面启用。Cloud Data sense可以部署在几乎任何位置的系统上进行扫描和报告、包括内部环境、云和混合环境。对于安全安装、Cloud Manager和Cloud Data sense可以部署在"非公开站点"模式中、该模式作为软件包安装在内部、不需要外部网络连接。</block>
   <block id="c0f907bdf9a6cc93e97081efb1ad0ba0" category="section-title">是否有人可以访问在我的浏览器和Data sense之间发送的私有数据？</block>
   <block id="90ecb8f144bb75027d2645db76b9c80e" category="paragraph">否在浏览器和Data sense实例之间发送的私有数据通过端到端加密得到保护、这意味着NetApp和第三方无法读取。除非您请求并批准访问、否则Data sense不会与NetApp共享任何数据或结果。</block>
   <block id="9184420bd7268b81521fe2c0fb829c50" category="paragraph">是的。Cloud Data sense 提供的信息可能与您组织中的其他利益相关方相关，因此我们可以帮助您生成报告以分享这些见解。以下报告可用于 Data sense ：</block>
@@ -2282,7 +2280,6 @@
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">源系统的类型和数据类型</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">以下问题与可扫描的存储类型以及所扫描的数据类型有关。</block>
   <block id="53603d1a728f100ed9ec53da6f3de981" category="section-title">可以使用Data sense扫描哪些数据源？</block>
-  <block id="08ece2b3a533d5b9f3fb6a576d49dcd8" category="paragraph">Cloud Data sense可以扫描您添加到Cloud Manager Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种类型的数据源中的数据。</block>
   <block id="bdcce4158cfc2b8c6a2ccd87f6c5170b" category="list-text">数据库(Amazon RDS、MongoDB、MySQL、Oracle、PostgreSQL、 SAP HANA、SQL Server)</block>
   <block id="3ea2a425923f5c3bd5e4de2e3212bca6" category="section-title">如果在无法访问Internet的站点上安装Data sense、可以扫描哪些数据源？</block>
   <block id="d6340d13b9b8fa586b95920b3d4151c7" category="paragraph">数据感知只能扫描内部站点本地数据源中的数据。此时、Data sense可以扫描"非公开"站点中的以下本地数据源：</block>
@@ -2641,4 +2638,25 @@
   <block id="76013a8e1044d1903752927bac2c2799" category="section-title">查看已成功分类的卷、分段等数量的状态</block>
   <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">请参见如何查看此信息</block>
   <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>。</block>
+  <block id="6bd775ee8beb1e5f4357351f2c9f1cb9" category="section-title">云数据感知架构如何？</block>
+  <block id="22f5473ccc0fe2ca21d83a977c643189" category="paragraph">Cloud Data sense可在用户选择的任何位置部署单个服务器或集群、无论是在云中还是在内部。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样可以支持多云、跨云、私有云和内部环境。</block>
+  <block id="4d07f115b06861679eb4ddd208912bc0" category="section-title">Cloud Data sense是否具有REST API？它是否可与第三方工具配合使用？</block>
+  <block id="08f6917d656313f303c462e694349fad" category="paragraph">Cloud Manager的服务支持REST API功能。如果Cloud Manager不是首选管理点、则Cloud Data sense等服务也可以通过REST API来使用。每个用户操作都有一个可与第三方系统集成的REST API。</block>
+  <block id="af8ec8dd6f763f0113145ba362c3524c" category="section-title">云数据感知是否可通过市场获得？</block>
+  <block id="298a5adbd264d29cc2ae375eb03bb4b8" category="paragraph">Cloud Manager的实施可作为第一方服务在所有主要超大规模企业(AWS中适用于NetApp ONTAP 的AWS FSx；Azure中的Azure NetApp Files ；Google Cloud中的Cloud Volumes Service)中提供。所有这些实施都利用Cloud Data sense等Cloud Manager服务、并可通过我们的单一管理平台UI Cloud Manager通过点击式功能进行管理。Cloud Data sense等服务可由任何授权Cloud Manager用户无缝启用、该用户使用的是主要超大规模提供商提供的第一方产品之一。此外、所有市场均提供这些服务、这些服务是与超大规模销售商联合销售的授权产品、这意味着超大规模销售团队在其客户中启用这些服务后可以获得补偿。所有这些因素都会将Cloud Manager服务分散在整个生态系统中、并扩大我们的覆盖范围。</block>
+  <block id="bc41d4c1da3b7cbf27dde44eccf58ae0" category="paragraph">通过这些第一方产品、我们可以优先访问超大规模市场中需要NetApp云数据感知、云备份、云分层、Cloud Sync 、全球文件缓存等一流数据服务的数百万用户。 等等。用户比以往任何时候都更容易在所有市场交易和部署补充和完成云产品组合的服务。</block>
+  <block id="a91599b8b9c2521748fc37816cb91748" category="section-title">云数据感知扫描和分析</block>
+  <block id="dbbe3cdd356f7995b0954547b7f8a6a6" category="paragraph">以下问题与Cloud Data sense扫描性能以及用户可用的分析有关。</block>
+  <block id="5e91cc59958451bd9fd5c42d09fcff38" category="section-title">我是否可以使用Cloud Data sense搜索数据？</block>
+  <block id="11dffc624b27cac7baae53814f8508fb" category="paragraph">云数据感知服务提供广泛的搜索功能、便于在所有连接源之间搜索特定文件或数据段。Cloud Data sense使用户能够深入搜索元数据所反映的内容。它是一种不受语言限制的服务、还可以读取文件并分析多种敏感数据类型、例如名称和ID。例如、用户可以在结构化数据存储和非结构化数据存储之间进行搜索、以查找可能违反公司策略从数据库泄漏到用户文件的数据。可以保存搜索以供日后使用、也可以创建策略以按设置的频率搜索结果并对结果执行操作。</block>
+  <block id="92979877e63ad07334e79a27044c0f2e" category="paragraph">找到感兴趣的文件后、可以列出相关特征、包括标记、工作环境帐户、存储分段、文件路径、 类别(来自分类)、文件大小、上次修改、权限状态、重复、 敏感度级别、个人数据、文件中的敏感数据类型、所有者、文件类型、文件大小、创建时间、 文件哈希、数据是否已分配给需要关注的人员等。筛选器可用于筛选与此无关的特征。Cloud Data sense还具有RBAC控件、可在存在适当权限的情况下移动或删除文件。如果不存在适当的权限、则可以将任务分配给组织中拥有适当权限的人员。</block>
+  <block id="a620bbcc75be31bcbeacaf64aa44f0d9" category="section-title">Cloud Data sense提供哪种分析？</block>
+  <block id="cdaf867a4c5ffa14e476eb7e7bb0831c" category="paragraph">可以直观地表示数据源、并以图形方式定义和描述关系。例如、管理员可以查看整个企业内数据源(内部系统、数据库、云文件共享、S3存储、OneDrive、 等)。然后、他们可以移动、删除和管理数据、以优化存储成本并降低风险。用户可以通过查看哪些敏感数据可能会公开来降低风险、并且可以创建作业来管理权限以实现强大的数据保护。云数据感知服务还会对所有不同类型的数据进行分类、因此管理员可以按类型调查数据、并查看对数据采取了哪些操作以及何时执行。</block>
+  <block id="2ff213cf58060ebbba92ce3d8cb5f2fe" category="section-title">云数据感知管理和隐私</block>
+  <block id="98cbc012ffb904cb276a1e79d6cda97a" category="paragraph">以下问题提供了有关如何管理云数据感知和隐私设置的信息。</block>
+  <block id="b1f65700494451606ff0a8c99ec0733d" category="paragraph">此外、如果您希望允许某些用户只查看数据感知扫描结果而不能管理数据感知设置、则可以为这些用户分配Cloud Compliance Viewer角色。</block>
+  <block id="429cc98b9dab48feedbd99a04157659f" category="paragraph">Cloud Data sense可以扫描您添加到Cloud Manager Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种结构化和非结构化数据源中的数据。</block>
+  <block id="cf99941ff561faca0c0212ca46e7a3fc" category="paragraph">Cloud Manager允许用户几乎在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过Cloud Manager界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、数据管理、包括同步、分层、备份和还原、 无论数据存储是在内部还是在公有 云中、都可以实现安全性、监管和合规性。</block>
+  <block id="3a4d237826f192247ddd80ff000856e8" category="paragraph">对于安全安装、Cloud Manager和Cloud Data sense可以部署在"非公开站点"模式中、该模式作为软件包安装在内部、不需要外部网络连接。</block>
+  <block id="6ba16caafcf4be6931257967930a3921" category="paragraph">无论采用何种部署方法(内部部署或SaaS交付的云模式)、用户都可以完全控制安装的配置。不会向NetApp发送任何信息；完整处理会封装在服务器中。</block>
 </blocks>

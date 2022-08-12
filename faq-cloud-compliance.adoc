@@ -44,6 +44,14 @@ Cloud Data sense 可以为您提供数据，帮助您：
 
 
 
+=== 云数据感知的工作原理是什么？
+
+Cloud Data sense 可在 Cloud Manager 系统和存储系统的同时部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
+
+link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原理"^]。
+
+
+
 === Cloud Data sense 的常见用例有哪些？
 
 * 识别个人身份信息（ PiII ）。
@@ -55,11 +63,35 @@ https://cloud.netapp.com/cloud-compliance["详细了解 Cloud Data sense 的用�
 
 
 
-=== 云数据感知的工作原理是什么？
+=== 云数据感知架构如何？
 
-Cloud Data sense 可在 Cloud Manager 系统和存储系统的同时部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
+Cloud Data sense可在用户选择的任何位置部署单个服务器或集群、无论是在云中还是在内部。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样可以支持多云、跨云、私有云和内部环境。
 
-link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原理"^]。
+
+
+=== 支持哪些云提供商？
+
+Cloud Data sense 作为 Cloud Manager 的一部分运行，并支持 AWS ， Azure 和 GCP 。这样，您的组织就可以在不同的云提供商之间实现统一的隐私可见性。
+
+
+
+=== Cloud Data sense是否具有REST API？它是否可与第三方工具配合使用？
+
+Cloud Manager的服务支持REST API功能。如果Cloud Manager不是首选管理点、则Cloud Data sense等服务也可以通过REST API来使用。每个用户操作都有一个可与第三方系统集成的REST API。
+
+
+
+=== 云数据感知是否可通过市场获得？
+
+Cloud Manager的实施可作为第一方服务在所有主要超大规模企业(AWS中适用于NetApp ONTAP 的AWS FSx；Azure中的Azure NetApp Files ；Google Cloud中的Cloud Volumes Service)中提供。所有这些实施都利用Cloud Data sense等Cloud Manager服务、并可通过我们的单一管理平台UI Cloud Manager通过点击式功能进行管理。Cloud Data sense等服务可由任何授权Cloud Manager用户无缝启用、该用户使用的是主要超大规模提供商提供的第一方产品之一。此外、所有市场均提供这些服务、这些服务是与超大规模销售商联合销售的授权产品、这意味着超大规模销售团队在其客户中启用这些服务后可以获得补偿。所有这些因素都会将Cloud Manager服务分散在整个生态系统中、并扩大我们的覆盖范围。
+
+通过这些第一方产品、我们可以优先访问超大规模市场中需要NetApp云数据感知、云备份、云分层、Cloud Sync 、全球文件缓存等一流数据服务的数百万用户。 等等。用户比以往任何时候都更容易在所有市场交易和部署补充和完成云产品组合的服务。
+
+
+
+== 云数据感知扫描和分析
+
+以下问题与Cloud Data sense扫描性能以及用户可用的分析有关。
 
 
 
@@ -73,15 +105,17 @@ link:concept-cloud-compliance.html#how-scans-work["了解扫描的工作原理"]
 
 
 
-=== Cloud Data sense支持哪些部署模式？
+=== 我是否可以使用Cloud Data sense搜索数据？
 
-Cloud Data sense通常使用SaaS模式进行部署、在这种模式中、服务通过Cloud Manager界面启用。Cloud Data sense可以部署在几乎任何位置的系统上进行扫描和报告、包括内部环境、云和混合环境。对于安全安装、Cloud Manager和Cloud Data sense可以部署在"非公开站点"模式中、该模式作为软件包安装在内部、不需要外部网络连接。
+云数据感知服务提供广泛的搜索功能、便于在所有连接源之间搜索特定文件或数据段。Cloud Data sense使用户能够深入搜索元数据所反映的内容。它是一种不受语言限制的服务、还可以读取文件并分析多种敏感数据类型、例如名称和ID。例如、用户可以在结构化数据存储和非结构化数据存储之间进行搜索、以查找可能违反公司策略从数据库泄漏到用户文件的数据。可以保存搜索以供日后使用、也可以创建策略以按设置的频率搜索结果并对结果执行操作。
+
+找到感兴趣的文件后、可以列出相关特征、包括标记、工作环境帐户、存储分段、文件路径、 类别(来自分类)、文件大小、上次修改、权限状态、重复、 敏感度级别、个人数据、文件中的敏感数据类型、所有者、文件类型、文件大小、创建时间、 文件哈希、数据是否已分配给需要关注的人员等。筛选器可用于筛选与此无关的特征。Cloud Data sense还具有RBAC控件、可在存在适当权限的情况下移动或删除文件。如果不存在适当的权限、则可以将任务分配给组织中拥有适当权限的人员。
 
 
 
-=== 是否有人可以访问在我的浏览器和Data sense之间发送的私有数据？
+=== Cloud Data sense提供哪种分析？
 
-否在浏览器和Data sense实例之间发送的私有数据通过端到端加密得到保护、这意味着NetApp和第三方无法读取。除非您请求并批准访问、否则Data sense不会与NetApp共享任何数据或结果。
+可以直观地表示数据源、并以图形方式定义和描述关系。例如、管理员可以查看整个企业内数据源(内部系统、数据库、云文件共享、S3存储、OneDrive、 等)。然后、他们可以移动、删除和管理数据、以优化存储成本并降低风险。用户可以通过查看哪些敏感数据可能会公开来降低风险、并且可以创建作业来管理权限以实现强大的数据保护。云数据感知服务还会对所有不同类型的数据进行分类、因此管理员可以按类型调查数据、并查看对数据采取了哪些操作以及何时执行。
 
 
 
@@ -107,6 +141,12 @@ HIPAA 报告:: 帮助您确定运行状况信息在文件中的分布情况。 l
 
 
 
+== 云数据感知管理和隐私
+
+以下问题提供了有关如何管理云数据感知和隐私设置的信息。
+
+
+
 === 如何启用 Cloud Data sense ？
 
 首先，您需要在 Cloud Manager 中部署 Cloud Data sense 实例。实例运行后、您可以从*数据感知*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用此服务。
@@ -129,6 +169,32 @@ NOTE: 要完全删除 Cloud Data sense 实例，您可以从云提供商的门�
 
 
 
+=== 我是否可以根据组织的需求自定义服务？
+
+Cloud Data sense 提供对数据的即装即用洞察力。您可以根据组织的需求提取和利用这些洞察信息。
+
+此外，您还可以使用 * 数据检测 * 功能让 Fusion 根据您正在扫描的数据库中特定列中的标准扫描所有数据，这实际上使您可以创建自己的自定义个人数据类型。
+
+link:task-managing-data-fusion.html#creating-custom-personal-data-identifiers-from-your-databases["了解更多信息。"^]。
+
+
+
+=== 是否可以将云数据感知信息限制为特定用户？
+
+是的， Cloud Data sense 已与 Cloud Manager 完全集成。Cloud Manager 用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
+
+此外、如果您希望允许某些用户只查看数据感知扫描结果而不能管理数据感知设置、则可以为这些用户分配Cloud Compliance Viewer角色。
+
+link:concept-cloud-compliance.html#user-access-to-compliance-information["了解更多信息。"^]。
+
+
+
+=== 是否有人可以访问在我的浏览器和Data sense之间发送的私有数据？
+
+否在浏览器和Data sense实例之间发送的私有数据通过端到端加密得到保护、这意味着NetApp和第三方无法读取。除非您请求并批准访问、否则Data sense不会与NetApp共享任何数据或结果。
+
+
+
 === 如果在 ONTAP 卷上启用了数据分层，会发生什么情况？
 
 您可能希望在将冷数据分层到对象存储的 ONTAP 系统上启用云数据感知。如果启用了数据分层，则 Data sense 会扫描所有数据—磁盘上的数据以及分层到对象存储的冷数据。
@@ -145,37 +211,11 @@ NOTE: 要完全删除 Cloud Data sense 实例，您可以从云提供商的门�
 
 
 
-=== 我是否可以根据组织的需求自定义服务？
-
-Cloud Data sense 提供对数据的即装即用洞察力。您可以根据组织的需求提取和利用这些洞察信息。
-
-此外，您还可以使用 * 数据检测 * 功能让 Fusion 根据您正在扫描的数据库中特定列中的标准扫描所有数据，这实际上使您可以创建自己的自定义个人数据类型。
-
-link:task-managing-data-fusion.html#creating-custom-personal-data-identifiers-from-your-databases["了解更多信息。"^]。
-
-
-
 === Cloud Data sense 是否可以与我的文件中嵌入的 AIP 标签配合使用？
 
 是的。如果您已订阅，则可以管理 Cloud Data sense 正在扫描的文件中的 AIP 标签 link:https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。您可以查看已分配给文件的标签，向文件添加标签以及更改现有标签。
 
 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["了解更多信息。"^]。
-
-
-
-=== 是否可以将云数据感知信息限制为特定用户？
-
-是的， Cloud Data sense 已与 Cloud Manager 完全集成。Cloud Manager 用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
-
-此外，如果您希望允许某些用户只查看数据感知扫描结果而不能管理数据感知设置，则可以为这些用户分配 _Cloud Compliance Viewer_ 角色。
-
-link:concept-cloud-compliance.html#user-access-to-compliance-information["了解更多信息。"^]。
-
-
-
-=== 支持哪些云提供商？
-
-Cloud Data sense 作为 Cloud Manager 的一部分运行，并支持 AWS ， Azure 和 GCP 。这样，您的组织就可以在不同的云提供商之间实现统一的隐私可见性。
 
 
 
@@ -187,7 +227,7 @@ Cloud Data sense 作为 Cloud Manager 的一部分运行，并支持 AWS ， Azu
 
 === 可以使用Data sense扫描哪些数据源？
 
-Cloud Data sense可以扫描您添加到Cloud Manager Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种类型的数据源中的数据。
+Cloud Data sense可以扫描您添加到Cloud Manager Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种结构化和非结构化数据源中的数据。
 
 * 工作环境： *
 
@@ -329,6 +369,16 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 == 数据感知部署
 
 以下问题与单独的数据感知实例相关。
+
+
+
+=== Cloud Data sense支持哪些部署模式？
+
+Cloud Manager允许用户几乎在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过Cloud Manager界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、数据管理、包括同步、分层、备份和还原、 无论数据存储是在内部还是在公有 云中、都可以实现安全性、监管和合规性。
+
+对于安全安装、Cloud Manager和Cloud Data sense可以部署在"非公开站点"模式中、该模式作为软件包安装在内部、不需要外部网络连接。
+
+无论采用何种部署方法(内部部署或SaaS交付的云模式)、用户都可以完全控制安装的配置。不会向NetApp发送任何信息；完整处理会封装在服务器中。
 
 
 
