@@ -32,18 +32,6 @@ Cloud Data sense 提供了预定义的参数（例如敏感信息类型和类别
 
 
 
-=== 为什么要使用 Cloud Data sense ？
-
-Cloud Data sense 可以为您提供数据，帮助您：
-
-* 遵守数据合规性和隐私法规。
-* 将数据从传统系统迁移到云。
-* 遵守数据保留策略。
-* 根据 GDPR ， CCPA ， HIPAA 和其他数据隐私法规的要求，根据数据主题轻松查找和报告特定数据。
-
-
-
-
 === 云数据感知的工作原理是什么？
 
 Cloud Data sense 可在 Cloud Manager 系统和存储系统的同时部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
@@ -55,8 +43,11 @@ link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原�
 === Cloud Data sense 的常见用例有哪些？
 
 * 识别个人身份信息（ PiII ）。
-* 根据 GDPR 和 CCPA 隐私法规的要求确定广泛的敏感信息。
+* 根据 GDPR ， CCPA ， HIPAA 和其他数据隐私法规的要求，根据数据主题轻松查找和报告特定数据。
 * 遵守新的和即将出台的数据隐私法规。
+* 遵守数据合规性和隐私法规。
+* 将数据从传统系统迁移到云。
+* 遵守数据保留策略。
 
 
 https://cloud.netapp.com/cloud-compliance["详细了解 Cloud Data sense 的用例"^]。
@@ -65,7 +56,7 @@ https://cloud.netapp.com/cloud-compliance["详细了解 Cloud Data sense 的用�
 
 === 云数据感知架构如何？
 
-Cloud Data sense可在用户选择的任何位置部署单个服务器或集群、无论是在云中还是在内部。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样可以支持多云、跨云、私有云和内部环境。
+Cloud Data sense可根据您的选择在云中或内部部署单个服务器或集群。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样可以支持多云、跨云、私有云和内部环境。
 
 
 
@@ -83,9 +74,7 @@ Cloud Manager的服务支持REST API功能。如果Cloud Manager不是首选管�
 
 === 云数据感知是否可通过市场获得？
 
-Cloud Manager的实施可作为第一方服务在所有主要超大规模企业(AWS中适用于NetApp ONTAP 的AWS FSx；Azure中的Azure NetApp Files ；Google Cloud中的Cloud Volumes Service)中提供。所有这些实施都利用Cloud Data sense等Cloud Manager服务、并可通过我们的单一管理平台UI Cloud Manager通过点击式功能进行管理。Cloud Data sense等服务可由任何授权Cloud Manager用户无缝启用、该用户使用的是主要超大规模提供商提供的第一方产品之一。此外、所有市场均提供这些服务、这些服务是与超大规模销售商联合销售的授权产品、这意味着超大规模销售团队在其客户中启用这些服务后可以获得补偿。所有这些因素都会将Cloud Manager服务分散在整个生态系统中、并扩大我们的覆盖范围。
-
-通过这些第一方产品、我们可以优先访问超大规模市场中需要NetApp云数据感知、云备份、云分层、Cloud Sync 、全球文件缓存等一流数据服务的数百万用户。 等等。用户比以往任何时候都更容易在所有市场交易和部署补充和完成云产品组合的服务。
+是的、Cloud Manager和Cloud Data sense可从AWS、Azure和GCP市场获得。
 
 
 
@@ -107,15 +96,15 @@ link:concept-cloud-compliance.html#how-scans-work["了解扫描的工作原理"]
 
 === 我是否可以使用Cloud Data sense搜索数据？
 
-云数据感知服务提供广泛的搜索功能、便于在所有连接源之间搜索特定文件或数据段。Cloud Data sense使用户能够深入搜索元数据所反映的内容。它是一种不受语言限制的服务、还可以读取文件并分析多种敏感数据类型、例如名称和ID。例如、用户可以在结构化数据存储和非结构化数据存储之间进行搜索、以查找可能违反公司策略从数据库泄漏到用户文件的数据。可以保存搜索以供日后使用、也可以创建策略以按设置的频率搜索结果并对结果执行操作。
+Cloud Data sense提供了广泛的搜索功能、可以轻松搜索所有连接源中的特定文件或数据段。Data sense使用户能够深入搜索元数据所反映的内容。它是一种不受语言限制的服务、还可以读取文件并分析多种敏感数据类型、例如名称和ID。例如、用户可以在结构化数据存储和非结构化数据存储之间进行搜索、以查找可能违反公司策略从数据库泄漏到用户文件的数据。可以保存搜索以供日后使用、也可以创建策略以按设置的频率搜索结果并对结果执行操作。
 
-找到感兴趣的文件后、可以列出相关特征、包括标记、工作环境帐户、存储分段、文件路径、 类别(来自分类)、文件大小、上次修改、权限状态、重复、 敏感度级别、个人数据、文件中的敏感数据类型、所有者、文件类型、文件大小、创建时间、 文件哈希、数据是否已分配给需要关注的人员等。筛选器可用于筛选与此无关的特征。Cloud Data sense还具有RBAC控件、可在存在适当权限的情况下移动或删除文件。如果不存在适当的权限、则可以将任务分配给组织中拥有适当权限的人员。
+找到感兴趣的文件后、可以列出相关特征、包括标记、工作环境帐户、存储分段、文件路径、 类别(来自分类)、文件大小、上次修改、权限状态、重复、 敏感度级别、个人数据、文件中的敏感数据类型、所有者、文件类型、文件大小、创建时间、 文件哈希、数据是否已分配给需要关注的人员等。筛选器可用于筛选与此无关的特征。Data sense还具有RBAC控件、可在存在适当权限的情况下移动或删除文件。如果不存在适当的权限、则可以将任务分配给组织中拥有适当权限的人员。
 
 
 
 === Cloud Data sense提供哪种分析？
 
-可以直观地表示数据源、并以图形方式定义和描述关系。例如、管理员可以查看整个企业内数据源(内部系统、数据库、云文件共享、S3存储、OneDrive、 等)。然后、他们可以移动、删除和管理数据、以优化存储成本并降低风险。用户可以通过查看哪些敏感数据可能会公开来降低风险、并且可以创建作业来管理权限以实现强大的数据保护。云数据感知服务还会对所有不同类型的数据进行分类、因此管理员可以按类型调查数据、并查看对数据采取了哪些操作以及何时执行。
+可以直观地表示数据源、并以图形方式定义和描述关系。例如、管理员可以查看整个企业内数据源(内部系统、数据库、文件共享、S3存储、OneDrive、 等)。然后、他们可以复制、移动、删除和管理数据、以优化存储成本并降低风险。用户可以通过查看哪些敏感数据可能会公开来降低风险、并且可以创建作业来管理权限以实现强大的数据保护。Data sense还会对所有不同类型的数据进行分类、因此管理员可以按类型调查数据、并查看对数据采取了哪些操作以及何时执行。
 
 
 
@@ -135,9 +124,9 @@ HIPAA 报告:: 帮助您确定运行状况信息在文件中的分布情况。 l
 
 === 扫描性能是否有所不同？
 
-扫描性能可能因网络带宽和环境中的平均文件大小而异。它还可能取决于主机系统（在云端或内部）的大小特征。请参见 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["云数据感知实例"] 和 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"] 有关详细信息 ...
+扫描性能可能因网络带宽和环境中的平均文件大小而异。它还可能取决于主机系统（在云端或内部）的大小特征。请参见 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["云数据感知实例"^] 和 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 有关详细信息 ...
 
-在首次添加新数据源时，您还可以选择仅执行 " 映射 " 扫描，而不是执行完整的 " 分类 " 扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。 link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["查看映射扫描与分类扫描之间的区别。"]
+在首次添加新数据源时，您还可以选择仅执行 " 映射 " 扫描，而不是执行完整的 " 分类 " 扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。 link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["查看映射扫描与分类扫描之间的区别"^]。
 
 
 
@@ -149,7 +138,7 @@ HIPAA 报告:: 帮助您确定运行状况信息在文件中的分布情况。 l
 
 === 如何启用 Cloud Data sense ？
 
-首先，您需要在 Cloud Manager 中部署 Cloud Data sense 实例。实例运行后、您可以从*数据感知*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用此服务。
+首先、您需要在Cloud Manager中或内部系统上部署Cloud Data sense实例。实例运行后、您可以从*数据感知*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用此服务。
 
 link:task-getting-started-compliance.html["了解如何开始使用"^]。
 
@@ -297,7 +286,7 @@ Data sense仅扫描元数据。这对于整体数据管理和监管、快速的�
 
 * 数据分类(深度)扫描。
 +
-在整个客户环境中使用标准协议和只读权限进行数据感知扫描。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。
+在整个环境中使用标准协议和只读权限进行数据感知扫描。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。
 
 +
 完整扫描后、您可以对数据应用许多其他数据感知功能、例如在"数据调查"页面中查看和细化数据、搜索文件中的名称、复制、移动和删除源文件等。
@@ -362,7 +351,7 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 === 没有Internet访问的安全站点如何？
 
-是的、也支持这种做法。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["在无法访问Internet的内部Linux主机上部署Connector"]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用Data sense扫描数据。
+是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["在无法访问Internet的内部Linux主机上部署Connector"]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用Data sense扫描数据。
 
 
 
@@ -374,11 +363,7 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 === Cloud Data sense支持哪些部署模式？
 
-Cloud Manager允许用户几乎在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过Cloud Manager界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、数据管理、包括同步、分层、备份和还原、 无论数据存储是在内部还是在公有 云中、都可以实现安全性、监管和合规性。
-
-对于安全安装、Cloud Manager和Cloud Data sense可以部署在"非公开站点"模式中、该模式作为软件包安装在内部、不需要外部网络连接。
-
-无论采用何种部署方法(内部部署或SaaS交付的云模式)、用户都可以完全控制安装的配置。不会向NetApp发送任何信息；完整处理会封装在服务器中。
+Cloud Manager允许用户几乎在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过Cloud Manager界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、无论数据存储是在内部还是在公有 云中、都可以进行数据管理。
 
 
 
@@ -405,4 +390,4 @@ link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原�
 
 === 没有Internet访问的安全站点如何？
 
-是的、也支持这种做法。您可以 link:task-deploy-compliance-dark-site.html["在无法访问 Internet 的内部站点中部署 Data sense"] 适用于完全安全的站点。
+是的、这一点也受支持。您可以 link:task-deploy-compliance-dark-site.html["在无法访问 Internet 的内部站点中部署 Data sense"] 适用于完全安全的站点。
