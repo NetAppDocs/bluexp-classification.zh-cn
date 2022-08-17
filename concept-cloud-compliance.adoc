@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
 keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization 
-summary: Cloud Data sense 是 Cloud Manager 的一项数据管理服务，可对企业内部和云数据源和工作环境进行扫描，以映射和分类数据并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
+summary: Cloud Data sense是Cloud Manager的一项数据管理服务、可对企业内部和云数据源进行扫描、以映射和分类数据、并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解 Cloud Data sense
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Data sense 是 Cloud Manager 的一项数据管理服务，可对
 
 
 [role="lead"]
-Cloud Data sense 是 Cloud Manager 的一项数据管理服务，可对企业内部和云数据源和工作环境进行扫描，以映射和分类数据并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
+Cloud Data sense是Cloud Manager的一项数据管理服务、可对企业内部和云数据源进行扫描、以映射和分类数据、并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
 https://cloud.netapp.com/netapp-cloud-data-sense["了解 Cloud Data sense 的用例"^]。
 
@@ -75,27 +75,47 @@ Data sense提供的工具可以帮助您降低存储总拥有成本(TCO)。您�
 
 
 
-== 支持的工作环境和数据源
+== 支持的数据源
 
-Cloud Data sense 可以扫描以下类型的工作环境和数据源中的数据：
+Cloud Data sense可以扫描和分析以下类型数据源中的结构化和非结构化数据：
 
-* 工作环境： *
+* NetApp：*
 
 * Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中）
 * 内部 ONTAP 集群
+* StorageGRID
 * Azure NetApp Files
 * 适用于 ONTAP 的 Amazon FSX
+* 适用于 Google Cloud 的 Cloud Volumes Service
+
+
+*非NetApp：*
+
+* Dell EMC Isilon
+* 纯存储
+* Nutanix
+* 任何其他存储供应商
+
+
+*云：*
+
 * Amazon S3
+* Azure Blob
+* Google Cloud 存储
+* OneDrive
+* SharePoint Online
+* Google Drive
 
 
-* 数据源： *
+*数据库：*
 
-* 非 NetApp 文件共享
-* 对象存储（使用 S3 协议）
-* 数据库
-* OneDrive 帐户
-* SharePoint 帐户
-* Google Drive帐户
+* Amazon Relational Database Service （ Amazon RDS ）
+* MongoDB
+* MySQL
+* Oracle
+* PostgreSQL
+* SAP HANA
+* SQL Server （ MSSQL ）
 
 
 Data sense 支持 NFS 3.x ， 4.0 和 4.1 以及 CIFS 1.x ， 2.0 ， 2.1 和 3.0 版。
@@ -183,7 +203,7 @@ TIP: 此实例应始终保持运行状态，因为 Cloud Data sense 会持续扫
 概括地说， Cloud Data sense 的工作原理如下：
 
 . 您可以在 Cloud Manager 中部署 Data sense 实例。
-. 您可以在一个或多个工作环境或数据源上启用高级别映射或深度扫描。
+. 您可以对一个或多个数据源启用高级别映射或深度扫描。
 . Data sense 使用 AI 学习过程扫描数据。
 . 您可以使用提供的信息板和报告工具帮助您开展合规和监管工作。
 
@@ -206,7 +226,7 @@ image:diagram_cloud_compliance_scan.png["显示云提供商中运行的 Cloud Ma
 
 === 映射扫描与分类扫描有何区别
 
-您可以通过 Cloud Data sense 对选定工作环境和数据源运行常规 " 映射 " 扫描。映射仅提供数据的概览，而 " 分类 " 则提供数据的深度扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。
+您可以通过Cloud Data sense对选定数据源运行常规"映射"扫描。映射仅提供数据的概览，而 " 分类 " 则提供数据的深度扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。
 
 许多用户喜欢此功能、因为他们希望快速扫描其数据以确定需要更多研究的数据源、然后只能对所需的数据源或卷启用分类扫描。
 

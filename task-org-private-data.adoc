@@ -71,7 +71,7 @@ Cloud Data sense 支持以下文件类型中的 AIP 标签： .DOC ， .docx ，
 
 === 在工作空间中集成 AIP 标签
 
-在管理 AIP 标签之前，您需要通过登录到现有 Azure 帐户将 AIP 标签功能集成到 Cloud Data sense 中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-working-environments-and-data-sources["工作环境和数据源"^] 在 Cloud Manager 工作空间中。
+在管理 AIP 标签之前，您需要通过登录到现有 Azure 帐户将 AIP 标签功能集成到 Cloud Data sense 中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-data-sources["数据源"^] 在 Cloud Manager 工作空间中。
 
 .要求
 * 您必须拥有帐户和 Azure 信息保护许可证。
