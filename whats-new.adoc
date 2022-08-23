@@ -55,6 +55,12 @@ link:reference-private-data-categories.html#types-of-personal-data["查看 Data 
 
 
 
+=== 现在、您可以添加Data sense在数据中标识的自定义模式
+
+您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#creating-custom-personal-data-identifiers-using-a-regex["了解更多信息。"^]。
+
+
+
 == 2022年7月6日(1.14版)
 
 

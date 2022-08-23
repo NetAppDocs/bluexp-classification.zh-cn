@@ -54,7 +54,7 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 
 审核日志位于Data sense计算机上的：`/opt/netapp/audit_logs/<date>/DataSION_audit_log_<date>_<process_name>.log`
 
-对于内部部署、您可以直接导航到日志文件。
+在内部安装Data sense后、您可以直接导航到日志文件。
 
 在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在Cloud Manager Connector安装期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 
@@ -62,12 +62,12 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 * = ssh身份验证密钥的位置
 * <计算机用户>：
 +
-** 对于AWS =使用<EC2-user>
+** 对于AWS：使用<EC2-user>
 ** 对于Azure：使用为Cloud Manager实例创建的用户
 ** 对于GCP：使用为Cloud Manager实例创建的用户
 
 
-* <data sense IP>=虚拟机实例的IP地址
+* <datasensesIP>=虚拟机实例的IP地址
 
 
 请注意、您需要修改安全组入站规则才能访问系统。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["端口和安全组"^] 有关详细信息 ...

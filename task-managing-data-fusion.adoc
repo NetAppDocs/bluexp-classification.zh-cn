@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-managing-data-fusion.html 
 keywords: data identifiers, personal data, sensitive personal data, compliance, data fusion, data sense 
-summary: '我们称之为 "Data Fusion " 的功能允许您扫描组织的数据，以确定您的数据库中的唯一标识符是在文件中还是在其他数据库中找到的，这基本上是您自己的 " 个人数据 " 列表，该列表是在云数据感知扫描中标识的。这样，您就可以全面了解潜在敏感数据在所有文件中的位置。' 
+summary: 'Data sense为您提供了两种添加自定义"个人数据"列表的方法、Data sense将在未来扫描中识别这些数据、从而让您全面了解潜在敏感数据在所有组织文件中的位置。' 
 ---
-= 使用 Data Fusion 添加个人数据标识符
+= 将个人数据标识符添加到Data sense扫描中
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,11 @@ summary: '我们称之为 "Data Fusion " 的功能允许您扫描组织的数据
 
 
 [role="lead"]
-我们称为 _Data Fusion _ 的一项功能允许您扫描组织的数据，以确定您的数据库中的唯一标识符是在文件中还是在其他数据库中找到的，这项功能基本上是您自己创建的 " 个人数据 " 列表，该列表会在云数据感知扫描中标识。这样，您就可以全面了解潜在敏感数据在 _all_ 文件中的位置。
+Data sense为您提供了两种添加自定义"个人数据"列表的方法、Data sense将在未来扫描中识别这些数据、从而让您全面了解潜在敏感数据在_all_组织的文件中的位置。
 
-由于您正在扫描自己的数据库，因此无论数据存储使用何种语言，在未来的 Cloud Data sense 扫描中都会使用这些语言来标识数据。
+* 您可以根据要扫描的数据库中的特定列添加唯一标识符。
+* 您可以使用正则表达式(regex)添加个人模式—正则表达式将添加到现有预定义模式中。
+
 
 
 NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。
@@ -25,11 +27,13 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 == 从数据库创建自定义个人数据标识符
 
-您可以通过在数据库表中选择特定列来选择 Cloud Data sense 在其扫描中查找的其他标识符。例如，下图显示了如何使用 Data Fusion 扫描卷，分段和数据库，以确定 Oracle 数据库中所有客户 ID 是否存在。
+我们称为_Data Fusion _的一项功能可用于扫描组织的数据、以确定在文件或其他数据库中是否找到数据库中的唯一标识符。您可以通过在数据库表中选择特定列来选择 Cloud Data sense 在其扫描中查找的其他标识符。例如，下图显示了如何使用 Data Fusion 扫描卷，分段和数据库，以确定 Oracle 数据库中所有客户 ID 是否存在。
 
 image:diagram_compliance_data_fusion.png["一个图，显示如何将数据库中的内容用作源来标识包含相同数据的文件。"]
 
 如您所见，在两个卷和一个 S3 存储分段中发现了两个唯一的客户 ID 。此外，还将确定数据库表中的任何匹配项。
+
+请注意、由于您正在扫描自己的数据库、因此无论您的数据存储使用何种语言、在未来的Cloud Data sense扫描中都将用于标识数据。
 
 您必须拥有 link:task-scanning-databases.html#adding-the-database-server["已至少添加一个数据库服务器"^] 在添加数据 Fusion 源之前，请先将数据迁移到云数据感知。
 
@@ -60,12 +64,98 @@ image:screenshot_compliance_data_fusion_list.png["您已使用 Data Fusion 配�
 
 
 
-下次扫描后，结果将在信息板的 " 个人 " 结果部分下以及调查页面的 " 个人数据 " 筛选器中包含此新信息。您添加的每个源列都会在筛选器列表中显示为 "Table.Column" ，例如 `Customs.Customer ID` 。
+下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。您添加的每个源列都会以"Table.Column"格式显示在筛选器列表中、例如`customers.CustomerID`。
+
+image:screenshot_add_data_fusion_result.png["在\"调查结果\"窗格中显示Data Fusion 结果示例的屏幕截图。"]
 
 
 
-== 删除 Data Fusion 源
+=== 删除 Data Fusion 源
 
 如果您在某个时刻决定不使用某个 Data Fusion 源扫描文件，则可以从 Data Fusion 清单页面中选择源行，然后单击 * 删除 Data Fusion 源 * 。
 
 image:screenshot_compliance_delete_data_fusion.png["显示如何删除数据 Fusion 源的屏幕截图。"]
+
+
+
+== 使用正则表达式创建自定义个人数据标识符
+
+您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
+
+例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。
+
+
+
+=== 访问命令行
+
+您需要访问Data sense系统、才能启动命令以添加regex。
+
+在内部安装Data sense后、您可以直接访问命令行。
+
+在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在Cloud Manager Connector安装期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
+
+ ssh -i <path to the ssh key> <machine user>@<datasense ip>
+* = ssh身份验证密钥的位置
+* <计算机用户>：
++
+** 对于AWS：使用<EC2-user>
+** 对于Azure：使用为Cloud Manager实例创建的用户
+** 对于GCP：使用为Cloud Manager实例创建的用户
+
+
+* <datasensesIP>=虚拟机实例的IP地址
+
+
+请注意、您需要修改安全组入站规则才能访问系统。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["端口和安全组"^] 有关详细信息 ...
+
+
+
+=== 用于添加regex的命令语法
+
+用于添加自定义regex的命令语法为：
+
+ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern name>" -r "<regular expression>"
+* <pattern name>=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。
+* <正则表达式>=可以是任何合法正则表达式。
+
+
+请注意、我们会测试每个新的正则表达式、以验证它是否过宽且返回的匹配项过多。如果是这种情况、则会显示以下日志消息：
+
+ log v1.0 | 2022-08-17 07:24:19,585 | ERROR | ds_logger | custom_regex | 119 | 1 | None | custom_regex_119 | The regex has high risk to identify false positives. Please narrow the regular expression and try again. To add it anyway, use the force flag (-f) at the end
+如果要将regex强制添加到Data sense中、可以使用命令行末尾的*—f*。
+
+
+
+=== 示例
+
+产品ID是一个12位数、以201开头；因此正则表达式为*：\B201\d｛9｝\b*。您希望通过Data sense UI中的文本将此模式标识为*内部产品ID*。
+
+要查看所有文件中提及内部产品ID的位置、请输入以下命令。
+
+[source, cli]
+----
+[user ~]$ cd /opt/netapp/Datasense/
+[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b"
+----
+....
+[+] Adding Custom Regex to Data Sense
+log v1.0 | 2022-08-23 13:19:01,476 | INFO | ds_logger | custom_regex | 154 | 1 | None | custom_regex_154 | A pattern named 'Internal Product ID' was added successfully to Data Sense
+....
+下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。
+
+image:screenshot_add_regex_result.png["在\"调查结果\"窗格中显示自定义正则表达式结果示例的屏幕截图。"]
+
+
+
+=== 停用自定义正则表达式
+
+如果您稍后确定不需要Data sense来确定您作为regex输入的自定义模式、请使用以下命令删除每个regex。
+
+ sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "<pattern name>"
+例如、要删除*内部产品ID* regex：
+
+[source, cli]
+----
+[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "Internal Product ID"
+----
+ log v1.0 | 2022-08-17 09:13:15,431 | INFO | ds_logger | custom_regex | 31 | 1 | None | custom_regex_31 | A pattern named 'Internal Product ID' was deactivated successfully
