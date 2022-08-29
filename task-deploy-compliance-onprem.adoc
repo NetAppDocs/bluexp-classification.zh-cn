@@ -101,6 +101,9 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 
 
 
+NOTE: 安装后、无法更改Data sense主机系统的IP地址。
+
+
 
 == 验证 Cloud Manager 和 Data sense 前提条件
 

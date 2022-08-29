@@ -2706,4 +2706,5 @@
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
   <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
+  <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">安装后、无法更改Data sense主机系统的IP地址。</block>
 </blocks>
