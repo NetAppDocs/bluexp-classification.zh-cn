@@ -164,7 +164,6 @@
   <block id="e84e463a5d50d51ba24671ea703ccd3a" category="list-text">具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。这些用户也无法复制，移动或删除文件。</block>
   <block id="7001fd90c77b65d22e1a21481db3ddca" category="inline-link">了解有关 Cloud Manager 角色的更多信息</block>
   <block id="2d4684d2aec68a0b0d987ac449846c38" category="inline-link">添加具有特定角色的用户</block>
-  <block id="2aec26a935db620d45a2b36968d20c71" category="summary">完成几个步骤，使用 Cloud Data sense 扫描 SharePoint 帐户中的文件。</block>
   <block id="2ef77a3845de73c82db787233e991d0c" category="doc">扫描 SharePoint 帐户</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入门</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。</block>
@@ -174,7 +173,6 @@
   <block id="0fd354f4598b432146c03a6c1b496e25" category="paragraph">使用管理员用户凭据登录到要访问的 SharePoint 帐户，以便将其添加为新的数据源 / 工作环境。</block>
   <block id="a8c0024f4de7eafbcc79573f90579f5f" category="paragraph">在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。一次最多可以添加 100 个 URL 。</block>
   <block id="2b4e0126afcd89267252cefaf503c414" category="section-title">查看 SharePoint 要求</block>
-  <block id="a32be683d63a4b0f5bebaf59aa3ae393" category="paragraph">请查看以下前提条件，以确保您已准备好在 SharePoint 帐户上启用 Cloud Data sense 。</block>
   <block id="e1f7c840b56984612690abc476c04c51" category="list-text">您必须具有可对所有 SharePoint 站点进行读取访问的 SharePoint 帐户的管理员登录凭据。</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。</block>
   <block id="923e0e9139b80b545817bb342c8afa44" category="section-title">部署 Cloud Data sense 实例</block>
@@ -183,14 +181,9 @@
   <block id="d56c40a575de98938d6b1b6814e422d2" category="inline-link-macro">位于可访问 Internet 的内部位置</block>
   <block id="cb4787e4f5b2886c42c46c918daec655" category="paragraph">数据感知可以是 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block> 或 <block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block>。</block>
   <block id="151eca0a4859a8fbf17435fcbaa0001e" category="paragraph">只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。</block>
-  <block id="2d625acbf82ccc24e4827ee53e0193d4" category="section-title">正在添加 SharePoint 帐户</block>
-  <block id="7ab591f864cfe0a16aa275b9434fcde7" category="paragraph">添加用户文件所在的 SharePoint 帐户。</block>
   <block id="cb49e9afef4bc3127fbf2d354d00fd54" category="list-text">在工作环境配置页面中，单击 * 添加数据源 * &gt; * 添加 SharePoint Online 帐户 * 。</block>
-  <block id="9055101ac50b789e701a27583a1d468d" category="inline-image-macro">扫描配置页面的屏幕截图，您可以在其中单击添加 SharePoint 按钮。</block>
-  <block id="8b093e17a55171454a6c2e03e23f0b0f" category="paragraph"><block ref="8b093e17a55171454a6c2e03e23f0b0f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea56ecd454d4962a21bd35be41237229" category="list-text">在添加 SharePoint Online 帐户对话框中，单击 * 登录到 SharePoint* 。</block>
   <block id="e61b097ecbac4c8e2db9675d4c9f64cb" category="list-text">在显示的 Microsoft 页面中，选择 SharePoint 帐户并输入所需的管理员用户和密码，然后单击 * 接受 * 以允许 Cloud Data sense 从此帐户读取数据。</block>
-  <block id="85733eb33599ec713f72376aae6df768" category="paragraph">SharePoint 帐户将添加到工作环境列表中。</block>
   <block id="88f6018b4c4004a32e426fcb13381212" category="section-title">将 SharePoint 站点添加到合规性扫描</block>
   <block id="01ad50a8c51cb7caa81313f1655cae00" category="paragraph">您可以在帐户中添加单个 SharePoint 站点或所有 SharePoint 站点，以便 Cloud Data sense 扫描关联的文件。</block>
   <block id="32d4436877412c0a858739daddb125a4" category="list-text">在 _Configuration_ 页面中，单击 SharePoint 帐户的 * 配置 * 按钮。</block>
@@ -1442,7 +1435,6 @@
   <block id="e2115e429619cedeaf6aeedfb1d4d0d7" category="inline-link-macro">在可访问 Internet 的内部站点中部署 Data sense</block>
   <block id="1c038c580523f9a3d7126408c53a8288" category="paragraph">请注意，您也可以 <block ref="1079604978fa03138d29a36dc3d0bf3f" category="inline-link-macro-rx"></block>。</block>
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">支持的数据源</block>
-  <block id="77b1f6686417067688ea9a1806e7a438" category="paragraph">以这种方式安装（有时称为 " 脱机 " 或 " 暗 " 站点）时， Data sense 只能扫描内部站点本地数据源中的数据。此时， Data sense 可以扫描以下本地数据源：</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">内部部署 ONTAP 系统</block>
   <block id="ae9d17dd7732dafc7b97f62ac9094cf7" category="list-text">数据库架构</block>
   <block id="ec1fb1662782ed20e20c07aa72cea943" category="list-text">非 NetApp NFS 或 CIFS 文件共享</block>
@@ -2157,18 +2149,15 @@
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
   <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">您需要允许访问以下端点。</block>
   <block id="143cbb5198b43152fc02c7822c0a4df1" category="inline-xref">SharePoint 和 OneDrive 的特殊要求</block>
-  <block id="26c2bd17725502dd41a7ea99643a8a29" category="paragraph">如果您需要非常安全的 Cloud Manager 安装，但也希望从 OneDrive 帐户或 SharePoint 帐户扫描本地数据，则可以使用 Data sense 脱机安装程序并提供对一些选定端点的 Internet 访问。请参见 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 了解详细信息。</block>
   <block id="83925eb41f224ab078a6ede41fce2ce8" category="list-text">在某些关键策略返回结果时向 Cloud Manager 用户发送电子邮件警报</block>
   <block id="65097bbc12ec4bd1b84a583f86720dbc" category="list-text">为不同用户设置 Cloud Manager 角色（例如，帐户管理员或合规性查看器）</block>
   <block id="03ab5a445b96670c4d6471f1e0ae786c" category="list-text">使用 Cloud Sync 复制和同步源文件</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">接收用户反馈</block>
-  <block id="d988b54f3b64e974362e6cbf74785f60" category="paragraph">如果 Cloud Manager 和 Data sense 部署在无法访问 Internet 的站点中，则可以通过为一些选定端点提供 Internet 访问来扫描 SharePoint 和 OneDrive 帐户中的本地文件。</block>
   <block id="ca31f5af8410452f51d81153fffb5c54" category="cell">login.microsoft.com \graph.microsoft.com</block>
   <block id="bea203a1b40a7cbfe57a7032625d4eed" category="cell">与 Microsoft 服务器通信以登录到选定的联机服务。</block>
   <block id="665921fa8f2b4f0c994ec8d226f8544f" category="paragraph">只有在首次连接到这些外部服务期间，才需要访问 _cloudmanager.cloud.netapp.com_ 。</block>
   <block id="1b602d3afff4393bd19938efb7312da3" category="inline-link-macro">部署在无法访问 Internet 的内部位置</block>
   <block id="72be220d746bd2e14365d0ceeea52365" category="inline-link-macro">请在此处查看所需端点的列表</block>
-  <block id="99428c3925d465acb3903496e22efe4c" category="paragraph">数据感知也可以是 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>。但是，要扫描本地 SharePoint 文件，您需要为一些选定端点提供 Internet 访问。 <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>。</block>
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">数据感知也可以是 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>。但是，要扫描本地 OneDrive 文件，您需要为一些选定端点提供 Internet 访问。 <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>。</block>
   <block id="9aa68bac48e77ad847d7e57a68f08944" category="paragraph">此状态也会显示在数字电子钱包中。</block>
   <block id="06314d3359f0409e52f485d16ab0c81f" category="paragraph">您可以在 Cloud Data sense 许可证到期之前对其进行更新，以便访问扫描数据的能力不会中断。</block>
@@ -2321,7 +2310,6 @@
   <block id="fe340da6c921cdc51f04bc690aa53387" category="cell">选择一个或多个策略。开始 <block ref="55cb9da8823849acf874e6889a810e98" category="inline-link-macro-rx"></block> 可查看现有策略列表并创建您自己的自定义策略。</block>
   <block id="1a81671798e285bd46fa9b2aa3c86d00" category="cell">选择一个或多个用户名和/或组名称、或者输入部分名称</block>
   <block id="c9b82f90ba4459b8fcdadccfbe372539" category="cell">选择 ... <block ref="b0becded2b1c1949046ca8118d27118b" category="inline-link-macro-rx"></block> 分配给文件的</block>
-  <block id="910acb975ea7aecd9808b83a0cb3e7eb" category="cell">选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"云应用程序"。</block>
   <block id="c3a9830be43f6515257f3979e66816fd" category="cell">目录类型</block>
   <block id="9091f9c1f743dae16df2f0455ff3be56" category="cell">选择目录类型："共享"或"文件夹"</block>
   <block id="f8a85ed4966ec4306b4e58f3bd439410" category="inline-link-macro">一个或多个标记</block>
@@ -2483,7 +2471,6 @@
   <block id="2dd4f685f001cb4e6c0149956ba4a997" category="section-title">2022年5月11日(1.12.1版)</block>
   <block id="07de9e897e96f5f63e0778d691b62d59" category="section-title">2022年4月5日(1.11.1版)</block>
   <block id="2d2a847fccc748834cee74d3441a948b" category="section-title">2022年3月15日(1.10.0版)</block>
-  <block id="a6e2475f148e034250ac7cb66419f3f3" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装了1.1.1.x版、则只能升级到1.12.x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="fae289ef9204f7c3119e084615a6d53f" category="list-text">如果您已在政府区域或无法访问Internet的内部位置(也称为非公开站点)部署Data sense、则AIP标签功能将不可用。</block>
   <block id="49346bec66601a23d58acfc71f396d3f" category="list-text">对于Azure NetApp Files 、必须将其部署在与要扫描的卷相同的区域中。</block>
   <block id="b39e81db6545fcc5e2567ec3c6930540" category="section-title">政府区域支持</block>
@@ -2508,7 +2495,6 @@
   <block id="b0d05a288f1ee1691adac4ca34c54fca" category="inline-image-macro">显示如何为工作环境中的所有卷配置相同扫描设置的屏幕截图。</block>
   <block id="12a2ab51f6d8555b1efcc9582dee655b" category="paragraph"><block ref="12a2ab51f6d8555b1efcc9582dee655b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c47f43803aeca87b8119b45040e033c" category="section-title">暂停和恢复对存储库的扫描</block>
-  <block id="73344c9ec25564b49b1fcd623ff60d92" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统中将删除有关该卷的所有索引编制和信息。暂停扫描意味着、Data sense不会在将来扫描存储库的任何更改或添加内容、但所有当前结果仍会显示在系统中。</block>
   <block id="0f9fab6026fbdbed86f2befe8eae64e1" category="paragraph">您可以随时"恢复"扫描。</block>
   <block id="8b072c4e238b04c04c81cef3ed309703" category="list-text">在扫描配置页面中、单击暂停按钮以暂停卷的扫描、或者按恢复按钮以恢复对先前已暂停的卷的扫描。</block>
   <block id="bc9b17eea5246a704bb26be367a3b35f" category="inline-image-macro">显示如何暂停和恢复卷扫描的屏幕截图。</block>
@@ -2556,7 +2542,6 @@
   <block id="04843fa750ddea2d46823d2d06cf3063" category="paragraph">请注意、某些数据源会在菜单中提供暂停和恢复功能、如下所示用于SharePoint站点。</block>
   <block id="fb575acbb63d1898a1021e2856b18b6e" category="inline-image-macro">显示如何在SharePoint站点上暂停和恢复扫描的屏幕截图。</block>
   <block id="9e9d3c723f9f4d6ab1b9e783f2239e62" category="paragraph"><block ref="9e9d3c723f9f4d6ab1b9e783f2239e62" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="faa8551af182d75e7a3f5d7e7a6dc071" category="sidebar">更改扫描设置</block>
   <block id="dd85b6e90159d1cdbde0d5badd022af0" category="paragraph">Cloud Data sense 可自动识别数据中的特定字词，字符串和模式（ Reex ）。例如，个人身份识别信息（ PiII ），信用卡号，社会保险号，银行帐号，密码， 等等。 <block ref="3a25cef7ea1e79696c3eac86ef0a5a72" category="inline-link-macro-rx"></block>。Data sense可在单个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。</block>
   <block id="f4f50af532754b5670ea58ed6b969ba0" category="paragraph">下面的2个屏幕截图显示了在各个文件中找到的个人数据、以及在目录(共享和文件夹)中的文件中找到的个人数据。您还可以选择*结构化*选项卡以查看在数据库中找到的个人数据。</block>
   <block id="bfe1194df41f0cc26cfdf2f75931ac0d" category="inline-image-macro">单击调查结果后文件中的详细信息屏幕截图。</block>
@@ -2693,18 +2678,67 @@
   <block id="3642b1a1448d1d503a8c583265c1f7fd" category="list-text">&lt;pattern name&gt;=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。</block>
   <block id="c8cfff713fc98611eeae3f621ae6ce24" category="list-text">&lt;正则表达式&gt;=可以是任何合法正则表达式。</block>
   <block id="c0860cd77b783ac8ccb3c6de19266e83" category="paragraph">请注意、我们会测试每个新的正则表达式、以验证它是否过宽且返回的匹配项过多。如果是这种情况、则会显示以下日志消息：</block>
-  <block id="bed821e4983e85758274701f4830fdce" category="paragraph">如果要将regex强制添加到Data sense中、可以使用命令行末尾的*—f*。</block>
   <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="section-title">示例</block>
   <block id="1c247fabef1a02cfb25e0c5a09f1ce81" category="paragraph">产品ID是一个12位数、以201开头；因此正则表达式为*：\B201\d｛9｝\b*。您希望通过Data sense UI中的文本将此模式标识为*内部产品ID*。</block>
   <block id="ce52796a17167ca6f97268ee7baaa0de" category="paragraph">要查看所有文件中提及内部产品ID的位置、请输入以下命令。</block>
   <block id="1e4b16d4f3c8faa8b0a90ebbeae0a0f7" category="paragraph">下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">在"调查结果"窗格中显示自定义正则表达式结果示例的屏幕截图。</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="568187b2e469a8406245645d5e1be158" category="section-title">停用自定义正则表达式</block>
-  <block id="94deabbbc24df00a97f5113a004850a1" category="paragraph">如果您稍后确定不需要Data sense来确定您作为regex输入的自定义模式、请使用以下命令删除每个regex。</block>
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">例如、要删除*内部产品ID* regex：</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
   <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">安装后、无法更改Data sense主机系统的IP地址。</block>
+  <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">您可以从路径*/opt/netapp/Datasens/*运行命令。</block>
+  <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。</block>
+  <block id="48532ffc6016c24d1207f39fecfcbbda" category="section-title">停用自定义正则表达式</block>
+  <block id="19f9f2c4f009c255e214b21dae526160" category="paragraph">如果您稍后确定不需要Data sense来识别作为regex输入的自定义模式、请使用命令中的*停用*选项删除每个regex。</block>
+  <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日(1.16版)</block>
+  <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">能够立即重新扫描存储库以反映文件中的更改</block>
+  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">请参见如何重新扫描目录</block>
+  <block id="45b58068004d744461935c2aae409c04" category="paragraph">如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
+  <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">在"数据调查"页面中为数据感知扫描状态添加了新的筛选器</block>
+  <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">使用"分析状态"筛选器可以列出处于数据感知扫描特定阶段的文件。您可以选择一个选项来显示要扫描的*正在等待首次扫描*、正在扫描的*已完成*、*正在等待重新扫描*或*已失败*文件的列表。</block>
+  <block id="82f05abce805aa872acec563bbca9a1f" category="paragraph"><block ref="b263790debd0f3d5e5a31296d99293db" category="inline-link-rx"></block>。</block>
+  <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">现在、数据主体被视为扫描中"个人数据"的一部分</block>
+  <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">Data sense现在可将数据主题视为合规性信息板中显示的个人结果的一部分。此外、在"调查"页面中执行搜索时、您可以选择"个人数据"下的"数据主体"、以便仅查看包含数据主体的文件。</block>
+  <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">现在、数据感知痕迹文件被视为扫描中"类别"的一部分</block>
+  <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">详细了解如何创建痕迹文件</block>
+  <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">Data sense现在可将痕迹文件识别为合规性信息板中显示的类别的一部分。这些文件是Data sense在将文件从源位置移动到NFS共享时创建的。<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>。</block>
+  <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">此外、在"调查"页面中执行搜索时、您可以选择"类别"下的"数据感知痕迹"、以便仅查看数据感知痕迹文件。</block>
+  <block id="23e2985b503ea96a8cdf22916427a97d" category="summary">完成几个步骤、使用Cloud Data sense开始扫描SharePoint Online帐户中的文件。</block>
+  <block id="758462d66cb32533f49360d3b98e28c4" category="paragraph">请查看以下前提条件、以确保您已准备好在SharePoint帐户上激活Cloud Data sense。</block>
+  <block id="19814c236f94ff3af850cb182f35add5" category="inline-link-macro">安装在可访问Internet的内部位置</block>
+  <block id="1834f32ba8d3eab040f5ce5755a6ad8a" category="list-text">对于SharePoint Online、Data sense可以是 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block> 或 <block ref="1303820445af3a7c87be9fbd1bbc30ad" category="inline-link-macro-rx"></block>。</block>
+  <block id="8985dbaa7cbdc09c9a769e35fc86d4ad" category="paragraph">数据感知也可以是 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>。但是、要扫描SharePoint Online文件、您需要为一些选定端点提供Internet访问。 <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>。</block>
+  <block id="bb0d7568763639a86425eb506af0b273" category="paragraph">如果将Data sense安装在无法访问Internet的站点上、则Cloud Manager Connector也必须安装在无法访问Internet的同一站点上。<block ref="879ebf9ca74e8f08bfff336454f4ade3" category="inline-link-rx"></block>。</block>
+  <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">添加SharePoint Online帐户</block>
+  <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">添加用户文件所在的SharePoint Online帐户。</block>
+  <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">配置页面的屏幕截图、您可以在其中单击添加SharePoint Online按钮。</block>
+  <block id="500f464a497c67b1e8f3311a5a3f32dc" category="paragraph"><block ref="500f464a497c67b1e8f3311a5a3f32dc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c078bb07b1ad7af1cc0f5b29159fb618" category="paragraph">SharePoint Online帐户将添加到工作环境列表中。</block>
+  <block id="ea790b7cfc239ef4ea62089738c6fcba" category="list-text">SharePoint Online帐户</block>
+  <block id="7e48ad5341563470bfb17d87eb4abfc2" category="paragraph">以这种方式安装（有时称为 " 脱机 " 或 " 暗 " 站点）时， Data sense 只能扫描内部站点本地数据源中的数据。此时、Data sense可以扫描以下*本地*数据源：</block>
+  <block id="194dae59202982a0d0f86245341e5d21" category="paragraph">如果您需要非常安全的Cloud Manager安装、但也希望从OneDrive帐户或SharePoint Online帐户扫描本地数据、则可以使用Data sense脱机安装程序并提供对一些选定端点的Internet访问。请参见 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 了解详细信息。</block>
+  <block id="6b5e137e04da5c1898139a8a7f549614" category="paragraph">如果Cloud Manager和Data sense部署在无法访问Internet的站点中、则可以通过为一些选定端点提供Internet访问来扫描SharePoint Online和OneDrive帐户中的文件。</block>
+  <block id="6ac5fc2b8fd7793f54ecc4e08500a270" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.14x版、则只能升级到1.15-x如果您有几个主要版本，则需要多次升级此软件。</block>
+  <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">数据主题</block>
+  <block id="3b2d0e0dc31143e6f51b137fffa0f7a2" category="list-text">数据感知痕迹</block>
+  <block id="638bc83a47f3636cf5b909804535902e" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统中将删除有关该卷的所有索引编制和信息。暂停扫描意味着、Data sense不会在将来扫描存储库的更改或添加内容、但所有当前结果仍会显示在系统中。</block>
+  <block id="f976bf2eff4504fae0fc49c0115018dc" category="section-title">重新扫描现有存储库的数据</block>
+  <block id="31708d59045759b74bc21fc59af3a403" category="paragraph">Data sense会持续扫描您的数据、以检测您添加的存储库中的增量更改。但是、系统扫描所有环境需要一些时间、并且无法控制所扫描的存储库的顺序。因此、如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先扫描某些数据、而不是扫描其他数据。执行重新扫描操作后、选定存储库将恢复为按照正常的数据感知计划进行扫描。</block>
+  <block id="3f4d6d8bcb45a73e9e3df2c012ea6aac" category="admonition">目前、我们支持重新扫描单个目录(文件夹或共享)。未来的支持包括重新扫描其他存储库类型(文件、数据库等)。</block>
+  <block id="62796d34bcb4d2217e01776ba00d5ea0" category="list-text">重新扫描目录时、目录中的所有文件都会重新扫描、但不会重新扫描目录中的子文件夹。</block>
+  <block id="4e67a9dec79298e79d1abf05ea540fbc" category="list-text">重新扫描共享时、只会重新扫描共享的元数据。</block>
+  <block id="d489d7f150167fe801b5b652633601a6" category="list-text">在数据调查结果窗格中、选择要重新扫描的文件夹或共享、然后单击*重新扫描*。</block>
+  <block id="b8f66688483b508da89754659d7ca8fa" category="inline-image-macro">显示如何选择和重新扫描目录的屏幕截图。</block>
+  <block id="47ee282369061686a925d31dfbc358ad" category="paragraph"><block ref="47ee282369061686a925d31dfbc358ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="df296aafcd928770ac9559dc3f65f303" category="list-text">在_Rescan Directory_对话框中、单击*重新扫描*。</block>
+  <block id="c2becc0894f125fd5331aafa1ee47cf8" category="paragraph">请注意、您还可以在查看元数据详细信息时重新扫描单个目录。只需单击*重新扫描*即可。</block>
+  <block id="64305177aa881c77aecfabbcc7100f17" category="inline-image-macro">显示如何重新扫描单个文件夹或共享的屏幕截图。</block>
+  <block id="4f70b74049fac9e8f382a26a4f516f44" category="paragraph"><block ref="4f70b74049fac9e8f382a26a4f516f44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d55969f99169fb1ccecedd45e530342d" category="cell">分析状态</block>
+  <block id="133617814b053dc465cdc57c432b1756" category="cell">选择一个选项以显示"等待首次扫描"、"已完成扫描"、"等待重新扫描"或"无法扫描"的文件列表。</block>
+  <block id="78ed85a2b36b215d69761df3caf130df" category="cell">选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"应用程序"。</block>
+  <block id="6195c7a1534de8abb0c4706e15d24a3c" category="sidebar">更改扫描设置</block>
 </blocks>

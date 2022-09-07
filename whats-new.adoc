@@ -18,6 +18,38 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
+== 2022年9月6日(1.16版)
+
+
+
+=== 能够立即重新扫描存储库以反映文件中的更改
+
+如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-repo-scanning.html#rescanning-data-for-an-existing-repository["请参见如何重新扫描目录"^]。
+
+
+
+=== 在"数据调查"页面中为数据感知扫描状态添加了新的筛选器
+
+使用"分析状态"筛选器可以列出处于数据感知扫描特定阶段的文件。您可以选择一个选项来显示要扫描的*正在等待首次扫描*、正在扫描的*已完成*、*正在等待重新扫描*或*已失败*文件的列表。
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"^]。
+
+
+
+=== 现在、数据主体被视为扫描中"个人数据"的一部分
+
+Data sense现在可将数据主题视为合规性信息板中显示的个人结果的一部分。此外、在"调查"页面中执行搜索时、您可以选择"个人数据"下的"数据主体"、以便仅查看包含数据主体的文件。
+
+
+
+=== 现在、数据感知痕迹文件被视为扫描中"类别"的一部分
+
+Data sense现在可将痕迹文件识别为合规性信息板中显示的类别的一部分。这些文件是Data sense在将文件从源位置移动到NFS共享时创建的。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["详细了解如何创建痕迹文件"^]。
+
+此外、在"调查"页面中执行搜索时、您可以选择"类别"下的"数据感知痕迹"、以便仅查看数据感知痕迹文件。
+
+
+
 == 2022年8月7日(1.15版)
 
 

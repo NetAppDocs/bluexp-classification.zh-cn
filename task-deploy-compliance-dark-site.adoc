@@ -22,7 +22,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 
 == 支持的数据源
 
-以这种方式安装（有时称为 " 脱机 " 或 " 暗 " 站点）时， Data sense 只能扫描内部站点本地数据源中的数据。此时， Data sense 可以扫描以下本地数据源：
+以这种方式安装（有时称为 " 脱机 " 或 " 暗 " 站点）时， Data sense 只能扫描内部站点本地数据源中的数据。此时、Data sense可以扫描以下*本地*数据源：
 
 * 内部部署 ONTAP 系统
 * 数据库架构
@@ -30,7 +30,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 * 使用简单存储服务（ S3 ）协议的对象存储
 
 
-如果您需要非常安全的 Cloud Manager 安装，但也希望从 OneDrive 帐户或 SharePoint 帐户扫描本地数据，则可以使用 Data sense 脱机安装程序并提供对一些选定端点的 Internet 访问。请参见 <<SharePoint and OneDrive special requirements,SharePoint 和 OneDrive 的特殊要求>> 了解详细信息。
+如果您需要非常安全的Cloud Manager安装、但也希望从OneDrive帐户或SharePoint Online帐户扫描本地数据、则可以使用Data sense脱机安装程序并提供对一些选定端点的Internet访问。请参见 <<SharePoint and OneDrive special requirements,SharePoint 和 OneDrive 的特殊要求>> 了解详细信息。
 
 当前不支持在非公开站点中部署Data sense时扫描Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 、AWS S3或Google Drive帐户。
 
@@ -135,7 +135,7 @@ Data sense 实例使用专用 IP 地址来确保索引数据不可供他人访�
 
 == SharePoint 和 OneDrive 的特殊要求
 
-如果 Cloud Manager 和 Data sense 部署在无法访问 Internet 的站点中，则可以通过为一些选定端点提供 Internet 访问来扫描 SharePoint 和 OneDrive 帐户中的本地文件。
+如果Cloud Manager和Data sense部署在无法访问Internet的站点中、则可以通过为一些选定端点提供Internet访问来扫描SharePoint Online和OneDrive帐户中的文件。
 
 [cols="50,50"]
 |===
@@ -314,7 +314,7 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 由于 Data sense 软件会定期更新新功能，因此您应按照例行程序定期检查新版本，以确保您使用的是最新的软件和功能。您需要手动升级 Data sense 软件，因为没有 Internet 连接，无法自动执行升级。
 
 .开始之前
-* 数据感知软件一次可升级一个主要版本。例如、如果您安装了1.1.1.x版、则只能升级到1.12.x如果您有几个主要版本，则需要多次升级此软件。
+* 数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.14x版、则只能升级到1.15-x如果您有几个主要版本，则需要多次升级此软件。
 * 确认您的内部连接器软件已升级到最新可用版本。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["请参见 Connector 升级步骤"^]。
 
 

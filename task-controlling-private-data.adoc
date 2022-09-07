@@ -225,6 +225,9 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 策略 | 选择一个或多个策略。开始 link:task-org-private-data.html#controlling-your-data-using-policies["此处"^] 可查看现有策略列表并创建您自己的自定义策略。 
 
 
+| 分析状态 | 选择一个选项以显示"等待首次扫描"、"已完成扫描"、"等待重新扫描"或"无法扫描"的文件列表。 
+
+
 | 打开权限 | 选择数据以及文件夹/共享中的权限类型 
 
 
@@ -237,7 +240,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | Label | 选择 ... link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"] 分配给文件的 
 
 
-| 工作环境类型 | 选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"云应用程序"。 
+| 工作环境类型 | 选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"应用程序"。 
 
 
 | 工作环境名称 | 选择特定的工作环境 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-scanning-sharepoint.html 
-keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, data sense 
-summary: 完成几个步骤，使用 Cloud Data sense 扫描 SharePoint 帐户中的文件。 
+keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
+summary: 完成几个步骤、使用Cloud Data sense开始扫描SharePoint Online帐户中的文件。 
 ---
 = 扫描 SharePoint 帐户
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 完成几个步骤，使用 Cloud Data sense 扫描 SharePoint 帐户�
 
 
 [role="lead"]
-完成几个步骤，使用 Cloud Data sense 扫描 SharePoint 帐户中的文件。
+完成几个步骤、使用Cloud Data sense开始扫描SharePoint Online帐户中的文件。
 
 
 
@@ -38,7 +38,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 == 查看 SharePoint 要求
 
-请查看以下前提条件，以确保您已准备好在 SharePoint 帐户上启用 Cloud Data sense 。
+请查看以下前提条件、以确保您已准备好在SharePoint帐户上激活Cloud Data sense。
 
 * 您必须具有可对所有 SharePoint 站点进行读取访问的 SharePoint 帐户的管理员登录凭据。
 * 对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。
@@ -50,28 +50,32 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 如果尚未部署实例，请部署 Cloud Data sense 。
 
-数据感知可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
+* 对于SharePoint Online、Data sense可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["安装在可访问Internet的内部位置"^]。
++
+数据感知也可以是 link:task-deploy-compliance-dark-site.html["部署在无法访问 Internet 的内部位置"^]。但是、要扫描SharePoint Online文件、您需要为一些选定端点提供Internet访问。 link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["请在此处查看所需端点的列表"]。
+
+
+
+如果将Data sense安装在无法访问Internet的站点上、则Cloud Manager Connector也必须安装在无法访问Internet的同一站点上。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["了解更多信息。"^]。
 
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 
-数据感知也可以是 link:task-deploy-compliance-dark-site.html["部署在无法访问 Internet 的内部位置"^]。但是，要扫描本地 SharePoint 文件，您需要为一些选定端点提供 Internet 访问。 link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["请在此处查看所需端点的列表"]。
 
 
+== 添加SharePoint Online帐户
 
-== 正在添加 SharePoint 帐户
-
-添加用户文件所在的 SharePoint 帐户。
+添加用户文件所在的SharePoint Online帐户。
 
 .步骤
 . 在工作环境配置页面中，单击 * 添加数据源 * > * 添加 SharePoint Online 帐户 * 。
 +
-image:screenshot_compliance_add_sharepoint_button.png["扫描配置页面的屏幕截图，您可以在其中单击添加 SharePoint 按钮。"]
+image:screenshot_compliance_add_sharepoint_button.png["配置页面的屏幕截图、您可以在其中单击添加SharePoint Online按钮。"]
 
 . 在添加 SharePoint Online 帐户对话框中，单击 * 登录到 SharePoint* 。
 . 在显示的 Microsoft 页面中，选择 SharePoint 帐户并输入所需的管理员用户和密码，然后单击 * 接受 * 以允许 Cloud Data sense 从此帐户读取数据。
 
 
-SharePoint 帐户将添加到工作环境列表中。
+SharePoint Online帐户将添加到工作环境列表中。
 
 
 
