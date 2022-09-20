@@ -26,7 +26,7 @@ summary: 如果您只是在寻找一个问题的快速答案，此常见问题�
 
 === 什么是云数据的意义？
 
-Cloud Data sense是一款云产品、它使用人工智能(AI)驱动的技术帮助您了解数据环境并识别存储系统中的敏感数据。这些系统可以是您添加到Cloud Manager Canvas中的工作环境、也可以是Data sense可以通过网络访问的多种类型的数据源。 <<What sources of data can be scanned with Data Sense,请参见下面的完整列表>>。
+Cloud Data sense是一款云产品、它使用人工智能(AI)驱动的技术帮助您了解数据环境并识别存储系统中的敏感数据。这些系统可以是您添加到Cloud Manager Canvas中的工作环境、也可以是Data sense可以通过网络访问的多种类型的数据源。  sources of data can be scanned with Data Sense,请参见下面的完整列表。
 
 Cloud Data sense 提供了预定义的参数（例如敏感信息类型和类别），用于满足有关数据隐私和敏感度的新数据合规性法规，例如 GDPR ， CCPA ， HIPAA 等。
 

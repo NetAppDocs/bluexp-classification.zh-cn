@@ -31,7 +31,7 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。
 您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。
 
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<Review prerequisites,请参见完整列表>>。
+确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。  prerequisites,请参见完整列表。
 
 [role="quick-margin-para"]
 默认配置要求云数据感知实例使用 16 个 vCPU 。请参见 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["有关实例类型的更多详细信息"^]。

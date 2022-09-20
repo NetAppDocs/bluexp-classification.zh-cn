@@ -33,10 +33,10 @@ summary: 完成以下几个步骤，在您的网络或云中可访问 Internet �
 您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。
 
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<Verify Cloud Manager and Data Sense prerequisites,请参见完整列表>>。
+确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。  Cloud Manager and Data Sense prerequisites,请参见完整列表。
 
 [role="quick-margin-para"]
-您还需要满足的 Linux 系统 <<Prepare the Linux host system,以下要求>>。
+您还需要满足的 Linux 系统  the Linux host system,以下要求。
 
 [role="quick-margin-para"]
 从 NetApp 支持站点下载 Cloud Data sense 软件，并将安装程序文件复制到您计划使用的 Linux 主机。然后启动安装向导并按照提示部署 Data sense 实例。
@@ -132,7 +132,7 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 | https://github.com/docker \https://download.docker.com \http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm | 提供安装必备软件包。 
 |===
 --
-确保 Cloud Manager 具有所需权限:: 确保 Cloud Manager 有权为 Cloud Data sense 实例部署资源并创建安全组。您可以在中找到最新的 Cloud Manager 权限 https://mysupport.netapp.com/site/info/cloud-manager-policies["NetApp 提供的策略"^]。
+确保 Cloud Manager 具有所需权限:: 确保 Cloud Manager 有权为 Cloud Data sense 实例部署资源并创建安全组。您可以在中找到最新的 Cloud Manager 权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
 确保 Cloud Manager Connector 可以访问 Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。
 +
 --
@@ -154,11 +154,15 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 
 == 在内部部署 Data sense
 
-对于典型配置，您将在一个主机系统上安装该软件。 <<Single-host installation for typical configurations,请在此处查看这些步骤>>。
+对于典型配置，您将在一个主机系统上安装该软件。  installation for typical configurations,请在此处查看这些步骤。
 
-对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。 <<Multi-host installation for large configurations,请在此处查看这些步骤>>。
+image:diagram_deploy_onprem_single_host_internet.png["一个示意图、显示了在使用可访问Internet的内部部署的单个数据感知实例时可以扫描的数据源的位置。"]
 
-请参见 <<Prepare the Linux host system,准备 Linux 主机系统>> 和 <<Verify Cloud Manager and Data Sense prerequisites,查看前提条件>> 了解部署 Cloud Data sense 之前的完整要求列表。
+对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。  installation for large configurations,请在此处查看这些步骤。
+
+image:diagram_deploy_onprem_multi_host_internet.png["一个示意图、显示了在使用通过Internet访问部署在内部的多个数据感知实例时可以扫描的数据源的位置。"]
+
+请参见  the Linux host system,准备 Linux 主机系统 和  Cloud Manager and Data Sense prerequisites,查看前提条件 了解部署 Cloud Data sense 之前的完整要求列表。
 
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 
@@ -172,11 +176,11 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 在单个内部主机上安装 Data sense 软件时，请按照以下步骤进行操作。
 
 .您需要什么？ #8217 ；将需要什么
-* 验证您的 Linux 系统是否满足 <<Prepare the Linux host system,主机要求>>。
+* 验证您的 Linux 系统是否满足  the Linux host system,主机要求。
 * （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
 * 确保您在 Linux 系统上具有 root 权限。
 * 如果您使用的是代理，并且代理正在执行 TLS 截获，则需要了解 Data sense Linux 系统上用于存储 TLS CA 证书的路径。
-* 验证脱机环境是否满足要求 <<Verify Cloud Manager and Data Sense prerequisites,权限和连接>>。
+* 验证脱机环境是否满足要求  Cloud Manager and Data Sense prerequisites,权限和连接。
 
 
 .步骤
@@ -252,10 +256,10 @@ Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装�
 在多个内部主机上安装 Data sense 软件时，请按照以下步骤进行操作。
 
 .您需要什么？ #8217 ；将需要什么
-* 验证管理器和扫描程序节点的所有 Linux 系统是否都符合 <<Prepare the Linux host system,主机要求>>。
+* 验证管理器和扫描程序节点的所有 Linux 系统是否都符合  the Linux host system,主机要求。
 * （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
 * 确保您在 Linux 系统上具有 root 权限。
-* 验证您的环境是否满足要求 <<Verify Cloud Manager and Data Sense prerequisites,权限和连接>>。
+* 验证您的环境是否满足要求  Cloud Manager and Data Sense prerequisites,权限和连接。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。
 * 必须在所有主机上启用以下端口和协议：
 +
@@ -284,7 +288,7 @@ Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装�
 
 
 .步骤
-. 按照中的步骤 1 至 7 进行操作 <<Single-host installation for typical configurations,单主机安装>> 在管理器节点上。
+. 按照中的步骤 1 至 7 进行操作  installation for typical configurations,单主机安装 在管理器节点上。
 . 如步骤 8 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。
 +
 除了可用于单主机安装的变量之外，还会使用一个新选项 * -n <node_IP>* 来指定扫描程序节点的 IP 地址。多个扫描程序节点 IP 以逗号分隔。

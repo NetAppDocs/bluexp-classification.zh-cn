@@ -352,7 +352,7 @@ image:screenshot_compliance_select_user_multi.png["显示如何在 \" 数据调�
 
 策略提供以下功能：
 
-* <<List of predefined Policies,预定义策略>> 基于用户请求从 NetApp 获得
+*  of predefined Policies,预定义策略 基于用户请求从 NetApp 获得
 * 能够创建自己的自定义策略
 * 单击一下即可启动包含策略结果的调查页面
 * 当某些关键策略返回结果时，向 Cloud Manager 用户发送电子邮件警报，以便您可以获得保护数据的通知

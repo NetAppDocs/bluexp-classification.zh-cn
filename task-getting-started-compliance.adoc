@@ -92,7 +92,7 @@ image:screenshot_cloud_compliance_we_scan_config.png["部署 Cloud Data sense �
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
 +
-请参见 <<Enabling and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描>> 了解详细信息。
+请参见  and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描 了解详细信息。
 
 
 
@@ -209,7 +209,7 @@ image:screenshot_compliance_dp_cifs_volumes.png["用于启用 CIFS 数据保护�
 
 
 
-. 激活要扫描的每个 DP 卷 <<Enabling and disabling compliance scans on volumes,与启用其他卷的方式相同>>。
+. 激活要扫描的每个 DP 卷  and disabling compliance scans on volumes,与启用其他卷的方式相同。
 
 
 启用后， Cloud Data sense 会从已激活进行扫描的每个 DP 卷创建一个 NFS 共享。共享导出策略仅允许从 Data sense 实例进行访问。

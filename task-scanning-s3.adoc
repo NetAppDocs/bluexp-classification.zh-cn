@@ -23,7 +23,7 @@ Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对象存储
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
 [role="quick-margin-para"]
-确保您的云环境能够满足 Cloud Data sense 的要求，包括准备 IAM 角色以及设置从 Data sense 到 S3 的连接。 <<Reviewing S3 prerequisites,请参见完整列表>>。
+确保您的云环境能够满足 Cloud Data sense 的要求，包括准备 IAM 角色以及设置从 Data sense 到 S3 的连接。  S3 prerequisites,请参见完整列表。
 
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
@@ -117,7 +117,7 @@ image:screenshot_s3_we.gif["Amazon S3 工作环境图标的屏幕截图"]
 +
 image:screenshot_s3_enable_compliance.gif["从 \" 服务 \" 面板启用 Cloud Data sense 服务的屏幕截图"]
 
-. 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例 <<Reviewing S3 prerequisites,所需权限>>。
+. 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例  S3 prerequisites,所需权限。
 +
 image:screenshot_s3_compliance_iam_role.gif["为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图"]
 
@@ -137,7 +137,7 @@ Cloud Manager 将 IAM 角色分配给实例。
 
 如果 Cloud Manager 运行在包含要扫描的 S3 存储分段的 AWS 帐户中，则它会发现这些存储分段并将其显示在 Amazon S3 工作环境中。
 
-云数据感知也可以 <<Scanning buckets from additional AWS accounts,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
+云数据感知也可以  buckets from additional AWS accounts,扫描位于不同 AWS 帐户中的 S3 存储分段。
 
 .步骤
 . 选择 Amazon S3 工作环境。

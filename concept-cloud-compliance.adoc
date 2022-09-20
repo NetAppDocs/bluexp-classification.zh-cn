@@ -128,7 +128,7 @@ Data sense 支持 NFS 3.x ， 4.0 和 4.1 以及 CIFS 1.x ， 2.0 ， 2.1 和 3.
 +
 link:task-licensing-datasense.html["了解如何获得 Cloud Data sense 的许可"^]。
 
-* 要在云中安装 Cloud Data sense ，需要部署云实例，这会导致部署该实例的云提供商收取费用。请参见 <<The Cloud Data Sense instance,为每个云提供商部署的实例类型>>。如果您在内部系统上安装 Data sense ，则无需任何成本。
+* 要在云中安装 Cloud Data sense ，需要部署云实例，这会导致部署该实例的云提供商收取费用。请参见  Cloud Data Sense instance,为每个云提供商部署的实例类型。如果您在内部系统上安装 Data sense ，则无需任何成本。
 * Cloud Data sense要求您已部署Cloud Manager Connector。在许多情况下，由于您在 Cloud Manager 中使用的其他存储和服务，您已经有了 Connector 。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
 
 

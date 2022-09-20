@@ -87,7 +87,7 @@ image:screenshot_cloud_compliance_anf_scan_config.png["部署 Cloud Data sense �
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
 +
-请参见 <<Enabling and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描>> 了解详细信息。
+请参见  and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描 了解详细信息。
 
 
 
