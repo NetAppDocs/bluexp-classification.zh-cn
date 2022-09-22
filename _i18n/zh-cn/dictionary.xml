@@ -1744,8 +1744,6 @@
   <block id="f13aece6b768921832b7bb943cab9f19" category="list-text">系统会启用最初在源 ONTAP 系统中创建为 NFS 卷的卷。</block>
   <block id="70397bc1b30df5af8cc61673df2f897d" category="list-text">最初在源 ONTAP 系统中创建为 CIFS 卷的卷需要输入 CIFS 凭据才能扫描这些 DP 卷。如果您已输入 Active Directory 凭据，以便 Cloud Data sense 可以扫描 CIFS 卷，则可以使用这些凭据，也可以指定一组不同的管理员凭据。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">有关 Cloud Manager 3.9 的注意事项</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
   <block id="73f420c03909a74fdc36f2bebeb15d52" category="inline-link-macro">云数据感知注意事项</block>
   <block id="ef4a4eef354631d5e99b3e1ea91d46d7" category="list-text"><block ref="ef4a4eef354631d5e99b3e1ea91d46d7" category="inline-link-macro-rx"></block></block>
   <block id="33b8c7d67d1544ae9cd892551b3430a1" category="summary">您可以将全局 Active Directory 与 Cloud Data sense 集成在一起，以增强 Data sense 报告有关文件所有者以及哪些用户和组有权访问您的文件的结果。</block>
@@ -2213,9 +2211,7 @@
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在 Cloud Manager 中，单击 * 帮助 &gt; 支持 * 。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
   <block id="eee50fc2c4ac06219bb486e05b8250f7" category="list-text">确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。</block>
-  <block id="0b3c77caf569c338dc81a3ae8eb753d5" category="paragraph">AWS 和 AWS GovCloud 部署还需要其他入站和出站规则。请参见<block ref="174b2d5101f3b2591340f8b1c4108c15" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure 中连接器的规则</block>
-  <block id="e271f92bb6a2f886e00883b1a5f3fe51" category="paragraph">Azure 和 Azure 政府部署还需要其他入站和出站规则。请参见<block ref="c90240cb0e2cbfac2997cad831e58ce0" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive帐户</block>
   <block id="c09551e40902e02251ee901bd86a597a" category="list-text">Cloud Data sense要求您已部署Cloud Manager Connector。在许多情况下，由于您在 Cloud Manager 中使用的其他存储和服务，您已经有了 Connector 。Connector 实例会从部署该实例的云提供商处收取费用。请参见<block ref="afb51f96ab234eaf32dde49b48eed419" category="inline-link-rx"></block>。如果在内部部署系统上安装 Connector ，则不需要任何成本。</block>
   <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">许多用户喜欢此功能、因为他们希望快速扫描其数据以确定需要更多研究的数据源、然后只能对所需的数据源或卷启用分类扫描。</block>
@@ -2770,4 +2766,8 @@
   <block id="f836b0a94f3f9f448c28b337ebd7f88d" category="inline-image-macro">一个示意图、显示了在使用通过Internet访问部署在内部的多个数据感知实例时可以扫描的数据源的位置。</block>
   <block id="9a996c7f10537ef7b705b42e701d4b6e" category="paragraph"><block ref="9a996c7f10537ef7b705b42e701d4b6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager注意事项</block>
+  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
 </blocks>
