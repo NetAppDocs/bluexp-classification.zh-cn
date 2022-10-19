@@ -1490,7 +1490,6 @@
   <block id="a52e4cb36e71ec4390255e3ab7c8e576" category="list-text">在已配置 Internet 的系统上，从下载 Cloud Data sense 软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为 * Datasis-offline-bundle-&lt;version&gt;.tar.gz* 。</block>
   <block id="efa6f10157137475f11a46219066d662" category="list-text">将安装程序包复制到计划在非公开站点中使用的 Linux 主机。</block>
   <block id="1eecc2fcccd4fcb3cadd8bec3044d3bb" category="list-text">解压缩主机上的安装程序包，例如：</block>
-  <block id="8217ab0ac41d7e4a5ecd817cec445445" category="paragraph">此操作将提取所需的软件和实际安装文件 * cc_onprem_installer_&lt; 版本 &gt;.tar.gz* 。</block>
   <block id="49e341229d814a333d825781483ad07e" category="list-text">启动 Cloud Manager 并单击 * 数据感知 * 选项卡。</block>
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">单击 * 激活数据感知 * 。</block>
   <block id="af9d594fa710dc13ae352e89ff99e6a8" category="inline-image-macro">选择用于激活 Cloud Data sense 的按钮的屏幕截图。</block>
@@ -1555,7 +1554,6 @@
   <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令并将其保存在文本文件中。例如：</block>
   <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">`sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`</block>
   <block id="611c763bf4c9dbb7098d6afa814b754f" category="list-text">在 * 每个 * 扫描程序节点主机上：</block>
-  <block id="b9e3003f18210174193c0810ea8ea236" category="list-text">将 Data sense 安装程序文件（ * cc_onprem_installer_&lt;version&gt;.tar.gz* ）复制到主机。</block>
   <block id="d3d41a6c99806d8a969b69a369935644" category="list-text">解压缩安装程序文件。</block>
   <block id="05c158c3674b19417f2abea1a13ea2f3" category="list-text">粘贴并运行在步骤 3 中复制的命令。</block>
   <block id="184b6c7c3567a8ecd4dd8971fff94bfa" category="paragraph">在所有扫描程序节点上完成安装且这些节点已加入管理器节点后，管理器节点安装也会完成。</block>
@@ -1958,7 +1956,6 @@
   <block id="42d1c021036734670ca245849e323735" category="admonition">如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例<block ref="7ef29812cbbbb10ee35427be73d0c671" category="inline-link-rx"></block> 不同的数据源。</block>
   <block id="34dc49ad79c5d0ec1f3c661ca216a2a5" category="paragraph">在单个内部主机上安装 Data sense 软件时，请按照以下步骤进行操作。</block>
   <block id="7199b645acc24a52b20f838d1ed9b928" category="list-text">（可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。</block>
-  <block id="79a66f30e34f20fded2f221500a11bb4" category="list-text">从下载 Cloud Data sense 软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为 * cc_onprem_installer_&lt; 版本 &gt;.tar.gz* 。</block>
   <block id="bbdb5f5f026c712f36de4a68700316f5" category="list-text">将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。</block>
   <block id="a7f360748435372720f8441cac0e45c8" category="list-text">单击 * 激活数据感知 * 以启动内部部署向导。</block>
   <block id="202436dc011fc7327435fdc5f118df63" category="paragraph"><block ref="202436dc011fc7327435fdc5f118df63" category="inline-image-macro-rx" type="image"></block></block>
@@ -1972,7 +1969,6 @@
   <block id="7fe5eab00f11de0e16f1783ba30c4723" category="list-text">验证您的环境是否满足要求 <block ref="30279dbc704eb5aee887c19477ab8cc7" category="inline-xref-macro-rx"></block>。</block>
   <block id="2f22ab4135a481a1450cf28cb5f05c26" category="list-text">按照中的步骤 1 至 7 进行操作 <block ref="ca10c193ae29117fbfb6ce9e3e248e8b" category="inline-xref-macro-rx"></block> 在管理器节点上。</block>
   <block id="8b1cdcd166f0c70f7233d0d11c7bddf2" category="paragraph">除了可用于单主机安装的变量之外，还会使用一个新选项 * -n &lt;node_IP&gt;* 来指定扫描程序节点的 IP 地址。多个扫描程序节点 IP 以逗号分隔。</block>
-  <block id="16169a6db19d22fec1bd9261b3bb4156" category="list-text">将 Data sense 安装程序文件（ * cc_onprem_installer_&lt;version&gt;.tar.gz* ）复制到主机（使用 `scp` 或其他方法）。</block>
   <block id="3f0a4de61ad13ce65d1a7332a726eb8d" category="list-text">粘贴并执行步骤 3 中复制的命令。</block>
   <block id="338bab1be2b874ad2e6906e8c71283d5" category="paragraph">Cloud Data sense 安装程序将完成软件包， Docker 的安装并注册安装。安装可能需要 10 到 20 分钟。</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在向 NetApp 技术支持创建支持案例之前，您需要先将 NetApp 支持站点帐户添加到 Cloud Manager 中，然后注册获取支持。</block>
@@ -2141,7 +2137,6 @@
   <block id="d8ea74d0bc0e6f3c5be22312a953d7fb" category="list-text">许可证到期前 30 天，许可证到期后再次</block>
   <block id="e8c240ac70f9e6acaa6b979acb3be469" category="paragraph">如果您看到这些警告，请使用 Cloud Manager 界面右下角的聊天图标续订许可证。</block>
   <block id="c438a45ba498e9cee6eb5d6bb573e3dc" category="inline-xref">如何更新 Cloud Data sense 许可证</block>
-  <block id="6724e02efab0bd3c780354de786a5a3f" category="paragraph">此操作将提取安装文件 * cc_onprem_installer_&lt; 版本 &gt;.tar.gz* 。</block>
   <block id="06087ea3885ed7ac53f2f14132359adc" category="paragraph">Data sense 使用哈希技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。</block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
@@ -2164,10 +2159,6 @@
   <block id="ead7d63a9d9b27cce1fef2638b16cffc" category="paragraph">续订 BYOL 许可证后， Cloud Manager 会自动更新 Digital Wallet 中的许可证，并提供对所有信息板的完全访问权限。如果 Cloud Manager 无法通过安全 Internet 连接访问此许可证文件（例如，安装在非公开站点时），您可以自行获取此文件并手动将其上传到 Cloud Manager 。有关说明，请参见 <block ref="1f87c6b55e7e67883f99839aa3c20209" category="inline-xref-macro-rx"></block>。</block>
   <block id="becde272662faf1aa4393e2cd5fbf2f7" category="admonition">如果您正在使用的帐户同时具有 BYOL 许可证和 PAYGO 订阅，则在 BYOL 许可证到期后， Data sense _will not_ 将转移到 PAYGO 订阅。您必须续订 BYOL 许可证。</block>
   <block id="14aeecf5ef82e6232639978162b42963" category="paragraph">数据传输成本取决于您的设置。如果云数据感知实例和数据源位于同一可用性区域和区域，则不会产生数据传输成本。但是，如果数据源（例如 Cloud Volumes ONTAP 系统或 S3 存储分段）位于 _Different_ 可用性区域或区域，则云提供商会向您收取数据传输成本。有关详细信息，请参见以下链接：</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">添加 NSS 帐户</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">通过支持信息板，您可以从一个位置添加和管理所有 NetApp 支持站点帐户。</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">注册一个</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">如果您还没有 NetApp 支持站点帐户，<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在 Cloud Manager 控制台右上角，单击帮助图标，然后选择 * 支持 * 。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -2175,12 +2166,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">此操作可使 Cloud Manager 使用您的 NSS 帐户。</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">请注意，此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">注册您的帐户以获得支持</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支持注册可从 Cloud Manager 的支持信息板中获取。</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在 * 资源 * 选项卡中，单击 * 注册支持 * 。</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">选择要注册的 NSS 凭据，然后单击 * 注册 * 。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -2713,7 +2698,6 @@
   <block id="7e48ad5341563470bfb17d87eb4abfc2" category="paragraph">以这种方式安装（有时称为 " 脱机 " 或 " 暗 " 站点）时， Data sense 只能扫描内部站点本地数据源中的数据。此时、Data sense可以扫描以下*本地*数据源：</block>
   <block id="194dae59202982a0d0f86245341e5d21" category="paragraph">如果您需要非常安全的Cloud Manager安装、但也希望从OneDrive帐户或SharePoint Online帐户扫描本地数据、则可以使用Data sense脱机安装程序并提供对一些选定端点的Internet访问。请参见 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 了解详细信息。</block>
   <block id="6b5e137e04da5c1898139a8a7f549614" category="paragraph">如果Cloud Manager和Data sense部署在无法访问Internet的站点中、则可以通过为一些选定端点提供Internet访问来扫描SharePoint Online和OneDrive帐户中的文件。</block>
-  <block id="6ac5fc2b8fd7793f54ecc4e08500a270" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.14x版、则只能升级到1.15-x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="c6f85ba2c850ce9e6a70c3b08a6a69ce" category="cell">数据主题</block>
   <block id="3b2d0e0dc31143e6f51b137fffa0f7a2" category="list-text">数据感知痕迹</block>
   <block id="638bc83a47f3636cf5b909804535902e" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统中将删除有关该卷的所有索引编制和信息。暂停扫描意味着、Data sense不会在将来扫描存储库的更改或添加内容、但所有当前结果仍会显示在系统中。</block>
@@ -2770,4 +2754,65 @@
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager注意事项</block>
   <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
+  <block id="2152258e1def6997a945ef8261b66bcc" category="paragraph">此操作将提取所需的软件和实际安装文件*。datasENSE-installer-V1.16.1.tar.gz*。</block>
+  <block id="7dcbe0be3e8e2a9fd658d871499bd050" category="list-text">将数据感知安装程序文件(* DATASENSE-installer-Data.tar.gz*&lt;version&gt;)复制到主机。</block>
+  <block id="4866a563c343528540aa5c3529f908ca" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.15版、则只能升级到1.16.x如果您有几个主要版本，则需要多次升级此软件。</block>
+  <block id="eb2cb5912ef10d2dcff7761bde0a5ace" category="paragraph">此操作将提取安装文件* datasENSE-installer-V1.16.1.tar.gz*。</block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要先将NetApp 支持站点 (NSS)帐户添加到Cloud Manager中、然后注册获取支持。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">注册Cloud Manager帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于Cloud Manager的支持资源页面上)。</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">此ID可用作Cloud Manager中任何服务的单一支持订阅ID。必须注册每个Cloud Manager帐户级别的支持订阅。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">这些序列号通常称为_PAYGO序列号、并由Cloud Manager在部署Cloud Volumes ONTAP 时生成。</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">注册这两种类型的序列号可实现打开支持服务单、自动生成案例和Active IQ 等功能。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的注册方式取决于您是新客户还是现有客户或合作伙伴。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">现有客户或合作伙伴</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">作为现有NetApp客户或合作伙伴、您可以使用NetApp 支持站点 (NSS) SSO帐户执行上述注册。在支持信息板中、Cloud Manager提供了一个* NSS管理*页面、您可以在其中添加NSS帐户。添加NSS帐户后、Cloud Manager会自动为您注册这些序列号。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">了解如何添加NSS帐户</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新手</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">如果您是NetApp的新用户、则必须在NetApp的支持注册站点上一次性注册Cloud Manager帐户ID序列号。完成此注册并创建新的NSS帐户后、您可以在Cloud Manager中使用此帐户进行自动注册。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">了解如何向NetApp注册</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">将NSS帐户添加到Cloud Manager</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">通过支持信息板、您可以添加和管理NetApp 支持站点 帐户、以便与Cloud Manager结合使用。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户一起添加。</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">通过这些操作、Cloud Manager可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登录后、NetApp将存储NSS用户名。这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。使用此选项将提示您重新登录。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过Cloud Manager注册支持即可。</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">如果您尚未将NSS帐户添加到Cloud Manager中、请执行此操作。</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是现有的NetApp客户、拥有现有许可证和序列号、但拥有_no_ NSS帐户、则只需创建一个NSS帐户即可。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成以创建NetApp 支持站点 帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">请务必复制上面用于序列号字段的Cloud Manager帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">从支持注册页面找到您的Cloud Manager帐户ID序列号。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中、选择*云管理器*、然后选择适用的计费提供商。</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">复制上述第2步中的Cloud Manager帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系统会立即向提供的邮箱发送一封电子邮件、以完成此安全事务。如果验证电子邮件未在几分钟内收到、请务必检查您的垃圾邮件文件夹。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">在电子邮件中确认操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到Cloud Manager以添加此NSS帐户以供将来注册。</block>
+  <block id="ed2556b43fbc83ef9623cb9a52ff0389" category="list-text">从下载 Cloud Data sense 软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为* datasENSE-installer-datas.tar.gz*&lt;version&gt;。</block>
+  <block id="67fe0972cc96651c7684b8e71ee21edd" category="list-text">将数据感知安装程序文件(* datasENSE-installer-cp.tar.gz*&lt;version&gt;)复制到主机(使用`scp`或其他方法)。</block>
 </blocks>

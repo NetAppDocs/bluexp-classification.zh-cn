@@ -184,7 +184,7 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 
 
 .步骤
-. 从下载 Cloud Data sense 软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为 * cc_onprem_installer_< 版本 >.tar.gz* 。
+. 从下载 Cloud Data sense 软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
 . 将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。
 . 在 Cloud Manager 中，单击 * 数据感知 * 。
 . 单击 * 激活数据感知 * 。
@@ -203,7 +203,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在内部部署
 +
 [source, cli]
 ----
-tar -xzf cc_onprem_installer_1.14.0.tar.gz
+tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
 ----
 . 安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序：
 +
@@ -302,7 +302,7 @@ Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装�
 
 . 在 * 每个 * 扫描程序节点主机上：
 +
-.. 将 Data sense 安装程序文件（ * cc_onprem_installer_<version>.tar.gz* ）复制到主机（使用 `scp` 或其他方法）。
+.. 将数据感知安装程序文件(* datasENSE-installer-cp.tar.gz*<version>)复制到主机(使用`scp`或其他方法)。
 .. 解压缩安装程序文件。
 .. 粘贴并执行步骤 3 中复制的命令。
 +
