@@ -40,13 +40,13 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。
 启动安装向导以在云中部署 Cloud Data sense 实例。
 
 [role="quick-margin-para"]
-Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在这之后继续扫描数据，需要通过云提供商 Marketplace 订阅 Cloud Manager 或从 NetApp 获得 BYOL 许可证。
+在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据，需要通过云提供商 Marketplace 订阅 Cloud Manager 或从 NetApp 获得 BYOL 许可证。
 
 
 
 == 创建连接器
 
-如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["Cloud Manager 功能需要使用 Connector"]但在某些情况下，您需要立即设置一个。
+如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -93,10 +93,10 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 | 端点 | 目的 
 
 
-| https://cloudmanager.cloud.netapp.com | 与 Cloud Manager 服务进行通信，其中包括 NetApp 帐户。 
+| https://cloudmanager.cloud.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与 NetApp Cloud Central 进行通信以实现集中式用户身份验证。 
+| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
 | https://cloud-compliance-support-netapp.s3.us-west-2.amazonaws.com \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 提供对软件映像、清单和模板的访问。 
@@ -114,10 +114,10 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 | 端点 | 目的 
 
 
-| https://cloudmanager.cloud.netapp.com | 与 Cloud Manager 服务进行通信，其中包括 NetApp 帐户。 
+| https://cloudmanager.cloud.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与 NetApp Cloud Central 进行通信以实现集中式用户身份验证。 
+| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
 | https://support.compliance.cloudmanager.cloud.netapp.com/ \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
@@ -126,8 +126,8 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 | https://support.compliance.cloudmanager.cloud.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
 |===
 --
-确保 Cloud Manager 具有所需权限:: 确保 Cloud Manager 有权为 Cloud Data sense 实例部署资源并创建安全组。您可以在中找到最新的 Cloud Manager 权限 https://mysupport.netapp.com/site/info/cloud-manager-policies["NetApp 提供的策略"^]。
-检查 vCPU 限制:: 确保云提供商的 vCPU 限制允许部署包含 16 个核心的实例。您需要验证运行 Cloud Manager 的区域中相关实例系列的 vCPU 限制。 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["请参见所需的实例类型"]。
+确保BlueXP具有所需权限:: 确保BlueXP有权为云数据感知实例部署资源并创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+检查 vCPU 限制:: 确保云提供商的 vCPU 限制允许部署包含 16 个核心的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["请参见所需的实例类型"]。
 +
 --
 有关 vCPU 限制的详细信息，请参见以下链接：
@@ -141,7 +141,7 @@ Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在
 
 
 --
-确保 Cloud Manager Connector 可以访问 Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。
+确保BlueXP Connector可以访问Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。
 +
 --
 AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS 中连接器的规则"^] 了解详细信息。
@@ -150,10 +150,10 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 
 --
 确保您可以保持 Cloud Data sense 正常运行:: 云数据感知实例需要保持运行状态才能持续扫描数据。
-确保 Web 浏览器连接到 Cloud Data sense:: 启用 Cloud Data sense 后，请确保用户从连接到 Data sense 实例的主机访问 Cloud Manager 界面。
+确保 Web 浏览器连接到 Cloud Data sense:: 启用Cloud Data sense后、请确保用户从连接到Data sense实例的主机访问BlueXP界面。
 +
 --
-数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此，用于访问 Cloud Manager 的 Web 浏览器必须连接到该专用 IP 地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
+数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
 
 --
 
@@ -165,7 +165,7 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 按照以下步骤在云中部署 Cloud Data sense 实例。
 
 .步骤
-. 从Cloud Manager左侧导航菜单中、单击*数据感知*。
+. 从BlueXP左侧导航菜单中、单击*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
 image:screenshot_cloud_compliance_deploy_start.png["选择用于激活 Cloud Data sense 的按钮的屏幕截图。"]
@@ -181,7 +181,7 @@ image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的 Clo
 . 部署实例后，单击 * 继续配置 * 以转到 _Configuration_ 页面。
 
 
-Cloud Manager 在云提供商中部署 Cloud Data sense 实例。
+BlueXP会在您的云提供商中部署Cloud Data sense实例。
 
 在配置页面中，您可以选择要扫描的数据源。
 

@@ -43,7 +43,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS 弹性�
 在扫描 ONTAP 卷的 FSX 之前， https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["您必须具有配置了卷的 FSX 工作环境"^]。
 
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["在 Cloud Manager 中部署 Cloud Data sense"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如果尚未部署实例。
 
 [role="quick-margin-para"]
 单击 * 数据感知 * ，选择 * 配置 * 选项卡，然后为特定工作环境中的卷激活合规性扫描。
@@ -69,9 +69,9 @@ link:task-deploy-cloud-compliance.html["在 Cloud Manager 中部署 Cloud Data s
 
 == 正在发现要扫描的 FSX for ONTAP 文件系统
 
-如果您要扫描的适用于 ONTAP 的 FSX 文件系统尚未作为工作环境在 Cloud Manager 中，则可以此时将其添加到画布中。
+如果您要扫描的ONTAP 的FSX文件系统尚未作为工作环境在BlueXP中、则可以此时将其添加到画布中。
 
-https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["了解如何在 Cloud Manager 中发现或创建适用于 ONTAP 的 FSX 文件系统"^]。
+https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["了解如何在BlueXP中发现或创建适用于ONTAP 的FSX文件系统"^]。
 
 
 
@@ -91,7 +91,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 您可以为 ONTAP 卷的 FSX 启用云数据感知。
 
-. 从Cloud Manager左侧导航菜单中、单击*数据感知*、然后选择*配置*选项卡。
+. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
 +
 image:screenshot_fsx_scanning_activate.png["部署 Cloud Data sense 实例后立即显示配置选项卡的屏幕截图。"]
 
@@ -129,7 +129,7 @@ image:screenshot_fsx_scanning_no_network_error.png["扫描配置中 \" 查看详
 . 确保云数据感知实例与包含适用于 ONTAP 的 FSX 卷的每个网络之间存在网络连接。
 +
 
-NOTE: 对于适用于 ONTAP 的 FSX ， Cloud Data sense 只能扫描与 Cloud Manager 位于同一区域的卷。
+NOTE: 对于适用于ONTAP 的FSX、云数据感知只能扫描与BlueXP位于同一区域的卷。
 
 . 确保以下端口对 Data sense 实例开放：
 +
@@ -140,8 +140,7 @@ NOTE: 对于适用于 ONTAP 的 FSX ， Cloud Data sense 只能扫描与 Cloud M
 . 确保 NFS 卷导出策略包含 Data sense 实例的 IP 地址，以便它可以访问每个卷上的数据。
 . 如果使用 CIFS ，请为 Data sense 提供 Active Directory 凭据，以便它可以扫描 CIFS 卷。
 +
-.. 在 Cloud Manager 顶部，单击 * 数据感知 * 。
-.. 单击 * 配置 * 选项卡。
+.. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
 .. 对于每个工作环境，单击 * 编辑 CIFS 凭据 * ，然后输入 Data sense 访问系统上 CIFS 卷所需的用户名和密码。
 +
 这些凭据可以是只读的，但提供管理员凭据可确保 Data sense 可以读取任何需要提升权限的数据。这些凭据存储在 Cloud Data sense 实例上。

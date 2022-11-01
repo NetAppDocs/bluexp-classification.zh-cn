@@ -33,7 +33,7 @@ summary: 完成以下几个步骤，在您的网络或云中可访问 Internet �
 您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。
 
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。  Cloud Manager and Data Sense prerequisites,请参见完整列表。
+确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。  BlueXP and Data Sense prerequisites,请参见完整列表。
 
 [role="quick-margin-para"]
 您还需要满足的 Linux 系统  the Linux host system,以下要求。
@@ -42,13 +42,13 @@ summary: 完成以下几个步骤，在您的网络或云中可访问 Internet �
 从 NetApp 支持站点下载 Cloud Data sense 软件，并将安装程序文件复制到您计划使用的 Linux 主机。然后启动安装向导并按照提示部署 Data sense 实例。
 
 [role="quick-margin-para"]
-Cloud Manager 中 Cloud Data 感知扫描的前 1 TB 数据是免费的。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
+在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
 
 
 
 == 创建连接器
 
-如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["Cloud Manager 功能需要使用 Connector"]但在某些情况下，您需要立即设置一个。
+如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -105,7 +105,7 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 
 
 
-== 验证 Cloud Manager 和 Data sense 前提条件
+== 验证BlueXP和Data sense前提条件
 
 在 Linux 系统上部署 Cloud Data sense 之前，请查看以下前提条件，以确保您的配置受支持。
 
@@ -117,10 +117,10 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 | 端点 | 目的 
 
 
-| https://cloudmanager.cloud.netapp.com | 与 Cloud Manager 服务进行通信，其中包括 NetApp 帐户。 
+| https://cloudmanager.cloud.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与 NetApp Cloud Central 进行通信以实现集中式用户身份验证。 
+| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
 | https://support.compliance.cloudmanager.cloud.netapp.com/ \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
@@ -132,20 +132,20 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 | https://github.com/docker \https://download.docker.com \http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm | 提供安装必备软件包。 
 |===
 --
-确保 Cloud Manager 具有所需权限:: 确保 Cloud Manager 有权为 Cloud Data sense 实例部署资源并创建安全组。您可以在中找到最新的 Cloud Manager 权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
-确保 Cloud Manager Connector 可以访问 Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。
+确保BlueXP具有所需权限:: 确保BlueXP有权为云数据感知实例部署资源并创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+确保BlueXP Connector可以访问Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。
 +
 --
 通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。
 
-确保端口 8080 已打开，以便您可以在 Cloud Manager 中查看安装进度。
+确保端口8080已打开、以便您可以在BlueXP中查看安装进度。
 
 --
 确保您可以保持 Cloud Data sense 正常运行:: 云数据感知实例需要保持运行状态才能持续扫描数据。
-确保 Web 浏览器连接到 Cloud Data sense:: 启用 Cloud Data sense 后，请确保用户从连接到 Data sense 实例的主机访问 Cloud Manager 界面。
+确保 Web 浏览器连接到 Cloud Data sense:: 启用Cloud Data sense后、请确保用户从连接到Data sense实例的主机访问BlueXP界面。
 +
 --
-数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此，用于访问 Cloud Manager 的 Web 浏览器必须连接到该专用 IP 地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
+数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
 
 --
 
@@ -162,7 +162,7 @@ image:diagram_deploy_onprem_single_host_internet.png["一个示意图、显示�
 
 image:diagram_deploy_onprem_multi_host_internet.png["一个示意图、显示了在使用通过Internet访问部署在内部的多个数据感知实例时可以扫描的数据源的位置。"]
 
-请参见  the Linux host system,准备 Linux 主机系统 和  Cloud Manager and Data Sense prerequisites,查看前提条件 了解部署 Cloud Data sense 之前的完整要求列表。
+请参见  the Linux host system,准备 Linux 主机系统 和  BlueXP and Data Sense prerequisites,查看前提条件 了解部署 Cloud Data sense 之前的完整要求列表。
 
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 
@@ -180,13 +180,13 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 * （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
 * 确保您在 Linux 系统上具有 root 权限。
 * 如果您使用的是代理，并且代理正在执行 TLS 截获，则需要了解 Data sense Linux 系统上用于存储 TLS CA 证书的路径。
-* 验证脱机环境是否满足要求  Cloud Manager and Data Sense prerequisites,权限和连接。
+* 验证脱机环境是否满足要求  BlueXP and Data Sense prerequisites,权限和连接。
 
 
 .步骤
 . 从下载 Cloud Data sense 软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
 . 将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。
-. 在 Cloud Manager 中，单击 * 数据感知 * 。
+. 在BlueXP中、选择*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
 image:screenshot_cloud_compliance_deploy_start.png["选择用于激活 Cloud Data sense 的按钮的屏幕截图。"]
@@ -215,8 +215,8 @@ tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
  a| 
 .. 粘贴您从第 6 步复制的信息： `sUdo ./install.sh -a <account_id> -c <agent_id> -t <token>`
 .. 输入 Data sense 主机的 IP 地址或主机名，以便 Connector 实例可以访问它。
-.. 输入 Cloud Manager Connector 主机的 IP 地址或主机名，以便 Data sense 实例可以访问它。
-.. 根据提示输入代理详细信息。如果您的 Cloud Manager 已使用代理，则无需在此重新输入此信息，因为 Data sense 将自动使用 Cloud Manager 使用的代理。
+.. 输入BlueXP Connector主机的IP地址或主机名、以便Data sense实例可以访问它。
+.. 根据提示输入代理详细信息。如果您的BlueXP Connector已使用代理、则无需在此再次输入此信息、因为Data sense将自动使用此连接器使用的代理。
 
 | 或者，您也可以预先创建整个命令，并提供必要的主机和代理参数： `s` udo ./install.sh -a <account_id> -c <agent_id> -t <token> -host <ds_host> -manager-host <cm_host> -proxy-host <proxy_host> -proxy-port <proxy_port> -proxy-user-proxy_name> <proxy_password> -proxy_proxy_proxy_name> -proxy_proxy_proxy_proxy_proxy_name> -<proxy_user> 
 |===
@@ -228,7 +228,7 @@ tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
 ** _agent_id_ = 连接器 ID
 ** _token_ = JWT 用户令牌
 ** _ds_host_ = Data sense Linux 系统的 IP 地址或主机名。
-** _cm_host_ = Cloud Manager Connector 系统的 IP 地址或主机名。
+** _cm_host_= BlueXP Connector系统的IP地址或主机名。
 ** _proxy_host_ = 代理服务器的 IP 或主机名（如果主机位于代理服务器之后）。
 ** _proxy_port_ = 用于连接到代理服务器的端口（默认值为 80 ）。
 ** _proxy_scheme_= 连接方案： HTTPS 或 http （默认为 http ）。
@@ -241,7 +241,7 @@ tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
 
 Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装以及安装 Data sense 。安装可能需要 10 到 20 分钟。
 
-如果主机和 Connector 实例之间通过端口 8080 建立连接，则您将在 Cloud Manager 的 Data sense 选项卡中看到安装进度。
+如果主机和Connector实例之间通过端口8080建立连接、您将在BlueXP的数据感知选项卡中看到安装进度。
 
 在配置页面中，您可以选择要扫描的数据源。
 
@@ -259,7 +259,7 @@ Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装�
 * 验证管理器和扫描程序节点的所有 Linux 系统是否都符合  the Linux host system,主机要求。
 * （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
 * 确保您在 Linux 系统上具有 root 权限。
-* 验证您的环境是否满足要求  Cloud Manager and Data Sense prerequisites,权限和连接。
+* 验证您的环境是否满足要求  BlueXP and Data Sense prerequisites,权限和连接。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。
 * 必须在所有主机上启用以下端口和协议：
 +

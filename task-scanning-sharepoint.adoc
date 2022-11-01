@@ -56,7 +56,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 
 
-如果将Data sense安装在无法访问Internet的站点上、则Cloud Manager Connector也必须安装在无法访问Internet的同一站点上。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["了解更多信息。"^]。
+如果将Data sense安装在无法访问Internet的站点上、则也必须在无法访问Internet的同一站点上安装BlueXP Connector。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["了解更多信息。"^]。
 
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 

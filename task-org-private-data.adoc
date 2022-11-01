@@ -18,9 +18,9 @@ Cloud Data sense 为您提供了多种管理和组织私有数据的方式。这
 
 * 如果您已订阅 link:https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^] 要对文件进行分类和保护，您可以使用 Cloud Data sense 管理这些 AIP 标签。
 * 您可以将标记添加到要标记用于组织或某种类型的跟进的文件中。
-* 您可以将一个 Cloud Manager 用户分配给一个特定文件或多个文件，以便此用户可以负责管理此文件。
+* 您可以将一个BlueXP用户分配给一个特定文件或多个文件、以便此用户可以负责管理此文件。
 * 使用 " 策略 " 功能，您可以创建自己的自定义搜索查询，以便通过单击一个按钮轻松查看结果。
-* 当某些关键策略返回结果时，您可以向 Cloud Manager 用户发送电子邮件警报。
+* 当某些关键策略返回结果时、您可以向BlueXP用户发送电子邮件警报。
 
 
 
@@ -71,7 +71,7 @@ Cloud Data sense 支持以下文件类型中的 AIP 标签： .DOC ， .docx ，
 
 === 在工作空间中集成 AIP 标签
 
-在管理 AIP 标签之前，您需要通过登录到现有 Azure 帐户将 AIP 标签功能集成到 Cloud Data sense 中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-data-sources["数据源"^] 在 Cloud Manager 工作空间中。
+在管理 AIP 标签之前，您需要通过登录到现有 Azure 帐户将 AIP 标签功能集成到 Cloud Data sense 中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-data-sources["数据源"^] 在您的BlueXP工作空间中。
 
 .要求
 * 您必须拥有帐户和 Azure 信息保护许可证。
@@ -215,7 +215,7 @@ image:screenshot_compliance_un_integrate_aip_labels.png["显示如何删除与 C
 
 使用 Data sense ，您可以查看分配给文件的标记，在文件中添加或删除标记，以及更改名称或删除现有标记。
 
-请注意，标记添加到文件中的方式与 AIP 标签是文件元数据的一部分不同。使用 Cloud Data sense 的 Cloud Manager 用户可以看到此标记，因此您可以查看是否需要删除文件或检查文件以进行某种类型的跟进。
+请注意，标记添加到文件中的方式与 AIP 标签是文件元数据的一部分不同。使用Cloud Data sense的BlueXP用户可以看到此标记、因此您可以查看是否需要删除某个文件或检查某个文件以进行某种类型的跟进。
 
 
 TIP: 在 Cloud Data sense 中分配给文件的标记与您可以添加到资源（例如卷或虚拟机实例）的标记无关。数据感知标记在文件级别应用。
@@ -302,11 +302,11 @@ image:button_delete_datasense_file_tag.png["请将此内容添加到此主题的
 
 == 分配用户以管理某些文件
 
-您可以将一个 Cloud Manager 用户分配给一个特定文件或多个文件，以便此用户可以负责对该文件执行任何后续操作。此功能通常与功能结合使用，用于向文件添加自定义状态标记。
+您可以将一个BlueXP用户分配给一个特定文件或多个文件、以便此用户可以负责对该文件执行任何后续操作。此功能通常与功能结合使用，用于向文件添加自定义状态标记。
 
 例如，您的文件可能包含某些个人数据，这些数据允许过多的用户进行读写访问（打开权限）。因此，您可以将状态标记 " 更改权限 " 并将此文件分配给用户 "Joan Smith" ，以便用户确定如何修复问题描述。修复问题描述后，他们可以将状态标记更改为 " 已完成 " 。
 
-请注意，用户名不会作为文件元数据的一部分添加到文件中， Cloud Manager 用户只会在使用 Cloud Data sense 时看到此用户名。
+请注意、用户名不会作为文件元数据的一部分添加到文件中、而是仅供BlueXP用户在使用Cloud Data sense时查看。
 
 通过 " 调查 " 页面中的新筛选器，您可以轻松查看 " 已分配给 " 字段中具有相同人员的所有文件。
 
@@ -355,7 +355,7 @@ image:screenshot_compliance_select_user_multi.png["显示如何在 \" 数据调�
 *  of predefined Policies,预定义策略 基于用户请求从 NetApp 获得
 * 能够创建自己的自定义策略
 * 单击一下即可启动包含策略结果的调查页面
-* 当某些关键策略返回结果时，向 Cloud Manager 用户发送电子邮件警报，以便您可以获得保护数据的通知
+* 当某些关键策略返回结果时、向BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知
 * 将 AIP （ Azure 信息保护）标签自动分配给与策略中定义的标准匹配的所有文件
 * 如果某些策略返回结果，则会自动删除文件（每天删除一次），以便您可以自动保护数据
 
@@ -392,7 +392,7 @@ image:screenshot_compliance_save_as_highlight.png["显示如何将筛选的查�
 +
 .. 输入唯一名称和问题描述。
 .. 或者，选中此框可自动删除与策略参数匹配的文件。了解更多信息 link:task-managing-highlights.html#deleting-source-files-automatically-using-policies["使用策略删除源文件"]。
-.. 或者，如果您希望向 Cloud Manager 用户发送通知电子邮件，请选中此框，然后选择发送电子邮件的间隔。了解更多信息 link:task-org-private-data.html#sending-email-alerts-when-non-compliant-data-is-found["根据策略结果发送电子邮件警报"]。
+.. 或者、如果您希望将通知电子邮件发送给BlueXP用户、请选中此复选框、然后选择发送电子邮件的间隔。了解更多信息 link:task-org-private-data.html#sending-email-alerts-when-non-compliant-data-is-found["根据策略结果发送电子邮件警报"]。
 .. 或者，选中此框可自动为与策略参数匹配的文件分配 AIP 标签，然后选择此标签。（仅当您已集成 AIP 标签时。了解更多信息 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"]）
 .. 单击 * 创建策略 * 。
 +
@@ -408,7 +408,7 @@ image:screenshot_compliance_save_highlight.png["显示如何配置和保存策�
 
 === 在发现不合规数据时发送电子邮件警报
 
-当某些关键策略返回结果时， Cloud Data sense 可以向 Cloud Manager 用户发送电子邮件警报，以便您可以获得保护数据的通知。您可以选择每天，每周或每月发送电子邮件通知。
+当某些关键策略返回结果时、Cloud Data sense可以向BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知。您可以选择每天，每周或每月发送电子邮件通知。
 
 您可以在创建策略或编辑任何策略时配置此设置。
 
@@ -419,7 +419,7 @@ image:screenshot_compliance_save_highlight.png["显示如何配置和保存策�
 +
 image:screenshot_compliance_add_email_alert_1.png["显示如何编辑现有策略的屏幕截图。"]
 
-. 在编辑策略页面中，如果要向 Cloud Manager 用户发送通知电子邮件，请选中此框，然后选择发送电子邮件的间隔（例如，每 * 周 * ）。
+. 在编辑策略页面中、如果要向BlueXP用户发送通知电子邮件、请选中此框、然后选择发送电子邮件的间隔(例如、每*周*)。
 +
 image:screenshot_compliance_add_email_alert_2.png["屏幕截图显示了如何为策略选择要发送的电子邮件条目的方式。"]
 

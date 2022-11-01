@@ -26,7 +26,7 @@ summary: 如果您只是在寻找一个问题的快速答案，此常见问题�
 
 === 什么是云数据的意义？
 
-Cloud Data sense是一款云产品、它使用人工智能(AI)驱动的技术帮助您了解数据环境并识别存储系统中的敏感数据。这些系统可以是您添加到Cloud Manager Canvas中的工作环境、也可以是Data sense可以通过网络访问的多种类型的数据源。  sources of data can be scanned with Data Sense,请参见下面的完整列表。
+Cloud Data sense是一款云产品、它使用人工智能(AI)驱动的技术帮助您了解数据环境并识别存储系统中的敏感数据。这些系统可以是您添加到BlueXP Canvas中的工作环境、也可以是Data sense可以通过网络访问的多种类型的数据源。  sources of data can be scanned with Data Sense,请参见下面的完整列表。
 
 Cloud Data sense 提供了预定义的参数（例如敏感信息类型和类别），用于满足有关数据隐私和敏感度的新数据合规性法规，例如 GDPR ， CCPA ， HIPAA 等。
 
@@ -34,7 +34,7 @@ Cloud Data sense 提供了预定义的参数（例如敏感信息类型和类别
 
 === 云数据感知的工作原理是什么？
 
-Cloud Data sense 可在 Cloud Manager 系统和存储系统的同时部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
+Cloud Data sense可在您的BlueXP系统和存储系统中部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
 
 link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原理"^]。
 
@@ -62,19 +62,19 @@ Cloud Data sense可根据您的选择在云中或内部部署单个服务器或�
 
 === 支持哪些云提供商？
 
-Cloud Data sense 作为 Cloud Manager 的一部分运行，并支持 AWS ， Azure 和 GCP 。这样，您的组织就可以在不同的云提供商之间实现统一的隐私可见性。
+Cloud Data sense作为BlueXP的一部分运行、并支持AWS、Azure和GCP。这样，您的组织就可以在不同的云提供商之间实现统一的隐私可见性。
 
 
 
 === Cloud Data sense是否具有REST API？它是否可与第三方工具配合使用？
 
-Cloud Manager的服务支持REST API功能。如果Cloud Manager不是首选管理点、则Cloud Data sense等服务也可以通过REST API来使用。每个用户操作都有一个可与第三方系统集成的REST API。
+BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用云数据感知等服务。每个用户操作都有一个可与第三方系统集成的REST API。
 
 
 
 === 云数据感知是否可通过市场获得？
 
-是的、Cloud Manager和Cloud Data sense可从AWS、Azure和GCP市场获得。
+是的、可从AWS、Azure和GCP市场访问BlueXP和Cloud Data sense。
 
 
 
@@ -138,7 +138,7 @@ HIPAA 报告:: 帮助您确定运行状况信息在文件中的分布情况。 l
 
 === 如何启用 Cloud Data sense ？
 
-首先、您需要在Cloud Manager中或内部系统上部署Cloud Data sense实例。实例运行后、您可以从*数据感知*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用此服务。
+首先、您需要在BlueXP中或内部系统上部署Cloud Data sense实例。实例运行后、您可以从*数据感知*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用此服务。
 
 link:task-getting-started-compliance.html["了解如何开始使用"^]。
 
@@ -170,7 +170,7 @@ link:task-managing-data-fusion.html#creating-custom-personal-data-identifiers-fr
 
 === 是否可以将云数据感知信息限制为特定用户？
 
-是的， Cloud Data sense 已与 Cloud Manager 完全集成。Cloud Manager 用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
+是的、Cloud Data sense已与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
 
 此外、如果您希望允许某些用户只查看数据感知扫描结果而不能管理数据感知设置、则可以为这些用户分配Cloud Compliance Viewer角色。
 
@@ -194,7 +194,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === Cloud Data sense 能否向我的组织发送通知？
 
-是的。通过与策略功能结合使用，您可以在策略返回结果时向 Cloud Manager 用户发送电子邮件警报（每日，每周或每月），以便您可以收到保护数据的通知。了解更多信息 link:task-org-private-data.html#controlling-your-data-using-policies["策略"^]。
+是的。与策略功能结合使用、您可以在策略返回结果时向BlueXP用户发送电子邮件警报(每日、每周或每月)、以便您可以获得保护数据的通知。了解更多信息 link:task-org-private-data.html#controlling-your-data-using-policies["策略"^]。
 
 您还可以从 " 监管 " 页面和 " 调查 " 页面下载状态报告，并在组织内部共享这些报告。
 
@@ -216,7 +216,7 @@ link:task-org-private-data.html#categorizing-your-data-using-aip-labels["了解�
 
 === 可以使用Data sense扫描哪些数据源？
 
-Cloud Data sense可以扫描您添加到Cloud Manager Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种结构化和非结构化数据源中的数据。
+Cloud Data sense可以扫描您添加到BlueXP Canvas的工作环境中的数据、以及Data sense可以通过网络访问的多种结构化和非结构化数据源中的数据。
 
 * 工作环境： *
 
@@ -303,7 +303,7 @@ Data sense仅扫描元数据。这对于整体数据管理和监管、快速的�
 
 === 云数据的成本有多高？
 
-使用 Cloud Data sense 的成本取决于您要扫描的数据量。Data sense 在 Cloud Manager 工作空间中扫描的前 1 TB 数据是免费的。达到此限制后、您需要执行以下操作之一才能继续扫描超过1 TB的数据：
+使用 Cloud Data sense 的成本取决于您要扫描的数据量。在BlueXP工作空间中、Data sense扫描的前1 TB数据是免费的。达到此限制后、您需要执行以下操作之一才能继续扫描超过1 TB的数据：
 
 * 您的云提供商或订阅Cloud Manager Marketplace列表
 * NetApp自带许可证(BYOL)
@@ -321,13 +321,13 @@ Data sense仅扫描元数据。这对于整体数据管理和监管、快速的�
 
 == 连接器部署
 
-以下问题与Cloud Manager Connector相关。
+以下问题与BlueXP Connector相关。
 
 
 
 === 什么是连接器？
 
-Connector是在您的云帐户或内部环境中的计算实例上运行的软件、可使Cloud Manager安全地管理云资源。您必须部署Connector才能使用Cloud Data sense。
+Connector是在您的云帐户或内部环境中的计算实例上运行的软件、可使BlueXP安全地管理云资源。您必须部署Connector才能使用Cloud Data sense。
 
 
 
@@ -363,7 +363,7 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 === Cloud Data sense支持哪些部署模式？
 
-Cloud Manager允许用户几乎在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过Cloud Manager界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、无论数据存储是在内部还是在公有 云中、都可以进行数据管理。
+借助BlueXP、用户几乎可以在任何位置扫描和报告系统、包括内部环境、云和混合环境。Cloud Data sense通常使用SaaS模式进行部署、在这种模式下、服务通过BlueXP界面启用、无需安装硬件或软件。即使在这种即点即用的部署模式下、无论数据存储是在内部还是在公有 云中、都可以进行数据管理。
 
 
 
@@ -384,7 +384,7 @@ link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原�
 
 === 是否可以在自己的主机上部署Data sense？
 
-是的。您可以在可通过网络或云访问 Internet 的 Linux 主机上安装 Data sense 软件。所有功能均相同，您可以继续通过 Cloud Manager 管理扫描配置和结果。请参见 link:task-deploy-compliance-onprem.html["在内部部署 Cloud Data sense"] 了解系统要求和安装详细信息。
+是的。您可以在可通过网络或云访问 Internet 的 Linux 主机上安装 Data sense 软件。一切都运行正常、您可以继续通过BlueXP管理扫描配置和结果。请参见 link:task-deploy-compliance-onprem.html["在内部部署 Cloud Data sense"] 了解系统要求和安装详细信息。
 
 
 

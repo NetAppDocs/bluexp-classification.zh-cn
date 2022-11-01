@@ -83,7 +83,7 @@ CAUTION: 数据库中必须启用 * 统计信息收集功能。
 
 如果要扫描可通过 Internet 访问的数据库架构，则可以 link:task-deploy-cloud-compliance.html["在云中部署 Cloud Data sense"^] 或 link:task-deploy-compliance-onprem.html["在可访问 Internet 的内部位置部署 Data sense"^]。
 
-如果要扫描的数据库架构安装在无法访问 Internet 的非公开站点中，则需要执行 link:task-deploy-compliance-dark-site.html["在无法访问 Internet 的同一内部位置部署 Cloud Data sense"^]。这还要求 Cloud Manager Connector 部署在同一内部位置。
+如果要扫描的数据库架构安装在无法访问 Internet 的非公开站点中，则需要执行 link:task-deploy-compliance-dark-site.html["在无法访问 Internet 的同一内部位置部署 Cloud Data sense"^]。这还要求在同一内部位置部署BlueXP Connector。
 
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 

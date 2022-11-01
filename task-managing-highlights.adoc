@@ -181,7 +181,7 @@ image:screenshot_compliance_sync_files_dialog.png["显示复制文件对话框�
 
 . 如果确实要将选定文件同步到目标位置，请单击 * 确定 * 。
 +
-Cloud Sync UI 将在 Cloud Manager 中打开。
+Cloud Sync UI将在BlueXP中打开。
 
 +
 系统将提示您定义同步关系。源系统会根据您在 Data sense 中选择的存储库和文件预先填充。
