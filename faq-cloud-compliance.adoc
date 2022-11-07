@@ -233,7 +233,7 @@ Cloud Data sense可以扫描您添加到BlueXP Canvas的工作环境中的数据
 * 对象存储（使用 S3 协议）
 * 数据库(Amazon RDS、MongoDB、MySQL、Oracle、PostgreSQL、 SAP HANA、SQL Server)
 * OneDrive 帐户
-* SharePoint Online帐户
+* SharePoint Online和内部部署帐户
 * Google Drive帐户
 
 

@@ -147,7 +147,7 @@ image:screenshot_compliance_file_details.png["显示数据调查页面中文件�
 
 == 查看文件和目录的权限
 
-要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint和OneDrive中的数据。
+要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。
 
 请注意，如果您看到的是 SID （安全标识符），而不是用户和组名称，则应将 Active Directory 集成到 Data sense 中。 link:task-add-active-directory-datasense.html["了解如何执行此操作"]。
 

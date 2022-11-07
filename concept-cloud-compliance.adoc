@@ -104,6 +104,7 @@ Cloud Data sense可以扫描和分析以下类型数据源中的结构化和非�
 * Google Cloud 存储
 * OneDrive
 * SharePoint Online
+* SharePoint内部部署(SharePoint Server)
 * Google Drive
 
 

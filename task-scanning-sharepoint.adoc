@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-sharepoint.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
-summary: 完成几个步骤、使用Cloud Data sense开始扫描SharePoint Online帐户中的文件。 
+summary: 通过Cloud Data sense完成几个步骤、开始扫描SharePoint Online和SharePoint内部部署帐户中的文件。 
 ---
 = 扫描 SharePoint 帐户
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 完成几个步骤、使用Cloud Data sense开始扫描SharePoint Onlin
 
 
 [role="lead"]
-完成几个步骤、使用Cloud Data sense开始扫描SharePoint Online帐户中的文件。
+通过Cloud Data sense完成几个步骤、开始扫描SharePoint Online和SharePoint内部部署帐户中的文件。
 
 
 
@@ -41,6 +41,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 请查看以下前提条件、以确保您已准备好在SharePoint帐户上激活Cloud Data sense。
 
 * 您必须具有可对所有 SharePoint 站点进行读取访问的 SharePoint 帐户的管理员登录凭据。
+* 对于内部部署的SharePoint、您还需要SharePoint Server的URL。
 * 对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。
 
 
@@ -54,6 +55,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 +
 数据感知也可以是 link:task-deploy-compliance-dark-site.html["部署在无法访问 Internet 的内部位置"^]。但是、要扫描SharePoint Online文件、您需要为一些选定端点提供Internet访问。 link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["请在此处查看所需端点的列表"]。
 
+* 对于内部SharePoint、可以安装Data sense link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^] 或 link:task-deploy-compliance-dark-site.html["位于无法访问Internet的内部位置"^]。
 
 
 如果将Data sense安装在无法访问Internet的站点上、则也必须在无法访问Internet的同一站点上安装BlueXP Connector。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["了解更多信息。"^]。
@@ -79,9 +81,34 @@ SharePoint Online帐户将添加到工作环境列表中。
 
 
 
+== 添加SharePoint内部部署帐户
+
+添加用户文件所在的SharePoint内部部署帐户。
+
+.步骤
+. 在工作环境配置页面中、单击*添加数据源*>*添加SharePoint内部部署帐户*。
++
+image:screenshot_compliance_add_sharepoint_onprem_button.png["配置页面的屏幕截图、您可以在其中单击添加SharePoint内部部署按钮。"]
+
+. 在登录到SharePoint内部部署服务器对话框中、输入以下信息：
++
+** 采用"域/用户"或"用户@域"格式的管理员用户、以及管理员密码
+** SharePoint Server的URL
++
+image:screenshot_compliance_sharepoint_onprem.png["显示SharePoint内部部署帐户登录信息的屏幕截图。"]
+
+
+
+. 单击 * 连接 * 。
+
+
+SharePoint内部部署帐户将添加到工作环境列表中。
+
+
+
 == 将 SharePoint 站点添加到合规性扫描
 
-您可以在帐户中添加单个 SharePoint 站点或所有 SharePoint 站点，以便 Cloud Data sense 扫描关联的文件。
+您可以在帐户中添加单个 SharePoint 站点或所有 SharePoint 站点，以便 Cloud Data sense 扫描关联的文件。添加SharePoint Online或SharePoint内部部署站点时、步骤相同。
 
 .步骤
 . 在 _Configuration_ 页面中，单击 SharePoint 帐户的 * 配置 * 按钮。
