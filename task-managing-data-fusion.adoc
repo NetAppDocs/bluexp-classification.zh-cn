@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-data-fusion.html 
 keywords: data identifiers, personal data, sensitive personal data, compliance, data fusion, data sense 
-summary: 'Data sense为您提供了两种添加自定义"个人数据"列表的方法、Data sense将在未来扫描中识别这些数据、从而让您全面了解潜在敏感数据在所有组织文件中的位置。' 
+summary: 'Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在所有组织文件中的位置。' 
 ---
 = 将个人数据标识符添加到Data sense扫描中
 :hardbreaks:
@@ -14,9 +14,10 @@ summary: 'Data sense为您提供了两种添加自定义"个人数据"列表的�
 
 
 [role="lead"]
-Data sense为您提供了两种添加自定义"个人数据"列表的方法、Data sense将在未来扫描中识别这些数据、从而让您全面了解潜在敏感数据在_all_组织的文件中的位置。
+Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在组织的_all_文件中的位置。
 
 * 您可以根据要扫描的数据库中的特定列添加唯一标识符。
+* 您可以从文本文件中添加自定义关键字—这些字在数据中标识。
 * 您可以使用正则表达式(regex)添加个人模式—正则表达式将添加到现有预定义模式中。
 
 
@@ -25,17 +26,17 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 
 
-== 从数据库创建自定义个人数据标识符
+== 从数据库中添加自定义个人数据标识符
 
-我们称为_Data Fusion _的一项功能可用于扫描组织的数据、以确定在文件或其他数据库中是否找到数据库中的唯一标识符。您可以通过在数据库表中选择特定列来选择 Cloud Data sense 在其扫描中查找的其他标识符。例如，下图显示了如何使用 Data Fusion 扫描卷，分段和数据库，以确定 Oracle 数据库中所有客户 ID 是否存在。
+我们称为_Data Fusion _的一项功能可用于扫描组织的数据、以确定您的数据库中的唯一标识符是否位于任何其他数据源中。您可以通过在数据库表中选择特定列来选择Data sense在其扫描中查找的其他标识符。例如，下图显示了如何使用 Data Fusion 扫描卷，分段和数据库，以确定 Oracle 数据库中所有客户 ID 是否存在。
 
 image:diagram_compliance_data_fusion.png["一个图，显示如何将数据库中的内容用作源来标识包含相同数据的文件。"]
 
 如您所见，在两个卷和一个 S3 存储分段中发现了两个唯一的客户 ID 。此外，还将确定数据库表中的任何匹配项。
 
-请注意、由于您正在扫描自己的数据库、因此无论您的数据存储使用何种语言、在未来的Cloud Data sense扫描中都将用于标识数据。
+请注意、由于您正在扫描自己的数据库、因此无论您的数据存储使用何种语言、在未来的Data sense扫描中都将用于标识数据。
 
-您必须拥有 link:task-scanning-databases.html#adding-the-database-server["已至少添加一个数据库服务器"^] 在添加数据 Fusion 源之前，请先将数据迁移到云数据感知。
+您必须拥有 link:task-scanning-databases.html#adding-the-database-server["已至少添加一个数据库服务器"^] 添加数据Fusion 源之前、请先将此消息添加到Data sense中。
 
 . 在配置页面中，单击源数据所在数据库中的 * 管理 Data Fusion * 。
 +
@@ -57,7 +58,7 @@ image:screenshot_compliance_add_data_fusion.png["用于标识数据 Fusion 源�
 
 . 单击 * 添加 Data Fusion 源 * 。
 +
-Data Fusion 清单页面将显示您为 Cloud Data sense 配置的要扫描的数据库源列。
+Data Fusion 清单页面显示您已将Data sense配置为扫描的数据库源列。
 
 +
 image:screenshot_compliance_data_fusion_list.png["您已使用 Data Fusion 配置的所有数据源引用的屏幕截图。"]
@@ -70,7 +71,7 @@ image:screenshot_add_data_fusion_result.png["在\"调查结果\"窗格中显示D
 
 
 
-=== 删除 Data Fusion 源
+=== 删除Data Fusion 源
 
 如果您在某个时刻决定不使用某个 Data Fusion 源扫描文件，则可以从 Data Fusion 清单页面中选择源行，然后单击 * 删除 Data Fusion 源 * 。
 
@@ -78,45 +79,136 @@ image:screenshot_compliance_delete_data_fusion.png["显示如何删除数据 Fus
 
 
 
-== 使用正则表达式创建自定义个人数据标识符
+== 从文本文件添加自定义关键字
 
-您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
+您可以将自定义关键字添加到Data sense中、以便它可以识别数据中的特定信息。您可以从定义的文本文件添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。
 
-例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。
+例如、您可能希望查看所有文件中提及内部产品名称的位置、以确保这些名称在不安全的位置不可访问。
+
+更新自定义关键字后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。
+
+您必须在Data sense系统的以下位置添加或创建包含自定义关键字的文本文件：
+
+ /opt/netapp/Datasense/tools/datascience/custom_keywords/keywords_sets
+您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件的格式为每行一个字、例如：
+
+_internal_product_names.txt_
+
+....
+barred
+barn
+horned
+snowy
+screech
+....
+这些项目的数据感知搜索不区分大小写。
 
 
 
 === 访问命令行
 
-您需要访问Data sense系统、才能启动命令以添加regex。
+您需要访问Data sense系统、才能启动命令以添加自定义关键字。
 
 在内部安装Data sense后、您可以直接访问命令行。
 
 在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 
- ssh -i <path to the ssh key> <machine user>@<datasense ip>
-* = ssh身份验证密钥的位置
-* <计算机用户>：
+ ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
+* <path_to_the_ssh_key>= ssh身份验证密钥的位置
+* <machine_user>：
 +
 ** 对于AWS：使用<EC2-user>
 ** 对于Azure：使用为BlueXP实例创建的用户
 ** 对于GCP：使用为BlueXP实例创建的用户
 
 
-* <datasensesIP>=虚拟机实例的IP地址
+* <datasens_ip>=虚拟机实例的IP地址
 
 
-请注意、您需要修改安全组入站规则才能访问系统。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["端口和安全组"^] 有关详细信息 ...
+请注意、您需要修改安全组入站规则才能访问系统。有关详细信息、请参见：
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
+
+
+
+
+=== 用于添加自定义关键字的命令语法
+
+用于从文件添加自定义关键字的命令语法为：
+
+ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate -f <file_name>.txt
+* <file_name>=此名称是包含关键字的文件的名称。
+
+
+您可以从路径*/opt/netapp/Datasens/*运行命令。
+
+如果您创建了许多包含自定义关键字的文件、则可以使用以下命令一次性添加所有文件中的关键字：
+
+ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate
+请注意以下要求：
+
+* 文件名不应包含数字。
+* 每个文件最多可包含100、000个字。如果存在更多字词、则仅添加前100、000个字。
+* 每个词的长度必须至少为3个字符。较短的字词将被忽略。
+* 重复词只会添加一次。
+
+
+
+
+=== 示例
+
+贵公司的内部产品名称基于所有权类型、如上所示。
+
+要查看所有文件中提及内部产品名称的位置、请输入以下命令。
+
+[source, cli]
+----
+[user ~]$ cd /opt/netapp/Datasense/
+[user Datasense]$ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate -f internal_product_names.txt
+----
+ log v1.0 | 2022-08-24 08:16:25,332 | INFO | ds_logger | upload_custom_keywords | 126 | 1 | None | upload_custom_keywords_126 | All legal keywords were successfully inserted
+下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。
+
+image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自定义关键字结果示例的屏幕截图。"]
+
+
+
+=== 停用自定义关键字
+
+如果您稍后确定不需要Data sense来识别您先前添加的某些自定义关键字、请使用命令中的*停用*选项删除文本文件中定义的关键字。
+
+ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s deactivate -f <file_name>.txt
+例如、要删除文件* internal_product_names*中定义的关键字模式：
+
+[source, cli]
+----
+[user ~]$ cd /opt/netapp/Datasense/
+[user Datasense]$ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s deactivate -f internal_product_names
+----
+ log v1.0 | 2022-08-24 08:16:25,332 | INFO | ds_logger | upload_custom_keywords | 87 | 1 | None | upload_custom_keywords_87 | Deactivated keyword pattern from internal_product_names.txt successfully
+
+
+== 使用正则表达式添加自定义个人数据标识符
+
+您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
+
+例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。
+
+添加regex后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。
 
 
 
 === 用于添加regex的命令语法
 
+您需要访问Data sense系统、以便添加包含自定义关键字模式的文件、并启动命令以添加自定义关键字。  the command line,请参见如何访问命令行 无论您是在内部安装了Data sense、还是在云中部署了Data sense。
+
 用于添加自定义regex的命令语法为：
 
- sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern name>" -r "<regular expression>"
-* <pattern name>=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。
-* <正则表达式>=可以是任何合法正则表达式。
+ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>"
+* <pattern_name>=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。
+* <Regular expression>=这可以是任何合法的正则表达式。
 
 
 您可以从路径*/opt/netapp/Datasens/*运行命令。
