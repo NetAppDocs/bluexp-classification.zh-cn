@@ -18,6 +18,8 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 
 例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。
 
+审核日志每天都会轮换。
+
 
 
 == 日志文件内容
@@ -45,29 +47,34 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 例如、日志文件中的以下行显示复制操作成功、复制操作失败。
 
 ....
-2022-06-06 15:23:08,910 | INFO | datasense_audit_logger | es_scanned_file | 237 | 49 | Copy file /idanCIFS_share/data/dop1/random_positives.tsv from device 172.31.133.183 (type: SMB_SHARE) to device 172.31.130.133:/export_reports (NFS_SHARE) – SUCCESS
-2022-06-06 15:23:08,968 | WARNING | datasense_audit_logger | es_scanned_file | 239 | 153 | Copy file /idanCIFS_share/data/compliance-netapp.tar.gz from device 172.31.133.183 (type: SMB_SHARE) to device 172.31.130.133:/export_reports (NFS_SHARE) - FAILURE
+2022-06-06 15:23:08,910 | INFO | datasense_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) – SUCCESS
+2022-06-06 15:23:08,968 | WARNING | datasense_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
 ....
 
 
 == 访问日志文件
 
-审核日志位于Data sense计算机上的：`/opt/netapp/audit_logs/<date>/DataSION_audit_log_<date>_<process_name>.log`
+审核日志位于Data sense计算机上的： `/opt/netapp/audit_logs/DataSense_audit.log`
 
 在内部安装Data sense后、您可以直接导航到日志文件。
 
 在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 
- ssh -i <path to the ssh key> <machine user>@<datasense ip>
-* = ssh身份验证密钥的位置
-* <计算机用户>：
+ ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
+* <path_to_the_ssh_key>= ssh身份验证密钥的位置
+* <machine_user>：
 +
 ** 对于AWS：使用<EC2-user>
 ** 对于Azure：使用为BlueXP实例创建的用户
 ** 对于GCP：使用为BlueXP实例创建的用户
 
 
-* <datasensesIP>=虚拟机实例的IP地址
+* <datasens_ip>=虚拟机实例的IP地址
 
 
-请注意、您需要修改安全组入站规则才能访问系统。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-cloud-manager.html#ports-and-security-groups["端口和安全组"^] 有关详细信息 ...
+请注意、您需要修改安全组入站规则才能访问系统。有关详细信息、请参见：
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
+

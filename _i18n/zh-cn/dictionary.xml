@@ -2263,11 +2263,6 @@
   <block id="a9092ee7bb29e06d9e8627660b37d08b" category="list-text">电子邮件警报—电子邮件地址/帐户</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">例如、日志文件中的以下行显示复制操作成功、复制操作失败。</block>
   <block id="4892afff6c12a31702739804f9402dd2" category="section-title">访问日志文件</block>
-  <block id="d59821cfb2e317baf0245fb19951e0ab" category="paragraph">审核日志位于Data sense计算机上的：`/opt/netapp/audit_logs/&lt;date&gt;/DataSION_audit_log_&lt;date&gt;_&lt;process_name&gt;.log`</block>
-  <block id="68949c94f1832ab05cf85f6b69ec229e" category="list-text">= ssh身份验证密钥的位置</block>
-  <block id="6201afe97e09ec3e016aaa1892aba5f8" category="list-text">&lt;计算机用户&gt;：</block>
-  <block id="3ca10cbf1786d683696248daeef7a67c" category="inline-link">端口和安全组</block>
-  <block id="ee12d73176832fa8b8e8c95cacc10226" category="paragraph">请注意、您需要修改安全组入站规则才能访问系统。请参见<block ref="5475739789a5b3429571b56a0421c3e8" category="inline-link-rx"></block> 有关详细信息 ...</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">从 " 调查结果 " 窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。</block>
   <block id="70669aa10fb7138a5de7f7526f548131" category="paragraph">从 " 调查结果 " 窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在 _Action Status_ 窗格中监控这些异步操作的状态，以便了解它何时应用于所有文件。</block>
   <block id="a5129dfbdf0dc4588d520f42de3004dd" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。</block>
@@ -2474,7 +2469,6 @@
   <block id="a947d2f1730c470833c4544effbb7bc1" category="section-title">访问命令行</block>
   <block id="936f32b71b96ea5785d6a11d0da86d15" category="paragraph">在内部安装Data sense后、您可以直接访问命令行。</block>
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">对于AWS：使用&lt;EC2-user&gt;</block>
-  <block id="0ea3b9210848690cf51475dbc0b23bea" category="list-text">&lt;datasensesIP&gt;=虚拟机实例的IP地址</block>
   <block id="2ca1f3bad4fcb2aea6222d64aeb6ee20" category="section-title">用于添加regex的命令语法</block>
   <block id="0b674f6afef562ef0fec5869730d7efe" category="paragraph">用于添加自定义regex的命令语法为：</block>
   <block id="c0860cd77b783ac8ccb3c6de19266e83" category="paragraph">请注意、我们会测试每个新的正则表达式、以验证它是否过宽且返回的匹配项过多。如果是这种情况、则会显示以下日志消息：</block>
@@ -2487,7 +2481,6 @@
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">例如、要删除*内部产品ID* regex：</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
   <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
-  <block id="f11466d242ef66f0b539b785de1f046b" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">安装后、无法更改Data sense主机系统的IP地址。</block>
   <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">您可以从路径*/opt/netapp/Datasens/*运行命令。</block>
   <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。</block>
@@ -2823,7 +2816,6 @@
   <block id="0047b4042b118692c1d7c579abdeaefe" category="paragraph">默认情况下、您添加的任何新扫描程序节点都会添加到常规扫描资源池中。这称为"默认扫描程序组"。在下图中、"默认"组中有1个管理器节点和3个扫描程序节点、这些节点均扫描所有6个数据源中的数据。</block>
   <block id="d414af5a3d730e6b3c5c5e5fbf1791e5" category="inline-image-macro">一个示意图、用于展示Data sense扫描程序在默认扫描程序组中如何扫描数据源。</block>
   <block id="12c492323fc8337000638fc92adb63ed" category="paragraph"><block ref="12c492323fc8337000638fc92adb63ed" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3432599109f7df0141552646ecd8656" category="paragraph">如果您的某些数据源要由物理上更接近数据源的扫描程序节点扫描、则可以定义一个扫描程序节点或一组扫描程序节点、以扫描特定数据源或一组数据源。在下图中、有一个管理器节点和3个扫描程序节点。</block>
   <block id="96990c600d9debe09076ef4bcf06d1eb" category="list-text">管理器节点位于"默认"组中、它正在扫描1个数据源</block>
   <block id="042304bf8365f5eb21d79ca01b78d44d" category="list-text">扫描程序节点1位于"United States"组中、它正在扫描2个数据源</block>
   <block id="fce59aaa378d30cc0381e7eefc22f0ca" category="list-text">扫描程序节点2和3属于"欧洲"组、它们共享3个数据源的扫描任务</block>
@@ -2868,11 +2860,9 @@
   <block id="285b492c7171f599200c3fe3d4f808d6" category="list-text">在add_scanner_node脚本完成之前、会显示一个对话框、其中显示了扫描程序节点所需的安装命令。复制命令并将其保存在文本文件中。例如：</block>
   <block id="58e40c834f3acaaccc3823bbd917e6d7" category="paragraph"><block ref="7c95eda18e13e25941273928f0d149ba" prefix="" category="inline-code"></block></block>
   <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">粘贴并执行步骤2中复制的命令。</block>
-  <block id="c4c2f863fe691b5999cccd708af50078" category="list-text">如果要将扫描程序节点添加到"扫描程序组"中、请将参数"-r &lt;scanner_group_name&gt;"添加到命令中。否则、扫描程序节点将添加到"默认"组。</block>
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">在所有扫描程序节点上完成安装且这些节点已加入管理器节点后、"add_scanner_node.sh"脚本也会完成。安装可能需要10到20分钟。</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">如果将任何扫描程序节点添加到扫描程序组中、请返回到管理器节点并执行以下2项任务：</block>
   <block id="946503e0cf13fd867381ff9b4e0a1fb1" category="list-text">打开文件"/opt/netapp/Datasens/工作 环境_to_scanner_group_config.yml"、并输入要扫描特定工作环境的扫描程序组的映射。您需要从NetApp获取每个数据源的_working environment ID_(电子邮件：ng-contact-data-sense@netapp.com)。例如、以下条目会将2个工作环境添加到2个扫描程序组中：</block>
-  <block id="d03791acef2a6ece0eafaacbe505349c" category="paragraph">未添加到列表中的任何工作环境都会由"default"组进行扫描-您必须在"default"组中至少有一个扫描程序节点。</block>
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">运行以下脚本、将此映射信息注册到所有扫描程序节点：<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
   <block id="a147b656a2355ffcebd357dcfbb4b53f" category="paragraph">Data sense可通过管理器和扫描程序节点进行设置、以扫描所有数据源。</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">如果尚未扫描、您可以从配置页面中选择要扫描的数据源。如果创建了扫描程序组、则每个数据源都会由相应组中的扫描程序节点进行扫描。</block>
@@ -2899,7 +2889,6 @@
   <block id="4db39af2f2c8dd1ae93885d357ea7d87" category="paragraph">例如、您可能希望查看所有文件中提及内部产品名称的位置、以确保这些名称在不安全的位置不可访问。</block>
   <block id="e86b773e33290ca180bab4702f6221dc" category="paragraph">更新自定义关键字后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。</block>
   <block id="a022f59f73d13dba25886111bbcbfbe7" category="paragraph">您必须在Data sense系统的以下位置添加或创建包含自定义关键字的文本文件：</block>
-  <block id="3620f1bf4e7a238eac5d685f61925409" category="paragraph">您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件的格式为每行一个字、例如：</block>
   <block id="9e5355e710468619132238aa9a8b9c22" category="paragraph">_internal_product_names.txt_</block>
   <block id="3dc7d5f9e5fd1366a21d3d3a927df1f0" category="paragraph">这些项目的数据感知搜索不区分大小写。</block>
   <block id="057d52aa1154035622f873117dc92349" category="paragraph">您需要访问Data sense系统、才能启动命令以添加自定义关键字。</block>
@@ -2922,13 +2911,11 @@
   <block id="c781b817668135b2a7800b19a53b3351" category="list-text">每个文件最多可包含100、000个字。如果存在更多字词、则仅添加前100、000个字。</block>
   <block id="c84a723bb8343259efcc07b5d335a94d" category="list-text">每个词的长度必须至少为3个字符。较短的字词将被忽略。</block>
   <block id="9b2456bacc9d094f1cd53f784d659a37" category="list-text">重复词只会添加一次。</block>
-  <block id="cb2e6437be1870e1a8e326d4a56e424f" category="paragraph">贵公司的内部产品名称基于所有权类型、如上所示。</block>
   <block id="a05f2f2af09092d7732c02cc3039dad9" category="paragraph">要查看所有文件中提及内部产品名称的位置、请输入以下命令。</block>
   <block id="d1cae4639086ce5de29473a5d53747c7" category="inline-image-macro">在"调查结果"窗格中显示自定义关键字结果示例的屏幕截图。</block>
   <block id="7b739c51b4a511be3459afe942a8ef3c" category="paragraph"><block ref="7b739c51b4a511be3459afe942a8ef3c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="10e08b10c8ba5b9b6646011e823e86ed" category="section-title">停用自定义关键字</block>
   <block id="c67491a05b3eada8d8830f7e24dff0b6" category="paragraph">如果您稍后确定不需要Data sense来识别您先前添加的某些自定义关键字、请使用命令中的*停用*选项删除文本文件中定义的关键字。</block>
-  <block id="db39532b182f8c442eaf4ad879aa65cb" category="paragraph">例如、要删除文件* internal_product_names*中定义的关键字模式：</block>
   <block id="9c0bd48717ec950ad656ee0c5cbe1bd7" category="section-title">使用正则表达式添加自定义个人数据标识符</block>
   <block id="ffbc9fd66cec345d48b984868ac86075" category="paragraph">添加regex后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。</block>
   <block id="9db0ea676fac4ef1398c2560f02af1c0" category="inline-xref">请参见如何访问命令行</block>
@@ -2945,4 +2932,13 @@
   <block id="d2e9b58709e185388c14e9b7f7c876b8" category="list-text">您可以使用正则表达式(regex)添加自定义模式。</block>
   <block id="6b0cdbce1552e1685f4b4095276b6078" category="paragraph"><block ref="4a5fd31f8eed80e720a59ea6d295b8eb" category="inline-link-macro-rx"></block>。</block>
   <block id="38e7bc8a7a291a40814b17be24e4bf0a" category="paragraph">是的、这一点也受支持。您可以<block ref="a2148d757b5c89b9d02648070bc0f277" category="inline-link-rx"></block>。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用Data sense扫描数据。</block>
+  <block id="6e356675279ce269e55ffefd9397769c" category="paragraph">您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件格式为每行一个字、例如、以下列出了属于owls类型的内部产品名称：</block>
+  <block id="8b78d80928f7b4e5ede92c922915ec73" category="paragraph">如您所见、文本文件的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活不同文本文件中的关键字、并查看每种关键字类型的结果。</block>
+  <block id="6d09a2eb7ddd06e7afb4f4e0f4b6f0a8" category="paragraph">例如、要删除文件* internal_product_names.txt*中定义的关键字：</block>
+  <block id="855f2bccb1380ed5e79ffd60f06d8209" category="paragraph">审核日志每天都会轮换。</block>
+  <block id="e583d0bb2649633981a5bcb08138c87e" category="paragraph">审核日志位于Data sense计算机上的：<block ref="ffd8f753eb106227f8d629727e8f83b2" prefix=" " category="inline-code"></block></block>
+  <block id="162bd73d17dd13a664718503fff639fc" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
+  <block id="69aeb258470eedf7afb44d66a993f4d8" category="paragraph">如果您的某些数据源要由物理上更接近数据源的扫描程序节点扫描、则可以定义一个扫描程序节点或一组扫描程序节点、以扫描特定数据源或一组数据源。在下图中、有1个管理器节点和3个扫描程序节点。</block>
+  <block id="4ab1272ad311bec96f677d25b0901105" category="list-text">如果要将扫描程序节点添加到"扫描程序组"中、请将参数*-r &lt;scanner_group_name&gt;*添加到命令中。否则、扫描程序节点将添加到"默认"组。</block>
+  <block id="f76b6e3dc68f5a15976b3f64aae23646" category="paragraph">未添加到列表中的任何工作环境均由"default"组进行扫描-您必须在"default"组中至少有一个管理器或扫描程序节点。</block>
 </blocks>
