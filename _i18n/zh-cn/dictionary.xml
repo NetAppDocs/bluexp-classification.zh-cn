@@ -2250,17 +2250,12 @@
   <block id="f4d44f4e933c52507fc1f60eb487d44a" category="section-title">日志文件内容</block>
   <block id="787cbeccb975d71260f61cb0fbe84553" category="paragraph">审核日志中的每一行都包含以下格式的信息：</block>
   <block id="727fb114deba541b53a0b54311e03930" category="paragraph">`&lt;完整日期&gt;__状态&gt;__ datasens_audit_logger _&lt;模块&gt;_ 0 _从设备&lt;设备路径&gt;中删除文件&lt;完整文件路径&gt;-&lt;结果&gt;`</block>
-  <block id="5e6b85294dad6f04a041aa32199d996d" category="list-text">日期和时间—事件的完整时间戳</block>
   <block id="79480e26f983c197c4338ae916966c93" category="list-text">status—信息、警告</block>
   <block id="8c5560001ce7d874ad9b883caee72f9c" category="list-text">操作类型(删除、复制、移动、创建策略、更新策略、 下载JSON报告等)</block>
   <block id="eee2e3db044c9200dc614ed87a9c8fde" category="list-text">文件名(如果操作与文件相关)</block>
-  <block id="b5afb88a144b5f1d8fef11e9d449b1ed" category="list-text">操作的详细信息—已执行的操作：取决于操作</block>
   <block id="cca60f73053d584e7caacfd33a8f046e" category="list-text">Policy name</block>
   <block id="3c14ec40364ae096849c696c3497ff60" category="list-text">for move—源和目标</block>
   <block id="c02ceb243337f566ebb5a2984a4d72eb" category="list-text">对于copy—源和目标</block>
-  <block id="9291a80cf17849a4539e082f526f27ad" category="list-text">标记—标记名称</block>
-  <block id="f23528dfcdf994100f2eae046bc926bb" category="list-text">用于assign to—用户名</block>
-  <block id="a9092ee7bb29e06d9e8627660b37d08b" category="list-text">电子邮件警报—电子邮件地址/帐户</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">例如、日志文件中的以下行显示复制操作成功、复制操作失败。</block>
   <block id="4892afff6c12a31702739804f9402dd2" category="section-title">访问日志文件</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">从 " 调查结果 " 窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。</block>
@@ -2480,7 +2475,6 @@
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f1619aa0c5343971dffa315bb9524cc9" category="paragraph">例如、要删除*内部产品ID* regex：</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
-  <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">安装后、无法更改Data sense主机系统的IP地址。</block>
   <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">您可以从路径*/opt/netapp/Datasens/*运行命令。</block>
   <block id="4767339e389eb1fa075ecdec5d1ec320" category="paragraph">如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。</block>
@@ -2632,7 +2626,6 @@
   <block id="8beb1a28cedad4a62270cd87cb0fb73f" category="list-text">或者、如果您希望将通知电子邮件发送给BlueXP用户、请选中此复选框、然后选择发送电子邮件的间隔。了解更多信息 <block ref="aa3b63c453483f75d4311c7c0137128e" category="inline-link-macro-rx"></block>。</block>
   <block id="07a798a9ca59b7a89db396e7fb102645" category="paragraph">当某些关键策略返回结果时、Cloud Data sense可以向BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知。您可以选择每天，每周或每月发送电子邮件通知。</block>
   <block id="aa9fdbbe260aeca6e8e9574845857dc1" category="list-text">在编辑策略页面中、如果要向BlueXP用户发送通知电子邮件、请选中此框、然后选择发送电子邮件的间隔(例如、每*周*)。</block>
-  <block id="b767f2b9a2e948e4c282ba767400ea33" category="paragraph">在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：</block>
   <block id="99a08830cf6f1972806c695ac18e69bc" category="list-text">对于Azure：使用为BlueXP实例创建的用户</block>
   <block id="a5b37e45ed042a9bf7c09bfcc25c3211" category="list-text">对于GCP：使用为BlueXP实例创建的用户</block>
   <block id="23c0e03df230b1dfa0e16b9d275b80ea" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*。</block>
@@ -2873,7 +2866,6 @@
   <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">可以添加其他内部"扫描程序"节点来扫描特定数据源</block>
   <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。例如、如果您意识到一个数据源中的数据量在1年后增加了三倍、则可以添加一个新的扫描程序节点来协助进行数据扫描。</block>
-  <block id="920d0a192fcf42107e363c75e934277b" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。</block>
   <block id="808cffec2f45e3cd0fe5a90bfcca1530" category="summary">Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在所有组织文件中的位置。</block>
   <block id="779142c3c6196fad0d5a73d9c046a65d" category="paragraph">Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在组织的_all_文件中的位置。</block>
@@ -2895,7 +2887,6 @@
   <block id="5279036835630164e29f9d285f1f8ac5" category="list-text">&lt;path_to_the_ssh_key&gt;= ssh身份验证密钥的位置</block>
   <block id="84bcb800c1d5099ce2ac32d1e7b6680f" category="list-text">&lt;machine_user&gt;：</block>
   <block id="7ba7a32a873386de0e3b4747ceb28558" category="list-text">&lt;datasens_ip&gt;=虚拟机实例的IP地址</block>
-  <block id="b53091894711b26877d3fa2f1589b745" category="paragraph">请注意、您需要修改安全组入站规则才能访问系统。有关详细信息、请参见：</block>
   <block id="60f0453bf0393ab630be6aa37dc20180" category="inline-link">AWS中的安全组规则</block>
   <block id="f2ad0eeffca4d67e7eb677593c90d5bf" category="list-text"><block ref="f2ad0eeffca4d67e7eb677593c90d5bf" category="inline-link-rx"></block></block>
   <block id="569fe31933e5918613ae1efa70e82d16" category="inline-link">Azure中的安全组规则</block>
@@ -2935,10 +2926,23 @@
   <block id="6e356675279ce269e55ffefd9397769c" category="paragraph">您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件格式为每行一个字、例如、以下列出了属于owls类型的内部产品名称：</block>
   <block id="8b78d80928f7b4e5ede92c922915ec73" category="paragraph">如您所见、文本文件的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活不同文本文件中的关键字、并查看每种关键字类型的结果。</block>
   <block id="6d09a2eb7ddd06e7afb4f4e0f4b6f0a8" category="paragraph">例如、要删除文件* internal_product_names.txt*中定义的关键字：</block>
-  <block id="855f2bccb1380ed5e79ffd60f06d8209" category="paragraph">审核日志每天都会轮换。</block>
-  <block id="e583d0bb2649633981a5bcb08138c87e" category="paragraph">审核日志位于Data sense计算机上的：<block ref="ffd8f753eb106227f8d629727e8f83b2" prefix=" " category="inline-code"></block></block>
   <block id="162bd73d17dd13a664718503fff639fc" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
   <block id="69aeb258470eedf7afb44d66a993f4d8" category="paragraph">如果您的某些数据源要由物理上更接近数据源的扫描程序节点扫描、则可以定义一个扫描程序节点或一组扫描程序节点、以扫描特定数据源或一组数据源。在下图中、有1个管理器节点和3个扫描程序节点。</block>
   <block id="4ab1272ad311bec96f677d25b0901105" category="list-text">如果要将扫描程序节点添加到"扫描程序组"中、请将参数*-r &lt;scanner_group_name&gt;*添加到命令中。否则、扫描程序节点将添加到"默认"组。</block>
   <block id="f76b6e3dc68f5a15976b3f64aae23646" category="paragraph">未添加到列表中的任何工作环境均由"default"组进行扫描-您必须在"default"组中至少有一个管理器或扫描程序节点。</block>
+  <block id="37861c699e1fb7b716f29da056f3ddc5" category="paragraph">在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：</block>
+  <block id="9580ea03756206f0f5eba6a03bb42d83" category="paragraph">请注意、您需要修改安全组入站规则才能访问云上的系统。有关详细信息、请参见：</block>
+  <block id="5cd360d496831478b3f9cbc92cce8b43" category="list-text">date and time—事件的完整时间戳</block>
+  <block id="01183a42bef9f9a5314d435065cfc49d" category="list-text">操作的详细信息—已执行的操作：取决于操作</block>
+  <block id="8022db3692364177695fce2a133b526b" category="list-text">标记-标记名称</block>
+  <block id="91f93253b1daa7f572477e6f8dc4f163" category="list-text">用于assign to—用户名</block>
+  <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">对于电子邮件警报—电子邮件地址/帐户</block>
+  <block id="b5fcd19ce1eac6e10e82176168a38b4d" category="paragraph">审核日志文件位于Data sense计算机上的：<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
+  <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。</block>
+  <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：</block>
+  <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">请参见如何安装扫描程序节点以扫描其他数据源</block>
+  <block id="232acd7f039f2650674c20301305634d" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>。</block>
+  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以通过两种方式添加自定义"个人数据"、Data sense将在未来扫描中识别这些数据。这样、您就可以全面了解潜在敏感数据在所有组织文件中的位置。</block>
+  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用正则表达式(regex)添加个人模式。</block>
+  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -119,7 +119,7 @@ screech
 
 在内部安装Data sense后、您可以直接访问命令行。
 
-在云中部署Data sense时、您可以通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
+在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 
  ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
 * <path_to_the_ssh_key>= ssh身份验证密钥的位置
@@ -133,7 +133,7 @@ screech
 * <datasens_ip>=虚拟机实例的IP地址
 
 
-请注意、您需要修改安全组入站规则才能访问系统。有关详细信息、请参见：
+请注意、您需要修改安全组入站规则才能访问云上的系统。有关详细信息、请参见：
 
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
