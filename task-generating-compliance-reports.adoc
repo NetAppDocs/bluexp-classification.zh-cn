@@ -226,7 +226,7 @@ image:screenshot_compliance_investigation_report.png["包含多个选项的Downl
 
 此时将显示一条消息、指出正在下载报告。
 
-您可以在中查看JSON报告生成的进度  the status of your compliance actions,操作状态窗格。
+您可以在中查看JSON报告生成的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
 
 
 

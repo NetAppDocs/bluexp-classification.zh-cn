@@ -147,7 +147,6 @@
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">网络概述</block>
   <block id="6134fb19f2424f157bd88b36e40dcf10" category="paragraph">出站规则完全开放。要安装和升级 Data sense 软件以及发送使用量指标，需要访问 Internet 。</block>
   <block id="12d39974306420354fffe75c7f15e621" category="inline-link-macro">了解 Cloud Data 感知所接触的端点</block>
-  <block id="56de08dfb4f78c8968cdc6b05d0014af" category="paragraph">如果您有严格的网络连接要求， <block ref="34785efa2a38488608f222d4a2795abf" category="inline-link-macro-rx"></block>。</block>
   <block id="d359ba9662c22ff5e27bf861300c6bbf" category="section-title">用户访问合规性信息</block>
   <block id="7e576e4144e56e656ad24bb096e2e6fe" category="list-text">* 帐户管理员 * 可以管理所有工作环境的合规性设置并查看合规性信息。</block>
   <block id="e84e463a5d50d51ba24671ea703ccd3a" category="list-text">具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。这些用户也无法复制，移动或删除文件。</block>
@@ -203,7 +202,6 @@
   <block id="9fadb22715a72b9017d3b43a7b3177e2" category="paragraph"><block ref="9fadb22715a72b9017d3b43a7b3177e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0ed0a0ad5aadf8f8ef3ea382b8f4a106" category="doc">为 Cloud Data sense 设置许可</block>
   <block id="80186f1230af2267e2c2e4d2ab8c030e" category="paragraph">在阅读其他内容之前，请先阅读一些注释：</block>
-  <block id="67dc5872edad6cc97bdb69ec8f4447f2" category="list-text">如果您已在云提供商的市场中订阅 Cloud Manager 按需购买（ PAYGO ）订阅，则您也会自动订阅 Cloud Data sense 。您无需重新订阅。</block>
   <block id="e2efd47bd42c53cc1253f29754c3836a" category="list-text">Cloud Data sense 自带许可证（ BYOL ）是一种 _float_ 许可证，您可以在计划扫描的工作空间中的所有工作环境和数据源中使用。您将在数字电子钱包中看到有效订阅。</block>
   <block id="4bc0671413757c3b06269c6869b1c24d" category="inline-link-macro">详细了解与 Cloud Data sense 相关的许可和成本</block>
   <block id="dcba253c1898878efeea1f106871ba52" category="paragraph"><block ref="32c4fb91a406f3c38311c8b665707774" category="inline-link-macro-rx"></block>。</block>
@@ -215,7 +213,6 @@
   <block id="b2f44b30cb7b59e6531b838d2b079d16" category="paragraph">这些步骤必须由具有 _Account Admin_ 角色的用户完成。</block>
   <block id="bea1f499527daa402d9417b6befca37e" category="list-text">查找 AWS 实例配置文件， Azure 托管服务身份或 Google Project 的凭据。</block>
   <block id="8071861b8e3a5d88d5457ddd1596427a" category="paragraph">必须将订阅添加到实例配置文件，托管服务身份或 Google Project 中。否则，充电将不起作用。</block>
-  <block id="c5a48d7441653b12c714ba7f9509be09" category="paragraph">如果您已订阅（如下所示为 AWS ），则表示您已准备就绪—无需执行任何其他操作。</block>
   <block id="62e5878faab04822cdc1e0afde654b25" category="inline-image-macro">" 凭据 " 页面中的屏幕截图，其中显示了订阅处于活动状态的实例配置文件。</block>
   <block id="960eb5524321a41f4a846cf6d41aa4ba" category="paragraph"><block ref="960eb5524321a41f4a846cf6d41aa4ba" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1127f6d49115a82bf6a8108eed8e2e9" category="list-text">如果您尚未订阅，请将鼠标悬停在凭据上，单击操作菜单，然后单击 * 关联订阅 * 。</block>
@@ -591,7 +588,6 @@
   <block id="4932ec0144d6d1640460f5cfee326e0f" category="inline-link-macro">Cloud Manager 的 GCP Marketplace 订阅</block>
   <block id="c066aa13effff0bea79252a20699074b" category="paragraph">从调查结果窗格对多个文件运行操作时，例如删除 50 个文件，此过程可能需要一些时间。现在，您可以监控这些异步操作的状态，以便了解它何时应用于所有文件。</block>
   <block id="7fc4a6242ce76e0415a989d1dbc8b9d4" category="inline-link-macro">了解如何查看持续合规操作的状态</block>
-  <block id="0a8b229d21efe889c341133fa43bc3f7" category="paragraph"><block ref="b64e3c30f28dd83a2184563dc44ee1de" category="inline-link-macro-rx"></block>。</block>
   <block id="6241446e1383ab0c8cc0cebdfbb90484" category="inline-link-macro">查看 Data sense 在扫描中发现的所有个人数据类型的列表</block>
   <block id="2164b22cc8c41bee72c53771bd025c07" category="paragraph">Data sense 现在可以在文件中找到个人数据类型 " 英国护照 " 和 " 国家卫生服务（ NHS ）编号 " 。 <block ref="ce74ef267e6a0fa015475f7a67f6924a" category="inline-link-macro-rx"></block>。</block>
   <block id="9a67fa9362671e5cfd7881e63183490e" category="paragraph">在 " 数据调查 " 页面中筛选数据时，为 " 工作环境类型 " 添加了一个新的筛选器。这样，您可以筛选 Cloud Volumes ONTAP 系统，适用于 ONTAP 系统的 FSX ，内部 ONTAP 系统等的结果。</block>
@@ -630,21 +626,7 @@
   <block id="cf3f2cc15d62c716232f57e1283f8347" category="inline-link-macro">请先了解这些限制</block>
   <block id="60ee57016f16f38febc0431619eaa4bb" category="paragraph">一些扫描要求较低的用户要求能够使用较小的 Cloud Data sense 实例。现在可以了。因此，使用这些较小实例时存在一些限制 <block ref="2721bef887c25ebcb5745416e289e70e" category="inline-link-macro-rx"></block>。</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">了解如何操作</block>
-  <block id="5eea29ff6cc3dad991a8789d591533a9" category="paragraph">数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 <block ref="be5ca65137ce848c8d09c371939d6748" category="inline-link-macro-rx"></block>。</block>
   <block id="34549c51a038d2c00ade5270b233fb1c" category="paragraph">上次访问时间值已添加到 " 文件详细信息 " 页面以及以 CSV 格式输出的报告中，以便您可以查看用户上次访问文件的时间。</block>
-  <block id="945fb8f32f58d1cc36cb9f1e9e4c6fe5" category="section-title">2021 年 6 月 7 日</block>
-  <block id="6561d0dbae2df54bbe8349c518489172" category="section-title">Cloud Compliance 已重命名为 Cloud Data sense 。</block>
-  <block id="d3c761a2e0f04b6d5a3de0a1d64ba674" category="paragraph">自此版本起， Cloud Compliance 已重命名为 * 云数据感知 * 。由于该产品中包含了所有新的监管功能和其他功能，因此合规性名称并不能推广所有功能。</block>
-  <block id="b1c097baa7655613db39bdfee4aa9834" category="paragraph">" 监管信息板 " 提供了一份全新的 _Full Data Mapping_ 报告，用于概述企业数据源中存储的数据，以帮助您确定迁移，备份，安全性和合规性流程。</block>
-  <block id="e4769dc6302d1988b2db369ee09d08df" category="inline-link-macro">请单击此处</block>
-  <block id="e49617bb2d098bc9411a20ab9cc7800e" category="paragraph">此报告提供了概述页面，其中汇总了您的所有工作环境和数据源，然后提供了每个工作环境的细分信息。 <block ref="69c5d3a80c29cb6ecc9dff8619a99bf7" category="inline-link-macro-rx"></block> 有关详细信息：</block>
-  <block id="7a75a1cb539ce717ffb70a6f45b1183c" category="inline-link-macro">请参见如何查看所有重复的文件</block>
-  <block id="49088960be4d8db4c1a11ba7678fee3f" category="paragraph">通过 " 数据调查 " 页面中的新筛选器，您可以查看在存储系统中复制的所有文件的列表。这有助于确定可以节省存储空间的区域，或者确定具有特定权限或不希望在存储中复制的敏感信息的文件。 <block ref="9b932b7183a8b1eae080a32497be2440" category="inline-link-macro-rx"></block>。</block>
-  <block id="3bef072dfa864da4aa8559c03c7d0ca8" category="inline-link-macro">了解如何在文件中应用和查看标记</block>
-  <block id="cf5c65a6d69d1529a0f0cd6dd86b5edb" category="paragraph">您可以向 Data sense 正在扫描的文件添加自定义标记。此标记与添加 AIP 标签的方式不同。Cloud Manager 用户只能看到此标记，因此您可以指示文件是否需要删除或出于某种原因进行检查。 <block ref="7a35795d2be1b40763c1be0abb286f6d" category="inline-link-macro-rx"></block>。</block>
-  <block id="6e30bf5f27ef24f35407940f36e6664a" category="paragraph">通过 " 调查 " 页面中的新筛选器，您可以轻松查看已分配标记的所有文件。</block>
-  <block id="34872f144eacfe5c837131480f6e243a" category="paragraph">Cloud Data sense 可以在两种其他类型的文件中扫描个人身份信息（ Personal identifiable Information ， Pii ）： .dcm 和 .Dicom 。</block>
-  <block id="fc15edce938be94b7835bbbb16d686b4" category="paragraph">已将 " 文件大小 " ， " 创建日期 " 和 " 上次修改日期 " 值添加到以 CSV 格式输出的报告中。创建日期也是一个新筛选器，可用于缩小调查页面搜索结果的范围。</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">扫描使用 S3 协议的对象存储</block>
   <block id="6988ee4ea30eb643c68d53327c6b1220" category="inline-link">MinIO 服务</block>
   <block id="93f515959ce6187b986c42fa6959168b" category="doc">私有数据的类别</block>
@@ -1948,7 +1930,6 @@
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">帮助您确定运行状况信息在文件中的分布情况。 <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>。</block>
   <block id="e6d68873555c37c43798e1e7f7b8513e" category="list-text">或者，选中此框可自动删除与策略参数匹配的文件。了解更多信息 <block ref="30e6ed97d290e57f0e75d9e6322eb503" category="inline-link-macro-rx"></block>。</block>
   <block id="58293f799492274c3df075305508ade4" category="paragraph">您可以将 Data sense 正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 <block ref="ebb58758e77d05976efcc1ccd5134262" category="inline-link-rx"></block>）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。</block>
-  <block id="77129c83b2501b2eb47ff0a1fa67f801" category="list-text">您需要激活 Cloud Sync 服务并至少配置一个数据代理，用于在源系统和目标系统之间传输文件。查看从开始的 Cloud Sync 要求 <block ref="b962387ad67b92b5132f148579512908" category="inline-link-macro-rx"></block>。</block>
   <block id="82ad1ea6a2070297147f61890ad6c8ae" category="list-text">您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 <block ref="5abefb1df304535da49e476c753377a4" category="inline-link-macro-rx"></block>。</block>
   <block id="1512503c318779a183367c2326a24f21" category="list-text">确认您的内部连接器软件已升级到最新可用版本。<block ref="ce22b55d293a0e07097135e6515924b6" category="inline-link-rx"></block>。</block>
   <block id="f49cd49d999d1390260fa896a1a3ceec" category="paragraph">单击 <block ref="4860dd37562d5a245a69a17be60d42e2" category="inline-link-macro-rx"></block> 了解有关策略的更多信息。</block>
@@ -1994,11 +1975,6 @@
   <block id="bddd2179a36dc08b8bb7be3660c8fed4" category="section-title">能够使用较小的 Cloud Data sense 实例</block>
   <block id="a37544bc609cd0b6c2d725d27d13ab21" category="section-title">能够执行慢速扫描</block>
   <block id="f1c9a9425a145e1b1614fa251d393989" category="section-title">数据感知可跟踪上次访问文件的时间</block>
-  <block id="763a569da43c025c1d54060a2ef2efbe" category="section-title">" 监管信息板 " 提供了新的 " 完整数据映射 " 报告</block>
-  <block id="08684668c10e9c17789be7934ef88e51" category="section-title">在 " 调查 " 页面中添加了新筛选器，用于查看所有重复的文件</block>
-  <block id="8152326061d8b3d329ba2607a09b0fa1" category="section-title">Data sense 可以为组织的文件添加自定义标记</block>
-  <block id="c832a419d50a23d5a24e8b88cb7b1f44" category="section-title">可以扫描 .dcm 和 .Dicom 文件</block>
-  <block id="831cb0c03277fa9f02db351f7b681988" category="section-title">Data sense 现在可跟踪文件的其他属性</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。</block>
   <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp 上 5 GiB</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 许可证注意事项</block>
@@ -2083,7 +2059,6 @@
   <block id="e6955249e6953613536ae08a88475a81" category="paragraph">完整扫描后、您可以对数据应用许多其他数据感知功能、例如在"数据调查"页面中查看和细化数据、搜索文件中的名称、复制、移动和删除源文件等。</block>
   <block id="1a068d00fba0764fe495dfcb9428ba33" category="section-title">许可证和成本</block>
   <block id="efd4a405d0fc94dd44dd46314145b533" category="paragraph">以下问题与使用Cloud Data sense的许可和成本有关。</block>
-  <block id="d28d4f6cb9334067ba763d5205ef3408" category="list-text">您的云提供商或订阅Cloud Manager Marketplace列表</block>
   <block id="4aaa082eb5a6a6d38594fed7ac9dfc5c" category="list-text">NetApp自带许可证(BYOL)</block>
   <block id="d593d438e7fbece83184e3d6d94b77d8" category="paragraph">请参见<block ref="6bbe1a830896033f3d42bc42c545c572" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="df633ebdc2836fc65b2b5c8df3071fad" category="section-title">如果我已达到BYOL容量限制、会发生什么情况？</block>
@@ -2208,7 +2183,6 @@
   <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">现在、您可以编辑已创建的现有策略</block>
   <block id="61e409921fe798c5667689af4656a112" category="inline-link">请参见如何编辑策略</block>
   <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>。</block>
-  <block id="1f50cc006f0a9aa5fa08f3f58b10bf1d" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 <block ref="8c0c83431a0c54e3e158fb0a6b366a6d" category="inline-link-macro-rx"></block></block>
   <block id="fbbd4044d95d7d79fb98ebd8d7daf546" category="summary">如果需要、您可以阻止Cloud Data sense扫描一个或多个工作环境、数据库、文件共享组、OneDrive帐户、Google Drive帐户、 或SharePoint帐户。</block>
   <block id="a80767bb4322f81d8b7bd0b15673f6ab" category="summary">您可以卸载Data sense软件以解决问题或从主机中永久删除该软件。删除此实例还会删除索引数据所在的关联磁盘—所有已扫描的数据感知信息都将被永久删除。</block>
   <block id="9cd2794f7afcdacb42a1ab6334e60324" category="doc">卸载Cloud Data sense</block>
@@ -2249,9 +2223,7 @@
   <block id="f8563669b8d53fea23814d12a98674cd" category="paragraph">例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。</block>
   <block id="f4d44f4e933c52507fc1f60eb487d44a" category="section-title">日志文件内容</block>
   <block id="787cbeccb975d71260f61cb0fbe84553" category="paragraph">审核日志中的每一行都包含以下格式的信息：</block>
-  <block id="727fb114deba541b53a0b54311e03930" category="paragraph">`&lt;完整日期&gt;__状态&gt;__ datasens_audit_logger _&lt;模块&gt;_ 0 _从设备&lt;设备路径&gt;中删除文件&lt;完整文件路径&gt;-&lt;结果&gt;`</block>
   <block id="79480e26f983c197c4338ae916966c93" category="list-text">status—信息、警告</block>
-  <block id="8c5560001ce7d874ad9b883caee72f9c" category="list-text">操作类型(删除、复制、移动、创建策略、更新策略、 下载JSON报告等)</block>
   <block id="eee2e3db044c9200dc614ed87a9c8fde" category="list-text">文件名(如果操作与文件相关)</block>
   <block id="cca60f73053d584e7caacfd33a8f046e" category="list-text">Policy name</block>
   <block id="3c14ec40364ae096849c696c3497ff60" category="list-text">for move—源和目标</block>
@@ -2268,7 +2240,6 @@
   <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
   <block id="baa6537e5347accba4142c762df4cdf0" category="paragraph">选择.json报告时、请以`&lt;host_name&gt;：/&lt;share_path&gt;`格式输入要下载报告的NFS共享的名称。</block>
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">此时将显示一条消息、指出正在下载报告。</block>
-  <block id="2bbb59657134248b81caacac241c5f02" category="paragraph">您可以在中查看JSON报告生成的进度 <block ref="7ab6e8afc5b3f27fa1b074f775217e39" category="inline-xref-macro-rx"></block>。</block>
   <block id="8cb8a6e0c4d4366f74cd4f0b6f61a0f6" category="paragraph">*非结构化目录数据报告*包含有关文件夹和文件共享的以下信息：</block>
   <block id="76cbd87b5322b897c255d541785ad658" category="list-text">存储库(例如、文件夹或文件共享)</block>
   <block id="45fe1c24aae6844389ce04f26df40a13" category="list-text">文件路径(目录名称)</block>
@@ -2371,7 +2342,6 @@
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecc7450cf52e0d0d89139603b07ea706" category="paragraph">您可以将光标悬停在_Scan Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍待映射或分类的文件数。</block>
   <block id="1a8f03950c641e2ffffb33146f70ef55" category="admonition">不能将数据库设置为仅映射扫描。数据库扫描可以关闭或打开；其中、"启用"相当于"映射和分类"。</block>
-  <block id="9db1ab99c3f7640c000fdc19054af26c" category="list-text">操作系统：Red Hat Enterprise Linux或CentOS 8.0至8.4版</block>
   <block id="ce12cca419124f32a01c6fec5a3be62f" category="list-text">可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本</block>
   <block id="9308bcab83008e639f95b088d89b11c4" category="cell">澳大利亚驾驶执照</block>
   <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">新西兰银行帐户</block>
@@ -2698,7 +2668,6 @@
   <block id="b857453947413e0fa339869d22d4c786" category="paragraph"><block ref="0f3b3f14a152082b591c2061f55976b1" category="inline-link-rx"></block>。</block>
   <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*、然后选择*配置*选项卡。</block>
   <block id="623d17b9d36b70bf9a4a775a9d346f58" category="admonition">对于Azure NetApp Files 、云数据感知只能扫描与BlueXP位于同一区域的卷。</block>
-  <block id="4479e460b4d47f38dc9336cba866cce4" category="paragraph">在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据，需要通过云提供商 Marketplace 订阅 Cloud Manager 或从 NetApp 获得 BYOL 许可证。</block>
   <block id="16f6b76e35946d0224b05a1466e556f0" category="inline-link">BlueXP功能需要使用Connector</block>
   <block id="b4af24a1096b735934691c65956c7d7a" category="paragraph">如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block> 或<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>或<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
   <block id="7d0e3dd93f2549f8ce0be2f0454b12b2" category="cell">与BlueXP网站通信以实现集中式用户身份验证。</block>
@@ -2859,13 +2828,11 @@
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">运行以下脚本、将此映射信息注册到所有扫描程序节点：<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
   <block id="a147b656a2355ffcebd357dcfbb4b53f" category="paragraph">Data sense可通过管理器和扫描程序节点进行设置、以扫描所有数据源。</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">如果尚未扫描、您可以从配置页面中选择要扫描的数据源。如果创建了扫描程序组、则每个数据源都会由相应组中的扫描程序节点进行扫描。</block>
-  <block id="0fd7cab37419c3f9fdd225020324c7dc" category="section-title">2022年11月7日(1.17版)</block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">支持扫描SharePoint内部部署帐户</block>
   <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>。</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">能够重新扫描多个目录(文件夹或共享)</block>
   <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">可以添加其他内部"扫描程序"节点来扫描特定数据源</block>
-  <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。例如、如果您意识到一个数据源中的数据量在1年后增加了三倍、则可以添加一个新的扫描程序节点来协助进行数据扫描。</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。</block>
   <block id="808cffec2f45e3cd0fe5a90bfcca1530" category="summary">Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在所有组织文件中的位置。</block>
   <block id="779142c3c6196fad0d5a73d9c046a65d" category="paragraph">Data sense为您提供了多种方式来添加Data sense在未来扫描中将识别的自定义"个人数据"列表、让您全面了解潜在敏感数据在组织的_all_文件中的位置。</block>
@@ -2945,4 +2912,24 @@
   <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以通过两种方式添加自定义"个人数据"、Data sense将在未来扫描中识别这些数据。这样、您就可以全面了解潜在敏感数据在所有组织文件中的位置。</block>
   <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用正则表达式(regex)添加个人模式。</block>
   <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>。</block>
+  <block id="415d8b1f8ef7e8bc1bca29c92bbffb9b" category="list-text">操作系统：Red Hat Enterprise Linux或CentOS 8.0至8.6版</block>
+  <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。</block>
+  <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">您的云提供商或订阅了BlueXP Marketplace列表</block>
+  <block id="10d127f1d0ce294ce4f4f8e7ebf6106b" category="paragraph">如果您有严格的网络连接要求， <block ref="8ee644766673e1cde7b0c260d7a4e2e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="21315205ba34163a83853c5526e534c1" category="list-text">一次最多可重新扫描1000个项目。</block>
+  <block id="8ec215ce3c88ae58412a2c9d13f5d15b" category="paragraph">在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。</block>
+  <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
+  <block id="79bd49250e598bf53655f50c83b04044" category="list-text">操作类型(删除、复制、移动、创建策略、更新策略、 重新扫描文件、下载JSON报告等)</block>
+  <block id="9d282ec5c19d83f47fc9504e4ff50325" category="list-text">如果您已在云提供商的市场中订阅了BlueXP按需购买(PAYGO)订阅、则您也会自动订阅Cloud Data sense。您无需重新订阅。</block>
+  <block id="f6d56db241e1b67ea15f2bcfc6d58cee" category="paragraph">如果您已经订阅了BlueXP (如下图所示、适用于AWS)、则您已准备就绪—无需执行任何其他操作。</block>
+  <block id="8a19b447bcd4da037940f31306b703f2" category="list-text">您需要激活 Cloud Sync 服务并至少配置一个数据代理，用于在源系统和目标系统之间传输文件。查看从开始的 Cloud Sync 要求<block ref="e51d588768ce18b65058ca75b02bbb45" category="inline-link-rx"></block>。</block>
+  <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">您可以在中查看JSON报告生成的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
+  <block id="0527c3c624cc9c38c92e3f9b20bd744d" category="list-text">安装程序提示时、您可以在一系列提示中输入所需值、也可以将所需参数作为命令行参数提供给安装程序。</block>
+  <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022年11月13日(1.17版)</block>
+  <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。</block>
+  <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">现在、内部安装程序会在开始安装之前执行预检查</block>
+  <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。</block>
+  <block id="9d2608b0b15c6604020ef66ba698a70d" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
+  <block id="80ca59a22e157477c940f080c9cf1223" category="paragraph"><block ref="b1c06333aab3fa5206e44a440f888650" category="inline-link-macro-rx"></block>。</block>
+  <block id="fa18750d3909d8a2d2d0a22c1611a692" category="paragraph">数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 <block ref="50748b3ac35725f5f9be1dab9c684e55" category="inline-link-macro-rx"></block>。</block>
 </blocks>

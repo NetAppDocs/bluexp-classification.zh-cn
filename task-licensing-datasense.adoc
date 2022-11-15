@@ -18,7 +18,7 @@ summary: 在BlueXP工作空间中、Cloud Data sense扫描的前1 TB数据是免
 
 在阅读其他内容之前，请先阅读一些注释：
 
-* 如果您已在云提供商的市场中订阅 Cloud Manager 按需购买（ PAYGO ）订阅，则您也会自动订阅 Cloud Data sense 。您无需重新订阅。
+* 如果您已在云提供商的市场中订阅了BlueXP按需购买(PAYGO)订阅、则您也会自动订阅Cloud Data sense。您无需重新订阅。
 * Cloud Data sense 自带许可证（ BYOL ）是一种 _float_ 许可证，您可以在计划扫描的工作空间中的所有工作环境和数据源中使用。您将在数字电子钱包中看到有效订阅。
 
 
@@ -45,7 +45,7 @@ image:screenshot_settings_icon.gif["BlueXP右上角横幅的屏幕截图、您�
 必须将订阅添加到实例配置文件，托管服务身份或 Google Project 中。否则，充电将不起作用。
 
 +
-如果您已订阅（如下所示为 AWS ），则表示您已准备就绪—无需执行任何其他操作。
+如果您已经订阅了BlueXP (如下图所示、适用于AWS)、则您已准备就绪—无需执行任何其他操作。
 
 +
 image:screenshot_profile_subscription.gif["\" 凭据 \" 页面中的屏幕截图，其中显示了订阅处于活动状态的实例配置文件。"]

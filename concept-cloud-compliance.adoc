@@ -294,7 +294,7 @@ BlueXP将云数据感知实例部署到一个安全组中、该安全组可从Co
 
 出站规则完全开放。要安装和升级 Data sense 软件以及发送使用量指标，需要访问 Internet 。
 
-如果您有严格的网络连接要求， link:task-deploy-cloud-compliance.html#reviewing-prerequisites["了解 Cloud Data 感知所接触的端点"^]。
+如果您有严格的网络连接要求， link:task-deploy-cloud-compliance.html#review-prerequisites["了解 Cloud Data 感知所接触的端点"^]。
 
 
 

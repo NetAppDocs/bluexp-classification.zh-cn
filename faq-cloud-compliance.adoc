@@ -311,7 +311,7 @@ Data sense仅扫描元数据。这对于整体数据管理和监管、快速的�
 
 使用 Cloud Data sense 的成本取决于您要扫描的数据量。在BlueXP工作空间中、Data sense扫描的前1 TB数据是免费的。达到此限制后、您需要执行以下操作之一才能继续扫描超过1 TB的数据：
 
-* 您的云提供商或订阅Cloud Manager Marketplace列表
+* 您的云提供商或订阅了BlueXP Marketplace列表
 * NetApp自带许可证(BYOL)
 
 

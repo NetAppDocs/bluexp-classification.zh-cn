@@ -18,7 +18,7 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
-== 2022年11月7日(1.17版)
+== 2022年11月13日(1.17版)
 
 
 
@@ -36,9 +36,15 @@ Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部�
 
 === 可以添加其他内部"扫描程序"节点来扫描特定数据源
 
-如果您在内部位置安装了Data sense、并且发现扫描数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。例如、如果您意识到一个数据源中的数据量在1年后增加了三倍、则可以添加一个新的扫描程序节点来协助进行数据扫描。
+如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。
 
 如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["请参见如何安装扫描程序节点以扫描其他数据源"^]。
+
+
+
+=== 现在、内部安装程序会在开始安装之前执行预检查
+
+在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。
 
 
 
@@ -271,7 +277,7 @@ Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫�
 
 === 支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据
 
-如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 link:task-deploy-compliance-dark-site.html#sharepoint_and_onedrive_special_requirements["您需要允许访问以下端点。"]
+如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 link:task-deploy-compliance-dark-site.html#sharepoint-and-onedrive-special-requirements["您需要允许访问以下端点。"]
 
 
 
@@ -367,7 +373,7 @@ link:task-managing-highlights.html#cloning-volume-data-to-a-new-volume["请参�
 
 从调查结果窗格对多个文件运行操作时，例如删除 50 个文件，此过程可能需要一些时间。现在，您可以监控这些异步操作的状态，以便了解它何时应用于所有文件。
 
-link:task-managing-highlights.html#viewing-the-status-of-your-compliance-actions["了解如何查看持续合规操作的状态"]。
+link:task-view-compliance-actions.html["了解如何查看持续合规操作的状态"]。
 
 
 
@@ -515,54 +521,10 @@ link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["了解�
 
 === 能够执行慢速扫描
 
-数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 link:task-managing-compliance.html#reducing-the-data-sense-scan-speed["了解如何操作"]。
+数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 link:task-reduce-scan-speed.html["了解如何操作"]。
 
 
 
 === 数据感知可跟踪上次访问文件的时间
 
 上次访问时间值已添加到 " 文件详细信息 " 页面以及以 CSV 格式输出的报告中，以便您可以查看用户上次访问文件的时间。
-
-
-
-== 2021 年 6 月 7 日
-
-
-
-=== Cloud Compliance 已重命名为 Cloud Data sense 。
-
-自此版本起， Cloud Compliance 已重命名为 * 云数据感知 * 。由于该产品中包含了所有新的监管功能和其他功能，因此合规性名称并不能推广所有功能。
-
-
-
-=== " 监管信息板 " 提供了新的 " 完整数据映射 " 报告
-
-" 监管信息板 " 提供了一份全新的 _Full Data Mapping_ 报告，用于概述企业数据源中存储的数据，以帮助您确定迁移，备份，安全性和合规性流程。
-
-此报告提供了概述页面，其中汇总了您的所有工作环境和数据源，然后提供了每个工作环境的细分信息。 link:task-generating-compliance-reports.html#generating-the-data-mapping-report["请单击此处"] 有关详细信息：
-
-
-
-=== 在 " 调查 " 页面中添加了新筛选器，用于查看所有重复的文件
-
-通过 " 数据调查 " 页面中的新筛选器，您可以查看在存储系统中复制的所有文件的列表。这有助于确定可以节省存储空间的区域，或者确定具有特定权限或不希望在存储中复制的敏感信息的文件。 link:task-controlling-private-data.html#viewing-all-duplicated-files["请参见如何查看所有重复的文件"]。
-
-
-
-=== Data sense 可以为组织的文件添加自定义标记
-
-您可以向 Data sense 正在扫描的文件添加自定义标记。此标记与添加 AIP 标签的方式不同。Cloud Manager 用户只能看到此标记，因此您可以指示文件是否需要删除或出于某种原因进行检查。 link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["了解如何在文件中应用和查看标记"]。
-
-通过 " 调查 " 页面中的新筛选器，您可以轻松查看已分配标记的所有文件。
-
-
-
-=== 可以扫描 .dcm 和 .Dicom 文件
-
-Cloud Data sense 可以在两种其他类型的文件中扫描个人身份信息（ Personal identifiable Information ， Pii ）： .dcm 和 .Dicom 。
-
-
-
-=== Data sense 现在可跟踪文件的其他属性
-
-已将 " 文件大小 " ， " 创建日期 " 和 " 上次修改日期 " 值添加到以 CSV 格式输出的报告中。创建日期也是一个新筛选器，可用于缩小调查页面搜索结果的范围。

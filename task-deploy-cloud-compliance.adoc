@@ -40,7 +40,7 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。
 启动安装向导以在云中部署 Cloud Data sense 实例。
 
 [role="quick-margin-para"]
-在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据，需要通过云提供商 Marketplace 订阅 Cloud Manager 或从 NetApp 获得 BYOL 许可证。
+在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。
 
 
 
