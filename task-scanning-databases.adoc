@@ -22,15 +22,19 @@ summary: 完成几个步骤，开始使用 Cloud Data sense 扫描数据库架�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看数据库前提条件
 [role="quick-margin-para"]
 确保您的数据库受支持，并且您具有连接到数据库所需的信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加数据库服务器
 [role="quick-margin-para"]
 添加要访问的数据库服务器。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择模式
 [role="quick-margin-para"]
 选择要扫描的模式。
 
@@ -132,4 +136,5 @@ image:screenshot_compliance_select_schemas.png["扫描配置页面的屏幕截�
 
 
 
+.结果
 Cloud Data sense 将开始扫描您启用的数据库架构。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。

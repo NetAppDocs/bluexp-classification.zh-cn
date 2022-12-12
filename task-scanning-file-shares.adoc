@@ -22,15 +22,19 @@ summary: 完成几个步骤，直接使用 Cloud Data sense 扫描非 NetApp NFS
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看文件共享前提条件
 [role="quick-margin-para"]
 对于 CIFS （ SMB ）共享，请确保您具有访问这些共享的凭据。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 创建一个组以存放文件共享
 [role="quick-margin-para"]
 组是要扫描的文件共享的容器，它用作这些文件共享的工作环境名称。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 添加文件共享并选择要扫描的共享
 [role="quick-margin-para"]
 添加要扫描的文件共享列表并选择扫描类型。一次最多可以添加 100 个文件共享。
 
@@ -140,6 +144,7 @@ image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享�
 |===
 
 
+.结果
 Cloud Data sense 开始扫描您添加的文件共享中的文件，结果将显示在信息板和其他位置。
 
 

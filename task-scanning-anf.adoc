@@ -22,18 +22,23 @@ summary: 完成几个步骤，开始使用适用于 Azure NetApp Files 的云数
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的Azure NetApp Files 系统
 [role="quick-margin-para"]
 扫描 Azure NetApp Files 卷之前， https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["必须设置BlueXP才能发现配置"^]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用 Cloud Data sense 并选择要扫描的卷
 [role="quick-margin-para"]
 单击 * 合规性 * ，选择 * 配置 * 选项卡，然后为特定工作环境中的卷激活合规性扫描。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 确保能够访问卷
 [role="quick-margin-para"]
 启用 Cloud Data sense 后，请确保它可以访问所有卷。
 
+[role="quick-margin-list"]
 * 云数据感知实例需要与每个 Azure NetApp Files 子网建立网络连接。
 * 确保这些端口对 Data sense 实例开放：
 +
@@ -48,6 +53,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如
 
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 管理要扫描的卷
 [role="quick-margin-para"]
 选择或取消选择要扫描的卷， Cloud Data sense 将开始或停止扫描这些卷。
 
@@ -87,13 +93,14 @@ image:screenshot_cloud_compliance_anf_scan_config.png["部署 Cloud Data sense �
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
 +
-请参见  and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描 了解详细信息。
+请参见 <<在卷上启用和禁用合规性扫描,在卷上启用和禁用合规性扫描>> 了解详细信息。
 
 
 
 . 在确认对话框中，单击 * 批准 * 以使 Data sense 开始扫描卷。
 
 
+.结果
 Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦 Cloud Data sense 完成初始扫描， " 合规性 " 信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。
 
 

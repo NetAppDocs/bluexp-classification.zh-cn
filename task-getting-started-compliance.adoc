@@ -22,22 +22,28 @@ summary: 完成几个步骤，开始使用 Cloud Data sense 扫描 Cloud Volumes
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的数据源
 [role="quick-margin-para"]
 在扫描卷之前、必须在BlueXP中将系统添加为工作环境：
 
+[role="quick-margin-list"]
 * 对于Cloud Volumes ONTAP 系统、这些工作环境应已在BlueXP中可用
 * 对于内部 ONTAP 系统， https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP必须发现ONTAP 集群"^]
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用 Cloud Data sense 并选择要扫描的卷
 [role="quick-margin-para"]
 单击 * 数据感知 * ，选择 * 配置 * 选项卡，然后为特定工作环境中的卷激活合规性扫描。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 确保能够访问卷
 [role="quick-margin-para"]
 启用 Cloud Data sense 后，请确保它可以访问所有卷。
 
+[role="quick-margin-list"]
 * 云数据感知实例需要与每个 Cloud Volumes ONTAP 子网或内部 ONTAP 系统建立网络连接。
 * Cloud Volumes ONTAP 的安全组必须允许来自数据感知实例的入站连接。
 * 确保这些端口对 Data sense 实例开放：
@@ -53,6 +59,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 管理要扫描的卷
 [role="quick-margin-para"]
 选择或取消选择要扫描的卷， Cloud Data sense 将开始或停止扫描这些卷。
 
@@ -92,13 +99,14 @@ image:screenshot_cloud_compliance_we_scan_config.png["部署 Cloud Data sense �
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
 +
-请参见  and disabling compliance scans on volumes,在卷上启用和禁用合规性扫描 了解详细信息。
+请参见 <<在卷上启用和禁用合规性扫描,在卷上启用和禁用合规性扫描>> 了解详细信息。
 
 
 
 . 在确认对话框中，单击 * 批准 * 以使 Data sense 开始扫描卷。
 
 
+.结果
 Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦 Cloud Data sense 完成初始扫描， " 合规性 " 信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。
 
 
@@ -196,6 +204,7 @@ NOTE: 只有在标题区域中设置了 * 映射 * 或 * 映射和分类 * 设�
 
 image:screenshot_cloud_compliance_dp_volumes.png["显示启用对 DP 卷的访问按钮的屏幕截图，您可以选择此按钮来扫描数据保护卷。"]
 
+.步骤
 如果要扫描这些数据保护卷：
 
 . 单击页面顶部的 * 启用对 DP 卷的访问 * 。
@@ -208,9 +217,10 @@ image:screenshot_compliance_dp_cifs_volumes.png["用于启用 CIFS 数据保护�
 
 
 
-. 激活要扫描的每个 DP 卷  and disabling compliance scans on volumes,与启用其他卷的方式相同。
+. 激活要扫描的每个 DP 卷 <<在卷上启用和禁用合规性扫描,与启用其他卷的方式相同>>。
 
 
+.结果
 启用后， Cloud Data sense 会从已激活进行扫描的每个 DP 卷创建一个 NFS 共享。共享导出策略仅允许从 Data sense 实例进行访问。
 
 * 注意： * 如果在最初启用对 DP 卷的访问时没有 CIFS 数据保护卷，稍后再添加一些，则配置页面顶部会显示 * 启用对 CIFS DP* 的访问。单击此按钮并添加 CIFS 凭据，以便能够访问这些 CIFS DP 卷。

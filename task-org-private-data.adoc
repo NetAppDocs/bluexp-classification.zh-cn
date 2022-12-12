@@ -93,6 +93,7 @@ image:screenshot_compliance_aip_labels_int.png["已成功集成显示 AIP 标签
 
 
 
+.结果
 您可以从调查页面的结果窗格中查看和分配 AIP 标签。您还可以使用策略为文件分配 AIP 标签。
 
 
@@ -352,7 +353,7 @@ image:screenshot_compliance_select_user_multi.png["显示如何在 \" 数据调�
 
 策略提供以下功能：
 
-*  of predefined Policies,预定义策略 基于用户请求从 NetApp 获得
+* <<预定义策略列表,预定义策略>> 基于用户请求从 NetApp 获得
 * 能够创建自己的自定义策略
 * 单击一下即可启动包含策略结果的调查页面
 * 当某些关键策略返回结果时、向BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知
@@ -402,6 +403,7 @@ image:screenshot_compliance_save_highlight.png["显示如何配置和保存策�
 
 
 
+.结果
 新策略将显示在策略选项卡中。
 
 
@@ -426,6 +428,7 @@ image:screenshot_compliance_add_email_alert_2.png["屏幕截图显示了如何�
 . 单击 * 保存策略 * ，策略问题描述中将显示发送电子邮件的间隔。
 
 
+.结果
 现在，如果策略中有任何结果，则会发送第一封电子邮件，但前提是任何文件符合策略标准。通知电子邮件不会发送任何个人信息。此电子邮件指示存在与策略条件匹配的文件，并提供指向策略结果的链接。
 
 
@@ -454,6 +457,7 @@ image:screenshot_compliance_edit_policy_query.png["显示如何通过更改筛�
 
 
 
+.结果
 策略将立即更改。为该策略定义的用于发送电子邮件、添加AIP标签或删除文件的任何操作都将在下一个内部发生。
 
 

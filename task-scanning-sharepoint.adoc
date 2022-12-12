@@ -22,15 +22,19 @@ summary: 通过Cloud Data sense完成几个步骤、开始扫描SharePoint Onlin
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看SharePoint前提条件
 [role="quick-margin-para"]
 请确保您拥有用于登录到 SharePoint 帐户的管理员凭据，并且拥有要扫描的 SharePoint 站点的 URL 。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到SharePoint帐户
 [role="quick-margin-para"]
 使用管理员用户凭据登录到要访问的 SharePoint 帐户，以便将其添加为新的数据源 / 工作环境。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 添加要扫描的SharePoint站点URL
 [role="quick-margin-para"]
 在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。一次最多可以添加 100 个 URL 。
 
@@ -152,6 +156,7 @@ image:screenshot_compliance_sharepoint_add_site.png["\" 添加 SharePoint 站点
 |===
 
 
+.结果
 Cloud Data sense 开始扫描您添加的 SharePoint 站点中的文件，结果将显示在信息板和其他位置。
 
 

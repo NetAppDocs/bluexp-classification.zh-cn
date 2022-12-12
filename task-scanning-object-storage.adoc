@@ -22,18 +22,22 @@ summary: 完成几个步骤，直接使用 Cloud Data sense 扫描对象存储�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看对象存储前提条件
 [role="quick-margin-para"]
 您需要具有端点 URL 才能连接到对象存储服务。
 
 [role="quick-margin-para"]
 您需要从对象存储提供程序获取访问密钥和机密密钥，以便 Cloud Data sense 可以访问存储分段。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加对象存储服务
 [role="quick-margin-para"]
 将对象存储服务添加到 Cloud Data sense 。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
 [role="quick-margin-para"]
 选择要扫描的存储分段， Cloud Data sense 将开始扫描这些存储分段。
 
@@ -83,6 +87,7 @@ image:screenshot_compliance_add_object_storage.png["对话框的屏幕截图，�
 
 
 
+.结果
 新的对象存储服务将添加到工作环境列表中。
 
 
@@ -116,4 +121,5 @@ image:screenshot_compliance_object_storage_select_buckets.png["选择要扫描�
 |===
 
 
+.结果
 Cloud Data sense 开始扫描您启用的存储分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。

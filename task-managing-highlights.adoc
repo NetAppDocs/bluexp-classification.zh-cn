@@ -137,6 +137,7 @@ image:screenshot_compliance_clone_files_dialog.png["显示复制文件对话框�
 
 
 
+.结果
 新的克隆卷将在与源卷相同的聚合中创建。
 
 您可以在中查看克隆操作的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
@@ -189,6 +190,7 @@ Cloud Sync UI将在BlueXP中打开。
 . 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html.html["快速启动问题描述"^]。
 
 
+.结果
 这些文件将复制到目标系统，并根据您定义的计划进行同步。如果选择一次性同步，则文件只会复制和同步一次。如果选择定期同步，则会根据计划同步文件。请注意，如果源系统添加的新文件与您使用筛选器创建的查询匹配，这些 _new_ 文件将复制到目标并在将来进行同步。
 
 请注意，从数据感知调用某些常见 Cloud Sync 操作时，这些操作将被禁用：
@@ -315,6 +317,7 @@ image:screenshot_compliance_delete_files_using_policies.png["显示如何配置�
 
 
 
+.结果
 新策略将显示在策略选项卡中。与策略匹配的文件将在策略运行时每天删除一次。
 
 您可以在中查看已删除的文件列表 link:task-view-compliance-actions.html["操作状态窗格"]。

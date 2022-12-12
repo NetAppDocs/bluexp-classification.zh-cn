@@ -22,15 +22,19 @@ summary: 请完成几个步骤、开始使用Cloud Data sense扫描Google Drive�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看Google Drive前提条件
 [role="quick-margin-para"]
 确保您拥有登录到Google Drive帐户所需的管理员凭据。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到Google Drive帐户
 [role="quick-margin-para"]
 使用管理员用户凭据登录到要访问的Google Drive帐户、以便将其添加为新的数据源。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择扫描用户文件的类型
 [role="quick-margin-para"]
 选择要对用户文件执行的扫描类型；映射或映射和分类。
 
@@ -111,6 +115,7 @@ image:screenshot_compliance_google_drive_select_scan.png["屏幕截图显示了�
 |===
 
 
+.结果
 Cloud Data sense开始扫描您添加的Google Drive帐户中的文件、结果将显示在信息板和其他位置。
 
 

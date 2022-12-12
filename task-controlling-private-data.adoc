@@ -23,9 +23,9 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 image:screenshot_compliance_dashboard.png["Cloud Data sense 信息板的屏幕截图"]
 
-如果只想查看某些工作环境的数据，  Dashboard data for specific working environments,选择这些工作环境。
+如果只想查看某些工作环境的数据， <<查看特定工作环境的信息板数据,选择这些工作环境>>。
 
-您还可以从 " 数据调查 " 页面筛选结果，并以 CSV 文件的形式下载结果报告。请参见  data in the Data Investigation page,筛选 " 数据调查 " 页面中的数据 了解详细信息。
+您还可以从 " 数据调查 " 页面筛选结果，并以 CSV 文件的形式下载结果报告。请参见 <<筛选 " 数据调查 " 页面中的数据,筛选 " 数据调查 " 页面中的数据>> 了解详细信息。
 
 
 

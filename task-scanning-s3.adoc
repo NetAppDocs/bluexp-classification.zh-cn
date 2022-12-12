@@ -22,15 +22,19 @@ Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对象存储
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 在云环境中设置 S3 要求
 [role="quick-margin-para"]
-确保您的云环境能够满足 Cloud Data sense 的要求，包括准备 IAM 角色以及设置从 Data sense 到 S3 的连接。  S3 prerequisites,请参见完整列表。
+确保您的云环境能够满足 Cloud Data sense 的要求，包括准备 IAM 角色以及设置从 Data sense 到 S3 的连接。 <<查看 S3 前提条件,请参见完整列表>>。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 在 S3 工作环境中激活 Data sense
 [role="quick-margin-para"]
 选择 Amazon S3 工作环境，单击 * 启用 * ，然后选择包含所需权限的 IAM 角色。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
 [role="quick-margin-para"]
 选择要扫描的存储分段， Cloud Data sense 将开始扫描这些存储分段。
 
@@ -117,7 +121,7 @@ image:screenshot_s3_we.gif["Amazon S3 工作环境图标的屏幕截图"]
 +
 image:screenshot_s3_enable_compliance.gif["从 \" 服务 \" 面板启用 Cloud Data sense 服务的屏幕截图"]
 
-. 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例  S3 prerequisites,所需权限。
+. 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例 <<查看 S3 前提条件,所需权限>>。
 +
 image:screenshot_s3_compliance_iam_role.gif["为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图"]
 
@@ -127,6 +131,7 @@ image:screenshot_s3_compliance_iam_role.gif["为 Cloud Data sense 输入 AWS IAM
 
 TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif[""] 按钮并选择 * 激活数据感知 * 。
 
+.结果
 BlueXP将IAM角色分配给实例。
 
 
@@ -137,7 +142,7 @@ BlueXP将IAM角色分配给实例。
 
 当BlueXP在包含要扫描的S3存储分段的AWS帐户中运行时、它会发现这些存储分段并将其显示在Amazon S3工作环境中。
 
-云数据感知也可以  buckets from additional AWS accounts,扫描位于不同 AWS 帐户中的 S3 存储分段。
+云数据感知也可以 <<从其他 AWS 帐户扫描存储分段,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
 
 .步骤
 . 选择 Amazon S3 工作环境。
@@ -165,6 +170,7 @@ image:screenshot_s3_select_buckets.png["选择要扫描的 S3 存储分段的屏
 |===
 
 
+.结果
 Cloud Data sense 开始扫描您启用的 S3 存储分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
 
 
@@ -248,4 +254,5 @@ image:screenshot_activate_and_select_buckets.png["显示如何激活 Data sense 
 . 单击 * 激活数据感知并选择分段 * ，然后选择要扫描的分段。
 
 
+.结果
 Cloud Data sense 将开始扫描您启用的新 S3 存储分段。

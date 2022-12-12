@@ -18,6 +18,28 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
+== 2022年12月11日(1.18版)
+
+
+
+=== 内部安装增强功能
+
+内部Data sense安装增加了以下增强功能：
+
+* 现在、在内部主机上开始安装之前、系统会检查一些其他前提条件。这有助于确保主机系统已完全准备好安装Data sense软件：
++
+** 测试/var/lib/docker、/tmp和/opt上是否有足够的空间
+** 测试所有所需文件夹上的相关权限
+
+
+* 现在、在配置页面中、工作环境部分将显示_Working Environment ID_和_扫描 程序组_名称。如果您计划使用多个Data sense主机来提供额外的处理能力来扫描数据源、则需要了解工作环境ID。
+* 在配置页面中、一个新部分将显示您设置的扫描程序组以及每个组中的扫描程序节点。
+
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html["了解有关在一台主机服务器和多台主机上安装Data sense的更多信息"]。
+
+
+
 == 2022年11月13日(1.17版)
 
 

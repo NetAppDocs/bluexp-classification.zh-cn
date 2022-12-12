@@ -129,7 +129,7 @@ Data sense 支持 NFS 3.x ， 4.0 和 4.1 以及 CIFS 1.x ， 2.0 ， 2.1 和 3.
 +
 link:task-licensing-datasense.html["了解如何获得 Cloud Data sense 的许可"^]。
 
-* 要在云中安装 Cloud Data sense ，需要部署云实例，这会导致部署该实例的云提供商收取费用。请参见  Cloud Data Sense instance,为每个云提供商部署的实例类型。如果您在内部系统上安装 Data sense ，则无需任何成本。
+* 要在云中安装 Cloud Data sense ，需要部署云实例，这会导致部署该实例的云提供商收取费用。请参见 <<云数据感知实例,为每个云提供商部署的实例类型>>。如果您在内部系统上安装 Data sense ，则无需任何成本。
 * Cloud Data sense要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
 
 
@@ -185,7 +185,7 @@ TIP: 此实例应始终保持运行状态，因为 Cloud Data sense 会持续扫
 | 系统大小 | 规格 | 限制 
 
 
-| 超大（默认） | 16 个 CPU ， 64 GB RAM ， 500 GB SSD | 无 
+| 大型(默认) | 16 个 CPU ， 64 GB RAM ， 500 GB SSD | 无 
 
 
 | 中等 | 8 个 CPU ， 32 GB RAM ， 200 GB SSD | 扫描速度较慢，最多只能扫描 100 万个文件。 
@@ -225,7 +225,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 
 
-=== 映射扫描与分类扫描有何区别
+=== 映射扫描与分类扫描之间的区别是什么
 
 您可以通过Cloud Data sense对选定数据源运行常规"映射"扫描。映射仅提供数据的概览，而 " 分类 " 则提供数据的深度扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。
 
