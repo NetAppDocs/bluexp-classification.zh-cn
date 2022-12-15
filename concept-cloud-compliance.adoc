@@ -150,9 +150,6 @@ link:task-licensing-datasense.html["了解如何获得 Cloud Data sense 的许�
 
 在云中部署Data sense时、BlueXP会将实例部署在与Connector相同的子网中。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
 
-
-NOTE: 如果 Connector 安装在内部，则它会将云数据感知实例部署在与请求中的第一个 Cloud Volumes ONTAP 系统相同的 VPC 或 vNet 中。您也可以在内部安装 Data sense 。
-
 image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的BlueXP实例和云数据感知实例的示意图。"]
 
 请注意以下有关默认实例的信息：
