@@ -86,7 +86,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 
 数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。
 
-* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.6版
+* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
 +
 ** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 ** 操作系统必须能够安装Docker引擎

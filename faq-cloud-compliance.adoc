@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: faq-cloud-compliance.html 
 keywords: faq, frequently asked questions, questions, cloud compliance, data sense 
-summary: 如果您只是在寻找一个问题的快速答案，此常见问题解答将会有所帮助。 
+summary: 如果您只是想快速了解问题解答，此常见问题解答会很有帮助。 
 ---
 = 有关 Cloud Data sense 的常见问题
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 如果您只是在寻找一个问题的快速答案，此常见问题�
 
 
 [role="lead"]
-如果您只是在寻找一个问题的快速答案，此常见问题解答将会有所帮助。
+如果您只是想快速了解问题解答，此常见问题解答会很有帮助。
 
 
 
@@ -34,7 +34,9 @@ Cloud Data sense 提供了预定义的参数（例如敏感信息类型和类别
 
 === 云数据感知的工作原理是什么？
 
-Cloud Data sense可在您的BlueXP系统和存储系统中部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
+Cloud Data sense可在您的BlueXP系统和存储系统中部署另一层人工智能。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。与通常围绕正则表达式和模式匹配构建的替代解决方案相比、Data sense可以利用人工智能和自然语言处理。
+
+Cloud Data sense利用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。
 
 link:concept-cloud-compliance.html["详细了解 Cloud Data sense 的工作原理"^]。
 
@@ -185,7 +187,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === 是否有人可以访问在我的浏览器和Data sense之间发送的私有数据？
 
-否在浏览器和Data sense实例之间发送的私有数据通过端到端加密得到保护、这意味着NetApp和第三方无法读取。除非您请求并批准访问、否则Data sense不会与NetApp共享任何数据或结果。
+否在浏览器和Data sense实例之间发送的私有数据通过端到端加密来保护安全、这意味着NetApp和第三方无法读取它。除非您请求并批准访问、否则Data sense不会与NetApp共享任何数据或结果。
 
 
 
@@ -199,7 +201,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === Cloud Data sense 能否向我的组织发送通知？
 
-是的。与策略功能结合使用、您可以在策略返回结果时向BlueXP用户发送电子邮件警报(每日、每周或每月)、以便您可以获得保护数据的通知。了解更多信息 link:task-org-private-data.html#controlling-your-data-using-policies["策略"^]。
+是的。在策略返回结果时、与策略功能结合使用、您可以向BlueXP用户(每日、每周或每月)或任何其他电子邮件地址发送电子邮件警报、以便您可以获得保护数据的通知。了解更多信息 link:task-org-private-data.html#controlling-your-data-using-policies["策略"^]。
 
 您还可以从 " 监管 " 页面和 " 调查 " 页面下载状态报告，并在组织内部共享这些报告。
 
@@ -207,7 +209,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === Cloud Data sense 是否可以与我的文件中嵌入的 AIP 标签配合使用？
 
-是的。如果您已订阅，则可以管理 Cloud Data sense 正在扫描的文件中的 AIP 标签 link:https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。您可以查看已分配给文件的标签，向文件添加标签以及更改现有标签。
+是的。如果您已订阅，则可以管理 Cloud Data sense 正在扫描的文件中的 AIP 标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。您可以查看已分配给文件的标签，向文件添加标签以及更改现有标签。
 
 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["了解更多信息。"^]。
 
@@ -321,7 +323,7 @@ Data sense仅扫描元数据。这对于整体数据管理和监管、快速的�
 
 === 如果我已达到BYOL容量限制、会发生什么情况？
 
-如果达到BYOL容量限制、则Data sense会继续运行、但会阻止对信息板的访问、因此您无法查看有关任何已扫描数据的信息。如果您希望减少要扫描的卷数量、从而可能使容量使用量低于许可证限制、则只能使用配置页面。您必须续订BYOL许可证才能重新获得对Data sense的完全访问权限。
+如果您达到BYOL容量限制、则Data sense将继续运行、但对信息板的访问将被阻止、因此您无法查看有关任何已扫描数据的信息。如果您希望减少要扫描的卷数量、从而可能使容量使用量低于许可证限制、则只能使用配置页面。您必须续订BYOL许可证才能重新获得对Data sense的完全访问权限。
 
 
 
@@ -345,7 +347,7 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 * 在扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户中的数据时、您可以在任何这些云位置使用连接器。
 
 
-因此、如果您在其中许多位置都有数据、则可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["多个连接器"]。
+因此、如果您在其中许多位置都有数据、则可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["多个连接器"^]。
 
 
 

@@ -209,9 +209,10 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 
 用于添加自定义regex的命令语法为：
 
- sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>"
+ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>" -p "<proximity_words>"
 * <pattern_name>=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。
 * <Regular expression>=这可以是任何合法的正则表达式。
+* <proximity_words> =在所发现模式之前或之后所搜索模式的300个字符以内的字词、以帮助细化结果的准确性。每个词用逗号(、)分隔。
 
 
 您可以从路径*/opt/netapp/Datasens/*运行命令。
@@ -219,21 +220,23 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 请注意、我们会测试每个新的正则表达式、以验证它是否过宽且返回的匹配项过多。如果是这种情况、则会显示以下日志消息：
 
  log v1.0 | 2022-08-17 07:24:19,585 | ERROR | ds_logger | custom_regex | 119 | 1 | None | custom_regex_119 | The regex has high risk to identify false positives. Please narrow the regular expression and try again. To add it anyway, use the force flag (-f) at the end
-如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。
+如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。或者、您也可以使用"-p"选项尝试细化搜索结果。
 
 
 
 === 示例
 
-产品ID是一个12位数、以201开头；因此正则表达式为*：\B201\d｛9｝\b*。您希望通过Data sense UI中的文本将此模式标识为*内部产品ID*。
+产品ID是一个12位数、以201开头；例如"201123456789"。因此、正则表达式为*。b201\d｛9｝\b*。您希望Data sense UI中的文本将此模式标识为*内部产品ID*。我们将添加接近词"product id"和"identifier"。
 
 要查看所有文件中提及内部产品ID的位置、请输入以下命令。
 
 [source, cli]
 ----
 [user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b"
+[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b" -p "product id,identifier"
 ----
+此命令的输出为：
+
 ....
 [+] Adding Custom Regex to Data Sense
 log v1.0 | 2022-08-23 13:19:01,476 | INFO | ds_logger | custom_regex | 154 | 1 | None | custom_regex_154 | A pattern named 'Internal Product ID' was added successfully to Data Sense

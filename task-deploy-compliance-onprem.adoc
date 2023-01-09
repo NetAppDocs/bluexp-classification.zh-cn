@@ -88,7 +88,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 
 确保您可以保持 Cloud Data sense 正常运行Cloud Data sense计算机需要保持正常运行、才能持续扫描数据。
 
-* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.6版
+* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
 +
 ** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 ** 操作系统必须能够安装Docker引擎
@@ -107,7 +107,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 请注意，您可以在 CPU 较少且 RAM 较少的系统上部署 Data sense ，但使用这些系统时会有一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
 * * Red Hat订阅管理*：必须向Red Hat订阅管理注册Red Hat Enterprise Linux系统。如果未注册，则系统无法在安装期间访问存储库以更新所需的第三方软件。
-* *其他软件*：主机上必须安装以下软件。如果此主机上尚不存在此软件，则安装程序将为您安装此软件：
+* *其他软件*：在安装Data sense之前、必须在主机上安装以下软件：
 +
 ** Docker 引擎版本 19 或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
 ** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
@@ -248,7 +248,7 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
-* （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
+* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 如果您使用的是代理、并且它正在执行TLS截获、则需要了解Data sense Linux系统上用于存储TLS CA证书的路径。
 * 验证脱机环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
@@ -368,7 +368,7 @@ image:diagram_onprem_scanner_groups.png["一个示意图、用于展示分配给
 
 .您需要的内容
 * 验证扫描程序节点的所有Linux系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
-* （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
+* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 验证您的环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
 * 您必须具有要添加的扫描程序节点主机的IP地址。
@@ -478,13 +478,15 @@ image:screenshot_client_access_token.png["API文档页面的屏幕截图、其�
 .. 打开文件"/opt/netapp/Datasens/工作 环境_to_scanner_group_config.yml"、并输入要扫描特定工作环境的扫描程序组的映射。您需要为每个数据源提供_Working Environment ID_。例如、以下条目会将2个工作环境添加到"欧洲"扫描程序组、并将2个添加到"美国"扫描程序组：
 +
 ....
-scanner group:
+scanner_groups:
  europe:
-   - "working_environment_id1"
-   - "working_environment_id2"
+   working_environments:
+     - "working_environment_id1"
+     - "working_environment_id2"
  united_states:
-   - "working_environment_id3"
-   - "working_environment_id4"
+   working_environments:
+     - "working_environment_id3"
+     - "working_environment_id4"
 ....
 +
 未添加到列表中的任何工作环境均由"default"组进行扫描-您必须在"default"组中至少有一个管理器或扫描程序节点。
@@ -521,7 +523,7 @@ image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每�
 
 .您需要的内容
 * 验证管理器和扫描程序节点的所有 Linux 系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
-* （可选）验证系统是否已安装两个必备软件包（ Docker 引擎和 Python 3 ）。如果此软件尚未安装在系统上，安装程序将安装此软件。
+* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 验证您的环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。

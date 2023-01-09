@@ -34,7 +34,7 @@ Data sense提供了多种工具、可帮助您实现合规性。您可以使用 
 * 根据GDPR、CCPA、PCI和HIPAA隐私法规的要求、识别广泛的敏感个人信息。
 * 根据名称或电子邮件地址响应数据主体访问请求(Data Subject Access Requests、DSAar)。
 * 确定数据库中的唯一标识符是否位于其他存储库中的文件中—基本上创建您自己的"个人数据"列表、该列表在数据感知扫描中进行标识。
-* 当文件包含特定的PiE时、通过电子邮件通知BlueXP用户(您可以使用定义此条件) link:task-org-private-data.html#controlling-your-data-using-policies["策略"^])、这样您就可以决定行动计划。
+* 当文件包含特定的PiE时、通过电子邮件通知特定用户(您可以使用定义此条件) link:task-org-private-data.html#controlling-your-data-using-policies["策略"^])、这样您就可以决定行动计划。
 
 
 
@@ -59,7 +59,7 @@ Data sense提供的工具可以帮助您降低存储总拥有成本(TCO)。您�
 
 * 通过识别重复数据或非业务相关数据来提高存储效率。您可以使用此信息来确定是要移动还是删除某些文件。
 * 删除看似不安全或风险太大、无法留在存储系统中的文件、或者您已确定为重复的文件。您可以使用_policies_自动删除符合特定条件的文件。
-* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["了解有关分层的更多信息"^]。
+* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
 
 
 
