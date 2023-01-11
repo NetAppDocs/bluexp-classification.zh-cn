@@ -14,7 +14,7 @@ summary: 在BlueXP工作空间中、Cloud Data sense扫描的前1 TB数据是免
 
 
 [role="lead"]
-在BlueXP工作空间中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。
+在BlueXP工作空间中、Cloud Data感知扫描的前1 TB数据将免费使用30天。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。
 
 在阅读其他内容之前，请先阅读一些注释：
 
@@ -30,7 +30,7 @@ link:concept-cloud-compliance.html#cost["详细了解与 Cloud Data sense 相关
 
 您可以从云提供商的市场订阅按需购买，从而获得使用 Cloud Volumes ONTAP 系统和云数据服务（如云数据感知）的许可。
 
-您可以随时订阅，在数据量超过 1 TB 之前，不会向您收取任何费用。您始终可以从数据感知信息板查看正在扫描的总数据量。现在订阅 _ 按钮可以让您在准备就绪后轻松订阅。
+您可以随时订阅、除非30天试用结束或数据量超过1 TB、否则不会向您收取任何费用。您始终可以从数据感知信息板查看正在扫描的总数据量。现在订阅 _ 按钮可以让您在准备就绪后轻松订阅。
 
 image:screenshot_compliance_subscribe.png["屏幕截图显示了正在扫描的数据量以及用于订阅服务的 \" 订阅 \" 按钮。"]
 

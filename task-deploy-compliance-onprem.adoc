@@ -52,7 +52,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅 Cloud Data sense 服务
 [role="quick-margin-para"]
-在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
+在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
 
 
 
@@ -321,7 +321,7 @@ Cloud Data sense 安装程序可安装软件包，安装 Docker ，注册安装�
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 
-您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在数据量超过 1 TB 之前，不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
@@ -511,7 +511,7 @@ image:screenshot_work_env_id.png["Data sense Configuration页面中的工作环�
 
 image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每个扫描程序节点的IP地址的屏幕截图。"]
 
-您可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在数据量超过 1 TB 之前，不会向您收取任何费用。
+您可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
@@ -584,4 +584,4 @@ Cloud Data sense 安装程序将完成软件包， Docker 的安装并注册安�
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 
-您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在数据量超过 1 TB 之前，不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。

@@ -125,7 +125,7 @@ Data sense 支持 NFS 3.x ， 4.0 和 4.1 以及 CIFS 1.x ， 2.0 ， 2.1 和 3.
 
 == 成本
 
-* 使用 Cloud Data sense 的成本取决于您要扫描的数据量。在BlueXP工作空间中、Data sense扫描的前1 TB数据是免费的。这包括所有工作环境和数据源中的所有数据。要在这之后继续扫描数据，需要订阅 AWS ， Azure 或 GCP Marketplace 或 NetApp 提供的 BYOL 许可证。请参见 https://cloud.netapp.com/netapp-cloud-data-sense["定价"^] 了解详细信息。
+* 使用 Cloud Data sense 的成本取决于您要扫描的数据量。在BlueXP工作空间中、Data sense扫描的前1 TB数据可免费使用30天。这包括所有工作环境和数据源中的所有数据。要在这之后继续扫描数据，需要订阅 AWS ， Azure 或 GCP Marketplace 或 NetApp 提供的 BYOL 许可证。请参见 https://cloud.netapp.com/netapp-cloud-data-sense["定价"^] 了解详细信息。
 +
 link:task-licensing-datasense.html["了解如何获得 Cloud Data sense 的许可"^]。
 

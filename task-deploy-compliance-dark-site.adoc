@@ -72,7 +72,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅 Cloud Data sense 服务
 [role="quick-margin-para"]
-在BlueXP中、Cloud Data sense扫描的前1 TB数据是免费的。要在此之后继续扫描数据，需要获得 NetApp 的 BYOL 许可证。
+在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在此之后继续扫描数据，需要获得 NetApp 的 BYOL 许可证。
 
 
 
@@ -314,7 +314,7 @@ Data sense 安装程序将安装软件包，注册安装并安装 Data sense 。
 .下一步行动
 在配置页面中，您可以选择本地 link:task-getting-started-compliance.html["内部 ONTAP 集群"] 和 link:task-scanning-databases.html["数据库"] 要扫描的。
 
-您也可以 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["为 Cloud Data sense 设置 BYOL 许可"] 目前的数字电子钱包页面。在数据量超过 1 TB 之前，不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["为 Cloud Data sense 设置 BYOL 许可"] 目前的数字电子钱包页面。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
@@ -387,7 +387,7 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 .下一步行动
 在配置页面中，您可以选择本地 link:task-getting-started-compliance.html["内部 ONTAP 集群"] 和本地 link:task-scanning-databases.html["数据库"] 要扫描的。
 
-您也可以 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["为 Cloud Data sense 设置 BYOL 许可"] 目前的数字电子钱包页面。在数据量超过 1 TB 之前，不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html#use-a-cloud-data-sense-byol-license["为 Cloud Data sense 设置 BYOL 许可"] 目前的数字电子钱包页面。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
