@@ -2418,10 +2418,7 @@
   <block id="9a996c7f10537ef7b705b42e701d4b6e" category="paragraph"><block ref="9a996c7f10537ef7b705b42e701d4b6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 了解详细信息。</block>
-  <block id="2152258e1def6997a945ef8261b66bcc" category="paragraph">此操作将提取所需的软件和实际安装文件*。datasENSE-installer-V1.16.1.tar.gz*。</block>
-  <block id="7dcbe0be3e8e2a9fd658d871499bd050" category="list-text">将数据感知安装程序文件(* DATASENSE-installer-Data.tar.gz*&lt;version&gt;)复制到主机。</block>
   <block id="4866a563c343528540aa5c3529f908ca" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.15版、则只能升级到1.16.x如果您有几个主要版本，则需要多次升级此软件。</block>
-  <block id="eb2cb5912ef10d2dcff7761bde0a5ace" category="paragraph">此操作将提取安装文件* datasENSE-installer-V1.16.1.tar.gz*。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
@@ -3044,4 +3041,7 @@
   <block id="d16229fe4c13eabaf4888e33502b9f43" category="paragraph">您也可以 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 目前。在30天免费试用结束之前、不会向您收取任何费用。</block>
   <block id="68b93206d7f113e3a7eb3b6c41df6f6e" category="paragraph">您可以 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 目前。在30天免费试用结束之前、不会向您收取任何费用。</block>
   <block id="4836df02e5a10e2b5f7369a02cc815e2" category="paragraph">在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。</block>
+  <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。</block>
+  <block id="6cc29d8f722610f8a1e880227931a300" category="list-text">将Data sense安装程序文件(* cc_onprem_installer.tar.gz*)复制到主机。</block>
+  <block id="7b8f90ccd6fc9dda39797ae84ca7f14d" category="paragraph">此操作将提取安装文件* cc_onprem_installer.tar.gz*。</block>
 </blocks>

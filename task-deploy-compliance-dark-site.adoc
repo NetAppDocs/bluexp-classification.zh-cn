@@ -255,7 +255,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["一个示意图、显示
 tar -xzf DataSense-offline-bundle-v1.16.1.tar.gz
 ----
 +
-此操作将提取所需的软件和实际安装文件*。datasENSE-installer-V1.16.1.tar.gz*。
+此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。
 
 . 启动BlueXP并选择*监管>分类*。
 . 单击 * 激活数据感知 * 。
@@ -274,7 +274,7 @@ image:screenshot_cloud_compliance_deploy_darksite.png["选择按钮在内部部�
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf cc_onprem_installer.tar.gz
 ----
 . 安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序：
 +
@@ -371,7 +371,7 @@ Data sense 安装程序将安装软件包，注册安装并安装 Data sense 。
 
 . 在 * 每个 * 扫描程序节点主机上：
 +
-.. 将数据感知安装程序文件(* DATASENSE-installer-Data.tar.gz*<version>)复制到主机。
+.. 将Data sense安装程序文件(* cc_onprem_installer.tar.gz*)复制到主机。
 .. 解压缩安装程序文件。
 .. 粘贴并运行在步骤 3 中复制的命令。
 +
@@ -410,13 +410,13 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 tar -xvf DataSense-offline-bundle-v1.16.1.tar.gz
 ----
 +
-此操作将提取安装文件* datasENSE-installer-V1.16.1.tar.gz*。
+此操作将提取安装文件* cc_onprem_installer.tar.gz*。
 
 . 解压缩主机上的安装文件，例如：
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf cc_onprem_installer.tar.gz
 ----
 +
 此操作将提取升级脚本 * 启动 _didssite_upgrade.sh* 以及任何所需的第三方软件。
