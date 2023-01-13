@@ -41,7 +41,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<验证BlueXP和Data sense前提条件,请参见完整列表>>。
+确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<从 Cloud Data sense 启用出站 Internet 访问,请参见完整列表>>。
 
 [role="quick-margin-para"]
 您还需要满足的 Linux 系统 <<准备 Linux 主机系统,以下要求>>。

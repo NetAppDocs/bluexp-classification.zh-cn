@@ -24,7 +24,7 @@ summary: 通过Cloud Data sense完成几个步骤、开始扫描SharePoint Onlin
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看SharePoint前提条件
 [role="quick-margin-para"]
-请确保您拥有用于登录到 SharePoint 帐户的管理员凭据，并且拥有要扫描的 SharePoint 站点的 URL 。
+请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
 [role="quick-margin-para"]
@@ -32,7 +32,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到SharePoint帐户
 [role="quick-margin-para"]
-使用管理员用户凭据登录到要访问的 SharePoint 帐户，以便将其添加为新的数据源 / 工作环境。
+使用符合条件的用户凭据登录到要访问的SharePoint帐户、以便将其添加为新的数据源/工作环境。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 添加要扫描的SharePoint站点URL
 [role="quick-margin-para"]
@@ -44,7 +44,11 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 请查看以下前提条件、以确保您已准备好在SharePoint帐户上激活Cloud Data sense。
 
-* 您必须具有可对所有 SharePoint 站点进行读取访问的 SharePoint 帐户的管理员登录凭据。
+* 您必须具有可对所有SharePoint站点进行读取访问的SharePoint帐户的管理员用户登录凭据。
++
+** 对于SharePoint Online、您可以使用非管理员帐户、但该用户必须具有访问要扫描的所有SharePoint站点的权限。
+
+
 * 对于内部部署的SharePoint、您还需要SharePoint Server的URL。
 * 对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。
 
@@ -78,7 +82,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 image:screenshot_compliance_add_sharepoint_button.png["配置页面的屏幕截图、您可以在其中单击添加SharePoint Online按钮。"]
 
 . 在添加 SharePoint Online 帐户对话框中，单击 * 登录到 SharePoint* 。
-. 在显示的 Microsoft 页面中，选择 SharePoint 帐户并输入所需的管理员用户和密码，然后单击 * 接受 * 以允许 Cloud Data sense 从此帐户读取数据。
+. 在显示的Microsoft页面中、选择SharePoint帐户并输入用户和密码(管理员用户或有权访问SharePoint站点的其他用户)、然后单击*接受*以允许Cloud Data sense从此帐户读取数据。
 
 
 SharePoint Online帐户将添加到工作环境列表中。

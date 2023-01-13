@@ -357,7 +357,7 @@ Data sense 安装程序将安装软件包，注册安装并安装 Data sense 。
 
 
 .步骤
-. 按照中的步骤 1 至 8 进行操作 link:task-deploy-compliance-dark-site.html#deploy-data-sense-on-a-single-host-typical-configuration["单主机安装"] 在管理器节点上。
+. 按照中的步骤 1 至 8 进行操作 link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["单主机安装"] 在管理器节点上。
 . 如步骤 9 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。
 +
 除了可用于单主机安装的变量之外，还会使用一个新选项 * -n <node_IP>* 来指定扫描程序节点的 IP 地址。多个节点 IP 以逗号分隔。
@@ -396,7 +396,7 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 由于 Data sense 软件会定期更新新功能，因此您应按照例行程序定期检查新版本，以确保您使用的是最新的软件和功能。您需要手动升级 Data sense 软件，因为没有 Internet 连接，无法自动执行升级。
 
 .开始之前
-* 数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.15版、则只能升级到1.16.x如果您有几个主要版本，则需要多次升级此软件。
+* 数据感知软件一次可升级一个主要版本。例如、如果您安装了1.17.x版、则只能升级到1.18.x如果您有几个主要版本，则需要多次升级此软件。
 * 确认您的内部连接器软件已升级到最新可用版本。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["请参见 Connector 升级步骤"^]。
 
 

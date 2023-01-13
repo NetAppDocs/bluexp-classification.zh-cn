@@ -151,13 +151,10 @@
   <block id="2ef77a3845de73c82db787233e991d0c" category="doc">扫描 SharePoint 帐户</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入门</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。</block>
-  <block id="040e5e5b0b4e3b56e337960cee1ba171" category="paragraph">请确保您拥有用于登录到 SharePoint 帐户的管理员凭据，并且拥有要扫描的 SharePoint 站点的 URL 。</block>
   <block id="74bb7a594eb368027d02fe1a3688d1d5" category="inline-link-macro">部署 Cloud Data sense</block>
   <block id="e8533f7b037610ff8d390f3287ddb129" category="paragraph"><block ref="82045b529e00dc6553b9711a4c4e6861" category="inline-link-macro-rx"></block> 如果尚未部署实例。</block>
-  <block id="0fd354f4598b432146c03a6c1b496e25" category="paragraph">使用管理员用户凭据登录到要访问的 SharePoint 帐户，以便将其添加为新的数据源 / 工作环境。</block>
   <block id="a8c0024f4de7eafbcc79573f90579f5f" category="paragraph">在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。一次最多可以添加 100 个 URL 。</block>
   <block id="2b4e0126afcd89267252cefaf503c414" category="section-title">查看 SharePoint 要求</block>
-  <block id="e1f7c840b56984612690abc476c04c51" category="list-text">您必须具有可对所有 SharePoint 站点进行读取访问的 SharePoint 帐户的管理员登录凭据。</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。</block>
   <block id="923e0e9139b80b545817bb342c8afa44" category="section-title">部署 Cloud Data sense 实例</block>
   <block id="f1ac9839669a6dbca87204adecc06943" category="paragraph">如果尚未部署实例，请部署 Cloud Data sense 。</block>
@@ -167,7 +164,6 @@
   <block id="151eca0a4859a8fbf17435fcbaa0001e" category="paragraph">只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。</block>
   <block id="cb49e9afef4bc3127fbf2d354d00fd54" category="list-text">在工作环境配置页面中，单击 * 添加数据源 * &gt; * 添加 SharePoint Online 帐户 * 。</block>
   <block id="ea56ecd454d4962a21bd35be41237229" category="list-text">在添加 SharePoint Online 帐户对话框中，单击 * 登录到 SharePoint* 。</block>
-  <block id="e61b097ecbac4c8e2db9675d4c9f64cb" category="list-text">在显示的 Microsoft 页面中，选择 SharePoint 帐户并输入所需的管理员用户和密码，然后单击 * 接受 * 以允许 Cloud Data sense 从此帐户读取数据。</block>
   <block id="88f6018b4c4004a32e426fcb13381212" category="section-title">将 SharePoint 站点添加到合规性扫描</block>
   <block id="32d4436877412c0a858739daddb125a4" category="list-text">在 _Configuration_ 页面中，单击 SharePoint 帐户的 * 配置 * 按钮。</block>
   <block id="eeca65dd888a9508e6e72469e53273ff" category="inline-image-macro">扫描配置页面的屏幕截图，您可以在其中选择配置按钮。</block>
@@ -320,7 +316,6 @@
   <block id="9965e5c3b37cecfca0bb5cbb1e086c48" category="list-text">运行状况参考模式</block>
   <block id="53155f0c534ef44d114eeae0b0f2e638" category="list-text">ICD-10-CM 医疗代码</block>
   <block id="f1d3fc4a48ee497faf58426c477a8bd3" category="list-text">ICD-9-CM 医疗代码</block>
-  <block id="73d3d4a3c512af892bcba03ccfb7e0a3" category="list-text">HR —运行状况类别</block>
   <block id="8948f9f8b6a6a046dfc8b73ef1fa8c51" category="list-text">运行状况应用程序数据类别</block>
   <block id="889fccf2502dc396b9b9c66885b6a093" category="paragraph">此报告包含以下信息：</block>
   <block id="8e73880b563de5164876f6e85029b66a" category="list-text">包含运行状况信息的文件数量以及在何种工作环境中。</block>
@@ -629,7 +624,6 @@
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">接近验证</block>
   <block id="9ad88770f453f002d943e75f7bc6c007" category="paragraph">可以使用任何语言识别此类别中的项目。</block>
   <block id="8060d07e3adbf13c278991613997a8b6" category="inline-link-macro">使用 Data Fusion 添加个人数据标识符</block>
-  <block id="6ea5e530965ed45d43a0385246e6a51b" category="paragraph">请注意，如果要扫描数据库服务器，您可以将这些数据添加到文件中的个人数据列表中。Data DataSIF_ 功能允许您通过选择数据库表中的列来选择 Fusion sense 在其扫描中查找的其他标识符。请参见 <block ref="e5fd618a95839b26abd9eb3c166b6d5a" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="cell">Type</block>
   <block id="29ee5d1ebcc033234938a5234f1f2075" category="cell">标识符</block>
   <block id="ed82815cd7c9b16e760f312718a9a3d3" category="cell">是否进行接近验证？</block>
@@ -1167,8 +1161,6 @@
   <block id="ddd83696bfecd5c4f7b1fd6fd308c800" category="summary">Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能使您可以更轻松地为迁移数据做准备，而其他功能则允许您对数据进行更改。</block>
   <block id="4264ca6efffa4cf6fdf127440dfdd525" category="doc">管理私有数据</block>
   <block id="681a30d34dc88519fc9d3b5f02853ef5" category="list-text">如果要为某些数据创建副本并将其移动到其他 NFS 位置，可以将文件复制到目标 NFS 共享。</block>
-  <block id="34413ef9a2fa02e162300410e4578dc8" category="list-text">您可以将 ONTAP 卷克隆到新卷，同时在新克隆的卷中仅包含源卷中的选定文件。如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。</block>
-  <block id="d230e126c453ad22ad5fcc3f4415075f" category="list-text">您可以将文件从源存储库复制并同步到特定目标位置的目录。如果您要将数据从一个源系统迁移到另一个源系统，而源文件上仍有一些最终活动，则此功能非常有用。</block>
   <block id="13aa22f4ea4821e274ae149a6821fb68" category="list-text">您可以将 Data sense 正在扫描的源文件移动到任何 NFS 共享。</block>
   <block id="8cd71862f8a8c010084d3687780ba841" category="list-text">您可以删除那些看起来不安全或风险过高，无法留在存储系统中的文件，或者您已确定为重复的文件。</block>
   <block id="e1ceec320e11017e93f764dd05d20aa0" category="section-title">正在复制源文件</block>
@@ -1177,7 +1169,6 @@
   <block id="73d4c457b0f8ca0f7be75dc85bba7f0f" category="paragraph">如果要为某些数据创建副本并将其移动到其他 NFS 位置，则此功能非常有用。</block>
   <block id="d5c3d70f964953312816ce98d2f4f5d1" category="list-text">* 将 ONTAP 卷 * 克隆到同一聚合中的新卷，但在新克隆的卷中仅包含源卷中的选定文件。</block>
   <block id="2c727edaa875c00494a86714e286c25d" category="inline-link-macro">NetApp FlexClone</block>
-  <block id="ec086256431805bc6e71317d95f6f6a8" category="paragraph">如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 <block ref="92039e8ff3437cbcef178dbc4c5e027b" category="inline-link-macro-rx"></block> 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。</block>
   <block id="cacf80b84fb78c42b4f9ad4c81a37286" category="list-text">将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。</block>
   <block id="6e9116627887d2ff2f373f0cac2792f4" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用<block ref="a370f691ddfd2ad7b716b2db4ad021a1" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
   <block id="eebe70a774ce96bd8417ce353c5f5bfb" category="paragraph">您可以将 Data sense 正在扫描的源文件复制到任何 NFS 共享。NFS 共享不需要与 Data sense 集成，您只需知道要复制所有选定文件的 NFS 共享的名称，格式为 ` &lt;host_name&gt; ： /&lt;share_path&gt;` 。</block>
@@ -1188,7 +1179,6 @@
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">在数据调查结果窗格中，选择要复制的一个或多个文件，然后单击 * 复制 * 。</block>
   <block id="e78ae78fac1620efb2c4db4938844274" category="inline-image-macro">显示如何从 " 数据调查 " 页面选择要复制的文件以及 " 复制 " 按钮的屏幕截图。</block>
   <block id="cb1cacc23b0ae330cc87e78659350142" category="paragraph"><block ref="cb1cacc23b0ae330cc87e78659350142" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="954c8e4a2fef11c0a6762941ba9d8127" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="131fceed6fc7a6aedc494491ecbfa63c" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="59f58c07f404f0ac69cc91cb0db7e0be" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
   <block id="62a136d0cb137d3728e47722538ef521" category="list-text">在 _Copy Files_ 对话框中，选择 * 常规复制 * 选项卡。</block>
   <block id="ce317c87ce4844ca643177409a988555" category="inline-image-macro">显示复制文件对话框的屏幕截图，用于指定要复制所有选定文件的 NFS 共享的名称。</block>
   <block id="29119fd663ff44c4494107f1f7eaca94" category="paragraph"><block ref="29119fd663ff44c4494107f1f7eaca94" category="inline-image-macro-rx" type="image"></block></block>
@@ -1228,7 +1218,6 @@
   <block id="627bf959aabe96a1a08aad7eaf1ab97a" category="paragraph">请注意， Cloud Sync 服务会为您的同步关系单独收取服务费用，如果您在云中部署数据代理，则会产生资源费用。</block>
   <block id="ff0485cd041399c074cb840a8d93eafb" category="list-text">在数据调查窗格中，选择一个 * 工作环境 * 和一个 * 存储库 * 来创建筛选器，以确保所有文件都来自同一个存储库。</block>
   <block id="6b063a37c6525c913c2ebc03bba94e6e" category="paragraph">应用任何其他筛选器，以便您仅看到要复制并同步到目标系统的文件。</block>
-  <block id="ec9e1d0eb5ba32bb2965598b3dbf2b63" category="list-text">在调查结果窗格中，选中标题行（<block ref="131fceed6fc7a6aedc494491ecbfa63c" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="59f58c07f404f0ac69cc91cb0db7e0be" category="inline-image-macro-rx" type="image"></block> 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。</block>
   <block id="57b19a0c98df2d7d9398a909c1eae2e5" category="paragraph"><block ref="57b19a0c98df2d7d9398a909c1eae2e5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8431faf03ecbbded4ece2797b0f5e558" category="list-text">在 _Copy Files_ 对话框中，选择 * 同步 * 选项卡。</block>
   <block id="0c6b55cfd6cc79430c7e6b4984da814c" category="inline-image-macro">显示复制文件对话框的屏幕截图，用于选择同步选项。</block>
@@ -1381,7 +1370,6 @@
   <block id="edcc6720ea7c450bc260e04210895e7c" category="cell">用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点）</block>
   <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049.</block>
   <block id="26285ebf37a162fef382f275814886c9" category="inline-link-macro">单主机安装</block>
-  <block id="a34d1a701917dbbb1735e81c6c612bc0" category="list-text">按照中的步骤 1 至 8 进行操作 <block ref="80550799407a84f7dd8a18bd5786e6be" category="inline-link-macro-rx"></block> 在管理器节点上。</block>
   <block id="5e2f5642806d5ddc2868631f2e508d3d" category="paragraph">除了可用于单主机安装的变量之外，还会使用一个新选项 * -n &lt;node_IP&gt;* 来指定扫描程序节点的 IP 地址。多个节点 IP 以逗号分隔。</block>
   <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令并将其保存在文本文件中。例如：</block>
   <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">`sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`</block>
@@ -1403,7 +1391,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="a1244561bd1d271f7f6a76554fae2cde" category="summary">控制与组织存储资源上的数据相关的成本。Cloud Data sense 可确定系统中陈旧数据，非业务数据，重复文件和非常大的文件的数量，以便您可以决定是要删除某些文件，还是将某些文件分层到成本较低的对象存储。</block>
   <block id="16ace13e9030ba8b43b8bf469be3ffff" category="doc">查看有关存储在组织中的数据的监管详细信息</block>
-  <block id="8e907bbc7c59c56a9ea9a3660e214fb9" category="paragraph">此外，如果您计划将数据从内部位置迁移到云，则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。</block>
   <block id="f7b090ae0361a33be68398c938094aa6" category="section-title">监管信息板</block>
   <block id="e5295f0dcd9974bcca40c2b38f856a76" category="paragraph">" 监管 " 信息板可提供相关信息，以便您提高效率并控制存储资源上存储的数据的相关成本。</block>
   <block id="275752eff701cbf90c07d1beb3ef4a06" category="inline-image-macro">Cloud Data sense Governance 信息板的屏幕截图。</block>
@@ -1416,18 +1403,13 @@
   <block id="dc6d9a4419750aae3db17878ffe18e5c" category="inline-link-macro">查看显示的重复文件类型</block>
   <block id="af3ebdfa0de82f4ebf264444127ceba9" category="list-text">* 重复文件 * —在要扫描的数据源的其他位置复制的文件。 <block ref="aed0fa6f561bb8f0cefd5cb21d93e1cf" category="inline-link-macro-rx"></block>。</block>
   <block id="2b4d8a4ffe486173d89394fc3d6ccdb3" category="section-title">结果数量最多的策略</block>
-  <block id="a7a23c7ed8e3b4d314ee2c49d88b93c6" category="paragraph">在 _Policy_ 区域中单击策略的名称，以在调查页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。</block>
   <block id="b70528883a2d1dce278c3b16e0f8c608" category="section-title">数据概述</block>
-  <block id="0a9145dde57003fa4c977f908ffbd528" category="paragraph">简要概述正在扫描的所有数据。单击按钮可下载完整的数据映射报告，其中包括所有工作环境和数据源的使用容量，数据期限，数据大小和文件类型。请参见 <block ref="5efa252e20225abbecfacf56f2ab906a" category="inline-link-macro-rx"></block> 了解完整的详细信息。</block>
   <block id="5054e48efbd7d7a23b39d5c48f13943f" category="section-title">按数据敏感度列出的前几个数据存储库</block>
-  <block id="021e89108a720478560938c05dd763cf" category="paragraph">Top Data Repository by Sensitivity level_ 区域最多可列出包含最敏感项目的前四个数据存储库（工作环境和数据源）。每个工作环境的条形图分为：</block>
-  <block id="149c82afeb3e94deb5ab558ddbbfbfcb" category="list-text">非个人数据</block>
   <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">敏感的个人数据</block>
   <block id="43ec9a8f95b41a9a8648d4df5db2c7f1" category="paragraph">您可以将鼠标悬停在每个部分上以查看每个类别中的项目总数。</block>
   <block id="9f3ca55177a9cff0208b29196f6a269a" category="paragraph">单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
   <block id="645e4f0b71c92a4a3810668742adff95" category="section-title">按打开权限类型列出的数据</block>
   <block id="140692ffca26cf04b2ffe208e40614b6" category="paragraph">_Open Permissions_area 显示正在扫描的所有文件中存在的每种类型的权限的百分比。此图表显示了以下类型的权限：</block>
-  <block id="5eef11b580781f577a31fd66fb5e92bc" category="list-text">无开放访问</block>
   <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">对组织开放</block>
   <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">打开公有</block>
   <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">未知访问</block>
@@ -1440,7 +1422,6 @@
   <block id="adb18f5fb34b742716a832a865f1d8e2" category="section-title">最明确的数据分类</block>
   <block id="65da47b6ef0adda3d4c4ed54dfde4494" category="inline-link-macro">文件类型</block>
   <block id="02ac28e6aac96ae29edd75daf4e929ad" category="inline-link-macro">AIP 标签</block>
-  <block id="439fa70484344162e488c2f6e8d7f52c" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
   <block id="659056cf2678e420a1509bbcc731edcf" category="paragraph">请参见 <block ref="21094466ac939ca1953a7d6cc6a49a1d" category="inline-link-macro-rx"></block> 有关详细信息 ...</block>
   <block id="cb45e879b815142e4e2cd0d22e5c6dd9" category="paragraph">查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。</block>
   <block id="5e8739b0bd7e602b7f492e7398e41425" category="inline-link-macro">查看文件类型</block>
@@ -1856,7 +1837,6 @@
   <block id="be27a8dc9dfba1897217ecee5823bd4e" category="list-text">帮助您确定运行状况信息在文件中的分布情况。 <block ref="1ce675538fc85bf3b1ef6fa4ab26346c" category="inline-link-macro-rx"></block>。</block>
   <block id="e6d68873555c37c43798e1e7f7b8513e" category="list-text">或者，选中此框可自动删除与策略参数匹配的文件。了解更多信息 <block ref="30e6ed97d290e57f0e75d9e6322eb503" category="inline-link-macro-rx"></block>。</block>
   <block id="58293f799492274c3df075305508ade4" category="paragraph">您可以将 Data sense 正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 <block ref="ebb58758e77d05976efcc1ccd5134262" category="inline-link-rx"></block>）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。</block>
-  <block id="82ad1ea6a2070297147f61890ad6c8ae" category="list-text">您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 <block ref="5abefb1df304535da49e476c753377a4" category="inline-link-macro-rx"></block>。</block>
   <block id="1512503c318779a183367c2326a24f21" category="list-text">确认您的内部连接器软件已升级到最新可用版本。<block ref="ce22b55d293a0e07097135e6515924b6" category="inline-link-rx"></block>。</block>
   <block id="f49cd49d999d1390260fa896a1a3ceec" category="paragraph">单击 <block ref="4860dd37562d5a245a69a17be60d42e2" category="inline-link-macro-rx"></block> 了解有关策略的更多信息。</block>
   <block id="f887e54f519cc35b4741120230ac9d1a" category="paragraph">_Classification_area 提供了一个标识最多的列表 <block ref="b823fa31d5dec268aaa19a8828bf34fe" category="inline-link-macro-rx"></block>， <block ref="336d27c782a82199a3380deae5570591" category="inline-link-macro-rx"></block>，和 <block ref="8376771def5b60bb1cfdd0dc180ae5cc" category="inline-link-macro-rx"></block> 扫描的数据。</block>
@@ -2017,7 +1997,6 @@
   <block id="3fedcf7612eed43efc90d19f42d43f9a" category="paragraph">现在、您可以在Data sense权限功能中查看有权访问文件的用户和组列表。可以展开每个组以显示组中的用户列表。<block ref="978ddb309e10f2b48cc0f4a959fbca42" category="inline-link-rx"></block>。</block>
   <block id="96ab93ed4512cdb4dd07828ed738b502" category="section-title">数据调查页面添加了两个新的筛选器</block>
   <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">通过"目录类型"筛选器、您可以细化数据以仅查看文件夹或共享。结果将显示在新的*目录*选项卡中。</block>
-  <block id="7613f02556e4a651db53f06b87b1b460" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。电话</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">查看可用于调查数据的所有筛选器的列表</block>
   <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
   <block id="fca7f51b54fee8b38e01607def214d88" category="paragraph">添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。</block>
@@ -2214,7 +2193,6 @@
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">目前、数据感知一次最多可移动100、000个文件</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">请参见如何使用Data sense移动文件</block>
   <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>。</block>
-  <block id="b71c8f6fc8800b6bd7a829954617c2fb" category="paragraph">Data sense 可以识别包含澳大利亚 TFN （税务文件编号），澳大利亚驾驶执照编号，澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
   <block id="c761b545ddd43d078ae7ea86495182db" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 <block ref="de464dfb9c55e9818cd55e6911bff3a5" category="inline-link-macro-rx"></block>。</block>
   <block id="7d3fd85c1133d516ea08b3afb6e176b0" category="list-text">您可以看到 <block ref="48c020a7f60397cfd78a107333e0da79" category="inline-link-macro-rx"></block> 单击"查看所有权限"按钮时对每个文件和目录执行此操作。</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">非NetApp CIFS文件共享(非NFS文件共享)</block>
@@ -2418,7 +2396,6 @@
   <block id="9a996c7f10537ef7b705b42e701d4b6e" category="paragraph"><block ref="9a996c7f10537ef7b705b42e701d4b6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 了解详细信息。</block>
-  <block id="4866a563c343528540aa5c3529f908ca" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装的是1.15版、则只能升级到1.16.x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
@@ -2605,7 +2582,6 @@
   <block id="f0d07e71c0ad5ba2b297c19c3e9347e0" category="inline-link">BlueXP会发现这些集群</block>
   <block id="51fb345d59b3adb8f0060afb63071c67" category="paragraph">您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有<block ref="0ea86f15e08471a3866cbc09dd9a2bd4" category="inline-link-rx"></block>。</block>
   <block id="0718fb096056f1b13075e60b653a79cf" category="paragraph">如果要扫描安装在无法访问 Internet 的非公开站点上的内部 ONTAP 系统，则需要执行以下操作 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>。这还要求在同一内部位置部署BlueXP Connector。</block>
-  <block id="37bd317738b255170eae4641d8d07b07" category="paragraph">确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <block ref="d9771ea7e072ff16d9d579f1908bd406" category="inline-xref-macro-rx"></block>。</block>
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">在BlueXP中、选择*监管&gt;分类*。</block>
   <block id="b14547d13e4545e40f6cf3e9a06dd4ab" category="list-text">根据提示输入代理详细信息。如果您的BlueXP Connector已使用代理、则无需在此再次输入此信息、因为Data sense将自动使用此连接器使用的代理。</block>
   <block id="a7daee29c59d5c1bd111c784f878f35b" category="paragraph">如果要扫描的非 NetApp NFS 或 CIFS 文件共享安装在无法访问 Internet 的非公开站点中，则需要执行以下操作 <block ref="ecc0eddec0bd55859619b2c1bb3475b2" category="inline-link-macro-rx"></block>。这还要求在同一内部位置部署BlueXP Connector。</block>
@@ -2796,7 +2772,6 @@
   <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">现在、内部安装程序会在开始安装之前执行预检查</block>
   <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。</block>
-  <block id="9d2608b0b15c6604020ef66ba698a70d" category="paragraph">如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则现在可以从 OneDrive 帐户或 SharePoint 帐户扫描本地数据。 <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
   <block id="80ca59a22e157477c940f080c9cf1223" category="paragraph"><block ref="b1c06333aab3fa5206e44a440f888650" category="inline-link-macro-rx"></block>。</block>
   <block id="fa18750d3909d8a2d2d0a22c1611a692" category="paragraph">数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 <block ref="50748b3ac35725f5f9be1dab9c684e55" category="inline-link-macro-rx"></block>。</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">通过支持信息板、您可以添加和管理用于BlueXP的NetApp 支持站点 帐户。</block>
@@ -3035,7 +3010,6 @@
   <block id="4b013f5657095f9d6af00100e52bc1bf" category="paragraph">使用 Cloud Data sense 的成本取决于您要扫描的数据量。在BlueXP工作空间中、Data sense扫描的前1 TB数据可免费使用30天。达到任一限制后、您需要执行以下操作之一才能继续扫描数据：</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">根据GDPR和CCPA等隐私法规的要求、隐私风险评估报告概述了贵组织的隐私风险状态。此报告包含以下信息：</block>
   <block id="77c511801e7a90a6a31b53c3c33b5397" category="paragraph">《健康保险携带和责任法案》（ HIPAA ）报告可帮助您识别包含健康信息的文件。它旨在帮助您的组织满足HIPAA数据隐私法律的要求。Cloud Data sense 需要的信息包括：</block>
-  <block id="af4b0162529178f9269843c02de9011a" category="paragraph">请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 然后单击*更改公司名称*。</block>
   <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">每个数据调查报告中包含的内容</block>
   <block id="507eb1b330c9b9c53f787e32eb212a8c" category="paragraph">在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。</block>
   <block id="d16229fe4c13eabaf4888e33502b9f43" category="paragraph">您也可以 <block ref="f05debecbc76a97697e3cf4388733167" category="inline-link-macro-rx"></block> 目前。在30天免费试用结束之前、不会向您收取任何费用。</block>
@@ -3044,4 +3018,49 @@
   <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。</block>
   <block id="6cc29d8f722610f8a1e880227931a300" category="list-text">将Data sense安装程序文件(* cc_onprem_installer.tar.gz*)复制到主机。</block>
   <block id="7b8f90ccd6fc9dda39797ae84ca7f14d" category="paragraph">此操作将提取安装文件* cc_onprem_installer.tar.gz*。</block>
+  <block id="09e1ed363a7252c16bbc8ca0ad3a7d25" category="list-text">您可以将 ONTAP 卷克隆到新卷，同时在新克隆的卷中仅包含源卷中的选定文件。如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。</block>
+  <block id="8a830392b0909b9d61d8e815dedd9fdf" category="list-text">您可以将文件从源存储库复制并同步到特定目标位置的目录。如果您要将数据从一个源系统迁移到另一个源系统、而源文件上仍有一些最终活动、则此功能非常有用。</block>
+  <block id="b458a6221660c2545d4e63150fc30774" category="paragraph">如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用<block ref="95dabe3aae7c23d92fe2946a33d7431b" category="inline-link-rx"></block> 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。</block>
+  <block id="eb5af0227fcd1de16ca060308646450a" category="list-text">要选择单个文件，请选中每个文件（<block ref="27922440534843fc73bbce66b8385327" category="inline-image-macro-rx" type="image"></block>）。</block>
+  <block id="96b986b243d8224bb69f4a0238f93c7f" category="list-text">要选择当前页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>）。</block>
+  <block id="657428712375fa5789abe7c6de9782a7" category="inline-image-macro">关于选择所有文件</block>
+  <block id="f4b007384ec89845c9935758ba0063c6" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
+  <block id="78f57849bdbd66782ef9877d36177fcb" category="list-text">在调查结果窗格中，选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block> 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。</block>
+  <block id="a93d7894db2eb1a8c67a7153c6ef02fd" category="list-text">您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 <block ref="b962387ad67b92b5132f148579512908" category="inline-link-macro-rx"></block>。</block>
+  <block id="17dca911bcce42574615a9d04b2c26cd" category="paragraph">此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。</block>
+  <block id="8eb1fec334dabbaf8e8ce1c5c57d9629" category="paragraph">在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。</block>
+  <block id="078f2282264732bc04d57f7f04fa0205" category="paragraph">_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 <block ref="90964462e03b814a1facf08c0124716b" category="inline-link-macro-rx"></block> 有关此报告的完整详细信息。</block>
+  <block id="c84e7df5fd818e5aa11d03239984b3bd" category="paragraph">Top Data Repository by Sensitivity level_区域列出了包含最敏感项目的前四个数据存储库(工作环境和数据源)。每个工作环境的条形图分为：</block>
+  <block id="c2587967478c7df25fe839d6f619f443" category="list-text">非敏感数据</block>
+  <block id="f5423605d721232bdd43a55550c3e489" category="section-title">按敏感度和宽权限列出的数据</block>
+  <block id="ae9f83336e41be79c7921c9f6c692b67" category="paragraph">敏感数据和宽权限区域提供了包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件的热图。这样可以帮助您了解敏感数据可能存在哪些风险。</block>
+  <block id="e0247fb281ffe9cb88e8d27a1d7db85b" category="paragraph">根据有权访问X轴上文件的用户数量(从低到高)以及Y轴上文件中的敏感标识符数量(从低到高)、对文件进行评级。这些块表示与X轴和Y轴中的项匹配的文件数。颜色较浅的块很好；能够访问文件的用户较少、每个文件的敏感标识符较少。较暗的块是您可能需要调查的项目。例如、以下屏幕显示深蓝色块的悬停文本。它表明、您有1、500个文件、其中751-100个用户可以访问这些文件、并且每个文件有501到100个敏感标识符。</block>
+  <block id="baf19cb0f888989db2710471a613fbd9" category="inline-image-macro">一个屏幕截图、显示将光标置于此面板中的某个元素上时显示的数据。</block>
+  <block id="84bb65a316fae3e8d82ea950dc220467" category="paragraph"><block ref="84bb65a316fae3e8d82ea950dc220467" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c09a51a41728880502cacff404ad64e8" category="paragraph">您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。</block>
+  <block id="f4200d6b39c6bf611267284ca071fd8b" category="inline-link-macro">了解如何将Active Directory服务与Data sense集成</block>
+  <block id="87fae032ed5605e45b8ed104db07d51d" category="paragraph">如果尚未将身份服务与Data sense集成、则此面板不会显示任何数据。 <block ref="ab23cf884d322a71ba54be70f25499ab" category="inline-link-macro-rx"></block>。</block>
+  <block id="fc6931051107a02ba34edee1230d2510" category="admonition">此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。</block>
+  <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">无打开权限</block>
+  <block id="e5ffd57c8ceca007705d9700419ab52a" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
+  <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。</block>
+  <block id="6d3bb929d06fa3023ab7239f4567ed1a" category="paragraph">使用符合条件的用户凭据登录到要访问的SharePoint帐户、以便将其添加为新的数据源/工作环境。</block>
+  <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">您必须具有可对所有SharePoint站点进行读取访问的SharePoint帐户的管理员用户登录凭据。</block>
+  <block id="fbd2a3d3a2a95ffb088fd8e0ccf6b67d" category="list-text">对于SharePoint Online、您可以使用非管理员帐户、但该用户必须具有访问要扫描的所有SharePoint站点的权限。</block>
+  <block id="bd483f6f02b237b48ea9d830b65ef4c2" category="list-text">在显示的Microsoft页面中、选择SharePoint帐户并输入用户和密码(管理员用户或有权访问SharePoint站点的其他用户)、然后单击*接受*以允许Cloud Data sense从此帐户读取数据。</block>
+  <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">可以查看包含敏感数据且过于宽松的文件图表</block>
+  <block id="d9b195efc41ceb51899b712eb2c0c583" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这样可以帮助您了解敏感数据可能存在哪些风险。<block ref="315faeb2b0e6f27dd87bce24f0b16dd0" category="inline-link-rx"></block>。</block>
+  <block id="39042f4c3554377e7367f85ef5edf207" category="section-title">数据感知可以标识日语个人编号</block>
+  <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">数据感知功能可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>。</block>
+  <block id="ee7392d2316f5d3dd66a6f38dfd1dbfb" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。</block>
+  <block id="d03ac14c4e429af55c127e304518d56e" category="paragraph">Data sense可以识别包含澳大利亚TFN (税务文件编号)、澳大利亚驾驶执照编号、澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
+  <block id="765a37e7c0d57c675f5f9b8438aa0b27" category="paragraph">如果您已在无法访问Internet的内部站点中的主机上部署Cloud Data sense、则现在可以扫描OneDrive帐户或SharePoint帐户中的本地数据。 <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
+  <block id="0e91e4dc71e9acf8654f7179d48b5ccd" category="paragraph">请注意、您可以将添加到文件中的个人数据列表中。如果您要扫描数据库服务器、则_Data Fusion 功能允许您通过选择数据库表中的列来选择sense在其扫描中查找的其他标识符。您还可以从文本文件添加自定义关键字、或者使用正则表达式添加自定义模式。请参见 <block ref="2871b8c2613a3da825be1a942ca6c1d2" category="inline-link-macro-rx"></block> 了解详细信息。</block>
+  <block id="3631ca73c04d0e5a0d6b08517f6f049f" category="cell">日语个人标识号(个人和公司)</block>
+  <block id="35c134848f5f2aeab535e7e525874a02" category="paragraph">确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <block ref="41431224cdc0c634efe8819b91420afe" category="inline-xref-macro-rx"></block>。</block>
+  <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR—运行状况类别</block>
+  <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">"更多"按钮</block>
+  <block id="d9453653a677951287ccfb3413d6baff" category="paragraph">请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 <block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block> 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。</block>
+  <block id="9098e762df6423155c77747444ce3402" category="list-text">按照中的步骤 1 至 8 进行操作 <block ref="6197de1d9d65c234b52f370ea2ee31e4" category="inline-link-macro-rx"></block> 在管理器节点上。</block>
+  <block id="63ceb32b6f9962bbdcea6fcd1a87c47e" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装了1.17.x版、则只能升级到1.18.x如果您有几个主要版本，则需要多次升级此软件。</block>
 </blocks>

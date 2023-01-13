@@ -18,7 +18,7 @@ Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能
 
 * 如果要为某些数据创建副本并将其移动到其他 NFS 位置，可以将文件复制到目标 NFS 共享。
 * 您可以将 ONTAP 卷克隆到新卷，同时在新克隆的卷中仅包含源卷中的选定文件。如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。
-* 您可以将文件从源存储库复制并同步到特定目标位置的目录。如果您要将数据从一个源系统迁移到另一个源系统，而源文件上仍有一些最终活动，则此功能非常有用。
+* 您可以将文件从源存储库复制并同步到特定目标位置的目录。如果您要将数据从一个源系统迁移到另一个源系统、而源文件上仍有一些最终活动、则此功能非常有用。
 * 您可以将 Data sense 正在扫描的源文件移动到任何 NFS 共享。
 * 您可以删除那些看起来不安全或风险过高，无法留在存储系统中的文件，或者您已确定为重复的文件。
 
@@ -42,7 +42,7 @@ Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能
 
 * * 将 ONTAP 卷 * 克隆到同一聚合中的新卷，但在新克隆的卷中仅包含源卷中的选定文件。
 +
-如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 link:https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["NetApp FlexClone"^] 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。
+如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["NetApp FlexClone"^] 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。
 
 * 将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。
 +
@@ -73,7 +73,7 @@ image:screenshot_compliance_copy_multi_files.png["显示如何从 \" 数据调�
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 
 
 . 在 _Copy Files_ 对话框中，选择 * 常规复制 * 选项卡。
@@ -124,7 +124,7 @@ image:screenshot_compliance_copy_multi_files.png["显示如何从 \" 数据调�
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 
 
 . 在 _Copy Files_ 对话框中，选择 * FlexClone * 选项卡。此页面显示要从卷克隆的文件总数（您选择的文件），以及未从克隆的卷中包含 / 删除的文件数（您未选择的文件）。
@@ -172,7 +172,7 @@ image:screenshot_compliance_filter_1_repo.png["创建筛选器以在单个工作
 +
 应用任何其他筛选器，以便您仅看到要复制并同步到目标系统的文件。
 
-. 在调查结果窗格中，选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""] 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。
+. 在调查结果窗格中，选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"] 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。
 +
 image:screenshot_compliance_sync_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要复制的文件以及 \" 复制 \" 按钮的屏幕截图。"]
 
@@ -187,7 +187,7 @@ Cloud Sync UI将在BlueXP中打开。
 +
 系统将提示您定义同步关系。源系统会根据您在 Data sense 中选择的存储库和文件预先填充。
 
-. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html.html["快速启动问题描述"^]。
+. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
 
 
 .结果
@@ -227,7 +227,7 @@ image:screenshot_compliance_move_multi_files.png["显示如何从数据调查页
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 
 
 . 在按钮栏中，单击 * 移动 * 。
@@ -278,7 +278,7 @@ image:screenshot_compliance_delete_multi_files.png["显示如何从数据调查�
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 
 
 . 在按钮栏中，单击 * 删除 * 。

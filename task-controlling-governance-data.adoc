@@ -16,7 +16,7 @@ summary: 控制与组织存储资源上的数据相关的成本。Cloud Data sen
 [role="lead"]
 控制与组织存储资源上的数据相关的成本。Cloud Data sense 可确定系统中陈旧数据，非业务数据，重复文件和非常大的文件的数量，以便您可以决定是要删除某些文件，还是将某些文件分层到成本较低的对象存储。
 
-此外，如果您计划将数据从内部位置迁移到云，则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。
+此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。
 
 
 
@@ -51,7 +51,7 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governanc
 
 === 结果数量最多的策略
 
-在 _Policy_ 区域中单击策略的名称，以在调查页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。
+在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。
 
 单击 link:task-org-private-data.html#controlling-your-data-using-policies["此处"] 了解有关策略的更多信息。
 
@@ -59,15 +59,15 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governanc
 
 === 数据概述
 
-简要概述正在扫描的所有数据。单击按钮可下载完整的数据映射报告，其中包括所有工作环境和数据源的使用容量，数据期限，数据大小和文件类型。请参见 link:task-generating-compliance-reports.html#data-mapping-report["数据映射报告"] 了解完整的详细信息。
+_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 link:task-generating-compliance-reports.html#data-mapping-report["数据映射报告"^] 有关此报告的完整详细信息。
 
 
 
 === 按数据敏感度列出的前几个数据存储库
 
-Top Data Repository by Sensitivity level_ 区域最多可列出包含最敏感项目的前四个数据存储库（工作环境和数据源）。每个工作环境的条形图分为：
+Top Data Repository by Sensitivity level_区域列出了包含最敏感项目的前四个数据存储库(工作环境和数据源)。每个工作环境的条形图分为：
 
-* 非个人数据
+* 非敏感数据
 * 个人数据
 * 敏感的个人数据
 
@@ -78,11 +78,28 @@ Top Data Repository by Sensitivity level_ 区域最多可列出包含最敏感�
 
 
 
+=== 按敏感度和宽权限列出的数据
+
+敏感数据和宽权限区域提供了包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件的热图。这样可以帮助您了解敏感数据可能存在哪些风险。
+
+根据有权访问X轴上文件的用户数量(从低到高)以及Y轴上文件中的敏感标识符数量(从低到高)、对文件进行评级。这些块表示与X轴和Y轴中的项匹配的文件数。颜色较浅的块很好；能够访问文件的用户较少、每个文件的敏感标识符较少。较暗的块是您可能需要调查的项目。例如、以下屏幕显示深蓝色块的悬停文本。它表明、您有1、500个文件、其中751-100个用户可以访问这些文件、并且每个文件有501到100个敏感标识符。
+
+image:screenshot_compliance_sensitive_data.png["一个屏幕截图、显示将光标置于此面板中的某个元素上时显示的数据。"]
+
+您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。
+
+如果尚未将身份服务与Data sense集成、则此面板不会显示任何数据。 link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与Data sense集成"^]。
+
+
+TIP: 此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。
+
+
+
 === 按打开权限类型列出的数据
 
 _Open Permissions_area 显示正在扫描的所有文件中存在的每种类型的权限的百分比。此图表显示了以下类型的权限：
 
-* 无开放访问
+* 无打开权限
 * 对组织开放
 * 打开公有
 * 未知访问

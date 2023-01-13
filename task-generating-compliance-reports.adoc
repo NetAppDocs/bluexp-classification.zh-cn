@@ -142,7 +142,7 @@ Cloud Data sense 可生成 PDF 报告，您可以根据需要查看该报告并�
 * 运行状况参考模式
 * ICD-10-CM 医疗代码
 * ICD-9-CM 医疗代码
-* HR —运行状况类别
+* HR—运行状况类别
 * 运行状况应用程序数据类别
 
 
@@ -203,7 +203,7 @@ image:screenshot_compliance_data_mapping_report_button.png["监管信息板的�
 .结果
 Cloud Data sense 可生成 PDF 报告，您可以根据需要查看该报告并将其发送给其他组。
 
-请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["更多按钮"] 然后单击*更改公司名称*。
+请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
 
 
 
