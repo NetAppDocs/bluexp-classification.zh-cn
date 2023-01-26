@@ -74,7 +74,6 @@
   <block id="f62345014eb3b94916730d5fa4eb623f" category="inline-link-macro">n2-standard-16 虚拟机</block>
   <block id="6c5ebc6dfed433f5cfd2cbc9f155a4d4" category="paragraph">在 n2-standard-16 不可用的区域中， Data sense 运行在 n2D-standard-16 或 n1-standard-16 VM 上。</block>
   <block id="3fad8aded3d84039416c1bf00afe09d2" category="list-text">每个连接器只部署一个数据感知实例。</block>
-  <block id="96087d5776ba4bf8ffcadbc67f69905c" category="list-text">只要实例可以访问 Internet ，就会自动升级 Data sense 软件。</block>
   <block id="37b7293831ce40b655b7cce97556550c" category="admonition">此实例应始终保持运行状态，因为 Cloud Data sense 会持续扫描数据。</block>
   <block id="5da9cb7e92b520a48c2475de5ec9958c" category="section-title">使用较小的实例类型</block>
   <block id="5bce28fa8820f7bebc8473b0aaa42f72" category="paragraph">您可以在 CPU 较少且 RAM 较少的系统上部署 Data sense ，但使用这些功能较差的系统时会存在一些限制。</block>
@@ -140,7 +139,6 @@
   <block id="a596c8a5fca6f5403662e33b92d475a7" category="list-text">Cloud Data sense 会提取所扫描的数据，并按文件类型对其进行细分。 <block ref="7a0e9af4a23944c56398184b71788414" category="inline-link-macro-rx"></block>。</block>
   <block id="999ab1f0dcc560a0944b54ec5ef461c0" category="list-text">名称实体识别</block>
   <block id="13d0a191166a1a3dc29ebcd8e3aae81f" category="inline-link-macro">了解如何响应数据主体访问请求</block>
-  <block id="9816543e530fddede751b52325d3679a" category="list-text">Cloud Data sense 使用 AI 从文档中提取自然人的姓名。 <block ref="7dd684ea66077256bb820673a1d9b83b" category="inline-link-macro-rx"></block>。</block>
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">网络概述</block>
   <block id="6134fb19f2424f157bd88b36e40dcf10" category="paragraph">出站规则完全开放。要安装和升级 Data sense 软件以及发送使用量指标，需要访问 Internet 。</block>
   <block id="12d39974306420354fffe75c7f15e621" category="inline-link-macro">了解 Cloud Data 感知所接触的端点</block>
@@ -622,7 +620,6 @@
   <block id="5fb27f475a6e9a151878bcedcee62656" category="admonition">如果您需要 Cloud Data sense 识别其他私有数据类型，例如其他国家 / 地区 ID 号或医疗保健标识符，请根据您的请求向 ng-contact-data-sense@netapp.com 发送电子邮件。</block>
   <block id="10ff4e7c2ffc1fd426aa6f784a05da66" category="section-title">个人数据的类型</block>
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">接近验证</block>
-  <block id="9ad88770f453f002d943e75f7bc6c007" category="paragraph">可以使用任何语言识别此类别中的项目。</block>
   <block id="8060d07e3adbf13c278991613997a8b6" category="inline-link-macro">使用 Data Fusion 添加个人数据标识符</block>
   <block id="a1fa27779242b4902f7ae3bdd5c6d508" category="cell">Type</block>
   <block id="29ee5d1ebcc033234938a5234f1f2075" category="cell">标识符</block>
@@ -673,7 +670,6 @@
   <block id="3b5f87032b5dd0beea89f73c7f8f64c0" category="cell">英国ID （ Nino ）</block>
   <block id="f5817b4cc67ee41de01a4a19fc33ef7d" category="cell">美国社会保险号（ SSN ）</block>
   <block id="0ff635b15f7fdd9403b351ffc3d0c2a1" category="section-title">敏感个人数据的类型</block>
-  <block id="b14a1801297548a365efb89c7bd8874b" category="paragraph">Cloud Data sense 可在文件中找到的敏感个人数据包括以下列表。目前，此类别中的项目只能识别为英语。</block>
   <block id="98d51623eb7c03f43fa0678301f5efd4" category="list-text">《刑事诉讼参考》</block>
   <block id="369810982fcd806bbde0147f11c0364d" category="list-text">《种族参考》</block>
   <block id="4d0838c277b16e4c72ecafbaf587b10f" category="list-text">运行状况参考</block>
@@ -685,7 +681,6 @@
   <block id="9c816fac79e497eaa62bbb4a3adddfc1" category="list-text">《宗教信仰参考》</block>
   <block id="1126ae684e7f83d7ad03320e3339f2e4" category="list-text">性寿命或方向参考</block>
   <block id="3b59f947bb18be76ff03ca45ee9db241" category="section-title">类别类型</block>
-  <block id="82355eab158a61a75b39fa1ecb5f9d01" category="paragraph">Cloud Data sense 可按如下方式对数据进行分类：其中大多数类别均可获得英语，德语和西班牙语的认可。</block>
   <block id="3adbdb3ac060038aa0e6e6c138ef9873" category="cell">类别</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="cell">英语</block>
   <block id="86bc3115eb4e9873ac96904a4a68e19e" category="cell">德语</block>
@@ -1830,7 +1825,6 @@
   <block id="74e5e01600beec43894e96e22ac9f5eb" category="list-text">出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例 <block ref="27b52f38738d689881a76b49c98ec7ec" category="inline-xref-macro-rx"></block>。</block>
   <block id="b7f2b0e45c51391324aebf221531b036" category="paragraph">在扫描 ONTAP 卷的 FSX 之前，<block ref="68e9cbaf33b2641a589dc87867e4bfec" category="inline-link-rx"></block>。</block>
   <block id="f72dc999895eb17e77093f9ecff4180c" category="paragraph">如果您要迁移数据，并且希望捕获最近对文件所做的任何更改，则此功能非常有用。此操作将使用<block ref="a370f691ddfd2ad7b716b2db4ad021a1" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
-  <block id="f380f59dbabc3f03bd073f2248216ea2" category="paragraph">文件中的个人数据可以是常规个人数据或国家标识符。第三列标识 Cloud Data sense 是否使用 <block ref="a9db31e17b18ff2d62fd6f2133dfbfce" category="inline-link-macro-rx"></block> 以验证其对标识符的发现。</block>
   <block id="bbd1b36ab0dbd0c17e60ec752bb02a55" category="paragraph"><block ref="b1e4fd148d344599f4a25922d8155dd9" category="inline-link-macro-rx"></block>。</block>
   <block id="91aef07a29d8068140e7dca06bec6d9d" category="list-text">根据您的数据提供隐私洞察力并获得隐私风险得分。 <block ref="890a798f73fe571345d1ff7c58a08844" category="inline-link-macro-rx"></block>。</block>
   <block id="39630dece802514e5f7336bcbbf0ac6f" category="list-text">帮助您确定信用卡信息在整个文件中的分布情况。 <block ref="ef3bace538be6eee30a3e48516637cf7" category="inline-link-macro-rx"></block>。</block>
@@ -2277,7 +2271,6 @@
   <block id="7aa9c47f42013735e3c5573eb7004a9d" category="list-text">确定具有打开权限的所有文件和目录(共享和文件夹)、这些文件和目录会公开给您的整个组织或公有。</block>
   <block id="5e27afd1e1e5a71e7aff888767d3214a" category="list-text">确定位于初始专用位置以外的敏感数据。</block>
   <block id="2f548b9a1e6e69aa1914a6a893db7f50" category="list-text">使用_policies_自动向安全人员通知新的安全问题、以便他们可以立即采取措施。</block>
-  <block id="1d6cf8f9413aa74ccb67dc25a0cd30f6" category="list-text">查看和修改 <block ref="d0f9730625a218e637a0d6df3df12f2b" category="inline-link-macro-rx"></block> 在文件中。</block>
   <block id="c5f92f73b9ea92063c2fc24f82a835d2" category="section-title">优化存储使用</block>
   <block id="5df73f30ee77990aa89c16d3484cbec4" category="paragraph">Data sense提供的工具可以帮助您降低存储总拥有成本(TCO)。您可以使用 Data sense ：</block>
   <block id="17e4f6fc55d9d61a5481011f4bc71a46" category="list-text">通过识别重复数据或非业务相关数据来提高存储效率。您可以使用此信息来确定是要移动还是删除某些文件。</block>
@@ -2512,7 +2505,6 @@
   <block id="004a6e22e05156a8504de44d04937337" category="inline-image-macro">显示在云提供商中运行的BlueXP实例和云数据感知实例的示意图。Data sense 实例连接到 NFS 和 CIFS 卷， S3 分段， OneDrive 帐户和数据库以进行扫描。</block>
   <block id="e24936cd2f763a15070324e06686d5c5" category="paragraph"><block ref="e24936cd2f763a15070324e06686d5c5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7b8407f88948038fa5832e4ef1655ec3" category="paragraph">BlueXP将云数据感知实例部署到一个安全组中、该安全组可从Connector实例启用入站HTTP连接。</block>
-  <block id="7f60df85905efef37e6ae9a727f03e7a" category="paragraph">在SaaS模式下使用BlueXP时、将通过HTTPS提供与BlueXP的连接、并通过端到端加密保护在浏览器和Data sense实例之间发送的私有数据、这意味着NetApp和第三方无法读取这些数据。</block>
   <block id="b665e2a24b5ee1b15d4e77131925e0bb" category="paragraph">为每个用户分配的角色可在BlueXP和Cloud Data sense中提供不同的功能：</block>
   <block id="2ccf8faa066b22b32e97c83d5372f44b" category="list-text">只有当系统具有访问权限时， * 工作空间管理员 * 才能管理合规性设置并查看合规性信息。如果工作空间管理员无法访问BlueXP中的工作环境、则他们无法在"数据感知"选项卡中查看工作环境的任何合规性信息。</block>
   <block id="78e53b124783e106b07d5599c5ff16c3" category="inline-link">了解有关BlueXP角色的更多信息</block>
@@ -3055,7 +3047,6 @@
   <block id="ee7392d2316f5d3dd66a6f38dfd1dbfb" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。</block>
   <block id="d03ac14c4e429af55c127e304518d56e" category="paragraph">Data sense可以识别包含澳大利亚TFN (税务文件编号)、澳大利亚驾驶执照编号、澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
   <block id="765a37e7c0d57c675f5f9b8438aa0b27" category="paragraph">如果您已在无法访问Internet的内部站点中的主机上部署Cloud Data sense、则现在可以扫描OneDrive帐户或SharePoint帐户中的本地数据。 <block ref="1b9c05db061e84ae6eca6f68bdd32c9b" category="inline-link-macro-rx"></block></block>
-  <block id="0e91e4dc71e9acf8654f7179d48b5ccd" category="paragraph">请注意、您可以将添加到文件中的个人数据列表中。如果您要扫描数据库服务器、则_Data Fusion 功能允许您通过选择数据库表中的列来选择sense在其扫描中查找的其他标识符。您还可以从文本文件添加自定义关键字、或者使用正则表达式添加自定义模式。请参见 <block ref="2871b8c2613a3da825be1a942ca6c1d2" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="3631ca73c04d0e5a0d6b08517f6f049f" category="cell">日语个人标识号(个人和公司)</block>
   <block id="35c134848f5f2aeab535e7e525874a02" category="paragraph">确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <block ref="41431224cdc0c634efe8819b91420afe" category="inline-xref-macro-rx"></block>。</block>
   <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR—运行状况类别</block>
@@ -3063,4 +3054,27 @@
   <block id="d9453653a677951287ccfb3413d6baff" category="paragraph">请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 <block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block> 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。</block>
   <block id="9098e762df6423155c77747444ce3402" category="list-text">按照中的步骤 1 至 8 进行操作 <block ref="6197de1d9d65c234b52f370ea2ee31e4" category="inline-link-macro-rx"></block> 在管理器节点上。</block>
   <block id="63ceb32b6f9962bbdcea6fcd1a87c47e" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装了1.17.x版、则只能升级到1.18.x如果您有几个主要版本，则需要多次升级此软件。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支持云提供商解决方案</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">有关已集成到BlueXP中的以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b95409e38fd76ec71d03e3e14b83763" category="paragraph">所有语言均支持所有这些添加自定义扫描条件的机制。</block>
+  <block id="966065b551c0c5d33146e32380dffc54" category="paragraph">文件中的个人数据可以是常规个人数据或国家标识符。下表中的第三列确定Cloud Data sense是否使用 <block ref="a9db31e17b18ff2d62fd6f2133dfbfce" category="inline-link-macro-rx"></block> 以验证其对标识符的发现。</block>
+  <block id="e1a196cfa9a98106e5ba102887a0c95d" category="paragraph">表中列出了可识别这些项目的语言。</block>
+  <block id="7a8c2ce1750465ec6bf270edb025f14f" category="paragraph">请注意、您可以将添加到文件中的个人数据列表中。如果您要扫描数据库服务器、则可以通过_Data Fusion 功能选择数据库表中的列、选择sense在其扫描中查找的其他标识符。您还可以从文本文件添加自定义关键字、或者使用正则表达式添加自定义模式。请参见 <block ref="2871b8c2613a3da825be1a942ca6c1d2" category="inline-link-macro-rx"></block> 了解详细信息。</block>
+  <block id="ad225f707802ba118c22987186dd38e8" category="cell">法语</block>
+  <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="cell">Japanese:</block>
+  <block id="4ef37c8218042a526e063ddcb7f99e4e" category="paragraph">Cloud Data sense 可在文件中找到的敏感个人数据包括以下列表。</block>
+  <block id="3b3e3761409ec91318d55527674759e3" category="paragraph">目前，此类别中的项目只能识别为英语。</block>
+  <block id="d28ebbcb60fdecb8e44508f82867ad79" category="paragraph">Cloud Data sense 可按如下方式对数据进行分类：</block>
+  <block id="5ad8ae17298ed454e6b4639368851b62" category="paragraph">其中大多数类别均可获得英语，德语和西班牙语的认可。</block>
+  <block id="db58ba41843c3976a8e9932df76277ec" category="list-text">查看和修改<block ref="59692f28ce49bb83d818eeb4f17b5a14" category="inline-link-rx"></block> 在文件中。</block>
+  <block id="afdc492e219eada4c9eca232defb9ab7" category="paragraph">您还可以在内部的Linux主机上或首选云提供商的主机上部署Data sense。无论您选择哪种安装方法，软件的工作方式都完全相同。只要实例可以访问 Internet ，就会自动升级 Data sense 软件。</block>
+  <block id="dc59914806276092072d36ab9d88436a" category="section-title">数据感知扫描数据的速度</block>
+  <block id="de07b97b8f1edf6b3a5e144748a45572" category="paragraph">数据感知功能可以在每个扫描程序节点上每天扫描15到40 TB的数据。扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。</block>
+  <block id="e56c626eb62df6bf64f545a2d416aa7c" category="inline-link-macro">了解有关部署多个扫描程序节点以扫描数据的更多信息</block>
+  <block id="fb3ba22f3eff98ea203090bc210752be" category="paragraph"><block ref="eefbdd7e2d2119a699d2995aece8c9f3" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5e0083566ed8d85ca68105bf8cfd38e" category="list-text">Cloud Data sense使用AI从文档中提取自然人的姓名。 <block ref="7dd684ea66077256bb820673a1d9b83b" category="inline-link-macro-rx"></block>。</block>
+  <block id="008c6840e9f624b9435a7c107d8afaff" category="paragraph">在SaaS模式下使用BlueXP时、将通过HTTPS提供与BlueXP的连接、并通过端到端加密保护在浏览器和Data sense实例之间发送的私有数据、这意味着NetApp和第三方无法读取它。</block>
 </blocks>

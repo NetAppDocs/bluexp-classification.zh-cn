@@ -48,7 +48,7 @@ Data sense提供了多种工具、可帮助您实现合规性。您可以使用 
 * 遵守数据保留策略。
 * 使用_policies_自动向安全人员通知新的安全问题、以便他们可以立即采取措施。
 * 向文件添加自定义标记(例如"需要移动")、并分配一个BlueXP用户、以便此用户可以拥有文件的更新。
-* 查看和修改 link:https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）标签"^] 在文件中。
+* 查看和修改 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）标签"^] 在文件中。
 
 
 
@@ -165,8 +165,9 @@ image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的Bl
 
 * 此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_
 * 每个连接器只部署一个数据感知实例。
-* 只要实例可以访问 Internet ，就会自动升级 Data sense 软件。
 
+
+您还可以在内部的Linux主机上或首选云提供商的主机上部署Data sense。无论您选择哪种安装方法，软件的工作方式都完全相同。只要实例可以访问 Internet ，就会自动升级 Data sense 软件。
 
 
 TIP: 此实例应始终保持运行状态，因为 Cloud Data sense 会持续扫描数据。
@@ -269,6 +270,14 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 |===
 
 
+=== 数据感知扫描数据的速度
+
+数据感知功能可以在每个扫描程序节点上每天扫描15到40 TB的数据。扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。
+
+link:task-deploy-compliance-onprem.html#deploy-data-sense-on-premises["了解有关部署多个扫描程序节点以扫描数据的更多信息"^]。
+
+
+
 == 云数据感知的索引信息
 
 Data sense 收集数据（文件）并为其创建索引和分配类别。Data sense 索引的数据包括以下内容：
@@ -278,7 +287,7 @@ Data sense 收集数据（文件）并为其创建索引和分配类别。Data s
 敏感的个人数据:: GDPR 和其他隐私法规定义的特殊类型的敏感信息，例如健康数据，种族或政治观点。 link:task-controlling-private-data.html#viewing-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^]。
 类别:: Cloud Data sense 会将扫描的数据划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。 link:task-controlling-private-data.html#viewing-files-by-categories["了解有关类别的更多信息"^]。
 类型:: Cloud Data sense 会提取所扫描的数据，并按文件类型对其进行细分。 link:task-controlling-private-data.html#viewing-files-by-file-types["了解有关类型的更多信息"^]。
-名称实体识别:: Cloud Data sense 使用 AI 从文档中提取自然人的姓名。 link:task-responding-to-dsar.html["了解如何响应数据主体访问请求"^]。
+名称实体识别:: Cloud Data sense使用AI从文档中提取自然人的姓名。 link:task-responding-to-dsar.html["了解如何响应数据主体访问请求"^]。
 
 
 
@@ -287,7 +296,7 @@ Data sense 收集数据（文件）并为其创建索引和分配类别。Data s
 
 BlueXP将云数据感知实例部署到一个安全组中、该安全组可从Connector实例启用入站HTTP连接。
 
-在SaaS模式下使用BlueXP时、将通过HTTPS提供与BlueXP的连接、并通过端到端加密保护在浏览器和Data sense实例之间发送的私有数据、这意味着NetApp和第三方无法读取这些数据。
+在SaaS模式下使用BlueXP时、将通过HTTPS提供与BlueXP的连接、并通过端到端加密保护在浏览器和Data sense实例之间发送的私有数据、这意味着NetApp和第三方无法读取它。
 
 出站规则完全开放。要安装和升级 Data sense 软件以及发送使用量指标，需要访问 Internet 。
 
