@@ -159,7 +159,7 @@ image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的Bl
 在 m5.4xlarge 不可用的区域中， Data sense 会在 m4.4xlarge 实例上运行。
 
 * 在 Azure 中， Cloud Data sense 在上运行 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准的 D16s_v3 VM"^] 使用 512 GB 磁盘。操作系统映像为 CentOS 7.8 。
-* 在 GCP 中， Cloud Data sense 在上运行 link:https://cloud.google.com/compute/docs/machine-types#recommendations_for_machine_types["n2-standard-16 虚拟机"^] 使用 512 GB 标准持久性磁盘。操作系统映像为 CentOS 7.9 。
+* 在 GCP 中， Cloud Data sense 在上运行 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16 虚拟机"^] 使用 512 GB 标准持久性磁盘。操作系统映像为 CentOS 7.9 。
 +
 在 n2-standard-16 不可用的区域中， Data sense 运行在 n2D-standard-16 或 n1-standard-16 VM 上。
 
@@ -272,7 +272,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 === 数据感知扫描数据的速度
 
-数据感知功能可以在每个扫描程序节点上每天扫描15到40 TB的数据。扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。
+数据感知功能可以在每个扫描程序节点上每天扫描15到40 Tib的数据。扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。
 
 link:task-deploy-compliance-onprem.html#deploy-data-sense-on-premises["了解有关部署多个扫描程序节点以扫描数据的更多信息"^]。
 

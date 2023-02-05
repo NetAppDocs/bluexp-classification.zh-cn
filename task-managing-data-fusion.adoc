@@ -83,6 +83,72 @@ image:screenshot_compliance_delete_data_fusion.png["显示如何删除数据 Fus
 
 
 
+== 使用正则表达式添加自定义个人数据标识符
+
+您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。这样、您就可以创建一个新的自定义regex、以确定系统中尚不存在的新个人信息元素。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
+
+例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。此示例的正则表达式为*。b201\d｛9｝\b*。
+
+添加regex后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"个人结果"部分下的"数据感知合规性信息板"中、以及"个人数据"筛选器的"调查"页面中。
+
+.步骤
+. 从_Custom Classifiers_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
++
+image:screenshot_compliance_add_classifier_button.png["显示如何启动添加自定义类元向导的屏幕截图。"]
+
+. 在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*个人标识符*、然后单击*下一步*。
++
+输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。
+
++
+image:screenshot_select_classifier_type.png["显示如何为该类元命名并选择该类元类型的屏幕截图。"]
+
+. 在_Select数据分析工具_页面中、选择*自定义正则表达式*作为要用于定义分类器的方法、然后单击*下一步*。
++
+image:screenshot_select_classifier_tool.png["屏幕截图显示了选择自定义正则表达式作为Data sense用于构建模式的工具的情况。"]
+
+. 在_Create Logic_页面中、输入正则表达式和任何邻近词、然后单击*完成*。
++
+.. 您可以输入任何合法正则表达式。单击*验证*按钮让Data sense验证正则表达式是否有效以及是否过宽—意味着它将返回太多的结果。
+.. 或者、您也可以输入一些接近词来帮助细化结果的准确性。这些字词通常位于所搜索模式的300个字符内(在找到的模式之前或之后)。在单独的行中输入每个词或短语。
++
+image:screenshot_select_classifier_create_logic.png["为客户分类器输入正则表达式和接近词的屏幕截图。"]
+
+
+
+
+
+.结果
+此时将添加此类元、Data sense将开始重新扫描所有数据源。此时将返回自定义类元页面、在此页面中、您可以查看与新类元匹配的文件数。扫描所有数据源的结果将需要一段时间、具体取决于需要扫描的文件数量。
+
+image:screenshot_personal_info_regex_added.png["显示正在扫描的系统中添加新的正则表达式类元的结果的屏幕截图。"]
+
+
+
+=== 查看自定义分类器的结果
+
+您可以在合规性信息板和调查页面中查看任何自定义分类器的结果。例如、此屏幕截图在"个人结果"部分的"合规性信息板"中显示匹配的信息。
+
+image:screenshot_add_regex_result.png["在\"调查结果\"窗格中显示自定义正则表达式结果示例的屏幕截图。"]
+
+单击 image:button_arrow_investigate.png["带箭头的圆圈"] 按钮以在"调查"页面中查看详细结果。
+
+此外、所有自定义分类器结果都会显示在"Custom Classifiers (自定义分类器)"选项卡中、排名前6位的自定义分类器结果会显示在"Compliance Dashboard"(合规性信息板)中、如下所示。
+
+image:screenshot_custom_classifier_top_5.png["显示根据返回结果排名前3位的自定义分类器的屏幕截图。"]
+
+
+
+=== 管理自定义分类器
+
+您可以使用*编辑类元*按钮更改已创建的任何自定义类元。
+
+如果您稍后确定不需要Data sense来识别您添加的自定义模式、则可以使用*删除类元*按钮删除每个项目。
+
+image:screenshot_custom_classifiers_manage.png["\"Custom Classifiers (自定义类元)\"页面的屏幕截图、其中包含用于编辑和删除类元的按钮。"]
+
+
+
 == 从文本文件添加自定义关键字
 
 您可以将自定义关键字添加到Data sense中、以便它可以识别数据中的特定信息。您可以从定义的文本文件添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。
@@ -193,73 +259,3 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 [user Datasense]$ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s deactivate -f internal_product_names.txt
 ----
  log v1.0 | 2022-08-24 08:16:25,332 | INFO | ds_logger | upload_custom_keywords | 87 | 1 | None | upload_custom_keywords_87 | Deactivated keyword pattern from internal_product_names.txt successfully
-
-
-== 使用正则表达式添加自定义个人数据标识符
-
-您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
-
-例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。
-
-添加regex后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。
-
-
-
-=== 用于添加regex的命令语法
-
-您需要访问Data sense系统、以便添加包含自定义关键字模式的文件、并启动命令以添加自定义关键字。 <<访问命令行,请参见如何访问命令行>> 无论您是在内部安装了Data sense、还是在云中部署了Data sense。
-
-用于添加自定义regex的命令语法为：
-
- sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "<pattern_name>" -r "<regular_expression>" -p "<proximity_words>"
-* <pattern_name>=此名称将显示在Data sense UI中。确保此名称标识了正则表达式的设计用途。此名称必须至少包含一个字母、并且长度最多可以包含70个字符。
-* <Regular expression>=这可以是任何合法的正则表达式。
-* <proximity_words> =在所发现模式之前或之后所搜索模式的300个字符以内的字词、以帮助细化结果的准确性。每个词用逗号(、)分隔。
-
-
-您可以从路径*/opt/netapp/Datasens/*运行命令。
-
-请注意、我们会测试每个新的正则表达式、以验证它是否过宽且返回的匹配项过多。如果是这种情况、则会显示以下日志消息：
-
- log v1.0 | 2022-08-17 07:24:19,585 | ERROR | ds_logger | custom_regex | 119 | 1 | None | custom_regex_119 | The regex has high risk to identify false positives. Please narrow the regular expression and try again. To add it anyway, use the force flag (-f) at the end
-如果要将regex强制添加到Data sense中、您可以使用命令行末尾的*—f*选项、即使我们认为该regex过于宽泛也是如此。或者、您也可以使用"-p"选项尝试细化搜索结果。
-
-
-
-=== 示例
-
-产品ID是一个12位数、以201开头；例如"201123456789"。因此、正则表达式为*。b201\d｛9｝\b*。您希望Data sense UI中的文本将此模式标识为*内部产品ID*。我们将添加接近词"product id"和"identifier"。
-
-要查看所有文件中提及内部产品ID的位置、请输入以下命令。
-
-[source, cli]
-----
-[user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s activate -n "Internal Product ID" -r "\b201\d{9}\b" -p "product id,identifier"
-----
-此命令的输出为：
-
-....
-[+] Adding Custom Regex to Data Sense
-log v1.0 | 2022-08-23 13:19:01,476 | INFO | ds_logger | custom_regex | 154 | 1 | None | custom_regex_154 | A pattern named 'Internal Product ID' was added successfully to Data Sense
-....
-.结果
-下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。
-
-image:screenshot_add_regex_result.png["在\"调查结果\"窗格中显示自定义正则表达式结果示例的屏幕截图。"]
-
-
-
-=== 停用自定义正则表达式
-
-如果您稍后确定不需要Data sense来识别作为regex输入的自定义模式、请使用命令中的*停用*选项删除每个regex。
-
- sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "<pattern name>"
-例如、要删除*内部产品ID* regex：
-
-[source, cli]
-----
-[user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_regex/custom_regex.sh -s deactivate -n "Internal Product ID"
-----
- log v1.0 | 2022-08-17 09:13:15,431 | INFO | ds_logger | custom_regex | 31 | 1 | None | custom_regex_31 | A pattern named 'Internal Product ID' was deactivated successfully

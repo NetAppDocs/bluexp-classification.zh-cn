@@ -217,7 +217,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 * 通过每列顶部的控件，您可以按数字或字母顺序对结果进行排序。
 * 您可以通过左窗格筛选器从以下属性中进行选择来细化结果：
 +
-[cols="35,65"]
+[cols="30,65"]
 |===
 | 筛选器 | 详细信息 
 
