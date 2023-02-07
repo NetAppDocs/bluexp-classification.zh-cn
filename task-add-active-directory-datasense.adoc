@@ -20,8 +20,8 @@ summary: 您可以将全局 Active Directory 与 Cloud Data sense 集成在一�
 
 此集成可在 Data sense 的以下位置提供追加信息 ：
 
-* 您可以使用 " 文件所有者 " link:task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["筛选器"] 并在 " 调查 " 窗格中查看文件元数据的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。
-* 您可以看到 link:task-controlling-private-data.html#viewing-permissions-for-files-and-directories["完整文件权限"] 单击"查看所有权限"按钮时对每个文件和目录执行此操作。
+* 您可以使用 " 文件所有者 " link:task-investigate-data.html#filtering-data-in-the-data-investigation-page["筛选器"] 并在"调查"窗格中查看文件元数据的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。
+* 您可以看到 link:task-investigate-data.html#viewing-permissions-for-files-and-directories["完整文件权限"] 单击"查看所有权限"按钮时对每个文件和目录执行此操作。
 * 在中 link:task-controlling-governance-data.html["监管信息板"]下，打开权限面板将显示有关数据的更详细信息。
 
 

@@ -44,7 +44,7 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governanc
 ** 其他（一般 " 其他 " 类别）
 
 
-* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-controlling-private-data.html#viewing-all-duplicated-files["查看显示的重复文件类型"]。
+* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-investigate-data.html#viewing-all-duplicated-files["查看显示的重复文件类型"]。
 
 
 
@@ -53,13 +53,13 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governanc
 
 在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。
 
-单击 link:task-org-private-data.html#controlling-your-data-using-policies["此处"] 了解有关策略的更多信息。
+单击 link:task-using-policies.html["此处"] 了解有关策略的更多信息。
 
 
 
 === 数据概述
 
-_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 link:task-generating-compliance-reports.html#data-mapping-report["数据映射报告"^] 有关此报告的完整详细信息。
+_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 <<数据映射报告,数据映射报告>> 有关此报告的完整详细信息。
 
 
 
@@ -148,3 +148,36 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。
 
 请参见 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"^] 有关详细信息 ...
+
+
+
+=== 数据映射报告
+
+数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出一份概述报告，其中汇总了您的所有工作环境和数据源，然后对每个工作环境进行了细分。
+
+此报告包含以下信息：
+
+使用容量:: 对于所有工作环境：列出每个工作环境的文件数和已用容量。对于单个工作环境：列出容量最多的文件。
+数据使用期限:: 提供了三个图表和图形，用于显示文件的创建时间，上次修改时间或上次访问时间。根据特定日期范围列出文件数量及其已用容量。
+数据大小:: 列出了工作环境中特定大小范围内的文件数。
+文件类型:: 列出了工作环境中存储的每种类型的文件的总文件数和已用容量。
+
+
+
+
+==== 正在生成数据映射报告
+
+转到数据感知选项卡以生成报告。
+
+.步骤
+. 从BlueXP菜单中、单击*监管>分类*。
+. 单击 * 监管 * ，然后单击监管信息板中的 * 完整数据映射概述报告 * 按钮。
++
+image:screenshot_compliance_data_mapping_report_button.png["监管信息板的屏幕截图、显示了如何启动数据映射报告。"]
+
+
+
+.结果
+Cloud Data sense 可生成 PDF 报告，您可以根据需要查看该报告并将其发送给其他组。
+
+请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。

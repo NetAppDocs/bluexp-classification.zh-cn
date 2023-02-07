@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: reference-collected-metadata.html 
+keywords: compliance, metadata, permissions, time stamps, privacy 
+summary: 在对数据源和工作环境中的数据执行分类扫描时、Data sense会收集某些元数据。Data sense可以访问我们对数据进行分类所需的大多数元数据、但在某些源中、我们无法访问所需的数据。 
+---
+= 从数据源收集的元数据
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在对数据源和工作环境中的数据执行分类扫描时、Data sense会收集某些元数据。Data sense可以访问我们对数据进行分类所需的大多数元数据、但在某些源中、我们无法访问所需的数据。
+
+|===
+|  | *元数据* | * CIFS* | * NFS * 
+
+
+.3+| *时间戳* | *创建时间* | 可用 | 不可用(Linux不支持) 
+
+
+| *上次访问时间* | 可用 | 可用 
+
+
+| *上次修改时间* | 可用 | 可用 
+
+
+.2+| * 权限 * | *打开权限* | 如果"任何人"组有权访问此文件、则会将其视为"对组织开放" | 如果"其他"有权访问此文件、则此文件将被视为"对组织开放" 
+
+
+| *用户/组访问* | 用户和组信息来自LDAP | 不可用(NFS用户通常在服务器本地进行管理、因此、同一个用户可以在每个服务器中具有不同的UID) 
+|===

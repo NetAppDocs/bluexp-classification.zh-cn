@@ -26,7 +26,7 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 在早期版本的Cloud Data sense中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#sending-email-alerts-when-non-compliant-data-is-found["了解有关根据策略结果发送电子邮件警报的更多信息"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found["了解有关根据策略结果发送电子邮件警报的更多信息"]。
 
 
 
@@ -75,7 +75,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 * 现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果输入包含和排除某些数据的路径、则Data sense会首先查找包含的路径中的所有文件、然后从排除的路径中删除文件、并显示结果。
 
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
 
 
 

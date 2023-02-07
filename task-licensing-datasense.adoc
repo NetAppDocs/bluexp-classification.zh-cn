@@ -95,7 +95,7 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL * 云数据感
 
 购买Cloud Data sense许可证后、您可以通过输入Cloud Data sense序列号和NSS帐户或上传NLF许可证文件在BlueXP中激活此许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。
 
-如果您已在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense ，则需要从已连接 Internet 的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
+如果您已在无法访问Internet的内部站点中的主机上部署Cloud Data sense、则需要从已连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
 
 .步骤
 . 登录到 https://mysupport.netapp.com["NetApp 支持站点"^] 然后单击 * 系统 > 软件许可证 * 。
@@ -158,7 +158,7 @@ image:screenshot_services_license_expire_cc2.png["在 \" 数字电子钱包 \" �
 +
 在您为许可证付费并将其注册到NetApp 支持站点 后、BlueXP会自动在数字电子钱包中更新许可证、并且数据服务许可证页面将在5到10分钟内反映此更改。
 
-. 如果BlueXP无法自动更新许可证(例如安装在非公开站点时)、则需要手动上传许可证文件。
+. 如果BlueXP无法自动更新许可证(例如、安装在非公开站点时)、则需要手动上传许可证文件。
 +
 .. 您可以 <<获取 Cloud Data sense 许可证文件,从 NetApp 支持站点获取许可证文件>>。
 .. 在数字电子邮件页面的 _Data Services Licenses_ 选项卡中，单击 image:screenshot_horizontal_more_button.gif["更多图标"] 对于要更新的服务序列号，请单击 * 更新许可证 * 。

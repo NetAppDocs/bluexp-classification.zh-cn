@@ -83,7 +83,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 --
 创建 VPC 端点时，请务必选择与云数据感知实例对应的区域， VPC 和路由表。您还必须修改安全组才能添加出站 HTTPS 规则、该规则允许通信到 S3 端点。否则， Data sense 将无法连接到 S3 服务。
 
-如果遇到任何问题，请参见 https://aws.amazon.com/premiumsupport/knowledge-center/connect-s3-vpc-endpoint/["AWS 支持知识中心：为什么我无法使用网关 VPC 端点连接到 S3 存储分段？"^]
+如果遇到任何问题，请参见 https://aws.amazon.com/premiumsupport/knowledge-center/connect-s3-vpc-endpoint/["AWS支持知识中心：为什么我无法使用网关VPC端点连接到S3存储分段？"^]
 
 另一种方法是使用 NAT 网关提供连接。
 
@@ -182,7 +182,7 @@ Cloud Data sense 开始扫描您启用的 S3 存储分段。如果存在任何�
 .步骤
 . 转到要扫描 S3 存储分段的目标 AWS 帐户，然后选择 * 其他 AWS 帐户 * 来创建 IAM 角色。
 +
-image:screenshot_iam_create_role.gif[""]
+image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕截图。"]
 
 +
 请务必执行以下操作：
@@ -247,7 +247,7 @@ Cloud Data sense 实例配置文件帐户现在可以访问其他 AWS 帐户。
 
 
 
-. 转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意， Cloud Data sense 可能需要几分钟时间来同步新帐户的工作环境并显示此信息。
+. 转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意、Cloud Data sense可能需要几分钟时间来同步新客户的工作环境并显示此信息。
 +
 image:screenshot_activate_and_select_buckets.png["显示如何激活 Data sense 的屏幕截图。"]
 

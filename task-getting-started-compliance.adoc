@@ -48,8 +48,8 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 * Cloud Volumes ONTAP 的安全组必须允许来自数据感知实例的入站连接。
 * 确保这些端口对 Data sense 实例开放：
 +
-** 对于 NFS —端口 111 和 2049 。
-** 对于 CIFS —端口 139 和 445 。
+** 对于NFS—端口111和2049。
+** 对于CIFS—端口139和445。
 
 
 * NFS 卷导出策略必须允许从 Data sense 实例进行访问。
@@ -123,8 +123,8 @@ Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦 Cloud Da
 
 . 确保以下端口对 Data sense 实例开放：
 +
-** 对于 NFS —端口 111 和 2049 。
-** 对于 CIFS —端口 139 和 445 。
+** 对于NFS—端口111和2049。
+** 对于CIFS—端口139和445。
 
 
 . 确保 NFS 卷导出策略包含 Data sense 实例的 IP 地址，以便它可以访问每个卷上的数据。
