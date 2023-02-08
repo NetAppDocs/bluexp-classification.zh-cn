@@ -73,7 +73,7 @@ sidebar:
       url: "/task-managing-highlights.html"
     - title: 更改扫描设置
       url: task-managing-repo-scanning.html
-    - title: 生成报告
+    - title: 生成合规性报告
       url: "/task-generating-compliance-reports.html"
   - title: 管理云数据感知
     entries:
