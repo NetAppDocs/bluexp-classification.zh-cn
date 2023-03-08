@@ -1094,7 +1094,6 @@
   <block id="6ca416dc347d5360ab86e69583f4b2b0" category="admonition">您不能复制数据库中的文件。</block>
   <block id="61d4fcc3c026e16853fc4a4c3af3238e" category="list-text">要复制文件，您必须具有帐户管理员或工作空间管理员角色。</block>
   <block id="ac4f9b37895857d8a8b18cb025880f5a" category="list-text">复制文件要求目标 NFS 共享允许从 Data sense 实例进行访问。</block>
-  <block id="31273f8f624a6f2a292d5dfa6bf047a8" category="list-text">一次最多可以复制 100 ， 000 个文件。</block>
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">在数据调查结果窗格中，选择要复制的一个或多个文件，然后单击 * 复制 * 。</block>
   <block id="e78ae78fac1620efb2c4db4938844274" category="inline-image-macro">显示如何从 " 数据调查 " 页面选择要复制的文件以及 " 复制 " 按钮的屏幕截图。</block>
   <block id="cb1cacc23b0ae330cc87e78659350142" category="paragraph"><block ref="cb1cacc23b0ae330cc87e78659350142" category="inline-image-macro-rx" type="image"></block></block>
@@ -3136,7 +3135,6 @@
   <block id="2976d8218e5021d7d1f5cbbae070157d" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="179f3f01544c50dcde464960dc0c66ec" category="inline-link-rx"></block> 和 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
   <block id="e6226abfed55ff05d6368103074cf171" category="paragraph">+如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户在CIFS中具有"写入属性"权限或在NFS中具有"写入"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="b59c5194f3c88dc07265c30dac8a84fe" category="cell">选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。</block>
-  <block id="cb9bf9f33de1a01b95ec2d7471fee706" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中包含"*"不起作用；您需要使用完整路径搜索特定文件和子文件夹。</block>
   <block id="42942f3489af451c9c0c8a2e6cc0b756" category="cell">扫描分析事件</block>
   <block id="86c0d22c969df97ab506580c91428045" category="cell">选择是要查看因Data sense无法还原上次访问时间而未分类的文件、还是要查看即使Data sense无法还原上次访问时间也已分类的文件。</block>
   <block id="0f609c3035a725a4b4c05c34c154b6a8" category="inline-link-macro">查看有关"上次访问时间"时间戳的详细信息</block>
@@ -3182,4 +3180,7 @@
   <block id="6d59c0bcfa7b74d31dfcf319aed7bc81" category="paragraph"><block ref="6d59c0bcfa7b74d31dfcf319aed7bc81" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c9ba77685f066f05e419c9ad4b812035" category="list-text">在右侧的服务窗格中、单击*配置分段*。</block>
   <block id="49f6b32e47bb10336cfb6d4d9edbb52b" category="paragraph"><block ref="49f6b32e47bb10336cfb6d4d9edbb52b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11f3580c4a3b779649df6d1a5c193fdf" category="list-text">一次可以复制1到100、000个文件。</block>
+  <block id="5a8d6a8cd28258257694d106e58f4816" category="list-text">您必须至少选择20个文件。</block>
+  <block id="bd336cd1948dc2bbe990a0988a5e5e9e" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中使用"*"不起作用、并且无法从扫描中排除特定文件夹-将扫描已配置共享下的所有目录和文件。</block>
 </blocks>
