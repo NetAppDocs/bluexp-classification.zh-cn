@@ -396,21 +396,16 @@
   <block id="d65142db38828c0dd5d365061085a9bf" category="list-text">选择 Amazon S3 工作环境。</block>
   <block id="0935819aba236aea3b813f76e288f13a" category="inline-image-macro">Amazon S3 工作环境图标的屏幕截图</block>
   <block id="a3a4b47224ab5ffd3c2bd00fdf40f4ab" category="paragraph"><block ref="a3a4b47224ab5ffd3c2bd00fdf40f4ab" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ba5791d4b3e450f80ba97b71a8085fc1" category="list-text">在右侧的数据感知窗格中，单击 * 启用 * 。</block>
   <block id="9728950e84ccd6542f6769c5939d2ca1" category="inline-image-macro">从 " 服务 " 面板启用 Cloud Data sense 服务的屏幕截图</block>
-  <block id="72964bc33c91e31da04a6d4db666303d" category="paragraph"><block ref="72964bc33c91e31da04a6d4db666303d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a6100ac4fa5cb7bbb1c49e95165b96b2" category="inline-xref">所需权限</block>
   <block id="a14eadef9fed4334ae62e1b07a91b3d1" category="inline-image-macro">为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图</block>
-  <block id="17ca8b6da2574412974f28f85e8bc202" category="paragraph"><block ref="17ca8b6da2574412974f28f85e8bc202" category="inline-image-macro-rx" type="image"></block></block>
   <block id="909d8cdc7c100d1834d4de10094f43ca" category="list-text">单击 * 启用 * 。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-image-macro"></block>
   <block id="d761456e00468ed6d2677409261cd941" category="admonition">您也可以通过单击在配置页面中为工作环境启用合规性扫描 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 按钮并选择 * 激活数据感知 * 。</block>
   <block id="e18a75263bcb68f3fcffe930704c1b61" category="section-title">在 S3 存储分段上启用和禁用合规性扫描</block>
   <block id="7c2a1afd2de07142fad71a298b835868" category="inline-xref">扫描位于不同 AWS 帐户中的 S3 存储分段</block>
   <block id="b1e8e17ac8da06f3bc41e785862093df" category="paragraph">云数据感知也可以 <block ref="fbc7d1e2817308c6eddf1c4eb56ce78c" category="inline-xref-macro-rx"></block>。</block>
-  <block id="69f17b5356378bcc05856aa61cd79b46" category="list-text">在右侧窗格中，单击 * 配置分段 * 。</block>
   <block id="488f97fa3f9c407a3e1f8f12be96ad79" category="inline-image-macro">单击配置存储分段以选择要扫描的 S3 存储分段的屏幕截图</block>
-  <block id="01e1641f56cce6118fc73fbc01cddcf3" category="paragraph"><block ref="01e1641f56cce6118fc73fbc01cddcf3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="da6efb7934685c279e09a9cc17698318" category="list-text">在存储分段上启用仅映射扫描或映射和分类扫描。</block>
   <block id="c33c67608fa8a89c762775a89bf2094f" category="inline-image-macro">选择要扫描的 S3 存储分段的屏幕截图</block>
   <block id="e3f6bceac4bf21688390b971a13b99f1" category="paragraph"><block ref="e3f6bceac4bf21688390b971a13b99f1" category="inline-image-macro-rx" type="image"></block></block>
@@ -554,55 +549,8 @@
   <block id="e4a822ae3bd5d19b76fea8306ce5774c" category="paragraph">现在，您可以将全局 Active Directory 与 Cloud Data sense 集成在一起，以增强 Data sense 报告的有关文件所有者以及哪些用户和组有权访问您的文件的结果。</block>
   <block id="f8add8b46019d8016befb6aebc941e84" category="inline-link-macro">请参见如何设置全局 Active Directory</block>
   <block id="4fdca8fbbd2a76d7345e79fb0e7fd3fc" category="inline-link-macro">请参见如何创建自定义策略</block>
-  <block id="096a1667ae412a6b3dd6d7318a0fb8d4" category="section-title">2021 年 12 月 16 日</block>
-  <block id="1eee0717fa00b6d32dfb2ab489f54964" category="inline-link-macro">了解如何在无法访问 Internet 的站点中部署 Cloud Data sense</block>
-  <block id="b8039ded95757c80005c804fabc145a1" category="paragraph"><block ref="79863890a17e4bdd9593d37ca0d14fc0" category="inline-link-macro-rx"></block>。</block>
-  <block id="f61163b681442ac500a8018c87241770" category="section-title">2021 年 11 月 28 日</block>
-  <block id="0e65b1a6d06c19deb46ff998c80de0a5" category="paragraph">您可以使用 Data sense 克隆 ONTAP 卷，但在新克隆的卷中只包含源卷中的选定文件。如果您要迁移数据并希望排除某些文件，或者要创建卷的副本以供测试，则此功能非常有用。</block>
-  <block id="e0dab5e04e9cb55716e589595b1e6b4b" category="inline-link-macro">请参见如何克隆卷</block>
-  <block id="9d321eefe3fb98368019ac183d4f559f" category="paragraph"><block ref="99c1ffe6c02d2af43316b015cbc9c8a2" category="inline-link-macro-rx"></block>。</block>
-  <block id="4932ec0144d6d1640460f5cfee326e0f" category="inline-link-macro">Cloud Manager 的 GCP Marketplace 订阅</block>
-  <block id="c066aa13effff0bea79252a20699074b" category="paragraph">从调查结果窗格对多个文件运行操作时，例如删除 50 个文件，此过程可能需要一些时间。现在，您可以监控这些异步操作的状态，以便了解它何时应用于所有文件。</block>
-  <block id="7fc4a6242ce76e0415a989d1dbc8b9d4" category="inline-link-macro">了解如何查看持续合规操作的状态</block>
-  <block id="6241446e1383ab0c8cc0cebdfbb90484" category="inline-link-macro">查看 Data sense 在扫描中发现的所有个人数据类型的列表</block>
-  <block id="2164b22cc8c41bee72c53771bd025c07" category="paragraph">Data sense 现在可以在文件中找到个人数据类型 " 英国护照 " 和 " 国家卫生服务（ NHS ）编号 " 。 <block ref="ce74ef267e6a0fa015475f7a67f6924a" category="inline-link-macro-rx"></block>。</block>
-  <block id="9a67fa9362671e5cfd7881e63183490e" category="paragraph">在 " 数据调查 " 页面中筛选数据时，为 " 工作环境类型 " 添加了一个新的筛选器。这样，您可以筛选 Cloud Volumes ONTAP 系统，适用于 ONTAP 系统的 FSX ，内部 ONTAP 系统等的结果。</block>
-  <block id="8226af020361fe3987ed52162cbc4d06" category="paragraph">过去，您可以映射所有卷，也可以映射并分类每个工作环境中的所有卷。现在，您可以选择映射 _or_ 映射各个卷并对其进行分类。此选项适用于 Cloud Volumes ONTAP 卷， ANF 卷，内部 ONTAP 卷以及 ONTAP 卷的 FSX 。</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link-macro">了解更多信息。</block>
-  <block id="489bbace9696e34940e2b4012383115f" category="paragraph">您可以将 Data sense 正在扫描的任何源文件复制到目标 NFS 共享。如果要为某些数据创建副本并将其移动到其他 NFS 位置，此功能将非常有用。 <block ref="d05c5872a8ecb6f8190249ddc8786d34" category="inline-link-macro-rx"></block>。</block>
-  <block id="d80d3c7ebf333488ef4d2c74d7fde58e" category="paragraph">现在，您可以在 ONTAP 文件系统的 FSX 上扫描数据保护卷。 <block ref="12146991433bc5a213bcb83d563990f4" category="inline-link-macro-rx"></block>。</block>
-  <block id="e02ef706eaed7e8a20115407bffb0216" category="paragraph">通过 " 调查 " 页面中的一个名为 " 发现时间 " 的新筛选器，您可以按 Data sense 首次发现文件时的日期范围查看文件。发现的时间也已添加到 " 文件详细信息 " 页面以及以 CSV 格式为文件输出的报告中。</block>
-  <block id="0b43e955bb49e08923e9b43ee20ef2b3" category="section-title">SOC 2 类型 2 认证</block>
-  <block id="bda633aa50f099014aa085ad93af9cff" category="paragraph">一家独立的认证公有 会计师事务所和服务审计师对云数据感知进行了检查，并确认它已根据适用的信任服务标准获得 SOC 2 类型 2 报告。</block>
-  <block id="582a36961cbdd6ca90f6672041cdab83" category="inline-link">查看 NetApp 的 SOC 2 报告</block>
-  <block id="f982fa3c6fb84f7cccc6a84a6ffc9a1d" category="paragraph"><block ref="958c315a8c40765f65895091ecc83488" category="inline-link-rx"></block>。</block>
-  <block id="c513c649fe64ed52674dbb18376d71fa" category="paragraph">除了通过云提供商市场许可 Data sense 之外，现在您还可以从 NetApp 购买自带许可证（ BYOL ），该许可证可用于所有工作环境和 Cloud Manager 帐户中的数据源。</block>
-  <block id="00beacb1f1189c9f01dd562d2e17ba8f" category="inline-link-macro">了解有关全新 Cloud Data sense BYOL 许可证的更多信息</block>
-  <block id="9091d7d6e522e57e8207ba8ce0760373" category="paragraph"><block ref="acbd27f5f515b9d59280399ad7e728ba" category="inline-link-macro-rx"></block>。</block>
-  <block id="defb90791cab3206e78b5423ed2c8b26" category="paragraph">现在， Cloud Data sense 可以扫描部署在 GCP 上的 Cloud Volumes ONTAP 系统中的数据。数据感知必须部署在 GCP 上，而连接器必须部署在 GCP 或内部环境中。与 Connector 关联的 GCP 服务帐户需要最新权限才能将 Cloud Data sense 部署到 GCP 。</block>
-  <block id="4ad745dcbae16cc9cbfa352d10dee9d2" category="inline-link-macro">请参见如何扫描 Amazon FSX 中的 ONTAP 卷</block>
-  <block id="a840a5a79ff17611f610aea797443528" category="paragraph">现在， Data sense 可以从 ONTAP 系统的 FSX 扫描 CIFS 卷。 <block ref="0eeca2862916d1603da10da4ea8f7a8e" category="inline-link-macro-rx"></block>。</block>
-  <block id="f0e03aeff7590515947d417df3c44149" category="inline-link-macro">请参见如何为适用于 ONTAP 的 FSX 系统配置扫描</block>
-  <block id="d3a24d1f0136676bd5e6c7dfdd76a1f3" category="paragraph">增加了对在适用于 ONTAP 系统的 Amazon FSX 上扫描 NFS 卷上数据的支持。 <block ref="78789fe6f73d50e026d33dc711bd85c0" category="inline-link-macro-rx"></block>。</block>
-  <block id="3dcb86dca720d483150e850e6939f919" category="inline-link-macro">了解有关文件级标记的更多信息</block>
-  <block id="396db0ecff0e339a92f9b3a2af31d263" category="paragraph">使用 Data sense 向文件添加 " 状态 " 信息的功能已将术语更改为 " 标记 " 。这些标记是文件级标记，请勿与可应用于卷， EC2 实例，虚拟机等的资源级标记相混淆 <block ref="fae0dc82413cbf28598c32b2f2b30fe3" category="inline-link-macro-rx"></block>。</block>
-  <block id="911d437fe43df208c05b7bd0a3a5fd36" category="paragraph">在早期版本的 Cloud Data sense 中，您可以一次对一个文件执行以下操作：添加状态标记，分配用户和添加 AIP 标签。现在，您可以从 " 数据调查 " 页面中选择多个文件，并对多个文件执行其中每个操作。</block>
-  <block id="81fa8b9a7e51e3b6727474568dca14d0" category="paragraph">在 " 监管 " 信息板中查看 " 数据期限 " 图时，除了根据上次修改时间查看数据之外，现在您还可以按数据创建时间或上次访问时间（读取时）查看数据。此信息也会在数据映射报告中提供。</block>
-  <block id="5b36750f739fc1c783153e7581ff604f" category="paragraph">在内部部署 Data sense 时，如果您计划扫描包含 PB 数据的配置，现在可以在其他内部主机上安装扫描软件。在扫描非常大的配置时，这些额外的 _scanner nodes_ 可提高处理能力。</block>
-  <block id="cec6006ebbef58d19ece0bccf55641bd" category="inline-link-macro">在多个主机上部署 Data sense 软件</block>
-  <block id="65fa82fb8a157d27290b37d014a1e038" category="paragraph">请参见操作说明 <block ref="fcd2ff9a961d403217fed261cd527026" category="inline-link-macro-rx"></block>。</block>
-  <block id="916678dfdf53de83f6afdf8fca563fb3" category="section-title">2021 年 7 月 7 日</block>
-  <block id="f30ef67a4274772079ff06a86e3a74e2" category="inline-link-macro">将 Data sense 正在扫描的任何源文件移动到任何 NFS 共享</block>
-  <block id="c1f264653480074b4ff5c33f6da78cca" category="paragraph">通过一项新功能，您可以实现 <block ref="cc908d8cc2317a532e385546a3f8e196" category="inline-link-macro-rx"></block>。这样，您可以将敏感或与安全相关的文件移动到特定区域，以便进行更多分析。</block>
-  <block id="ed4bdff0b14403bf62e234ebd3b70386" category="inline-link-macro">查看数据映射报告</block>
-  <block id="8b1cff14f17bbdf3a25104f916729ebc" category="paragraph">现在，您可以选择快速将数据映射到类别中，而不是执行完整的分类扫描。这样，您就可以了 <block ref="6b081f418bc21ae87c3e1758cd454263" category="inline-link-macro-rx"></block> 从 " 监管信息板 " 中查看您的数据概览，了解您不需要对某些数据源运行完整扫描的情况。</block>
-  <block id="91905b6c0e5bd3b31a5a9faff7fc5218" category="inline-link-macro">将文件分配给特定 Cloud Manager 用户</block>
-  <block id="ebc240befa04f487177655f353d72802" category="paragraph">现在可以了 <block ref="60706a069633267dd80739a874a1ee5a" category="inline-link-macro-rx"></block> 这样，该人员就可以负责对文件执行任何后续操作。此功能可与现有功能结合使用，以便向文件添加自定义标记。</block>
-  <block id="596f96f82c371a240d0be177aa3f1ee0" category="paragraph">通过 " 调查 " 页面中的新筛选器，您还可以轻松查看 " 已分配给 " 字段中具有相同人员的所有文件。</block>
-  <block id="cf3f2cc15d62c716232f57e1283f8347" category="inline-link-macro">请先了解这些限制</block>
-  <block id="60ee57016f16f38febc0431619eaa4bb" category="paragraph">一些扫描要求较低的用户要求能够使用较小的 Cloud Data sense 实例。现在可以了。因此，使用这些较小实例时存在一些限制 <block ref="2721bef887c25ebcb5745416e289e70e" category="inline-link-macro-rx"></block>。</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link-macro">了解如何操作</block>
-  <block id="34549c51a038d2c00ade5270b233fb1c" category="paragraph">上次访问时间值已添加到 " 文件详细信息 " 页面以及以 CSV 格式输出的报告中，以便您可以查看用户上次访问文件的时间。</block>
   <block id="74585f658544c691c6f6afb583a9dc61" category="inline-link-macro">扫描使用 S3 协议的对象存储</block>
   <block id="6988ee4ea30eb643c68d53327c6b1220" category="inline-link">MinIO 服务</block>
   <block id="93f515959ce6187b986c42fa6959168b" category="doc">私有数据的类别</block>
@@ -625,7 +573,6 @@
   <block id="13b6fb090b361e21da7d5f1f7be6810c" category="cell">巴西 ID （ CPF ）</block>
   <block id="e29d7f1eae16ec5fe9b36f7588f2a07d" category="cell">英国护照</block>
   <block id="c829ddab5419b8fa34d5c686b7e39d5e" category="cell">Bulgarian" ID （ UCN ）</block>
-  <block id="2ce7beca50827016ec0b11a0c09b583b" category="cell">加利福尼亚驾驶执照</block>
   <block id="ebd5d868a9aa8ec82c598921c02dc41c" category="cell">克罗地亚语 ID （ OIB ）</block>
   <block id="1fb8f0e6f1d2d7a4082230422bb7d9e9" category="cell">塞浦路斯税务识别号（ TIC ）</block>
   <block id="96d7df20ade7d6ce6522053eb6569698" category="cell">捷克语 / 斯洛伐克语 ID</block>
@@ -1243,8 +1190,6 @@
   <block id="eecea516ca35a50f78bb2695a96b5fdf" category="inline-image-macro">一个屏幕截图，用于在配置页面中显示最近 20 个操作及其状态。</block>
   <block id="c8607e69aac6730ea98a4ebb489331b1" category="paragraph"><block ref="c8607e69aac6730ea98a4ebb489331b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d64089f867aa0c6a5cf811a28ddf72cc" category="paragraph">您可以单击某个操作的名称以查看与该操作对应的详细信息。</block>
-  <block id="fc8b1fc5168574e248a2f42d3e9b0cc5" category="summary">完成一些步骤，在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense 。此类安装非常适合您的安全站点。</block>
-  <block id="03207363010b8ea77da69a9f09065d71" category="doc">在内部部署 Cloud Data sense ，而无需访问 Internet</block>
   <block id="e2115e429619cedeaf6aeedfb1d4d0d7" category="inline-link-macro">在可访问 Internet 的内部站点中部署 Data sense</block>
   <block id="1c038c580523f9a3d7126408c53a8288" category="paragraph">请注意，您也可以 <block ref="1079604978fa03138d29a36dc3d0bf3f" category="inline-link-macro-rx"></block>。</block>
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">支持的数据源</block>
@@ -1666,7 +1611,6 @@
   <block id="4de725d331cf276fac026642a5f17603" category="paragraph">如果您不再需要扫描某些文件共享，则可以随时从扫描其文件中删除各个文件共享。只需单击配置页面中的 * 删除共享 * 即可。</block>
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">屏幕截图显示了如何从扫描单个文件共享的文件中删除该文件共享。</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f828553dd90e6a1da6fd1104a080663" category="doc">在可访问 Internet 的 Linux 主机上部署 Cloud Data sense</block>
   <block id="edc5cb08ed944714ebae42cfa6a8ba4c" category="paragraph">如果您希望使用也位于内部的数据感知实例扫描内部 ONTAP 系统，则内部安装可能是一个不错的选择，但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
   <block id="ad2930ccaf67236b6ce95ac2d7f536c3" category="paragraph">请注意，您也可以 <block ref="8567cf2a27ba4e05e4d07919092c29e8" category="inline-link-macro-rx"></block> 适用于完全安全的站点。</block>
   <block id="e780ba1dc1fa7caee58066eebb1037f9" category="inline-xref">以下要求</block>
@@ -1710,7 +1654,6 @@
   <block id="e87b43c3f65a9e6b5fc0f778e155e091" category="sidebar">组织您的私有数据</block>
   <block id="3e51e074f12d2c873310422bb9c8cb50" category="sidebar">管理私有数据</block>
   <block id="b243b08794c870ea91d13357c677102f" category="sidebar">添加自定义个人数据标识符</block>
-  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="sidebar">生成报告</block>
   <block id="f8b28f56cf385c66a4a0078795b69320" category="sidebar">从 Data sense 中删除数据源</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="1cdcdefa74c2914f109f17dbba9e6f8f" category="sidebar">在不使用 Internet 的情况下在内部部署 Data sense</block>
@@ -1742,7 +1685,6 @@
   <block id="7c04897feb206ad3e6d38ea88ccde2d4" category="paragraph"><block ref="7c04897feb206ad3e6d38ea88ccde2d4" category="inline-link-rx"></block></block>
   <block id="0e07c8e30d5d787d70fbc93583eb3032" category="paragraph"><block ref="0e07c8e30d5d787d70fbc93583eb3032" category="inline-link-rx"></block></block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
-  <block id="6fef68839fa6cc086be3d7d7abb69cad" category="paragraph">。<block ref="d5f59196a7b849b257c625be10a1d93c" category="inline-link-rx"></block> 现在支持 Cloud Data sense 。现在，除了使用 NetApp 的 BYOL 许可证之外，您还可以使用此按需购买（ PAYGO ）订阅从部署在 Google Cloud 存储上的 Cloud Volumes ONTAP 系统扫描数据。</block>
   <block id="9ffceb20e382df6e4587add0d24af321" category="cell">澳大利亚 TFN （税务文件编号）</block>
   <block id="67863eec6ed398cda366fe555c1746bd" category="cell">澳大利亚医疗保健计划编号</block>
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">澳大利亚护照编号</block>
@@ -1794,34 +1736,6 @@
   <block id="2da79a92d5bb1f1f77ab993c07c12703" category="section-title">已更改安全组端口，以便与连接器进行数据感知通信</block>
   <block id="39ad63f56fe19489716d253d535f6033" category="section-title">能够集成全局 Active Directory 以确定文件所有者和权限</block>
   <block id="ed02f2ad98646d05140c6f62857791cb" category="section-title">现在，可以使用数据感知 " 策略 " 删除文件</block>
-  <block id="4fda7be69eb097891068c14360cba258" category="section-title">数据感知功能可以扫描非公开站点中的数据</block>
-  <block id="3c6e7a50358ad493c1281cc6aa27309a" category="paragraph">Cloud Manager （ Connector ）和 Cloud Data sense 均可部署在无法访问 Internet 的内部站点中。现在，您的安全站点可以使用 Cloud Manager 管理内部 ONTAP 集群，在集群之间复制数据，以及使用 Cloud Data sense 扫描这些集群中的数据。</block>
-  <block id="6d732051b4ee221c3896e5943078d7c4" category="section-title">数据感知可用于从 ONTAP 系统克隆卷</block>
-  <block id="aa316c658b08b1eec45b0e73dc9d8e96" category="section-title">现在， Cloud Manager 的 GCP Marketplace 订阅支持 Cloud Data sense</block>
-  <block id="49b8c4f61544245ecf36672ba0113068" category="section-title">能够查看长期运行的合规性操作的状态</block>
-  <block id="89372f2a277a8453dc542e88ba9ef4f0" category="section-title">新的筛选器可显示属于特定工作环境类型的文件</block>
-  <block id="e370b3500d8b67f884ff10af2cab702c" category="section-title">2021 年 11 月 7 日</block>
-  <block id="e48cb5e3594830a9679d2e76261df2e8" category="section-title">现在，您可以选择对工作环境中的各个卷进行映射或分类</block>
-  <block id="ce8e3fe1aae847699e405f937430c727" category="section-title">数据感知可以将文件从数据源复制到目标 NFS 共享</block>
-  <block id="459fecfdaf1e78b26ef269df213bc81a" category="section-title">可以扫描 ONTAP 文件系统的 FSX 上的数据保护卷</block>
-  <block id="60465eb8970b5bad23ff0f639954b0ae" category="section-title">新的筛选器可按 Data sense 首次发现文件时的日期范围显示文件</block>
-  <block id="d1c47d8bf748c203ff983262e6c108cb" category="section-title">2021 年 10 月 4 日</block>
-  <block id="7175abddc94aae9f582ff187e073eac7" category="section-title">支持 NetApp 的 BYOL 许可</block>
-  <block id="7e6a902227a5aff46cb434910e5c292f" category="section-title">支持 Google Cloud Platform</block>
-  <block id="5b5f95cb16cc6baa317f2459854a87af" category="section-title">可以在 ONTAP 文件系统的 FSX 上扫描 CIFS 卷</block>
-  <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021 年 9 月 2 日</block>
-  <block id="e55ec0c0e7df55e996e766cf1ddfcd6c" category="section-title">可以在 ONTAP 文件系统的 FSX 上扫描 NFS 卷</block>
-  <block id="ed336c97bd7749d0b604d710a3169440" category="section-title">数据感知 " 状态 " 条目已更改为 " 标记 " 条目</block>
-  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
-  <block id="b2a24b78c7ab82f495008fb584802b8e" category="section-title">一次可管理多个文件的文件设置</block>
-  <block id="a0c71efbfb9cd276842249b759494dca" category="section-title">" 监管 " 信息板可显示数据的创建时间或上次访问时间</block>
-  <block id="715df5847e32201de12278bd599a747f" category="section-title">扫描大型配置时，可以使用多个主机提高处理能力</block>
-  <block id="0b8379ea047ac207c395c8a9c6709526" category="section-title">数据感知可以将文件从数据源移动到目标 NFS 共享</block>
-  <block id="002a13154f4ce5f6f1ca6b053cd26c76" category="section-title">能够快速对数据进行分类，而不是执行完整的分类扫描</block>
-  <block id="d80b36ddfa007c5b8414c96e0ae118d9" category="section-title">能够将文件分配给 Cloud Manager 用户</block>
-  <block id="bddd2179a36dc08b8bb7be3660c8fed4" category="section-title">能够使用较小的 Cloud Data sense 实例</block>
-  <block id="a37544bc609cd0b6c2d725d27d13ab21" category="section-title">能够执行慢速扫描</block>
-  <block id="f1c9a9425a145e1b1614fa251d393989" category="section-title">数据感知可跟踪上次访问文件的时间</block>
   <block id="5d7ec019a090d19805ff8b8708516943" category="paragraph">数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。</block>
   <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp 上 5 GiB</block>
   <block id="7d3786abf2ebb473a5ba70b680734525" category="section-title">BYOL 许可证注意事项</block>
@@ -1864,7 +1778,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
-  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自助支持</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
@@ -1872,8 +1785,6 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
-  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 支持</block>
-  <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
   <block id="eee50fc2c4ac06219bb486e05b8250f7" category="list-text">确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。</block>
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure 中连接器的规则</block>
   <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive帐户</block>
@@ -2046,9 +1957,7 @@
   <block id="7cbe4840b4a3a2fdf1f9286da7e2b284" category="inline-image-macro">显示如何通过更改筛选器设置来编辑查询的屏幕截图。</block>
   <block id="289758d7ef2e573a0ee7824d5814b945" category="paragraph"><block ref="289758d7ef2e573a0ee7824d5814b945" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6a5816406505d9f49c1bfa13c98461f7" category="paragraph">策略将立即更改。为该策略定义的用于发送电子邮件、添加AIP标签或删除文件的任何操作都将在下一个内部发生。</block>
-  <block id="f7ed3633a3e848b0d67caa9326d256b6" category="summary">Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。您可以查看Data sense审核日志文件的内容、也可以下载这些内容、以查看发生了哪些文件更改以及何时发生更改。</block>
   <block id="5de1b662853ab92b885225780d3125b7" category="doc">审核数据感知操作的历史记录</block>
-  <block id="f8563669b8d53fea23814d12a98674cd" category="paragraph">例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。</block>
   <block id="f4d44f4e933c52507fc1f60eb487d44a" category="section-title">日志文件内容</block>
   <block id="787cbeccb975d71260f61cb0fbe84553" category="paragraph">审核日志中的每一行都包含以下格式的信息：</block>
   <block id="79480e26f983c197c4338ae916966c93" category="list-text">status—信息、警告</block>
@@ -2128,10 +2037,7 @@
   <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>。</block>
   <block id="c761b545ddd43d078ae7ea86495182db" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 <block ref="de464dfb9c55e9818cd55e6911bff3a5" category="inline-link-macro-rx"></block>。</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">非NetApp CIFS文件共享(非NFS文件共享)</block>
-  <block id="4f872362ba4f34050c74d7c25062ac0d" category="paragraph">如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户具有"写入属性"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="5f5211c62ad18524e9e94e7a1524c835" category="list-text">在Data sense页面顶部、单击 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> 然后单击*卸载数据感知*。</block>
-  <block id="58c8e0b1374b7f5b507570dc0385f473" category="cell">印第安纳驾驶执照</block>
-  <block id="0e03a64a4a78cbeacfa2d9a80a300d92" category="cell">纽约驾驶执照</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">德克萨斯驱动程序许可证</block>
   <block id="89b56b1e048dcf0ec285e29a05d6d029" category="paragraph">如果目标位置存在同名文件、则不会移动该文件。</block>
   <block id="f466f17a82f9ca3b39b50be85ceb8395" category="list-text">移动文件要求NFS共享允许从数据感知实例IP地址进行访问。</block>
@@ -2139,7 +2045,6 @@
   <block id="5587c065d5a62295455b157389cd71e5" category="paragraph">请注意、根据策略结果删除数据和分配AIP标签的操作仅对文件有效。不能自动删除符合搜索条件的目录或为其分配AIP标签。</block>
   <block id="90915c385560094095567649cbd732aa" category="section-title">查看文件和目录的权限</block>
   <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">此外、 您可以单击某个用户或组的名称、此时将显示调查页面、并在"用户/组权限"筛选器中填充该用户或组的名称、以便您可以查看该用户或组有权访问的所有文件和目录。</block>
-  <block id="3e75ffa254c777c4ea8d93dfbb0b6eba" category="paragraph">+如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户具有"写入属性"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="8a45623b5a3c251ed21845e747d3e9fa" category="paragraph">对于CIFS卷/文件共享、如果要确保数据感知分类扫描未更改文件的"上次访问时间"、建议用户具有写入属性权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="04843fa750ddea2d46823d2d06cf3063" category="paragraph">请注意、某些数据源会在菜单中提供暂停和恢复功能、如下所示用于SharePoint站点。</block>
   <block id="fb575acbb63d1898a1021e2856b18b6e" category="inline-image-macro">显示如何在SharePoint站点上暂停和恢复扫描的屏幕截图。</block>
@@ -2241,15 +2146,11 @@
   <block id="7a4f785c9bf1b41e9eb899da0e988d27" category="paragraph">下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。您添加的每个源列都会以"Table.Column"格式显示在筛选器列表中、例如`customers.CustomerID`。</block>
   <block id="86776d2aca02c16f7beb228e9112d324" category="inline-image-macro">在"调查结果"窗格中显示Data Fusion 结果示例的屏幕截图。</block>
   <block id="4275c0ed3233cbea8a2f0bc0d2c33395" category="paragraph"><block ref="4275c0ed3233cbea8a2f0bc0d2c33395" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="936f32b71b96ea5785d6a11d0da86d15" category="paragraph">在内部安装Data sense后、您可以直接访问命令行。</block>
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">对于AWS：使用&lt;EC2-user&gt;</block>
-  <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="section-title">示例</block>
-  <block id="1e4b16d4f3c8faa8b0a90ebbeae0a0f7" category="paragraph">下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">在"调查结果"窗格中显示自定义正则表达式结果示例的屏幕截图。</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
   <block id="cdd8fa6a73205d146405999abb5c86ec" category="admonition">安装后、无法更改Data sense主机系统的IP地址。</block>
-  <block id="766f0d81be7879628bc30bd7367309c3" category="paragraph">您可以从路径*/opt/netapp/Datasens/*运行命令。</block>
   <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日(1.16版)</block>
   <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">能够立即重新扫描存储库以反映文件中的更改</block>
   <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">请参见如何重新扫描目录</block>
@@ -2292,7 +2193,6 @@
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
-  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
@@ -2328,10 +2228,7 @@
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
-  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
-  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登录后、NetApp将存储NSS用户名。这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
-  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。使用此选项将提示您重新登录。</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
@@ -2360,7 +2257,6 @@
   <block id="c5fa07750716427fc488615add6ab90d" category="list-text">在某些关键策略返回结果时向BlueXP用户发送电子邮件警报</block>
   <block id="afc0d971e4ebfa53c171b355bc2599a4" category="list-text">为不同用户设置BlueXP角色(例如、帐户管理员或合规性查看器)</block>
   <block id="33054e4c4ec78cdbffe4024718f5be95" category="list-text">从BlueXP自动升级软件</block>
-  <block id="70f30fa3be0f8d566af792a54f7feca4" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
   <block id="57d5e1045a3473cd48f13a7e21feffdf" category="paragraph">确保您的 Linux 系统满足 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>，安装了所有必需的软件，并且脱机环境满足所需的要求 <block ref="cecf7d2039efa2511a1cd1c96e91a043" category="inline-xref-macro-rx"></block>。</block>
   <block id="28312bff8dd6c634a03c918b3596d5f7" category="section-title">安装BlueXP Connector</block>
   <block id="dd4c90ec72ae39b7ae5e4b23558ad715" category="paragraph">如果您尚未在脱机内部站点上安装BlueXP Connector、<block ref="b3b935401d776406adc004ee5c72bf0e" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
@@ -2603,14 +2499,7 @@
   <block id="2af88522df8219c02b648f709d0d7441" category="paragraph">您必须拥有 <block ref="4ec8c7ffee3077e2fe1a50f122f89322" category="inline-link-macro-rx"></block> 添加数据Fusion 源之前、请先将此消息添加到Data sense中。</block>
   <block id="b5a32f0d4fed8751d01bab34f7653e1c" category="paragraph">Data Fusion 清单页面显示您已将Data sense配置为扫描的数据库源列。</block>
   <block id="6df200d9da4a502fdf5eb4ced7a8d488" category="section-title">删除Data Fusion 源</block>
-  <block id="beda883b97aef8f3ae5362485c7c7b8e" category="section-title">从文本文件添加自定义关键字</block>
-  <block id="ffe939b4a901f36963b6915c952e5eda" category="paragraph">您可以将自定义关键字添加到Data sense中、以便它可以识别数据中的特定信息。您可以从定义的文本文件添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。</block>
   <block id="4db39af2f2c8dd1ae93885d357ea7d87" category="paragraph">例如、您可能希望查看所有文件中提及内部产品名称的位置、以确保这些名称在不安全的位置不可访问。</block>
-  <block id="e86b773e33290ca180bab4702f6221dc" category="paragraph">更新自定义关键字后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。</block>
-  <block id="a022f59f73d13dba25886111bbcbfbe7" category="paragraph">您必须在Data sense系统的以下位置添加或创建包含自定义关键字的文本文件：</block>
-  <block id="9e5355e710468619132238aa9a8b9c22" category="paragraph">_internal_product_names.txt_</block>
-  <block id="3dc7d5f9e5fd1366a21d3d3a927df1f0" category="paragraph">这些项目的数据感知搜索不区分大小写。</block>
-  <block id="057d52aa1154035622f873117dc92349" category="paragraph">您需要访问Data sense系统、才能启动命令以添加自定义关键字。</block>
   <block id="5279036835630164e29f9d285f1f8ac5" category="list-text">&lt;path_to_the_ssh_key&gt;= ssh身份验证密钥的位置</block>
   <block id="84bcb800c1d5099ce2ac32d1e7b6680f" category="list-text">&lt;machine_user&gt;：</block>
   <block id="7ba7a32a873386de0e3b4747ceb28558" category="list-text">&lt;datasens_ip&gt;=虚拟机实例的IP地址</block>
@@ -2620,20 +2509,8 @@
   <block id="c3122c19fb459588f8438e668beb5f88" category="list-text"><block ref="c3122c19fb459588f8438e668beb5f88" category="inline-link-rx"></block></block>
   <block id="e22a4abc98b47ca148e0dfda7e259162" category="inline-link">Google Cloud中的防火墙规则</block>
   <block id="2cfdb7ae537da608249744d8e40289a8" category="list-text"><block ref="2cfdb7ae537da608249744d8e40289a8" category="inline-link-rx"></block></block>
-  <block id="64eaf133adcf35171f2b21d53ac1d51f" category="section-title">用于添加自定义关键字的命令语法</block>
-  <block id="cc6ab41a96e05bf1a4e537962c380442" category="paragraph">用于从文件添加自定义关键字的命令语法为：</block>
-  <block id="c279e8e722787c40c4b102abaedc66b2" category="list-text">&lt;file_name&gt;=此名称是包含关键字的文件的名称。</block>
-  <block id="7479128473e97401c8fbc1525c2dd799" category="paragraph">如果您创建了许多包含自定义关键字的文件、则可以使用以下命令一次性添加所有文件中的关键字：</block>
-  <block id="c4e448abb596b34945911578eb3b4e45" category="paragraph">请注意以下要求：</block>
-  <block id="32b446525f2a4b6a6e34ba346b55fea6" category="list-text">文件名不应包含数字。</block>
-  <block id="c781b817668135b2a7800b19a53b3351" category="list-text">每个文件最多可包含100、000个字。如果存在更多字词、则仅添加前100、000个字。</block>
-  <block id="c84a723bb8343259efcc07b5d335a94d" category="list-text">每个词的长度必须至少为3个字符。较短的字词将被忽略。</block>
-  <block id="9b2456bacc9d094f1cd53f784d659a37" category="list-text">重复词只会添加一次。</block>
-  <block id="a05f2f2af09092d7732c02cc3039dad9" category="paragraph">要查看所有文件中提及内部产品名称的位置、请输入以下命令。</block>
   <block id="d1cae4639086ce5de29473a5d53747c7" category="inline-image-macro">在"调查结果"窗格中显示自定义关键字结果示例的屏幕截图。</block>
   <block id="7b739c51b4a511be3459afe942a8ef3c" category="paragraph"><block ref="7b739c51b4a511be3459afe942a8ef3c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="10e08b10c8ba5b9b6646011e823e86ed" category="section-title">停用自定义关键字</block>
-  <block id="c67491a05b3eada8d8830f7e24dff0b6" category="paragraph">如果您稍后确定不需要Data sense来识别您先前添加的某些自定义关键字、请使用命令中的*停用*选项删除文本文件中定义的关键字。</block>
   <block id="9c0bd48717ec950ad656ee0c5cbe1bd7" category="section-title">使用正则表达式添加自定义个人数据标识符</block>
   <block id="a47191a447cfd30eaac5f91623a8e2e1" category="paragraph">Cloud Data sense是一款云产品、它使用人工智能(AI)驱动的技术帮助您了解数据环境并识别存储系统中的敏感数据。这些系统可以是您添加到BlueXP Canvas中的工作环境、也可以是Data sense可以通过网络访问的多种类型的数据源。 <block ref="098fc5cd7fc00ea7f0929a4918ac3fdc" category="inline-link-macro-rx"></block>。</block>
   <block id="f93db149bc3a1616f1fc0abae89a8cb4" category="paragraph">数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为执行 " 缓慢 " 扫描。 <block ref="c0297b8a85bd81fc39a6444d8d1b6586" category="inline-link-macro-rx"></block>。</block>
@@ -2642,21 +2519,16 @@
   <block id="db40121770270b95c73895598e6343b2" category="list-text">您可以从文本文件添加自定义关键字。</block>
   <block id="d2e9b58709e185388c14e9b7f7c876b8" category="list-text">您可以使用正则表达式(regex)添加自定义模式。</block>
   <block id="6b0cdbce1552e1685f4b4095276b6078" category="paragraph"><block ref="4a5fd31f8eed80e720a59ea6d295b8eb" category="inline-link-macro-rx"></block>。</block>
-  <block id="6e356675279ce269e55ffefd9397769c" category="paragraph">您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件格式为每行一个字、例如、以下列出了属于owls类型的内部产品名称：</block>
-  <block id="8b78d80928f7b4e5ede92c922915ec73" category="paragraph">如您所见、文本文件的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活不同文本文件中的关键字、并查看每种关键字类型的结果。</block>
-  <block id="6d09a2eb7ddd06e7afb4f4e0f4b6f0a8" category="paragraph">例如、要删除文件* internal_product_names.txt*中定义的关键字：</block>
   <block id="162bd73d17dd13a664718503fff639fc" category="paragraph">在内部安装Data sense后、您可以直接导航到日志文件。</block>
   <block id="69aeb258470eedf7afb44d66a993f4d8" category="paragraph">如果您的某些数据源要由物理上更接近数据源的扫描程序节点扫描、则可以定义一个扫描程序节点或一组扫描程序节点、以扫描特定数据源或一组数据源。在下图中、有1个管理器节点和3个扫描程序节点。</block>
   <block id="4ab1272ad311bec96f677d25b0901105" category="list-text">如果要将扫描程序节点添加到"扫描程序组"中、请将参数*-r &lt;scanner_group_name&gt;*添加到命令中。否则、扫描程序节点将添加到"默认"组。</block>
   <block id="f76b6e3dc68f5a15976b3f64aae23646" category="paragraph">未添加到列表中的任何工作环境均由"default"组进行扫描-您必须在"default"组中至少有一个管理器或扫描程序节点。</block>
   <block id="37861c699e1fb7b716f29da056f3ddc5" category="paragraph">在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：</block>
-  <block id="9580ea03756206f0f5eba6a03bb42d83" category="paragraph">请注意、您需要修改安全组入站规则才能访问云上的系统。有关详细信息、请参见：</block>
   <block id="5cd360d496831478b3f9cbc92cce8b43" category="list-text">date and time—事件的完整时间戳</block>
   <block id="01183a42bef9f9a5314d435065cfc49d" category="list-text">操作的详细信息—已执行的操作：取决于操作</block>
   <block id="8022db3692364177695fce2a133b526b" category="list-text">标记-标记名称</block>
   <block id="91f93253b1daa7f572477e6f8dc4f163" category="list-text">用于assign to—用户名</block>
   <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">对于电子邮件警报—电子邮件地址/帐户</block>
-  <block id="b5fcd19ce1eac6e10e82176168a38b4d" category="paragraph">审核日志文件位于Data sense计算机上的：<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
   <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：</block>
   <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">请参见如何安装扫描程序节点以扫描其他数据源</block>
@@ -2679,8 +2551,6 @@
   <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">现在、内部安装程序会在开始安装之前执行预检查</block>
   <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。</block>
-  <block id="80ca59a22e157477c940f080c9cf1223" category="paragraph"><block ref="b1c06333aab3fa5206e44a440f888650" category="inline-link-macro-rx"></block>。</block>
-  <block id="fa18750d3909d8a2d2d0a22c1611a692" category="paragraph">数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为立即执行 " 缓慢 " 扫描。 <block ref="50748b3ac35725f5f9be1dab9c684e55" category="inline-link-macro-rx"></block>。</block>
   <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">通过支持信息板、您可以添加和管理用于BlueXP的NetApp 支持站点 帐户。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
@@ -2826,7 +2696,6 @@
   <block id="5e11b9767e7bd2c58f38d60ac9f67f80" category="cell">选择 ... <block ref="b0becded2b1c1949046ca8118d27118b" category="inline-link-macro-rx"></block> 分配给文件的。</block>
   <block id="c670f11fe2007eb5c3be88dd2f27af16" category="cell">选择特定的工作环境。</block>
   <block id="5bf1893d83226372ff2fad4fcb1c9ae2" category="cell">选择存储库、例如卷或模式。</block>
-  <block id="e980323c9092e1f118449edafa2ceb15" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。</block>
   <block id="01c40954af185b794e35d719875d3a7a" category="cell">选择 <block ref="d4eabbd4fb9268c1389fccae66300714" category="inline-link-macro-rx"></block>。</block>
   <block id="cc8f113115a15a733dabb8452c0006ca" category="cell">选择敏感度级别：个人、敏感个人或非敏感。</block>
   <block id="858f7504093c180b7179d29d8e1200d9" category="cell">选择 <block ref="1b5fb6ede432593c04dc0306b78c1e56" category="inline-link-macro-rx"></block>。</block>
@@ -2838,7 +2707,6 @@
   <block id="9b5e1fda139121eaa435619d67e14fd7" category="cell">选择创建文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。</block>
   <block id="9a0f4bd0f77ffaa6f3beb585c8d18994" category="cell">选择Data sense发现文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。</block>
   <block id="55e421a96ef89113e0aa27aebfaa73aa" category="cell">选择上次修改文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。</block>
-  <block id="4e4be7e4053f318985404b5ad48beff4" category="cell">选择上次访问文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。</block>
   <block id="936baf22f04cffa654fef2a2806e8fcd" category="cell">选择是否在存储库中复制文件。</block>
   <block id="6c19be59705b1afb4e5b6315b9a0d84e" category="cell">输入文件的哈希以查找特定文件、即使名称不同也是如此。</block>
   <block id="fdd455d725fb278b4fe9d43c83722f88" category="cell">选择 ... <block ref="d459f7b3039eb26458088e9c5f84d9e6" category="inline-link-macro-rx"></block> 分配给文件的。</block>
@@ -2983,21 +2851,17 @@
   <block id="da932f7eef3a2768f6b53d366221c254" category="paragraph">您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。这样、您就可以创建一个新的自定义regex、以确定系统中尚不存在的新个人信息元素。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。</block>
   <block id="18faf11e669e669b541338888d9bea32" category="paragraph">例如、您可能希望查看所有文件中提及内部产品ID的位置。如果产品ID结构清晰、例如、它是一个以201开头的12位数、则可以使用自定义正则表达式功能在文件中搜索它。此示例的正则表达式为*。b201\d｛9｝\b*。</block>
   <block id="f63c6623f7c373abcfcd168f9cda13ac" category="paragraph">添加regex后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"个人结果"部分下的"数据感知合规性信息板"中、以及"个人数据"筛选器的"调查"页面中。</block>
-  <block id="168c8e32a1b235d5e5a3bd5630708081" category="list-text">从_Custom Classifiers_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。</block>
   <block id="03a9ab83293882634c4137aa0d2b8963" category="inline-image-macro">显示如何启动添加自定义类元向导的屏幕截图。</block>
   <block id="6111b89fea1527ae77c65d4a19404b4a" category="paragraph"><block ref="6111b89fea1527ae77c65d4a19404b4a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41980f6e23a56df37090697fb6ee5802" category="list-text">在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*个人标识符*、然后单击*下一步*。</block>
-  <block id="b31f9f55ba118bd096e2a282557a1563" category="paragraph">输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。</block>
   <block id="fb654467306a9ed74856249c6ac9b2f6" category="inline-image-macro">显示如何为该类元命名并选择该类元类型的屏幕截图。</block>
   <block id="0931f142421f2e217723300078e3b8b7" category="paragraph"><block ref="0931f142421f2e217723300078e3b8b7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfc0ae4804b6b33aec281efa7221c9f8" category="list-text">在_Select数据分析工具_页面中、选择*自定义正则表达式*作为要用于定义分类器的方法、然后单击*下一步*。</block>
   <block id="3b5f1855b99662101364184845ff3510" category="inline-image-macro">屏幕截图显示了选择自定义正则表达式作为Data sense用于构建模式的工具的情况。</block>
-  <block id="ea39dbbdddfb0a782dc4b45c751fe258" category="paragraph"><block ref="ea39dbbdddfb0a782dc4b45c751fe258" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9569396e69f952ac709738236397e87" category="list-text">在_Create Logic_页面中、输入正则表达式和任何邻近词、然后单击*完成*。</block>
   <block id="edd69077eb39ecaa79c200e2aa35e84a" category="list-text">您可以输入任何合法正则表达式。单击*验证*按钮让Data sense验证正则表达式是否有效以及是否过宽—意味着它将返回太多的结果。</block>
   <block id="13ba2d1d9a0f00239a30b9470cb310b7" category="list-text">或者、您也可以输入一些接近词来帮助细化结果的准确性。这些字词通常位于所搜索模式的300个字符内(在找到的模式之前或之后)。在单独的行中输入每个词或短语。</block>
   <block id="1e7880d19e1061f1e0be8da511ed88eb" category="inline-image-macro">为客户分类器输入正则表达式和接近词的屏幕截图。</block>
-  <block id="7084b45a6d0c1162ac3d5f6b215cc0f1" category="paragraph"><block ref="7084b45a6d0c1162ac3d5f6b215cc0f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a475d0ea29a27140d6f6bc03695803c" category="paragraph">此时将添加此类元、Data sense将开始重新扫描所有数据源。此时将返回自定义类元页面、在此页面中、您可以查看与新类元匹配的文件数。扫描所有数据源的结果将需要一段时间、具体取决于需要扫描的文件数量。</block>
   <block id="8925d45313a1840fbda58900234b9850" category="inline-image-macro">显示正在扫描的系统中添加新的正则表达式类元的结果的屏幕截图。</block>
   <block id="a70eb09ec7232b2b5daa5a4ed1191637" category="paragraph"><block ref="a70eb09ec7232b2b5daa5a4ed1191637" category="inline-image-macro-rx" type="image"></block></block>
@@ -3013,7 +2877,6 @@
   <block id="8dc803e9e2ed886e283db4b174d14ab1" category="paragraph">如果您稍后确定不需要Data sense来识别您添加的自定义模式、则可以使用*删除类元*按钮删除每个项目。</block>
   <block id="6c4af53d01a0fd2f4b9e2d860002e476" category="inline-image-macro">"Custom Classifiers (自定义类元)"页面的屏幕截图、其中包含用于编辑和删除类元的按钮。</block>
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cbcbb4eb39088cc429c550b8a7b20858" category="section-title">访问命令行</block>
   <block id="969665117064b959d3c660b43611f713" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
   <block id="666bbf651dbf568f97e37372014cde9a" category="list-text">此时将显示_Deploy Data sense on premises_对话框。复制提供的命令并将其粘贴到文本文件中、以便稍后使用、然后单击*关闭*。例如：</block>
   <block id="bef424c97f7f20957409f086ca8ff3db" category="paragraph">如果主机和Connector实例之间通过端口8080建立连接、您将在BlueXP的数据感知选项卡中看到安装进度。</block>
@@ -3026,7 +2889,6 @@
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能够将基于策略的通知电子邮件发送到任何电子邮件地址</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">在早期版本的Cloud Data sense中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">了解有关根据策略结果发送电子邮件警报的更多信息</block>
-  <block id="58c8b31479a452f2c02b4c4beb2b8e6f" category="section-title">现在、您可以添加Data sense将从UI中识别的个人模式</block>
   <block id="bbc056ffe85cbc0784df7b39d5fac941" category="paragraph">Data sense能够添加自定义的"个人数据"、Data sense将在未来的扫描中识别此数据一段时间。但是、您需要登录到Data sense Linux主机并使用命令行添加自定义模式。在此版本中、Data sense UI可以使用regex添加个人模式、因此可以轻松地添加和编辑这些自定义模式。</block>
   <block id="e743c1cea3cca118a07bf2fd9a21ec39" category="inline-link">了解有关从Data sense UI添加自定义模式的更多信息</block>
   <block id="6f3ebec91d6086cea205504bdbc3fd37" category="paragraph"><block ref="8eedc9e36b5a6054f1f5d8b4937ba068" category="inline-link-rx"></block>。</block>
@@ -3159,4 +3021,165 @@
   <block id="949195768b714c50c6fc8c9385a74cc5" category="sidebar">调查您的数据</block>
   <block id="8ca194e9f33f192ece200a8c9ed9e621" category="sidebar">为数据分配策略</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">参考</block>
+  <block id="dcb1076fed166631ed4c43d938783bbc" category="paragraph">只要实例具有Internet连接、即可自动升级到BlueXP Connector和Data sense软件。</block>
+  <block id="ca01a94f38912cd0a130467fd970c237" category="paragraph">Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦Data sense完成初始扫描、"合规性"信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。</block>
+  <block id="98f6fa36d18876695de95f3552eef95c" category="admonition">默认情况下、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描卷中的文件、因为Data sense无法将"上次访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。您可以启用该页面的设置、以便Data sense扫描卷、而不受权限限制。</block>
+  <block id="a00ed12f7b85db2513cbe254229fb9e7" category="paragraph">如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、建议用户在CIFS中具有写入属性权限、或者在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
+  <block id="7d23ada8396afe0182bb76af9cac5dae" category="paragraph">默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描文件、因为Data sense无法将"最后访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 <block ref="62855d79cc7b1c143d998d83fe5addab" category="inline-link-macro-rx"></block>。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">页面顶部的案例管理信息板提供了两个视图：</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左侧视图显示了您提供的用户NSS帐户在过去3个月内打开的案例总数。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右侧视图显示了过去3个月内根据用户NSS帐户在公司级别开立的案例总数。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">此表中的结果反映了与选定视图相关的案例。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">"状态"列中筛选选项的屏幕截图、可用于筛选与特定状态(如"活动"或"已关闭")匹配的案例。</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表中显示的加号图标</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">通过单击更改表中显示的列 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">单击以管理现有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
+  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*更新案例注释*：提供有关您的问题的更多详细信息。</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="99d97930418935683e2b318283d0dfe1" category="section-title">上次访问时间时间戳</block>
+  <block id="328433e1229196dfcfbc0b9d019a9d21" category="paragraph">当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。</block>
+  <block id="8fccf85628cfcd90d8b0fe5cab43c86d" category="paragraph">默认情况下、如果Data sense没有这些权限、系统不会扫描卷中的这些文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以单击配置页面底部的*缺少"写入属性"权限时扫描*开关、以便Data sense可以扫描卷而不考虑权限。</block>
+  <block id="3b65a5e239394b9dd027910cc1b152c1" category="inline-image-macro">屏幕截图显示了一个开关、即使Data sense没有将上次访问时间还原到原始时间戳的正确权限、您也可以使用该开关对文件进行扫描。</block>
+  <block id="44408bbd035a502d323b922a5560e5d4" category="paragraph"><block ref="44408bbd035a502d323b922a5560e5d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b2d4384c1deeeb5068a47d9c4f7fecae" category="paragraph">此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。</block>
+  <block id="581d69e206b5b89f885e30ba63c4f580" category="paragraph">请注意、"调查"页面中有一个名为_Scan Analysis Event_的筛选器、可用于显示因Data sense无法还原上次访问时间而未分类的文件、 或者、即使Data sense无法还原上次访问时间也已分类的文件。</block>
+  <block id="2e9bf0fba1b77a1da35499a6b728c5e6" category="inline-image-macro">筛选器的屏幕截图、用于根据是否具有写入权限来查看哪些文件已扫描、哪些文件未扫描。</block>
+  <block id="ee9a6cd4eeadce3c62fa7db3af1981ac" category="paragraph"><block ref="ee9a6cd4eeadce3c62fa7db3af1981ac" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7d72055dc8f09beeb77f4fa9d71f6382" category="paragraph">筛选器选项包括：</block>
+  <block id="a66a4b74b70237f4c0cbce83303f74d2" category="list-text">"未分类-无法还原上次访问时间"-显示由于缺少写入权限而未分类的文件。</block>
+  <block id="3648b57c3461ab987d19b2aa1fb8dec8" category="list-text">"已分类并更新的上次访问时间"—显示已分类的文件、并且Data sense无法将上次访问时间重置回原始日期。此筛选器仅适用于缺少"写入属性"权限*时启用了*扫描的环境。</block>
+  <block id="529e58159a0567a96e1265aa7c80760b" category="inline-link">了解有关数据调查报告的更多信息</block>
+  <block id="1519214436b24573d7996e8c310f57e7" category="paragraph">如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。<block ref="55841a629b143f31cba7cbe4e8dd8d86" category="inline-link-rx"></block>。</block>
+  <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e320df9c865260fc39e7beb28a2b5885" category="doc">在可访问Internet的主机上部署Cloud Data sense</block>
+  <block id="5dd68ea8038a218beb217f08f4009e7f" category="list-text">此外、还支持CentOS Stream 8</block>
+  <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="cell">博茨瓦纳身份卡(Omang)编号</block>
+  <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="cell">博茨瓦纳的护照编号</block>
+  <block id="ff3bab043a00af2e37e7dcaf393aea61" category="cell">新加坡国家注册身份卡(NRIC)</block>
+  <block id="5721a59dab5cc5d2f326b7e5464d9860" category="cell">美国加州驾驶执照</block>
+  <block id="162e79a198624ab621c2e0fcd8aa5099" category="cell">美国印第安纳州驾驶执照</block>
+  <block id="56ee28a97ee2b5724da347257b198872" category="cell">美国纽约驱动程序许可证</block>
+  <block id="bc9381c1fffa85e3370bbee2fa58936b" category="list-text">您可以添加自定义类别以确定数据中的特定信息类别。</block>
+  <block id="4bd299bcf1b9820ccf748c7b1d8dc677" category="section-title">从词列表中添加自定义关键字</block>
+  <block id="f0d5fde32162b77852b6cf1d798bc666" category="paragraph">您可以将自定义关键字添加到Data sense中、以便它可以确定该信息在数据中的位置。您只需输入希望Data sense识别的每个词即可添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。</block>
+  <block id="072b822348181a77a46c4656eb517597" category="paragraph">更新自定义关键字后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"个人结果"部分下的"数据感知合规性信息板"中、以及"个人数据"筛选器的"调查"页面中。</block>
+  <block id="10413e6de081bf8f27d3babd998bdad8" category="list-text">在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。</block>
+  <block id="a77b70f3c9f961df305e8d7d9664e850" category="paragraph">您输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题、并在调查页面中作为筛选器的名称。</block>
+  <block id="667625a25925b4137fb76733da1dd35c" category="paragraph">您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能需要执行此操作以隐藏完整的信用卡号或类似的个人数据(掩码将显示在UI中、如下所示："passe：[$**] pass：[$**] pass：[$**] passe：[$**]"3434)。</block>
+  <block id="e3c79b2ff3bee6052bf8c4ee0232f80e" category="paragraph"><block ref="e3c79b2ff3bee6052bf8c4ee0232f80e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9e4767f52f09ad6e7ef4b30d384072e4" category="list-text">在_Select数据分析工具_页面中、选择*自定义关键字*作为要用于定义分类器的方法、然后单击*下一步*。</block>
+  <block id="bf76a4c8abf3d57f498be5a1b82759e1" category="inline-image-macro">屏幕截图显示了自定义关键字作为Data sense用于构建模式的工具的选择。</block>
+  <block id="17e9d0cdb81bd784298dbc17b052dad0" category="paragraph"><block ref="17e9d0cdb81bd784298dbc17b052dad0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a90a5ca5e14d97fff479f3d90241b87" category="list-text">在_Create Logic_页面中、输入要识别的关键字-每一个词位于一条单独的行上-然后单击*验证*。</block>
+  <block id="79e1eb38204a46f7310b74095882e45d" category="paragraph">以下屏幕截图显示了内部产品名称(不同类型的所有权)。这些项目的数据感知搜索不区分大小写。</block>
+  <block id="191f56b08d3aa6205b1fc04740933cb0" category="inline-image-macro">为客户分类器输入关键字的屏幕截图。</block>
+  <block id="e118360bc0be2d158a035dd090d97a14" category="paragraph"><block ref="e118360bc0be2d158a035dd090d97a14" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7e94f86e3a5a16b38e7600a4a99d44e7" category="list-text">单击*完成*、Data sense将开始重新扫描您的数据。</block>
+  <block id="4a0c8017c43848ad16733c719676cca0" category="paragraph">扫描完成后、结果将在"个人结果"部分下的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。</block>
+  <block id="9d56a2a830feae88d7c977220b52c2f0" category="paragraph">如您所见、此类元的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活多组不同的关键字、并查看每个组的结果。</block>
+  <block id="2941998d10d5b129985cf6f71952d76a" category="paragraph">请参见<block ref="58ff2edcee6f09ed29d8b1fa3d90f44d" category="inline-link-rx"></block> 如果您在构建正则表达式时需要帮助、</block>
+  <block id="074f516d5c11f99732211c5b48a14ad3" category="paragraph">您输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题、并在调查页面中作为筛选器的名称。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。</block>
+  <block id="66bad3a80be8e193d348efcb46a227cf" category="paragraph"><block ref="66bad3a80be8e193d348efcb46a227cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bc88bee93425842eaf0d676cafac7772" category="paragraph"><block ref="bc88bee93425842eaf0d676cafac7772" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d221f76e0177c019cf82913885bbd0d" category="section-title">添加自定义类别</block>
+  <block id="0741a8e3d0de49fd54dd6e2c08c12535" category="inline-link-macro">请参见预定义类别列表</block>
+  <block id="5fdadb69cfb58e54de4dd4857118ce01" category="paragraph">Data sense会将扫描的数据划分为不同类型的类别。类别是基于对每个文件的内容和元数据进行人工智能分析的主题。 <block ref="e4966eba5f5aa891b400570a53d2b0f2" category="inline-link-macro-rx"></block>。</block>
+  <block id="68791bee5ed94dd2236ce0d5fb76ef7c" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如、_resumes_或_empleee contracts _等类别可能包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
+  <block id="a9bf0a2ab0c4f088aabe12a1c6c1889a" category="paragraph">您可以将自定义类别添加到Data sense中、以便确定数据资产特有的信息类别位于何处。您可以通过创建包含要标识的数据类别的"培训"文件来添加每个类别、然后让Data sense扫描这些文件并通过AI "学习"这些文件、以便它可以识别数据源中的数据。这些类别将添加到Data sense已标识的现有预定义类别中、其结果将显示在"Categories"部分下。</block>
+  <block id="f0c0b0bdc9d14a04a29a066c322faab9" category="paragraph">例如、您可能希望查看.gz格式的压缩安装文件在文件中的位置、以便在必要时将其删除。</block>
+  <block id="b8f94cf00d4633f8b646c8148ce540ec" category="inline-link-macro">请参见如何按类别查看文件</block>
+  <block id="4e103e3d4fc0c8252a668f5f0876d80f" category="paragraph">更新自定义类别后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"类别"部分下的"数据感知合规性信息板"中、以及"类别"筛选器的"调查"页面中。 <block ref="808a87ee72a165bf91101aadbd6c48bb" category="inline-link-macro-rx"></block>。</block>
+  <block id="0187f0ceccb73ec2146f5af2e81dfcb6" category="paragraph">您至少需要创建25个培训文件、其中包含您希望Data sense识别的数据类别的示例。支持以下文件类型：</block>
+  <block id="f387beeca0e7131b7065d4680044e789" category="paragraph"><block ref="f23c451ac8958276fd9bd9f16f095b45" prefix="" category="inline-code"></block></block>
+  <block id="9ace87ac21bc052092afcf176ecb5912" category="paragraph">这些文件必须至少为100字节、并且必须位于Data sense可访问的文件夹中。</block>
+  <block id="e6f57057393ec9055269039af8a651e8" category="list-text">在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*类别*、然后单击*下一步*。</block>
+  <block id="04f145668b7cd95c1255bb44664c675f" category="paragraph">您输入的名称将显示在Data sense UI中、作为与您定义的数据类别匹配的扫描文件的标题、并作为"调查"页面中的筛选器名称。</block>
+  <block id="db52e4302a20ccbe000299b2ff6b0c0b" category="paragraph"><block ref="db52e4302a20ccbe000299b2ff6b0c0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2bb9f0de4f75776e39d55095eeb7059e" category="list-text">在_Create Logic_页面中、确保已准备好学习文件、然后单击*选择文件*。</block>
+  <block id="1944fc4f1c4ce9c5fcde3c7b8c967d78" category="inline-image-macro">创建逻辑页面的屏幕截图、您可以在其中添加包含希望Data sense从中学习的数据的文件。</block>
+  <block id="d649acc343ca234737777a38f6b9a7ea" category="paragraph"><block ref="d649acc343ca234737777a38f6b9a7ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bc31e9efaac961908cb639c6fceb1f14" category="list-text">输入卷的IP地址以及培训文件所在的路径、然后单击*添加*。</block>
+  <block id="e632e87ed43e5cafa4459cd1935b6030" category="inline-image-macro">显示如何输入培训文件位置的屏幕截图。</block>
+  <block id="74ecc16bb4458e6b0aa7cb21c16f44cd" category="paragraph"><block ref="74ecc16bb4458e6b0aa7cb21c16f44cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9598f0a3eaf0390815c993fa2139f547" category="list-text">验证培训文件是否已被Data sense识别。单击*。*删除不符合要求的任何培训文件。然后单击*完成*。</block>
+  <block id="55ef1b0dcac87ba2d1e533045a15de28" category="inline-image-macro">屏幕截图显示了Data sense将用作定义新类别的培训文件的文件。</block>
+  <block id="8160c3db5ceaeec9f21f500ad90a16ee" category="paragraph"><block ref="8160c3db5ceaeec9f21f500ad90a16ee" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="233a7e974842d65dd39122b575514270" category="paragraph">新类别将根据培训文件的定义创建并添加到Data sense中。然后、Data sense开始重新扫描所有数据源、以确定适合此新类别的文件。此时将返回自定义类元页面、在此页面中、您可以查看与新类别匹配的文件数。扫描所有数据源的结果将需要一段时间、具体取决于需要扫描的文件数量。</block>
+  <block id="0fd05b1c9e0bcfc288b3cb64182f45d8" category="summary">完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。</block>
+  <block id="dd8d54cd536de1780b72a7a05a4b8f65" category="doc">在无法访问Internet的主机上部署Cloud Data sense</block>
+  <block id="24986a3fd86695b55b23be0d07a0d801" category="inline-link">升级BlueXP Connector</block>
+  <block id="2976d8218e5021d7d1f5cbbae070157d" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="179f3f01544c50dcde464960dc0c66ec" category="inline-link-rx"></block> 和 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e6226abfed55ff05d6368103074cf171" category="paragraph">+如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户在CIFS中具有"写入属性"权限或在NFS中具有"写入"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
+  <block id="b59c5194f3c88dc07265c30dac8a84fe" category="cell">选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。</block>
+  <block id="cb9bf9f33de1a01b95ec2d7471fee706" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中包含"*"不起作用；您需要使用完整路径搜索特定文件和子文件夹。</block>
+  <block id="42942f3489af451c9c0c8a2e6cc0b756" category="cell">扫描分析事件</block>
+  <block id="86c0d22c969df97ab506580c91428045" category="cell">选择是要查看因Data sense无法还原上次访问时间而未分类的文件、还是要查看即使Data sense无法还原上次访问时间也已分类的文件。</block>
+  <block id="0f609c3035a725a4b4c05c34c154b6a8" category="inline-link-macro">查看有关"上次访问时间"时间戳的详细信息</block>
+  <block id="cdbe480dc11409647fd956762112b463" category="paragraph"><block ref="cb955744923a641be9b94cbcd31ea046" category="inline-link-macro-rx"></block> 有关使用扫描分析事件筛选时"调查"页面中显示的项目的详细信息。</block>
+  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023年3月7日(1.21版)</block>
+  <block id="7cc6aa730dc07100bcd50ee1f4fbfd19" category="section-title">可通过Data sense UI添加您自己的自定义类别的新功能</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">预定义的类别</block>
+  <block id="e9b59b0856829e5de68c6c48d7bf751a" category="paragraph">现在、您可以使用Data sense添加自己的自定义类别、以便Data sense可以识别适合这些类别的文件。数据感知具有许多功能<block ref="de03089a629f50d7fb2223d1c9b484a6" category="inline-link-rx"></block>、因此、您可以通过此功能添加自定义类别、以确定您的组织独有的信息在您的数据中的位置。</block>
+  <block id="4aedc0068ab1ebb9a68cd09e40502224" category="paragraph"><block ref="29977fc02ca1e575e657cf5a87ae1883" category="inline-link-rx"></block>。</block>
+  <block id="0cfe3d251c44c584db4827f5eac474f3" category="section-title">现在、您可以从Data sense UI添加自定义关键字</block>
+  <block id="675cae3035897ece265ad5535f76321b" category="paragraph">Data sense能够添加自定义关键字、Data sense会在未来的扫描中识别这些关键字一段时间。但是、您需要登录到Data sense Linux主机并使用命令行界面添加关键字。在此版本中、可以在Data sense UI中添加自定义关键字、从而可以轻松地添加和编辑这些关键字。</block>
+  <block id="3c12577975025d20be661bf1079d0923" category="inline-link">了解有关从Data sense UI添加自定义关键字的更多信息</block>
+  <block id="5e505948799cd73b45f70a049da0e41a" category="paragraph"><block ref="ef53a029e403771b20a22fa95fad2aaa" category="inline-link-rx"></block>。</block>
+  <block id="146d89b210b39f6767f51058456d0756" category="section-title">能够在更改"上次访问时间"时使用数据感知*不*扫描文件</block>
+  <block id="a295dd857506727c4c246759c7a474d3" category="paragraph">默认情况下、如果Data sense没有足够的"写入"权限、则系统不会扫描卷中的文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以在配置页面中覆盖此行为、以便Data sense可以扫描卷而不考虑权限。</block>
+  <block id="b6bc23c7fd42c2dda40fd1667ea26c94" category="paragraph">除了此功能之外、还添加了名为"扫描分析事件"的新筛选器、以便您可以查看因Data sense无法还原上次访问时间而未分类的文件、或者即使Data sense无法还原上次访问时间也已分类的文件。</block>
+  <block id="b498fa3614efad3784e7b196a75f0744" category="inline-link">详细了解"上次访问时间戳"以及Data sense所需的权限</block>
+  <block id="fdcb05c5040512d32e3c0eb54cd81fdb" category="paragraph"><block ref="094f0faa5796fc52325373d032f76ea7" category="inline-link-rx"></block>。</block>
+  <block id="7abfe7c481a0b29f8cf39a89e86de868" category="section-title">Data sense可识别三种新类型的个人数据</block>
+  <block id="1e95bdda0b00306da0fc13aa5272c14f" category="paragraph"><block ref="fbd66eb529b6064c128e443473612523" category="inline-link-rx"></block>。</block>
+  <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">更新了目录的功能</block>
+  <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">现在、数据调查报告的"轻型CSV报告"选项包括目录中的信息。</block>
+  <block id="b2755be94249995adeed2a28b31a7393" category="list-text">"上次访问"时间筛选器现在可显示文件和目录的上次访问时间。</block>
+  <block id="013efea19f002683e016d90789038d6e" category="section-title">安装增强功能</block>
+  <block id="7b335a4581e4988d6ea3f8d6f1235a87" category="list-text">Data sense可以安装在运行CentOS Stream 8的Linux主机上。</block>
+  <block id="1a62d65b23b4f298f3e1310266bbfad4" category="list-text">对于无法访问Internet的站点(非公开站点)、Data sense安装程序现在会执行预检查、以确保您的系统和网络要求已满足、以便成功安装。</block>
+  <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">安装审核日志文件现已保存；它们将写入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>。</block>
+  <block id="9a8e487c18ad9b8cacca43174094061d" category="section-title">现在、您可以从Data sense UI添加个人模式</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS帐户必须是客户级别的帐户(而不是来宾或临时帐户)。您可以拥有多个客户级别的NSS帐户。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果此帐户是合作伙伴级别的帐户、则只能有一个NSS帐户。如果您尝试添加客户级别的NSS帐户、并且存在合作伙伴级别的帐户、则会收到以下错误消息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"此帐户不允许使用NSS客户类型、因为已存在不同类型的NSS用户。"</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
+  <block id="50e1c7a3a999563d022a15104bfe9af7" category="summary">Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。Data sense还会记录部署Data sense实例时的活动。</block>
+  <block id="c51565229a51d72034c1622ea299b5e3" category="paragraph">您可以查看Data sense审核日志文件的内容、也可以下载这些内容、以查看发生了哪些文件更改以及何时发生更改。例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。</block>
+  <block id="7ddc3d159536f20b25489b34580e5713" category="paragraph">管理审核日志文件位于Data sense计算机上的：<block ref="737f0a89396f6d78b87820109de683eb" prefix=" " category="inline-code"></block></block>
+  <block id="2eb3b1a195ce77ea7e59b84ba423818c" category="paragraph">安装审核日志文件将写入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block></block>
+  <block id="8193e38e933656edf000dbf251568d4d" category="list-text">在右侧的服务窗格中、单击*分类*旁边的*启用*。</block>
+  <block id="f00fdbf27f97ee0ee538742a5e7ed0ce" category="paragraph"><block ref="f00fdbf27f97ee0ee538742a5e7ed0ce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6d59c0bcfa7b74d31dfcf319aed7bc81" category="paragraph"><block ref="6d59c0bcfa7b74d31dfcf319aed7bc81" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c9ba77685f066f05e419c9ad4b812035" category="list-text">在右侧的服务窗格中、单击*配置分段*。</block>
+  <block id="49f6b32e47bb10336cfb6d4d9edbb52b" category="paragraph"><block ref="49f6b32e47bb10336cfb6d4d9edbb52b" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

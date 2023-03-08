@@ -34,3 +34,26 @@ summary: 在对数据源和工作环境中的数据执行分类扫描时、Data 
 
 | *用户/组访问* | 用户和组信息来自LDAP | 不可用(NFS用户通常在服务器本地进行管理、因此、同一个用户可以在每个服务器中具有不同的UID) 
 |===
+
+
+== 上次访问时间时间戳
+
+当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。
+
+默认情况下、如果Data sense没有这些权限、系统不会扫描卷中的这些文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以单击配置页面底部的*缺少"写入属性"权限时扫描*开关、以便Data sense可以扫描卷而不考虑权限。
+
+image:screenshot_scan_missing_permissions.png["屏幕截图显示了一个开关、即使Data sense没有将上次访问时间还原到原始时间戳的正确权限、您也可以使用该开关对文件进行扫描。"]
+
+此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。
+
+请注意、"调查"页面中有一个名为_Scan Analysis Event_的筛选器、可用于显示因Data sense无法还原上次访问时间而未分类的文件、 或者、即使Data sense无法还原上次访问时间也已分类的文件。
+
+image:screenshot_scan_analysis_event_filter.png["筛选器的屏幕截图、用于根据是否具有写入权限来查看哪些文件已扫描、哪些文件未扫描。"]
+
+筛选器选项包括：
+
+* "未分类-无法还原上次访问时间"-显示由于缺少写入权限而未分类的文件。
+* "已分类并更新的上次访问时间"—显示已分类的文件、并且Data sense无法将上次访问时间重置回原始日期。此筛选器仅适用于缺少"写入属性"权限*时启用了*扫描的环境。
+
+
+如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#data-investigation-report["了解有关数据调查报告的更多信息"^]。

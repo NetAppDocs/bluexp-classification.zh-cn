@@ -104,7 +104,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 上次修改时间 | 选择上次修改文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
 
 
-| 上次访问 | 选择上次访问文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。 
+| 上次访问 | 选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。 
 |===
 
 
@@ -117,7 +117,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 筛选器 | 详细信息 
 
 
-| 文件路径 | 最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。 
+| 文件路径 | 最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中包含"*"不起作用；您需要使用完整路径搜索特定文件和子文件夹。 
 
 
 | 目录类型 | 选择目录类型："共享"或"文件夹"。 
@@ -184,7 +184,12 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 
 
 | 分析状态 | 选择一个选项以显示"等待首次扫描"、"已完成扫描"、"等待重新扫描"或"无法扫描"的文件列表。 
+
+
+| 扫描分析事件 | 选择是要查看因Data sense无法还原上次访问时间而未分类的文件、还是要查看即使Data sense无法还原上次访问时间也已分类的文件。 
 |===
+link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"上次访问时间"时间戳的详细信息"] 有关使用扫描分析事件筛选时"调查"页面中显示的项目的详细信息。
+
 
 
 === 按重复项筛选数据

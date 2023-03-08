@@ -101,7 +101,10 @@ image:screenshot_cloud_compliance_anf_scan_config.png["部署 Cloud Data sense �
 
 
 .结果
-Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦 Cloud Data sense 完成初始扫描， " 合规性 " 信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。
+Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦Data sense完成初始扫描、"合规性"信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。
+
+
+NOTE: 默认情况下、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描卷中的文件、因为Data sense无法将"上次访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。您可以启用该页面的设置、以便Data sense扫描卷、而不受权限限制。
 
 
 
@@ -133,7 +136,7 @@ image:screenshot_cifs_credentials.gif["合规性选项卡的屏幕截图，其�
 这些凭据可以是只读的，但提供管理员凭据可确保 Data sense 可以读取任何需要提升权限的数据。这些凭据存储在 Cloud Data sense 实例上。
 
 +
-如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户具有"写入属性"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
+如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、建议用户在CIFS中具有写入属性权限、或者在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
 
 +
 输入凭据后，您应看到一条消息，指出所有 CIFS 卷均已成功通过身份验证。
@@ -157,6 +160,8 @@ image:screenshot_compliance_volume_details.gif["扫描配置中 \" 查看详细�
 == 在卷上启用和禁用合规性扫描
 
 您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。建议您扫描所有卷。
+
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描文件、因为Data sense无法将"最后访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
 
 image:screenshot_volume_compliance_selection.png["配置页面的屏幕截图，您可以在其中启用或禁用单个卷的扫描。"]
 

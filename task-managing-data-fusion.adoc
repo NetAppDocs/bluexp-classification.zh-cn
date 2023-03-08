@@ -19,6 +19,7 @@ Data sense为您提供了多种方式来添加Data sense在未来扫描中将识
 * 您可以根据要扫描的数据库中的特定列添加唯一标识符。
 * 您可以从文本文件中添加自定义关键字—这些字在数据中标识。
 * 您可以使用正则表达式(regex)添加个人模式—正则表达式将添加到现有预定义模式中。
+* 您可以添加自定义类别以确定数据中的特定信息类别。
 
 
 所有语言均支持所有这些添加自定义扫描条件的机制。
@@ -83,6 +84,52 @@ image:screenshot_compliance_delete_data_fusion.png["显示如何删除数据 Fus
 
 
 
+== 从词列表中添加自定义关键字
+
+您可以将自定义关键字添加到Data sense中、以便它可以确定该信息在数据中的位置。您只需输入希望Data sense识别的每个词即可添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。
+
+例如、您可能希望查看所有文件中提及内部产品名称的位置、以确保这些名称在不安全的位置不可访问。
+
+更新自定义关键字后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"个人结果"部分下的"数据感知合规性信息板"中、以及"个人数据"筛选器的"调查"页面中。
+
+.步骤
+. 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
++
+image:screenshot_compliance_add_classifier_button.png["显示如何启动添加自定义类元向导的屏幕截图。"]
+
+. 在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*个人标识符*、然后单击*下一步*。
++
+您输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题、并在调查页面中作为筛选器的名称。
+
++
+您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能需要执行此操作以隐藏完整的信用卡号或类似的个人数据(掩码将显示在UI中、如下所示："passe：[$**] pass：[$**] pass：[$**] passe：[$**]"3434)。
+
++
+image:screenshot_select_classifier_type2.png["显示如何为该类元命名并选择该类元类型的屏幕截图。"]
+
+. 在_Select数据分析工具_页面中、选择*自定义关键字*作为要用于定义分类器的方法、然后单击*下一步*。
++
+image:screenshot_select_classifier_tool_keywords.png["屏幕截图显示了自定义关键字作为Data sense用于构建模式的工具的选择。"]
+
+. 在_Create Logic_页面中、输入要识别的关键字-每一个词位于一条单独的行上-然后单击*验证*。
++
+以下屏幕截图显示了内部产品名称(不同类型的所有权)。这些项目的数据感知搜索不区分大小写。
+
++
+image:screenshot_select_classifier_create_logic_keyword.png["为客户分类器输入关键字的屏幕截图。"]
+
+. 单击*完成*、Data sense将开始重新扫描您的数据。
+
+
+.结果
+扫描完成后、结果将在"个人结果"部分下的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。
+
+image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自定义关键字结果示例的屏幕截图。"]
+
+如您所见、此类元的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活多组不同的关键字、并查看每个组的结果。
+
+
+
 == 使用正则表达式添加自定义个人数据标识符
 
 您可以使用自定义正则表达式(regex)添加个人模式来标识数据中的特定信息。这样、您就可以创建一个新的自定义regex、以确定系统中尚不存在的新个人信息元素。该正则表达式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。
@@ -91,28 +138,30 @@ image:screenshot_compliance_delete_data_fusion.png["显示如何删除数据 Fus
 
 添加regex后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"个人结果"部分下的"数据感知合规性信息板"中、以及"个人数据"筛选器的"调查"页面中。
 
+请参见 https://regex101.com/[] 如果您在构建正则表达式时需要帮助、
+
 .步骤
-. 从_Custom Classifiers_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
+. 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
 +
 image:screenshot_compliance_add_classifier_button.png["显示如何启动添加自定义类元向导的屏幕截图。"]
 
 . 在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*个人标识符*、然后单击*下一步*。
 +
-输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。
+您输入的名称将显示在Data sense UI中、作为与分类器要求匹配的扫描文件的标题、并在调查页面中作为筛选器的名称。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。
 
 +
 image:screenshot_select_classifier_type.png["显示如何为该类元命名并选择该类元类型的屏幕截图。"]
 
 . 在_Select数据分析工具_页面中、选择*自定义正则表达式*作为要用于定义分类器的方法、然后单击*下一步*。
 +
-image:screenshot_select_classifier_tool.png["屏幕截图显示了选择自定义正则表达式作为Data sense用于构建模式的工具的情况。"]
+image:screenshot_select_classifier_tool_regex.png["屏幕截图显示了选择自定义正则表达式作为Data sense用于构建模式的工具的情况。"]
 
 . 在_Create Logic_页面中、输入正则表达式和任何邻近词、然后单击*完成*。
 +
 .. 您可以输入任何合法正则表达式。单击*验证*按钮让Data sense验证正则表达式是否有效以及是否过宽—意味着它将返回太多的结果。
 .. 或者、您也可以输入一些接近词来帮助细化结果的准确性。这些字词通常位于所搜索模式的300个字符内(在找到的模式之前或之后)。在单独的行中输入每个词或短语。
 +
-image:screenshot_select_classifier_create_logic.png["为客户分类器输入正则表达式和接近词的屏幕截图。"]
+image:screenshot_select_classifier_create_logic_regex.png["为客户分类器输入正则表达式和接近词的屏幕截图。"]
 
 
 
@@ -125,7 +174,57 @@ image:screenshot_personal_info_regex_added.png["显示正在扫描的系统中�
 
 
 
-=== 查看自定义分类器的结果
+== 添加自定义类别
+
+Data sense会将扫描的数据划分为不同类型的类别。类别是基于对每个文件的内容和元数据进行人工智能分析的主题。 link:reference-private-data-categories.html#types-of-categories["请参见预定义类别列表"]。
+
+类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如、_resumes_或_empleee contracts _等类别可能包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。
+
+您可以将自定义类别添加到Data sense中、以便确定数据资产特有的信息类别位于何处。您可以通过创建包含要标识的数据类别的"培训"文件来添加每个类别、然后让Data sense扫描这些文件并通过AI "学习"这些文件、以便它可以识别数据源中的数据。这些类别将添加到Data sense已标识的现有预定义类别中、其结果将显示在"Categories"部分下。
+
+例如、您可能希望查看.gz格式的压缩安装文件在文件中的位置、以便在必要时将其删除。
+
+更新自定义类别后、Data sense将重新开始扫描所有数据源。扫描完成后、新结果将显示在"类别"部分下的"数据感知合规性信息板"中、以及"类别"筛选器的"调查"页面中。 link:task-controlling-private-data.html#viewing-files-by-categories["请参见如何按类别查看文件"]。
+
+.您需要的内容
+您至少需要创建25个培训文件、其中包含您希望Data sense识别的数据类别的示例。支持以下文件类型：
+
+`+.CSV, .DOC, .DOCX, .GZ, .JSON, .PDF, .PPTX, .RTF, .TXT, .XLS, .XLSX, Docs, Sheets, and Slides+`
+
+这些文件必须至少为100字节、并且必须位于Data sense可访问的文件夹中。
+
+.步骤
+. 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
++
+image:screenshot_compliance_add_classifier_button.png["显示如何启动添加自定义类元向导的屏幕截图。"]
+
+. 在_Select type_页面中、输入分类器的名称、提供简短的问题描述 、选择*类别*、然后单击*下一步*。
++
+您输入的名称将显示在Data sense UI中、作为与您定义的数据类别匹配的扫描文件的标题、并作为"调查"页面中的筛选器名称。
+
++
+image:screenshot_select_classifier_category.png["显示如何为该类元命名并选择该类元类型的屏幕截图。"]
+
+. 在_Create Logic_页面中、确保已准备好学习文件、然后单击*选择文件*。
++
+image:screenshot_category_create_logic.png["创建逻辑页面的屏幕截图、您可以在其中添加包含希望Data sense从中学习的数据的文件。"]
+
+. 输入卷的IP地址以及培训文件所在的路径、然后单击*添加*。
++
+image:screenshot_category_add_files.png["显示如何输入培训文件位置的屏幕截图。"]
+
+. 验证培训文件是否已被Data sense识别。单击*。*删除不符合要求的任何培训文件。然后单击*完成*。
++
+image:screenshot_category_files_added.png["屏幕截图显示了Data sense将用作定义新类别的培训文件的文件。"]
+
+
+
+.结果
+新类别将根据培训文件的定义创建并添加到Data sense中。然后、Data sense开始重新扫描所有数据源、以确定适合此新类别的文件。此时将返回自定义类元页面、在此页面中、您可以查看与新类别匹配的文件数。扫描所有数据源的结果将需要一段时间、具体取决于需要扫描的文件数量。
+
+
+
+== 查看自定义分类器的结果
 
 您可以在合规性信息板和调查页面中查看任何自定义分类器的结果。例如、此屏幕截图在"个人结果"部分的"合规性信息板"中显示匹配的信息。
 
@@ -139,123 +238,10 @@ image:screenshot_custom_classifier_top_5.png["显示根据返回结果排名前3
 
 
 
-=== 管理自定义分类器
+== 管理自定义分类器
 
 您可以使用*编辑类元*按钮更改已创建的任何自定义类元。
 
 如果您稍后确定不需要Data sense来识别您添加的自定义模式、则可以使用*删除类元*按钮删除每个项目。
 
 image:screenshot_custom_classifiers_manage.png["\"Custom Classifiers (自定义类元)\"页面的屏幕截图、其中包含用于编辑和删除类元的按钮。"]
-
-
-
-== 从文本文件添加自定义关键字
-
-您可以将自定义关键字添加到Data sense中、以便它可以识别数据中的特定信息。您可以从定义的文本文件添加关键字。这些关键字将添加到Data sense已使用的现有预定义关键字中、其结果将显示在"Personal Patterns"部分下。
-
-例如、您可能希望查看所有文件中提及内部产品名称的位置、以确保这些名称在不安全的位置不可访问。
-
-更新自定义关键字后、Data sense将重新开始扫描所有数据源-扫描完成后、新结果将显示在Data sense中。
-
-您必须在Data sense系统的以下位置添加或创建包含自定义关键字的文本文件：
-
- /opt/netapp/Datasense/tools/datascience/custom_keywords/keywords_sets
-您可以创建一个包含多个关键字的文件、也可以添加多个文件、每个文件都包含特定关键字。文件格式为每行一个字、例如、以下列出了属于owls类型的内部产品名称：
-
-_internal_product_names.txt_
-
-....
-barred
-barn
-horned
-snowy
-screech
-....
-这些项目的数据感知搜索不区分大小写。
-
-请注意以下要求：
-
-* 文件名不应包含数字。
-* 每个文件最多可包含100、000个字。如果存在更多字词、则仅添加前100、000个字。
-* 每个词的长度必须至少为3个字符。较短的字词将被忽略。
-* 重复词只会添加一次。
-
-
-
-
-=== 访问命令行
-
-您需要访问Data sense系统、才能启动命令以添加自定义关键字。
-
-在内部安装Data sense后、您可以直接访问命令行。
-
-在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
-
- ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
-* <path_to_the_ssh_key>= ssh身份验证密钥的位置
-* <machine_user>：
-+
-** 对于AWS：使用<EC2-user>
-** 对于Azure：使用为BlueXP实例创建的用户
-** 对于GCP：使用为BlueXP实例创建的用户
-
-
-* <datasens_ip>=虚拟机实例的IP地址
-
-
-请注意、您需要修改安全组入站规则才能访问云上的系统。有关详细信息、请参见：
-
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
-
-
-
-
-=== 用于添加自定义关键字的命令语法
-
-用于从文件添加自定义关键字的命令语法为：
-
- sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate -f <file_name>.txt
-* <file_name>=此名称是包含关键字的文件的名称。
-
-
-您可以从路径*/opt/netapp/Datasens/*运行命令。
-
-如果您创建了许多包含自定义关键字的文件、则可以使用以下命令一次性添加所有文件中的关键字：
-
- sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate
-
-
-=== 示例
-
-要查看所有文件中提及内部产品名称的位置、请输入以下命令。
-
-[source, cli]
-----
-[user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s activate -f internal_product_names.txt
-----
- log v1.0 | 2022-08-24 08:16:25,332 | INFO | ds_logger | upload_custom_keywords | 126 | 1 | None | upload_custom_keywords_126 | All legal keywords were successfully inserted
-.结果
-下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。
-
-image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自定义关键字结果示例的屏幕截图。"]
-
-如您所见、文本文件的名称将在"个人结果"面板中用作名称。通过这种方式、您可以激活不同文本文件中的关键字、并查看每种关键字类型的结果。
-
-
-
-=== 停用自定义关键字
-
-如果您稍后确定不需要Data sense来识别您先前添加的某些自定义关键字、请使用命令中的*停用*选项删除文本文件中定义的关键字。
-
- sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s deactivate -f <file_name>.txt
-例如、要删除文件* internal_product_names.txt*中定义的关键字：
-
-[source, cli]
-----
-[user ~]$ cd /opt/netapp/Datasense/
-[user Datasense]$ sudo bash tools/datascience/custom_keywords/upload_custom_keywords.sh -s deactivate -f internal_product_names.txt
-----
- log v1.0 | 2022-08-24 08:16:25,332 | INFO | ds_logger | upload_custom_keywords | 87 | 1 | None | upload_custom_keywords_87 | Deactivated keyword pattern from internal_product_names.txt successfully

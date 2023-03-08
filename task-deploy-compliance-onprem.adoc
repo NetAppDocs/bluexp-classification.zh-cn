@@ -4,7 +4,7 @@ permalink: task-deploy-compliance-onprem.html
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
 summary: 完成以下几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上部署Cloud Data sense。 
 ---
-= 在可访问 Internet 的 Linux 主机上部署 Cloud Data sense
+= 在可访问Internet的主机上部署Cloud Data sense
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -105,6 +105,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 * * GCP计算机类型*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16"^]。
 * *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
 +
+** 此外、还支持CentOS Stream 8
 ** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 ** 操作系统必须能够安装Docker引擎
 
@@ -277,7 +278,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.16.1.tar.gz
+tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
 ----
 . 安装程序提示时、您可以在一系列提示中输入所需值、也可以将所需参数作为命令行参数提供给安装程序。
 +

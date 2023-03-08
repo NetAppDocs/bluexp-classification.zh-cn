@@ -188,6 +188,8 @@ image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的 Clo
 .结果
 BlueXP会在您的云提供商中部署Cloud Data sense实例。
 
+只要实例具有Internet连接、即可自动升级到BlueXP Connector和Data sense软件。
+
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 

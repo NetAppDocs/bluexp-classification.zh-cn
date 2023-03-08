@@ -117,13 +117,13 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如
 +
 image:screenshot_s3_we.gif["Amazon S3 工作环境图标的屏幕截图"]
 
-. 在右侧的数据感知窗格中，单击 * 启用 * 。
+. 在右侧的服务窗格中、单击*分类*旁边的*启用*。
 +
-image:screenshot_s3_enable_compliance.gif["从 \" 服务 \" 面板启用 Cloud Data sense 服务的屏幕截图"]
+image:screenshot_s3_enable_compliance.png["从 \" 服务 \" 面板启用 Cloud Data sense 服务的屏幕截图"]
 
 . 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例 <<查看 S3 前提条件,所需权限>>。
 +
-image:screenshot_s3_compliance_iam_role.gif["为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图"]
+image:screenshot_s3_compliance_iam_role.png["为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图"]
 
 . 单击 * 启用 * 。
 
@@ -146,9 +146,9 @@ BlueXP将IAM角色分配给实例。
 
 .步骤
 . 选择 Amazon S3 工作环境。
-. 在右侧窗格中，单击 * 配置分段 * 。
+. 在右侧的服务窗格中、单击*配置分段*。
 +
-image:screenshot_s3_configure_buckets.gif["单击配置存储分段以选择要扫描的 S3 存储分段的屏幕截图"]
+image:screenshot_s3_configure_buckets.png["单击配置存储分段以选择要扫描的 S3 存储分段的屏幕截图"]
 
 . 在存储分段上启用仅映射扫描或映射和分类扫描。
 +

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade 
-summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense 。此类安装非常适合您的安全站点。 
+summary: 完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。 
 ---
-= 在内部部署 Cloud Data sense ，而无需访问 Internet
+= 在无法访问Internet的主机上部署Cloud Data sense
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 
 
 [role="lead"]
-完成一些步骤，在无法访问 Internet 的内部站点中的主机上部署 Cloud Data sense 。此类安装非常适合您的安全站点。
+完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。
 
 请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问 Internet 的内部站点中部署 Data sense"]。
 
@@ -48,7 +48,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 * 接收用户反馈
 * 从BlueXP自动升级软件
 +
-要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 link:whats-new.html["《云数据感知发行说明》"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 <<升级 Data sense 软件,升级 Data sense 软件>>。
+要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 link:whats-new.html["《云数据感知发行说明》"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-on-prem-without-internet-access["升级BlueXP Connector"^] 和 <<升级 Data sense 软件,升级 Data sense 软件>>。
 
 
 
@@ -88,6 +88,7 @@ summary: 完成一些步骤，在无法访问 Internet 的内部站点中的主�
 
 * *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
 +
+** 此外、还支持CentOS Stream 8
 ** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 ** 操作系统必须能够安装Docker引擎
 
@@ -252,7 +253,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["一个示意图、显示
 +
 [source, cli]
 ----
-tar -xzf DataSense-offline-bundle-v1.16.1.tar.gz
+tar -xzf DataSense-offline-bundle-v1.21.0.tar.gz
 ----
 +
 此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。
@@ -407,7 +408,7 @@ Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装
 +
 [source, cli]
 ----
-tar -xvf DataSense-offline-bundle-v1.19.1.tar.gz
+tar -xvf DataSense-offline-bundle-v1.21.0.tar.gz
 ----
 +
 此操作将提取安装文件* cc_onprem_installer.tar.gz*。

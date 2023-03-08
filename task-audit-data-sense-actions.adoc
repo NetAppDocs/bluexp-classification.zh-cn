@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-audit-data-sense-actions.html 
-keywords: compliance, actions, view progress 
-summary: Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。您可以查看Data sense审核日志文件的内容、也可以下载这些内容、以查看发生了哪些文件更改以及何时发生更改。 
+keywords: compliance, actions, view progress, audit, logs, installation 
+summary: Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。Data sense还会记录部署Data sense实例时的活动。 
 ---
 = 审核数据感知操作的历史记录
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Data sense会记录对Data sense正在扫描的所有工作环境和数
 
 
 [role="lead"]
-Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。您可以查看Data sense审核日志文件的内容、也可以下载这些内容、以查看发生了哪些文件更改以及何时发生更改。
+Data sense会记录对Data sense正在扫描的所有工作环境和数据源中的文件执行的管理活动。Data sense还会记录部署Data sense实例时的活动。
 
-例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。
+您可以查看Data sense审核日志文件的内容、也可以下载这些内容、以查看发生了哪些文件更改以及何时发生更改。例如、您可以查看发出的请求、请求的时间以及详细信息、例如删除文件时的源位置或移动文件时的源和目标位置。
 
 
 
@@ -52,7 +52,9 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 
 == 访问日志文件
 
-审核日志文件位于Data sense计算机上的： `/opt/netapp/audit_logs/`
+管理审核日志文件位于Data sense计算机上的： `/opt/netapp/audit_logs/`
+
+安装审核日志文件将写入 `/ops/netapp/install_logs`
 
 每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。
 
