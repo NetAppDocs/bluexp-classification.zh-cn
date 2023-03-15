@@ -1214,7 +1214,6 @@
   <block id="75913c473742502800ae1c0a9a5a93df" category="list-text">确保您可以保持 Cloud Data sense 正常运行云数据感知实例需要保持运行状态才能持续扫描数据。</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">端点</block>
   <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">目的</block>
-  <block id="8a344d9380d42668324bc0e5df589f1a" category="section-title">部署 Data sense</block>
   <block id="92aadc02d249003db0a3c659eb74f06b" category="inline-link-macro">请在此处查看这些步骤</block>
   <block id="2e7ee80a6e4d40bc409d4f4893e290bb" category="paragraph">对于典型配置，您将在一个主机系统上安装该软件。 <block ref="a4f6f244c9fb5caddddb02072a431c59" category="inline-link-macro-rx"></block>。</block>
   <block id="49110f631362d4a9865d9c280368ebb1" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。 <block ref="31dc1b3eda8e489f4f5ca469c6f3d2e1" category="inline-link-macro-rx"></block>。</block>
@@ -1229,14 +1228,11 @@
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">单击 * 激活数据感知 * 。</block>
   <block id="af9d594fa710dc13ae352e89ff99e6a8" category="inline-image-macro">选择用于激活 Cloud Data sense 的按钮的屏幕截图。</block>
   <block id="2ee561fe4cbc55aa0245c40198b23955" category="paragraph"><block ref="2ee561fe4cbc55aa0245c40198b23955" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="56aed921ec3e492e9095e626c14396cb" category="list-text">单击 * 部署 * 以启动内部部署向导。</block>
   <block id="48e13f41d0a6dd2616f2ecf0c9e1eaa6" category="inline-image-macro">选择按钮在内部部署 Cloud Data sense 的屏幕截图。</block>
   <block id="d81a8cbca4762be44dc0845220ba9dcf" category="paragraph"><block ref="d81a8cbca4762be44dc0845220ba9dcf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="de228a79f2490bf5b3308e91ce0e8426" category="paragraph">`sudo ./install.sh -a 12345 -c 27ag75 -t 2198qq -dredestinm`</block>
   <block id="6b0f70e5c18db6f7f252ec60af1fdda0" category="list-text">解压缩主机上的安装文件，例如：</block>
   <block id="7811f7ac7277273963aaa041e6dee561" category="cell">根据提示输入参数：</block>
   <block id="92a8de5d873f4ac3a57f4d866c8ed98c" category="cell">输入完整命令：</block>
-  <block id="ad9960c224b334ea469591738244827c" category="list-text">粘贴您从第 7 步复制的信息： `sUdo ./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt; -drestsite`</block>
   <block id="dde575296d7c18c713a24acdec3bb7b6" category="list-text">输入 Data sense 主机的 IP 地址或主机名，以便 Connector 实例可以访问它。</block>
   <block id="99a5b8fe9eadd5739e3e760584c579fc" category="paragraph">变量值：</block>
   <block id="82fbba9871c4c69830c0ea5c2c6fa6f8" category="list-text">_account_id_ = NetApp 帐户 ID</block>
@@ -1279,8 +1275,6 @@
   <block id="06b1338ba02add2b5d2da67663b19ebe" category="cell">2049.</block>
   <block id="26285ebf37a162fef382f275814886c9" category="inline-link-macro">单主机安装</block>
   <block id="5e2f5642806d5ddc2868631f2e508d3d" category="paragraph">除了可用于单主机安装的变量之外，还会使用一个新选项 * -n &lt;node_IP&gt;* 来指定扫描程序节点的 IP 地址。多个节点 IP 以逗号分隔。</block>
-  <block id="743663a45dfd2f9237dfcf266bf499a6" category="list-text">在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令并将其保存在文本文件中。例如：</block>
-  <block id="bb70d223e1e51328f09038d97ad81b07" category="paragraph">`sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`</block>
   <block id="611c763bf4c9dbb7098d6afa814b754f" category="list-text">在 * 每个 * 扫描程序节点主机上：</block>
   <block id="d3d41a6c99806d8a969b69a369935644" category="list-text">解压缩安装程序文件。</block>
   <block id="05c158c3674b19417f2abea1a13ea2f3" category="list-text">粘贴并运行在步骤 3 中复制的命令。</block>
@@ -1356,8 +1350,6 @@
   <block id="7da8f2d897e75578043e0f01e245c1a7" category="paragraph">如果您在某个时刻决定不使用某个 Data Fusion 源扫描文件，则可以从 Data Fusion 清单页面中选择源行，然后单击 * 删除 Data Fusion 源 * 。</block>
   <block id="9008a71f5aaebece0844ad9fc3bb64a7" category="inline-image-macro">显示如何删除数据 Fusion 源的屏幕截图。</block>
   <block id="b889af7f2e1d8844037173064a2494e2" category="paragraph"><block ref="b889af7f2e1d8844037173064a2494e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="638b36e7b559bbb7ff5161d7a8fa8bf5" category="doc">在云中部署 Cloud Data sense</block>
-  <block id="f1b417d70cc0826ea97b7fb76ba27c7a" category="inline-link-macro">在可访问 Internet 的 Linux 主机上部署 Data sense</block>
   <block id="211751cb447d335f31ff23a277ab83a3" category="inline-link">在 AWS 中创建连接器</block>
   <block id="b51a9186f236269e0e1206fe364d56ee" category="inline-link">在 Azure 中创建连接器</block>
   <block id="24f7d339e21b63b3cef99a7c8f1236fe" category="inline-link">在 GCP 中创建连接器</block>
@@ -1611,7 +1603,6 @@
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">屏幕截图显示了如何从扫描单个文件共享的文件中删除该文件共享。</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="edc5cb08ed944714ebae42cfa6a8ba4c" category="paragraph">如果您希望使用也位于内部的数据感知实例扫描内部 ONTAP 系统，则内部安装可能是一个不错的选择，但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
-  <block id="ad2930ccaf67236b6ce95ac2d7f536c3" category="paragraph">请注意，您也可以 <block ref="8567cf2a27ba4e05e4d07919092c29e8" category="inline-link-macro-rx"></block> 适用于完全安全的站点。</block>
   <block id="e780ba1dc1fa7caee58066eebb1037f9" category="inline-xref">以下要求</block>
   <block id="0c2ece8552f22362671f28b71520f912" category="paragraph">您还需要满足的 Linux 系统 <block ref="a2ec304d11350e1ba44149ab8f817c68" category="inline-xref-macro-rx"></block>。</block>
   <block id="c77d213688bea929060b009132bd92bb" category="paragraph">从 NetApp 支持站点下载 Cloud Data sense 软件，并将安装程序文件复制到您计划使用的 Linux 主机。然后启动安装向导并按照提示部署 Data sense 实例。</block>
@@ -1619,7 +1610,6 @@
   <block id="9c43d511337ac0c672bf80907225f82e" category="list-text">云数据感知需要出站 Internet 访问。如果虚拟或物理网络使用代理服务器访问 Internet ，请确保 Data sense 实例具有出站 Internet 访问权限，以便与以下端点联系。</block>
   <block id="f132f9796727cdfbd850e6d1f0af2208" category="cell">https://github.com/docker \https://download.docker.com \http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm</block>
   <block id="c82303c6d5888ba9f147a501b8fe7f29" category="cell">提供安装必备软件包。</block>
-  <block id="a2ed9b99c4cd06a57cbda6cfbd6772c3" category="section-title">在内部部署 Data sense</block>
   <block id="cdcaeff13fccb06b7b310f6f966ada4f" category="paragraph">对于典型配置，您将在一个主机系统上安装该软件。 <block ref="b071f364f4daf7049825f5b1c726d17b" category="inline-xref-macro-rx"></block>。</block>
   <block id="446f633ae412e24a0a66d9d154552c63" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。 <block ref="72f8bc610961b8d2bc734f2ce5e89019" category="inline-xref-macro-rx"></block>。</block>
   <block id="ab6f827b404fc74a3d59a176e44dce54" category="inline-xref">准备 Linux 主机系统</block>
@@ -1627,9 +1617,7 @@
   <block id="42d1c021036734670ca245849e323735" category="admonition">如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例<block ref="7ef29812cbbbb10ee35427be73d0c671" category="inline-link-rx"></block> 不同的数据源。</block>
   <block id="34dc49ad79c5d0ec1f3c661ca216a2a5" category="paragraph">在单个内部主机上安装 Data sense 软件时，请按照以下步骤进行操作。</block>
   <block id="bbdb5f5f026c712f36de4a68700316f5" category="list-text">将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。</block>
-  <block id="f7fe0f4c5bd3dd34e31c9eae80732a01" category="paragraph">`sudo ./install.sh -a 12345 -c 27ag75 -t 2198qq`</block>
   <block id="65a0409250bc34ad7aed301586de5abc" category="list-text">解压缩主机上的安装程序文件，例如：</block>
-  <block id="0c3e94a9670a26d481343fe02b9df002" category="list-text">粘贴您从第 6 步复制的信息： `sUdo ./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt;`</block>
   <block id="2f22ab4135a481a1450cf28cb5f05c26" category="list-text">按照中的步骤 1 至 7 进行操作 <block ref="ca10c193ae29117fbfb6ce9e3e248e8b" category="inline-xref-macro-rx"></block> 在管理器节点上。</block>
   <block id="8b1cdcd166f0c70f7233d0d11c7bddf2" category="paragraph">除了可用于单主机安装的变量之外，还会使用一个新选项 * -n &lt;node_IP&gt;* 来指定扫描程序节点的 IP 地址。多个扫描程序节点 IP 以逗号分隔。</block>
   <block id="3f0a4de61ad13ce65d1a7332a726eb8d" category="list-text">粘贴并执行步骤 3 中复制的命令。</block>
@@ -1637,8 +1625,6 @@
   <block id="1a3dd42e7f140871b4724418e36e52fb" category="sidebar">Cloud Data sense 文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
-  <block id="ce5d6bd317f10e98c0ed8cd1d8a5eb77" category="sidebar">在云中部署</block>
-  <block id="88b8e638dc99736099049254e46001f8" category="sidebar">无需访问 Internet 即可在内部部署</block>
   <block id="77cb6eb12b1c27e0f1e04f0f158eb184" category="sidebar">激活对数据源的扫描</block>
   <block id="8c7729e22a223978ef26b521fa9ee122" category="sidebar">Cloud Volumes ONTAP 和内部 ONTAP</block>
   <block id="6b7cef11406f2fff58dcc619a2b7e482" category="sidebar">Amazon S3 存储分段</block>
@@ -1689,7 +1675,6 @@
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">澳大利亚护照编号</block>
   <block id="17dca5bf3d125aa4d0f3309727923bc6" category="list-text">如果您已将 AIP 标签与 Cloud Data sense 集成在一起，则可以为此文件分配一个标签，或者如果已存在另一个标签，则可以更改为其他标签。请参见 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="d65636c48d5eaaa2a0f018e8b2c9b456" category="paragraph">您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。您也可以 <block ref="e6aba68fcf17e4e39481e0dfc445e973" category="inline-link-macro-rx"></block> 如果您确信不需要特定版本的文件，请自行选择。</block>
-  <block id="44913217828f63e33072c448b10eb218" category="list-text">安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序：</block>
   <block id="d34764ccb2a6879e5ef576e7ea2fb550" category="cell">或者，您也可以预先创建整个命令，并提供必要的主机参数： `sUdo ./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt; -host &lt;ds_host&gt; -manager-host &lt;cm_host&gt; -no-proxy -drestrsite`</block>
   <block id="cfc66ec017142ce1f8420ffb8db2e3cd" category="list-text">如步骤 9 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。</block>
   <block id="5fa878295b23e50238df7f7395042d79" category="paragraph">例如，此命令会添加 3 个扫描程序节点： `sudo ./install.sh -a &lt;account_id&gt; -c &lt;agent_id&gt; -t &lt;token&gt; -host &lt;ds_host&gt; -manager-host &lt;cm_host&gt; * -n &lt;node_ip1&gt; ， &lt;node_ip2&gt; ， &lt;node_ip3&gt;* —无代理站点`</block>
@@ -1755,7 +1740,6 @@
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">数据感知也可以是 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>。但是，要扫描本地 OneDrive 文件，您需要为一些选定端点提供 Internet 访问。 <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>。</block>
   <block id="9aa68bac48e77ad847d7e57a68f08944" category="paragraph">此状态也会显示在数字电子钱包中。</block>
   <block id="06314d3359f0409e52f485d16ab0c81f" category="paragraph">您可以在 Cloud Data sense 许可证到期之前对其进行更新，以便访问扫描数据的能力不会中断。</block>
-  <block id="fb319f290355569f99ed376ce5d98c05" category="paragraph">如果许可证到期， Data sense 将继续运行，但会阻止对信息板的访问，因此您无法查看有关任何已扫描数据的信息。如果您希望减少要扫描的卷数量，从而可能使容量使用量低于许可证限制，则只能使用 _Configuration_ 页面。</block>
   <block id="becde272662faf1aa4393e2cd5fbf2f7" category="admonition">如果您正在使用的帐户同时具有 BYOL 许可证和 PAYGO 订阅，则在 BYOL 许可证到期后， Data sense _will not_ 将转移到 PAYGO 订阅。您必须续订 BYOL 许可证。</block>
   <block id="14aeecf5ef82e6232639978162b42963" category="paragraph">数据传输成本取决于您的设置。如果云数据感知实例和数据源位于同一可用性区域和区域，则不会产生数据传输成本。但是，如果数据源（例如 Cloud Volumes ONTAP 系统或 S3 存储分段）位于 _Different_ 可用性区域或区域，则云提供商会向您收取数据传输成本。有关详细信息，请参见以下链接：</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
@@ -2476,8 +2460,6 @@
   <block id="48e3dc371ee5116828a05b4a97621caa" category="list-text">_ds_manager_ip_= Data sense Manager节点系统的专用IP地址</block>
   <block id="f58e80ea5a832fe99f930893c4ae0376" category="list-text">_node_private_IP_=数据感知扫描程序节点系统的IP地址(多个扫描程序节点IP以逗号分隔)</block>
   <block id="33b07d0ffb66d0a6cd8a0162e20adca4" category="list-text">_user_token_= JWT用户访问令牌</block>
-  <block id="285b492c7171f599200c3fe3d4f808d6" category="list-text">在add_scanner_node脚本完成之前、会显示一个对话框、其中显示了扫描程序节点所需的安装命令。复制命令并将其保存在文本文件中。例如：</block>
-  <block id="58e40c834f3acaaccc3823bbd917e6d7" category="paragraph"><block ref="7c95eda18e13e25941273928f0d149ba" prefix="" category="inline-code"></block></block>
   <block id="b0c80b9aebe2393782fd3bb0680a791b" category="list-text">粘贴并执行步骤2中复制的命令。</block>
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">在所有扫描程序节点上完成安装且这些节点已加入管理器节点后、"add_scanner_node.sh"脚本也会完成。安装可能需要10到20分钟。</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">如果将任何扫描程序节点添加到扫描程序组中、请返回到管理器节点并执行以下2项任务：</block>
@@ -2541,11 +2523,9 @@
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">一次最多可重新扫描1000个项目。</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">操作类型(删除、复制、移动、创建策略、更新策略、 重新扫描文件、下载JSON报告等)</block>
-  <block id="9d282ec5c19d83f47fc9504e4ff50325" category="list-text">如果您已在云提供商的市场中订阅了BlueXP按需购买(PAYGO)订阅、则您也会自动订阅Cloud Data sense。您无需重新订阅。</block>
   <block id="f6d56db241e1b67ea15f2bcfc6d58cee" category="paragraph">如果您已经订阅了BlueXP (如下图所示、适用于AWS)、则您已准备就绪—无需执行任何其他操作。</block>
   <block id="8a19b447bcd4da037940f31306b703f2" category="list-text">您需要激活 Cloud Sync 服务并至少配置一个数据代理，用于在源系统和目标系统之间传输文件。查看从开始的 Cloud Sync 要求<block ref="e51d588768ce18b65058ca75b02bbb45" category="inline-link-rx"></block>。</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">您可以在中查看JSON报告生成的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
-  <block id="0527c3c624cc9c38c92e3f9b20bd744d" category="list-text">安装程序提示时、您可以在一系列提示中输入所需值、也可以将所需参数作为命令行参数提供给安装程序。</block>
   <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022年11月13日(1.17版)</block>
   <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">现在、内部安装程序会在开始安装之前执行预检查</block>
@@ -2648,7 +2628,6 @@
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看对象存储前提条件</block>
   <block id="fadb1720cdd8a007cefc0f21747a7236" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 添加对象存储服务</block>
   <block id="0cf30da5b3284b65f1bd1464a838ef7e" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 选择要扫描的分段</block>
-  <block id="9abb28e2822a3af34f9b1e46c458bec4" category="paragraph">典型的内部安装包括以下组件和连接。</block>
   <block id="f1250c9b73cd8f5ef391e449f0b5dcb4" category="inline-image-macro">所需的BlueXP和网络组件以及相关连接的示意图。</block>
   <block id="0b0f1899ec6aba7470224b92502a86ac" category="paragraph"><block ref="0b0f1899ec6aba7470224b92502a86ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7253a7683e98218c221f39d0f0ad5f29" category="paragraph">您还可以与云提供商一起创建Connector。请参见<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block>，<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>或<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>。</block>
@@ -2877,12 +2856,9 @@
   <block id="6c4af53d01a0fd2f4b9e2d860002e476" category="inline-image-macro">"Custom Classifiers (自定义类元)"页面的屏幕截图、其中包含用于编辑和删除类元的按钮。</block>
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
   <block id="969665117064b959d3c660b43611f713" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
-  <block id="666bbf651dbf568f97e37372014cde9a" category="list-text">此时将显示_Deploy Data sense on premises_对话框。复制提供的命令并将其粘贴到文本文件中、以便稍后使用、然后单击*关闭*。例如：</block>
   <block id="bef424c97f7f20957409f086ca8ff3db" category="paragraph">如果主机和Connector实例之间通过端口8080建立连接、您将在BlueXP的数据感知选项卡中看到安装进度。</block>
   <block id="ed8c7ad82b3b6c68d52e7468a26cf5a7" category="list-text">数据感知软件一次可升级一个主要版本。例如、如果您安装了1.18.x版、则只能升级到1.19.x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">一次最多可以移动1、500万个文件。</block>
-  <block id="c92960c8f2e94d1653cffccc72067124" category="summary">完成几个步骤，在云中部署 Cloud Data sense 。Data sense实例将部署在与BlueXP Connector相同的云提供商网络中。</block>
-  <block id="34bce1a775347f02f4865a45804d2e40" category="paragraph">请注意，您也可以 <block ref="645115e66496a0ec0a40c4c3811246be" category="inline-link-macro-rx"></block>。如果您希望使用也位于内部的数据感知实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
   <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">单击*部署*以启动云部署向导。</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023年2月5日(版本1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能够将基于策略的通知电子邮件发送到任何电子邮件地址</block>
@@ -2906,7 +2882,6 @@
   <block id="208609a972f6a4981e2c9511fc7d0063" category="paragraph">当某些关键策略返回结果时、Cloud Data sense可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。</block>
   <block id="abf0f7e6ece371db4b19fea5e49a4de2" category="list-text">如果您希望向其他用户发送通知电子邮件、请选中"发送电子邮件"框、选择电子邮件的发送间隔、并最多输入20个电子邮件地址。</block>
   <block id="590f4e9626c88a785e5743f04a242c0f" category="list-text">在 GCP 中， Cloud Data sense 在上运行 <block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block> 使用 512 GB 标准持久性磁盘。操作系统映像为 CentOS 7.9 。</block>
-  <block id="6cdf48342be8a4ae3df3303f43e83b16" category="summary">完成以下几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上部署Cloud Data sense。</block>
   <block id="4bd0feba4f0658e9db32d120e7e95926" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。使用多个主机系统时、主系统称为_Manager node_、提供额外处理能力的其他系统称为_扫描 程序nodes_。</block>
   <block id="a76b68d7e44fa22f2d4b5107c0729fa7" category="paragraph">如果您还没有 Connector ，<block ref="cc74d10e9becb23436e4fcec6c3105c6" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
   <block id="6124944413e19a98a7cefa988e91f90e" category="inline-link">m5.4xlarge</block>
@@ -2916,7 +2891,6 @@
   <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="inline-link">n2-standard-16</block>
   <block id="73731a154d429f05332addb49f2ec537" category="list-text">* GCP计算机类型*：满足上述CPU和RAM要求的实例类型。我们建议您这样做<block ref="bb9e331217b48a311c7947c404f21f76" category="inline-link-rx"></block>。</block>
   <block id="2b27dbdd91cbe22f05c819e1be37f3ad" category="paragraph">如果您计划使用其他Data sense主机作为扫描程序节点、请此时将以下规则添加到主系统：</block>
-  <block id="63dd0b4f2d962679267fa85d05e72c92" category="list-text">根据您是在云中的实例还是内部实例上部署、单击相应的*部署*按钮以启动Data sense部署向导。</block>
   <block id="80341b8c2d424b4008a1d168ff76c6a9" category="inline-image-macro">选择按钮在云中或内部环境中的计算机上部署Cloud Data sense的屏幕截图。</block>
   <block id="df6d41b53ad1938e7b8934fc6ffdf147" category="paragraph"><block ref="df6d41b53ad1938e7b8934fc6ffdf147" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a8e0047562d617c82a4034cce03ff08a" category="paragraph">Cloud Data sense安装程序可安装软件包、注册安装并安装Data sense。安装可能需要 10 到 20 分钟。</block>
@@ -2924,7 +2898,6 @@
   <block id="3fe624f4914417740fe3cf68a4327554" category="list-text">您必须具有连接器系统的IP地址或主机名、NetApp帐户ID、连接器客户端ID和用户访问令牌。如果您计划使用扫描程序组、则需要知道帐户中每个数据源的工作环境ID。要获取此信息、请参见下面的*前提条件步骤_*。</block>
   <block id="a566366d665bafe53c9d0a82a6befd65" category="paragraph">在多个内部主机上同时安装Data sense软件时、请按照以下步骤进行操作。请注意、在以这种方式部署多个主机时、不能使用"扫描程序组"。</block>
   <block id="65c70fcd12b102e4a08b42a41a2e7de8" category="paragraph">Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装可能需要 10 到 20 分钟。</block>
-  <block id="5512cd55404b66757fcb9aa5273c9b47" category="sidebar">在可访问Internet的Linux主机上部署</block>
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
   <block id="f8f0bde9e4fc1fbeefb41437010577d4" category="sidebar">在具有Internet的Linux主机上部署Data sense</block>
   <block id="83d2b5781b150dc742697f6275e740ca" category="sidebar">数据感知用例</block>
@@ -3075,7 +3048,6 @@
   <block id="529e58159a0567a96e1265aa7c80760b" category="inline-link">了解有关数据调查报告的更多信息</block>
   <block id="1519214436b24573d7996e8c310f57e7" category="paragraph">如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。<block ref="55841a629b143f31cba7cbe4e8dd8d86" category="inline-link-rx"></block>。</block>
   <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e320df9c865260fc39e7beb28a2b5885" category="doc">在可访问Internet的主机上部署Cloud Data sense</block>
   <block id="5dd68ea8038a218beb217f08f4009e7f" category="list-text">此外、还支持CentOS Stream 8</block>
   <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="cell">博茨瓦纳身份卡(Omang)编号</block>
   <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="cell">博茨瓦纳的护照编号</block>
@@ -3130,7 +3102,6 @@
   <block id="8160c3db5ceaeec9f21f500ad90a16ee" category="paragraph"><block ref="8160c3db5ceaeec9f21f500ad90a16ee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="233a7e974842d65dd39122b575514270" category="paragraph">新类别将根据培训文件的定义创建并添加到Data sense中。然后、Data sense开始重新扫描所有数据源、以确定适合此新类别的文件。此时将返回自定义类元页面、在此页面中、您可以查看与新类别匹配的文件数。扫描所有数据源的结果将需要一段时间、具体取决于需要扫描的文件数量。</block>
   <block id="0fd05b1c9e0bcfc288b3cb64182f45d8" category="summary">完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。</block>
-  <block id="dd8d54cd536de1780b72a7a05a4b8f65" category="doc">在无法访问Internet的主机上部署Cloud Data sense</block>
   <block id="24986a3fd86695b55b23be0d07a0d801" category="inline-link">升级BlueXP Connector</block>
   <block id="2976d8218e5021d7d1f5cbbae070157d" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="179f3f01544c50dcde464960dc0c66ec" category="inline-link-rx"></block> 和 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
   <block id="e6226abfed55ff05d6368103074cf171" category="paragraph">+如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、我们建议用户在CIFS中具有"写入属性"权限或在NFS中具有"写入"权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
@@ -3183,4 +3154,34 @@
   <block id="11f3580c4a3b779649df6d1a5c193fdf" category="list-text">一次可以复制1到100、000个文件。</block>
   <block id="5a8d6a8cd28258257694d106e58f4816" category="list-text">您必须至少选择20个文件。</block>
   <block id="bd336cd1948dc2bbe990a0988a5e5e9e" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中使用"*"不起作用、并且无法从扫描中排除特定文件夹-将扫描已配置共享下的所有目录和文件。</block>
+  <block id="791d01e2ffeb344fb72ea0c9c72960db" category="doc">在无法访问Internet的主机上安装Data sense</block>
+  <block id="1889f0657e0c433d173ded88a1a3a24f" category="section-title">在内部Linux主机上安装Data sense</block>
+  <block id="497d508053af04935d2eb62e219372c8" category="list-text">单击*部署*以启动内部安装。</block>
+  <block id="7bde2d7cf6c722c1135ccccea2a76b1a" category="list-text">此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如：<block ref="4041549bf21d4c7bed0bfcbf52842063" prefix=" " category="inline-code"></block>)并将其粘贴到文本文件中、以便稍后使用。然后单击*关闭*以关闭此对话框。</block>
+  <block id="9c219f00fda547ddab566c43975acd6b" category="list-text">在主机上、输入复制的命令、然后按照一系列提示进行操作、或者您也可以提供完整命令、其中包含所有必需的参数作为命令行参数。</block>
+  <block id="2817a1d472ecfcca8fe861c57ec6f447" category="list-text">粘贴您从第8步复制的信息：<block ref="feca0af1809ee364465c858e41f4ada4" prefix=" " category="inline-code"></block></block>
+  <block id="ce99bf86c57675420203e054ffc86a6d" category="list-text">在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令(例如：<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)并将其保存在文本文件中。</block>
+  <block id="b056211dff1fc57845bf9cbcca6028fb" category="summary">完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在与BlueXP Connector相同的云提供商网络中部署Data sense实例。</block>
+  <block id="68e2c37bd2867239a02b30abd4095416" category="doc">使用BlueXP在云中部署Cloud Data sense</block>
+  <block id="3d8ecdf8f23b00fcd443553659989a15" category="inline-link-macro">在可访问Internet的Linux主机上安装Data sense</block>
+  <block id="79db9e590c357a77fc5430f2dc1f8f69" category="paragraph">请注意，您也可以 <block ref="05339bd093ad6200c6b8b4293a577733" category="inline-link-macro-rx"></block>。如果您希望使用也位于内部的数据感知实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
+  <block id="193ff08e362b0135a9b658cb11ea2cca" category="summary">完成以下几个步骤、将Data sense部署在网络中的Linux主机或云中可访问Internet的Linux主机上。</block>
+  <block id="884b0821c52542ca3e3aa10a26f92b31" category="doc">在可访问Internet的主机上安装Data sense</block>
+  <block id="6ee85eb402345aafdbfbb8895e9ee104" category="paragraph">在您的内部环境中的Linux主机上、典型安装包含以下组件和连接。</block>
+  <block id="248161764b5ff5f54888ebefe222f3e4" category="paragraph">在云中的Linux主机上、典型安装包含以下组件和连接。</block>
+  <block id="19c8d978817f5ad2c7d566851ddf6e4e" category="paragraph"><block ref="19c8d978817f5ad2c7d566851ddf6e4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf484cfb7fc7fb235ee523a43dbe1c32" category="inline-link-macro">在无法访问Internet的内部站点中安装Data sense</block>
+  <block id="d8ab1de8b00d809182655fd215e4c838" category="paragraph">请注意，您也可以 <block ref="740ddda1a4e327959c966d3a6913fb51" category="inline-link-macro-rx"></block> 适用于完全安全的站点。</block>
+  <block id="115b1db268bc8066a2a6f9174de75f96" category="section-title">在Linux主机上安装Data sense</block>
+  <block id="983f3e7e80ab153851d8f5302ab019d5" category="list-text">根据您是在云中准备的实例上安装Data sense、还是在内部准备的实例上安装Data sense、单击相应的*部署*按钮启动Data sense安装。</block>
+  <block id="bda678b1fb683a403f093f2555da8faf" category="list-text">此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如：<block ref="a402a6c8a10b4c24d7596599c6dfb7db" prefix=" " category="inline-code"></block>)并将其粘贴到文本文件中、以便稍后使用。然后单击*关闭*以关闭此对话框。</block>
+  <block id="e342bb199ba04c6458bcb1b1464f1d00" category="list-text">粘贴您从第7步复制的信息：<block ref="924ff0749b2ad085d56d695be970e489" prefix=" " category="inline-code"></block></block>
+  <block id="3aa548170d376264933f54bb0d2c3ad6" category="list-text">在add_scanner_node脚本完成之前、会显示一个对话框、其中显示了扫描程序节点所需的安装命令。复制命令(例如：<block ref="7c95eda18e13e25941273928f0d149ba" prefix=" " category="inline-code"></block>)并将其保存在文本文件中。</block>
+  <block id="8e477b6128906752f1b086a48c07fef7" category="list-text">在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令(例如、<block ref="2478484d96d8c17b7752fd15d3b26f12" prefix=" " category="inline-code"></block>)并将其保存在文本文件中。</block>
+  <block id="027400835e3f9c8cdefc405a8ee10cdf" category="list-text">如果您已在云提供商的市场中订阅了BlueXP按需购买(PAYGO)订阅、则您也会自动订阅Cloud Data sense。您无需再次订阅。</block>
+  <block id="3fab6a2d0465498818a33336e6028494" category="paragraph">如果您的许可证到期或已达到BYOL限制、则Data sense将继续运行、但对信息板的访问将被阻止、因此您无法查看有关任何已扫描数据的信息。如果您希望减少要扫描的卷数量，从而可能使容量使用量低于许可证限制，则只能使用 _Configuration_ 页面。</block>
+  <block id="20aa1bbdb0fac9cadb849e6ab2887670" category="sidebar">使用BlueXP在云中部署</block>
+  <block id="7c454725651fa93e75c3603da01e3ae2" category="sidebar">在可访问Internet的Linux主机上安装</block>
+  <block id="34c631136a1ff65c0e2a718e56622097" category="sidebar">在不访问Internet的情况下在内部安装</block>
+  <block id="86d55936ff74c558250b6d6c3c3440fe" category="sidebar">自动在云中部署Data sense</block>
 </blocks>
