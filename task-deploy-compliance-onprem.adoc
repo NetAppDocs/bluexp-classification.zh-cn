@@ -92,19 +92,23 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 确保您可以保持 Cloud Data sense 正常运行Cloud Data sense计算机需要保持正常运行、才能持续扫描数据。
 
-* * CPU *：16个核心
-* * RAM *：64 GB (必须在主机上禁用交换内存)
-* *磁盘*：在/、或上提供500 GiB的SSD
+* 根据计划扫描的数据集大小、可以指定三种大小的主机系统。
 +
-** /opt 上提供 100 GiB
-** /var 上提供 400 GiB
-** /tmp 上 5 GiB
+[cols="18,18,26,30"]
+|===
+| 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
+
+
+| 大型 | 16个CPU | 64 GB RAM | 500 GB SSD on /或* 100 GB可用/opt * 395 GB可用/var * 5 GB /tmp 
+
+
+| 中等 | 8个CPU | 32 GB RAM | 200 GB SSD on /或* 50 GB可用/opt * 145 GB可用/var * 5 GB /tmp 
+
+
+| 小型 | 8个CPU | 16 GB RAM | 100 GB SSD on /或* 50 GB可用/opt * 45 GB可用/var * 5 GB /tmp 
+|===
 +
-请注意，您可以在 CPU 较少且 RAM 较少的系统上部署 Data sense ，但使用这些系统时会有一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
-
-
-
+请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
 * * AWS EC2实例类型*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://aws.amazon.com/ec2/instance-types/m5/["m5.4xlarge"^]。
 * * Azure VM size*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^]。
@@ -260,7 +264,12 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
 * 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
-* 如果您使用的是代理、并且它正在执行TLS截获、则需要了解Data sense Linux系统上用于存储TLS CA证书的路径。
+* 如果您使用代理访问Internet：
++
+** 您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。
+** 如果代理正在执行TLS截获、您需要知道Data sense Linux系统上存储TLS CA证书的路径。
+
+
 * 验证脱机环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
 
 
