@@ -278,7 +278,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 * 执行分类扫描时、Data sense可以在每个扫描程序节点上每天扫描15到40 Tib的数据。
 
 
-link:task-deploy-compliance-onprem.html#deploy-data-sense-on-premises["了解有关部署多个扫描程序节点以扫描数据的更多信息"^]。
+link:task-deploy-compliance-onprem.html#install-data-sense-on-the-linux-host["了解有关部署多个扫描程序节点以扫描数据的更多信息"^]。
 
 
 

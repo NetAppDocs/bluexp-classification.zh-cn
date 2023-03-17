@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade 
-summary: 完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。 
+summary: 完成一些步骤、在无法访问Internet的内部站点的Linux主机上安装Data sense。此类安装非常适合您的安全站点。 
 ---
 = 在无法访问Internet的主机上安装Data sense
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 完成几个步骤、在无法访问Internet的内部站点中的主机
 
 
 [role="lead"]
-完成几个步骤、在无法访问Internet的内部站点中的主机上部署Cloud Data sense。此类安装非常适合您的安全站点。
+完成一些步骤、在无法访问Internet的内部站点的Linux主机上安装Data sense。此类安装非常适合您的安全站点。
 
 请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问 Internet 的内部站点中部署 Data sense"]。
 

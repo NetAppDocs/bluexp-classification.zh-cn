@@ -467,21 +467,3 @@ Data sense 现在可以在文件中找到法语社会安全号码，法语 ID �
 === 已更改安全组端口，以便与连接器进行数据感知通信
 
 Cloud Manager Connector 的安全组将使用端口 443 而非端口 80 来处理传入和传出 Data sense 实例的入站和出站流量，以提高安全性。此时，这两个端口都保持打开状态，因此您不应看到任何问题，但您应在任何早期的 Connector 部署中更新安全组，因为端口 80 将在未来版本中弃用。
-
-
-
-== 2022 年 1 月 2 日
-
-
-
-=== 能够集成全局 Active Directory 以确定文件所有者和权限
-
-现在，您可以将全局 Active Directory 与 Cloud Data sense 集成在一起，以增强 Data sense 报告的有关文件所有者以及哪些用户和组有权访问您的文件的结果。
-
-除了您输入 Active Directory 凭据以使 Data sense 能够从某些数据源扫描 CIFS 卷之外，此新集成还为其他用户和系统提供了额外的集成。Data sense 将在所有集成的 Active Directory 中查找用户和权限详细信息。 link:task-add-active-directory-datasense.html["请参见如何设置全局 Active Directory"]。
-
-
-
-=== 现在，可以使用数据感知 " 策略 " 删除文件
-
-Data sense 可以自动删除与策略中定义的查询匹配的文件。 link:task-managing-highlights.html#deleting-source-files-automatically-using-policies["请参见如何创建自定义策略"]。
