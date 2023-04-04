@@ -29,14 +29,11 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 如果您还没有 Connector ，请立即创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。
 
 [role="quick-margin-para"]
-您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。
+您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
 确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<查看前提条件,请参见完整列表>>。
-
-[role="quick-margin-para"]
-默认配置要求云数据感知实例使用 16 个 vCPU 。请参见 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["有关实例类型的更多详细信息"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署 Cloud Data sense
 [role="quick-margin-para"]
@@ -65,9 +62,9 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 使用上述任一Cloud Connector时、可以扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户。
 
-请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
+请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
 
-如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["多个连接器"]。
+如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
 
 
 
@@ -78,6 +75,8 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 * 无法扫描OneDrive帐户、SharePoint帐户和Google Drive帐户。
 * 无法集成Microsoft Azure信息保护(AIP)标签功能。
 
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-mode.html["请参见有关在政府区域部署Connector的详细信息"^]。
 
 
 
@@ -90,8 +89,13 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 --
 根据您是在 AWS ， Azure 还是 GCP 中部署 Cloud Data sense ，查看下表。
 
-* AWS 部署所需的端点： *
+--
 
+
+[role="tabbed-block"]
+====
+.AWS部署所需的端点
+--
 [cols="43,57"]
 |===
 | 端点 | 目的 
@@ -111,8 +115,9 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 | https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | 支持 Cloud Data sense 访问和下载清单和模板，以及发送日志和指标。 
 |===
-* Azure 和 GCP 部署所需的端点： *
-
+--
+.Azure部署所需的端点
+--
 [cols="43,57"]
 |===
 | 端点 | 目的 
@@ -130,21 +135,27 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 | https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
 |===
 --
+.GCP部署所需的端点
+--
+[cols="43,57"]
+|===
+| 端点 | 目的 
+
+
+| https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
+
+
+| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+
+
+| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+
+
+| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+|===
+--
+====
 确保BlueXP具有所需权限:: 确保BlueXP有权为云数据感知实例部署资源并创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
-检查 vCPU 限制:: 确保云提供商的 vCPU 限制允许部署包含 16 个核心的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["请参见所需的实例类型"]。
-+
---
-有关 vCPU 限制的详细信息，请参见以下链接：
-
-* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html["AWS 文档： Amazon EC2 服务配额"^]
-* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quotas["Azure 文档：虚拟机 vCPU 配额"^]
-* https://cloud.google.com/compute/quotas["Google Cloud 文档：资源配额"^]
-+
-请注意，您可以在 CPU 较少且 RAM 较少的系统上部署 Data sense ，但使用这些系统时会有一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
-
-
---
 确保BlueXP Connector可以访问Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。
 +
 --
@@ -160,31 +171,101 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
 
 --
+检查 vCPU 限制:: 确保云提供商的vCPU限制允许部署具有所需核心数的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["请参见所需的实例类型"]。
++
+--
+有关 vCPU 限制的详细信息，请参见以下链接：
+
+* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html["AWS 文档： Amazon EC2 服务配额"^]
+* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quotas["Azure 文档：虚拟机 vCPU 配额"^]
+* https://cloud.google.com/compute/quotas["Google Cloud 文档：资源配额"^]
+
+
+请注意、您可以在CPU更少、RAM更少的AWS云环境中的实例上部署Data sense、但使用这些系统时会有一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
+
+--
 
 
 
 
 == 在云中部署 Data sense
 
-按照以下步骤在云中部署 Cloud Data sense 实例。
+按照以下步骤在云中部署 Cloud Data sense 实例。Connector将在云中部署此实例、然后在该实例上安装Data sense软件。
 
+请注意、在AWS环境中从BlueXP Connector部署Data sense时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。
+
+[role="tabbed-block"]
+====
+.在AWS中部署
+--
+.步骤
+. 从BlueXP左侧导航菜单中、单击*监管>分类*。
++
+image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
+
+. 单击 * 激活数据感知 * 。
++
+image:screenshot_cloud_compliance_deploy_cloud_aws.png["选择在云中部署Data sense的按钮的屏幕截图。"]
+
+. 在_Installation_page中、单击*部署>部署*以使用"大型"实例大小并启动云部署向导。
++
+如果您没有大量要扫描的数据、也可以单击*部署>配置*从两种较小的实例类型中进行选择。使用较小的实例时、这可以节省一些云成本。"中"资源大小如下所示。
+
++
+然后单击*部署*以启动云部署向导。
+
++
+image:screenshot_cloud_deploy_resource_size.png["部署页面的屏幕截图、用于选择要部署Data sense的实例的大小。"]
+
+. 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
++
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
+
+. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
+
+
+--
+.在Azure中部署
+--
 .步骤
 . 从BlueXP左侧导航菜单中、单击*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择用于激活 Cloud Data sense 的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
 
 . 单击*部署*以启动云部署向导。
 +
-image:screenshot_cloud_compliance_deploy_cloud.png["选择在云中部署 Cloud Data sense 的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_cloud.png["选择在云中部署Data sense的按钮的屏幕截图。"]
 
-. 向导将在完成部署步骤时显示进度。如果遇到任何问题，它将停止并请求输入。
+. 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
 +
-image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的 Cloud Data sense 向导的屏幕截图。"]
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
 
-. 部署实例后，单击 * 继续配置 * 以转到 _Configuration_ 页面。
+. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
 
 
+--
+.在Google Cloud中部署
+--
+.步骤
+. 从BlueXP左侧导航菜单中、单击*监管>分类*。
+. 单击 * 激活数据感知 * 。
++
+image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
+
+. 单击*部署*以启动云部署向导。
++
+image:screenshot_cloud_compliance_deploy_cloud.png["选择在云中部署Data sense的按钮的屏幕截图。"]
+
+. 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
++
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
+
+. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
+
+
+--
+====
 .结果
 BlueXP会在您的云提供商中部署Cloud Data sense实例。
 

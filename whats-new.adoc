@@ -18,6 +18,34 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
+== 2023年4月3日(1.22版)
+
+
+
+=== 新的数据发现评估报告
+
+数据发现评估报告对扫描环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。本报告的目标是提高对数据治理问题、数据安全风险以及数据集数据合规性差距的认识。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-governance-data.html#data-discovery-assessment-report["请参见如何生成和使用数据发现评估报告"]。
+
+
+
+=== 能够在云中较小的实例上部署Data sense
+
+在AWS环境中从BlueXP Connector部署Data sense时、现在您可以从两种较小的实例类型中进行选择、而不是从默认实例中选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会存在一些限制。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。
+
+
+
+=== 现在、您可以使用独立脚本测试Linux系统是否符合安装Data sense的条件
+
+如果您要在运行Data sense安装的情况下验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅用于测试这些前提条件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
+
+
+
+=== 现在、非公开站点支持Data sense BYOL许可证
+
+现在、您可以将Data sense BYOL许可证上传到位于非公开站点的Digital Wallet中、以便在许可证不足时收到通知。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html#obtain-your-cloud-data-sense-license-file["了解如何获取和上传Data sense BYOL许可证"]。
+
+
+
 == 2023年3月7日(1.21版)
 
 

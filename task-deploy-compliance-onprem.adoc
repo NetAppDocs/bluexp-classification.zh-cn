@@ -18,6 +18,8 @@ summary: 完成以下几个步骤、将Data sense安装在您网络中的Linux�
 
 如果您希望使用也位于内部的数据感知实例扫描内部 ONTAP 系统，则内部安装可能是一个不错的选择，但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
+Data sense安装脚本首先检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果您希望独立于运行Data sense安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅用于测试这些前提条件。 link:task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
+
 Linux主机_in your premises_上的典型安装包含以下组件和连接。
 
 image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及相关连接的示意图。"]
@@ -38,10 +40,10 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 创建连接器
 [role="quick-margin-para"]
-如果您还没有 Connector ， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
+如果您还没有 Connector ， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
 
 [role="quick-margin-para"]
-您还可以与云提供商一起创建Connector。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。
+您还可以与云提供商一起创建Connector。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
@@ -64,7 +66,7 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 在安装和使用Data sense之前、需要使用BlueXP Connector。在大多数情况下、您可能会在尝试激活Cloud Data sense之前设置Connector、因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
-要在云提供商环境中创建一个、请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html["在 GCP 中创建连接器"^]。
+要在云提供商环境中创建一个、请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -78,9 +80,9 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户均可使用这些Cloud Connector中的任何一种进行扫描。
 
-请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
+请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
 
-如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["多个连接器"]。
+如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
 
 安装Data sense时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
@@ -92,27 +94,31 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 确保您可以保持 Cloud Data sense 正常运行Cloud Data sense计算机需要保持正常运行、才能持续扫描数据。
 
-* 根据计划扫描的数据集大小、可以指定三种大小的主机系统。
+* 在内部构建主机系统时、您可以根据计划进行Data sense扫描的数据集的大小从三种系统大小中进行选择：
 +
 [cols="18,18,26,30"]
 |===
 | 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
 
 
-| 大型 | 16个CPU | 64 GB RAM | 500 GB SSD on /或* 100 GB可用/opt * 395 GB可用/var * 5 GB /tmp 
+| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD on /或- 100 GiB available on /opt - 395 GiB available on /var - 5 GiB on /tmp 
 
 
-| 中等 | 8个CPU | 32 GB RAM | 200 GB SSD on /或* 50 GB可用/opt * 145 GB可用/var * 5 GB /tmp 
+| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD on /或- 50 GiB available on /opt - 145 GiB available on /var - 5 GiB on /tmp 
 
 
-| 小型 | 8个CPU | 16 GB RAM | 100 GB SSD on /或* 50 GB可用/opt * 45 GB可用/var * 5 GB /tmp 
+| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD on /或- 50 GiB available on /opt - 45 GiB available on /var - 5 GiB on /tmp 
 |===
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
-* * AWS EC2实例类型*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://aws.amazon.com/ec2/instance-types/m5/["m5.4xlarge"^]。
-* * Azure VM size*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^]。
-* * GCP计算机类型*：满足上述CPU和RAM要求的实例类型。我们建议您这样做 https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16"^]。
+* 在为Data sense安装部署云实例时、我们建议使用满足上述"大型"系统要求的系统：
++
+** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+
+
 * *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
 +
 ** 此外、还支持CentOS Stream 8
@@ -252,7 +258,7 @@ image:diagram_deploy_onprem_multi_host_internet.png["一个示意图、显示了
 只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
 
 
-NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-switch-between-connectors["在连接器之间切换"^] 不同的数据源。
+NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["在连接器之间切换"^] 不同的数据源。
 
 
 

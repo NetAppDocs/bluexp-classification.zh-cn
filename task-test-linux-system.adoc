@@ -1,0 +1,212 @@
+---
+sidebar: sidebar 
+permalink: task-test-linux-system.html 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, cloud compliance access, compliance, on-premises, linux, test linux system 
+summary: 在Linux主机上手动安装Data sense之前、您可以在主机上运行脚本、以验证安装Data sense的所有前提条件是否均已满足。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点中。 
+---
+= 检查Linux主机是否已准备好安装Data sense
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在Linux主机上手动安装Data sense之前、您可以在主机上运行脚本、以验证安装Data sense的所有前提条件是否均已满足。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点("非公开站点")中。
+
+此外、Data sense安装脚本还包含一个前提条件测试脚本。此处介绍的脚本专为希望独立于运行Data sense安装脚本来验证Linux主机的用户而设计。
+
+
+
+== 入门
+
+您将执行以下任务。
+
+. 可选。如果尚未安装BlueXP Connector、请安装一个。您可以在未安装Connector的情况下运行测试脚本、但该脚本会检查Connector与Data sense主机之间的连接、因此建议您安装Connector。
+. 准备主机并验证它是否满足所有要求。
+. 从Data sense主机启用出站Internet访问。
+. 验证是否已在所有系统上启用所有必需的端口。
+. 下载并运行前提条件测试脚本。
+
+
+
+
+== 创建连接器
+
+在安装和使用Data sense之前、需要使用BlueXP Connector。但是、您可以在不使用Connector的情况下运行Prerequisites脚本。
+
+您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
+
+要在云提供商环境中创建Connector、请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+
+运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
+
+
+
+== 验证主机要求
+
+数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。
+
+* 与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。
+
+
+* 在内部构建主机系统时、您可以根据计划进行数据感知扫描的数据集的大小从三种系统大小中进行选择。
++
+[cols="18,18,26,30"]
+|===
+| 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
+
+
+| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD on /或- 100 GiB available on /opt - 395 GiB available on /var - 5 GiB on /tmp 
+
+
+| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD on /或- 50 GiB available on /opt - 145 GiB available on /var - 5 GiB on /tmp 
+
+
+| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD on /或- 50 GiB available on /opt - 45 GiB available on /var - 5 GiB on /tmp 
+|===
++
+请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
+
+* 在为Data sense安装部署云实例时、我们建议使用满足上述"大型"系统要求的系统：
++
+** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+
+
+* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
++
+** 此外、还支持CentOS Stream 8
+** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
+** 操作系统必须能够安装Docker引擎
+
+
+* * Red Hat订阅管理*：必须向Red Hat订阅管理注册Red Hat Enterprise Linux系统。如果未注册，则系统无法在安装期间访问存储库以更新所需的第三方软件。
+* *其他软件*：在安装Data sense之前、必须在主机上安装以下软件：
++
+** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+
+
+* * Firewalld注意事项*：如果您计划使用 `firewalld`、建议您在安装Data sense之前启用它。运行以下命令进行配置 `firewalld` 以便与Data sense兼容：
++
+....
+firewall-cmd --permanent --add-service=http
+firewall-cmd --permanent --add-service=https
+firewall-cmd --permanent --add-port=80/tcp
+firewall-cmd --permanent --add-port=8080/tcp
+firewall-cmd --permanent --add-port=443/tcp
+firewall-cmd --reload
+....
++
+如果您计划使用其他Data sense主机作为扫描程序节点(在分布式型号中)、请此时将以下规则添加到主系统：
+
++
+....
+firewall-cmd --permanent --add-port=2377/tcp
+firewall-cmd --permanent --add-port=7946/udp
+firewall-cmd --permanent --add-port=7946/tcp
+firewall-cmd --permanent --add-port=4789/udp
+....
++
+如果启用 `firewalld` 安装Data sense后、必须重新启动Docker。
+
+
+
+
+
+== 从Data sense启用出站Internet访问
+
+数据感知需要出站Internet访问。如果虚拟或物理网络使用代理服务器访问 Internet ，请确保 Data sense 实例具有出站 Internet 访问权限，以便与以下端点联系。
+
+提示:: 对于安装在无Internet连接站点中的主机系统、不需要此部分。
+
+
+[cols="43,57"]
+|===
+| 端点 | 目的 
+
+
+| https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
+
+
+| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+
+
+| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+
+
+| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+
+
+| https://github.com/docker \https://download.docker.com \http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm | 提供安装必备软件包。 
+|===
+
+
+== 验证是否已启用所有必需的端口
+
+您必须确保所有所需端口均已打开、以便在Connector、Data sense、Active Directory和数据源之间进行通信。
+
+[cols="25,25,50"]
+|===
+| 连接类型 | 端口 | Description 
+
+
+| 连接器<>数据感知 | 8080 (TCP)、443 (TCP)和80 | Connector的防火墙或路由规则必须允许通过端口443与Data sense实例之间的入站和出站流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。 
+
+
+| Connector <> ONTAP 集群(NAS) | 443 (TCP)  a| 
+BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则Connector主机必须允许通过端口443进行出站HTTPS访问。如果Connector位于云中、则预定义的防火墙或路由规则允许所有出站通信。
+
+|===
+
+
+== 运行Data sense Prerequisites脚本
+
+按照以下步骤运行Data sense Prerequisites脚本。
+
+.您需要的内容
+* 验证您的 Linux 系统是否满足 <<验证主机要求,主机要求>>。
+* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
+* 确保您在 Linux 系统上具有 root 权限。
+
+
+.步骤
+. 从下载Data sense Prerequisites脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*<version>。
+. 将文件复制到您计划使用的Linux主机(使用 `scp` 或其他方法)。
+. 分配运行脚本的权限。
++
+[source, cli]
+----
+chmod +x test_datasense_prerequisites_1_0
+----
+. 使用以下命令运行此脚本。
++
+./test_datasens_prerequises_1_0 &#8592；-darssite&gt；
+[source, cli]
+----
+Add the option "--darksite" only if you are running the script on a host that doesn't have internet access. Certain prerequisite tests are skipped when the host is not connected to the internet.
+----
+. 此脚本将提示您输入Data sense主机的IP地址。
++
+** 输入IP地址或主机名。
+
+
+. 此脚本将提示您是否已安装BlueXP Connector。
++
+** 如果您没有安装Connector、请输入*。
+** 如果安装了Connector、请输入*。然后、输入BlueXP Connector的IP地址或主机名、以便测试脚本可以测试此连接。
+
+
+. 该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后、它会将会话日志写入文件。
+
+
+.结果
+如果所有前提条件测试均成功运行、则可以在准备就绪后在主机上安装Data sense。
+
+如果发现任何问题、则将其归类为"建议"或"必需"以进行修复。建议的问题通常是会使Data sense扫描和分类任务运行速度较慢的项目。这些项目不需要更正、但您可能需要解决这些问题。
+
+如果存在任何"必需"问题、应修复这些问题并重新运行前提条件测试脚本。

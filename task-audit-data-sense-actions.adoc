@@ -58,7 +58,7 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 
 每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。
 
-在内部安装Data sense后、您可以直接导航到日志文件。
+如果Data sense安装在内部的Linux计算机上或部署在云中的Linux计算机上、则可以直接导航到日志文件。
 
 在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 

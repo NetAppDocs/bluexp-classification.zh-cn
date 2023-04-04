@@ -254,7 +254,7 @@ image:screenshot_compliance_move_file.png["屏幕截图显示了从 \" 数据调
 您可以从"调查"窗格或手动删除文件 link:task-using-policies.html#deleting-source-files-automatically-using-policies["自动使用策略"^]。
 
 
-TIP: 您不能删除数据库中的文件。
+TIP: 您不能删除数据库中的文件。支持所有其他数据源。
 
 删除文件需要以下权限：
 

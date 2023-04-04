@@ -138,3 +138,5 @@ image:screenshot_compliance_select_schemas.png["扫描配置页面的屏幕截�
 
 .结果
 Cloud Data sense 将开始扫描您启用的数据库架构。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
+
+请注意、Data sense每天扫描一次数据库—数据库不像其他数据源那样持续进行扫描。

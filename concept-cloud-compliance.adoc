@@ -154,15 +154,10 @@ image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的Bl
 
 请注意以下有关默认实例的信息：
 
-* 在 AWS 中， Cloud Data sense 在上运行 link:https://aws.amazon.com/ec2/instance-types/m5/["m5.4xlarge 实例"^] 使用 500 GB GP2 磁盘。操作系统映像为 Amazon Linux 2 （ Red Hat 7.3.1 ）。
-+
-在 m5.4xlarge 不可用的区域中， Data sense 会在 m4.4xlarge 实例上运行。
-
-* 在 Azure 中， Cloud Data sense 在上运行 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准的 D16s_v3 VM"^] 使用 512 GB 磁盘。操作系统映像为 CentOS 7.8 。
-* 在 GCP 中， Cloud Data sense 在上运行 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16 虚拟机"^] 使用 512 GB 标准持久性磁盘。操作系统映像为 CentOS 7.9 。
-+
-在 n2-standard-16 不可用的区域中， Data sense 运行在 n2D-standard-16 或 n1-standard-16 VM 上。
-
+* 在 AWS 中， Cloud Data sense 在上运行 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge实例"^] 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。
+* 在 Azure 中， Cloud Data sense 在上运行 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准的 D16s_v3 VM"^] 使用500 GiB磁盘。操作系统映像为 CentOS 7.9 。
+* 在 GCP 中， Cloud Data sense 在上运行 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16 虚拟机"^] 使用500 GiB标准持久性磁盘。操作系统映像为 CentOS 7.9 。
+* 在默认实例不可用的区域中、Data sense在备用实例上运行。 link:reference-instance-types.html["请参见备用实例类型"]。
 * 此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_
 * 每个连接器只部署一个数据感知实例。
 
@@ -183,15 +178,15 @@ TIP: 此实例应始终保持运行状态，因为 Cloud Data sense 会持续扫
 | 系统大小 | 规格 | 限制 
 
 
-| 大型(默认) | 16 个 CPU ， 64 GB RAM ， 500 GB SSD | 无 
+| 大型(默认) | 16个CPU、64 GB RAM、500 GiB SSD | 无 
 
 
-| 中等 | 8 个 CPU ， 32 GB RAM ， 200 GB SSD | 扫描速度较慢，最多只能扫描 100 万个文件。 
+| 中等 | 8个CPU、32 GB RAM、200 GiB SSD | 扫描速度较慢，最多只能扫描 100 万个文件。 
 
 
-| 小型 | 8 个 CPU ， 16 GB RAM ， 100 GB SSD | 限制与 " 中等 " 相同，并且还可以识别 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["数据主题名称"] 已禁用内部文件。 
+| 小型 | 8个CPU、16 GB RAM、100 GiB SSD | 限制与 " 中等 " 相同，并且还可以识别 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["数据主题名称"] 已禁用内部文件。 
 |===
-在云中部署 Data sense 时，如果您要使用其中一个较小的系统，请发送电子邮件至 ng-contact-data-sense@netapp.com 以获得帮助。我们需要与您合作来部署这些较小的云配置。
+在AWS上的云中部署Data sense时、您可以选择一个大型/中型/小型实例。在Azure或GCP中部署Data sense时、如果您要使用其中一个较小的系统、请发送电子邮件至ng-contact-data-sense@netapp.com以获得帮助。我们需要与您合作来部署这些较小的云配置。
 
 在内部部署 Data sense 时，只需使用规格较小的 Linux 主机即可。您无需联系 NetApp 以获得帮助。
 

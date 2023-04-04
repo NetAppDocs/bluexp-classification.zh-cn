@@ -1,0 +1,157 @@
+---
+sidebar: sidebar 
+permalink: task-manage-file-access-events.html 
+keywords: compliance, actions, view progress, audit, logs, installation 
+summary: '您可以将Data sense配置为在访问或更改所扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。' 
+---
+= 监控和管理文件访问事件
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以将Data sense配置为在访问或更改所扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。
+
+例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果更改了这些设置、您将能够看到进行更改的人员的姓名以及进行更改的时间。
+
+您可以在ONTAP 工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件) ONTAP 时、它会将您的Data sense系统用作FPolicy服务器。
+
+Data sense当前可捕获文件和目录上的以下操作的事件：
+
+* 创建
+* 读取
+* 写入
+* 重命名
+* 删除
+* 更改所有者/权限
+* 更改SACL/DACL (访问控制列表(ACL)更改)
+
+
+具有"帐户管理员"或"工作空间管理员"角色的BlueXP用户可以为文件访问审核日志配置卷、并可以查看和下载审核日志。具有"合规性查看器"角色的用户只能查看和下载审核日志。
+
+
+
+== 支持的数据源
+
+Data sense可以记录驻留在以下数据源上的文件的文件访问事件：
+
+* 内部部署ONTAP
+* Cloud Volumes ONTAP
+* Azure NetApp Files
+* 适用于 ONTAP 的 FSX
+
+
+您必须为这些数据源配置Active Directory、以便Data sense能够识别访问这些文件的人员的姓名。
+
+
+
+== 为文件访问审核日志记录配置卷
+
+您可以在单个卷上启用文件访问审核日志记录、以跟踪对文件和目录的更改。
+
+提示:: 此时、每个ONTAP 系统最多可以为5个卷配置文件访问审核。
+
+
+.步骤
+. 从数据源的_Scan Configuration_页面中、单击 image:screenshot_horizontal_more_button.gif["更多图标"] 然后选择*配置文件访问审核*。
++
+image:screenshot_compliance_file_access_audit_button.png["选择要启用文件访问日志记录的卷的屏幕截图。"]
+
+. 在_Configure File Access Audit对话框中、单击*启用文件访问事件日志记录*复选框、然后单击*保存*。
++
+此时请注意、所有可能的日志记录操作均默认选中、它们不可编辑。
+
++
+image:screenshot_compliance_file_access_audit_dialog.png["用于为卷启用和禁用日志记录以及选择要记录的操作的对话框的屏幕截图。"]
+
+. 此时、您将看到该卷已启用文件访问审核。
++
+image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为特定卷启用文件访问审核日志记录。"]
+
+
+
+.结果
+为已启用卷上的文件生成的任何文件访问事件都将添加到日志文件中。偶尔检查日志文件、查看您接收的事件类型。
+
+
+
+== 日志文件内容
+
+系统会为您配置的用于跟踪文件访问事件的每个卷创建一个日志文件。审核日志中的每一行都包含以下格式的信息：
+
+`<timestamp> | <volume_name> | <event_type> | <file_name> | <user_name> | <action_result> | <action_details>`
+
+* timestamp—事件的日期和时间
+* volume name—卷的名称
+* 事件类型—创建、读取、写入、重命名、删除、 更改所有者/权限并更改SACL/DACL
+* file name—完整路径和文件名
+* User name (或ID)—执行操作的人员的名称或ID
+* 操作结果—操作是成功还是失败、以及成功/失败的原因
+* 操作详细信息—已执行的操作：取决于操作
+
+
+例如、日志文件中的以下行显示复制操作成功、复制操作失败。
+
+....
+2022-06-06 15:23:08,910 | INFO | ds_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - SUCCESS
+2022-06-06 15:23:08,968 | WARNING | ds_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
+....
+
+
+== 访问文件访问审核日志文件
+
+文件访问审核日志文件位于Data sense计算机上的： `/opt/netapp/audit_logs/`
+
+这些日志文件名为"File_Access_Audit <volume_name> <timestamp> 日志"；例如"File Access Audit _MedicalData_20230205092321.log"。<timestamp> 是指Data sense将第一个日志写入文件的时间。默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。
+
+目录中所有日志文件的总大小设置为默认值50 GB。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此限制后、最早的日志文件将自动删除。
+
+如果Data sense安装在内部的Linux计算机上或部署在云中的Linux计算机上、则可以直接导航到日志文件。
+
+在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
+
+ ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
+* <path_to_the_ssh_key>= ssh身份验证密钥的位置
+* <machine_user>：
++
+** 对于AWS：使用<EC2-user>
+** 对于Azure：使用为BlueXP实例创建的用户
+** 对于GCP：使用为BlueXP实例创建的用户
+
+
+* <datasens_ip>=虚拟机实例的IP地址
+
+
+请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
+
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
+
+
+
+
+== 配置文件访问审核日志设置
+
+您可以为文件访问审核文件日志配置三个选项。这些设置适用于已在此Data sense实例上配置文件访问审核日志记录的所有数据源。您可以从Data sense _Configuration_页面的_File Access Audit Log_部分配置这些设置。
+
+image:screenshot_compliance_file_access_audit_config.png["在Data sense Configuration页面中显示审核日志的配置设置的屏幕截图。"]
+
+[cols="30,50"]
+|===
+| 审核日志选项 | Description 
+
+
+| 日志文件位置 | 该位置当前已硬编码、可写入日志文件 `/opt/netapp/audit_logs/` 
+
+
+| 审核日志的最大存储分配 | 目录中所有日志文件的总大小当前已硬编码为默认值50 GB。达到此限制后、最早的日志文件将自动删除。 
+
+
+| 每个审核文件的最大审核事件数 | 每个文件当前都经过硬编码、最多可包含50、000个事件。达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。 
+|===
+请注意、这些设置当前已硬编码为默认设置。它们不能更改。
