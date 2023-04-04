@@ -1173,7 +1173,6 @@
   <block id="c8607e69aac6730ea98a4ebb489331b1" category="paragraph"><block ref="c8607e69aac6730ea98a4ebb489331b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d64089f867aa0c6a5cf811a28ddf72cc" category="paragraph">您可以单击某个操作的名称以查看与该操作对应的详细信息。</block>
   <block id="e2115e429619cedeaf6aeedfb1d4d0d7" category="inline-link-macro">在可访问 Internet 的内部站点中部署 Data sense</block>
-  <block id="1c038c580523f9a3d7126408c53a8288" category="paragraph">请注意，您也可以 <block ref="1079604978fa03138d29a36dc3d0bf3f" category="inline-link-macro-rx"></block>。</block>
   <block id="70d7362b35a6ff039264c78f2d35ab2c" category="section-title">支持的数据源</block>
   <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">内部部署 ONTAP 系统</block>
   <block id="ae9d17dd7732dafc7b97f62ac9094cf7" category="list-text">数据库架构</block>
@@ -1333,7 +1332,6 @@
   <block id="211751cb447d335f31ff23a277ab83a3" category="inline-link">在 AWS 中创建连接器</block>
   <block id="b51a9186f236269e0e1206fe364d56ee" category="inline-link">在 Azure 中创建连接器</block>
   <block id="24f7d339e21b63b3cef99a7c8f1236fe" category="inline-link">在 GCP 中创建连接器</block>
-  <block id="5c57e099e3c98ea1983b433c3aa4eab8" category="paragraph">如果您还没有 Connector ，请立即创建一个 Connector 。请参见<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block>，<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>或<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>。</block>
   <block id="a54d3bccf6c646c46c072ad1fc403cb6" category="inline-link">在内部部署 Connector</block>
   <block id="b0b5e56bc6683eeb5bd66d725ffbf72f" category="paragraph">确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <block ref="25e4901d8a209a1b27bffd328e6e2ea6" category="inline-xref-macro-rx"></block>。</block>
   <block id="376a2280a9f9a3916780ea2443250281" category="paragraph">启动安装向导以在云中部署 Cloud Data sense 实例。</block>
@@ -1688,11 +1686,8 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="7d48333086004a7939c29f033e1bfad5" category="section-title">支持在非公开站点中部署时扫描 OneDrive 和 SharePoint 数据</block>
   <block id="5d1023de4743a538d723b0eea67b9c49" category="inline-link">您需要允许访问以下端点。</block>
-  <block id="143cbb5198b43152fc02c7822c0a4df1" category="inline-xref">SharePoint 和 OneDrive 的特殊要求</block>
   <block id="03ab5a445b96670c4d6471f1e0ae786c" category="list-text">使用 Cloud Sync 复制和同步源文件</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">接收用户反馈</block>
-  <block id="ca31f5af8410452f51d81153fffb5c54" category="cell">login.microsoft.com \graph.microsoft.com</block>
-  <block id="bea203a1b40a7cbfe57a7032625d4eed" category="cell">与 Microsoft 服务器通信以登录到选定的联机服务。</block>
   <block id="1b602d3afff4393bd19938efb7312da3" category="inline-link-macro">部署在无法访问 Internet 的内部位置</block>
   <block id="72be220d746bd2e14365d0ceeea52365" category="inline-link-macro">请在此处查看所需端点的列表</block>
   <block id="e9b6d5f264bba809d5461558e8379d9e" category="paragraph">数据感知也可以是 <block ref="4b1575a5c5c3f80b912837da14c39ab4" category="inline-link-macro-rx"></block>。但是，要扫描本地 OneDrive 文件，您需要为一些选定端点提供 Internet 访问。 <block ref="e4bb345ad6bbfa08298160493f1efe0b" category="inline-link-macro-rx"></block>。</block>
@@ -1838,7 +1833,6 @@
   <block id="37c9303e988a90a91e5799c6d881439b" category="paragraph">内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户均可使用这些Cloud Connector中的任何一种进行扫描。</block>
   <block id="2cadc69c210f0e599ec0b30a0874e883" category="summary">Cloud Data sense可以在您的卷、Amazon S3存储分段、数据库、OneDrive文件夹、SharePoint帐户中识别多种类型的私有数据。 和Google Drive帐户。</block>
   <block id="857f40e1f9389fce6087fb43466bb998" category="paragraph">Cloud Data sense可以在您的卷、Amazon S3存储分段、数据库、OneDrive文件夹、SharePoint帐户中识别多种类型的私有数据。 和Google Drive帐户。请参见以下类别。</block>
-  <block id="f0fa14b0913829093cd6b4aeaa24b34d" category="paragraph">当前不支持在非公开站点中部署Data sense时扫描Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 、AWS S3或Google Drive帐户。</block>
   <block id="68c4a78a67d74510c65b916751c96b07" category="list-text">目前、Google Drive帐户中的数据无法使用上述任何功能。</block>
   <block id="9c471504c4f66f275b7d110c46622118" category="paragraph">使用上述任一Cloud Connector时、可以扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户。</block>
   <block id="1692b32d79b99cfb5a1277f8c49a23af" category="sidebar">扫描您的工作环境</block>
@@ -2189,7 +2183,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
   <block id="ed2556b43fbc83ef9623cb9a52ff0389" category="list-text">从下载 Cloud Data sense 软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为* datasENSE-installer-datas.tar.gz*&lt;version&gt;。</block>
   <block id="67fe0972cc96651c7684b8e71ee21edd" category="list-text">将数据感知安装程序文件(* datasENSE-installer-cp.tar.gz*&lt;version&gt;)复制到主机(使用`scp`或其他方法)。</block>
-  <block id="15ce9f257d40f931b2ef8d3576a06c65" category="paragraph">如果您需要非常安全的BlueXP安装、但也希望从OneDrive帐户或SharePoint Online帐户扫描本地数据、则可以使用Data sense脱机安装程序并提供对一些选定端点的Internet访问。请参见 <block ref="4422d2d61ce862ef7035c7cbbfd3b606" category="inline-xref-macro-rx"></block> 了解详细信息。</block>
   <block id="c5fa07750716427fc488615add6ab90d" category="list-text">在某些关键策略返回结果时向BlueXP用户发送电子邮件警报</block>
   <block id="afc0d971e4ebfa53c171b355bc2599a4" category="list-text">为不同用户设置BlueXP角色(例如、帐户管理员或合规性查看器)</block>
   <block id="33054e4c4ec78cdbffe4024718f5be95" category="list-text">从BlueXP自动升级软件</block>
@@ -2198,7 +2191,6 @@
   <block id="0c9e786ebc9e7a7d92ca8bd8ccb639a3" category="section-title">验证BlueXP和Data sense前提条件</block>
   <block id="7c2b9bc82b54ae1bc75bf6e5ec464df1" category="list-text">确保 Web 浏览器连接到 Cloud Data sense启用Cloud Data sense后、请确保用户从连接到Data sense实例的主机访问BlueXP界面。</block>
   <block id="623bbc14fb82c35326b70f6f05086c6b" category="paragraph">Data sense 实例使用专用 IP 地址来确保索引数据不可供他人访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与 Data sense 实例位于同一网络中的主机。</block>
-  <block id="332d093355e8c40301ec0cb1a26d1539" category="paragraph">如果在无法访问Internet的站点中部署了BlueXP和Data sense、您可以通过为一些选定端点提供Internet访问来扫描SharePoint Online和OneDrive帐户中的文件。</block>
   <block id="ec4523191ee1a4a0d44802dcc8de45ee" category="cell">与包括NetApp帐户在内的BlueXP服务进行通信。</block>
   <block id="539b59aea4c55d48d6dc70aa65d83ebe" category="list-text">验证脱机环境是否满足要求 <block ref="cecf7d2039efa2511a1cd1c96e91a043" category="inline-xref-macro-rx"></block>。</block>
   <block id="99bc31b68f8a295277219d11cfd94709" category="list-text">启动BlueXP并选择*监管&gt;分类*。</block>
@@ -2276,7 +2268,6 @@
   <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*、然后选择*配置*选项卡。</block>
   <block id="623d17b9d36b70bf9a4a775a9d346f58" category="admonition">对于Azure NetApp Files 、云数据感知只能扫描与BlueXP位于同一区域的卷。</block>
   <block id="16f6b76e35946d0224b05a1466e556f0" category="inline-link">BlueXP功能需要使用Connector</block>
-  <block id="b4af24a1096b735934691c65956c7d7a" category="paragraph">如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见<block ref="e291ebc6db7a8ec08d333384efa4743e" category="inline-link-rx"></block> 或<block ref="3f9648a8e8f665af7b23c050702c5c95" category="inline-link-rx"></block>或<block ref="2559e3f18112d727f751d3574900096c" category="inline-link-rx"></block>。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
   <block id="7d0e3dd93f2549f8ce0be2f0454b12b2" category="cell">与BlueXP网站通信以实现集中式用户身份验证。</block>
   <block id="396224b62257ab9727288876f0e89ef6" category="list-text">确保BlueXP具有所需权限</block>
   <block id="2553b8550ba26e95a0c0ef9ed98d09b8" category="list-text">确保BlueXP有权为云数据感知实例部署资源并创建安全组。您可以在中找到最新的BlueXP权限<block ref="4d2fb4fece4e907087732c2d95d31be2" category="inline-link-rx"></block>。</block>
@@ -2538,9 +2529,7 @@
   <block id="196004c131c20b6770256be1148132f8" category="list-text">服务器的用户名和密码</block>
   <block id="baeedc928ad10edb5cbbe96bbe80e8d0" category="inline-link-macro">请参见其他端口要求</block>
   <block id="502f7dda33435f5064c5b238523eee70" category="paragraph">如果要使用多个Data sense主机提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 <block ref="e303a6ed4733e13f7eeaf8613138004c" category="inline-link-macro-rx"></block>。</block>
-  <block id="3bf2456fb220c8f0aea512c206de9dbc" category="paragraph">可以在不提供任何Internet访问的情况下扫描本地安装的SharePoint内部部署帐户。</block>
   <block id="e1095ff19466581c5274f67123c95036" category="cell">https://api.bluexp.netapp.com</block>
-  <block id="9cd9b273214587b2412be84cb1a1a42d" category="paragraph">只有在首次连接到这些外部服务期间、才需要访问_api.bluexp.netapp.com_。</block>
   <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的内容</block>
   <block id="ad5480f838ed67e92fecf7af3cef120d" category="paragraph-title">下一步行动</block>
   <block id="86e6b4ce8205c2db3b733482275e7c94" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 发现要扫描的Azure NetApp Files 系统</block>
@@ -3231,7 +3220,6 @@
   <block id="5046b3bc48bd37acc83c5000548deccc" category="paragraph">请注意、这些设置当前已硬编码为默认设置。它们不能更改。</block>
   <block id="8b6c5ced74ae32d25c3f6ebff98f9529" category="inline-link">在内部安装 Connector</block>
   <block id="d848fab961367a4c9f58a25dc74053f3" category="paragraph">您也可以<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
-  <block id="18843bfa4e839db1b1058138f40db3fd" category="paragraph">请注意，您也可以<block ref="975556d00e7303dad94ce8ee11ec8459" category="inline-link-rx"></block> 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。</block>
   <block id="7136865bb089260220159be68ad07c25" category="paragraph">如您所见，在某些情况下可能需要使用<block ref="1b53f67d10a600e06f0d8110c1ecba99" category="inline-link-rx"></block>。</block>
   <block id="d86d903b07bcdf54c0633484d605d52a" category="inline-link">请参见有关在政府区域部署Connector的详细信息</block>
   <block id="4436ca4e2cfd329d13aeb590ee5ba775" category="paragraph"><block ref="c536f47a35ce0751f8d9699289dc0a42" category="inline-link-rx"></block>。</block>
@@ -3242,7 +3230,6 @@
   <block id="ed4aca88f93f80e744307500461f129e" category="paragraph">请注意、您可以在CPU更少、RAM更少的AWS云环境中的实例上部署Data sense、但使用这些系统时会有一些限制。请参见 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="95744bf1d6e502d3dfe327bf634f2e79" category="paragraph">按照以下步骤在云中部署 Cloud Data sense 实例。Connector将在云中部署此实例、然后在该实例上安装Data sense软件。</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link-macro">请参见可用的实例类型和限制</block>
-  <block id="9d93ac73eba82aefddbfc4386e0c91d9" category="paragraph">请注意、在AWS环境中从BlueXP Connector部署Data sense时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 <block ref="014512c6bb91f0e0099b18504a19e409" category="inline-link-macro-rx"></block>。</block>
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">在AWS中部署</block>
   <block id="a9720a0db2c46b05c7aa5ef25b98ae6f" category="inline-image-macro">选择用于激活Data sense的按钮的屏幕截图。</block>
   <block id="e92dba2aab15f8ee7ca722d870383c77" category="paragraph"><block ref="e92dba2aab15f8ee7ca722d870383c77" category="inline-image-macro-rx" type="image"></block></block>
@@ -3323,9 +3310,6 @@
   <block id="914d653aae79118a23517243079b88cb" category="section-title">现在、您可以使用独立脚本测试Linux系统是否符合安装Data sense的条件</block>
   <block id="374deadc3a3b7f52c668078795f75e3a" category="inline-link">了解如何检查Linux主机是否已准备好安装Data sense</block>
   <block id="04659fbbded99230220bc3321874622f" category="paragraph">如果您要在运行Data sense安装的情况下验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅用于测试这些前提条件。<block ref="721973ab191f916be1f3432f173ac838" category="inline-link-rx"></block>。</block>
-  <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">现在、非公开站点支持Data sense BYOL许可证</block>
-  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">了解如何获取和上传Data sense BYOL许可证</block>
-  <block id="2bf877c3dde2fb63377a0bd54296e758" category="paragraph">现在、您可以将Data sense BYOL许可证上传到位于非公开站点的Digital Wallet中、以便在许可证不足时收到通知。<block ref="759f11b436ec2c3650ac0547916cb828" category="inline-link-rx"></block>。</block>
   <block id="6858940dfbd3de02768877bc5d1ef613" category="paragraph">请注意、Data sense每天扫描一次数据库—数据库不像其他数据源那样持续进行扫描。</block>
   <block id="5e4569f52e263bc5988dd871099065f5" category="paragraph">数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出了一个概述、其中汇总了您的所有工作环境和数据源、然后对每个工作环境进行了细分。</block>
   <block id="fcdb71624845b5b7a2eeb832133403e4" category="paragraph">您可以从Data sense的Governance选项卡生成此报告。</block>
@@ -3356,7 +3340,6 @@
   <block id="73c8e0d6d53518ca1ce3f906cf53a472" category="paragraph">请注意，您也可以<block ref="fe048365448a4a82cbd9d363a7137a93" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。</block>
   <block id="b2c7070fe7681d7705e5227c12abb5ee" category="list-text">在内部构建主机系统时、您可以根据计划进行Data sense扫描的数据集的大小从三种系统大小中进行选择：</block>
   <block id="94e57f42b65e9f971fc0f5d0e58f4dc8" category="admonition">如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例<block ref="a5731cb9d61066e025286d452caac241" category="inline-link-rx"></block> 不同的数据源。</block>
-  <block id="d6f3d99b6ad2aad706bd8a6a94b71d48" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="6f82a28c992c99e70ccdf6d600627f19" category="inline-link-rx"></block> 和 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
   <block id="dcdba57692d95c33c15bffffceb6357c" category="paragraph">如果您尚未在脱机内部站点上安装 Connector ，<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 现在在 Linux 主机上。</block>
   <block id="89825cdcfb92068b90e1077fbbbe7eee" category="paragraph">如果您尚未在脱机内部站点上安装BlueXP Connector、<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
   <block id="6ad8560ca7a19d5d074930a230dc50fc" category="cell">500 GiB SSD on /或* 100 GiB on /opt * 395 GiB available on /var * 5 GiB on /tmp</block>
@@ -3367,4 +3350,12 @@
   <block id="e432b95f6293cbb473925a15a0256e7e" category="sidebar">使用BlueXP在云中部署Data sense</block>
   <block id="9c32f683e0ed7bb8df9d2a568f69fa40" category="sidebar">在具有Internet的Linux主机上安装Data sense</block>
   <block id="57c34c9d64ebba8a9c190b93c373c389" category="sidebar">在不使用Internet的情况下在内部安装Data sense</block>
+  <block id="57f460460036fcd7ebbf1fddeaa6a3a5" category="paragraph">如果您还没有 Connector ，请立即创建一个 Connector 。请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>，<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。</block>
+  <block id="5ca4cb8f47339ff01510457bdf20e71f" category="paragraph">如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block> 或<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
+  <block id="fbed6fb019fa89ff5d9107f99377839f" category="paragraph">请注意，您也可以<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。</block>
+  <block id="8b4cc0616cd3112ce97c78446249e336" category="inline-link-macro">备用实例类型</block>
+  <block id="1829cfbbbae1424b4e04595f05f2c2ed" category="paragraph">请注意、在AWS环境中从BlueXP Connector部署Data sense时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 <block ref="014512c6bb91f0e0099b18504a19e409" category="inline-link-macro-rx"></block>。在默认实例类型不可用的区域中、Data sense在上运行 <block ref="45910d58f60ef6c6ec6de81dc1fbd5cf" category="inline-link-macro-rx"></block>。</block>
+  <block id="2b8cbb70f44f3831d9e9d67800ebb915" category="paragraph">请注意，您也可以 <block ref="239e282f4ba241974ca818753c648c59" category="inline-link-macro-rx"></block>。</block>
+  <block id="d102535383c097c61a0a9f0f424e371d" category="paragraph">目前不支持扫描Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 、AWS S3或Google Drive、 在非公开站点中部署Data sense时使用的是OneDrive或SharePoint Online帐户。</block>
+  <block id="e63a4e65f36778dd22d90e389565023a" category="paragraph">要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 <block ref="3c3d51054f26662cb893ae4990a160c5" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="79c1d81a19f6b89269470ecda07878e3" category="inline-link-rx"></block> 和 <block ref="c56369efb4b4a1cf375529ebe17076ee" category="inline-xref-macro-rx"></block>。</block>
 </blocks>

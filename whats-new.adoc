@@ -40,12 +40,6 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
-=== 现在、非公开站点支持Data sense BYOL许可证
-
-现在、您可以将Data sense BYOL许可证上传到位于非公开站点的Digital Wallet中、以便在许可证不足时收到通知。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html#obtain-your-cloud-data-sense-license-file["了解如何获取和上传Data sense BYOL许可证"]。
-
-
-
 == 2023年3月7日(1.21版)
 
 

@@ -16,7 +16,7 @@ summary: 完成一些步骤、在无法访问Internet的内部站点的Linux主�
 [role="lead"]
 完成一些步骤、在无法访问Internet的内部站点的Linux主机上安装Data sense。此类安装非常适合您的安全站点。
 
-请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问 Internet 的内部站点中部署 Data sense"]。
+请注意，您也可以 link:task-quick-start-connector-on-prem.html["在可访问 Internet 的内部站点中部署 Data sense"]。
 
 Data sense安装脚本首先检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果您希望独立于运行Data sense安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅用于测试这些前提条件。 link:task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
 
@@ -33,9 +33,7 @@ Data sense安装脚本首先检查系统和环境是否满足所需的前提条�
 * 使用简单存储服务（ S3 ）协议的对象存储
 
 
-如果您需要非常安全的BlueXP安装、但也希望从OneDrive帐户或SharePoint Online帐户扫描本地数据、则可以使用Data sense脱机安装程序并提供对一些选定端点的Internet访问。请参见 <<SharePoint 和 OneDrive 的特殊要求,SharePoint 和 OneDrive 的特殊要求>> 了解详细信息。
-
-当前不支持在非公开站点中部署Data sense时扫描Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 、AWS S3或Google Drive帐户。
+目前不支持扫描Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 、AWS S3或Google Drive、 在非公开站点中部署Data sense时使用的是OneDrive或SharePoint Online帐户。
 
 
 
@@ -50,7 +48,7 @@ Data sense安装脚本首先检查系统和环境是否满足所需的前提条�
 * 接收用户反馈
 * 从BlueXP自动升级软件
 +
-要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 link:whats-new.html["《云数据感知发行说明》"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-in-a-location-without-internet-access["升级BlueXP Connector"^] 和 <<升级 Data sense 软件,升级 Data sense 软件>>。
+要启用新功能、需要定期手动升级BlueXP Connector和Data sense。您可以在 Data sense UI 页面底部看到 Data sense 版本。检查 link:whats-new.html["《云数据感知发行说明》"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["升级BlueXP Connector"^] 和 <<升级 Data sense 软件,升级 Data sense 软件>>。
 
 
 
@@ -207,26 +205,6 @@ NFS 卷导出策略必须允许从 Data sense 实例进行访问。
 
 |===
 如果要使用多个Data sense主机提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 link:task-deploy-compliance-dark-site.html#multi-host-installation-for-large-configurations["请参见其他端口要求"]。
-
-
-
-== SharePoint 和 OneDrive 的特殊要求
-
-如果在无法访问Internet的站点中部署了BlueXP和Data sense、您可以通过为一些选定端点提供Internet访问来扫描SharePoint Online和OneDrive帐户中的文件。
-
-可以在不提供任何Internet访问的情况下扫描本地安装的SharePoint内部部署帐户。
-
-[cols="50,50"]
-|===
-| 端点 | 目的 
-
-
-| login.microsoft.com \graph.microsoft.com | 与 Microsoft 服务器通信以登录到选定的联机服务。 
-
-
-| https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
-|===
-只有在首次连接到这些外部服务期间、才需要访问_api.bluexp.netapp.com_。
 
 
 
