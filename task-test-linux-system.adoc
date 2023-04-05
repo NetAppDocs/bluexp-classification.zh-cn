@@ -24,7 +24,7 @@ summary: 在Linux主机上手动安装Data sense之前、您可以在主机上�
 
 您将执行以下任务。
 
-. 可选。如果尚未安装BlueXP Connector、请安装一个。您可以在未安装Connector的情况下运行测试脚本、但该脚本会检查Connector与Data sense主机之间的连接、因此建议您安装Connector。
+. 如果您尚未安装BlueXP Connector、也可以安装它。您可以在未安装Connector的情况下运行测试脚本、但该脚本会检查Connector与Data sense主机之间的连接、因此建议您安装Connector。
 . 准备主机并验证它是否满足所有要求。
 . 从Data sense主机启用出站Internet访问。
 . 验证是否已在所有系统上启用所有必需的端口。
@@ -175,21 +175,23 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 
 
 .步骤
-. 从下载Data sense Prerequisites脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*<version>。
+. 从下载Data sense Prerequisites脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*<version>。
 . 将文件复制到您计划使用的Linux主机(使用 `scp` 或其他方法)。
 . 分配运行脚本的权限。
 +
 [source, cli]
 ----
-chmod +x test_datasense_prerequisites_1_0
+chmod +x standalone-pre-requisite-tester-v1.21.0
 ----
 . 使用以下命令运行此脚本。
 +
-./test_datasens_prerequises_1_0 &#8592；-darssite&gt；
 [source, cli]
 ----
-Add the option "--darksite" only if you are running the script on a host that doesn't have internet access. Certain prerequisite tests are skipped when the host is not connected to the internet.
+ ./standalone-pre-requisite-tester-v1.21.0 <--darksite>
 ----
++
+只有在无法访问Internet的主机上运行脚本时、才添加选项"-d暗 站点"。如果主机未连接到Internet、则会跳过某些前提条件测试。
+
 . 此脚本将提示您输入Data sense主机的IP地址。
 +
 ** 输入IP地址或主机名。
@@ -201,7 +203,7 @@ Add the option "--darksite" only if you are running the script on a host that do
 ** 如果安装了Connector、请输入*。然后、输入BlueXP Connector的IP地址或主机名、以便测试脚本可以测试此连接。
 
 
-. 该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后、它会将会话日志写入文件。
+. 该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后、它会将会话日志写入名为的文件 `prerequisites-test-<timestamp>.log` 在目录中 `/opt/netapp/install_logs`。
 
 
 .结果
