@@ -354,13 +354,13 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 === 是否可以在自己的主机上部署此连接器？
 
-是的。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的主机上。如果您计划在内部部署Data sense、则可能还需要在内部安装Connector；但这并不是必需的。
+是的。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的主机上。如果您计划在内部部署Data sense、则可能还需要在内部安装Connector；但这并不是必需的。
 
 
 
 === 没有Internet访问的安全站点如何？
 
-是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["在无法访问Internet的内部Linux主机上部署Connector"^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用Data sense扫描数据。
+是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["在无法访问Internet的内部Linux主机上部署Connector"^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用Data sense扫描数据。
 
 
 

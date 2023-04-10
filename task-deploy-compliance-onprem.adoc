@@ -309,13 +309,17 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 
 
  a| 
-.. 粘贴您从第7步复制的信息：
+.. 粘贴您从第7步复制的命令：
 `sudo ./install.sh -a <account_id> -c <agent_id> -t <token>`
++
+如果要在云实例(而不是内部)上安装、请添加 `--manual-cloud-install <cloud_provider>`。
+
 .. 输入 Data sense 主机的 IP 地址或主机名，以便 Connector 实例可以访问它。
 .. 输入BlueXP Connector主机的IP地址或主机名、以便Data sense实例可以访问它。
 .. 根据提示输入代理详细信息。如果您的BlueXP Connector已使用代理、则无需在此再次输入此信息、因为Data sense将自动使用此连接器使用的代理。
 
-| 或者，您也可以预先创建整个命令，并提供必要的主机和代理参数： `s` udo ./install.sh -a <account_id> -c <agent_id> -t <token> -host <ds_host> -manager-host <cm_host> -proxy-host <proxy_host> -proxy-port <proxy_port> -proxy-user-proxy_name> <proxy_password> -proxy_proxy_proxy_name> -proxy_proxy_proxy_proxy_proxy_name> -<proxy_user> 
+| 或者、您也可以预先创建整个命令、并提供必要的主机和代理参数：
+`sudo ./install.sh -a <account_id> -c <agent_id> -t <token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
 |===
 +
 变量值：
@@ -326,6 +330,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 ** _token_ = JWT 用户令牌
 ** _ds_host_ = Data sense Linux 系统的 IP 地址或主机名。
 ** _cm_host_= BlueXP Connector系统的IP地址或主机名。
+** _cloud provider_=在云实例上安装时、根据云提供程序输入"AWs"、"Azure"或"GCP"。
 ** _proxy_host_ = 代理服务器的 IP 或主机名（如果主机位于代理服务器之后）。
 ** _proxy_port_ = 用于连接到代理服务器的端口（默认值为 80 ）。
 ** _proxy_scheme_= 连接方案： HTTPS 或 http （默认为 http ）。
