@@ -54,7 +54,7 @@ Data sense会记录对Data sense正在扫描的所有工作环境和数据源中
 
 管理审核日志文件位于Data sense计算机上的： `/opt/netapp/audit_logs/`
 
-安装审核日志文件将写入 `/ops/netapp/install_logs`
+安装审核日志文件将写入 `/opt/netapp/install_logs/`
 
 每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。
 

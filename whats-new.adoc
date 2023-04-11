@@ -34,7 +34,7 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
-=== 现在、您可以使用独立脚本测试Linux系统是否符合安装Data sense的条件
+=== 现在、您可以使用独立脚本在安装Data sense之前对Linux系统进行资格认定
 
 如果您要在运行Data sense安装的情况下验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅用于测试这些前提条件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
 
@@ -419,27 +419,3 @@ Data sense可以识别包含澳大利亚TFN (税务文件编号)、澳大利亚�
 === 现在，全局 Active Directory 服务器可以是 LDAP 服务器
 
 与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 link:task-add-active-directory-datasense.html["有关详细信息，请访问此处"]。
-
-
-
-== 2022年3月15日(1.10.0版)
-
-
-
-=== 新筛选器可显示特定用户或组具有读取或写入权限的文件
-
-添加了一个名为 " 用户 / 组权限 " 的新筛选器，您可以列出特定用户或组具有读取和 / 或写入权限的文件。您可以选择一个或多个用户和/或组名称-或输入部分名称。此功能适用于 Cloud Volumes ONTAP ，内部 ONTAP ， Azure NetApp Files ，适用于 ONTAP 的 Amazon FSx 和文件共享上的卷。
-
-
-
-=== Data sense 可以确定 SharePoint 和 OneDrive 帐户中文件的权限
-
-Data sense 现在可以读取 OneDrive 帐户和 SharePoint 帐户中正在扫描的文件的权限。此信息显示在 " 调查 " 窗格中的文件详细信息以及 " 监管信息板 " 中的 " 打开权限 " 区域中。
-
-
-
-=== Data sense 还可以识别另外两种类型的个人数据
-
-* 法语 INSEE — INSEE 代码是法国国家统计和经济研究所（ INSEE ）用来标识各种实体的数字代码。
-* 密码—此信息通过查找字母数字字符串旁边的 "password" 一词的组合来使用接近验证来标识。找到的项目数将在合规性信息板的 " 个人结果 " 下列出。您可以使用筛选器 * 个人数据 > 密码 * 在调查窗格中搜索包含密码的文件。
-
