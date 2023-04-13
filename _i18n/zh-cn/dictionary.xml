@@ -713,8 +713,6 @@
   <block id="7a833d41d59abd430a8a21760722d14a" category="paragraph"><block ref="57d1ac548ab885ff197c8b0634f5bdfc" category="inline-link-macro-rx"></block>。</block>
   <block id="551187f69bb192d7df69d2113a8acac4" category="admonition">要完全删除 Cloud Data sense 实例，您可以从云提供商的门户或内部位置手动删除 Data sense 实例。</block>
   <block id="ae64bece015f15eb39e95575c833f8d3" category="section-title">如果在 ONTAP 卷上启用了数据分层，会发生什么情况？</block>
-  <block id="2de4e78513aa5bfeb890fe4ddc3ec775" category="paragraph">您可能希望在将冷数据分层到对象存储的 ONTAP 系统上启用云数据感知。如果启用了数据分层，则 Data sense 会扫描所有数据—磁盘上的数据以及分层到对象存储的冷数据。</block>
-  <block id="7245782d4f1eb0db394d9f1f8ae02b2c" category="paragraph">合规性扫描不会加热冷数据，它会保持冷数据并分层到对象存储。</block>
   <block id="a7865b20d9097d32d555ae9b2251ef31" category="section-title">Cloud Data sense 能否向我的组织发送通知？</block>
   <block id="0a351d661588dd9301518a85a687c4dc" category="paragraph">您还可以从 " 监管 " 页面和 " 调查 " 页面下载状态报告，并在组织内部共享这些报告。</block>
   <block id="eab4d10a40c49ac7fa1a3daf5756345e" category="paragraph">Cloud Data sense 提供对数据的即装即用洞察力。您可以根据组织的需求提取和利用这些洞察信息。</block>
@@ -1512,14 +1510,12 @@
   <block id="d027b079c3ea3f4ab6dd99923ea9e615" category="list-text">* 下载 DSAl 报告 * ：对访问请求的正式响应，您可以将此响应发送给数据主体。此报告包含根据 Cloud Data 在数据主题上发现的数据自动生成的信息，并可用作模板。您应填写此表单并在内部进行审核，然后再将其发送给数据主体。</block>
   <block id="45c652234dbe5a9ab1456e9185eb8770" category="list-text">* 调查结果 * ：一个页面，可用于通过搜索，排序，扩展特定文件的详细信息以及下载文件列表来调查数据。</block>
   <block id="da4fc4e9038590549f810ab20ac23f1d" category="admonition">如果结果超过 10 ， 000 个，则文件列表中仅显示前 10 ， 000 个。</block>
-  <block id="62833e4a62aecb06bdb2de4d651190fb" category="summary">Cloud Data sense 是一种数据管理服务，可对数据源进行扫描，以映射和分类数据，并识别私有信息。</block>
   <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="doc">Cloud Data sense 文档</block>
   <block id="693cf3d80468cadd83e6ff4a1ef6638d" category="summary">完成几个步骤，直接使用 Cloud Data sense 扫描非 NetApp NFS 或 CIFS 文件共享。这些文件共享可以驻留在内部或云中。</block>
   <block id="8b30b43b2d32f52db456a78f120bec50" category="paragraph">对于 CIFS （ SMB ）共享，请确保您具有访问这些共享的凭据。</block>
   <block id="d2ea2bf943bb8c943367ebfd6b8aec96" category="paragraph">组是要扫描的文件共享的容器，它用作这些文件共享的工作环境名称。</block>
   <block id="925a5b3d46766546e19dbce83a2fefb6" category="paragraph">添加要扫描的文件共享列表并选择扫描类型。一次最多可以添加 100 个文件共享。</block>
   <block id="6f1739c829744e6585dc123d746a9106" category="section-title">查看文件共享要求</block>
-  <block id="2f01eae5e8c5b9452e84210106577138" category="list-text">共享可以托管在任何位置，包括云或内部。这些文件共享驻留在非 NetApp 存储系统上。</block>
   <block id="8b1b8390e7a987a1d682e70703508660" category="list-text">Data sense 实例和共享之间需要有网络连接。</block>
   <block id="8e4ba18b85274d135925d3a46f8bbe8f" category="list-text">您需要采用格式 ` &lt;host_name&gt; ： /&lt;share_path&gt;` 添加的共享列表。您可以单独输入共享，也可以提供要扫描的文件共享的行分隔列表。</block>
   <block id="33eb5451afff60f62a657470854a4f05" category="list-text">对于 CIFS （ SMB ）共享，请确保您具有 Active Directory 凭据来提供对共享的读取访问权限。如果 Cloud Data sense 需要扫描任何需要提升权限的数据，则最好使用管理员凭据。</block>
@@ -2357,7 +2353,6 @@
   <block id="e3aca1bee4b16554fd364b73482af4f3" category="list-text">转至<block ref="100b541e6046352c2cfaf3c9e6ddaf4d" category="inline-link-rx"></block> 然后单击*了解如何进行身份验证*。</block>
   <block id="7ef314f37951a4ffae65aed3439a8da1" category="inline-image-macro">API文档页面的屏幕截图、其中包含身份验证说明的链接。</block>
   <block id="e7897b39cbb592afc0430305aca32cc1" category="paragraph"><block ref="e7897b39cbb592afc0430305aca32cc1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d059d805b5ca279d8574f2b15a932bed" category="list-text">按照身份验证说明进行操作、并从响应中复制_access token_。</block>
   <block id="9cb50d789a41a5c166876e5a17ca1d7c" category="list-text">在Data sense Manager节点上、运行脚本"add_scanner_node.sh"。例如、此命令将添加2个扫描程序节点：</block>
   <block id="1480262c4a9656977a70cff8c21b5dc0" category="paragraph"><block ref="0d45fd4edeb386e475963435f8cc230a" prefix="" category="inline-code"></block></block>
   <block id="0490466572986d52027e27d707b776a5" category="list-text">_client_id_=连接器客户端ID</block>
@@ -2458,7 +2453,6 @@
   <block id="1e91a35a4b5b4c34950343e981ca88b0" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 添加用户并选择扫描类型</block>
   <block id="a3f1215a60ced30f6b58ece6e4fb2da2" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看文件共享前提条件</block>
   <block id="116ef64523fed5112220351fa1d75dc4" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 创建一个组以存放文件共享</block>
-  <block id="b66fb4cea2ccd5e683401c9c49dfb560" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 添加文件共享并选择要扫描的共享</block>
   <block id="9af77730e3223116097b8cf1de0a2c1c" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 安装BlueXP Connector</block>
   <block id="ae52b22627bc20f5bd1f0ae7399f808a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 查看Data sense前提条件</block>
   <block id="5145a29bff9f5d1e0a1fc1ca423ecea3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 下载并部署Data sense</block>
@@ -2673,7 +2667,6 @@
   <block id="c09a51a41728880502cacff404ad64e8" category="paragraph">您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。</block>
   <block id="f4200d6b39c6bf611267284ca071fd8b" category="inline-link-macro">了解如何将Active Directory服务与Data sense集成</block>
   <block id="87fae032ed5605e45b8ed104db07d51d" category="paragraph">如果尚未将身份服务与Data sense集成、则此面板不会显示任何数据。 <block ref="ab23cf884d322a71ba54be70f25499ab" category="inline-link-macro-rx"></block>。</block>
-  <block id="fc6931051107a02ba34edee1230d2510" category="admonition">此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。</block>
   <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">无打开权限</block>
   <block id="e5ffd57c8ceca007705d9700419ab52a" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
   <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。</block>
@@ -2918,7 +2911,6 @@
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
   <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="99d97930418935683e2b318283d0dfe1" category="section-title">上次访问时间时间戳</block>
-  <block id="328433e1229196dfcfbc0b9d019a9d21" category="paragraph">当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。</block>
   <block id="8fccf85628cfcd90d8b0fe5cab43c86d" category="paragraph">默认情况下、如果Data sense没有这些权限、系统不会扫描卷中的这些文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以单击配置页面底部的*缺少"写入属性"权限时扫描*开关、以便Data sense可以扫描卷而不考虑权限。</block>
   <block id="3b65a5e239394b9dd027910cc1b152c1" category="inline-image-macro">屏幕截图显示了一个开关、即使Data sense没有将上次访问时间还原到原始时间戳的正确权限、您也可以使用该开关对文件进行扫描。</block>
   <block id="44408bbd035a502d323b922a5560e5d4" category="paragraph"><block ref="44408bbd035a502d323b922a5560e5d4" category="inline-image-macro-rx" type="image"></block></block>
@@ -3328,4 +3320,17 @@
   <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud provider_=在云实例上安装时、根据云提供程序输入"AWs"、"Azure"或"GCP"。</block>
   <block id="9e7ff0af4669feb5e45b838a89143e27" category="paragraph">安装审核日志文件将写入<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block></block>
   <block id="c1fe7e1d533d99b367d348052b2d15b2" category="section-title">现在、您可以使用独立脚本在安装Data sense之前对Linux系统进行资格认定</block>
+  <block id="e08c39eeecbac5d5f73dff71e2512def" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 将文件共享添加到组</block>
+  <block id="1c23c4b7c88b3335b15ccab5f09de226" category="list-text">共享可以托管在任何位置，包括云或内部。大多数情况下、这些文件共享驻留在非NetApp存储系统上。但是、旧版NetApp 7-模式存储系统中的CIFS共享可以扫描为文件共享。</block>
+  <block id="5f191911e5c5f72232f6a4507e559266" category="paragraph">Data sense无法从7-模式系统提取权限或上次访问时间。此外、在已知的问题描述 中、Linux不支持在SMB版本2上挂载CIFS共享。</block>
+  <block id="ba1b63d2bb4a9da8ac213b1773e59355" category="paragraph">当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。配置了SnapLock 的ONTAP 卷具有只读权限、并且无法将上次访问时间还原到原始时间戳。</block>
+  <block id="a22c3482ee96047a1abb3e9833dd6645" category="summary">BlueXP分类(云数据感知)是一种数据监管服务、可对数据源进行扫描、以便对数据进行映射和分类、并识别私有信息。</block>
+  <block id="0daf80bfa5f39bbd5725c0b5fb7a4c95" category="paragraph">当Data sense扫描冷数据分层到对象存储的卷时、它会扫描所有数据—本地磁盘上的数据以及分层到对象存储的冷数据。实施分层的非NetApp产品也是如此。</block>
+  <block id="a6ca0e2e27cafcb7c34af13f7d19c004" category="paragraph">扫描不会加热冷数据—它会保持冷状态并保留在对象存储中。</block>
+  <block id="10de4bc81f754b19b0d27246a0589c05" category="list-text">注意</block>
+  <block id="312ffbf4bf2c65989ebbd000c725c369" category="list-text">如果您的任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会标识在_stale Data_类别中。</block>
+  <block id="66d08fa5ddeba835b1d01655713b9120" category="admonition">此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。</block>
+  <block id="fd48a7c8c60d4f4ca62e7f192f27abea" category="list-text">如果任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会在_age of Data_图形中进行标识。</block>
+  <block id="81ca64cf8cdaf987cf8d5efa54a4b6fd" category="list-text">按照身份验证说明、在"username"和"password"参数中使用帐户管理员的用户名和密码。</block>
+  <block id="1edd72049e168646cdf62fc97f08f63c" category="list-text">然后、从响应中复制_access token_。</block>
 </blocks>

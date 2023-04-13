@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-collected-metadata.html 
-keywords: compliance, metadata, permissions, time stamps, privacy 
+keywords: compliance, metadata, permissions, time stamps, privacy, last access time 
 summary: 在对数据源和工作环境中的数据执行分类扫描时、Data sense会收集某些元数据。Data sense可以访问我们对数据进行分类所需的大多数元数据、但在某些源中、我们无法访问所需的数据。 
 ---
 = 从数据源收集的元数据
@@ -16,6 +16,7 @@ summary: 在对数据源和工作环境中的数据执行分类扫描时、Data 
 [role="lead"]
 在对数据源和工作环境中的数据执行分类扫描时、Data sense会收集某些元数据。Data sense可以访问我们对数据进行分类所需的大多数元数据、但在某些源中、我们无法访问所需的数据。
 
+[cols="15,25,25,25"]
 |===
 |  | *元数据* | * CIFS* | * NFS * 
 
@@ -38,7 +39,7 @@ summary: 在对数据源和工作环境中的数据执行分类扫描时、Data 
 
 == 上次访问时间时间戳
 
-当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。
+当Data sense从文件共享中提取数据时、操作系统会将其视为访问数据、并相应地更改"上次访问时间"。扫描后、Data sense会尝试将上次访问时间还原到原始时间戳。如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统无法将上次访问时间还原到原始时间戳。配置了SnapLock 的ONTAP 卷具有只读权限、并且无法将上次访问时间还原到原始时间戳。
 
 默认情况下、如果Data sense没有这些权限、系统不会扫描卷中的这些文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以单击配置页面底部的*缺少"写入属性"权限时扫描*开关、以便Data sense可以扫描卷而不考虑权限。
 

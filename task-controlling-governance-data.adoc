@@ -45,6 +45,10 @@ image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governanc
 
 
 * * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-investigate-data.html#viewing-all-duplicated-files["查看显示的重复文件类型"]。
++
+注意:: 如果您的任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会标识在_stale Data_类别中。
+
+
 
 
 
@@ -117,6 +121,10 @@ _Open Permissions_area 显示正在扫描的所有文件中存在的每种类型
 
 * * 数据期限图 * —根据数据创建时间，上次访问时间或上次修改时间对数据进行分类。
 * 数据图形的大小 * —根据大小对数据进行分类。
++
+注意:: 如果任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会在_age of Data_图形中进行标识。
+
+
 
 
 
