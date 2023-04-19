@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-scanning-databases.html 
-keywords: cloud compliance, enable cloud compliance, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, databases, database schemas, Oracle, SAP HANA, SQL Server, MongoDB, PostgreSQL, Data Sense 
-summary: 完成几个步骤，开始使用 Cloud Data sense 扫描数据库架构。 
+keywords: cloud compliance, enable cloud compliance, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, databases, database schemas, Oracle, SAP HANA, SQL Server, MongoDB, PostgreSQL, data sense 
+summary: 完成几个步骤、开始使用BlueXP分类扫描数据库架构。 
 ---
 = 正在扫描数据库架构
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 完成几个步骤，开始使用 Cloud Data sense 扫描数据库架�
 
 
 [role="lead"]
-完成几个步骤，开始使用 Cloud Data sense 扫描数据库架构。
+完成几个步骤、开始使用BlueXP分类扫描数据库架构。
 
 
 
@@ -26,9 +26,9 @@ summary: 完成几个步骤，开始使用 Cloud Data sense 扫描数据库架�
 [role="quick-margin-para"]
 确保您的数据库受支持，并且您具有连接到数据库所需的信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加数据库服务器
 [role="quick-margin-para"]
@@ -42,13 +42,13 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 == 查看前提条件
 
-在启用 Cloud Data sense 之前，请查看以下前提条件以确保您的配置受支持。
+在启用BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
 
 
 === 支持的数据库
 
-Cloud Data sense 可以从以下数据库扫描架构：
+BlueXP分类可以扫描以下数据库中的架构：
 
 * Amazon Relational Database Service （ Amazon RDS ）
 * MongoDB
@@ -66,14 +66,14 @@ CAUTION: 数据库中必须启用 * 统计信息收集功能。
 
 === 数据库要求
 
-可以扫描连接到云数据感知实例的任何数据库，而不管其托管在何处。要连接到数据库，您只需提供以下信息：
+无论数据库托管在何处、都可以扫描连接到BlueXP分类实例的任何数据库。要连接到数据库，您只需提供以下信息：
 
 * IP 地址或主机名
 * Port
 * 服务名称（仅用于访问 Oracle 数据库）
 * 允许对模式进行读取访问的凭据
 +
-选择用户名和密码时、请务必选择对要扫描的所有架构和表具有完全读取权限的用户名和密码。建议您为 Cloud Data sense 系统创建一个具有所有所需权限的专用用户。
+选择用户名和密码时、请务必选择对要扫描的所有架构和表具有完全读取权限的用户名和密码。我们建议您为BlueXP分类系统创建一个具有所有必需权限的专用用户。
 
 
 
@@ -81,15 +81,15 @@ CAUTION: 数据库中必须启用 * 统计信息收集功能。
 
 
 
-== 部署 Cloud Data sense 实例
+== 部署BlueXP分类实例
 
-如果尚未部署实例，请部署 Cloud Data sense 。
+如果尚未部署实例、请部署BlueXP分类。
 
-如果要扫描可通过 Internet 访问的数据库架构，则可以 link:task-deploy-cloud-compliance.html["在云中部署 Cloud Data sense"^] 或 link:task-deploy-compliance-onprem.html["在可访问 Internet 的内部位置部署 Data sense"^]。
+如果要扫描可通过 Internet 访问的数据库架构，则可以 link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^] 或 link:task-deploy-compliance-onprem.html["在可访问Internet的内部位置部署BlueXP分类"^]。
 
-如果要扫描的数据库架构安装在无法访问 Internet 的非公开站点中，则需要执行 link:task-deploy-compliance-dark-site.html["在无法访问 Internet 的同一内部位置部署 Cloud Data sense"^]。这还要求在同一内部位置部署BlueXP Connector。
+如果要扫描的数据库架构安装在无法访问 Internet 的非公开站点中，则需要执行 link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
 
-只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
+只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
 
@@ -106,7 +106,7 @@ image:screenshot_compliance_add_db_server_button.png["扫描配置页面的屏�
 .. 选择数据库类型。
 .. 输入要连接到数据库的端口和主机名或 IP 地址。
 .. 对于 Oracle 数据库，输入服务名称。
-.. 输入凭据，以便 Cloud Data sense 可以访问服务器。
+.. 输入凭据、以便BlueXP分类可以访问服务器。
 .. 单击 * 添加数据库服务器 * 。
 +
 image:screenshot_compliance_add_db_server_dialog.png["Add DB Server 页面的屏幕截图，用于标识数据库。"]
@@ -137,6 +137,6 @@ image:screenshot_compliance_select_schemas.png["扫描配置页面的屏幕截�
 
 
 .结果
-Cloud Data sense 将开始扫描您启用的数据库架构。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
+BlueXP分类开始扫描您启用的数据库架构。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
 
-请注意、Data sense每天扫描一次数据库—数据库不像其他数据源那样持续进行扫描。
+请注意、BlueXP分类每天扫描一次数据库-数据库不会像其他数据源一样连续扫描。

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-controlling-governance-data.html 
 keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
-summary: 控制与组织存储资源上的数据相关的成本。Cloud Data sense 可确定系统中陈旧数据，非业务数据，重复文件和非常大的文件的数量，以便您可以决定是要删除某些文件，还是将某些文件分层到成本较低的对象存储。 
+summary: 控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。 
 ---
 = 查看有关存储在组织中的数据的监管详细信息
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 控制与组织存储资源上的数据相关的成本。Cloud Data sen
 
 
 [role="lead"]
-控制与组织存储资源上的数据相关的成本。Cloud Data sense 可确定系统中陈旧数据，非业务数据，重复文件和非常大的文件的数量，以便您可以决定是要删除某些文件，还是将某些文件分层到成本较低的对象存储。
+控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。
 
 此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。
 
@@ -24,7 +24,7 @@ summary: 控制与组织存储资源上的数据相关的成本。Cloud Data sen
 
 " 监管 " 信息板可提供相关信息，以便您提高效率并控制存储资源上存储的数据的相关成本。
 
-image:screenshot_compliance_governance_dashboard.png["Cloud Data sense Governance 信息板的屏幕截图。"]
+image:screenshot_compliance_governance_dashboard.png["BlueXP分类监管信息板的屏幕截图。"]
 
 
 
@@ -92,7 +92,7 @@ image:screenshot_compliance_sensitive_data.png["一个屏幕截图、显示将�
 
 您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。
 
-如果尚未将身份服务与Data sense集成、则此面板不会显示任何数据。 link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与Data sense集成"^]。
+如果尚未将身份服务与BlueXP分类集成、则此面板中不会显示任何数据。 link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与BlueXP分类集成"^]。
 
 
 TIP: 此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。
@@ -185,7 +185,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 === 正在生成数据映射报告
 
-您可以从Data sense的Governance选项卡生成此报告。
+您可以从BlueXP分类中的"监管"选项卡生成此报告。
 
 .步骤
 . 从BlueXP菜单中、单击*监管>分类*。
@@ -196,9 +196,9 @@ image:screenshot_compliance_data_mapping_report_button.png["监管信息板的�
 
 
 .结果
-Data sense可生成PDF报告、您可以根据需要查看该报告并将其发送给其他组。
+BlueXP分类可生成PDF报告、您可以根据需要查看该报告并将其发送给其他组。
 
-请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
+请注意、您可以通过单击BlueXP分类页面顶部的自定义报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
 
 
 
@@ -230,7 +230,7 @@ Data sense可生成PDF报告、您可以根据需要查看该报告并将其发�
 
 === 生成数据发现评估报告
 
-您可以从Data sense的Governance选项卡生成此报告。
+您可以从BlueXP分类中的"监管"选项卡生成此报告。
 
 .步骤
 . 从BlueXP菜单中、单击*监管>分类*。
@@ -241,6 +241,6 @@ image:screenshot_compliance_data_discovery_report_button.png["监管信息板的
 
 
 .结果
-Data sense可生成PDF报告、您可以根据需要查看该报告并将其发送给其他组。
+BlueXP分类可生成PDF报告、您可以根据需要查看该报告并将其发送给其他组。
 
-请注意、您可以通过单击来自定义Data sense页面顶部报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
+请注意、您可以通过单击BlueXP分类页面顶部的自定义报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。

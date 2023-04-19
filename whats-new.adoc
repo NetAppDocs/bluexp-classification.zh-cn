@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense' 
-summary: 了解 Cloud Data sense 中的新增功能。 
+summary: 了解BlueXP分类中的新增功能。 
 ---
-= Cloud Data sense 的新增功能
+= BlueXP的新增功能分类
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 [role="lead"]
-了解 Cloud Data sense 中的新增功能。
+了解BlueXP分类中的新增功能。
 
 
 
@@ -28,15 +28,15 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
-=== 能够在云中较小的实例上部署Data sense
+=== 能够在云中的较小实例上部署BlueXP分类
 
-在AWS环境中从BlueXP Connector部署Data sense时、现在您可以从两种较小的实例类型中进行选择、而不是从默认实例中选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会存在一些限制。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。
+在AWS环境中从BlueXP Connector部署BlueXP分类时、现在您可以从两种比默认实例更小的实例类型中进行选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会存在一些限制。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。
 
 
 
-=== 现在、您可以使用独立脚本在安装Data sense之前对Linux系统进行资格认定
+=== 现在、可以使用独立脚本在安装BlueXP分类之前对Linux系统进行资格认定
 
-如果您要在运行Data sense安装的情况下验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅用于测试这些前提条件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
+如果要独立于运行BlueXP分类安装来验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅测试前提条件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["请参见How to check if your Linux host is ready to install BlueXP classification"]。
 
 
 
@@ -44,42 +44,42 @@ summary: 了解 Cloud Data sense 中的新增功能。
 
 
 
-=== 可通过Data sense UI添加您自己的自定义类别的新功能
+=== 新增了一项功能、可从BlueXP分类UI添加您自己的自定义类别
 
-现在、您可以使用Data sense添加自己的自定义类别、以便Data sense可以识别适合这些类别的文件。数据感知具有许多功能 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-categories["预定义的类别"]、因此、您可以通过此功能添加自定义类别、以确定您的组织独有的信息在您的数据中的位置。
+现在、您可以通过BlueXP分类添加自己的自定义类别、以便BlueXP分类能够识别适合这些类别的文件。BlueXP分类有很多 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-categories["预定义的类别"]、因此、您可以通过此功能添加自定义类别、以确定您的组织独有的信息在您的数据中的位置。
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-categories["了解更多信息。"^]。
 
 
 
-=== 现在、您可以从Data sense UI添加自定义关键字
+=== 现在、您可以从BlueXP分类UI添加自定义关键字
 
-Data sense能够添加自定义关键字、Data sense会在未来的扫描中识别这些关键字一段时间。但是、您需要登录到Data sense Linux主机并使用命令行界面添加关键字。在此版本中、可以在Data sense UI中添加自定义关键字、从而可以轻松地添加和编辑这些关键字。
+BlueXP分类可以添加BlueXP分类在未来扫描中识别的自定义关键字。但是、您需要登录到BlueXP classification Linux主机并使用命令行界面添加关键字。在此版本中、BlueXP分类UI中提供了添加自定义关键字的功能、因此可以轻松添加和编辑这些关键字。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words["了解有关从Data sense UI添加自定义关键字的更多信息"^]。
-
-
-
-=== 能够在更改"上次访问时间"时使用数据感知*不*扫描文件
-
-默认情况下、如果Data sense没有足够的"写入"权限、则系统不会扫描卷中的文件、因为Data sense无法将"上次访问时间"还原为原始时间戳。但是、如果您不关心上次访问时间是否重置为文件中的原始时间、则可以在配置页面中覆盖此行为、以便Data sense可以扫描卷而不考虑权限。
-
-除了此功能之外、还添加了名为"扫描分析事件"的新筛选器、以便您可以查看因Data sense无法还原上次访问时间而未分类的文件、或者即使Data sense无法还原上次访问时间也已分类的文件。
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-collected-metadata.html#last-access-time-timestamp["详细了解"上次访问时间戳"以及Data sense所需的权限"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-keywords-from-a-list-of-words["了解有关从BlueXP分类UI添加自定义关键字的更多信息"^]。
 
 
 
-=== Data sense可识别三种新类型的个人数据
+=== 当"上次访问时间"将被更改时、BlueXP分类*不*扫描文件的功能
 
-Data sense可以识别包含以下类型数据的文件并对其进行分类：
+默认情况下、如果BlueXP分类没有足够的"写入"权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。但是、如果您不在乎文件中的上次访问时间是否重置为原始时间、则可以在配置页面中覆盖此行为、以便BlueXP分类将扫描卷、而不管权限如何。
+
+与此功能结合使用时、添加了名为"扫描分析事件"的新筛选器、因此您可以查看因BlueXP分类无法还原上次访问时间而未进行分类的文件、或者即使BlueXP分类无法还原上次访问时间也进行分类的文件。
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-collected-metadata.html#last-access-time-timestamp["了解有关"上次访问时间时间戳"和BlueXP分类所需权限的更多信息"]。
+
+
+
+=== BlueXP分类标识了三种新类型的个人数据
+
+BlueXP分类可以标识包含以下类型数据的文件并对其进行分类：
 
 * 博茨瓦纳身份卡(Omang)编号
 * 博茨瓦纳的护照编号
 * 新加坡国家注册身份卡(NRIC)
 
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看 Data sense 可以在您的数据中识别的所有类型的个人数据"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看BlueXP分类可在您的数据中识别的所有个人数据类型"]。
 
 
 
@@ -93,8 +93,8 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-ca
 
 === 安装增强功能
 
-* Data sense可以安装在运行CentOS Stream 8的Linux主机上。
-* 对于无法访问Internet的站点(非公开站点)、Data sense安装程序现在会执行预检查、以确保您的系统和网络要求已满足、以便成功安装。
+* BlueXP分类可安装在运行CentOS Stream 8的Linux主机上。
+* 现在、不能访问Internet的站点(非公开站点)的BlueXP分类安装程序会执行预检查、以确保您的系统和网络要求已满足、以便成功安装。
 * 安装审核日志文件现已保存；它们将写入 `/ops/netapp/install_logs`。
 
 
@@ -106,23 +106,23 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-ca
 
 === 能够将基于策略的通知电子邮件发送到任何电子邮件地址
 
-在早期版本的Cloud Data sense中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。
+在早期版本的BlueXP分类中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found["了解有关根据策略结果发送电子邮件警报的更多信息"]。
 
 
 
-=== 现在、您可以从Data sense UI添加个人模式
+=== 现在、您可以从BlueXP分类UI添加个人模式
 
-Data sense能够添加自定义的"个人数据"、Data sense将在未来的扫描中识别此数据一段时间。但是、您需要登录到Data sense Linux主机并使用命令行添加自定义模式。在此版本中、Data sense UI可以使用regex添加个人模式、因此可以轻松地添加和编辑这些自定义模式。
+BlueXP分类可以添加BlueXP分类在未来一段时间内将识别的自定义"个人数据"。但是、您需要登录到BlueXP classification Linux主机并使用命令行添加自定义模式。在此版本中、BlueXP分类UI中提供了使用正则表达式添加个人模式的功能、因此可以轻松添加和编辑这些自定义模式。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-personal-data-identifiers-using-a-regex["了解有关从Data sense UI添加自定义模式的更多信息"^]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#add-custom-personal-data-identifiers-using-a-regex["从BlueXP分类UI中了解有关添加自定义模式的更多信息"^]。
 
 
 
-=== 能够使用Data sense移动1500万个文件
+=== 能够使用BlueXP分类移动1、500万个文件
 
-过去、Data sense最多可以将100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["了解有关使用Data sense移动源文件的更多信息"]。
+过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["了解有关使用BlueXP分类移动源文件的更多信息"]。
 
 
 
@@ -134,7 +134,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 
 === 已将新的"部分成功"状态添加到"操作状态"面板中
 
-新的"部分成功"状态表示数据感知操作已完成、某些项失败、某些项成功、例如、在移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着对所有项目执行的所有操作都成功。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-view-compliance-actions.html["请参见如何查看操作状态面板"]。
+新的"部分成功"状态表示BlueXP分类操作已完成、某些项目失败、而某些项目成功、例如、当您移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着对所有项目执行的所有操作都成功。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-view-compliance-actions.html["请参见如何查看操作状态面板"]。
 
 
 
@@ -154,16 +154,16 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 
 * "Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。
 * 现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。
-* 现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果输入包含和排除某些数据的路径、则Data sense会首先查找包含的路径中的所有文件、然后从排除的路径中删除文件、并显示结果。
+* 现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果您输入包含和排除某些数据的路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除的路径中删除文件、最后显示结果。
 
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
 
 
 
-=== 数据感知可以标识日语个人编号
+=== BlueXP分类可以标识日语个人编号
 
-数据感知功能可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看 Data sense 可以在您的数据中识别的所有类型的个人数据"]。
+BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看BlueXP分类可在您的数据中识别的所有个人数据类型"]。
 
 
 

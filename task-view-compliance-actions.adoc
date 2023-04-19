@@ -20,8 +20,8 @@ summary: '从 " 调查结果 " 窗格对多个文件运行操作时，例如删�
 
 状态可以是：
 
-* 成功—数据感知操作已完成、所有项均成功。
-* 部分成功—数据感知操作已完成、一些项目失败、一些项目成功。
+* 成功—BlueXP分类操作已完成、所有项目均成功。
+* 部分成功—BlueXP分类操作已完成、一些项目失败、一些成功。
 * In progress—操作仍在进行中。
 * Queued—操作尚未启动。
 * 已取消-操作已取消。
@@ -31,7 +31,7 @@ summary: '从 " 调查结果 " 窗格对多个文件运行操作时，例如删�
 请注意，您可以取消状态为 " 已排队 " 或 " 正在进行 " 的任何操作。
 
 .步骤
-. 在 Data sense UI 的右下角，您可以看到 * 操作状态 * 按钮 image:button_actions_status.png[""]。
+. 在BlueXP分类UI的右下角可以看到*Actions Status*按钮 image:button_actions_status.png[""]。
 . 单击此按钮，将列出最近 20 个操作。
 +
 image:screenshot_compliance_action_status.png["一个屏幕截图，用于在配置页面中显示最近 20 个操作及其状态。"]

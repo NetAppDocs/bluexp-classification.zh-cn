@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-investigate-data.html 
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
-summary: '您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从Data sense UI的许多区域导航到此页面、包括监管和合规信息板。' 
+summary: '您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。' 
 ---
 = 调查存储在组织中的数据
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: '您可以通过在"数据调查"页面中查看详细信息来调查�
 
 
 [role="lead"]
-您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从Data sense UI的许多区域导航到此页面、包括监管和合规信息板。
+您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。
 
 
 NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。
@@ -51,7 +51,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 敏感度级别 | 选择敏感度级别：个人、敏感个人或非敏感。 
 
 
-| 标识符数量 | 选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、Data sense会对每个文件夹(和子文件夹)中所有文件的匹配项进行汇总。 
+| 标识符数量 | 选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。 
 
 
 | 个人数据 | 选择 link:reference-private-data-categories.html#types-of-personal-data["个人数据的类型"^]。 
@@ -98,13 +98,13 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 创建时间 | 选择创建文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
 
 
-| 发现时间 | 选择Data sense发现文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
+| 发现时间 | 选择BlueXP分类发现文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
 
 
 | 上次修改时间 | 选择上次修改文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
 
 
-| 上次访问 | 选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于 Data sense 扫描的文件类型，这是 Data sense 上次扫描该文件的时间。 
+| 上次访问 | 选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于BlueXP分类扫描的文件类型、这是BlueXP分类扫描文件的最后一次。 
 |===
 
 
@@ -117,7 +117,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 筛选器 | 详细信息 
 
 
-| 文件路径 | 最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入include路径和exclude路径、则Data sense会先查找包含路径中的所有文件、然后从排除的路径中删除文件、并显示结果。请注意、在此筛选器中使用"*"不起作用、并且无法从扫描中排除特定文件夹-将扫描已配置共享下的所有目录和文件。 
+| 文件路径 | 最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入包含路径和排除路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除路径中删除文件、最后显示结果。请注意、在此筛选器中使用"*"不起作用、并且无法从扫描中排除特定文件夹-将扫描已配置共享下的所有目录和文件。 
 
 
 | 目录类型 | 选择目录类型："共享"或"文件夹"。 
@@ -176,7 +176,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 
 === 按分析状态筛选数据
 
-使用以下筛选器按数据感知扫描状态查看数据。
+使用以下筛选器按BlueXP分类扫描状态查看数据。
 
 [cols="30,60"]
 |===
@@ -186,7 +186,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 分析状态 | 选择一个选项以显示"等待首次扫描"、"已完成扫描"、"等待重新扫描"或"无法扫描"的文件列表。 
 
 
-| 扫描分析事件 | 选择是要查看因Data sense无法还原上次访问时间而未分类的文件、还是要查看即使Data sense无法还原上次访问时间也已分类的文件。 
+| 扫描分析事件 | 选择是要查看因BlueXP分类无法还原上次访问时间而未进行分类的文件、还是要查看即使BlueXP分类无法还原上次访问时间仍进行分类的文件。 
 |===
 link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"上次访问时间"时间戳的详细信息"] 有关使用扫描分析事件筛选时"调查"页面中显示的项目的详细信息。
 
@@ -211,7 +211,7 @@ link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"
 
 image:screenshot_compliance_file_details.png["显示数据调查页面中文件的元数据详细信息的屏幕截图。"]
 
-除了向您显示文件所在的工作环境和卷之外，元数据还会显示更多信息，包括文件权限，文件所有者，此文件是否存在重复项以及分配的 AIP 标签（如果有） link:task-org-private-data.html#categorizing-your-data-using-aip-labels["在云数据感知中集成 AIP"^]）。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#creating-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
+除了向您显示文件所在的工作环境和卷之外，元数据还会显示更多信息，包括文件权限，文件所有者，此文件是否存在重复项以及分配的 AIP 标签（如果有） link:task-org-private-data.html#categorizing-your-data-using-aip-labels["BlueXP分类中的集成AIP"^]）。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#creating-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
 
 请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如，卷名称，权限和 AIP 标签与数据库文件无关。
 
@@ -221,7 +221,7 @@ image:screenshot_compliance_file_details.png["显示数据调查页面中文件�
 * 您可以删除此文件。请参见 link:task-managing-highlights.html#deleting-source-files["正在删除源文件"] 了解详细信息。
 * 您可以为文件分配特定状态。请参见 link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["正在应用标记"] 了解详细信息。
 * 您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 link:task-org-private-data.html#assigning-users-to-manage-certain-files["为文件分配用户"] 了解详细信息。
-* 如果您已将 AIP 标签与 Cloud Data sense 集成在一起，则可以为此文件分配一个标签，或者如果已存在另一个标签，则可以更改为其他标签。请参见 link:task-org-private-data.html#assigning-aip-labels-manually["手动分配 AIP 标签"] 了解详细信息。
+* 如果已将AIP标签与BlueXP分类集成在一起、则可以为此文件分配一个标签、或者更改为其他标签(如果已存在)。请参见 link:task-org-private-data.html#assigning-aip-labels-manually["手动分配 AIP 标签"] 了解详细信息。
 
 
 
@@ -230,7 +230,7 @@ image:screenshot_compliance_file_details.png["显示数据调查页面中文件�
 
 要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。
 
-请注意，如果您看到的是 SID （安全标识符），而不是用户和组名称，则应将 Active Directory 集成到 Data sense 中。 link:task-add-active-directory-datasense.html["了解如何执行此操作"]。
+请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。 link:task-add-active-directory-datasense.html["了解如何执行此操作"]。
 
 image:screenshot_compliance_permissions.png["显示详细文件权限的屏幕截图。"]
 
@@ -244,7 +244,7 @@ image:screenshot_compliance_permissions.png["显示详细文件权限的屏幕�
 
 您可以查看存储系统中是否存储了重复的文件。如果您要确定可节省存储空间的区域，此功能非常有用。此外，确保具有特定权限或敏感信息的某些文件不会在存储系统中进行不必要的复制也会很有帮助。
 
-Data sense 使用哈希技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。
+BlueXP分类使用散列技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。
 
 您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。您也可以 link:task-managing-highlights.html#deleting-source-files["删除文件"] 如果您确信不需要特定版本的文件，请自行选择。
 
@@ -275,9 +275,9 @@ TIP: 您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在
 
 "数据调查报告"是对"数据调查"页面中经过筛选的内容的下载。
 
-您可以将报告保存到本地计算机、作为.CSV文件(最多可包含5、000行数据)或导出到NFS共享的.json文件(最多可包含不限数量的行)。如果Data sense正在扫描文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)、则最多可以下载三个报告文件。
+您可以将报告保存到本地计算机、作为.CSV文件(最多可包含5、000行数据)或导出到NFS共享的.json文件(最多可包含不限数量的行)。如果BlueXP分类是扫描文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)、则最多可以下载三个报告文件。
 
-导出到文件共享时、请确保Data sense具有正确的导出访问权限。
+导出到文件共享时、请确保BlueXP分类具有正确的导出访问权限。
 
 
 

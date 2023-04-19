@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises 
-summary: 完成以下几个步骤、将Data sense安装在您网络中的Linux主机或云中可访问Internet的Linux主机上。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
+summary: 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
 ---
-= 在可访问Internet的主机上安装Data sense
+= 在可访问Internet的主机上安装BlueXP分类
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,11 +14,11 @@ summary: 完成以下几个步骤、将Data sense安装在您网络中的Linux�
 
 
 [role="lead"]
-完成以下几个步骤、将Data sense安装在您网络中的Linux主机或云中可访问Internet的Linux主机上。在此安装过程中、您需要在网络或云中手动部署Linux主机。
+完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。
 
-如果您希望使用也位于内部的数据感知实例扫描内部 ONTAP 系统，则内部安装可能是一个不错的选择，但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
+如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则内部安装可能是一个不错的选择、但这不是一个要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
-Data sense安装脚本首先检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果您希望独立于运行Data sense安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅用于测试这些前提条件。 link:task-test-linux-system.html["了解如何检查Linux主机是否已准备好安装Data sense"]。
+BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。 link:task-test-linux-system.html["请参见How to check if your Linux host is ready to install BlueXP classification"]。
 
 Linux主机_in your premises_上的典型安装包含以下组件和连接。
 
@@ -30,7 +30,7 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。使用多个主机系统时、主系统称为_Manager node_、提供额外处理能力的其他系统称为_扫描 程序nodes_。
 
-请注意，您也可以 link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装Data sense"] 适用于完全安全的站点。
+请注意，您也可以 link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装BlueXP分类"] 适用于完全安全的站点。
 
 
 
@@ -47,31 +47,31 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<从 Cloud Data sense 启用出站 Internet 访问,请参见完整列表>>。
+确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <<从BlueXP分类启用出站Internet访问,请参见完整列表>>。
 
 [role="quick-margin-para"]
 您还需要满足的 Linux 系统 <<准备 Linux 主机系统,以下要求>>。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 下载并部署Cloud Data sense
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 下载并部署BlueXP分类
 [role="quick-margin-para"]
-从 NetApp 支持站点下载 Cloud Data sense 软件，并将安装程序文件复制到您计划使用的 Linux 主机。然后启动安装向导并按照提示部署 Data sense 实例。
+从NetApp 支持站点 下载Cloud BlueXP分类软件、并将安装程序文件复制到您计划使用的Linux主机。然后启动安装向导并按照提示部署BlueXP分类实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅 Cloud Data sense 服务
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
 [role="quick-margin-para"]
-在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
+BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
 
 
 
 == 创建连接器
 
-在安装和使用Data sense之前、需要使用BlueXP Connector。在大多数情况下、您可能会在尝试激活Cloud Data sense之前设置Connector、因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
+在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
 要在云提供商环境中创建一个、请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
-* 在 AWS 中的 Cloud Volumes ONTAP ，适用于 ONTAP 的 Amazon FSx 或 AWS S3 存储分段中扫描数据时，您可以使用 AWS 中的连接器。
-* 在 Azure 或 Azure NetApp Files 中的 Cloud Volumes ONTAP 中扫描数据时，您可以使用 Azure 中的连接器。
+* 在AWS、Amazon FSx for ONTAP 或AWS S3存储分段中扫描Cloud Volumes ONTAP 中的数据时、您可以使用AWS中的Connector。
+* 在Azure或Azure NetApp Files 中扫描Cloud Volumes ONTAP 中的数据时、您可以使用Azure中的连接器。
 +
 对于Azure NetApp Files 、必须将其部署在与要扫描的卷相同的区域中。
 
@@ -80,21 +80,24 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户均可使用这些Cloud Connector中的任何一种进行扫描。
 
-请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
+请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
 如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
 
-安装Data sense时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
+安装BlueXP分类时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
 
 
 == 准备 Linux 主机系统
 
-数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。Linux主机可以位于您的网络中、也可以位于云中。与其他应用程序共享的主机不支持数据感知 - 此主机必须是专用主机。
+BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。Linux主机可以位于您的网络中、也可以位于云中。
 
-确保您可以保持 Cloud Data sense 正常运行Cloud Data sense计算机需要保持正常运行、才能持续扫描数据。
+确保您可以保持BlueXP分类运行。BlueXP分类机需要持续扫描数据。
 
-* 在内部构建主机系统时、您可以根据计划进行Data sense扫描的数据集的大小从三种系统大小中进行选择：
+* 与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。
+
+
+* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在三种系统大小中进行选择。
 +
 [cols="18,18,26,30"]
 |===
@@ -112,28 +115,29 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
-* 在为Data sense安装部署云实例时、我们建议使用满足上述"大型"系统要求的系统：
+* 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
 ** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
 ** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
 ** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
 
 
-* *操作系统*：Red Hat Enterprise Linux或CentOS 8.0至8.7版
+* *操作系统*：操作系统必须能够安装Docker引擎。
 +
-** 此外、还支持CentOS Stream 8
+** Red Hat Enterprise Linux 8.0至8.7版
+** CentOS 8.0至8.7版
+** CentOS Stream 8.
 ** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
-** 操作系统必须能够安装Docker引擎
 
 
-* * Red Hat订阅管理*：必须向Red Hat订阅管理注册Red Hat Enterprise Linux系统。如果未注册，则系统无法在安装期间访问存储库以更新所需的第三方软件。
-* *其他软件*：在安装Data sense之前、必须在主机上安装以下软件：
+* * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
+* *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
 ** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
 ** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
-* * Firewalld注意事项*：如果您计划使用 `firewalld`、建议您在安装Data sense之前启用它。运行以下命令进行配置 `firewalld` 以便与Data sense兼容：
+* * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -144,7 +148,7 @@ firewall-cmd --permanent --add-port=443/tcp
 firewall-cmd --reload
 ....
 +
-如果您计划使用其他Data sense主机作为扫描程序节点、请此时将以下规则添加到主系统：
+如果您计划使用其他BlueXP分类主机作为扫描程序节点、请此时将这些规则添加到主系统：
 
 +
 ....
@@ -154,18 +158,18 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-如果启用 `firewalld` 安装Data sense后、必须重新启动Docker。
+如果启用 `firewalld` 安装BlueXP分类后、必须重新启动Docker。
 
 
 
 
-NOTE: 安装后、无法更改Data sense主机系统的IP地址。
+NOTE: 安装后无法更改BlueXP分类主机系统的IP地址。
 
 
 
-== 从 Cloud Data sense 启用出站 Internet 访问
+== 从BlueXP分类启用出站Internet访问
 
-云数据感知需要出站 Internet 访问。如果虚拟或物理网络使用代理服务器访问 Internet ，请确保 Data sense 实例具有出站 Internet 访问权限，以便与以下端点联系。
+BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。
 
 [cols="43,57"]
 |===
@@ -190,14 +194,14 @@ NOTE: 安装后、无法更改Data sense主机系统的IP地址。
 
 == 验证是否已启用所有必需的端口
 
-您必须确保所有所需端口均已打开、以便在Connector、Data sense、Active Directory和数据源之间进行通信。
+您必须确保所有必需的端口均已打开、可供Connector、BlueXP分类、Active Directory和数据源之间进行通信。
 
 [cols="25,25,50"]
 |===
 | 连接类型 | 端口 | Description 
 
 
-| 连接器<>数据感知 | 8080 (TCP)、443 (TCP)和80 | Connector的防火墙或路由规则必须允许通过端口443与Data sense实例之间的入站和出站流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。 
+| 连接器<> BlueXP分类 | 8080 (TCP)、443 (TCP)和80 | 连接器的防火墙或路由规则必须允许通过端口443传入和传出BlueXP分类实例的流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。 
 
 
 | Connector <> ONTAP 集群(NAS) | 443 (TCP)  a| 
@@ -209,25 +213,25 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则
 
 
 
-| 数据感知<> ONTAP 集群  a| 
+| BlueXP分类<> ONTAP 集群  a| 
 * 对于NFS - 111 (tcp\udp)和2049 (tcp\udp)
 * 对于CIFS - 139 (tcp\udp)和445 (tcp\udp)
 
  a| 
-Data sense需要与每个Cloud Volumes ONTAP 子网或内部ONTAP 系统建立网络连接。Cloud Volumes ONTAP 的防火墙或路由规则必须允许来自数据感知实例的入站连接。
+BlueXP分类需要与每个Cloud Volumes ONTAP 子网或内置ONTAP 系统建立网络连接。Cloud Volumes ONTAP 的防火墙或路由规则必须允许从BlueXP分类实例进行入站连接。
 
-确保这些端口对 Data sense 实例开放：
+确保这些端口对BlueXP分类实例开放：
 
 * 对于NFS—111和2049
 * 对于CIFS—139和445
 
 
-NFS 卷导出策略必须允许从 Data sense 实例进行访问。
+NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 
 
 
-| 数据感知<> Active Directory | 389 (TCP和UDP)、636 (TCP)、3268 (TCP)和3369 (TCP)  a| 
-您必须已为公司中的用户设置 Active Directory 。此外、Data sense还需要Active Directory凭据才能扫描CIFS卷。
+| BlueXP分类<> Active Directory | 389 (TCP和UDP)、636 (TCP)、3268 (TCP)和3369 (TCP)  a| 
+您必须已为公司中的用户设置 Active Directory 。此外、BlueXP分类需要Active Directory凭据才能扫描CIFS卷。
 
 您必须具有 Active Directory 的信息：
 
@@ -239,32 +243,32 @@ NFS 卷导出策略必须允许从 Data sense 实例进行访问。
 
 
 |===
-如果要使用多个Data sense主机提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 link:task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["请参见其他端口要求"]。
+如果您使用多个BlueXP分类主机来提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 link:task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["请参见其他端口要求"]。
 
 
 
-== 在Linux主机上安装Data sense
+== 在Linux主机上安装BlueXP分类
 
 对于典型配置，您将在一个主机系统上安装该软件。 <<典型配置的单主机安装,请在此处查看这些步骤>>。
 
-image:diagram_deploy_onprem_single_host_internet.png["一个示意图、显示了在使用可访问Internet的内部部署的单个数据感知实例时可以扫描的数据源的位置。"]
+image:diagram_deploy_onprem_single_host_internet.png["一个图表、显示了使用在内部部署且可访问Internet的单个BlueXP分类实例时可以扫描的数据源的位置。"]
 
 对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。 <<适用于大型配置的多主机安装,请在此处查看这些步骤>>。
 
-image:diagram_deploy_onprem_multi_host_internet.png["一个示意图、显示了在使用通过Internet访问部署在内部的多个数据感知实例时可以扫描的数据源的位置。"]
+image:diagram_deploy_onprem_multi_host_internet.png["一个图表、显示在使用部署在内部且可访问Internet的多个BlueXP分类实例时可以扫描的数据源的位置。"]
 
-请参见 <<准备 Linux 主机系统,准备 Linux 主机系统>> 和 <<从 Cloud Data sense 启用出站 Internet 访问,查看前提条件>> 了解部署 Cloud Data sense 之前的完整要求列表。
+请参见 <<准备 Linux 主机系统,准备 Linux 主机系统>> 和 <<从BlueXP分类启用出站Internet访问,查看前提条件>> 了解部署BlueXP分类之前的完整要求列表。
 
-只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
+只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
-NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法扫描 S3 存储分段， Azure NetApp Files 或 FSX for ONTAP 。在这种情况下，您需要在云和中部署单独的 Connector 和 Data sense 实例 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["在连接器之间切换"^] 不同的数据源。
+NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["在连接器之间切换"^] 不同的数据源。
 
 
 
 === 典型配置的单主机安装
 
-在单个内部主机上安装 Data sense 软件时，请按照以下步骤进行操作。
+在单个内部部署主机上安装BlueXP分类软件时、请按照以下步骤进行操作。
 
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
@@ -273,14 +277,14 @@ NOTE: 如果软件安装在内部环境中，则 Cloud Data sense 当前无法�
 * 如果您使用代理访问Internet：
 +
 ** 您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。
-** 如果代理正在执行TLS截获、您需要知道Data sense Linux系统上存储TLS CA证书的路径。
+** 如果代理正在执行TLS截取、您需要知道BlueXP分类Linux系统上存储TLS CA证书的路径。
 
 
-* 验证脱机环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
+* 验证脱机环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
 
 
 .步骤
-. 从下载 Cloud Data sense 软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
+. 从下载BlueXP分类软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
 . 将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。
 . 解压缩主机上的安装程序文件，例如：
 +
@@ -291,11 +295,11 @@ tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
 . 在BlueXP中、选择*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择用于激活 Cloud Data sense 的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
-. 根据您是在云中准备的实例上安装Data sense、还是在内部准备的实例上安装Data sense、单击相应的*部署*按钮启动Data sense安装。
+. 根据您是在云中准备的实例上还是在内部准备的实例上安装BlueXP分类、单击相应的*部署*按钮以启动BlueXP分类安装。
 +
-image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内部环境中的计算机上部署Cloud Data sense的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_onprem.png["选择用于在云中或内部的计算机上部署BlueXP分类的按钮的屏幕截图。"]
 
 . 此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如： `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`)并将其粘贴到文本文件中、以便稍后使用。然后单击*关闭*以关闭此对话框。
 . 在主机上、输入复制的命令、然后按照一系列提示进行操作、或者您也可以提供完整命令、其中包含所有必需的参数作为命令行参数。
@@ -314,9 +318,9 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 +
 如果要在云实例(而不是内部)上安装、请添加 `--manual-cloud-install <cloud_provider>`。
 
-.. 输入 Data sense 主机的 IP 地址或主机名，以便 Connector 实例可以访问它。
-.. 输入BlueXP Connector主机的IP地址或主机名、以便Data sense实例可以访问它。
-.. 根据提示输入代理详细信息。如果您的BlueXP Connector已使用代理、则无需在此再次输入此信息、因为Data sense将自动使用此连接器使用的代理。
+.. 输入BlueXP分类主机的IP地址或主机名、以便连接器实例可以访问它。
+.. 输入BlueXP Connector主机的IP地址或主机名、以便BlueXP分类实例可以访问它。
+.. 根据提示输入代理详细信息。如果BlueXP Connector已使用代理、则无需在此再次输入此信息、因为BlueXP分类会自动使用连接器使用的代理。
 
 | 或者、您也可以预先创建整个命令、并提供必要的主机和代理参数：
 `sudo ./install.sh -a <account_id> -c <agent_id> -t <token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
@@ -328,7 +332,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 ** _account_id_ = NetApp 帐户 ID
 ** _agent_id_ = 连接器 ID
 ** _token_ = JWT 用户令牌
-** _ds_host_ = Data sense Linux 系统的 IP 地址或主机名。
+** _ds_host_= BlueXP分类Linux系统的IP地址或主机名。
 ** _cm_host_= BlueXP Connector系统的IP地址或主机名。
 ** _cloud provider_=在云实例上安装时、根据云提供程序输入"AWs"、"Azure"或"GCP"。
 ** _proxy_host_ = 代理服务器的 IP 或主机名（如果主机位于代理服务器之后）。
@@ -336,20 +340,20 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择按钮在云中或内
 ** _proxy_scheme_= 连接方案： HTTPS 或 http （默认为 http ）。
 ** _proxy_user_= 已通过身份验证的用户，用于连接到代理服务器（如果需要基本身份验证）。
 ** _proxy_password_ = 指定用户名的密码。
-** _ca_ct_dir_ = 包含其他 TLS CA 证书包的 Data sense Linux 系统上的路径。仅当代理正在执行 TLS 截获时才需要。
+** _ca_cert_dir_=包含其他TLS CA证书包的BlueXP分类Linux系统上的路径。仅当代理正在执行 TLS 截获时才需要。
 
 
 
 
 .结果
-Cloud Data sense安装程序可安装软件包、注册安装并安装Data sense。安装可能需要 10 到 20 分钟。
+BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类。安装可能需要 10 到 20 分钟。
 
-如果主机和Connector实例之间通过端口8080建立连接、您将在BlueXP的数据感知选项卡中看到安装进度。
+如果主机和连接器实例之间通过端口8080建立了连接、您将在BlueXP的BlueXP分类选项卡中看到安装进度。
 
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 
-您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
@@ -365,7 +369,7 @@ Cloud Data sense安装程序可安装软件包、注册安装并安装Data sense
 
 默认情况下、您添加的任何新扫描程序节点都会添加到常规扫描资源池中。这称为"默认扫描程序组"。在下图中、"默认"组中有1个管理器节点和3个扫描程序节点、这些节点均扫描所有6个数据源中的数据。
 
-image:diagram_onprem_scanner_groups_default.png["一个示意图、用于展示Data sense扫描程序在默认扫描程序组中如何扫描数据源。"]
+image:diagram_onprem_scanner_groups_default.png["BlueXP分类扫描程序如何扫描默认扫描程序组中的数据源的示意图。"]
 
 如果您的某些数据源要由物理上更接近数据源的扫描程序节点扫描、则可以定义一个扫描程序节点或一组扫描程序节点、以扫描特定数据源或一组数据源。在下图中、有1个管理器节点和3个扫描程序节点。
 
@@ -374,13 +378,13 @@ image:diagram_onprem_scanner_groups_default.png["一个示意图、用于展示D
 * 扫描程序节点2和3属于"欧洲"组、它们共享3个数据源的扫描任务
 
 
-image:diagram_onprem_scanner_groups.png["一个示意图、用于展示分配给不同扫描程序组时Data sense扫描程序如何扫描数据源。"]
+image:diagram_onprem_scanner_groups.png["BlueXP分类扫描程序在分配给不同扫描程序组时如何扫描数据源的示意图。"]
 
-数据感知扫描程序组可以定义为存储数据的不同地理区域。您可以在全球部署多个数据感知扫描程序节点、并为每个节点选择一个扫描程序组。这样、每个扫描程序节点都会扫描与其最接近的数据。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。
+BlueXP分类扫描程序组可以定义为存储数据的单独地理区域。您可以在全球部署多个BlueXP分类扫描程序节点、并为每个节点选择一个扫描程序组。这样、每个扫描程序节点都会扫描与其最接近的数据。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。
 
-您可以选择要添加到Data sense中的扫描程序组、也可以选择其名称。Data sense不强制将映射到名为"欧洲"的扫描程序组的节点部署在欧洲。
+您可以选择要添加到BlueXP分类的扫描程序组、也可以选择其名称。BlueXP分类不会强制将映射到名为"Euro"的扫描程序组的节点部署在欧洲。
 
-您将按照以下步骤安装其他Data sense扫描程序节点：
+您将按照以下步骤安装其他BlueXP分类扫描程序节点：
 
 . 准备用作扫描程序节点的Linux主机系统
 . 将Data sense软件下载到这些Linux系统
@@ -398,9 +402,9 @@ image:diagram_onprem_scanner_groups.png["一个示意图、用于展示分配给
 * 验证扫描程序节点的所有Linux系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
 * 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
-* 验证您的环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
+* 验证您的环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
 * 您必须具有要添加的扫描程序节点主机的IP地址。
-* 您必须具有Data sense Manager节点主机系统的IP地址
+* 您必须知道BlueXP分类管理器节点主机系统的IP地址
 * 您必须具有连接器系统的IP地址或主机名、NetApp帐户ID、连接器客户端ID和用户访问令牌。如果您计划使用扫描程序组、则需要知道帐户中每个数据源的工作环境ID。要获取此信息、请参见下面的*前提条件步骤_*。
 * 必须在所有主机上启用以下端口和协议：
 +
@@ -426,7 +430,7 @@ image:diagram_onprem_scanner_groups.png["一个示意图、用于展示分配给
 
 | 2049. | TCP ， UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
 |===
-* 如果您使用的是 ... `firewalld` 在您的Data sense计算机上、建议您在安装Data sense之前启用它。运行以下命令进行配置 `firewalld` 以便与Data sense兼容：
+* 如果您使用的是 ... `firewalld` 在BlueXP分类计算机上、我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -441,7 +445,7 @@ firewall-cmd --permanent --add-port=4789/udp
 firewall-cmd --reload
 ....
 +
-如果启用 `firewalld` 安装Data sense后、必须重新启动Docker。
+如果启用 `firewalld` 安装BlueXP分类后、必须重新启动Docker。
 
 
 
@@ -458,9 +462,9 @@ image:screenshot_account_id.png["BlueXP帐户详细信息的屏幕截图。"]
 image:screenshot_connector_client_id.png["BlueXP Connector配置设置的屏幕截图。"]
 
 . 复制connector _Client ID_和_Server Name_。
-. 如果您计划使用扫描程序组、请从"数据感知配置"选项卡中、复制计划添加到扫描程序组的每个工作环境的工作环境ID。
+. 如果您计划使用扫描程序组、请从"BlueXP分类配置"选项卡中、复制您计划添加到扫描程序组的每个工作环境的工作环境ID。
 +
-image:screenshot_work_env_id.png["Data sense Configuration页面中的工作环境ID的屏幕截图。"]
+image:screenshot_work_env_id.png["BlueXP分类配置页面中的工作环境ID的屏幕截图。"]
 
 . 转至 https://services.cloud.netapp.com/developer-hub["API文档开发人员中心"^] 然后单击*了解如何进行身份验证*。
 +
@@ -471,7 +475,7 @@ image:screenshot_client_access_token.png["API文档页面的屏幕截图、其�
 
 
 .步骤
-. 在Data sense Manager节点上、运行脚本"add_scanner_node.sh"。例如、此命令将添加2个扫描程序节点：
+. 在BlueXP分类管理器节点上、运行脚本"add_sanner_node．sh"。例如、此命令将添加2个扫描程序节点：
 +
 `sudo ./add_scanner_node.sh -a <account_id> -c <client_id> -m <cm_host> -h <ds_manager_ip> *-n <node_private_ip_1,node_private_ip_2>* -t <user_token>`
 
@@ -482,8 +486,8 @@ image:screenshot_client_access_token.png["API文档页面的屏幕截图、其�
 ** _account_id_ = NetApp 帐户 ID
 ** _client_id_=连接器客户端ID
 ** _cm_host_=连接器系统的IP地址或主机名
-** _ds_manager_ip_= Data sense Manager节点系统的专用IP地址
-** _node_private_IP_=数据感知扫描程序节点系统的IP地址(多个扫描程序节点IP以逗号分隔)
+** _ds_manager_IP_= BlueXP分类管理器节点系统的专用IP地址
+** _NODE_PRIVIGE_IP_= BlueXP分类扫描程序节点系统的IP地址(多个扫描程序节点IP以逗号分隔)
 ** _user_token_= JWT用户访问令牌
 
 
@@ -524,20 +528,20 @@ scanner_groups:
 
 
 .结果
-Data sense可通过管理器和扫描程序节点进行设置、以扫描所有数据源。
+BlueXP分类可通过管理器和扫描程序节点进行设置、以扫描所有数据源。
 
 .下一步行动
 如果尚未扫描、您可以从配置页面中选择要扫描的数据源。如果创建了扫描程序组、则每个数据源都会由相应组中的扫描程序节点进行扫描。
 
 您可以在配置页面中查看每个工作环境的扫描程序组名称。
 
-image:screenshot_work_env_id.png["Data sense Configuration页面中的工作环境ID的屏幕截图。"]
+image:screenshot_work_env_id.png["BlueXP分类配置页面中的工作环境ID的屏幕截图。"]
 
 您还可以在配置页面底部查看所有扫描程序组的列表以及组中每个扫描程序节点的IP地址和状态。
 
 image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每个扫描程序节点的IP地址的屏幕截图。"]
 
-您可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
+您可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
 
 
 
@@ -545,13 +549,13 @@ image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每�
 
 对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。使用多个主机系统时，主系统称为 _Manager node_ ，提供额外处理能力的其他系统称为 _扫描 程序 nodes_ 。
 
-在多个内部主机上同时安装Data sense软件时、请按照以下步骤进行操作。请注意、在以这种方式部署多个主机时、不能使用"扫描程序组"。
+同时在多个内部主机上安装BlueXP分类软件时、请遵循以下步骤。请注意、在以这种方式部署多个主机时、不能使用"扫描程序组"。
 
 .您需要的内容
 * 验证管理器和扫描程序节点的所有 Linux 系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
 * 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
-* 验证您的环境是否满足要求 <<从 Cloud Data sense 启用出站 Internet 访问,权限和连接>>。
+* 验证您的环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。
 * 必须在所有主机上启用以下端口和协议：
 +
@@ -602,9 +606,9 @@ image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每�
 
 
 .结果
-Cloud Data sense 安装程序将完成软件包安装，并注册安装。安装可能需要 10 到 20 分钟。
+BlueXP分类安装程序完成软件包安装并注册安装。安装可能需要 10 到 20 分钟。
 
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 
-您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。

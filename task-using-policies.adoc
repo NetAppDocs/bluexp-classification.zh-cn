@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-using-policies.html 
 keywords: compliance, privacy, filter data, highlights, policies, email alerts, notifications, aip labels, azure information protection, add labels, change labels, tags, data sense 
-summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。Cloud Data sense 可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。' 
+summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。' 
 ---
 = 为数据分配策略
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 
 
 
 [role="lead"]
-策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。Cloud Data sense 可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。
+策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。
 
 策略提供以下功能：
 
@@ -26,9 +26,9 @@ summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 
 * 如果某些策略返回结果，则会自动删除文件（每天删除一次），以便您可以自动保护数据
 
 
-合规性信息板中的 * 策略 * 选项卡列出了此 Cloud Data sense 实例上可用的所有预定义和自定义策略。
+"合规性信息板"中的*Policies*选项卡列出了此BlueXP分类实例中可用的所有预定义策略和自定义策略。
 
-image:screenshot_compliance_highlights_tab.png["Cloud Data sense 信息板中的策略选项卡的屏幕截图。"]
+image:screenshot_compliance_highlights_tab.png["BlueXP分类信息板中的\"Policies\"选项卡的屏幕截图。"]
 
 此外，策略还会显示在 " 调查 " 页面的筛选器列表中。
 
@@ -76,7 +76,7 @@ image:screenshot_compliance_save_highlight.png["显示如何配置和保存策�
 
 == 在发现不合规数据时发送电子邮件警报
 
-当某些关键策略返回结果时、Cloud Data sense可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得保护数据的通知。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。
+当某些关键策略返回结果时、BlueXP分类可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得通知来保护数据。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。
 
 您可以在创建策略或编辑任何策略时配置此设置。
 
@@ -106,7 +106,7 @@ image:screenshot_compliance_add_email_alert_2.png["屏幕截图显示了如何�
 
 == 使用策略自动删除源文件
 
-您可以创建自定义策略以删除与此策略匹配的文件。例如，您可能希望删除包含敏感信息且在过去 30 天内由 Data sense 发现的文件。
+您可以创建自定义策略以删除与此策略匹配的文件。例如、您可能希望删除包含敏感信息且在过去30天内被BlueXP分类发现的文件。
 
 只有帐户管理员可以创建一个策略来自动删除文件。
 
@@ -139,7 +139,7 @@ image:screenshot_compliance_delete_files_using_policies.png["显示如何配置�
 
 您可以为符合策略标准的所有文件分配 AIP 标签。您可以在创建策略时指定 AIP 标签，也可以在编辑任何策略时添加此标签。
 
-在 Cloud Data sense 扫描文件时，标签会在文件中持续添加或更新。
+在BlueXP分类扫描文件时、文件中的标签会持续添加或更新。
 
 根据标签是否已应用于文件以及标签的分类级别，更改标签时会执行以下操作：
 
@@ -220,7 +220,7 @@ image:screenshot_compliance_edit_policy_query.png["显示如何通过更改筛�
 
 == 预定义策略列表
 
-Cloud Data sense 提供了以下系统定义的策略：
+BlueXP分类提供了以下系统定义的策略：
 
 [cols="25,40,40"]
 |===

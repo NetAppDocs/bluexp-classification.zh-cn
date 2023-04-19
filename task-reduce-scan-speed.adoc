@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-reduce-scan-speed.html 
 keywords: slow scans, reduce speed 
-summary: '数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为执行 " 缓慢 " 扫描。' 
+summary: '数据扫描对存储系统和数据的影响可以忽略不计。但是、如果您担心的影响非常小、则可以将BlueXP分类配置为执行"慢速"扫描。' 
 ---
-= 降低数据感知扫描速度
+= 降低BlueXP分类扫描速度
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: '数据扫描对存储系统和数据的影响可以忽略不计。但�
 
 
 [role="lead"]
-数据扫描对存储系统和数据的影响可以忽略不计。但是，如果您担心即使影响很小，也可以将 Data sense 配置为执行 " 缓慢 " 扫描。
+数据扫描对存储系统和数据的影响可以忽略不计。但是、如果您担心的影响非常小、则可以将BlueXP分类配置为执行"慢速"扫描。
 
 启用后，所有数据源都会使用慢速扫描—您不能为单个工作环境或数据源配置慢速扫描。
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-scanning-s3.html 
 keywords: cloud compliance, amazon s3, s3 buckets, amazon s3 buckets, scan s3 buckets, scan amazon s3 buckets, enable compliance s3, enable compliance on s3, s3 working environment, data sense 
-summary: Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对象存储中的个人和敏感数据。Cloud Data sense 可以扫描帐户中的任何存储分段，而不管它是否是为 NetApp 解决方案创建的。 
+summary: BlueXP分类可以扫描Amazon S3存储分段、以确定驻留在S3对象存储中的个人数据和敏感数据。BlueXP分类可以扫描帐户中的任何存储分段、而不管该存储分段是否是为NetApp解决方案 创建的。 
 ---
-= Amazon S3 云数据感知入门
+= Amazon S3 BlueXP分类入门
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对
 
 
 [role="lead"]
-Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对象存储中的个人和敏感数据。Cloud Data sense 可以扫描帐户中的任何存储分段，而不管它是否是为 NetApp 解决方案创建的。
+BlueXP分类可以扫描Amazon S3存储分段、以确定驻留在S3对象存储中的个人数据和敏感数据。BlueXP分类可以扫描帐户中的任何存储分段、而不管该存储分段是否是为NetApp解决方案 创建的。
 
 
 
@@ -24,19 +24,19 @@ Cloud Data sense 可以扫描 Amazon S3 存储分段，以确定 S3 对象存储
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 在云环境中设置 S3 要求
 [role="quick-margin-para"]
-确保您的云环境能够满足 Cloud Data sense 的要求，包括准备 IAM 角色以及设置从 Data sense 到 S3 的连接。 <<查看 S3 前提条件,请参见完整列表>>。
+确保您的云环境可以满足BlueXP分类的要求、包括准备IAM角色以及设置从BlueXP分类到S3的连接。 <<查看 S3 前提条件,请参见完整列表>>。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 在 S3 工作环境中激活 Data sense
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 在S3工作环境中激活BlueXP分类
 [role="quick-margin-para"]
 选择 Amazon S3 工作环境，单击 * 启用 * ，然后选择包含所需权限的 IAM 角色。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
 [role="quick-margin-para"]
-选择要扫描的存储分段， Cloud Data sense 将开始扫描这些存储分段。
+选择要扫描的存储分段、BlueXP分类将开始扫描它们。
 
 
 
@@ -45,7 +45,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 以下要求特定于扫描 S3 存储分段。
 
 [[policy-requirements]]
-为云数据感知实例设置 IAM 角色:: Cloud Data sense 需要获得连接到您帐户中的 S3 存储分段并对其进行扫描的权限。设置一个包含以下权限的 IAM 角色。在Amazon S3工作环境中启用Data sense时、BlueXP会提示您选择IAM角色。
+为BlueXP分类实例设置IAM角色:: BlueXP分类需要有权限连接到您帐户中的S3存储分段并对其进行扫描。设置一个包含以下权限的 IAM 角色。在Amazon S3工作环境中启用BlueXP分类时、BlueXP会提示您选择IAM角色。
 +
 --
 [source, json]
@@ -78,10 +78,10 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 }
 ----
 --
-提供从 Cloud Data sense 到 Amazon S3 的连接:: Cloud Data sense 需要连接到 Amazon S3 。提供此连接的最佳方式是通过 VPC 端点连接到 S3 服务。有关说明，请参见 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 文档：创建网关端点"^]。
+提供从BlueXP分类到Amazon S3的连接:: BlueXP分类需要连接到Amazon S3。提供此连接的最佳方式是通过 VPC 端点连接到 S3 服务。有关说明，请参见 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 文档：创建网关端点"^]。
 +
 --
-创建 VPC 端点时，请务必选择与云数据感知实例对应的区域， VPC 和路由表。您还必须修改安全组才能添加出站 HTTPS 规则、该规则允许通信到 S3 端点。否则， Data sense 将无法连接到 S3 服务。
+创建VPC端点时、请务必选择与BlueXP分类实例对应的区域、VPC和路由表。您还必须修改安全组才能添加出站 HTTPS 规则、该规则允许通信到 S3 端点。否则、BlueXP分类无法连接到S3服务。
 
 如果遇到任何问题，请参见 https://aws.amazon.com/premiumsupport/knowledge-center/connect-s3-vpc-endpoint/["AWS支持知识中心：为什么我无法使用网关VPC端点连接到S3存储分段？"^]
 
@@ -95,21 +95,21 @@ NOTE: 您无法使用代理通过 Internet 访问 S3 。
 
 
 
-== 部署 Cloud Data sense 实例
+== 部署BlueXP分类实例
 
-link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果尚未部署实例。
 
 您需要使用部署在AWS中的Connector部署此实例、以便BlueXP自动发现此AWS帐户中的S3存储分段并将其显示在Amazon S3工作环境中。
 
-* 注意： * 扫描 S3 存储分段时，当前不支持在内部位置部署 Cloud Data sense 。
+*注意：*扫描S3存储分段时、当前不支持在内部位置部署BlueXP分类。
 
-只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
+只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
 
-== 在 S3 工作环境中激活 Data sense
+== 在S3工作环境中激活BlueXP分类
 
-验证前提条件后，在 Amazon S3 上启用 Cloud Data sense 。
+验证前提条件后、在Amazon S3上启用BlueXP分类。
 
 .步骤
 . 从BlueXP左侧导航菜单中、单击*存储>画布*。
@@ -119,17 +119,17 @@ image:screenshot_s3_we.gif["Amazon S3 工作环境图标的屏幕截图"]
 
 . 在右侧的服务窗格中、单击*分类*旁边的*启用*。
 +
-image:screenshot_s3_enable_compliance.png["从 \" 服务 \" 面板启用 Cloud Data sense 服务的屏幕截图"]
+image:screenshot_s3_enable_compliance.png["从\"服务\"面板启用BlueXP分类服务的屏幕截图"]
 
-. 出现提示时，将 IAM 角色分配给具有的 Cloud Data sense 实例 <<查看 S3 前提条件,所需权限>>。
+. 出现提示时、将IAM角色分配给具有的BlueXP分类实例 <<查看 S3 前提条件,所需权限>>。
 +
-image:screenshot_s3_compliance_iam_role.png["为 Cloud Data sense 输入 AWS IAM 角色的屏幕截图"]
+image:screenshot_s3_compliance_iam_role.png["为BlueXP分类输入AWS IAM角色的屏幕截图"]
 
 . 单击 * 启用 * 。
 
 
 
-TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif[""] 按钮并选择 * 激活数据感知 * 。
+TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif[""] 按钮并选择*激活BlueXP分类*。
 
 .结果
 BlueXP将IAM角色分配给实例。
@@ -138,11 +138,11 @@ BlueXP将IAM角色分配给实例。
 
 == 在 S3 存储分段上启用和禁用合规性扫描
 
-在BlueXP在Amazon S3上启用Cloud Data sense后、下一步是配置要扫描的分段。
+在BlueXP在Amazon S3上启用BlueXP分类后、下一步是配置要扫描的分段。
 
 当BlueXP在包含要扫描的S3存储分段的AWS帐户中运行时、它会发现这些存储分段并将其显示在Amazon S3工作环境中。
 
-云数据感知也可以 <<从其他 AWS 帐户扫描存储分段,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
+BlueXP分类也可以 <<从其他 AWS 帐户扫描存储分段,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
 
 .步骤
 . 选择 Amazon S3 工作环境。
@@ -171,13 +171,13 @@ image:screenshot_s3_select_buckets.png["选择要扫描的 S3 存储分段的屏
 
 
 .结果
-Cloud Data sense 开始扫描您启用的 S3 存储分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
+BlueXP分类开始扫描您启用的S3分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
 
 
 
 == 从其他 AWS 帐户扫描存储分段
 
-您可以通过从其他 AWS 帐户中分配角色来扫描此帐户下的 S3 存储分段，以访问现有 Cloud Data sense 实例。
+您可以通过从其他AWS帐户分配角色来扫描该帐户下的S3分段、以访问现有BlueXP分类实例。
 
 .步骤
 . 转到要扫描 S3 存储分段的目标 AWS 帐户，然后选择 * 其他 AWS 帐户 * 来创建 IAM 角色。
@@ -188,9 +188,9 @@ image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕
 请务必执行以下操作：
 
 +
-** 输入 Cloud Data sense 实例所在帐户的 ID 。
+** 输入BlueXP分类实例所在帐户的ID。
 ** 将 * 最大 CLI/API 会话持续时间 * 从 1 小时更改为 12 小时，然后保存此更改。
-** 附加云数据感知 IAM 策略。确保它具有所需的权限。
+** 附加BlueXP分类IAM策略。确保它具有所需的权限。
 +
 [source, json]
 ----
@@ -211,7 +211,7 @@ image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕
 ----
 
 
-. 转到 Data sense 实例所在的源 AWS 帐户，然后选择附加到该实例的 IAM 角色。
+. 转到BlueXP分类实例所在的源AWS帐户、然后选择附加到该实例的IAM角色。
 +
 .. 将 * 最大 CLI/API 会话持续时间 * 从 1 小时更改为 12 小时，然后保存此更改。
 .. 单击 * 附加策略 * ，然后单击 * 创建策略 * 。
@@ -243,16 +243,16 @@ image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕
 }
 ----
 +
-Cloud Data sense 实例配置文件帐户现在可以访问其他 AWS 帐户。
+BlueXP分类实例配置文件帐户现在可以访问其他AWS帐户。
 
 
 
-. 转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意、Cloud Data sense可能需要几分钟时间来同步新客户的工作环境并显示此信息。
+. 转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意、BlueXP分类可能需要几分钟时间来同步新帐户的工作环境并显示此信息。
 +
-image:screenshot_activate_and_select_buckets.png["显示如何激活 Data sense 的屏幕截图。"]
+image:screenshot_activate_and_select_buckets.png["显示如何激活BlueXP分类的屏幕截图。"]
 
-. 单击 * 激活数据感知并选择分段 * ，然后选择要扫描的分段。
+. 单击*激活BlueXP分类并选择存储分段*，然后选择要扫描的存储分段。
 
 
 .结果
-Cloud Data sense 将开始扫描您启用的新 S3 存储分段。
+BlueXP分类开始扫描您启用的新S3分段。

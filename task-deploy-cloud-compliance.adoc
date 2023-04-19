@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-deploy-cloud-compliance.html 
 keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance 
-summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在与BlueXP Connector相同的云提供商网络中部署Data sense实例。 
+summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueXP Connector相同的云提供商网络中部署BlueXP分类实例。 
 ---
-= 使用BlueXP在云中部署Cloud Data sense
+= 使用BlueXP在云中部署BlueXP分类
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 
 [role="lead"]
-完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在与BlueXP Connector相同的云提供商网络中部署Data sense实例。
+完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueXP Connector相同的云提供商网络中部署BlueXP分类实例。
 
-请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问Internet的Linux主机上安装Data sense"]。如果您希望使用也位于内部的数据感知实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这并不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
+请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问Internet的Linux主机上安装BlueXP分类"]。如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
 
 
@@ -33,26 +33,26 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。其中包括实例的出站 Internet 访问，通过端口 443 在 Connector 和 Cloud Data sense 之间建立连接等。 <<查看前提条件,请参见完整列表>>。
+确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <<查看前提条件,请参见完整列表>>。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署 Cloud Data sense
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署BlueXP分类
 [role="quick-margin-para"]
-启动安装向导以在云中部署 Cloud Data sense 实例。
+启动安装向导以在云中部署BlueXP分类实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅 Cloud Data sense 服务
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
 [role="quick-margin-para"]
-在BlueXP中、Cloud Data sense扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。
+BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。
 
 
 
 == 创建连接器
 
-如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能会在尝试激活 Cloud Data sense 之前设置 Connector ，因为大多数情况下都是这样 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
+如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
-* 在 AWS 中的 Cloud Volumes ONTAP ，适用于 ONTAP 的 Amazon FSx 或 AWS S3 存储分段中扫描数据时，您可以使用 AWS 中的连接器。
-* 在 Azure 或 Azure NetApp Files 中的 Cloud Volumes ONTAP 中扫描数据时，您可以使用 Azure 中的连接器。
+* 在AWS、Amazon FSx for ONTAP 或AWS S3存储分段中扫描Cloud Volumes ONTAP 中的数据时、您可以使用AWS中的Connector。
+* 在Azure或Azure NetApp Files 中扫描Cloud Volumes ONTAP 中的数据时、您可以使用Azure中的连接器。
 +
 ** 对于Azure NetApp Files 、必须将其部署在与要扫描的卷相同的区域中。
 
@@ -62,7 +62,7 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 使用上述任一Cloud Connector时、可以扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户。
 
-请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。某些计划在内部安装 Data sense 的用户也可以选择在内部安装 Connector 。
+请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
 如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
 
@@ -70,7 +70,7 @@ summary: 完成几个步骤，在云中部署 Cloud Data sense 。BlueXP将在�
 
 === 政府区域支持
 
-如果在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中部署了Connector、则支持Cloud Data sense。以这种方式部署时、Data sense具有以下限制：
+如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类。以这种方式部署时、BlueXP分类具有以下限制：
 
 * 无法扫描OneDrive帐户、SharePoint帐户和Google Drive帐户。
 * 无法集成Microsoft Azure信息保护(AIP)标签功能。
@@ -82,19 +82,19 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 
 == 查看前提条件
 
-在云中部署 Cloud Data sense 之前，请查看以下前提条件以确保您的配置受支持。
+在云中部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
-从 Cloud Data sense 启用出站 Internet 访问:: 云数据感知需要出站 Internet 访问。如果虚拟或物理网络使用代理服务器访问 Internet ，请确保 Data sense 实例具有出站 Internet 访问权限，以便与以下端点联系。在云中部署 Data sense 时，它与 Connector 位于同一子网中。
+从BlueXP分类启用出站Internet访问:: BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。在云中部署BlueXP分类时、它与连接器位于同一子网中。
 +
 --
-根据您是在 AWS ， Azure 还是 GCP 中部署 Cloud Data sense ，查看下表。
+根据您是在AWS、Azure还是GCP中部署BlueXP分类、查看下表。
 
 --
 
 
 [role="tabbed-block"]
 ====
-.AWS部署所需的端点
+.AWS所需端点
 --
 [cols="43,57"]
 |===
@@ -113,10 +113,10 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 | https://kinesis.us-east-1.amazonaws.com | 使 NetApp 能够从审计记录流化数据。 
 
 
-| https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | 支持 Cloud Data sense 访问和下载清单和模板，以及发送日志和指标。 
+| https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | 启用BlueXP分类以访问和下载清单和模板、并发送日志和指标。 
 |===
 --
-.Azure部署所需的端点
+.Azure所需端点
 --
 [cols="43,57"]
 |===
@@ -135,7 +135,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 | https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
 |===
 --
-.GCP部署所需的端点
+.GCP所需的端点
 --
 [cols="43,57"]
 |===
@@ -155,8 +155,8 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 |===
 --
 ====
-确保BlueXP具有所需权限:: 确保BlueXP有权为云数据感知实例部署资源并创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
-确保BlueXP Connector可以访问Cloud Data sense:: 确保 Connector 与 Cloud Data sense 实例之间的连接。Connector 的安全组必须允许通过端口 443 与 Data sense 实例之间的入站和出站流量。通过此连接，可以部署 Data sense 实例，并可在合规性和监管选项卡中查看信息。AWS 和 Azure 中的政府区域支持云数据感知。
+确保BlueXP具有所需权限:: 确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+确保BlueXP Connector可以访问BlueXP分类:: 确保连接器与BlueXP分类实例之间的连接。连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。通过此连接、可以部署BlueXP分类实例、并可在合规性和监管选项卡中查看信息。在AWS和Azure中的政府地区支持BlueXP分类。
 +
 --
 AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS 中连接器的规则"^] 了解详细信息。
@@ -164,14 +164,14 @@ AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 h
 Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure 中连接器的规则"^] 了解详细信息。
 
 --
-确保您可以保持 Cloud Data sense 正常运行:: 云数据感知实例需要保持运行状态才能持续扫描数据。
-确保 Web 浏览器连接到 Cloud Data sense:: 启用Cloud Data sense后、请确保用户从连接到Data sense实例的主机访问BlueXP界面。
+确保您可以保持BlueXP分类运行:: BlueXP分类实例需要持续扫描数据。
+确保Web浏览器连接到BlueXP分类:: 启用BlueXP分类后、确保用户从连接到BlueXP分类实例的主机访问BlueXP界面。
 +
 --
-数据感知实例使用专用 IP 地址来确保索引数据无法通过 Internet 访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商的直接连接（例如 VPN ），也可以来自与 Data sense 实例位于同一网络中的主机。
+BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商(例如VPN)的直接连接、也可以来自与BlueXP分类实例位于同一网络中的主机。
 
 --
-检查 vCPU 限制:: 确保云提供商的vCPU限制允许部署具有所需核心数的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-cloud-data-sense-instance["请参见所需的实例类型"]。
+检查 vCPU 限制:: 确保云提供商的vCPU限制允许部署具有所需核心数的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-bluexp-classification-instance["请参见所需的实例类型"]。
 +
 --
 有关 vCPU 限制的详细信息，请参见以下链接：
@@ -181,18 +181,18 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 * https://cloud.google.com/compute/quotas["Google Cloud 文档：资源配额"^]
 
 
-请注意、您可以在CPU更少、RAM更少的AWS云环境中的实例上部署Data sense、但使用这些系统时会有一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
+请注意、您可以在CPU较少、RAM较少的AWS云环境中的实例上部署BlueXP分类、但使用这些系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
 --
 
 
 
 
-== 在云中部署 Data sense
+== 在云中部署BlueXP分类
 
-按照以下步骤在云中部署 Cloud Data sense 实例。Connector将在云中部署此实例、然后在该实例上安装Data sense软件。
+按照以下步骤在云中部署BlueXP分类实例。Connector将在云中部署实例、然后在该实例上安装BlueXP分类软件。
 
-请注意、在AWS环境中从BlueXP Connector部署Data sense时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。在默认实例类型不可用的区域中、Data sense在上运行 link:reference-instance-types.html["备用实例类型"]。
+请注意、在AWS环境中从BlueXP Connector部署BlueXP分类时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。在默认实例类型不可用的区域中、BlueXP分类在上运行 link:reference-instance-types.html["备用实例类型"]。
 
 [role="tabbed-block"]
 ====
@@ -201,11 +201,11 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 .步骤
 . 从BlueXP左侧导航菜单中、单击*监管>分类*。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
 . 单击 * 激活数据感知 * 。
 +
-image:screenshot_cloud_compliance_deploy_cloud_aws.png["选择在云中部署Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_cloud_aws.png["选择用于在云中部署BlueXP分类的按钮的屏幕截图。"]
 
 . 在_Installation_page中、单击*部署>部署*以使用"大型"实例大小并启动云部署向导。
 +
@@ -215,13 +215,13 @@ image:screenshot_cloud_compliance_deploy_cloud_aws.png["选择在云中部署Dat
 然后单击*部署*以启动云部署向导。
 
 +
-image:screenshot_cloud_deploy_resource_size.png["部署页面的屏幕截图、用于选择要部署Data sense的实例的大小。"]
+image:screenshot_cloud_deploy_resource_size.png["用于选择要部署BlueXP分类的实例大小的部署页面的屏幕截图。"]
 
 . 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
 +
-image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的BlueXP分类向导的屏幕截图。"]
 
-. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
+. 部署实例并安装BlueXP分类后，单击*继续配置*转到_Configuration_页面。
 
 
 --
@@ -231,17 +231,17 @@ image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data
 . 从BlueXP左侧导航菜单中、单击*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
 . 单击*部署*以启动云部署向导。
 +
-image:screenshot_cloud_compliance_deploy_cloud.png["选择在云中部署Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_cloud.png["选择用于在云中部署BlueXP分类的按钮的屏幕截图。"]
 
 . 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
 +
-image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的BlueXP分类向导的屏幕截图。"]
 
-. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
+. 部署实例并安装BlueXP分类后，单击*继续配置*转到_Configuration_页面。
 
 
 --
@@ -251,27 +251,27 @@ image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data
 . 从BlueXP左侧导航菜单中、单击*监管>分类*。
 . 单击 * 激活数据感知 * 。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择用于激活Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
 . 单击*部署*以启动云部署向导。
 +
-image:screenshot_cloud_compliance_deploy_cloud.png["选择在云中部署Data sense的按钮的屏幕截图。"]
+image:screenshot_cloud_compliance_deploy_cloud.png["选择用于在云中部署BlueXP分类的按钮的屏幕截图。"]
 
 . 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
 +
-image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的Data sense向导的屏幕截图。"]
+image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的BlueXP分类向导的屏幕截图。"]
 
-. 部署实例并安装Data sense后、单击*继续配置*以转到_Configuration_页面。
+. 部署实例并安装BlueXP分类后，单击*继续配置*转到_Configuration_页面。
 
 
 --
 ====
 .结果
-BlueXP会在您的云提供商中部署Cloud Data sense实例。
+BlueXP在云提供商中部署BlueXP分类实例。
 
-只要实例具有Internet连接、即可自动升级到BlueXP Connector和Data sense软件。
+只要这些实例具有Internet连接、BlueXP Connector和BlueXP分类软件的升级就会自动完成。
 
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
 
-您也可以 link:task-licensing-datasense.html["为 Cloud Data sense 设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。
+您也可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-google-drive.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, google drive, data sense 
-summary: 请完成几个步骤、开始使用Cloud Data sense扫描Google Drive帐户中的用户文件。 
+summary: 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐户中的用户文件。 
 ---
 = 扫描Google Drive帐户
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 请完成几个步骤、开始使用Cloud Data sense扫描Google Drive�
 
 
 [role="lead"]
-请完成几个步骤、开始使用Cloud Data sense扫描Google Drive帐户中的用户文件。
+完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐户中的用户文件。
 
 
 
@@ -26,9 +26,9 @@ summary: 请完成几个步骤、开始使用Cloud Data sense扫描Google Drive�
 [role="quick-margin-para"]
 确保您拥有登录到Google Drive帐户所需的管理员凭据。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到Google Drive帐户
 [role="quick-margin-para"]
@@ -42,7 +42,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 == 查看Google Drive要求
 
-请查看以下前提条件、以确保您已准备好在Google Drive帐户上启用Cloud Data sense。
+查看以下前提条件、确保您已准备好在Google Drive帐户上启用BlueXP分类。
 
 * 您必须拥有Google Drive帐户的管理员登录凭据、该帐户可提供对用户文件的读取访问权限
 
@@ -51,7 +51,7 @@ link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未�
 
 === 当前限制
 
-Google Drive文件当前不支持以下Data sense功能：
+Google Drive文件当前不支持以下BlueXP分类功能：
 
 * 在"数据调查"页面中查看文件时、按钮栏中的操作未处于活动状态。您不能复制、移动、删除等任何文件。
 * 无法在Google Drive中的文件中标识权限、因此调查页面中不会显示任何权限信息。
@@ -59,13 +59,13 @@ Google Drive文件当前不支持以下Data sense功能：
 
 
 
-== 部署 Cloud Data sense
+== 正在部署BlueXP分类
 
-如果尚未部署实例，请部署 Cloud Data sense 。
+如果尚未部署实例、请部署BlueXP分类。
 
-数据感知可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
+BlueXP分类可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
 
-只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
+只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
 
@@ -79,7 +79,7 @@ Google Drive文件当前不支持以下Data sense功能：
 image:screenshot_compliance_add_google_drive_button.png["扫描配置页面的屏幕截图、您可以在其中单击添加Google Drive按钮。"]
 
 . 在添加Google Drive帐户对话框中、单击*登录到Google Drive*。
-. 在显示的Google页面中、选择Google Drive帐户并输入所需的管理员用户和密码、然后单击*接受*以允许Cloud Data sense从此帐户读取数据。
+. 在显示的Google页面中、选择Google Drive帐户并输入所需的管理员用户和密码、然后单击*接受*以允许BlueXP分类从此帐户读取数据。
 
 
 Google Drive帐户将添加到工作环境列表中。
@@ -88,7 +88,7 @@ Google Drive帐户将添加到工作环境列表中。
 
 == 选择扫描用户数据的类型
 
-选择Cloud Data sense将对用户数据执行的扫描类型。
+选择BlueXP分类将对用户数据执行的扫描类型。
 
 .步骤
 . 在_Configuration_页面中、单击Google Drive帐户的*配置*按钮。
@@ -97,7 +97,7 @@ image:screenshot_compliance_google_drive_add_sites.png["配置页面的屏幕截
 
 . 对Google Drive帐户中的文件启用仅映射扫描或映射和分类扫描。
 +
-image:screenshot_compliance_google_drive_select_scan.png["屏幕截图显示了如何选择Data sense将对Google Drive数据执行的扫描类型。"]
+image:screenshot_compliance_google_drive_select_scan.png["将对Google Drive数据执行一个屏幕截图、显示如何选择BlueXP分类的扫描类型。"]
 
 +
 [cols="45,45"]
@@ -116,10 +116,10 @@ image:screenshot_compliance_google_drive_select_scan.png["屏幕截图显示了�
 
 
 .结果
-Cloud Data sense开始扫描您添加的Google Drive帐户中的文件、结果将显示在信息板和其他位置。
+BlueXP分类开始扫描您添加的Google Drive帐户中的文件、结果将显示在信息板和其他位置。
 
 
 
 == 从合规性扫描中删除Google Drive帐户
 
-由于只有一个用户的Google Drive文件属于一个Google Drive帐户、因此、如果要停止扫描用户的Google Drive帐户中的文件、则应执行此操作 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-cloud-data-sense["从Data sense中删除Google Drive帐户"]。
+由于只有一个用户的Google Drive文件属于一个Google Drive帐户、因此、如果要停止扫描用户的Google Drive帐户中的文件、则应执行此操作 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["从BlueXP分类中删除Google Drive帐户"]。

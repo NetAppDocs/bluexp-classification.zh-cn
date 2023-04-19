@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-org-private-data.html 
 keywords: compliance, privacy, filter data, highlights, policies, email alerts, notifications, aip labels, azure information protection, add labels, change labels, tags, data sense 
-summary: Cloud Data sense 为您提供了多种管理和组织私有数据的方式。这样可以更轻松地查看对您最重要的数据。 
+summary: BlueXP分类提供了多种管理和组织私有数据的方式。这样可以更轻松地查看对您最重要的数据。 
 ---
 = 组织私有数据
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Cloud Data sense 为您提供了多种管理和组织私有数据的方
 
 
 [role="lead"]
-Cloud Data sense 为您提供了多种管理和组织私有数据的方式。这样可以更轻松地查看对您最重要的数据。
+BlueXP分类提供了多种管理和组织私有数据的方式。这样可以更轻松地查看对您最重要的数据。
 
-* 如果您已订阅 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^] 要对文件进行分类和保护，您可以使用 Cloud Data sense 管理这些 AIP 标签。
+* 如果您已订阅 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^] 要对文件进行分类和保护、您可以使用BlueXP分类来管理这些AIP标签。
 * 您可以将标记添加到要标记用于组织或某种类型的跟进的文件中。
 * 您可以将一个BlueXP用户分配给一个特定文件或多个文件、以便此用户可以负责管理此文件。
 * 使用 " 策略 " 功能，您可以创建自己的自定义搜索查询，以便通过单击一个按钮轻松查看结果。
@@ -30,23 +30,23 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 == 是否应使用标记或标签？
 
-以下是对数据感知标记和 Azure 信息保护标记的比较。
+下面是BlueXP分类标记和Azure信息保护标记的比较。
 
 [cols="50,50"]
 |===
 | Tags | 标签 
 
 
-| 文件标记是 Data sense 的一个集成部分。 | 要求您已订阅 Azure 信息保护（ AIP ）。 
+| 文件标记是BlueXP分类的一个集成部分。 | 要求您已订阅 Azure 信息保护（ AIP ）。 
 
 
-| 此标记仅保留在 Data sense 数据库中，不会写入到文件中。它不会更改文件或文件访问或修改时间。 | 此标签是文件的一部分，当此标签发生更改时，此文件将发生更改。此更改还会更改文件的访问和修改时间。 
+| 此标记仅保存在BlueXP分类数据库中、不会写入文件。它不会更改文件或文件访问或修改时间。 | 此标签是文件的一部分，当此标签发生更改时，此文件将发生更改。此更改还会更改文件的访问和修改时间。 
 
 
 | 一个文件可以包含多个标记。 | 一个文件可以有一个标签。 
 
 
-| 此标记可用于内部数据感知操作，例如复制，移动，删除，运行策略， 等 | 可以读取文件的其他系统可以看到标签，可用于实现额外的自动化。 
+| 该标记可用于内部BlueXP分类操作、例如复制、移动、删除、运行策略、 等等 | 可以读取文件的其他系统可以看到标签，可用于实现额外的自动化。 
 
 
 | 仅使用一个 API 调用来查看文件是否具有标记。 |  
@@ -55,15 +55,15 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 == 使用 AIP 标签对数据进行分类
 
-如果您已订阅，则可以管理 Cloud Data sense 正在扫描的文件中的 AIP 标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。AIP 允许您通过将标签应用于内容来对文档和文件进行分类和保护。使用 Data sense ，您可以查看已分配给文件的标签，向文件添加标签以及在标签已存在时更改标签。
+如果您订阅了BlueXP分类正在扫描的文件、则可以管理这些文件中的AIP标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。AIP 允许您通过将标签应用于内容来对文档和文件进行分类和保护。通过BlueXP分类、您可以查看已分配给文件的标签、向文件添加标签以及在标签已存在时更改标签。
 
-Cloud Data sense 支持以下文件类型中的 AIP 标签： .DOC ， .docx ， .PDF ， .PPTX ， .XLS ， .XLSX 。
+BlueXP分类支持以下文件类型中的AIP标签：.DOC、.docx、.PDF、.PPTX、.xls、 .xlsx。
 
 [NOTE]
 ====
 * 您当前无法更改大于 30 MB 的文件中的标签。对于OneDrive、SharePoint和Google Drive帐户、最大文件大小为4 MB。
-* 如果某个文件的标签不再存在于AIP中、则Cloud Data sense会将其视为一个无标签的文件。
-* 如果您已在政府区域或无法访问Internet的内部位置(也称为非公开站点)部署Data sense、则AIP标签功能将不可用。
+* 如果文件的标签在AIP中已不存在、BlueXP分类会将其视为不带标签的文件。
+* 如果您已在政府地区或无法访问Internet的内部位置(也称为非公开站点)部署BlueXP分类、则AIP标签功能不可用。
 
 
 ====
@@ -71,7 +71,7 @@ Cloud Data sense 支持以下文件类型中的 AIP 标签： .DOC ， .docx ，
 
 === 在工作空间中集成 AIP 标签
 
-在管理 AIP 标签之前，您需要通过登录到现有 Azure 帐户将 AIP 标签功能集成到 Cloud Data sense 中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-data-sources["数据源"^] 在您的BlueXP工作空间中。
+在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html#supported-data-sources["数据源"^] 在您的BlueXP工作空间中。
 
 .要求
 * 您必须拥有帐户和 Azure 信息保护许可证。
@@ -80,13 +80,13 @@ Cloud Data sense 支持以下文件类型中的 AIP 标签： .DOC ， .docx ，
 
 
 .步骤
-. 在 "Cloud Data sense Configuration" 页面中，单击 * 集成 AIP 标签 * 。
+. 从"BlueXP分类配置"页面中，单击*集成AIP标签*。
 +
-image:screenshot_compliance_integrate_aip_labels.png["屏幕截图显示了单击按钮将 AIP 标签功能集成到 Cloud Data sense 中的情况。"]
+image:screenshot_compliance_integrate_aip_labels.png["显示单击按钮将AIP标签功能集成到BlueXP分类中的屏幕截图。"]
 
 . 在集成 AIP 标签对话框中，单击 * 登录到 Azure* 。
 . 在显示的 Microsoft 页面中，选择帐户并输入所需的凭据。
-. 返回到 Cloud Data sense 选项卡，您将看到消息 "_AIP Labels were successfully Integrated with the account <account_name>_" 。
+. 返回到"BlueXP分类"选项卡、您将看到消息"_AIP标签已成功与帐户<account_name> _集成"。
 . 单击 * 关闭 * ，您将在页面顶部看到文本 _AIP Labels Integrated _ 。
 +
 image:screenshot_compliance_aip_labels_int.png["已成功集成显示 AIP 标签的屏幕截图。"]
@@ -110,7 +110,7 @@ image:screenshot_compliance_show_label.png["显示单个文件的元数据详细
 
 === 手动分配 AIP 标签
 
-您可以使用 Cloud Data sense 在文件中添加，更改和删除 AIP 标签。
+您可以使用BlueXP分类在文件中添加、更改和删除AIP标签。
 
 按照以下步骤为单个文件分配 AIP 标签。
 
@@ -150,14 +150,14 @@ AIP 标签将添加到所有选定文件的元数据中。
 
 === 删除 AIP 集成
 
-如果您不再希望能够管理文件中的 AIP 标签，则可以从云数据感知界面中删除 AIP 帐户。
+如果您不再需要管理文件中的AIP标签、可以从BlueXP分类界面中删除AIP帐户。
 
-请注意，您使用 Data sense 添加的标签不会进行任何更改。文件中存在的标签将保持当前存在的状态。
+请注意、不会对使用BlueXP分类添加的标签进行任何更改。文件中存在的标签将保持当前存在的状态。
 
 .步骤
 . 从 _Configuration_ 页面中，单击 * 集成 AIP 标签 > 删除集成 * 。
 +
-image:screenshot_compliance_un_integrate_aip_labels.png["显示如何删除与 Cloud Data sense 的 AIP 集成的屏幕截图。"]
+image:screenshot_compliance_un_integrate_aip_labels.png["显示如何删除具有BlueXP分类的AIP集成的屏幕截图。"]
 
 . 从确认对话框中单击 * 删除集成 * 。
 
@@ -168,12 +168,12 @@ image:screenshot_compliance_un_integrate_aip_labels.png["显示如何删除与 C
 
 您可以向要标记为某种类型的跟进的文件添加标记。例如，您可能已发现一些重复文件，并且希望删除其中一个文件，但需要检查应删除哪个文件。您可以向文件添加一个标记 "Check to delete" ，以使您知道此文件需要进行一些研究并在未来执行某种类型的操作。
 
-使用 Data sense ，您可以查看分配给文件的标记，在文件中添加或删除标记，以及更改名称或删除现有标记。
+通过BlueXP分类、您可以查看分配给文件的标记、在文件中添加或删除标记以及更改名称或删除现有标记。
 
-请注意，标记添加到文件中的方式与 AIP 标签是文件元数据的一部分不同。使用Cloud Data sense的BlueXP用户可以看到此标记、因此您可以查看是否需要删除某个文件或检查某个文件以进行某种类型的跟进。
+请注意，标记添加到文件中的方式与 AIP 标签是文件元数据的一部分不同。BlueXP用户只能使用BlueXP分类查看该标记、以便您查看是否需要删除文件或检查某个类型的跟进。
 
 
-TIP: 在 Cloud Data sense 中分配给文件的标记与您可以添加到资源（例如卷或虚拟机实例）的标记无关。数据感知标记在文件级别应用。
+TIP: 按BlueXP分类分配给文件的标记与可添加到资源(例如卷或虚拟机实例)的标记无关。BlueXP分类标记在文件级别应用。
 
 
 
@@ -181,7 +181,7 @@ TIP: 在 Cloud Data sense 中分配给文件的标记与您可以添加到资源
 
 您可以查看已分配特定标记的所有文件。
 
-. 单击 Cloud Data sense 中的 * 调查 * 选项卡。
+. 单击BlueXP分类中的*调查*选项卡。
 . 在数据调查页面中，单击筛选器窗格中的 * 标记 * ，然后选择所需的标记。
 +
 image:screenshot_compliance_filter_status.png["显示如何从筛选器窗格中选择标记的屏幕截图。"]
@@ -261,7 +261,7 @@ image:button_delete_datasense_file_tag.png["删除标记按钮位置的屏幕截
 
 例如，您的文件可能包含某些个人数据，这些数据允许过多的用户进行读写访问（打开权限）。因此，您可以将状态标记 " 更改权限 " 并将此文件分配给用户 "Joan Smith" ，以便用户确定如何修复问题描述。修复问题描述后，他们可以将状态标记更改为 " 已完成 " 。
 
-请注意、用户名不会作为文件元数据的一部分添加到文件中、而是仅供BlueXP用户在使用Cloud Data sense时查看。
+请注意、用户名不会作为文件元数据的一部分添加到文件中-使用BlueXP分类时、BlueXP用户只会看到该用户名。
 
 通过 " 调查 " 页面中的新筛选器，您可以轻松查看 " 已分配给 " 字段中具有相同人员的所有文件。
 

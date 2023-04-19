@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: reference-instance-types.html 
-keywords: data sense, installation, deployment, instance, virtual machine, cpu, ram, memory, disk, capacity 
-summary: '数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。在云中部署Data sense时、我们建议您使用具有"大型"特征的系统来实现完整功能。' 
+keywords: BlueXP classification, installation, deployment, instance, virtual machine, cpu, ram, memory, disk, capacity 
+summary: 'BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。在云中部署BlueXP分类时、我们建议您使用具有"大型"特征的系统来实现全部功能。' 
 ---
-= 支持的数据感知实例类型
+= 支持的BlueXP分类实例类型
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,11 +14,11 @@ summary: '数据感知软件必须在满足特定操作系统要求， RAM 要�
 
 
 [role="lead"]
-数据感知软件必须在满足特定操作系统要求， RAM 要求，软件要求等要求的主机上运行。在云中部署Data sense时、我们建议您使用具有"大型"特征的系统来实现完整功能。
+BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。在云中部署BlueXP分类时、我们建议您使用具有"大型"特征的系统来实现全部功能。
 
-您可以在 CPU 较少且 RAM 较少的系统上部署 Data sense ，但使用这些功能较差的系统时会存在一些限制。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["了解这些限制"^]。
+您可以在CPU较少、RAM较少的系统上部署BlueXP分类、但在使用这些功能较弱的系统时存在一些限制。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["了解这些限制"^]。
 
-在下表中、如果标记为"default"的系统在您要安装Data sense的区域中不可用、则将部署表中的下一个系统。
+在下表中、如果标记为"default"的系统在您要安装BlueXP分类的区域中不可用、则将部署表中的下一个系统。
 
 
 

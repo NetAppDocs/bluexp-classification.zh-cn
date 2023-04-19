@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-scanning-fsx.html 
 keywords: cloud compliance, get started, enable cloud compliance, cloud compliance access, privacy, compliance, fsx, fsx for ontap, aws, data sense 
-summary: 请完成几个步骤，开始使用 Cloud Data sense 扫描 Amazon FSX for ONTAP 卷。 
+summary: 完成几个步骤即可开始扫描具有BlueXP分类的Amazon FSx for ONTAP 卷。 
 ---
-= 开始使用适用于 Amazon FSX for ONTAP 的 Cloud Data sense
+= 开始使用适用于Amazon FSx for ONTAP 的BlueXP分类
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,14 +14,14 @@ summary: 请完成几个步骤，开始使用 Cloud Data sense 扫描 Amazon FSX
 
 
 [role="lead"]
-请完成几个步骤，开始使用 Cloud Data sense 扫描 Amazon FSX for ONTAP 卷。
+完成几个步骤即可开始扫描具有BlueXP分类的Amazon FSx for ONTAP 卷。
 
 
 
 == 开始之前
 
-* 您需要在 AWS 中使用主动连接器来部署和管理 Data sense 。
-* 您在创建工作环境时选择的安全组必须允许来自云数据感知实例的流量。您可以使用连接到 FSX for ONTAP 文件系统的 ENI 来查找关联的安全组，并使用 AWS 管理控制台对其进行编辑。
+* 要部署和管理BlueXP分类、您需要AWS中的主动连接器。
+* 创建工作环境时选择的安全组必须允许来自BlueXP分类实例的流量。您可以使用连接到 FSX for ONTAP 文件系统的 ENI 来查找关联的安全组，并使用 AWS 管理控制台对其进行编辑。
 +
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["适用于 Linux 实例的 AWS 安全组"^]
 
@@ -43,33 +43,33 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS 弹性�
 [role="quick-margin-para"]
 在扫描 ONTAP 卷的 FSX 之前， https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["您必须具有配置了卷的 FSX 工作环境"^]。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署 Cloud Data sense 实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["在BlueXP中部署云数据感知"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用 Cloud Data sense 并选择要扫描的卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用BlueXP分类并选择要扫描的卷
 [role="quick-margin-para"]
-单击 * 数据感知 * ，选择 * 配置 * 选项卡，然后为特定工作环境中的卷激活合规性扫描。
+选择*配置*选项卡，并为特定工作环境中的卷激活合规性扫描。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 确保能够访问卷
 [role="quick-margin-para"]
-启用 Cloud Data sense 后，请确保它可以访问所有卷。
+启用BlueXP分类后、请确保它可以访问所有卷。
 
 [role="quick-margin-list"]
-* 云数据感知实例需要与 ONTAP 子网的每个 FSX 建立网络连接。
-* 确保以下端口已对 Data sense 实例开放。
+* BlueXP分类实例需要与每个FSx for ONTAP 子网建立网络连接。
+* 确保以下端口对BlueXP分类实例开放：
 +
 ** 对于 NFS —端口 111 和 2049 。
 ** 对于 CIFS —端口 139 和 445 。
 
 
-* NFS 卷导出策略必须允许从 Data sense 实例进行访问。
-* Data sense 需要 Active Directory 凭据才能扫描 CIFS 卷。+ 单击 * 合规性 * > * 配置 * > * 编辑 CIFS 凭据 * 并提供凭据。
+* NFS卷导出策略必须允许从BlueXP分类实例进行访问。
+* BlueXP分类需要Active Directory凭据才能扫描CIFS卷。+ 单击 * 合规性 * > * 配置 * > * 编辑 CIFS 凭据 * 并提供凭据。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 管理要扫描的卷
 [role="quick-margin-para"]
-选择或取消选择要扫描的卷， Cloud Data sense 将开始或停止扫描这些卷。
+选择或取消选择要扫描的卷、BlueXP分类将开始或停止扫描这些卷。
 
 
 
@@ -81,25 +81,25 @@ https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-work
 
 
 
-== 部署 Cloud Data sense 实例
+== 部署BlueXP分类实例
 
-link:task-deploy-cloud-compliance.html["部署 Cloud Data sense"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
 
-您应将 Data sense 部署在与 Connector for AWS 和要扫描的 FSX 卷相同的 AWS 网络中。
+您应在与Connector for AWS和要扫描的FSx卷相同的AWS网络中部署BlueXP分类。
 
-* 注意： * 扫描 FSX 卷时，当前不支持在内部位置部署 Cloud Data sense 。
+*注意：*扫描FSx卷时、当前不支持在内部位置部署BlueXP分类。
 
-只要实例具有 Internet 连接，就会自动升级到 Data sense 软件。
+只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
 
-== 在您的工作环境中实现云数据感知
+== 在工作环境中启用BlueXP分类
 
-您可以为 ONTAP 卷的 FSX 启用云数据感知。
+您可以为FSx for ONTAP 卷启用BlueXP分类。
 
 . 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
 +
-image:screenshot_fsx_scanning_activate.png["部署 Cloud Data sense 实例后立即显示配置选项卡的屏幕截图。"]
+image:screenshot_fsx_scanning_activate.png["部署BlueXP分类实例后立即显示\"配置\"选项卡的屏幕截图。"]
 
 . 选择要如何扫描每个工作环境中的卷。 link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["了解映射和分类扫描"]：
 +
@@ -111,52 +111,52 @@ image:screenshot_fsx_scanning_activate.png["部署 Cloud Data sense 实例后立
 
 
 
-. 在确认对话框中，单击 * 批准 * 以使 Data sense 开始扫描卷。
+. 在确认对话框中、单击*批准*以使BlueXP分类开始扫描卷。
 
 
 .结果
-Cloud Data sense 开始扫描您在工作环境中选择的卷。一旦 Cloud Data sense 完成初始扫描， " 合规性 " 信息板将显示结果。所需时间取决于数据量—可能需要几分钟或几小时。
+BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类完成初始扫描、结果将显示在Compliance信息板中。所需时间取决于数据量—可能需要几分钟或几小时。
 
 
-NOTE: 默认情况下、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描卷中的文件、因为Data sense无法将"上次访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。您可以启用该页面的设置、以便Data sense扫描卷、而不受权限限制。
+NOTE: 默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。您可以启用该页面中的设置、以便BlueXP分类将扫描卷、而不管权限如何。
 
 
 
-== 验证 Cloud Data sense 是否有权访问卷
+== 验证BlueXP分类是否有权访问卷
 
-通过检查网络，安全组和导出策略，确保 Cloud Data sense 可以访问卷。
+通过检查网络连接、安全组和导出策略、确保BlueXP分类可以访问卷。
 
-您需要为 Data sense 提供 CIFS 凭据，以便它可以访问 CIFS 卷。
+您需要为BlueXP分类提供CIFS凭据、以便它可以访问CIFS卷。
 
 .步骤
 . 在 _Configuration_ 页面上，单击 * 查看详细信息 * 以查看状态并更正任何错误。
 +
-例如，下图显示了由于 Data sense 实例与卷之间的网络连接问题，卷 Cloud Data sense 无法扫描。
+例如、下图显示了由于BlueXP分类实例和卷之间的网络连接问题而无法扫描的卷BlueXP分类。
 
 +
-image:screenshot_fsx_scanning_no_network_error.png["扫描配置中 \" 查看详细信息 \" 页面的屏幕截图，显示由于 Data sense 与卷之间的网络连接而未扫描卷。"]
+image:screenshot_fsx_scanning_no_network_error.png["扫描配置中的\"查看详细信息\"页面的屏幕截图、显示由于BlueXP分类和卷之间的网络连接而未扫描卷。"]
 
-. 确保云数据感知实例与包含适用于 ONTAP 的 FSX 卷的每个网络之间存在网络连接。
+. 确保BlueXP分类实例与包含FSx for ONTAP 卷的每个网络之间具有网络连接。
 +
 
-NOTE: 对于适用于ONTAP 的FSX、云数据感知只能扫描与BlueXP位于同一区域的卷。
+NOTE: 对于FSx for ONTAP 、BlueXP分类只能扫描与BlueXP位于同一区域的卷。
 
-. 确保以下端口对 Data sense 实例开放：
+. 确保以下端口对BlueXP分类实例开放。
 +
 ** 对于 NFS —端口 111 和 2049 。
 ** 对于 CIFS —端口 139 和 445 。
 
 
-. 确保 NFS 卷导出策略包含 Data sense 实例的 IP 地址，以便它可以访问每个卷上的数据。
-. 如果使用 CIFS ，请为 Data sense 提供 Active Directory 凭据，以便它可以扫描 CIFS 卷。
+. 确保NFS卷导出策略包含BlueXP分类实例的IP地址、以便它可以访问每个卷上的数据。
+. 如果使用CIFS、请提供BlueXP分类和Active Directory凭据、以便它可以扫描CIFS卷。
 +
 .. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
-.. 对于每个工作环境，单击 * 编辑 CIFS 凭据 * ，然后输入 Data sense 访问系统上 CIFS 卷所需的用户名和密码。
+.. 对于每个工作环境，单击*编辑CIFS凭据*并输入BlueXP分类访问系统上的CIFS卷所需的用户名和密码。
 +
-这些凭据可以是只读的，但提供管理员凭据可确保 Data sense 可以读取任何需要提升权限的数据。这些凭据存储在 Cloud Data sense 实例上。
+这些凭据可以是只读的、但提供管理员凭据可确保BlueXP分类可以读取需要提升权限的任何数据。这些凭据存储在BlueXP分类实例上。
 
 +
-如果要确保数据感知分类扫描不会更改文件的"上次访问时间"、建议用户在CIFS中具有写入属性权限、或者在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
+如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户在CIFS中具有写入属性权限或在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
 
 +
 输入凭据后，您应看到一条消息，指出所有 CIFS 卷均已成功通过身份验证。
@@ -171,7 +171,7 @@ NOTE: 对于适用于ONTAP 的FSX、云数据感知只能扫描与BlueXP位于�
 
 您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。建议您扫描所有卷。
 
-默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果Data sense在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统不会扫描文件、因为Data sense无法将"最后访问时间"还原到原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
 
 image:screenshot_volume_compliance_selection.png["配置页面的屏幕截图，您可以在其中启用或禁用单个卷的扫描。"]
 
@@ -207,7 +207,7 @@ NOTE: 只有在标题区域中设置了 * 映射 * 或 * 映射和分类 * 设�
 
 == 扫描数据保护卷
 
-默认情况下，不会扫描数据保护（ DP ）卷，因为它们不会公开在外部，并且 Cloud Data sense 无法访问它们。这些卷是从适用于 ONTAP 的 FSX 文件系统执行 SnapMirror 操作的目标卷。
+默认情况下、不会扫描数据保护(DP)卷、因为这些卷不会对外公开、BlueXP分类无法访问它们。这些卷是从适用于 ONTAP 的 FSX 文件系统执行 SnapMirror 操作的目标卷。
 
 最初，卷列表会将这些卷标识为 _Type_ * dp* ，并显示 _Status_ * 未扫描 * 和 _Required Action_ * Enable Access to DP volumes* 。
 
@@ -220,7 +220,7 @@ image:screenshot_cloud_compliance_dp_volumes.png["显示启用对 DP 卷的访�
 . 查看确认消息，然后再次单击 * 启用对 DP 卷的访问 * 。
 +
 ** 系统将启用最初在源 FSX for ONTAP 文件系统中创建为 NFS 卷的卷。
-** 最初在源 FSX for ONTAP 文件系统中创建为 CIFS 卷的卷需要输入 CIFS 凭据才能扫描这些 DP 卷。如果您已输入 Active Directory 凭据，以便 Cloud Data sense 可以扫描 CIFS 卷，则可以使用这些凭据，也可以指定一组不同的管理员凭据。
+** 最初在源 FSX for ONTAP 文件系统中创建为 CIFS 卷的卷需要输入 CIFS 凭据才能扫描这些 DP 卷。如果您已输入Active Directory凭据以便BlueXP分类可以扫描CIFS卷、则可以使用这些凭据、也可以指定一组不同的管理员凭据。
 +
 image:screenshot_compliance_dp_cifs_volumes.png["用于启用 CIFS 数据保护卷的两个选项的屏幕截图。"]
 
@@ -230,7 +230,7 @@ image:screenshot_compliance_dp_cifs_volumes.png["用于启用 CIFS 数据保护�
 
 
 .结果
-启用后， Cloud Data sense 会从已激活进行扫描的每个 DP 卷创建一个 NFS 共享。共享导出策略仅允许从 Data sense 实例进行访问。
+启用后、BlueXP分类会从已激活扫描的每个DP卷创建一个NFS共享。共享导出策略仅允许从BlueXP分类实例进行访问。
 
 * 注意： * 如果在最初启用对 DP 卷的访问时没有 CIFS 数据保护卷，稍后再添加一些，则配置页面顶部会显示 * 启用对 CIFS DP* 的访问。单击此按钮并添加 CIFS 凭据，以便能够访问这些 CIFS DP 卷。
 

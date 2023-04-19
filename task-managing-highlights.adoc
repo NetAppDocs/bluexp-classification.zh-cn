@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-managing-highlights.html 
 keywords: compliance, privacy, filter data, delete files, move files, copy files, clone files, sync files, data sense, migration 
-summary: Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能使您可以更轻松地为迁移数据做准备，而其他功能则允许您对数据进行更改。 
+summary: BlueXP分类提供了多种管理私有数据的方式。某些功能使您可以更轻松地为迁移数据做准备，而其他功能则允许您对数据进行更改。 
 ---
 = 管理私有数据
 :hardbreaks:
@@ -14,12 +14,12 @@ summary: Cloud Data sense 为您提供了多种管理私有数据的方法。某
 
 
 [role="lead"]
-Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能使您可以更轻松地为迁移数据做准备，而其他功能则允许您对数据进行更改。
+BlueXP分类提供了多种管理私有数据的方式。某些功能使您可以更轻松地为迁移数据做准备，而其他功能则允许您对数据进行更改。
 
 * 如果要为某些数据创建副本并将其移动到其他 NFS 位置，可以将文件复制到目标 NFS 共享。
 * 您可以将 ONTAP 卷克隆到新卷，同时在新克隆的卷中仅包含源卷中的选定文件。如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。
 * 您可以将文件从源存储库复制并同步到特定目标位置的目录。如果您要将数据从一个源系统迁移到另一个源系统、而源文件上仍有一些最终活动、则此功能非常有用。
-* 您可以将 Data sense 正在扫描的源文件移动到任何 NFS 共享。
+* 您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。
 * 您可以删除那些看起来不安全或风险过高，无法留在存储系统中的文件，或者您已确定为重复的文件。
 
 
@@ -34,7 +34,7 @@ Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能
 
 == 正在复制源文件
 
-您可以复制 Data sense 正在扫描的任何源文件。根据您尝试完成的任务，复制操作有三种类型：
+您可以复制BlueXP分类正在扫描的任何源文件。根据您尝试完成的任务，复制操作有三种类型：
 
 * * 将文件 * 从相同或不同的卷或数据源复制到目标 NFS 共享。
 +
@@ -46,7 +46,7 @@ Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能
 
 * 将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。
 +
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp Cloud Sync"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
 
 
 
@@ -54,14 +54,14 @@ Cloud Data sense 为您提供了多种管理私有数据的方法。某些功能
 
 === 将源文件复制到 NFS 共享
 
-您可以将 Data sense 正在扫描的源文件复制到任何 NFS 共享。NFS 共享不需要与 Data sense 集成，您只需知道要复制所有选定文件的 NFS 共享的名称，格式为 ` <host_name> ： /<share_path>` 。
+您可以将BlueXP分类正在扫描的源文件复制到任何NFS共享。NFS共享不需要与BlueXP分类集成、您只需知道将以格式复制所有选定文件的NFS共享的名称即可 `<host_name>:/<share_path>`。
 
 
 TIP: 您不能复制数据库中的文件。
 
 .要求
 * 要复制文件，您必须具有帐户管理员或工作空间管理员角色。
-* 复制文件要求目标 NFS 共享允许从 Data sense 实例进行访问。
+* 复制文件要求目标NFS共享允许从BlueXP分类实例进行访问。
 * 一次可以复制1到100、000个文件。
 
 
@@ -96,7 +96,7 @@ image:screenshot_compliance_copy_file.png["屏幕截图显示了从 \" 数据调
 
 === 将卷数据克隆到新卷
 
-您可以使用 NetApp _FlexClone _ 功能克隆 Data sense 正在扫描的现有 ONTAP 卷。这样，您就可以快速复制卷，同时仅包含选定的文件。如果要迁移数据，并且要从原始卷中排除某些文件，或者要创建卷的副本以进行测试，则此功能非常有用。
+您可以使用NetApp _FlexCLONE功能克隆BlueXP分类正在扫描的现有ONTAP 卷。这样，您就可以快速复制卷，同时仅包含选定的文件。如果要迁移数据，并且要从原始卷中排除某些文件，或者要创建卷的副本以进行测试，则此功能非常有用。
 
 新卷将在与源卷相同的聚合中创建。在启动此任务之前，请确保聚合中有足够的空间容纳此新卷。如有必要，请联系您的存储管理员。
 
@@ -143,15 +143,15 @@ image:screenshot_compliance_clone_files_dialog.png["显示复制文件对话框�
 
 您可以在中查看克隆操作的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
 
-如果在源卷所在的工作环境中启用了 Data sense 后，最初选择了 * 映射所有卷 * 或 * 映射并分类所有卷 * ，则 Data sense 将自动扫描新克隆的卷。如果最初未使用上述任一选项，则如果要扫描此新卷，则需要执行以下操作 link:task-getting-started-compliance.html#enabling-and-disabling-compliance-scans-on-volumes["手动对卷启用扫描"]。
+如果在为源卷所在的工作环境启用BlueXP分类时最初选择了*映射所有卷*或*映射并分类所有卷*、则BlueXP分类将自动扫描新克隆的卷。如果最初未使用上述任一选项，则如果要扫描此新卷，则需要执行以下操作 link:task-getting-started-compliance.html#enabling-and-disabling-compliance-scans-on-volumes["手动对卷启用扫描"]。
 
 
 
 === 将源文件复制并同步到目标系统
 
-您可以将 Data sense 正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 (https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["Cloud Sync 支持的目标位置"^]）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
+您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 (https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["BlueXP复制和同步支持的目标位置"^]）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
 
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp Cloud Sync"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
 
 
 TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。
@@ -160,9 +160,9 @@ TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户�
 * 要复制和同步文件，您必须具有帐户管理员或工作空间管理员角色。
 * 您必须至少选择20个文件。
 * 所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。
-* 您需要激活 Cloud Sync 服务并至少配置一个数据代理，用于在源系统和目标系统之间传输文件。查看从开始的 Cloud Sync 要求 https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
+* 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求 https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
 +
-请注意， Cloud Sync 服务会为您的同步关系单独收取服务费用，如果您在云中部署数据代理，则会产生资源费用。
+请注意、BlueXP复制和同步服务会为您的同步关系单独收取服务费用、如果您在云中部署数据代理、则会产生资源费用。
 
 
 
@@ -184,18 +184,18 @@ image:screenshot_compliance_sync_files_dialog.png["显示复制文件对话框�
 
 . 如果确实要将选定文件同步到目标位置，请单击 * 确定 * 。
 +
-Cloud Sync UI将在BlueXP中打开。
+BlueXP副本和同步UI将在BlueXP中打开。
 
 +
-系统将提示您定义同步关系。源系统会根据您在 Data sense 中选择的存储库和文件预先填充。
+系统将提示您定义同步关系。源系统会根据您在BlueXP分类中选择的存储库和文件进行预先填充。
 
-. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。查看从开始的 Cloud Sync 要求 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
+. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。从开始查看BlueXP副本和同步要求 link:https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
 
 
 .结果
 这些文件将复制到目标系统，并根据您定义的计划进行同步。如果选择一次性同步，则文件只会复制和同步一次。如果选择定期同步，则会根据计划同步文件。请注意，如果源系统添加的新文件与您使用筛选器创建的查询匹配，这些 _new_ 文件将复制到目标并在将来进行同步。
 
-请注意，从数据感知调用某些常见 Cloud Sync 操作时，这些操作将被禁用：
+请注意、从BlueXP分类调用BlueXP时、某些常见的BlueXP复制和同步操作会被禁用：
 
 * 不能使用 * 删除源上的文件 * 或 * 删除目标上的文件 * 按钮。
 * 已禁用运行报告。
@@ -205,7 +205,7 @@ Cloud Sync UI将在BlueXP中打开。
 
 == 将源文件移动到 NFS 共享
 
-您可以将 Data sense 正在扫描的源文件移动到任何 NFS 共享。NFS 共享不需要与 Data sense 集成（请参见 link:task-scanning-file-shares.html["正在扫描文件共享"]）。
+您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成(请参见 link:task-scanning-file-shares.html["正在扫描文件共享"]）。
 
 或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`<filename>-breadcrumb-<date>.txt`创建一个痕迹文件。您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。
 
@@ -217,7 +217,7 @@ TIP: 您无法移动驻留在数据库中的文件。
 .要求
 * 要移动文件，您必须具有帐户管理员或工作空间管理员角色。
 * 源文件可以位于以下数据源中：内部ONTAP 、Cloud Volumes ONTAP 、Azure NetApp Files 、文件共享和SharePoint Online。
-* 移动文件要求NFS共享允许从数据感知实例IP地址进行访问。
+* 要移动文件、需要NFS共享允许从BlueXP分类实例IP地址进行访问。
 * 一次最多可以移动1、500万个文件。
 
 

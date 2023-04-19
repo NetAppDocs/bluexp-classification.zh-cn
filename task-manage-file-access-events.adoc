@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-file-access-events.html 
 keywords: compliance, actions, view progress, audit, logs, installation 
-summary: '您可以将Data sense配置为在访问或更改所扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。' 
+summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。' 
 ---
 = 监控和管理文件访问事件
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: '您可以将Data sense配置为在访问或更改所扫描的文件之
 
 
 [role="lead"]
-您可以将Data sense配置为在访问或更改所扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。
+您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。
 
 例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果更改了这些设置、您将能够看到进行更改的人员的姓名以及进行更改的时间。
 
-您可以在ONTAP 工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件) ONTAP 时、它会将您的Data sense系统用作FPolicy服务器。
+您可以在ONTAP 工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
 
-Data sense当前可捕获文件和目录上的以下操作的事件：
+BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
 * 创建
 * 读取
@@ -37,7 +37,7 @@ Data sense当前可捕获文件和目录上的以下操作的事件：
 
 == 支持的数据源
 
-Data sense可以记录驻留在以下数据源上的文件的文件访问事件：
+BlueXP分类可以记录驻留在以下数据源上的文件的文件访问事件：
 
 * 内部部署ONTAP
 * Cloud Volumes ONTAP
@@ -45,7 +45,7 @@ Data sense可以记录驻留在以下数据源上的文件的文件访问事件�
 * 适用于 ONTAP 的 FSX
 
 
-您必须为这些数据源配置Active Directory、以便Data sense能够识别访问这些文件的人员的姓名。
+您必须为这些数据源配置Active Directory、以便BlueXP分类可以识别访问这些文件的人员的姓名。
 
 
 
@@ -104,15 +104,15 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 
 == 访问文件访问审核日志文件
 
-文件访问审核日志文件位于Data sense计算机上的： `/opt/netapp/audit_logs/`
+文件访问审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/audit_logs/`
 
-这些日志文件名为"File_Access_Audit <volume_name> <timestamp> 日志"；例如"File Access Audit _MedicalData_20230205092321.log"。<timestamp> 是指Data sense将第一个日志写入文件的时间。默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。
+这些日志文件名为"File_Access_Audit <volume_name> <timestamp> 日志"；例如"File Access Audit _MedicalData_20230205092321.log"。<timestamp> 是BlueXP分类将第一个日志写入文件的时间。默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。
 
 目录中所有日志文件的总大小设置为默认值50 GB。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此限制后、最早的日志文件将自动删除。
 
-如果Data sense安装在内部的Linux计算机上或部署在云中的Linux计算机上、则可以直接导航到日志文件。
+如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到日志文件。
 
-在云中部署Data sense时、您需要通过SSH连接到Data sense实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
+在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
 
  ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
 * <path_to_the_ssh_key>= ssh身份验证密钥的位置
@@ -137,9 +137,9 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 
 == 配置文件访问审核日志设置
 
-您可以为文件访问审核文件日志配置三个选项。这些设置适用于已在此Data sense实例上配置文件访问审核日志记录的所有数据源。您可以从Data sense _Configuration_页面的_File Access Audit Log_部分配置这些设置。
+您可以为文件访问审核文件日志配置三个选项。这些设置适用于已在此BlueXP分类实例上配置文件访问审核日志记录的所有数据源。您可以从BlueXP分类_Configuration_页面的_File Access Audit Log_部分配置这些设置。
 
-image:screenshot_compliance_file_access_audit_config.png["在Data sense Configuration页面中显示审核日志的配置设置的屏幕截图。"]
+image:screenshot_compliance_file_access_audit_config.png["显示BlueXP分类配置页面中审核日志的配置设置的屏幕截图。"]
 
 [cols="30,50"]
 |===
