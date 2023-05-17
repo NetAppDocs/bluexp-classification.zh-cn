@@ -28,7 +28,7 @@ summary: 完成几个步骤、开始使用BlueXP分类扫描Cloud Volumes ONTAP 
 
 [role="quick-margin-list"]
 * 对于Cloud Volumes ONTAP 系统、这些工作环境应已在BlueXP中可用
-* 对于内部 ONTAP 系统， https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP必须发现ONTAP 集群"^]
+* 对于内部 ONTAP 系统， https://["BlueXP必须发现ONTAP 集群"^]
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
@@ -69,7 +69,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果您要扫描的数据源尚未位于您的BlueXP环境中、您可以此时将其添加到画布中。
 
-您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["BlueXP会发现这些集群"^]。
+您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有 https://["BlueXP会发现这些集群"^]。
 
 
 

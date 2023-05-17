@@ -26,10 +26,10 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 创建连接器
 [role="quick-margin-para"]
-如果您还没有 Connector ，请立即创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+如果您还没有 Connector ，请立即创建一个 Connector 。请参见 https://["在 AWS 中创建连接器"^]， https://["在 Azure 中创建连接器"^]或 https://["在 GCP 中创建连接器"^]。
 
 [role="quick-margin-para"]
-您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
+您也可以 https://["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
@@ -47,7 +47,7 @@ BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这�
 
 == 创建连接器
 
-如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
+如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://["在 AWS 中创建连接器"^] 或 https://["在 Azure 中创建连接器"^]或 https://["在 GCP 中创建连接器"^]。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -62,9 +62,9 @@ BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这�
 
 使用上述任一Cloud Connector时、可以扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户。
 
-请注意，您也可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
+请注意，您也可以 https://["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
-如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
+如您所见，在某些情况下可能需要使用 https://["多个连接器"]。
 
 
 
@@ -76,7 +76,7 @@ BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这�
 * 无法集成Microsoft Azure信息保护(AIP)标签功能。
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-mode.html["请参见有关在政府区域部署Connector的详细信息"^]。
+https://["请参见有关在政府区域部署Connector的详细信息"^]。
 
 
 
@@ -155,13 +155,13 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-restricted-
 |===
 --
 ====
-确保BlueXP具有所需权限:: 确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+确保BlueXP具有所需权限:: 确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://["NetApp 提供的策略"^]。
 确保BlueXP Connector可以访问BlueXP分类:: 确保连接器与BlueXP分类实例之间的连接。连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。通过此连接、可以部署BlueXP分类实例、并可在合规性和监管选项卡中查看信息。在AWS和Azure中的政府地区支持BlueXP分类。
 +
 --
-AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS 中连接器的规则"^] 了解详细信息。
+AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 https://["AWS 中连接器的规则"^] 了解详细信息。
 
-Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure 中连接器的规则"^] 了解详细信息。
+Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见 https://["Azure 中连接器的规则"^] 了解详细信息。
 
 --
 确保您可以保持BlueXP分类运行:: BlueXP分类实例需要持续扫描数据。
@@ -176,9 +176,9 @@ BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访�
 --
 有关 vCPU 限制的详细信息，请参见以下链接：
 
-* https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html["AWS 文档： Amazon EC2 服务配额"^]
-* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quotas["Azure 文档：虚拟机 vCPU 配额"^]
-* https://cloud.google.com/compute/quotas["Google Cloud 文档：资源配额"^]
+* https://["AWS 文档： Amazon EC2 服务配额"^]
+* https://["Azure 文档：虚拟机 vCPU 配额"^]
+* https://["Google Cloud 文档：资源配额"^]
 
 
 请注意、您可以在CPU较少、RAM较少的AWS云环境中的实例上部署BlueXP分类、但使用这些系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。

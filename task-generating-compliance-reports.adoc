@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-generating-compliance-reports.html 
-keywords: report, privacy, risk, privacy risk assessment, compliance status, severity, compliance, privacy risk, data subjects, privacy, credit cards, pci dss, hipaa, csv file, json file 
+keywords: report, privacy, risk, privacy risk assessment, compliance status, severity, compliance, privacy risk, data subjects, privacy, credit cards, pci dss, hipaa, csv file, json file, dsar 
 summary: BlueXP分类提供了一些报告、您可以使用这些报告更好地了解组织的数据隐私计划的状态。 
 ---
 = 查看合规性报告

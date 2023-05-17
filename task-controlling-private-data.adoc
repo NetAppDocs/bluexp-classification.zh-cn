@@ -63,7 +63,7 @@ image:screenshot_compliance_investigation_page_directory.png["单击调查结果
 
 == 查看包含敏感个人数据的文件
 
-BlueXP分类可自动识别隐私法规(如)定义的特殊类型的敏感个人信息 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2051-1-1["《一般数据保护条例》第 9 条和第 10 条"^]。例如，有关个人健康，种族或性取向的信息。 link:reference-private-data-categories.html#types-of-sensitive-personal-data["请参见完整列表"^]。BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
+BlueXP分类可自动识别隐私法规(如)定义的特殊类型的敏感个人信息 https://["《一般数据保护条例》第 9 条和第 10 条"^]。例如，有关个人健康，种族或性取向的信息。 link:reference-private-data-categories.html#types-of-sensitive-personal-data["请参见完整列表"^]。BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
 
 BlueXP分类使用人工智能(AI)、自然语言处理(NLR)、机器学习(ML)和认知计算(CC)来了解其为提取实体并对其进行相应分类而扫描的内容的含义。
 

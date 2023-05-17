@@ -29,13 +29,13 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge"^] (默认) m6a.4xlarge m5a.4xlarge m5.4xlarge m4.4xlarge 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://["m6i.4xlarge"^] (默认) m6a.4xlarge m5a.4xlarge m5.4xlarge m4.4xlarge 
 
 
-| 中等 | 8个CPU、32 GB RAM、200 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xlarge"^] (默认) m6a.2xlarge m5a.2xlarge m5.2xlarge m4.2xlarge 
+| 中等 | 8个CPU、32 GB RAM、200 GiB SSD | https://["m6i.2xlarge"^] (默认) m6a.2xlarge m5a.2xlarge m5.2xlarge m4.2xlarge 
 
 
-| 小型 | 8个CPU、16 GB RAM、100 GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xlarge"^] (默认值) c5a.2xlarge c5.2xlarge c4.2xlarge 
+| 小型 | 8个CPU、16 GB RAM、100 GiB SSD | https://["c6a.2xlarge"^] (默认值) c5a.2xlarge c5.2xlarge c4.2xlarge 
 |===
 
 
@@ -46,7 +46,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^] (默认) 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://["标准D16s_v3"^] (默认) 
 |===
 
 
@@ -57,5 +57,5 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16"^] (默认) n2D-standard-16 n1-standard-16 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://["n2-standard-16"^] (默认) n2D-standard-16 n1-standard-16 
 |===

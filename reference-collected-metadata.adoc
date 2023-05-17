@@ -35,6 +35,8 @@ BlueXP分类在对数据源和工作环境中的数据执行分类扫描时会�
 
 | *用户/组访问* | 用户和组信息来自LDAP | 不可用(NFS用户通常在服务器本地进行管理、因此、同一个用户可以在每个服务器中具有不同的UID) 
 |===
+请注意、BlueXP分类不会从以下数据源提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。
+
 
 
 == 上次访问时间时间戳
@@ -57,4 +59,4 @@ image:screenshot_scan_analysis_event_filter.png["筛选器的屏幕截图、用�
 * "已分类并更新上次访问时间"—显示已分类的文件、BlueXP分类无法将上次访问时间重置回原始日期。此筛选器仅适用于缺少"写入属性"权限*时启用了*扫描的环境。
 
 
-如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#data-investigation-report["了解有关数据调查报告的更多信息"^]。
+如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。 https://["了解有关数据调查报告的更多信息"^]。

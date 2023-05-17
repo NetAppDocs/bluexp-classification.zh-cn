@@ -42,11 +42,11 @@ BlueXP分类提供了多种管理私有数据的方式。某些功能使您可�
 
 * * 将 ONTAP 卷 * 克隆到同一聚合中的新卷，但在新克隆的卷中仅包含源卷中的选定文件。
 +
-如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["NetApp FlexClone"^] 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。
+如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 https://["NetApp FlexClone"^] 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。
 
 * 将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。
 +
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用 https://["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
 
 
 
@@ -149,9 +149,9 @@ image:screenshot_compliance_clone_files_dialog.png["显示复制文件对话框�
 
 === 将源文件复制并同步到目标系统
 
-您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 (https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["BlueXP复制和同步支持的目标位置"^]）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
+您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 (https://["BlueXP复制和同步支持的目标位置"^]）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
 
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用 https://["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
 
 
 TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。
@@ -160,7 +160,7 @@ TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户�
 * 要复制和同步文件，您必须具有帐户管理员或工作空间管理员角色。
 * 您必须至少选择20个文件。
 * 所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。
-* 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求 https://docs.netapp.com/us-en/cloud-manager-sync/task-quick-start.html["快速启动问题描述"^]。
+* 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求 https://["快速启动问题描述"^]。
 +
 请注意、BlueXP复制和同步服务会为您的同步关系单独收取服务费用、如果您在云中部署数据代理、则会产生资源费用。
 

@@ -23,13 +23,13 @@ summary: 完成几个步骤即可开始扫描具有BlueXP分类的Amazon FSx for
 * 要部署和管理BlueXP分类、您需要AWS中的主动连接器。
 * 创建工作环境时选择的安全组必须允许来自BlueXP分类实例的流量。您可以使用连接到 FSX for ONTAP 文件系统的 ENI 来查找关联的安全组，并使用 AWS 管理控制台对其进行编辑。
 +
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html["适用于 Linux 实例的 AWS 安全组"^]
+https://["适用于 Linux 实例的 AWS 安全组"^]
 
 +
-https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/security-group-rules.html["适用于 Windows 实例的 AWS 安全组"^]
+https://["适用于 Windows 实例的 AWS 安全组"^]
 
 +
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS 弹性网络接口（ ENI ）"^]
+https://["AWS 弹性网络接口（ ENI ）"^]
 
 
 
@@ -41,7 +41,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS 弹性�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的FSX for ONTAP 文件系统
 [role="quick-margin-para"]
-在扫描 ONTAP 卷的 FSX 之前， https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["您必须具有配置了卷的 FSX 工作环境"^]。
+在扫描 ONTAP 卷的 FSX 之前， https://["您必须具有配置了卷的 FSX 工作环境"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
 [role="quick-margin-para"]
@@ -77,7 +77,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 如果您要扫描的ONTAP 的FSX文件系统尚未作为工作环境在BlueXP中、则可以此时将其添加到画布中。
 
-https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["了解如何在BlueXP中发现或创建适用于ONTAP 的FSX文件系统"^]。
+https://["了解如何在BlueXP中发现或创建适用于ONTAP 的FSX文件系统"^]。
 
 
 

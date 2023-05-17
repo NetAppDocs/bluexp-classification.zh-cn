@@ -23,6 +23,24 @@
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
+* *UNIX文件夹权限*：需要以下最低UNIX权限：
++
+[cols="25,25"]
+|===
+| 文件夹 | 最小权限 
+
+
+| /tmp | `rwxrwxrwt` 
+
+
+| /opt | `rwxr-xr-x` 
+
+
+| /var/lib/Docker | `rwx------` 
+
+
+| /user/lib/systemd/system | `rwxr-xr-x` 
+|===
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
 ** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
@@ -35,14 +53,14 @@
 ** Red Hat Enterprise Linux 8.0至8.7版
 ** CentOS 8.0至8.7版
 ** CentOS Stream 8.
-** 可以使用7.8或7.9版、但Linux内核版本必须为4.0或更高版本
+** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
 * * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
 * *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
-** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
-** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+** Docker引擎19.3.1或更高版本。 https://["查看安装说明"^]。
+** Python 3 3.6 或更高版本。 https://["查看安装说明"^]。
 
 
 

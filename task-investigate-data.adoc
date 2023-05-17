@@ -60,7 +60,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 敏感个人数据 | 选择 link:reference-private-data-categories.html#types-of-sensitive-personal-data["敏感个人数据的类型"^]。 
 
 
-| 数据主题 | 输入数据主体的全名或已知标识符。 
+| 数据主题 | 输入数据主体的全名或已知标识符。 link:task-generating-compliance-reports.html#searching-for-data-subjects-and-downloading-reports["单击此处了解有关数据主题的更多信息"^]。 
 |===
 
 
@@ -104,7 +104,11 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 上次修改时间 | 选择上次修改文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。 
 
 
-| 上次访问 | 选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于BlueXP分类扫描的文件类型、这是BlueXP分类扫描文件的最后一次。 
+| 上次访问  a| 
+选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于BlueXP分类扫描的文件类型、这是BlueXP分类扫描文件的最后一次。
+
+请注意、BlueXP分类不会从以下数据源提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。
+
 |===
 
 

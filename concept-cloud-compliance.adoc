@@ -16,7 +16,7 @@ summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业�
 [role="lead"]
 BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
-https://bluexp.netapp.com/netapp-cloud-data-sense["了解BlueXP分类的用例"^]。
+https://["了解BlueXP分类的用例"^]。
 
 
 
@@ -48,7 +48,7 @@ BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据�
 * 遵守数据保留策略。
 * 使用_policies_自动向安全人员通知新的安全问题、以便他们可以立即采取措施。
 * 向文件添加自定义标记(例如"需要移动")、并分配一个BlueXP用户、以便此用户可以拥有文件的更新。
-* 查看和修改 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）标签"^] 在文件中。
+* 查看和修改 https://["Azure 信息保护（ AIP ）标签"^] 在文件中。
 
 
 
@@ -59,7 +59,7 @@ BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可
 
 * 通过识别重复数据或非业务相关数据来提高存储效率。您可以使用此信息来确定是要移动还是删除某些文件。
 * 删除看似不安全或风险太大、无法留在存储系统中的文件、或者您已确定为重复的文件。您可以使用_policies_自动删除符合特定条件的文件。
-* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
+* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://["了解有关从内部ONTAP 系统分层的更多信息"^]。
 
 
 
@@ -100,7 +100,6 @@ BlueXP分类可以扫描和分析来自以下类型数据源的结构化和非�
 *云：*
 
 * Amazon S3
-* Azure Blob
 * Google Cloud 存储
 * OneDrive
 * SharePoint Online
@@ -125,12 +124,12 @@ BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
 
 == 成本
 
-* 使用BlueXP分类的成本取决于要扫描的数据量。BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。这包括所有工作环境和数据源中的所有数据。要在这之后继续扫描数据，需要订阅 AWS ， Azure 或 GCP Marketplace 或 NetApp 提供的 BYOL 许可证。请参见 https://bluexp.netapp.com/netapp-cloud-data-sense["定价"^] 了解详细信息。
+* 使用BlueXP分类的成本取决于要扫描的数据量。BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。这包括所有工作环境和数据源中的所有数据。要在这之后继续扫描数据，需要订阅 AWS ， Azure 或 GCP Marketplace 或 NetApp 提供的 BYOL 许可证。请参见 https://["定价"^] 了解详细信息。
 +
 link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
 
 * 在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参见 <<BlueXP分类实例,为每个云提供商部署的实例类型>>。如果您在内部系统上安装BlueXP分类、则不需要任何费用。
-* BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
+* BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
 
 
 
@@ -139,22 +138,22 @@ link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
 
 数据传输成本取决于您的设置。如果BlueXP分类实例和数据源位于同一可用性区域和区域、则不会产生数据传输成本。但是，如果数据源（例如 Cloud Volumes ONTAP 系统或 S3 存储分段）位于 _Different_ 可用性区域或区域，则云提供商会向您收取数据传输成本。有关详细信息，请参见以下链接：
 
-* https://aws.amazon.com/ec2/pricing/on-demand/["AWS ： Amazon EC2 定价"^]
-* https://azure.microsoft.com/en-us/pricing/details/bandwidth/["Microsoft Azure ：带宽定价详细信息"^]
-* https://cloud.google.com/storage-transfer/pricing["Google Cloud ：存储传输服务定价"^]
+* https://["AWS ： Amazon EC2 定价"^]
+* https://["Microsoft Azure ：带宽定价详细信息"^]
+* https://["Google Cloud ：存储传输服务定价"^]
 
 
 
 
 == BlueXP分类实例
 
-在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
+在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。 https://["了解有关连接器的更多信息。"^]
 
 image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。"]
 
 请注意以下有关默认实例的信息：
 
-* 在AWS中、BlueXP分类在上运行 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge实例"^] 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。
+* 在AWS中、BlueXP分类在上运行 https://["m6i.4xlarge实例"^] 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。
 * 在Azure中、BlueXP分类在上运行 link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准的 D16s_v3 VM"^] 使用500 GiB磁盘。操作系统映像为 CentOS 7.9 。
 * 在GCP中、BlueXP分类在上运行 link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16 虚拟机"^] 使用500 GiB标准持久性磁盘。操作系统映像为 CentOS 7.9 。
 * 在默认实例不可用的区域中、BlueXP分类在备用实例上运行。 link:reference-instance-types.html["请参见备用实例类型"]。
@@ -173,7 +172,7 @@ TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据
 
 您可以在CPU较少、RAM较少的系统上部署BlueXP分类、但在使用这些功能较弱的系统时存在一些限制。
 
-[cols="18,26,56"]
+[cols="18,31,51"]
 |===
 | 系统大小 | 规格 | 限制 
 
@@ -226,7 +225,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 下表显示了一些差异：
 
-[cols="50,20,20"]
+[cols="47,18,18"]
 |===
 | 功能 | 分类 | 映射 
 
@@ -312,4 +311,4 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 * 具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。这些用户也无法复制，移动或删除文件。
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-user-roles.html["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-netapp-accounts.html#adding-users["添加具有特定角色的用户"^]。
+https://["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://["添加具有特定角色的用户"^]。

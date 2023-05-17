@@ -138,7 +138,7 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 
 添加正则表达式后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"个人结果"部分下、以及调查页面中的"个人数据"筛选器中。
 
-请参见 https://regex101.com/[] 如果您在构建正则表达式时需要帮助、
+请参见 https://[] 如果您在构建正则表达式时需要帮助、
 
 .步骤
 . 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。

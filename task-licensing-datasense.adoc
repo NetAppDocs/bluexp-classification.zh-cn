@@ -57,17 +57,17 @@ image:screenshot_add_subscription.gif["凭据页面中菜单的屏幕截图。�
 
 . 选择现有订阅并单击 * 关联 * ，或者单击 * 添加订阅 * 并按照步骤进行操作。
 +
-以下视频显示了如何关联 https://aws.amazon.com/marketplace/pp/prodview-oorxakq6lq7m4?sr=0-8&ref_=beagle&applicationId=AWSMPContessa["AWS Marketplace"^] 订阅 AWS 订阅：
+以下视频显示了如何关联 https://["AWS Marketplace"^] 订阅 AWS 订阅：
 
 +
 video::video_subscribing_aws.mp4[width=848,height=480]
 +
-以下视频显示了如何关联 https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.cloud-manager?tab=Overview["Azure Marketplace"^] 订阅 Azure ：
+以下视频显示了如何关联 https://["Azure Marketplace"^] 订阅 Azure ：
 
 +
 video::video_subscribing_azure.mp4[width=848,height=480]
 +
-以下视频显示了如何关联 https://console.cloud.google.com/marketplace/details/netapp-cloudmanager/cloud-manager?supportedpurview=project&rif_reserved["GCP 市场"^] 订阅 GCP ：
+以下视频显示了如何关联 https://["GCP 市场"^] 订阅 GCP ：
 
 +
 video::video_subscribing_gcp.mp4[width=848,height=480]
@@ -85,7 +85,7 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(D
 * 单击BlueXP右下角的聊天图标以申请许可证。
 
 
-或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#exchange-unassigned-node-based-licenses["有关详细信息，请访问此处"^]。
+或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。 https://["有关详细信息，请访问此处"^]。
 
 您可以使用BlueXP中的BlueXP数字钱包页面管理BlueXP分类BYOL许可证。您可以添加新许可证并更新现有许可证。
 
@@ -98,7 +98,7 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(D
 如果您在无法访问Internet的内部站点中的主机上部署了BlueXP分类、则需要从连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
 
 .步骤
-. 登录到 https://mysupport.netapp.com["NetApp 支持站点"^] 然后单击 * 系统 > 软件许可证 * 。
+. 登录到 https://["NetApp 支持站点"^] 然后单击 * 系统 > 软件许可证 * 。
 . 输入BlueXP分类许可证序列号。
 +
 image:screenshot_cloud_tiering_license_step1.gif["按序列号搜索后显示许可证表的屏幕截图。"]
@@ -126,7 +126,7 @@ image:screenshot_cloud_tiering_license_step2.gif["屏幕截图显示了获取许
 +
 ** 如果您有BlueXP分类许可证序列号并且知道您的NSS帐户，请选择*Enter Serial Number*选项并输入该信息。
 +
-如果下拉列表中没有您的 NetApp 支持站点帐户， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["将NSS帐户添加到BlueXP"^]。
+如果下拉列表中没有您的 NetApp 支持站点帐户， https://["将NSS帐户添加到BlueXP"^]。
 
 ** 如果您有BlueXP分类许可证文件(安装在非公开站点时需要)，请选择*上传许可证文件*选项并按照提示附加该文件。
 +

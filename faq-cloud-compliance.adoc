@@ -52,7 +52,7 @@ link:concept-cloud-compliance.html["详细了解BlueXP分类的工作原理"^]�
 * 遵守数据保留策略。
 
 
-https://bluexp.netapp.com/netapp-cloud-data-sense["详细了解BlueXP分类的用例"^]。
+https://["详细了解BlueXP分类的用例"^]。
 
 
 
@@ -210,7 +210,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === BlueXP分类是否可以与我在文件中嵌入的AIP标签配合使用？
 
-是的。如果您订阅了BlueXP分类正在扫描的文件、则可以管理这些文件中的AIP标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。您可以查看已分配给文件的标签，向文件添加标签以及更改现有标签。
+是的。如果您订阅了BlueXP分类正在扫描的文件、则可以管理这些文件中的AIP标签 https://["Azure 信息保护（ AIP ）"^]。您可以查看已分配给文件的标签，向文件添加标签以及更改现有标签。
 
 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["了解更多信息。"^]。
 
@@ -318,7 +318,7 @@ BlueXP分类扫描在整个环境中使用标准协议和只读权限。系统�
 * NetApp自带许可证(BYOL)
 
 
-请参见 https://bluexp.netapp.com/pricing["定价"^] 了解详细信息。
+请参见 https://["定价"^] 了解详细信息。
 
 
 
@@ -348,19 +348,19 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 * 在扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户中的数据时、您可以在任何这些云位置使用连接器。
 
 
-因此、如果您在其中许多位置都有数据、则可能需要使用 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#when-to-use-multiple-connectors["多个连接器"^]。
+因此、如果您在其中许多位置都有数据、则可能需要使用 https://["多个连接器"^]。
 
 
 
 === 是否可以在自己的主机上部署此连接器？
 
-是的。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的主机上。如果您计划在内部部署BlueXP分类、则可能还需要在内部安装Connector、但这不是必需的。
+是的。您可以 https://["在内部部署 Connector"^] 在网络中的Linux主机或云中的主机上。如果您计划在内部部署BlueXP分类、则可能还需要在内部安装Connector、但这不是必需的。
 
 
 
 === 没有Internet访问的安全站点如何？
 
-是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["在无法访问Internet的内部Linux主机上部署Connector"^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。
+是的、这一点也受支持。您可以 https://["在无法访问Internet的内部Linux主机上部署Connector"^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。
 
 
 

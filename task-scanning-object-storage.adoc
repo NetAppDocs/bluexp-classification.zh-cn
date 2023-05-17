@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-scanning-object-storage.html 
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, object storage, data sense 
-summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括 NetApp StorageGRID ， IBM 云对象存储， Azure Blob （使用 MinIO ）， Linode ， B2 云存储， Amazon S3 等。' 
+summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。' 
 ---
 = 扫描使用 S3 协议的对象存储
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象�
 
 
 [role="lead"]
-完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括 NetApp StorageGRID ， IBM 云对象存储， Azure Blob （使用 MinIO ）， Linode ， B2 云存储， Amazon S3 等。
+完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。
 
 
 
@@ -49,7 +49,6 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 * 您需要具有端点 URL 才能连接到对象存储服务。
 * 您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。
-* 要支持 Azure Blob ，您需要使用 link:https://min.io/["MinIO 服务"^]。
 
 
 

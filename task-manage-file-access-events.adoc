@@ -16,9 +16,9 @@ summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文�
 [role="lead"]
 您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。
 
-例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果更改了这些设置、您将能够看到进行更改的人员的姓名以及进行更改的时间。
+例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果已更改、您将能够看到进行更改的人员的安全标识符(SID)以及更改的时间。
 
-您可以在ONTAP 工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
+您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
 
 BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
@@ -37,15 +37,15 @@ BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
 == 支持的数据源
 
-BlueXP分类可以记录驻留在以下数据源上的文件的文件访问事件：
+BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的文件访问事件：
 
 * 内部部署ONTAP
 * Cloud Volumes ONTAP
 * Azure NetApp Files
-* 适用于 ONTAP 的 FSX
+* 适用于 NetApp ONTAP 的 Amazon FSX
 
 
-您必须为这些数据源配置Active Directory、以便BlueXP分类可以识别访问这些文件的人员的姓名。
+数据源必须运行ONTAP 9.11或更高版本的软件。
 
 
 
@@ -53,7 +53,12 @@ BlueXP分类可以记录驻留在以下数据源上的文件的文件访问事�
 
 您可以在单个卷上启用文件访问审核日志记录、以跟踪对文件和目录的更改。
 
-提示:: 此时、每个ONTAP 系统最多可以为5个卷配置文件访问审核。
+
+TIP: 此时、您最多可以在每个数据源上的5个卷上配置文件访问审核。
+
+.开始之前
+* 您应该为数据源配置Active Directory、以便BlueXP分类可以列出访问这些文件的人员的ID。
+* 必须打开端口5018、以便从BlueXP分类系统进行出站访问。
 
 
 .步骤
@@ -81,34 +86,36 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 
 == 日志文件内容
 
-系统会为您配置的用于跟踪文件访问事件的每个卷创建一个日志文件。审核日志中的每一行都包含以下格式的信息：
+系统会为您配置的用于跟踪文件访问事件的每个卷创建一个日志文件。日志文件名为"fpolicy_cfs_838c1727-dd2d-11ed-a3ec-590ce4991.log"<volume_uuid> 、例如<volume_name>。审核日志中的每一行都包含以下格式的信息：
 
-`<timestamp> | <volume_name> | <event_type> | <file_name> | <user_name> | <action_result> | <action_details>`
+* Timestamp—事件的日期和时间
+* 客户端IP—执行文件操作的实例/PC/Proxy的IP地址
+* Volume Name—卷的名称
+* volume UUID—卷的UUID
+* File Type (文件类型)—文件类型：file或DIR
+* File size—文件大小(以字节为单位)
+* path—受影响文件或目录的完整路径和名称
+* Volume Type—卷的类型：SMB或NFS
+* 用户ID -执行操作的人员的安全标识符(SID)
+* 文件所有者ID—文件所有者的安全标识符(SID)
+* 事件类型-创建、读取、写入、重命名、删除、 更改所有者/权限或更改SACL/DACL
+* 操作详细信息-执行的操作：取决于操作
 
-* timestamp—事件的日期和时间
-* volume name—卷的名称
-* 事件类型—创建、读取、写入、重命名、删除、 更改所有者/权限并更改SACL/DACL
-* file name—完整路径和文件名
-* User name (或ID)—执行操作的人员的名称或ID
-* 操作结果—操作是成功还是失败、以及成功/失败的原因
-* 操作详细信息—已执行的操作：取决于操作
 
+例如、日志文件中的以下行显示卷"fpolicy_"CIFS"中发生了"创建"操作—已在卷中创建新文件"F14"。
 
-例如、日志文件中的以下行显示复制操作成功、复制操作失败。
+ {"Timestamp": "2023-04-24 13:57", "Client_IP": "172.31.14.35", "Volume_Name": "fpolicy_cifs", "Volume_UUID": "838c1727-dd2d-11ed-a3ec-590ce4991", "File_Type": "FILE", "File_Size": 100, "Path": \\FPOLICY_CVO\fpolicy_cifs_share\dbs\f14, "Volume_Type": "SMB", "User_ID": "S-1-5-21-459977447-2546672318-3630509715-500", "File_Owner_ID": "S-1-5-32-544", "Event_Type": "CREATE", "Action_Details": {details}}
+您可以使用BlueXP分类调查页面搜索卷(使用"存储库"筛选器)或文件(使用"文件/目录路径"筛选器)、以查看有关受影响卷和文件的更多详细信息。
 
-....
-2022-06-06 15:23:08,910 | INFO | ds_audit_logger | es_scanned_file | 237 | 49 | Copy file /CIFS_share/data/dop1/random_positives.tsv from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - SUCCESS
-2022-06-06 15:23:08,968 | WARNING | ds_audit_logger | es_scanned_file | 239 | 153 | Copy file /CIFS_share/data/compliance-netapp.tar.gz from device 10.31.133.183 (type: SMB_SHARE) to device 10.31.130.133:/export_reports (NFS_SHARE) - FAILURE
-....
 
 
 == 访问文件访问审核日志文件
 
-文件访问审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/audit_logs/`
+文件访问审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/file_access_audit_logs/`
 
-这些日志文件名为"File_Access_Audit <volume_name> <timestamp> 日志"；例如"File Access Audit _MedicalData_20230205092321.log"。<timestamp> 是BlueXP分类将第一个日志写入文件的时间。默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。
+默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、日志文件中较早的条目将被覆盖。
 
-目录中所有日志文件的总大小设置为默认值50 GB。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此限制后、最早的日志文件将自动删除。
+默认情况下、目录中所有日志文件的总大小设置为最大50 GB。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此限制后、在添加新日志文件时、最早的日志文件将被删除。此外、超过14天的任何日志文件都将被覆盖、因为这是最长保留时间。
 
 如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到日志文件。
 
@@ -123,14 +130,14 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 ** 对于GCP：使用为BlueXP实例创建的用户
 
 
-* <datasens_ip>=虚拟机实例的IP地址
+* <datasense_ip> = BlueXP分类虚拟机实例的IP地址
 
 
 请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
+* https://["AWS中的安全组规则"^]
+* https://["Azure中的安全组规则"^]
+* https://["Google Cloud中的防火墙规则"^]
 
 
 
@@ -146,12 +153,12 @@ image:screenshot_compliance_file_access_audit_config.png["显示BlueXP分类配�
 | 审核日志选项 | Description 
 
 
-| 日志文件位置 | 该位置当前已硬编码、可写入日志文件 `/opt/netapp/audit_logs/` 
+| 日志文件位置 | 该位置当前已硬编码、可写入日志文件 `/opt/netapp/file_access_audit_logs/` 
 
 
 | 审核日志的最大存储分配 | 目录中所有日志文件的总大小当前已硬编码为默认值50 GB。达到此限制后、最早的日志文件将自动删除。 
 
 
-| 每个审核文件的最大审核事件数 | 每个文件当前都经过硬编码、最多可包含50、000个事件。达到此最大值后、将为该卷创建一个新的日志文件。新文件的时间戳将更新。 
+| 每个审核文件的最大审核事件数 | 每个文件当前都经过硬编码、最多可包含50、000个事件。达到此最大值后、在添加新事件时、旧事件将被删除。 
 |===
 请注意、这些设置当前已硬编码为默认设置。它们不能更改。
