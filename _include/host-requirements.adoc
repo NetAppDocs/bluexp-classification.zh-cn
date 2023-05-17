@@ -49,18 +49,17 @@
 
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
+
+
+* Red Hat Enterprise Linux 8.0至8.7版
+* CentOS 8.0至8.7版
+* CentOS Stream 8.
+* 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 +
-** Red Hat Enterprise Linux 8.0至8.7版
-** CentOS 8.0至8.7版
-** CentOS Stream 8.
-** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
+** * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
+** *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 
 
-* * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
-* *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
-+
-** Docker引擎19.3.1或更高版本。 https://["查看安装说明"^]。
-** Python 3 3.6 或更高版本。 https://["查看安装说明"^]。
-
-
+* Docker引擎19.3.1或更高版本。 https://["查看安装说明"^]。
+* Python 3 3.6 或更高版本。 https://["查看安装说明"^]。
 
