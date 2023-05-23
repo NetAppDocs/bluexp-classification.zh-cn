@@ -76,7 +76,7 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 
 请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
 
-* https://["AWS中的安全组规则"^]
-* https://["Azure中的安全组规则"^]
-* https://["Google Cloud中的防火墙规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
 

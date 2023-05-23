@@ -48,7 +48,7 @@ BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前�
 * 接收用户反馈
 * 从BlueXP自动升级软件
 +
-BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
+BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
 
 
 
@@ -60,7 +60,7 @@ BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 安装BlueXP Connector
 [role="quick-margin-para"]
-如果您尚未在脱机内部站点上安装 Connector ， https://["部署连接器"^] 现在在 Linux 主机上。
+如果您尚未在脱机内部站点上安装 Connector ， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 现在在 Linux 主机上。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看BlueXP分类前提条件
 [role="quick-margin-para"]
@@ -78,7 +78,7 @@ BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在此�
 
 == 安装BlueXP Connector
 
-如果您尚未在脱机内部站点上安装BlueXP Connector、 https://["部署连接器"^] 在脱机站点的 Linux 主机上。
+如果您尚未在脱机内部站点上安装BlueXP Connector、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 在脱机站点的 Linux 主机上。
 
 
 
@@ -133,21 +133,21 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
-
-
-* Red Hat Enterprise Linux 8.0至8.7版
-* CentOS 8.0至8.7版
-* CentOS Stream 8.
-* 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 +
-** * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
-** *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
+** Red Hat Enterprise Linux 8.0至8.7版
+** CentOS 8.0至8.7版
+** CentOS Stream 8.
+** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
-* Docker引擎19.3.1或更高版本。 https://["查看安装说明"^]。
-* Python 3 3.6 或更高版本。 https://["查看安装说明"^]。
+* * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
+* *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
-** * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
+** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+
+
+* * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -163,8 +163,6 @@ firewall-cmd --reload
 
 
 
-
-
 TIP: 安装后无法更改BlueXP分类主机系统的IP地址。
 
 
@@ -173,7 +171,7 @@ TIP: 安装后无法更改BlueXP分类主机系统的IP地址。
 
 在部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
-* 确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://["NetApp 提供的策略"^]。
+* 确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
 * 确保您可以保持BlueXP分类运行。BlueXP分类实例需要持续扫描数据。
 * 确保Web浏览器连接到BlueXP分类。启用BlueXP分类后、确保用户从连接到BlueXP分类实例的主机访问BlueXP界面。
 +
@@ -262,7 +260,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["一个图表、显示在
 
 
 .步骤
-. 在已配置Internet的系统上、从下载BlueXP分类软件 https://["NetApp 支持站点"^]。您应选择的文件名为 * Datasis-offline-bundle-<version>.tar.gz* 。
+. 在已配置Internet的系统上、从下载BlueXP分类软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为 * Datasis-offline-bundle-<version>.tar.gz* 。
 . 将安装程序包复制到计划在非公开站点中使用的 Linux 主机。
 . 解压缩主机上的安装程序包，例如：
 +
@@ -410,11 +408,11 @@ BlueXP分类安装程序完成软件包安装并注册安装。安装可能需�
 
 .开始之前
 * BlueXP分类软件一次可升级一个主要版本。例如、如果您安装的是版本1.20.x、则只能升级到1.21.x如果您有几个主要版本，则需要多次升级此软件。
-* 验证BlueXP Connector软件是否已升级到最新可用版本。 https://["请参见 Connector 升级步骤"^]。
+* 验证BlueXP Connector软件是否已升级到最新可用版本。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["请参见 Connector 升级步骤"^]。
 
 
 .步骤
-. 在已配置Internet的系统上、从下载BlueXP分类软件 https://["NetApp 支持站点"^]。您应选择的文件名为 * Datasis-offline-bundle-<version>.tar.gz* 。
+. 在已配置Internet的系统上、从下载BlueXP分类软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为 * Datasis-offline-bundle-<version>.tar.gz* 。
 . 将软件包复制到非公开站点上安装了BlueXP分类的Linux主机。
 . 解压缩主机上的软件包，例如：
 +

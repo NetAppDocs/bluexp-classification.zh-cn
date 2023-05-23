@@ -37,9 +37,9 @@ BlueXP分类安装脚本中还有一个必备测试脚本。此处介绍的脚�
 
 在安装和使用BlueXP分类之前、需要BlueXP Connector。但是、您可以在不使用Connector的情况下运行Prerequisites脚本。
 
-您可以 https://["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
+您可以 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
-要在云提供商环境中创建Connector、请参见 https://["在 AWS 中创建连接器"^]， https://["在 Azure 中创建连接器"^]或 https://["在 GCP 中创建连接器"^]。
+要在云提供商环境中创建Connector、请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
@@ -96,21 +96,21 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
-
-
-* Red Hat Enterprise Linux 8.0至8.7版
-* CentOS 8.0至8.7版
-* CentOS Stream 8.
-* 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 +
-** * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
-** *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
+** Red Hat Enterprise Linux 8.0至8.7版
+** CentOS 8.0至8.7版
+** CentOS Stream 8.
+** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
-* Docker引擎19.3.1或更高版本。 https://["查看安装说明"^]。
-* Python 3 3.6 或更高版本。 https://["查看安装说明"^]。
+* * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
+* *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
-** * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
+** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+
+
+* * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -132,8 +132,6 @@ firewall-cmd --permanent --add-port=4789/udp
 ....
 +
 请注意、每当启用或更新时、都必须重新启动Docker `firewalld` 设置。
-
-
 
 
 
@@ -199,7 +197,7 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 
 
 .步骤
-. 从下载BlueXP分类前提条件脚本 https://["NetApp 支持站点"^]。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*<version>。
+. 从下载BlueXP分类前提条件脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*<version>。
 . 将文件复制到您计划使用的Linux主机(使用 `scp` 或其他方法)。
 . 分配运行脚本的权限。
 +

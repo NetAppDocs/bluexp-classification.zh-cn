@@ -18,7 +18,7 @@ summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文�
 
 例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果已更改、您将能够看到进行更改的人员的安全标识符(SID)以及更改的时间。
 
-您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
+您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
 
 BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
@@ -135,9 +135,9 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 
 请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
 
-* https://["AWS中的安全组规则"^]
-* https://["Azure中的安全组规则"^]
-* https://["Google Cloud中的防火墙规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
 
 
 
