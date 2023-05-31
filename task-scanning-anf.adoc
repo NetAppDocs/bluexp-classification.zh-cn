@@ -24,7 +24,7 @@ summary: 完成几个步骤即可开始使用适用于Azure NetApp Files 的Blue
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的Azure NetApp Files 系统
 [role="quick-margin-para"]
-扫描 Azure NetApp Files 卷之前， https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["必须设置BlueXP才能发现配置"^]。
+扫描 Azure NetApp Files 卷之前， https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["必须设置BlueXP才能发现配置"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
 [role="quick-margin-para"]
@@ -63,7 +63,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 如果您要扫描的Azure NetApp Files 系统尚未作为工作环境在BlueXP中、您可以此时将其添加到画布中。
 
-https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-quick-start.html["了解如何在BlueXP中发现Azure NetApp Files 系统"^]。
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["了解如何在BlueXP中发现Azure NetApp Files 系统"^]。
 
 
 

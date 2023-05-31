@@ -48,7 +48,7 @@ BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前�
 * 接收用户反馈
 * 从BlueXP自动升级软件
 +
-BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
+BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
 
 
 
@@ -60,7 +60,7 @@ BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 安装BlueXP Connector
 [role="quick-margin-para"]
-如果您尚未在脱机内部站点上安装 Connector ， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 现在在 Linux 主机上。
+如果您尚未在脱机内部站点上安装 Connector ， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 现在在 Linux 主机上。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看BlueXP分类前提条件
 [role="quick-margin-para"]
@@ -78,7 +78,7 @@ BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在此�
 
 == 安装BlueXP Connector
 
-如果您尚未在脱机内部站点上安装BlueXP Connector、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 在脱机站点的 Linux 主机上。
+如果您尚未在脱机内部站点上安装BlueXP Connector、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["部署连接器"^] 在脱机站点的 Linux 主机上。
 
 
 
@@ -171,7 +171,7 @@ TIP: 安装后无法更改BlueXP分类主机系统的IP地址。
 
 在部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
-* 确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+* 确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
 * 确保您可以保持BlueXP分类运行。BlueXP分类实例需要持续扫描数据。
 * 确保Web浏览器连接到BlueXP分类。启用BlueXP分类后、确保用户从连接到BlueXP分类实例的主机访问BlueXP界面。
 +
@@ -408,7 +408,7 @@ BlueXP分类安装程序完成软件包安装并注册安装。安装可能需�
 
 .开始之前
 * BlueXP分类软件一次可升级一个主要版本。例如、如果您安装的是版本1.20.x、则只能升级到1.21.x如果您有几个主要版本，则需要多次升级此软件。
-* 验证BlueXP Connector软件是否已升级到最新可用版本。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["请参见 Connector 升级步骤"^]。
+* 验证BlueXP Connector软件是否已升级到最新可用版本。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["请参见 Connector 升级步骤"^]。
 
 
 .步骤

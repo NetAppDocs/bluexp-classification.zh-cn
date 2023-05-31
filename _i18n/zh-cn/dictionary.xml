@@ -1287,7 +1287,6 @@
   <block id="d612613d84fc2070d51661d666c6e11b" category="paragraph">如果需要，可以单击 * 添加 IP* 来添加多个 IP 地址。</block>
   <block id="22f358540a8137fabaf166237bf90665" category="paragraph">搜索数据主体的全名或已知标识符，然后下载文件列表报告或 DSAL 报告。您可以搜索依据 <block ref="15f0bc476b1c646a9bfee9ca0397f926" category="inline-link-macro-rx"></block>。</block>
   <block id="48e1e343989571ace6bf404a680635d8" category="list-text">如步骤 8 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。</block>
-  <block id="b7f2b0e45c51391324aebf221531b036" category="paragraph">在扫描 ONTAP 卷的 FSX 之前，<block ref="68e9cbaf33b2641a589dc87867e4bfec" category="inline-link-rx"></block>。</block>
   <block id="bbd1b36ab0dbd0c17e60ec752bb02a55" category="paragraph"><block ref="b1e4fd148d344599f4a25922d8155dd9" category="inline-link-macro-rx"></block>。</block>
   <block id="91aef07a29d8068140e7dca06bec6d9d" category="list-text">根据您的数据提供隐私洞察力并获得隐私风险得分。 <block ref="890a798f73fe571345d1ff7c58a08844" category="inline-link-macro-rx"></block>。</block>
   <block id="39630dece802514e5f7336bcbbf0ac6f" category="list-text">帮助您确定信用卡信息在整个文件中的分布情况。 <block ref="ef3bace538be6eee30a3e48516637cf7" category="inline-link-macro-rx"></block>。</block>
@@ -1301,7 +1300,6 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">接收用户反馈</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
@@ -1353,18 +1351,14 @@
   <block id="f7a21d48814a155d5e8e39ddbf0827ae" category="paragraph">*结构化数据报告*包含有关数据库表的以下信息：</block>
   <block id="6c5c8bcc3e6c86825162a1ff2603c1f3" category="section-title">增加了对扫描Google Drive帐户中数据的支持</block>
   <block id="686f6248c08053e57c0ee91c18b2d097" category="inline-link">了解如何扫描Google Drive帐户</block>
-  <block id="b3393b07bc5334485489796939a3c1ac" category="paragraph">现在、您可以将Google Drive帐户添加到Data sense中、以便扫描这些Google Drive帐户中的文档和文件。<block ref="a42326c5e8654fdf4afea98988689f56" category="inline-link-rx"></block>。</block>
   <block id="1c569820a2d89c87007e78d8b99f545d" category="inline-link">现有文件类型</block>
-  <block id="d166e1f4f240d3915c676102b853aab5" category="paragraph">除了文档、工作表和幻灯片之外、Data sense还可以识别以下Google文件类型中的个人身份信息(Personal Identifiable Information、PiII)<block ref="c10736ee2c8542c954ba18655a2447a7" category="inline-link-rx"></block>。</block>
   <block id="2f8d7f7b2a9f475f94e961eea0214b6f" category="section-title">已将目录级别视图添加到数据调查页面</block>
   <block id="a1e4ba958a7013f98fdbb1a883102e86" category="inline-link">了解如何为扫描的数据选择目录视图</block>
   <block id="fc923fa1acb929379421a26667fff392" category="section-title">展开组以显示有权访问文件的用户/成员</block>
   <block id="87dc185d970f7684d5d731eebbf8d195" category="inline-link">了解如何查看对文件具有读取和/或写入权限的用户和组</block>
-  <block id="3fedcf7612eed43efc90d19f42d43f9a" category="paragraph">现在、您可以在Data sense权限功能中查看有权访问文件的用户和组列表。可以展开每个组以显示组中的用户列表。<block ref="978ddb309e10f2b48cc0f4a959fbca42" category="inline-link-rx"></block>。</block>
   <block id="96ab93ed4512cdb4dd07828ed738b502" category="section-title">数据调查页面添加了两个新的筛选器</block>
   <block id="9e4e3d73f23809aabccd30c3abe0f99f" category="list-text">通过"目录类型"筛选器、您可以细化数据以仅查看文件夹或共享。结果将显示在新的*目录*选项卡中。</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">查看可用于调查数据的所有筛选器的列表</block>
-  <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
   <block id="3115aebdd180a7f37b3394bf8996ca30" category="list-text">您当前无法更改大于 30 MB 的文件中的标签。对于OneDrive、SharePoint和Google Drive帐户、最大文件大小为4 MB。</block>
   <block id="5ba18772d6c4efd6fedbaf5fb29d559a" category="paragraph">您可以筛选调查页面的内容，以便仅显示要查看的结果。这是一项功能非常强大的功能、因为在对数据进行细化后、您可以使用页面顶部的按钮栏执行各种操作、包括复制文件、移动文件、向文件添加标记或AIP标签等。</block>
   <block id="c3a9830be43f6515257f3979e66816fd" category="cell">目录类型</block>
@@ -1399,23 +1393,18 @@
   <block id="1692b32d79b99cfb5a1277f8c49a23af" category="sidebar">扫描您的工作环境</block>
   <block id="0dcbed0ed443cc2be8b28a4bd6ea0b84" category="sidebar">扫描其他数据源</block>
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">筛选数据以查看特定文件</block>
-  <block id="c7fd320d60c5b92b36ff4a806aef9121" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。将为扫描的CIFS和NFS共享以及OneDrive、SharePoint和Google Drive文件夹的目录编制索引。现在、您可以在目录级别查看权限并管理数据。<block ref="9e53e59afd29cea3c43eb27dc0a3476a" category="inline-link-rx"></block>。</block>
   <block id="bc80eb794f149fca6a16076a0e09247f" category="list-text">通过顶层选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。</block>
   <block id="d5ef18883c38c2dd1dffc30e93610cde" category="paragraph">添加用户文件所在的Google Drive帐户。如果要扫描多个用户的文件、则需要对每个用户运行此步骤。</block>
   <block id="f313b26419f4694c764a8d9a38b04ce1" category="section-title">现在、您可以从数据调查页面下载结果、并将其作为.json报告</block>
   <block id="d214193a7fda757836199c60304f2ab0" category="inline-link">请参见如何从"数据调查"页面创建报告</block>
-  <block id="6cb5a0e32d140f3770c280b471c48cd9" category="paragraph">在"数据调查"页面中筛选数据后、除了将数据保存到本地系统上的.CSV文件之外、您还可以将数据另存为可导出到NFS共享的.JSON文件中的报告。确保Data sense具有正确的导出访问权限。<block ref="0ee382d3ff8086e5d12287af8220734f" category="inline-link-rx"></block>。</block>
   <block id="bef8207d9128cb7b1a5dc68939fc3d45" category="section-title">可以从Data sense UI卸载Data sense</block>
-  <block id="4aa7333b6753545c6a6c04dfb41b9866" category="paragraph">您可以卸载Data sense以从主机中永久删除软件、如果部署了云、则删除部署了Data sense的虚拟机/实例。删除此实例将永久删除Data sense已扫描的所有索引信息。<block ref="3da12a48df084f38bafa988bc8e77bd7" category="inline-link-rx"></block>。</block>
   <block id="d96d07db10c050adfb5fed7e3d885b82" category="section-title">现在、可以使用审核日志记录来跟踪Data sense已执行操作的历史记录</block>
   <block id="1ce49760bcdac502d41fb1e9e547086b" category="paragraph">审核日志可跟踪Data sense对所有工作环境中的文件以及Data sense正在扫描的数据源执行的管理活动。活动可以是由用户生成的(删除文件、创建策略等)、也可以是由策略生成的(自动向文件添加标签、自动删除文件等)。</block>
   <block id="f5678b0269d5a9952a36966b56ab8f2e" category="inline-link">查看有关审核日志的更多详细信息</block>
-  <block id="d96e8ae6f880fe9b4d4de06b59a2128b" category="paragraph"><block ref="a09465601260c6db487e05cfd3d2ec87" category="inline-link-rx"></block>。</block>
   <block id="a74d72e2c5ed113941ee600287aaa999" category="section-title">新的筛选器用于在"数据调查"页面中输入敏感标识符的数量</block>
   <block id="3c5d93e6c38bd86146cef63658df62d2" category="paragraph">通过"标识符数量"筛选器、您可以列出具有一定数量的敏感标识符的文件、包括个人数据和敏感个人数据。您可以选择1-10或501到1000等范围、以便仅查看包含该数量的敏感标识符的文件。</block>
   <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">现在、您可以编辑已创建的现有策略</block>
   <block id="61e409921fe798c5667689af4656a112" category="inline-link">请参见如何编辑策略</block>
-  <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>。</block>
   <block id="b6d077046b2cf0c110fa9676e30656f1" category="list-text">在_卸 载数据感知对话框中、键入*卸载*确认要删除实例以及所有关联数据、然后单击*卸载*。</block>
   <block id="9fa93379f19a53edba45b6ad3485c2ec" category="list-text">在_卸 载数据感知对话框中、键入*卸载*确认要清除所有配置信息、然后单击*卸载*。</block>
   <block id="f5778aefaac6fff25d1b42554bc3eb10" category="list-text">要从主机完成卸载、请在主机上运行卸载脚本、例如：</block>
@@ -1491,16 +1480,13 @@
   <block id="d5b8d2f44acff1b98dd9992401eadf24" category="section-title">2022年7月6日(1.14版)</block>
   <block id="45b5235b8c737e18e646514c30664517" category="section-title">现在、您可以查看有权访问目录的用户和组</block>
   <block id="949b2765e1f54f21e0cad7eec542e087" category="inline-link">了解如何查看有权访问文件夹和文件共享的用户和组</block>
-  <block id="a90ca4eb6ddb2e74f2c65cdc04cc3fbb" category="paragraph">过去、您可以查看为单个文件授予的打开权限类型。现在、您可以查看有权访问目录(文件夹和文件共享)的所有用户或组的列表及其权限类型。<block ref="b60fb470aa4bdcc4f286155f14ead62c" category="inline-link-rx"></block>。</block>
   <block id="6a3dc819e6a301f028d6d27063bb3b04" category="section-title">您可以"暂停"扫描存储库、以暂时停止扫描某些内容</block>
   <block id="1c32547b30cc36869742df049964326d" category="inline-link">请参见如何暂停和恢复扫描</block>
   <block id="c249f6d964b8afde45218a63824a58eb" category="paragraph">Data sense可以识别和分类包含来自印第安纳、纽约和德克萨斯州的驾驶执照数据的文件。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
   <block id="a3096c7d9e0dca154e6250efb3ce3736" category="section-title">现在、策略将返回与搜索条件匹配的目录</block>
   <block id="9fadb6e2508d92e954b40d39c36e9687" category="inline-link">了解有关创建策略的更多信息</block>
-  <block id="108104172f74542ec4477bdc3526c5a6" category="paragraph">过去、在创建自定义策略时、结果会显示与搜索条件匹配的文件。现在、结果还会显示与查询匹配的目录(文件夹和文件共享)。<block ref="15372ef6946b4e16102f5b52608f8748" category="inline-link-rx"></block>。</block>
   <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">目前、数据感知一次最多可移动100、000个文件</block>
   <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">请参见如何使用Data sense移动文件</block>
-  <block id="83a532ebc867c79287dd4586ca124d5c" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="09dde0c065d21cccd7a9b4c85001931c" category="inline-link-rx"></block>。</block>
   <block id="c761b545ddd43d078ae7ea86495182db" category="paragraph">与 Data sense 集成的全局 Active Directory 服务器现在可以是 LDAP 服务器，而不是以前支持的 DNS 服务器。 <block ref="de464dfb9c55e9818cd55e6911bff3a5" category="inline-link-macro-rx"></block>。</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">非NetApp CIFS文件共享(非NFS文件共享)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">德克萨斯驱动程序许可证</block>
@@ -1536,13 +1522,10 @@
   <block id="c189819be34e41f0ac712261c4bb10b0" category="list-text">新西兰银行帐号</block>
   <block id="c8c8337bd5f0527c7ba4b08117f3d96f" category="paragraph"><block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
   <block id="8d3dd83a131924f6dd08fdea2d8e7828" category="section-title">能够添加痕迹文件以指示文件移动的原因</block>
-  <block id="e92169a6172fd2cba6d57bfe01aea45a" category="paragraph">使用数据感知功能将源文件移动到NFS共享时、现在可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`&lt;filename&gt;-breadcrumb-&lt;date&gt;.txt`创建一个痕迹文件、以显示文件移动位置以及文件移动用户。<block ref="c1eac1298d336c56373b10262d37ad96" category="inline-link-rx"></block>。</block>
   <block id="13cd21aa095db4c5e2c5cd12303ecc97" category="section-title">在您的目录中找到的个人数据和敏感的个人数据显示在调查结果中</block>
   <block id="6b473faf5fc253b69b173e6b8b87f726" category="inline-link">请参见此处的示例</block>
-  <block id="e8886543955f7a165a88e44f53559443" category="paragraph">现在、"数据调查"页面将显示在您的目录(文件夹和共享)中找到的个人数据和敏感个人数据的结果。<block ref="37ae8b694ca9dace0885ec3ddd4e8904" category="inline-link-rx"></block>。</block>
   <block id="76013a8e1044d1903752927bac2c2799" category="section-title">查看已成功分类的卷、分段等数量的状态</block>
   <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">请参见如何查看此信息</block>
-  <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>。</block>
   <block id="992e3ca84c2944a0dbcaf7e99231a50e" category="inline-link-macro">查看映射扫描与分类扫描之间的区别</block>
   <block id="5e27c5cc9f66f543d963585b42d1709d" category="section-title">保持合规性</block>
   <block id="3a1ce1b3df0ddd54818235c5f83820d9" category="list-text">根据GDPR、CCPA、PCI和HIPAA隐私法规的要求、识别广泛的敏感个人信息。</block>
@@ -1585,15 +1568,12 @@
   <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日(1.16版)</block>
   <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">能够立即重新扫描存储库以反映文件中的更改</block>
   <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">请参见如何重新扫描目录</block>
-  <block id="45b58068004d744461935c2aae409c04" category="paragraph">如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
   <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">在"数据调查"页面中为数据感知扫描状态添加了新的筛选器</block>
   <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">使用"分析状态"筛选器可以列出处于数据感知扫描特定阶段的文件。您可以选择一个选项来显示要扫描的*正在等待首次扫描*、正在扫描的*已完成*、*正在等待重新扫描*或*已失败*文件的列表。</block>
-  <block id="82f05abce805aa872acec563bbca9a1f" category="paragraph"><block ref="b263790debd0f3d5e5a31296d99293db" category="inline-link-rx"></block>。</block>
   <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">现在、数据主体被视为扫描中"个人数据"的一部分</block>
   <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">Data sense现在可将数据主题视为合规性信息板中显示的个人结果的一部分。此外、在"调查"页面中执行搜索时、您可以选择"个人数据"下的"数据主体"、以便仅查看包含数据主体的文件。</block>
   <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">现在、数据感知痕迹文件被视为扫描中"类别"的一部分</block>
   <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">详细了解如何创建痕迹文件</block>
-  <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">Data sense现在可将痕迹文件识别为合规性信息板中显示的类别的一部分。这些文件是Data sense在将文件从源位置移动到NFS共享时创建的。<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>。</block>
   <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">此外、在"调查"页面中执行搜索时、您可以选择"类别"下的"数据感知痕迹"、以便仅查看数据感知痕迹文件。</block>
   <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">添加SharePoint Online帐户</block>
   <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">添加用户文件所在的SharePoint Online帐户。</block>
@@ -1624,15 +1604,12 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="56d39ecb5bf4d2ec753c12fbb0e00108" category="paragraph">AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见<block ref="74fb388667736bb2b34ea14720dd63e3" category="inline-link-rx"></block> 了解详细信息。</block>
-  <block id="261826c213e3c9cbf53df120aaf0be3b" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="e1893ebf6f9d2e927a13d052b78eec9f" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
@@ -1650,7 +1627,6 @@
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是现有的NetApp客户、拥有现有许可证和序列号、但拥有_no_ NSS帐户、则只需创建一个NSS帐户即可。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
@@ -1658,7 +1634,6 @@
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
@@ -1711,12 +1686,9 @@
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">以下问题与BlueXP Connector相关。</block>
   <block id="629fc635e3b0007019bd6fe0cb5a386c" category="list-text">向文件添加自定义标记(例如"需要移动")、并分配一个BlueXP用户、以便此用户可以拥有文件的更新。</block>
   <block id="78e53b124783e106b07d5599c5ff16c3" category="inline-link">了解有关BlueXP角色的更多信息</block>
-  <block id="46deba2e0c4b4dba926cc2097ba69715" category="paragraph"><block ref="9c4d00bdf3f9c16dcceaebd3af7f5cfa" category="inline-link-rx"></block> 以及操作方法<block ref="3a3e2df7b0eee6c6295e44064611bba2" category="inline-link-rx"></block>。</block>
   <block id="877f09bae1b7112a88e564afe0b39149" category="inline-link">必须设置BlueXP才能发现配置</block>
-  <block id="68674698e34196a6d0cf864cd868479f" category="paragraph">扫描 Azure NetApp Files 卷之前，<block ref="1f16ef9297d6a7b7ec23d184ae9888da" category="inline-link-rx"></block>。</block>
   <block id="4739351a47029a08d047c6f8c00da39e" category="paragraph">如果您要扫描的Azure NetApp Files 系统尚未作为工作环境在BlueXP中、您可以此时将其添加到画布中。</block>
   <block id="fe7e3d60e37233edf0b5fcd9a28bb00d" category="inline-link">了解如何在BlueXP中发现Azure NetApp Files 系统</block>
-  <block id="b857453947413e0fa339869d22d4c786" category="paragraph"><block ref="0f3b3f14a152082b591c2061f55976b1" category="inline-link-rx"></block>。</block>
   <block id="79212600af75dc48b9f7e59a9927a88e" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*、然后选择*配置*选项卡。</block>
   <block id="16f6b76e35946d0224b05a1466e556f0" category="inline-link">BlueXP功能需要使用Connector</block>
   <block id="7d0e3dd93f2549f8ce0be2f0454b12b2" category="cell">与BlueXP网站通信以实现集中式用户身份验证。</block>
@@ -1727,7 +1699,6 @@
   <block id="6419d9da11d0c847e6a758af40af198a" category="paragraph">当BlueXP在包含要扫描的S3存储分段的AWS帐户中运行时、它会发现这些存储分段并将其显示在Amazon S3工作环境中。</block>
   <block id="42161ed94a32c7fa5d4458da4f8fd247" category="paragraph">如果您要扫描的ONTAP 的FSX文件系统尚未作为工作环境在BlueXP中、则可以此时将其添加到画布中。</block>
   <block id="7c71ca28422eaaaf66d759fac9ddacd8" category="inline-link">了解如何在BlueXP中发现或创建适用于ONTAP 的FSX文件系统</block>
-  <block id="5dbbb266134a4996024e4714a92eb4f4" category="paragraph"><block ref="b25b20c3e54422c7dfd405e788a8f63b" category="inline-link-rx"></block>。</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">在BlueXP控制台的右上角、单击设置图标、然后选择*凭据*。</block>
   <block id="0f6c00034bac6e049845fa36d40deb87" category="inline-image-macro">BlueXP右上角横幅的屏幕截图、您可以在其中选择设置图标。</block>
   <block id="ec24fbf33d16fbcbcd5109403b3ac212" category="paragraph"><block ref="ec24fbf33d16fbcbcd5109403b3ac212" category="inline-image-macro-rx" type="image"></block></block>
@@ -1735,7 +1706,6 @@
   <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">输入您的BlueXP帐户ID (在支持站点上称为租户ID)、然后单击*提交*下载许可证文件。</block>
   <block id="257ff1df6b80ed0bf9b3463d53be79f9" category="paragraph">您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。</block>
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">将NSS帐户添加到BlueXP</block>
-  <block id="fc76651edf85f11e6b8f2a81226ab59d" category="paragraph">如果下拉列表中没有您的 NetApp 支持站点帐户，<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block>。</block>
   <block id="15f4e537c6c3c2957b6e194cb0894a09" category="list-text">单击BlueXP右下角的聊天图标、请求延长您的期限或为特定序列号申请Cloud Data sense许可证的额外容量。您也可以发送电子邮件至： ng-contact-data-sense@netapp.com ？ Subject=Licensing[ 发送电子邮件以请求更新您的许可证 ] 。</block>
   <block id="379dea20c8734742bd3f9c78de134135" category="paragraph">如果您看到这些警告、请使用BlueXP界面右下角的聊天图标续订许可证。</block>
   <block id="774c84e5f21e54f29a77614631e4f82d" category="inline-image-macro">BlueXP中合规性选项卡的屏幕截图、其中显示了报告窗格、您可以单击该窗格中的隐私风险评估。</block>
@@ -1746,15 +1716,12 @@
   <block id="502657836c4445c93e125dc0c25c08c9" category="paragraph">在扫描卷之前、必须在BlueXP中将系统添加为工作环境：</block>
   <block id="d192455efa584e015f67ddf2679e991a" category="list-text">对于Cloud Volumes ONTAP 系统、这些工作环境应已在BlueXP中可用</block>
   <block id="95c6a4075477a94df7d6ca6d51fde02e" category="inline-link">BlueXP必须发现ONTAP 集群</block>
-  <block id="aae13c6b8913545123c9dcae9328764c" category="list-text">对于内部 ONTAP 系统，<block ref="216d043bc79eee7a8f02e5b3dc2b23d3" category="inline-link-rx"></block></block>
   <block id="0c482db6ff22c3a7bd9036d861655cbf" category="paragraph">如果您要扫描的数据源尚未位于您的BlueXP环境中、您可以此时将其添加到画布中。</block>
   <block id="f0d07e71c0ad5ba2b297c19c3e9347e0" category="inline-link">BlueXP会发现这些集群</block>
-  <block id="51fb345d59b3adb8f0060afb63071c67" category="paragraph">您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有<block ref="0ea86f15e08471a3866cbc09dd9a2bd4" category="inline-link-rx"></block>。</block>
   <block id="213c26a534506d1ae60070296a0343e1" category="list-text">在BlueXP中、选择*监管&gt;分类*。</block>
   <block id="7aeae51930f9c356f9f8611d740f88b8" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*、然后单击*合规性*选项卡。</block>
   <block id="acdc619c23bd4363ccec733a2e8a38ae" category="list-text">您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 <block ref="aae7319c920bbcb541f7fa3a1a1db120" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint内部部署帐户(SharePoint Server)</block>
@@ -1816,9 +1783,7 @@
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">如果将任何扫描程序节点添加到扫描程序组中、请返回到管理器节点并执行以下2项任务：</block>
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">运行以下脚本、将此映射信息注册到所有扫描程序节点：<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">支持扫描SharePoint内部部署帐户</block>
-  <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>。</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">能够重新扫描多个目录(文件夹或共享)</block>
-  <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">可以添加其他内部"扫描程序"节点来扫描特定数据源</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。</block>
   <block id="aadddcc55c6a2a76a433b97a4366f53f" category="list-text">您可以从文本文件中添加自定义关键字—这些字在数据中标识。</block>
@@ -1829,11 +1794,8 @@
   <block id="84bcb800c1d5099ce2ac32d1e7b6680f" category="list-text">&lt;machine_user&gt;：</block>
   <block id="7ba7a32a873386de0e3b4747ceb28558" category="list-text">&lt;datasens_ip&gt;=虚拟机实例的IP地址</block>
   <block id="60f0453bf0393ab630be6aa37dc20180" category="inline-link">AWS中的安全组规则</block>
-  <block id="f2ad0eeffca4d67e7eb677593c90d5bf" category="list-text"><block ref="f2ad0eeffca4d67e7eb677593c90d5bf" category="inline-link-rx"></block></block>
   <block id="569fe31933e5918613ae1efa70e82d16" category="inline-link">Azure中的安全组规则</block>
-  <block id="c3122c19fb459588f8438e668beb5f88" category="list-text"><block ref="c3122c19fb459588f8438e668beb5f88" category="inline-link-rx"></block></block>
   <block id="e22a4abc98b47ca148e0dfda7e259162" category="inline-link">Google Cloud中的防火墙规则</block>
-  <block id="2cfdb7ae537da608249744d8e40289a8" category="list-text"><block ref="2cfdb7ae537da608249744d8e40289a8" category="inline-link-rx"></block></block>
   <block id="d1cae4639086ce5de29473a5d53747c7" category="inline-image-macro">在"调查结果"窗格中显示自定义关键字结果示例的屏幕截图。</block>
   <block id="7b739c51b4a511be3459afe942a8ef3c" category="paragraph"><block ref="7b739c51b4a511be3459afe942a8ef3c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9c0bd48717ec950ad656ee0c5cbe1bd7" category="section-title">使用正则表达式添加自定义个人数据标识符</block>
@@ -1852,10 +1814,8 @@
   <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：</block>
   <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">请参见如何安装扫描程序节点以扫描其他数据源</block>
-  <block id="232acd7f039f2650674c20301305634d" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>。</block>
   <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以通过两种方式添加自定义"个人数据"、Data sense将在未来扫描中识别这些数据。这样、您就可以全面了解潜在敏感数据在所有组织文件中的位置。</block>
   <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用正则表达式(regex)添加个人模式。</block>
-  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>。</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。</block>
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">您的云提供商或订阅了BlueXP Marketplace列表</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">一次最多可重新扫描1000个项目。</block>
@@ -1932,7 +1892,6 @@
   <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">测试所有所需文件夹上的相关权限</block>
   <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">现在、在配置页面中、工作环境部分将显示_Working Environment ID_和_扫描 程序组_名称。如果您计划使用多个Data sense主机来提供额外的处理能力来扫描数据源、则需要了解工作环境ID。</block>
   <block id="73e22396c6474ab27832098f1351b823" category="inline-link">了解有关在一台主机服务器和多台主机上安装Data sense的更多信息</block>
-  <block id="7d11de825f5fb48a0194c3826f7e2322" category="paragraph"><block ref="6aec5abc0a91e6bbae2064cb8f81d2dd" category="inline-link-rx"></block>。</block>
   <block id="13e915b0d4f4c5b06792671c4c55da56" category="section-title">Data sense可识别来自另外三种状态的美国驾驶证数据</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
@@ -1956,7 +1915,6 @@
   <block id="dace7436ca5a83360d9bbd7d056c44bd" category="paragraph"><block ref="dace7436ca5a83360d9bbd7d056c44bd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d54227dbf49473f423d5988bdb7771ff" category="inline-link">了解有关从Cloud Volumes ONTAP 系统分层的更多信息</block>
   <block id="aeaf9676bf6ac22ff407af9053be1238" category="inline-link">了解有关从内部ONTAP 系统分层的更多信息</block>
-  <block id="7a120914c03f44c0510fb37c3a4130dd" category="list-text">通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。<block ref="3d81b5b5d603ea4b1368feff62e3ead0" category="inline-link-rx"></block>。<block ref="7352e09cdfe02b104fd014f47f71d967" category="inline-link-rx"></block>。</block>
   <block id="a33f1b61e65aad9cca86d3578cf3028a" category="cell">选择数据以及文件夹/共享中的权限类型。</block>
   <block id="81593873baa2c232be0bc3600b554eb3" category="cell">具有访问权限的用户数</block>
   <block id="0ffaed104783fa77dca7b463b63d6a3d" category="cell">选择一个或多个类别范围、以显示哪些文件和文件夹对特定数量的用户开放。</block>
@@ -1993,7 +1951,6 @@
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="4cefd69158974e4aee3260041ff258d4" category="paragraph">在首次添加新数据源时，您还可以选择仅执行 " 映射 " 扫描，而不是执行完整的 " 分类 " 扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。 <block ref="51b8d4ed20a0bce6d8202eb3e674faa5" category="inline-link-macro-rx"></block>。</block>
   <block id="0c3df620e5f733002f5c1ad4579a8153" category="section-title">我是否可以根据组织的需求自定义服务？</block>
-  <block id="d6e4cbf0a56fc8c55a32c1540faee3e4" category="paragraph">因此、如果您在其中许多位置都有数据、则可能需要使用<block ref="666b387130f125264ee326f0a4738ff7" category="inline-link-rx"></block>。</block>
   <block id="042d6a5acaf1a16f91ab258697afa46c" category="list-text">当某些关键策略返回结果时、您可以向BlueXP用户或任何其他电子邮件地址发送电子邮件警报。</block>
   <block id="0f45f5e9392cad0f6f0647364c3255a6" category="list-text">在编辑策略页面中：</block>
   <block id="8e77c496ba7cea76c0e1e5ce3797b5fd" category="list-text">如果您希望向BlueXP帐户中的用户发送通知电子邮件、请选中"通过电子邮件发送此帐户中的所有用户"框、然后选择发送电子邮件的间隔(例如*每天*)。</block>
@@ -2017,7 +1974,6 @@
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。</block>
   <block id="248b219562d5c677bea769543286aaf9" category="list-text">新西兰驾驶执照编号</block>
-  <block id="3f69bac652b22744f89b8727420c50db" category="paragraph">暂停扫描意味着Data sense不会对卷或存储分段的任何添加或更改执行未来扫描、但系统中仍会显示所有当前结果。<block ref="a7d93e406d54440657820ff66e02fe00" category="inline-link-rx"></block>。</block>
   <block id="1a70f847ca98ead8008196451ddb3173" category="list-text">验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="dc398b6dfc944aa53fc80c488796fb93" category="list-text">验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">根据GDPR和CCPA等隐私法规的要求、隐私风险评估报告概述了贵组织的隐私风险状态。此报告包含以下信息：</block>
@@ -2050,7 +2006,6 @@
   <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">您必须具有可对所有SharePoint站点进行读取访问的SharePoint帐户的管理员用户登录凭据。</block>
   <block id="fbd2a3d3a2a95ffb088fd8e0ccf6b67d" category="list-text">对于SharePoint Online、您可以使用非管理员帐户、但该用户必须具有访问要扫描的所有SharePoint站点的权限。</block>
   <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">可以查看包含敏感数据且过于宽松的文件图表</block>
-  <block id="d9b195efc41ceb51899b712eb2c0c583" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这样可以帮助您了解敏感数据可能存在哪些风险。<block ref="315faeb2b0e6f27dd87bce24f0b16dd0" category="inline-link-rx"></block>。</block>
   <block id="ee7392d2316f5d3dd66a6f38dfd1dbfb" category="list-text">通过"用户/组权限"筛选器、您可以列出特定用户或组具有读取和/或写入权限的文件、文件夹和共享。您可以选择多个用户和/或组名称-或输入部分名称。</block>
   <block id="d03ac14c4e429af55c127e304518d56e" category="paragraph">Data sense可以识别包含澳大利亚TFN (税务文件编号)、澳大利亚驾驶执照编号、澳大利亚医疗保健服务编号和澳大利亚护照编号的文件并对其进行分类。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
   <block id="3631ca73c04d0e5a0d6b08517f6f049f" category="cell">日语个人标识号(个人和公司)</block>
@@ -2059,9 +2014,6 @@
   <block id="9098e762df6423155c77747444ce3402" category="list-text">按照中的步骤 1 至 8 进行操作 <block ref="6197de1d9d65c234b52f370ea2ee31e4" category="inline-link-macro-rx"></block> 在管理器节点上。</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支持云提供商解决方案</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">有关已集成到BlueXP中的以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="0b95409e38fd76ec71d03e3e14b83763" category="paragraph">所有语言均支持所有这些添加自定义扫描条件的机制。</block>
   <block id="e1a196cfa9a98106e5ba102887a0c95d" category="paragraph">表中列出了可识别这些项目的语言。</block>
   <block id="ad225f707802ba118c22987186dd38e8" category="cell">法语</block>
@@ -2173,8 +2125,6 @@
   <block id="fa5af203c1129bb563bbf7f09ad2de8e" category="paragraph">是的。在策略返回结果时、与策略功能结合使用、您可以向BlueXP用户(每日、每周或每月)或任何其他电子邮件地址发送电子邮件警报、以便您可以获得保护数据的通知。了解更多信息 <block ref="52a90c0911f2be2601275d578a93ce51" category="inline-link-macro-rx"></block>。</block>
   <block id="ea2ae808e5bc26e70d719a3dccac3d1e" category="paragraph">请参见<block ref="8035aa4e87ed378ff4c6d7c3151d4d34" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="6eab0919191c5c01e62f627bf1087393" category="inline-link">在无法访问Internet的内部Linux主机上部署Connector</block>
-  <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>。</block>
-  <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>。</block>
   <block id="1bfc9901c2c53bbd2c3b887e04b0729a" category="inline-image-macro">删除标记按钮位置的屏幕截图。</block>
   <block id="40a535759cb359e9c73b128ff3596ce9" category="paragraph"><block ref="40a535759cb359e9c73b128ff3596ce9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5f40bed7c791869262a23c697217f4f7" category="list-text">当文件包含特定的PiE时、通过电子邮件通知特定用户(您可以使用定义此条件) <block ref="52a90c0911f2be2601275d578a93ce51" category="inline-link-macro-rx"></block>)、这样您就可以决定行动计划。</block>
@@ -2213,20 +2163,14 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">"状态"列中筛选选项的屏幕截图、可用于筛选与特定状态(如"活动"或"已关闭")匹配的案例。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表中显示的加号图标</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">通过单击更改表中显示的列 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">单击以管理现有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="99d97930418935683e2b318283d0dfe1" category="section-title">上次访问时间时间戳</block>
   <block id="b2d4384c1deeeb5068a47d9c4f7fecae" category="paragraph">此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。</block>
   <block id="2e9bf0fba1b77a1da35499a6b728c5e6" category="inline-image-macro">筛选器的屏幕截图、用于根据是否具有写入权限来查看哪些文件已扫描、哪些文件未扫描。</block>
@@ -2234,7 +2178,6 @@
   <block id="7d72055dc8f09beeb77f4fa9d71f6382" category="paragraph">筛选器选项包括：</block>
   <block id="a66a4b74b70237f4c0cbce83303f74d2" category="list-text">"未分类-无法还原上次访问时间"-显示由于缺少写入权限而未分类的文件。</block>
   <block id="529e58159a0567a96e1265aa7c80760b" category="inline-link">了解有关数据调查报告的更多信息</block>
-  <block id="1519214436b24573d7996e8c310f57e7" category="paragraph">如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。<block ref="55841a629b143f31cba7cbe4e8dd8d86" category="inline-link-rx"></block>。</block>
   <block id="b70232fe808c101066f1d5f669f6a6cd" category="paragraph"><block ref="b70232fe808c101066f1d5f669f6a6cd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="cell">博茨瓦纳身份卡(Omang)编号</block>
   <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="cell">博茨瓦纳的护照编号</block>
@@ -2273,7 +2216,6 @@
   <block id="cdbe480dc11409647fd956762112b463" category="paragraph"><block ref="cb955744923a641be9b94cbcd31ea046" category="inline-link-macro-rx"></block> 有关使用扫描分析事件筛选时"调查"页面中显示的项目的详细信息。</block>
   <block id="916fe80558e430806f51297666a415c2" category="section-title">2023年3月7日(1.21版)</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">预定义的类别</block>
-  <block id="4aedc0068ab1ebb9a68cd09e40502224" category="paragraph"><block ref="29977fc02ca1e575e657cf5a87ae1883" category="inline-link-rx"></block>。</block>
   <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">更新了目录的功能</block>
   <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">现在、数据调查报告的"轻型CSV报告"选项包括目录中的信息。</block>
   <block id="b2755be94249995adeed2a28b31a7393" category="list-text">"上次访问"时间筛选器现在可显示文件和目录的上次访问时间。</block>
@@ -2284,8 +2226,6 @@
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"此帐户不允许使用NSS客户类型、因为已存在不同类型的NSS用户。"</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级别的NSS帐户、并尝试添加合作伙伴级别的帐户、则也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后、NetApp将存储NSS用户名。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
   <block id="8193e38e933656edf000dbf251568d4d" category="list-text">在右侧的服务窗格中、单击*分类*旁边的*启用*。</block>
   <block id="c9ba77685f066f05e419c9ad4b812035" category="list-text">在右侧的服务窗格中、单击*配置分段*。</block>
@@ -2377,10 +2317,7 @@
   <block id="b98e5f30ca3cd0f113adc1ab13a39525" category="cell">每个审核文件的最大审核事件数</block>
   <block id="5046b3bc48bd37acc83c5000548deccc" category="paragraph">请注意、这些设置当前已硬编码为默认设置。它们不能更改。</block>
   <block id="8b6c5ced74ae32d25c3f6ebff98f9529" category="inline-link">在内部安装 Connector</block>
-  <block id="d848fab961367a4c9f58a25dc74053f3" category="paragraph">您也可以<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
-  <block id="7136865bb089260220159be68ad07c25" category="paragraph">如您所见，在某些情况下可能需要使用<block ref="1b53f67d10a600e06f0d8110c1ecba99" category="inline-link-rx"></block>。</block>
   <block id="d86d903b07bcdf54c0633484d605d52a" category="inline-link">请参见有关在政府区域部署Connector的详细信息</block>
-  <block id="4436ca4e2cfd329d13aeb590ee5ba775" category="paragraph"><block ref="c536f47a35ce0751f8d9699289dc0a42" category="inline-link-rx"></block>。</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link-macro">请参见可用的实例类型和限制</block>
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">在AWS中部署</block>
   <block id="2cf7dbc159875140b6f5ecc68994fa13" category="list-text">在_Installation_page中、单击*部署&gt;部署*以使用"大型"实例大小并启动云部署向导。</block>
@@ -2394,7 +2331,6 @@
   <block id="699254c5c0c8f50098c4ced6af6b9a8d" category="list-text">准备主机并验证它是否满足所有要求。</block>
   <block id="1dc78a625057b828e3c9842b6a68f0f6" category="list-text">验证是否已在所有系统上启用所有必需的端口。</block>
   <block id="638dfa4dd42c802c871ad02b969b48ab" category="list-text">下载并运行前提条件测试脚本。</block>
-  <block id="c3ac06ac78781d185b2fc79bb41b4d6e" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>，<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。</block>
   <block id="088be43867eaac29f74142859d1e2a13" category="paragraph">运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">验证主机要求</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">*大型*</block>
@@ -2423,7 +2359,6 @@
   <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023年4月3日(1.22版)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">新的数据发现评估报告</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">请参见如何生成和使用数据发现评估报告</block>
-  <block id="a2f7db2af3b89cce9c368f52089406c7" category="paragraph">数据发现评估报告对扫描环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。本报告的目标是提高对数据治理问题、数据安全风险以及数据集数据合规性差距的认识。<block ref="9ad86f8b2d35a79c635fcc2e2795f8e1" category="inline-link-rx"></block>。</block>
   <block id="5e4569f52e263bc5988dd871099065f5" category="paragraph">数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出了一个概述、其中汇总了您的所有工作环境和数据源、然后对每个工作环境进行了细分。</block>
   <block id="2d948e473e2d70b037f0549e51ba2a9d" category="list-text">单击*监管*、然后单击*数据映射报告*按钮。</block>
   <block id="7ddeaa5e00e834742bed79816a143502" category="section-title">数据发现评估报告</block>
@@ -2442,13 +2377,7 @@
   <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">单击*监管*、然后单击*数据发现评估报告*按钮。</block>
   <block id="d3cfc5adb7d762b3824a7c02a95765b9" category="inline-image-macro">监管信息板的屏幕截图、显示了如何启动数据发现评估报告。</block>
   <block id="6e54901f5113f24a64a46275f84c34da" category="paragraph"><block ref="6e54901f5113f24a64a46275f84c34da" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d6c9503df18e166c0913e797664e6004" category="paragraph">如果您还没有 Connector ，<block ref="fe048365448a4a82cbd9d363a7137a93" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
-  <block id="4c9ceafe03162f097239df73110df01e" category="paragraph">您还可以与云提供商一起创建Connector。请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>，<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。</block>
-  <block id="44bc729b266ea1f75cc8d556fa17943e" category="paragraph">要在云提供商环境中创建一个、请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>，<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。</block>
-  <block id="dcdba57692d95c33c15bffffceb6357c" category="paragraph">如果您尚未在脱机内部站点上安装 Connector ，<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 现在在 Linux 主机上。</block>
-  <block id="89825cdcfb92068b90e1077fbbbe7eee" category="paragraph">如果您尚未在脱机内部站点上安装BlueXP Connector、<block ref="c356cb96564d1aac144adbd1ad0f2ab1" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
   <block id="95d360d4c70cbbf05116206b4e5edd67" category="section-title">访问日志文件</block>
-  <block id="57f460460036fcd7ebbf1fddeaa6a3a5" category="paragraph">如果您还没有 Connector ，请立即创建一个 Connector 。请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block>，<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。</block>
   <block id="8b4cc0616cd3112ce97c78446249e336" category="inline-link-macro">备用实例类型</block>
   <block id="b4628b43616bed69627de3b91fe817d0" category="paragraph">只有在无法访问Internet的主机上运行脚本时、才添加选项"-d暗 站点"。如果主机未连接到Internet、则会跳过某些前提条件测试。</block>
   <block id="1bb79e71fe1463a15c91ab711e20a6ac" category="list-text">该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后、它会将会话日志写入名为的文件<block ref="7bca4c3da1c027ba15644b115a5e9fd9" prefix=" " category="inline-code"></block> 在目录中<block ref="8a788ac11c9bfeaba837d43d9090ac97" prefix=" " category="inline-code"></block>。</block>
@@ -2606,19 +2535,14 @@
   <block id="25372e1f78b8ce0ec4e14afa7f74b815" category="list-text">您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。</block>
   <block id="acd6b2448b8006fd84deefdae2057458" category="paragraph">您可以复制BlueXP分类正在扫描的任何源文件。根据您尝试完成的任务，复制操作有三种类型：</block>
   <block id="af392d7cab2127edb2e0275349e8f51a" category="inline-link">NetApp BlueXP复制和同步</block>
-  <block id="1919f15e8867d288b67e45f28b5dc6d8" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用<block ref="6c9ef0bcc1a3e3e4b3c4e7e6db4de45f" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
   <block id="4582ba30b2499066be90a4bcea5ec4b6" category="paragraph">您可以将BlueXP分类正在扫描的源文件复制到任何NFS共享。NFS共享不需要与BlueXP分类集成、您只需知道将以格式复制所有选定文件的NFS共享的名称即可<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>。</block>
   <block id="1394fd88d929360313e8c80ec722b081" category="list-text">复制文件要求目标NFS共享允许从BlueXP分类实例进行访问。</block>
   <block id="5c84e31b934a1e5ffbf85afcc92c6730" category="paragraph">您可以使用NetApp _FlexCLONE功能克隆BlueXP分类正在扫描的现有ONTAP 卷。这样，您就可以快速复制卷，同时仅包含选定的文件。如果要迁移数据，并且要从原始卷中排除某些文件，或者要创建卷的副本以进行测试，则此功能非常有用。</block>
   <block id="3ed37e2cbad5c0cbf1ca40746f8c817b" category="paragraph">如果在为源卷所在的工作环境启用BlueXP分类时最初选择了*映射所有卷*或*映射并分类所有卷*、则BlueXP分类将自动扫描新克隆的卷。如果最初未使用上述任一选项，则如果要扫描此新卷，则需要执行以下操作 <block ref="b0c3d20fcc917b1060451bc04147a024" category="inline-link-macro-rx"></block>。</block>
   <block id="6c698876040dfe94322aaa7b32540f7c" category="inline-link">BlueXP复制和同步支持的目标位置</block>
-  <block id="da71d64153390c7093786b75158f1718" category="paragraph">您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 <block ref="60e7e7cf6b7a0533d5128e37b55fa226" category="inline-link-rx"></block>）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。</block>
-  <block id="d5472d405504b38d45e036040f2a2884" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用<block ref="6c9ef0bcc1a3e3e4b3c4e7e6db4de45f" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
-  <block id="b708490aa82fdd9e17df701b171674c3" category="list-text">您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求<block ref="e51d588768ce18b65058ca75b02bbb45" category="inline-link-rx"></block>。</block>
   <block id="bb76d3cb9e173009378d2c482f1593a3" category="paragraph">请注意、BlueXP复制和同步服务会为您的同步关系单独收取服务费用、如果您在云中部署数据代理、则会产生资源费用。</block>
   <block id="342b7ce218ad37eb58175d677e743a1d" category="paragraph">BlueXP副本和同步UI将在BlueXP中打开。</block>
   <block id="8ed3cff1bce3680cbecb3718361328e0" category="paragraph">系统将提示您定义同步关系。源系统会根据您在BlueXP分类中选择的存储库和文件进行预先填充。</block>
-  <block id="3977855388052b409f40ecf2945f98ec" category="list-text">您需要选择目标系统，然后选择（或创建）计划使用的数据代理。从开始查看BlueXP副本和同步要求 <block ref="b962387ad67b92b5132f148579512908" category="inline-link-macro-rx"></block>。</block>
   <block id="599b3adc06ff60709e02c3d42a15c442" category="paragraph">请注意、从BlueXP分类调用BlueXP时、某些常见的BlueXP复制和同步操作会被禁用：</block>
   <block id="0507a26254d90555779319aac2a586a6" category="paragraph">您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成(请参见 <block ref="29fc238c82f37afa6e56193b0cf6f5eb" category="inline-link-macro-rx"></block>）。</block>
   <block id="687c2785d0e6bcc55e7d411f98257c26" category="list-text">要移动文件、需要NFS共享允许从BlueXP分类实例IP地址进行访问。</block>
@@ -2705,7 +2629,6 @@
   <block id="a64334705690e391576da973a9b22ed9" category="section-title">使用BlueXP分类BYOL许可证</block>
   <block id="c9532f19df489d117c681943ff72b47e" category="paragraph">NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(Data Sense)许可证是一种_Float_许可证、其中总容量在*所有*工作环境和数据源之间共享、从而可以轻松地进行初始许可和续订。</block>
   <block id="5bae938f4e490a5e1f1b65254d8e3ef5" category="paragraph">如果您没有BlueXP分类许可证、请联系我们购买一个：</block>
-  <block id="8b785c1a22df911edaf6654417ec6395" category="paragraph">或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。<block ref="c110e5a4a66d7429a8ced7dc2264a8f5" category="inline-link-rx"></block>。</block>
   <block id="4c7c3836e9f902c5159464ae2ebf8187" category="paragraph">您可以使用BlueXP中的BlueXP数字钱包页面管理BlueXP分类BYOL许可证。您可以添加新许可证并更新现有许可证。</block>
   <block id="656e076fbf2897c36a85dea0c00f2ddf" category="section-title">获取BlueXP分类许可证文件</block>
   <block id="ca0f81e80599a08df323b438c6e77e1b" category="paragraph">购买BlueXP分类(Data Sense)许可证后、您可以在BlueXP中通过输入BlueXP分类序列号和NSS帐户或上传NLF许可证文件来激活许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。</block>
@@ -2744,10 +2667,8 @@
   <block id="d6939615c063b246ee57f46ba5658a27" category="paragraph">启动安装向导以在云中部署BlueXP分类实例。</block>
   <block id="fbd26eae2917c57f49aa73f6b5377420" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 订阅BlueXP分类服务</block>
   <block id="b4e5610684f7a33dc46584c41f53be53" category="paragraph">BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。</block>
-  <block id="f9855383f194d1fe55045279644c7edf" category="paragraph">如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见<block ref="06bad1cad7623f84a7790f550bd209ff" category="inline-link-rx"></block> 或<block ref="926977b9dc6e3dc98510a7e4750a6354" category="inline-link-rx"></block>或<block ref="b28439bdd5c342e00ef48eab105c3933" category="inline-link-rx"></block>。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
   <block id="1aedaece9cd7b51146f8247dbb10998f" category="list-text">在AWS、Amazon FSx for ONTAP 或AWS S3存储分段中扫描Cloud Volumes ONTAP 中的数据时、您可以使用AWS中的Connector。</block>
   <block id="3c4d86937393bb95a8eb9deff91fdca3" category="list-text">在Azure或Azure NetApp Files 中扫描Cloud Volumes ONTAP 中的数据时、您可以使用Azure中的连接器。</block>
-  <block id="a5b718345c3c3766a954344624d0ea4d" category="paragraph">请注意，您也可以<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="434f7377ad007c7085d3489daef770a7" category="paragraph">如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类。以这种方式部署时、BlueXP分类具有以下限制：</block>
   <block id="5e23930d439e0ac55d03b274d7f2a1f8" category="paragraph">在云中部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。</block>
   <block id="a3c7cd542dbae9813f2f591e1d616bf8" category="list-text">从BlueXP分类启用出站Internet访问</block>
@@ -2757,7 +2678,6 @@
   <block id="d1bc8972c7e9ec9b764ec46ec4949ad8" category="cell">启用BlueXP分类以访问和下载清单和模板、并发送日志和指标。</block>
   <block id="7d3a5fc6a103d9c54c1a430dd56ab45f" category="open-title">Azure所需端点</block>
   <block id="c35738c7864c7cbf5383db60bc7aceb3" category="open-title">GCP所需的端点</block>
-  <block id="94e108d3cc8da29b23eb77c92c065f7a" category="list-text">确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限<block ref="4d2fb4fece4e907087732c2d95d31be2" category="inline-link-rx"></block>。</block>
   <block id="a8abb2cf85d3fffe4e0996a3ef7fdff4" category="list-text">确保BlueXP Connector可以访问BlueXP分类</block>
   <block id="b3da390fe73676b135519aad2bb0ac8d" category="list-text">确保连接器与BlueXP分类实例之间的连接。连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。通过此连接、可以部署BlueXP分类实例、并可在合规性和监管选项卡中查看信息。在AWS和Azure中的政府地区支持BlueXP分类。</block>
   <block id="4513249ad8c547d3cc999d640e85ec23" category="list-text">确保您可以保持BlueXP分类运行</block>
@@ -2788,7 +2708,6 @@
   <block id="30a7d0aa212920161c46f31812859285" category="paragraph">查看以下前提条件、确保您已准备好在SharePoint帐户上激活BlueXP分类。</block>
   <block id="9505f2139fceb372def97e101e0d0f23" category="list-text">对于SharePoint Online、BlueXP分类可以是 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block>。</block>
   <block id="5c06ff49871066f9ed72b5135320a06f" category="list-text">对于内部SharePoint、可以安装BlueXP分类 <block ref="5433f857b708e940349e34ece6281ba0" category="inline-link-macro-rx"></block> 或 <block ref="a9e45dedd045b23b06be5ebd4c9f12fb" category="inline-link-macro-rx"></block>。</block>
-  <block id="4680fd81d7e45ccfd1ceacd31a49b359" category="paragraph">如果BlueXP分类安装在无法访问Internet的站点上、则BlueXP Connector也必须安装在无法访问Internet的同一站点上。<block ref="1c688d8f43aa189fb0a1239cdf9c5893" category="inline-link-rx"></block>。</block>
   <block id="4e977298e88aace1f09c15f59ce0e78a" category="list-text">在显示的Microsoft页中，选择SharePoint帐户并输入用户和密码(管理员用户或其他有权访问SharePoint站点的用户)，然后单击*Accept (接受)*以允许BlueXP分类从该帐户读取数据。</block>
   <block id="b42ad0875678c7c089fca9adf508bcd1" category="paragraph">BlueXP分类开始扫描您添加的SharePoint网站中的文件、结果将显示在信息板和其他位置。</block>
   <block id="59ebdcac794eeda1621f09a3ecc27439" category="inline-link-macro">从BlueXP分类中删除整个SharePoint帐户</block>
@@ -2891,8 +2810,6 @@
   <block id="ceff76808d468622c1e0a066fef32324" category="paragraph">使用BlueXP分类的成本取决于要扫描的数据量。BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。达到任一限制后、您需要执行以下操作之一才能继续扫描数据：</block>
   <block id="08ded86bec8c14194b76ccd46cc137b5" category="paragraph">如果达到BYOL容量限制、BlueXP分类仍会继续运行、但对信息板的访问会被阻止、因此您无法查看有关任何扫描数据的信息。如果您希望减少要扫描的卷数量、从而可能使容量使用量低于许可证限制、则只能使用配置页面。您必须续订BYOL许可证才能重新获得对BlueXP分类的完全访问权限。</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector是在您的云帐户或内部环境中的计算实例上运行的软件、可使BlueXP安全地管理云资源。要使用BlueXP分类、您必须部署Connector。</block>
-  <block id="9fce372f3b62b5ab1190c1972a7a3ec8" category="paragraph">是的。您可以<block ref="865e4f422286702c9ac14f7eed7c1673" category="inline-link-rx"></block> 在网络中的Linux主机或云中的主机上。如果您计划在内部部署BlueXP分类、则可能还需要在内部安装Connector、但这不是必需的。</block>
-  <block id="4f943b7566c9a3819f26f71ab87c207c" category="paragraph">是的、这一点也受支持。您可以<block ref="c8cfdd4dd29b4c7bb16d619ba3830694" category="inline-link-rx"></block>。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。</block>
   <block id="20d2d9d43536e58f448006e30ede92ef" category="section-title">BlueXP分类部署</block>
   <block id="f64f1950281393c4954c25f27bf434bd" category="paragraph">以下问题与单独的BlueXP分类实例相关。</block>
   <block id="6d4887be97091c35c15686e3df306d7e" category="section-title">BlueXP分类支持哪些部署模式？</block>
@@ -2925,7 +2842,6 @@
   <block id="4b764befa0cb902227f07313a78b10cd" category="list-text">如果您尚未安装BlueXP Connector、也可以安装它。您可以在不安装Connector的情况下运行测试脚本、但该脚本会检查Connector与BlueXP分类主机之间的连接、因此建议您使用Connector。</block>
   <block id="5db707242c7622101c2fde4b257ef0c8" category="list-text">从BlueXP分类主机启用出站Internet访问。</block>
   <block id="50a80cf2f95124fe279bda28c5ecd44c" category="paragraph">在安装和使用BlueXP分类之前、需要BlueXP Connector。但是、您可以在不使用Connector的情况下运行Prerequisites脚本。</block>
-  <block id="1b7d4e341b51c3ca0921f04e0092a959" category="paragraph">您可以<block ref="a4b2312bac71e1fcb5d5edc9dd08d5ef" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="8e14c56957ac95c2facdf955093df914" category="paragraph">BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。</block>
   <block id="cd2c26e6dff9147da7b2b00b90713d5e" category="list-text">* Firewalld注意事项*：如果您计划使用<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block>，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 以便与BlueXP分类兼容：</block>
   <block id="90cb1400dc841cf0e0395cb466d11c1b" category="paragraph">如果您计划使用其他BlueXP分类主机作为扫描程序节点(在分布式模型中)、请此时将这些规则添加到主系统：</block>
@@ -2981,39 +2897,29 @@
   <block id="08aececdd8070f547d2aa65ea8c35446" category="summary">了解BlueXP分类中的新增功能。</block>
   <block id="406ca16c022fe122c7920a69664a84f2" category="doc">BlueXP的新增功能分类</block>
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">能够在云中的较小实例上部署BlueXP分类</block>
-  <block id="47e8bf8f9cb5a2a9f79b4f6c0ba9d3b5" category="paragraph">在AWS环境中从BlueXP Connector部署BlueXP分类时、现在您可以从两种比默认实例更小的实例类型中进行选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会存在一些限制。<block ref="98ea36794454fcb53d0ac9a791bd6948" category="inline-link-rx"></block>。</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">现在、可以使用独立脚本在安装BlueXP分类之前对Linux系统进行资格认定</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">请参见How to check if your Linux host is ready to install BlueXP classification</block>
-  <block id="bb29d70cef5d4094c99f48861270a3f2" category="paragraph">如果要独立于运行BlueXP分类安装来验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅测试前提条件。<block ref="48948449a9d3cbb393a739355d00c1db" category="inline-link-rx"></block>。</block>
   <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="section-title">新增了一项功能、可从BlueXP分类UI添加您自己的自定义类别</block>
-  <block id="0d84cea578542d59f48472f8fa838dd2" category="paragraph">现在、您可以通过BlueXP分类添加自己的自定义类别、以便BlueXP分类能够识别适合这些类别的文件。BlueXP分类有很多<block ref="de03089a629f50d7fb2223d1c9b484a6" category="inline-link-rx"></block>、因此、您可以通过此功能添加自定义类别、以确定您的组织独有的信息在您的数据中的位置。</block>
   <block id="bca8069b731ea966c03da0cea318f9d1" category="section-title">现在、您可以从BlueXP分类UI添加自定义关键字</block>
   <block id="c9383e3b8d4c0ef8e217c6982644630b" category="paragraph">BlueXP分类可以添加BlueXP分类在未来扫描中识别的自定义关键字。但是、您需要登录到BlueXP classification Linux主机并使用命令行界面添加关键字。在此版本中、BlueXP分类UI中提供了添加自定义关键字的功能、因此可以轻松添加和编辑这些关键字。</block>
   <block id="bb81f229fc6d121a288d657aea60262e" category="inline-link">了解有关从BlueXP分类UI添加自定义关键字的更多信息</block>
-  <block id="f4dad2d041ce1d29145d11e202e2b27d" category="paragraph"><block ref="71b3a2dfeeb158873cc8c25e601a8ef1" category="inline-link-rx"></block>。</block>
   <block id="7e5ec3b51659d16db2e72438a8ca680a" category="section-title">当"上次访问时间"将被更改时、BlueXP分类*不*扫描文件的功能</block>
   <block id="f9bee7a7e545f0d95664d3ccaa7b7151" category="paragraph">默认情况下、如果BlueXP分类没有足够的"写入"权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。但是、如果您不在乎文件中的上次访问时间是否重置为原始时间、则可以在配置页面中覆盖此行为、以便BlueXP分类将扫描卷、而不管权限如何。</block>
   <block id="61d99226273ea30523883fe7209399c2" category="paragraph">与此功能结合使用时、添加了名为"扫描分析事件"的新筛选器、因此您可以查看因BlueXP分类无法还原上次访问时间而未进行分类的文件、或者即使BlueXP分类无法还原上次访问时间也进行分类的文件。</block>
   <block id="bf8521a1bd91dd809d1d007594f22498" category="inline-link">了解有关"上次访问时间时间戳"和BlueXP分类所需权限的更多信息</block>
-  <block id="d7a924506a09f425a63dd67ede6e6e41" category="paragraph"><block ref="778f85e03952af8028df26fb1317029e" category="inline-link-rx"></block>。</block>
   <block id="9422d01ffeaf90b54d512834d7e52972" category="section-title">BlueXP分类标识了三种新类型的个人数据</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP分类可以标识包含以下类型数据的文件并对其进行分类：</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">查看BlueXP分类可在您的数据中识别的所有个人数据类型</block>
-  <block id="dbf25297f66465b6318f5f04cba2f51c" category="paragraph"><block ref="9f94e4eba86c919ee24774f89d5c47a7" category="inline-link-rx"></block>。</block>
   <block id="c2e0848a220b82c9650399e6f13e1421" category="list-text">BlueXP分类可安装在运行CentOS Stream 8的Linux主机上。</block>
   <block id="27bfd524829d2f58c611b9380403face" category="list-text">现在、不能访问Internet的站点(非公开站点)的BlueXP分类安装程序会执行预检查、以确保您的系统和网络要求已满足、以便成功安装。</block>
   <block id="af415967f6e10a35f69e4fdddc729da2" category="paragraph">在早期版本的BlueXP分类中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。</block>
   <block id="110171733cad0cc9610f24012ccf6ee1" category="section-title">现在、您可以从BlueXP分类UI添加个人模式</block>
   <block id="b4b2d6fd13a7e1b0764dda2bc816816f" category="paragraph">BlueXP分类可以添加BlueXP分类在未来一段时间内将识别的自定义"个人数据"。但是、您需要登录到BlueXP classification Linux主机并使用命令行添加自定义模式。在此版本中、BlueXP分类UI中提供了使用正则表达式添加个人模式的功能、因此可以轻松添加和编辑这些自定义模式。</block>
   <block id="5d7647ce431c6117f0877b4d9397cbcd" category="inline-link">从BlueXP分类UI中了解有关添加自定义模式的更多信息</block>
-  <block id="c7395420a26259c70a3257b4ecba58b0" category="paragraph"><block ref="0648c6942d50f6fc6c3e2cd38cd80273" category="inline-link-rx"></block>。</block>
   <block id="7a726788f7018e2e33cf2248365cb342" category="section-title">能够使用BlueXP分类移动1、500万个文件</block>
   <block id="94b91c8b97a54caa51b5a272c3ed5e69" category="inline-link">了解有关使用BlueXP分类移动源文件的更多信息</block>
-  <block id="a9bcf2c08cd1074d60a61dbe795a6078" category="paragraph">过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。<block ref="e51a5e512ccf2dce3a369a7a0f472593" category="inline-link-rx"></block>。</block>
-  <block id="2ddb0aae0dc60f8ca6d9b049070a373a" category="paragraph">新的"部分成功"状态表示BlueXP分类操作已完成、某些项目失败、而某些项目成功、例如、当您移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着对所有项目执行的所有操作都成功。<block ref="fcc1d764ae2299a747d914333deb15cf" category="inline-link-rx"></block>。</block>
   <block id="b862b7d304eea679b5f35e8257c465f6" category="list-text">现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果您输入包含和排除某些数据的路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除的路径中删除文件、最后显示结果。</block>
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="section-title">BlueXP分类可以标识日语个人编号</block>
-  <block id="42359fcacc3c7eb14408f1ff11ac125f" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。<block ref="42bae9dd769124b122ef06a119b328ce" category="inline-link-rx"></block>。</block>
   <block id="f5055886b0ed4db432221d378f3730c1" category="paragraph">您可以更改的一些内容包括是否扫描存储库以及BlueXP分类是否正在执行 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
   <block id="06f4c04dbf4f6e1007102feb5e139b5f" category="paragraph">您可以查看BlueXP分类为每个工作环境和数据源扫描的各个存储库(卷、分段等)。此外、您还可以查看有多少已"映射"、有多少已"分类"。由于正在对所有数据执行完整的AI标识、因此分类需要较长时间。</block>
   <block id="1653ff09a832461934f62b062bb49a8f" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统中将删除有关该卷的所有索引编制和信息。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。</block>
@@ -3032,7 +2938,6 @@
   <block id="3810a01b94974a043d567ab2db7a696e" category="list-text">使用BlueXP复制和同步功能复制和同步源文件</block>
   <block id="4e723b95287afbde0f6a8cc51611032a" category="inline-link-macro">BlueXP分类发行说明</block>
   <block id="6e4602d022d98ebc229844c6af6033a1" category="inline-xref">升级BlueXP分类软件</block>
-  <block id="a49c73ef797b9a598b52486b79ad168a" category="paragraph">BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="79c1d81a19f6b89269470ecda07878e3" category="inline-link-rx"></block> 和 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>。</block>
   <block id="88b2eb96c0c532072c520841e863d668" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 查看BlueXP分类前提条件</block>
   <block id="2c28200a2634ce3b5d50300226b408a0" category="paragraph">确保您的 Linux 系统满足 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>，安装了所有必需的软件，并且脱机环境满足所需的要求 <block ref="0a0d20cd0d171f694689b851f0521135" category="inline-xref-macro-rx"></block>。</block>
   <block id="192cd84f4e2525fe8b18420dcebd2298" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 下载并部署BlueXP分类</block>
@@ -3041,7 +2946,6 @@
   <block id="8cd6bdaa74e38d2e1528afe9821b5929" category="admonition">安装后无法更改BlueXP分类主机系统的IP地址。</block>
   <block id="7088c16623e2e9a81505c3fc9b3de511" category="section-title">验证BlueXP和BlueXP分类前提条件</block>
   <block id="9a7e54be58f201f0955cf055ce10c16c" category="paragraph">在部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。</block>
-  <block id="e09d407da634514ef013253e0c9953b8" category="list-text">确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限<block ref="4d2fb4fece4e907087732c2d95d31be2" category="inline-link-rx"></block>。</block>
   <block id="976ad3f2a7f2faaf2e337cc8f2c2ff8d" category="list-text">确保您可以保持BlueXP分类运行。BlueXP分类实例需要持续扫描数据。</block>
   <block id="1b3e958cf9a7fe344e74aa95f30a09f3" category="list-text">确保Web浏览器连接到BlueXP分类。启用BlueXP分类后、确保用户从连接到BlueXP分类实例的主机访问BlueXP界面。</block>
   <block id="0886f35745ad179bc8c862cc1f35560d" category="paragraph">BlueXP分类实例使用专用IP地址来确保索引数据不可供其他人访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与BlueXP分类实例位于同一网络中的主机。</block>
@@ -3116,9 +3020,7 @@
   <block id="f153a03447ad62ce23eaa1b08f94af6c" category="inline-link-macro">了解如何许可BlueXP分类</block>
   <block id="268a2edc5cc918a4172afdae90493660" category="paragraph"><block ref="2152e4d362eca07454aaa5bc8c987748" category="inline-link-macro-rx"></block>。</block>
   <block id="79de69a9c27339b7e2c0888ade6a7ff9" category="list-text">在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参见 <block ref="a640e98c8584c0b162d717c76dd083cd" category="inline-xref-macro-rx"></block>。如果您在内部系统上安装BlueXP分类、则不需要任何费用。</block>
-  <block id="47b444944d19ef8557b91a09fe3b02ad" category="list-text">BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见<block ref="c0edd1cbca522cb267ceeda5d00aace3" category="inline-link-rx"></block>。如果在内部部署系统上安装 Connector ，则不需要任何成本。</block>
   <block id="0615a59c06ce6010c202cf2d2963d93b" category="paragraph">数据传输成本取决于您的设置。如果BlueXP分类实例和数据源位于同一可用性区域和区域、则不会产生数据传输成本。但是，如果数据源（例如 Cloud Volumes ONTAP 系统或 S3 存储分段）位于 _Different_ 可用性区域或区域，则云提供商会向您收取数据传输成本。有关详细信息，请参见以下链接：</block>
-  <block id="f8294f2cb2b884e509ae04dff17ad33b" category="paragraph">在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。<block ref="5ef86a9d91601df9732f9c29cb9efbcc" category="inline-link-rx"></block></block>
   <block id="5224a506004fee451317bef2d8675e7e" category="inline-image-macro">显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。</block>
   <block id="fd1e8dbd30ef938d68f6110d8e753a9e" category="paragraph"><block ref="fd1e8dbd30ef938d68f6110d8e753a9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8efedf0156c990ce376aed3b9694842" category="list-text">在AWS中、BlueXP分类在上运行<block ref="8b5561a11e73285eb1f0d9f437aa0677" category="inline-link-rx"></block> 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。</block>
@@ -3174,8 +3076,6 @@
   <block id="336bcdf5ccce2f7faf69504d6bb691bc" category="paragraph">确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <block ref="ccadfe94f5aed3b0ce58eed3720936a8" category="inline-xref-macro-rx"></block>。</block>
   <block id="6645e3ab4db2a6af0367cff31c9d8e9f" category="paragraph">从NetApp 支持站点 下载Cloud BlueXP分类软件、并将安装程序文件复制到您计划使用的Linux主机。然后启动安装向导并按照提示部署BlueXP分类实例。</block>
   <block id="037f9a60a04e773700e2b69144bead1d" category="paragraph">BlueXP分类在BlueXP中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。</block>
-  <block id="57000c3f4a0e1f715adff84de4d4600e" category="paragraph">在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST<block ref="d18edc1f87b2c25c3b9a75b33d4a162f" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
-  <block id="3760f1b46375af636a87b39fb65e4679" category="paragraph">请注意，您也可以<block ref="fe048365448a4a82cbd9d363a7137a93" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="3d701fef8658b361d5ac38f4a9fbebf7" category="paragraph">安装BlueXP分类时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。</block>
   <block id="100b1f7734acb70df17db6d99760e28a" category="paragraph">BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。Linux主机可以位于您的网络中、也可以位于云中。</block>
   <block id="fb28c013f4c23c2c660672d2efce05b2" category="paragraph">确保您可以保持BlueXP分类运行。BlueXP分类机需要持续扫描数据。</block>
@@ -3188,7 +3088,6 @@
   <block id="bfd2c96cae6d29697ceac4feda921426" category="inline-image-macro">一个图表、显示在使用部署在内部且可访问Internet的多个BlueXP分类实例时可以扫描的数据源的位置。</block>
   <block id="b1030a584c34dcb45c3a231937109e48" category="paragraph"><block ref="b1030a584c34dcb45c3a231937109e48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0eb32e59a3574faaca63218c3f5922f" category="paragraph">请参见 <block ref="dc1d236e8ef0d554549faeaffd48b8b2" category="inline-xref-macro-rx"></block> 和 <block ref="2360c56931bf3d2d23fb74a3dc780c78" category="inline-xref-macro-rx"></block> 了解部署BlueXP分类之前的完整要求列表。</block>
-  <block id="818f9cd0c1414232475f4c33c9548e5a" category="admonition">如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例<block ref="a5731cb9d61066e025286d452caac241" category="inline-link-rx"></block> 不同的数据源。</block>
   <block id="86bb25ae4391f2558f38a5358121ae0d" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请按照以下步骤进行操作。</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">如果代理正在执行TLS截取、您需要知道BlueXP分类Linux系统上存储TLS CA证书的路径。</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">验证脱机环境是否满足要求 <block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>。</block>
@@ -3331,7 +3230,6 @@
   <block id="8ef5d363a3f52c2b1fa183d2e2dbcb3c" category="list-text">_client_id =连接器客户端ID (如果客户端ID尚未添加后缀"clients"、请将其添加到该客户端ID)</block>
   <block id="e8cce14fafe88ef9a395cf54e51a3470" category="list-text">_ds_host_= BlueXP分类系统的IP地址或主机名。</block>
   <block id="f28b62cbbb13ada1264e3712622be29c" category="paragraph">例如、此命令将添加3个扫描程序节点：<block ref="1e3d5ab9f2f03870882d89f4a82b2729" prefix=" " category="inline-code"></block></block>
-  <block id="de093cfeaa4d569528bc92ff96d56cde" category="list-text">验证BlueXP Connector软件是否已升级到最新可用版本。<block ref="4d8a85a10354910c72eace431e2b6c17" category="inline-link-rx"></block>。</block>
   <block id="441e8ff948470291018a26dd540b6d1d" category="cell">https://github.com/docker \https://download.docker.com</block>
   <block id="b629edc182d9ce4a079d9f954ad3f9b7" category="cell">提供Docker安装的必备软件包。</block>
   <block id="fa328073ed60b8719f54add213e6f2e6" category="cell">http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm</block>
@@ -3341,4 +3239,106 @@
   <block id="79dad5af8e7ba04bd45d58a3d10d4209" category="list-text">_client_id =连接器客户端ID (将后缀"clients"添加到在前提条件步骤中复制的客户端ID)</block>
   <block id="800fbb2e9f1063caafe6917c236f24a6" category="paragraph">例如、此命令将添加3个扫描程序节点：<block ref="ba1da14563d546c370f034861b50d8f8" prefix=" " category="inline-code"></block></block>
   <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP网络研讨会</block>
+  <block id="c1560b054493db03cae97adece148673" category="list-text"><block ref="c1560b054493db03cae97adece148673" category="inline-link-rx"></block></block>
+  <block id="72a0c1f7935cbaab164295a8fac378d8" category="list-text"><block ref="72a0c1f7935cbaab164295a8fac378d8" category="inline-link-rx"></block></block>
+  <block id="9d7d457b861dcdf8b4b7f28f3a120c36" category="list-text"><block ref="9d7d457b861dcdf8b4b7f28f3a120c36" category="inline-link-rx"></block></block>
+  <block id="27a42cb797cb36baf2be73ba1bf562ad" category="paragraph">如果您还没有 Connector ，请立即创建一个 Connector 。请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
+  <block id="80a2d22fce4a17e62115e06db4b54813" category="paragraph">您也可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
+  <block id="395b61b094231331c9e09532be870844" category="paragraph">如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block> 或<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST<block ref="18bff1b9b8925e72393530e6d5a3b8f3" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
+  <block id="6db1872a82bdc2c16acf6671a92fcc61" category="paragraph">请注意，您也可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
+  <block id="a768d0b3e08949fff683fe64ed6fd5f5" category="paragraph">如您所见，在某些情况下可能需要使用<block ref="db4f15edddf96a93150dd099178794b8" category="inline-link-rx"></block>。</block>
+  <block id="51afd3e8726efb3f85ec3f1ff2e4d705" category="paragraph"><block ref="8fc1c86bee9d4cd3166508d808625533" category="inline-link-rx"></block>。</block>
+  <block id="8f1a8cf43aa444c46e29ecb0349384d2" category="list-text">确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限<block ref="12017b43c12237092f4f947467fd170e" category="inline-link-rx"></block>。</block>
+  <block id="aa91817c0e1d6a16a1f290ad2357d467" category="paragraph">AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见<block ref="ed3ada480c52b8e0c09a903c9cf52508" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="b8896222e179e8ba790e363bd135ecae" category="paragraph">Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见<block ref="179e195cc8e81b19d72f9ddb7460e81f" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="ccb7563cf9bbae3ac26b7f8f10f59968" category="paragraph">因此、如果您在其中许多位置都有数据、则可能需要使用<block ref="bc298eaca29e4bff3f0d222b24813861" category="inline-link-rx"></block>。</block>
+  <block id="c2a51289509ec65eb3621726e2760f5a" category="paragraph">是的。您可以<block ref="643a4fbaa5b15b86bda31e47e3f0d2bb" category="inline-link-rx"></block> 在网络中的Linux主机或云中的主机上。如果您计划在内部部署BlueXP分类、则可能还需要在内部安装Connector、但这不是必需的。</block>
+  <block id="b4ebf9c8f6076746b08fc48974345e32" category="paragraph">是的、这一点也受支持。您可以<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。</block>
+  <block id="abefc4760bb681a677a193d3f612cf4f" category="paragraph">在扫描 ONTAP 卷的 FSX 之前，<block ref="7452eb54bbdeb3cd1b4f5d5a58a8a661" category="inline-link-rx"></block>。</block>
+  <block id="bbb49ffca9a7a090a24129f517c49921" category="paragraph"><block ref="cfae4f09920e34de0a804a19a3f6c70a" category="inline-link-rx"></block>。</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="5f9774634d612de809265cc23871cf47" category="paragraph">扫描 Azure NetApp Files 卷之前，<block ref="877b71a5c09299b4320d1e533ba73086" category="inline-link-rx"></block>。</block>
+  <block id="db8769ab87872f8d19b54e22d54685fe" category="paragraph"><block ref="c29073dde35b7e3b513884b9c9e495a3" category="inline-link-rx"></block>。</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9b9f3b644051dc45eee1cdd195c832fd" category="paragraph">如果BlueXP分类安装在无法访问Internet的站点上、则BlueXP Connector也必须安装在无法访问Internet的同一站点上。<block ref="151d636b52c90572a7410cd729808024" category="inline-link-rx"></block>。</block>
+  <block id="ae32f6accb2b2a18892af4e654e3ac00" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用<block ref="d9f5c10edef42cff18580599262fd784" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
+  <block id="ed404bde5dfd762dd0759dcedd71cdd7" category="paragraph">您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 <block ref="bd72f78a08f0a83b7e3fbbae64df2fed" category="inline-link-rx"></block>）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。</block>
+  <block id="e4186dd0c6123ee83f2ac799b88930b1" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用<block ref="d9f5c10edef42cff18580599262fd784" category="inline-link-rx"></block> 用于将数据从源复制并同步到目标的功能。</block>
+  <block id="9b9f495105111a0fa74c1500ac1b40e5" category="list-text">您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求<block ref="33fe85ab0bf4bd63d137fd0932246743" category="inline-link-rx"></block>。</block>
+  <block id="57deaadc70738ae8568cc1a94e30d7cc" category="list-text">您需要选择目标系统，然后选择（或创建）计划使用的数据代理。从开始查看BlueXP副本和同步要求 <block ref="cd1c543c5a66cc4c65b2c39bf97413cd" category="inline-link-macro-rx"></block>。</block>
+  <block id="fb9f305ae47362d3da6e3ade499105ee" category="list-text">通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。<block ref="a40f0fdd4afe274f77ca519732617a55" category="inline-link-rx"></block>。<block ref="b7350948393fc35e7105d2df80148b7f" category="inline-link-rx"></block>。</block>
+  <block id="8dea330b22e02b664ce6abd469b6f6e0" category="list-text">BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见<block ref="48e31103093fd55a8a781c9c8d4b19d2" category="inline-link-rx"></block>。如果在内部部署系统上安装 Connector ，则不需要任何成本。</block>
+  <block id="36363460a1fe53a08276b3693b695989" category="paragraph">在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。<block ref="999d7d869d9eebca95ac2936610a6036" category="inline-link-rx"></block></block>
+  <block id="5d371907ae213447466e27377160549c" category="paragraph"><block ref="19cae19bf9f9858c5d5d9cdd392e7141" category="inline-link-rx"></block> 以及操作方法<block ref="27e77e6892da189bf97ea3bb339cc8fb" category="inline-link-rx"></block>。</block>
+  <block id="96b988aeea7df07c150c06631b8e1023" category="list-text">对于内部 ONTAP 系统，<block ref="00999886c013da85fef603135c9ef779" category="inline-link-rx"></block></block>
+  <block id="93d98288c3d4c3fe1a384ea14c84db4e" category="paragraph">您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有<block ref="764bc5313eb3242221adb26dbbb188c9" category="inline-link-rx"></block>。</block>
+  <block id="6a79ed48a5fce7523ab5bc4c5c5c16bc" category="paragraph">或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。<block ref="f4c32a82791cf9fc58c736c0aed05092" category="inline-link-rx"></block>。</block>
+  <block id="30fc689a9c3cd4222329fe3a4c818a33" category="paragraph">如果下拉列表中没有您的 NetApp 支持站点帐户，<block ref="06a3bc9d474b5d4e44d1a2733cac785a" category="inline-link-rx"></block>。</block>
+  <block id="94a52882adfe57c5834eeba52357fc83" category="paragraph">如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。<block ref="12cdeb999c26684f4f639c285d1ab42e" category="inline-link-rx"></block>。</block>
+  <block id="8d6538084049892228b105ee80ab20a7" category="paragraph">BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="ec79fe10499592bc63065061930fbb06" category="inline-link-rx"></block> 和 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>。</block>
+  <block id="ba29241cb1ada66fbef1294aa7e1002a" category="paragraph">如果您尚未在脱机内部站点上安装 Connector ，<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 现在在 Linux 主机上。</block>
+  <block id="b63ff2e2b175854ce3610e27e52a6f21" category="paragraph">如果您尚未在脱机内部站点上安装BlueXP Connector、<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
+  <block id="772608951c3bed8c37dd30e4fa52ea7a" category="list-text">确保Connector有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限<block ref="12017b43c12237092f4f947467fd170e" category="inline-link-rx"></block>。</block>
+  <block id="ffb0ab76f2bfaab3dafdcb157116a7ea" category="list-text">验证BlueXP Connector软件是否已升级到最新可用版本。<block ref="1189728130fe33c2fb7adb2d97a83d35" category="inline-link-rx"></block>。</block>
+  <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">数据发现评估报告对扫描环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。本报告的目标是提高对数据治理问题、数据安全风险以及数据集数据合规性差距的认识。<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>。</block>
+  <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">在AWS环境中从BlueXP Connector部署BlueXP分类时、现在您可以从两种比默认实例更小的实例类型中进行选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会存在一些限制。<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>。</block>
+  <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">如果要独立于运行BlueXP分类安装来验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅测试前提条件。<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>。</block>
+  <block id="75e47d62ba360614f8cdea86c229c321" category="paragraph">现在、您可以通过BlueXP分类添加自己的自定义类别、以便BlueXP分类能够识别适合这些类别的文件。BlueXP分类有很多<block ref="7587255274ad12f237a14fbd5f47a14a" category="inline-link-rx"></block>、因此、您可以通过此功能添加自定义类别、以确定您的组织独有的信息在您的数据中的位置。</block>
+  <block id="740f66f04097135a7846557949061bf8" category="paragraph"><block ref="e14cfeac39419a4a8a842fd3611a27db" category="inline-link-rx"></block>。</block>
+  <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>。</block>
+  <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>。</block>
+  <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>。</block>
+  <block id="c51401ffdfb1031aea6f8a59f0b12ac5" category="paragraph"><block ref="364c24684858aaf9cf725ae1ec404c5d" category="inline-link-rx"></block>。</block>
+  <block id="75dbbfa0c63b5452f1dab4062180db11" category="paragraph"><block ref="096bf81f435bf11200f532bd4759e1e0" category="inline-link-rx"></block>。</block>
+  <block id="882ecc5b644de8aa6bd8f8ae2a69ef91" category="paragraph">过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。<block ref="9bbad7a61d2ec2ac2169dcc43ec22874" category="inline-link-rx"></block>。</block>
+  <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">新的"部分成功"状态表示BlueXP分类操作已完成、某些项目失败、而某些项目成功、例如、当您移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着对所有项目执行的所有操作都成功。<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>。</block>
+  <block id="fccd9d5627e0ea943a2decbcedc75caf" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这样可以帮助您了解敏感数据可能存在哪些风险。<block ref="7c90c3d5fe3f2a4e9ca8ce0d84318210" category="inline-link-rx"></block>。</block>
+  <block id="256d4a07e31924bad219936ee7fbe092" category="paragraph"><block ref="6cbac5d82b5b6979376ae555290ffa96" category="inline-link-rx"></block>。</block>
+  <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>。</block>
+  <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>。</block>
+  <block id="b218ff5e02da9d35096238a32166dde5" category="paragraph">Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。<block ref="f9677d6768fea140fb85ff23d7983a85" category="inline-link-rx"></block>。</block>
+  <block id="96c123ab6f4734112bc50bc214494621" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>。</block>
+  <block id="0226172c9b936ddaa203e083a4b9cc81" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。<block ref="838641529bd2d9079ec09cedca69b267" category="inline-link-rx"></block>。</block>
+  <block id="cd0d9671e6080c26297795b009cbbdce" category="paragraph">如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>。</block>
+  <block id="394e72d8b35ee4d082653107b57db524" category="paragraph"><block ref="0036173f4fe5a5d22b0f2328a28ebcbb" category="inline-link-rx"></block>。</block>
+  <block id="82f7cb5359fda2db7066d505c282baf6" category="paragraph">Data sense现在可将痕迹文件识别为合规性信息板中显示的类别的一部分。这些文件是Data sense在将文件从源位置移动到NFS共享时创建的。<block ref="333cd23a73253379d4dadb8212365c81" category="inline-link-rx"></block>。</block>
+  <block id="9602c54aa4fcdb34c3d9e86a7d890ea2" category="paragraph">使用数据感知功能将源文件移动到NFS共享时、现在可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于移动的每个文件、系统都会在名为的源位置创建一个bed屑 文件<block ref="e5b81a76aedb2ddb1da7aba12de3e20b" prefix=" " category="inline-code"></block> 可显示文件的移动位置以及移动文件的用户。<block ref="2ccef004fdad5fd0d9cdb8ce1d569434" category="inline-link-rx"></block>。</block>
+  <block id="0aec8167e209c9b773de640809bb2ffe" category="paragraph">现在、"数据调查"页面将显示在您的目录(文件夹和共享)中找到的个人数据和敏感个人数据的结果。<block ref="838b4ac121a236248619da49a65d1710" category="inline-link-rx"></block>。</block>
+  <block id="f1454006c2b84f6126900ebe59c31558" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="2a13251a6fe881bbd1315d595f667f8b" category="inline-link-rx"></block>。</block>
+  <block id="b37b0bfc35cb447c84138ba82441ec4f" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="a38b2261878a3d41c0abfc69bd23b15e" category="inline-link-rx"></block>。</block>
+  <block id="54adf2468bc376e6a2826273aa432d26" category="paragraph">过去、您可以查看为单个文件授予的打开权限类型。现在、您可以查看有权访问目录(文件夹和文件共享)的所有用户或组的列表及其权限类型。<block ref="c924bafb5fe96f1f013565e3ebb31e47" category="inline-link-rx"></block>。</block>
+  <block id="3b572d9c05ed055da6459f3e2b6bea84" category="paragraph">暂停扫描意味着Data sense不会对卷或存储分段的任何添加或更改执行未来扫描、但系统中仍会显示所有当前结果。<block ref="fba52941eb2875e9ea6da4ed2fe28022" category="inline-link-rx"></block>。</block>
+  <block id="03b10003577e8d37f10edbb62ef2ee5c" category="paragraph">过去、在创建自定义策略时、结果会显示与搜索条件匹配的文件。现在、结果还会显示与查询匹配的目录(文件夹和文件共享)。<block ref="ccb93d8e566e1e038edf17d92ae50d0d" category="inline-link-rx"></block>。</block>
+  <block id="eaca269100e6cf0779ac7a4fcd678906" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="5a5ecc63e9c44abe629f0e448f245359" category="inline-link-rx"></block>。</block>
+  <block id="2861f70af3b42e90eec7e285c70a9c8d" category="paragraph">在"数据调查"页面中筛选数据后、除了将数据保存到本地系统上的.CSV文件之外、您还可以将数据另存为可导出到NFS共享的.JSON文件中的报告。确保Data sense具有正确的导出访问权限。<block ref="7afde6877e2ae4e967ec248e30653d66" category="inline-link-rx"></block>。</block>
+  <block id="478f08fe5b5fe809c6b21f13651500da" category="paragraph">您可以卸载Data sense以从主机中永久删除软件、如果部署了云、则删除部署了Data sense的虚拟机/实例。删除此实例将永久删除Data sense已扫描的所有索引信息。<block ref="bdca54d6bf3eebba0728d5a1d7eb236c" category="inline-link-rx"></block>。</block>
+  <block id="cd86045a347ee0d8457de102c22a7fdf" category="paragraph"><block ref="5c757199826793147ff22b567458314b" category="inline-link-rx"></block>。</block>
+  <block id="59bf226793c8978b0bab2ae77843401d" category="paragraph"><block ref="7a7e187b1204a0f471af3266bca88524" category="inline-link-rx"></block>。</block>
+  <block id="53736873f529dad7bd7046cb7661c6a9" category="paragraph">如果您需要更改过去创建的自定义策略、现在可以编辑该策略、而不是创建新策略。<block ref="e3bc30380d421ea397691bfc976eb397" category="inline-link-rx"></block>。</block>
+  <block id="fea76c790acd43cf50315716dc8913b1" category="paragraph">现在、您可以将Google Drive帐户添加到Data sense中、以便扫描这些Google Drive帐户中的文档和文件。<block ref="7a1afe123dfdc25a0ad9a0e77396e331" category="inline-link-rx"></block>。</block>
+  <block id="5d453722647d508b47c2cac8119abeed" category="paragraph">除了文档、工作表和幻灯片之外、Data sense还可以识别以下Google文件类型中的个人身份信息(Personal Identifiable Information、PiII)<block ref="aae50f4bf2d5955e33e4448cfc2446cf" category="inline-link-rx"></block>。</block>
+  <block id="7a7144f5247ce7406c8787806665c592" category="paragraph">除了查看和筛选所有文件和数据库中的数据之外、现在您还可以在"数据调查"页面中根据文件夹和共享中的所有数据查看和筛选数据。将为扫描的CIFS和NFS共享以及OneDrive、SharePoint和Google Drive文件夹的目录编制索引。现在、您可以在目录级别查看权限并管理数据。<block ref="f2a55e31f0ac3e171d1e45b8e3eb2c50" category="inline-link-rx"></block>。</block>
+  <block id="019559d3bd068962cb59afee4e2967d5" category="paragraph">现在、您可以在Data sense权限功能中查看有权访问文件的用户和组列表。可以展开每个组以显示组中的用户列表。<block ref="70d54ddc5877b170257ba4130e65b17c" category="inline-link-rx"></block>。</block>
+  <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">您可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
+  <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">通过单击更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">单击以管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb928959b278e9a5a488494ff139d0d9" category="paragraph">如果您还没有 Connector ，<block ref="8635e4adecf532f5cc2442da36c54c5a" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
+  <block id="7b80abc0703fcbc544c0ea34a81361df" category="paragraph">您还可以与云提供商一起创建Connector。请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
+  <block id="3653af7cc7cb7ab4c2f891348a1090c6" category="paragraph">在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST<block ref="18bff1b9b8925e72393530e6d5a3b8f3" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
+  <block id="36d24108dd8c0c7c0e1f81fdf8c0ca74" category="paragraph">要在云提供商环境中创建一个、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
+  <block id="5bda7e03f132a23ba4a10fd78c5bec54" category="paragraph">请注意，您也可以<block ref="8635e4adecf532f5cc2442da36c54c5a" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
+  <block id="d9807c3141689bddbb5c97208880a55c" category="admonition">如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例<block ref="c0d2361eca5545ed28b62c643a054bb3" category="inline-link-rx"></block> 不同的数据源。</block>
 </blocks>

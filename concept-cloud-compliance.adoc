@@ -59,7 +59,7 @@ BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可
 
 * 通过识别重复数据或非业务相关数据来提高存储效率。您可以使用此信息来确定是要移动还是删除某些文件。
 * 删除看似不安全或风险太大、无法留在存储系统中的文件、或者您已确定为重复的文件。您可以使用_policies_自动删除符合特定条件的文件。
-* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
+* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
 
 
 
@@ -129,7 +129,7 @@ BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
 link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
 
 * 在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参见 <<BlueXP分类实例,为每个云提供商部署的实例类型>>。如果您在内部系统上安装BlueXP分类、则不需要任何费用。
-* BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-on-prem.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
+* BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
 
 
 
@@ -147,7 +147,7 @@ link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
 
 == BlueXP分类实例
 
-在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
+在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
 
 image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。"]
 
@@ -311,4 +311,4 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 * 具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。这些用户也无法复制，移动或删除文件。
 
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-user-roles.html["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-netapp-accounts.html#adding-users["添加具有特定角色的用户"^]。
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-netapp-accounts.html#adding-users["添加具有特定角色的用户"^]。
