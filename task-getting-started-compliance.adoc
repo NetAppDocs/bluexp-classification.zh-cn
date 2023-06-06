@@ -109,9 +109,13 @@ image:screenshot_cloud_compliance_we_scan_config.png["部署BlueXP分类实例�
 .结果
 BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类完成初始扫描、结果将显示在Compliance信息板中。所需时间取决于数据量—可能需要几分钟或几小时。
 
+[NOTE]
+====
+* 默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。生成的页面包含一个您可以启用的设置、以便BlueXP分类将扫描卷、而不管权限如何。
+* BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。 link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["请参见有关此BlueXP分类限制的更多详细信息"^]。
 
-NOTE: 默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。您可以启用该页面中的设置、以便BlueXP分类将扫描卷、而不管权限如何。
 
+====
 
 
 == 验证BlueXP分类是否有权访问卷

@@ -97,9 +97,9 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
 +
-** Red Hat Enterprise Linux 8.0至8.7版
-** CentOS 8.0至8.7版
-** CentOS Stream 8.
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 8.0至8.5版
+** CentOS 8.0至8.5版
 ** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
@@ -165,6 +165,10 @@ TIP: 对于安装在无Internet连接站点中的主机系统、不需要此部�
 
 
 | http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm | 提供安装CentOS所需的软件包。 
+
+
+| \http://packages.ubuntu.com/
+\http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
 |===
 
 

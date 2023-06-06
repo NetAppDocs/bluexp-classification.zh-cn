@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, data sense, classification, scan shares 
+summary: 已知限制用于说明此产品版本不支持的功能或无法与其正确交互的功能。仔细审查这些限制。 
+---
+= 已知限制
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知限制用于说明此产品版本不支持的功能或无法与其正确交互的功能。仔细审查这些限制。
+
+
+
+== BlueXP分类扫描限制
+
+
+
+=== BlueXP分类仅扫描卷下的一个共享
+
+如果在一个卷下有多个文件共享、BlueXP分类会扫描层次结构最高的共享。例如、如果您有如下共享：
+
+* /a
+* /A/B
+* /C
+* /D/E
+
+
+然后将扫描/A中的数据。不会扫描/C和/D中的数据。
+
+.临时解决策
+临时解决策可确保您正在扫描卷中所有共享的数据。请按照以下步骤操作：
+
+. 在工作环境中、添加要扫描的卷。
+. 在BlueXP分类完成卷扫描后、转到_Data Investigation _页面并创建筛选器以查看正在扫描的共享：
++
+您将按"工作环境名称"和"目录类型=共享"筛选数据、以查看正在扫描的共享。
+
+. 获取卷中存在的共享的完整列表、以便查看哪些共享未被扫描。
+. link:task-scanning-file-shares.html["将其余共享添加到共享组"]。
++
+您需要逐个添加所有共享、例如：
+
++
+....
+/C
+/D
+....
+. 对具有多个共享的工作环境中的每个卷执行以下步骤。
+

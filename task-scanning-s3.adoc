@@ -129,7 +129,7 @@ image:screenshot_s3_compliance_iam_role.png["为BlueXP分类输入AWS IAM角色�
 
 
 
-TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif[""] 按钮并选择*激活BlueXP分类*。
+TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif["三点"] 按钮并选择*激活BlueXP分类*。
 
 .结果
 BlueXP将IAM角色分配给实例。

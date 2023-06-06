@@ -82,9 +82,9 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.ht
 
 == 查看前提条件
 
-在云中部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
+在云中部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。在云中部署BlueXP分类时、它与连接器位于同一子网中。
 
-从BlueXP分类启用出站Internet访问:: BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。在云中部署BlueXP分类时、它与连接器位于同一子网中。
+从BlueXP分类启用出站Internet访问:: BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。代理必须不透明-我们目前不支持透明代理。
 +
 --
 根据您是在AWS、Azure还是GCP中部署BlueXP分类、查看下表。

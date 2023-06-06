@@ -134,9 +134,9 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
 +
-** Red Hat Enterprise Linux 8.0至8.7版
-** CentOS 8.0至8.7版
-** CentOS Stream 8.
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 8.0至8.5版
+** CentOS 8.0至8.5版
 ** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
@@ -204,7 +204,7 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则
 
 | BlueXP分类<> ONTAP 集群  a| 
 * 对于NFS - 111 (tcp\udp)和2049 (tcp\udp)
-* 对于CIFS - 139 (tcp\udp)和445 (tcp\udp)
+* 对于CIFS - 139 (TCP/UDP)和445 (TCP/UDP)
 
  a| 
 BlueXP分类需要与每个Cloud Volumes ONTAP 子网或内置ONTAP 系统建立网络连接。Cloud Volumes ONTAP 的安全组必须允许从BlueXP分类实例进行入站连接。
@@ -407,8 +407,8 @@ BlueXP分类安装程序完成软件包安装并注册安装。安装可能需�
 由于BlueXP分类软件定期更新新功能、因此您应进入例行程序定期检查新版本、以确保您使用的是最新的软件和功能。您需要手动升级BlueXP分类软件、因为没有Internet连接、无法自动执行升级。
 
 .开始之前
+* 我们建议您将BlueXP Connector软件升级到最新可用版本。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["请参见 Connector 升级步骤"^]。
 * BlueXP分类软件一次可升级一个主要版本。例如、如果您安装的是版本1.20.x、则只能升级到1.21.x如果您有几个主要版本，则需要多次升级此软件。
-* 验证BlueXP Connector软件是否已升级到最新可用版本。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["请参见 Connector 升级步骤"^]。
 
 
 .步骤
@@ -418,7 +418,7 @@ BlueXP分类安装程序完成软件包安装并注册安装。安装可能需�
 +
 [source, cli]
 ----
-tar -xvf DataSense-offline-bundle-v1.21.0.tar.gz
+tar -xvf DataSense-offline-bundle-v1.22.0.tar.gz
 ----
 +
 此操作将提取安装文件* cc_onprem_installer.tar.gz*。

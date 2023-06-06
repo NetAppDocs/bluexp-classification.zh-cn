@@ -142,9 +142,9 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
 +
-** Red Hat Enterprise Linux 8.0至8.7版
-** CentOS 8.0至8.7版
-** CentOS Stream 8.
+** Ubuntu 22.04
+** Red Hat Enterprise Linux 8.0至8.5版
+** CentOS 8.0至8.5版
 ** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
 
 
@@ -210,6 +210,10 @@ BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用
 
 
 | http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm | 提供安装CentOS所需的软件包。 
+
+
+| \http://packages.ubuntu.com/
+\http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
 |===
 
 
@@ -236,7 +240,7 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则
 
 | BlueXP分类<> ONTAP 集群  a| 
 * 对于NFS - 111 (tcp\udp)和2049 (tcp\udp)
-* 对于CIFS - 139 (tcp\udp)和445 (tcp\udp)
+* 对于CIFS - 139 (TCP/UDP)和445 (TCP/UDP)
 
  a| 
 BlueXP分类需要与每个Cloud Volumes ONTAP 子网或内置ONTAP 系统建立网络连接。Cloud Volumes ONTAP 的防火墙或路由规则必须允许从BlueXP分类实例进行入站连接。
@@ -299,6 +303,8 @@ NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存
 +
 ** 您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。
 ** 如果代理正在执行TLS截取、您需要知道BlueXP分类Linux系统上存储TLS CA证书的路径。
+** 代理必须不透明-我们目前不支持透明代理。
+** 用户必须是本地用户。不支持域用户。
 
 
 * 验证脱机环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
@@ -359,7 +365,7 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择用于在云中或内
 ** _proxy_host_ = 代理服务器的 IP 或主机名（如果主机位于代理服务器之后）。
 ** _proxy_port_ = 用于连接到代理服务器的端口（默认值为 80 ）。
 ** _proxy_scheme_= 连接方案： HTTPS 或 http （默认为 http ）。
-** _proxy_user_= 已通过身份验证的用户，用于连接到代理服务器（如果需要基本身份验证）。
+** _proxy_user_= 已通过身份验证的用户，用于连接到代理服务器（如果需要基本身份验证）。用户必须是本地用户-不支持域用户。
 ** _proxy_password_ = 指定用户名的密码。
 ** _ca_cert_dir_=包含其他TLS CA证书包的BlueXP分类Linux系统上的路径。仅当代理正在执行 TLS 截获时才需要。
 
