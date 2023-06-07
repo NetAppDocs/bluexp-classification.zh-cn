@@ -16,6 +16,8 @@ summary: 如果需要、您可以停止BlueXP分类以扫描一个或多个工�
 [role="lead"]
 如果需要、您可以停止BlueXP分类以扫描一个或多个工作环境、数据库、文件共享组、OneDrive帐户、Google Drive帐户、 或SharePoint帐户。
 
+删除数据源后、为扫描数据而付费的操作将停止。
+
 
 
 == 为工作环境停用合规性扫描

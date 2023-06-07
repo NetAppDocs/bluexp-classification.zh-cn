@@ -111,7 +111,7 @@ image:screenshot_compliance_file_access_audit_done.png["屏幕截图显示已为
 
 == 访问文件访问审核日志文件
 
-文件访问审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/file_access_audit_logs/`
+文件访问审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/fpolicy/logs`
 
 默认情况下、每个文件最多包含50、000个事件。 <<配置文件访问审核日志设置,您可以在文件访问审核日志配置页面中自定义此值。>> 达到此最大值后、日志文件中较早的条目将被覆盖。
 
@@ -153,7 +153,7 @@ image:screenshot_compliance_file_access_audit_config.png["显示BlueXP分类配�
 | 审核日志选项 | Description 
 
 
-| 日志文件位置 | 该位置当前已硬编码、可写入日志文件 `/opt/netapp/file_access_audit_logs/` 
+| 日志文件位置 | 该位置当前已硬编码、可写入日志文件 `/opt/netapp/fpolicy/logs` 
 
 
 | 审核日志的最大存储分配 | 目录中所有日志文件的总大小当前已硬编码为默认值50 GB。达到此限制后、最早的日志文件将自动删除。 

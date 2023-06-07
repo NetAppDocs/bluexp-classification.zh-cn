@@ -2877,7 +2877,6 @@
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="section-title">BlueXP分类可以标识日语个人编号</block>
   <block id="f5055886b0ed4db432221d378f3730c1" category="paragraph">您可以更改的一些内容包括是否扫描存储库以及BlueXP分类是否正在执行 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
   <block id="06f4c04dbf4f6e1007102feb5e139b5f" category="paragraph">您可以查看BlueXP分类为每个工作环境和数据源扫描的各个存储库(卷、分段等)。此外、您还可以查看有多少已"映射"、有多少已"分类"。由于正在对所有数据执行完整的AI标识、因此分类需要较长时间。</block>
-  <block id="1653ff09a832461934f62b062bb49a8f" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统中将删除有关该卷的所有索引编制和信息。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。</block>
   <block id="e9ef05a76f2eb11216d8bcec1c8a1ee1" category="paragraph">BlueXP分类会持续扫描您的数据、以检测您添加的存储库中的增量更改。但是、系统扫描所有环境需要一些时间、并且无法控制所扫描的存储库的顺序。如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先扫描某些数据、而不是扫描其他数据。执行重新扫描操作后、选定存储库将恢复为按正常BlueXP分类计划进行扫描的状态。</block>
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP分类支持扫描除Amazon S3和数据库之外的所有数据源类型上的目录。目前、我们支持重新扫描单个目录(文件夹或共享)或多个目录。未来的支持包括重新扫描其他存储库类型(文件、数据库等)。</block>
   <block id="eb069b124d02b06908e1071cc2edae80" category="summary">数据扫描对存储系统和数据的影响可以忽略不计。但是、如果您担心的影响非常小、则可以将BlueXP分类配置为执行"慢速"扫描。</block>
@@ -3150,11 +3149,9 @@
   <block id="ae99dae6f6384006aeadebbab894f370" category="list-text">操作详细信息-执行的操作：取决于操作</block>
   <block id="e4e81dbf5cdcb72e814265ea01d1f3eb" category="paragraph">例如、日志文件中的以下行显示卷"fpolicy_"CIFS"中发生了"创建"操作—已在卷中创建新文件"F14"。</block>
   <block id="e5f8c207227297bb2868689eb39d6520" category="paragraph">您可以使用BlueXP分类调查页面搜索卷(使用"存储库"筛选器)或文件(使用"文件/目录路径"筛选器)、以查看有关受影响卷和文件的更多详细信息。</block>
-  <block id="f78abbcec2f9ea5bc3fa03b36826fc43" category="paragraph">文件访问审核日志文件位于BlueXP分类计算机的以下位置：<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
   <block id="d83435d800785132bce0e54bcaa13373" category="paragraph">默认情况下、每个文件最多包含50、000个事件。 <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 达到此最大值后、日志文件中较早的条目将被覆盖。</block>
   <block id="55b3e20fcb82b08c30a902311468d3c8" category="paragraph">默认情况下、目录中所有日志文件的总大小设置为最大50 GB。 <block ref="d1bb72137f989cabbac97be0417a83ae" category="inline-xref-macro-rx"></block> 达到此限制后、在添加新日志文件时、最早的日志文件将被删除。此外、超过14天的任何日志文件都将被覆盖、因为这是最长保留时间。</block>
   <block id="a0381bb8e5ebb77d0c9d2d40db0d1fe3" category="list-text">&lt;datasense_ip&gt; = BlueXP分类虚拟机实例的IP地址</block>
-  <block id="5c3750f0826de99975f78125d81ce638" category="cell">该位置当前已硬编码、可写入日志文件<block ref="fec957882759a1b449bd1dfc164a64e6" prefix=" " category="inline-code"></block></block>
   <block id="190e59fe3d6a787439b4b5c2c989f6bf" category="cell">每个文件当前都经过硬编码、最多可包含50、000个事件。达到此最大值后、在添加新事件时、旧事件将被删除。</block>
   <block id="a1c4e88cdf8e157dbb344fe556f58d28" category="paragraph">如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户在CIFS中具有写入属性权限或在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="6af032d0de89339877509ae11ea19c63" category="paragraph">在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。您一次最多可以添加100个URL、每个帐户总共最多可以添加1、000个站点。</block>
@@ -3348,7 +3345,6 @@
   <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以生成<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 以及生成的信息。您也可以在中输入日语名称<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 标识包含主题名称的文件。</block>
   <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu现在是一个受支持的Linux分发版、您可以在其中安装BlueXP分类</block>
   <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">了解如何在安装了Ubuntu的主机上安装BlueXP分类</block>
-  <block id="e79851962ec44d8c7ccd2a63f0c4e92c" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机或云中的Linux主机上安装BlueXP分类。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
   <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">新的BlueXP分类安装不再支持Red Hat Enterprise Linux 8.6和8.7</block>
   <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">新部署不支持这些版本、因为Red Hat不再支持Docker、而Docker是前提条件。如果现有BlueXP分类计算机运行RHEL 8.6或8.7、则NetApp将继续支持您的配置。</block>
   <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">可以将BlueXP分类配置为FPolicy收集器、以便从ONTAP系统接收FPolicy事件</block>
@@ -3389,4 +3385,9 @@
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">三点</block>
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">您也可以通过单击在配置页面中为工作环境启用合规性扫描 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 按钮并选择*激活BlueXP分类*。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="967ed7b18cc2e131fa8fe860d4e4f18d" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统将删除该卷的所有索引编制和相关信息、并停止为扫描数据而收费。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。暂停扫描不会停止为扫描数据充电、因为数据仍然存在。</block>
+  <block id="218b1b5040dd27f37c3fab6adea21bff" category="paragraph">删除数据源后、为扫描数据而付费的操作将停止。</block>
+  <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机上安装BlueXP分类、也可以在云中的Linux主机上安装(如果使用的是1.23版安装程序)。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
+  <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">文件访问审核日志文件位于BlueXP分类计算机的以下位置：<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
+  <block id="7f16356d7b675ed76686e591ad5dc661" category="cell">该位置当前已硬编码、可写入日志文件<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
 </blocks>
