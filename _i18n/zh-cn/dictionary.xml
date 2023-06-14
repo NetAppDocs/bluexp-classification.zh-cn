@@ -2297,11 +2297,8 @@
   <block id="088be43867eaac29f74142859d1e2a13" category="paragraph">运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">验证主机要求</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">*大型*</block>
-  <block id="f73b260a6cb60f48bc6d018192dfb51b" category="cell">500 GiB SSD on /或- 100 GiB available on /opt - 395 GiB available on /var - 5 GiB on /tmp</block>
   <block id="f3e6e184202c9901024fa409f2c24cb1" category="cell">*中*</block>
-  <block id="63d284249a11c1390977c2b197c85419" category="cell">200 GiB SSD on /或- 50 GiB available on /opt - 145 GiB available on /var - 5 GiB on /tmp</block>
   <block id="e8ae9f0392263b55e4580177a75c948e" category="cell">*小*</block>
-  <block id="6798decba048766a66cd22d4442d7ec0" category="cell">100 GiB SSD on /或- 50 GiB available on /opt - 45 GiB available on /var - 5 GiB on /tmp</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">请参见其他AWS实例类型</block>
   <block id="07c511fd0ad633d44d9e71cb0c9eaba9" category="list-text">* AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>。</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">请参见其他Azure实例类型</block>
@@ -3042,7 +3039,6 @@
   <block id="bfd2c96cae6d29697ceac4feda921426" category="inline-image-macro">一个图表、显示在使用部署在内部且可访问Internet的多个BlueXP分类实例时可以扫描的数据源的位置。</block>
   <block id="b1030a584c34dcb45c3a231937109e48" category="paragraph"><block ref="b1030a584c34dcb45c3a231937109e48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0eb32e59a3574faaca63218c3f5922f" category="paragraph">请参见 <block ref="dc1d236e8ef0d554549faeaffd48b8b2" category="inline-xref-macro-rx"></block> 和 <block ref="2360c56931bf3d2d23fb74a3dc780c78" category="inline-xref-macro-rx"></block> 了解部署BlueXP分类之前的完整要求列表。</block>
-  <block id="86bb25ae4391f2558f38a5358121ae0d" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请按照以下步骤进行操作。</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">如果代理正在执行TLS截取、您需要知道BlueXP分类Linux系统上存储TLS CA证书的路径。</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">验证脱机环境是否满足要求 <block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>。</block>
   <block id="2fdc544d6ce29e3a29dd3b9cb532c792" category="list-text">从下载BlueXP分类软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为* datasENSE-installer-datas.tar.gz*&lt;version&gt;。</block>
@@ -3390,4 +3386,20 @@
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机上安装BlueXP分类、也可以在云中的Linux主机上安装(如果使用的是1.23版安装程序)。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
   <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">文件访问审核日志文件位于BlueXP分类计算机的以下位置：<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
   <block id="7f16356d7b675ed76686e591ad5dc661" category="cell">该位置当前已硬编码、可写入日志文件<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
+  <block id="34c688a0843dc19a0624e151973b37a7" category="cell">500 GiB SSD位于/、或上
+-100 GiB可从/opt获得
+-395 GiB可在/var/lib/Docker上使用
+/tmp上的5 GiB</block>
+  <block id="7c2e343b426a44deea2cb9e6eb69e8af" category="cell">200 GiB SSD开启/、或
+-50 GiB可从/opt获得
+-145 GiB可在/var/lib/Docker上使用
+/tmp上的5 GiB</block>
+  <block id="a8ec707d3d7dc0af4b9cce44343387b0" category="cell">100 GiB SSD位于/、或上
+-50 GiB可从/opt获得
+/var/lib/Docker上提供45 GiB
+/tmp上的5 GiB</block>
+  <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">观看此视频</block>
+  <block id="404a8e21de3fe2bfdd2e77b81889e5cb" category="paragraph"><block ref="21e1c490f7e7bc90ffb6dabbc263e6f2" category="inline-link-rx"></block> 有关在CentOS上安装Docker的快速演示。</block>
+  <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。</block>
+  <block id="cf3d087ad95f213d839f606d398101ee" category="paragraph"><block ref="501f73c9c42bcec313b07a4d01108ec0" category="inline-link-rx"></block> 以了解如何安装BlueXP分类。</block>
 </blocks>

@@ -3,8 +3,6 @@
 
 
 * 与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。
-
-
 * 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在三种系统大小中进行选择。
 +
 [cols="18,18,26,30"]
@@ -12,13 +10,22 @@
 | 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
 
 
-| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD on /或- 100 GiB available on /opt - 395 GiB available on /var - 5 GiB on /tmp 
+| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD位于/、或上
+-100 GiB可从/opt获得
+-395 GiB可在/var/lib/Docker上使用
+/tmp上的5 GiB 
 
 
-| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD on /或- 50 GiB available on /opt - 145 GiB available on /var - 5 GiB on /tmp 
+| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD开启/、或
+-50 GiB可从/opt获得
+-145 GiB可在/var/lib/Docker上使用
+/tmp上的5 GiB 
 
 
-| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD on /或- 50 GiB available on /opt - 45 GiB available on /var - 5 GiB on /tmp 
+| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD位于/、或上
+-50 GiB可从/opt获得
+/var/lib/Docker上提供45 GiB
+/tmp上的5 GiB 
 |===
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
@@ -60,6 +67,9 @@
 * *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
 ** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
++
+https://youtu.be/H1WS_-85pWA["观看此视频"] 有关在CentOS上安装Docker的快速演示。
+
 ** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
