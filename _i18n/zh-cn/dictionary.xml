@@ -2555,7 +2555,6 @@
   <block id="2875279e7093015cd8ccf93240c548e9" category="paragraph"><block ref="2875279e7093015cd8ccf93240c548e9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e7fa07083790a8112d00af542356ec88" category="paragraph">默认情况下、不会扫描数据保护(DP)卷、因为这些卷不会对外公开、BlueXP分类无法访问它们。这些卷是从内部 ONTAP 系统或 Cloud Volumes ONTAP 系统执行 SnapMirror 操作的目标卷。</block>
   <block id="7c0a9b3e555cf595d3d01d33df76df82" category="list-text">最初在源 ONTAP 系统中创建为 CIFS 卷的卷需要输入 CIFS 凭据才能扫描这些 DP 卷。如果您已输入Active Directory凭据以便BlueXP分类可以扫描CIFS卷、则可以使用这些凭据、也可以指定一组不同的管理员凭据。</block>
-  <block id="fbf1d4f9e395daa419609b8d5b9705f7" category="summary">您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。</block>
   <block id="52887b7fa084c02e609d7372dfab4740" category="paragraph">BlueXP分类当前会捕获文件和目录上以下操作的事件：</block>
   <block id="f8a450637ddb6668a04ea30131e3a1e2" category="paragraph">如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到日志文件。</block>
   <block id="c025349cd3a26a699951f8e578938046" category="paragraph">在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：</block>
@@ -3123,11 +3122,9 @@
   <block id="c3e36333a4a6733ccd92dafc9d8c17b5" category="sidebar">在内部环境中安装BlueXP分类、而不使用Internet</block>
   <block id="c0b7cbffdfa6fa18059367f2045ac22c" category="sidebar">BlueXP分类用例</block>
   <block id="44b48aa0d2158361e53832315034f513" category="paragraph">例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果已更改、您将能够看到进行更改的人员的安全标识符(SID)以及更改的时间。</block>
-  <block id="f8877f183813ba08abe0b73b3b1c1a0a" category="paragraph">您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。</block>
   <block id="c7f8db8434f3e3057bca29922b597e31" category="paragraph">BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的文件访问事件：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">适用于 NetApp ONTAP 的 Amazon FSX</block>
   <block id="64067288b8531fcd99186eba6a8c23b0" category="paragraph">数据源必须运行ONTAP 9.11或更高版本的软件。</block>
-  <block id="e409723ead2999f7cf6579d5cdaa079c" category="admonition">此时、您最多可以在每个数据源上的5个卷上配置文件访问审核。</block>
   <block id="266321178f48dd580597ebe11b4ed93e" category="list-text">您应该为数据源配置Active Directory、以便BlueXP分类可以列出访问这些文件的人员的ID。</block>
   <block id="c59b99fd4a78f457a5e94a037bb88563" category="list-text">必须打开端口5018、以便从BlueXP分类系统进行出站访问。</block>
   <block id="4d2cf95eb79434a26117b70f40109d70" category="paragraph">系统会为您配置的用于跟踪文件访问事件的每个卷创建一个日志文件。日志文件名为"fpolicy_cfs_838c1727-dd2d-11ed-a3ec-590ce4991.log"&lt;volume_uuid&gt; 、例如&lt;volume_name&gt;。审核日志中的每一行都包含以下格式的信息：</block>
@@ -3402,4 +3399,7 @@
   <block id="404a8e21de3fe2bfdd2e77b81889e5cb" category="paragraph"><block ref="21e1c490f7e7bc90ffb6dabbc263e6f2" category="inline-link-rx"></block> 有关在CentOS上安装Docker的快速演示。</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。</block>
   <block id="cf3d087ad95f213d839f606d398101ee" category="paragraph"><block ref="501f73c9c42bcec313b07a4d01108ec0" category="inline-link-rx"></block> 以了解如何安装BlueXP分类。</block>
+  <block id="7273543485153af36bd67d8d37fe08b3" category="summary">您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此日志文件(文件访问审核日志)的内容或下载此日志、以查看发生了哪些文件更改以及由谁进行的更改。</block>
+  <block id="145ca78924109b125fb405dc2644ebba" category="paragraph">您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。BlueXP分类大约每秒可处理来自ONTAP的990个事件。</block>
+  <block id="7a6df57d74a900c4b9e956add6358c97" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。<block ref="4ca4cc07e57f7afbeb1dff6c98bd6092" category="inline-link-rx"></block> 了解预检消息和含义。</block>
 </blocks>

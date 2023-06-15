@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-file-access-events.html 
 keywords: compliance, actions, view progress, audit, logs, installation 
-summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。' 
+summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此日志文件(文件访问审核日志)的内容或下载此日志、以查看发生了哪些文件更改以及由谁进行的更改。' 
 ---
 = 监控和管理文件访问事件
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文�
 
 
 [role="lead"]
-您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此文件的内容(文件访问审核日志)或下载此文件、以查看发生了哪些文件更改以及由谁进行更改。
+您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此日志文件(文件访问审核日志)的内容或下载此日志、以查看发生了哪些文件更改以及由谁进行的更改。
 
 例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果已更改、您将能够看到进行更改的人员的安全标识符(SID)以及更改的时间。
 
-您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。
+您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。BlueXP分类大约每秒可处理来自ONTAP的990个事件。
 
 BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
@@ -52,9 +52,6 @@ BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的�
 == 为文件访问审核日志记录配置卷
 
 您可以在单个卷上启用文件访问审核日志记录、以跟踪对文件和目录的更改。
-
-
-TIP: 此时、您最多可以在每个数据源上的5个卷上配置文件访问审核。
 
 .开始之前
 * 您应该为数据源配置Active Directory、以便BlueXP分类可以列出访问这些文件的人员的ID。
