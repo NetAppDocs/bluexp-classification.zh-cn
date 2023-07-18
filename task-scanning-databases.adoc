@@ -16,6 +16,8 @@ summary: 完成几个步骤、开始使用BlueXP分类扫描数据库架构。
 [role="lead"]
 完成几个步骤、开始使用BlueXP分类扫描数据库架构。
 
+请注意、在启用数据库扫描后、您可以根据数据库中的特定列添加BlueXP分类在所有数据源中标识的唯一标识符。这称为_Data Fusion _功能。 link:task-managing-data-fusion.html#add-custom-personal-data-identifiers-from-your-databases["了解如何从数据库中添加自定义个人数据标识符"^]。
+
 
 
 == 快速入门

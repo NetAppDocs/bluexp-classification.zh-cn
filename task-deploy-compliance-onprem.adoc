@@ -149,10 +149,10 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 * *操作系统*：操作系统必须能够安装Docker引擎。
 +
-** Ubuntu 22.04
-** Red Hat Enterprise Linux 8.0至8.5版
-** CentOS 8.0至8.5版
-** 可以使用RHEL或CentOS 7.8或7.9版、但Linux内核版本必须为4.0或更高版本
+** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+** 落基Linux 9 (需要BlueXP分类版本1.24及更高版本)
+** Ubuntu 22.04 (需要BlueXP分类版本1.23及更高版本)
 
 
 * * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
@@ -307,6 +307,8 @@ NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存
 
 https://youtu.be/gE-vrBLSJqw["观看此视频"] 以了解如何安装BlueXP分类。
 
+请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到 `/opt/netapp/install_logs/`。 link:task-audit-data-sense-actions.html#access-the-log-file["请单击此处查看更多详细信息"]。
+
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
 * 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
@@ -329,7 +331,7 @@ https://youtu.be/gE-vrBLSJqw["观看此视频"] 以了解如何安装BlueXP分�
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.21.0.tar.gz
+tar -xzf DATASENSE-INSTALLER-V1.22.0.tar.gz
 ----
 . 在BlueXP中、选择*监管>分类*。
 . 单击 * 激活数据感知 * 。

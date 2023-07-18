@@ -62,15 +62,12 @@ image:screenshot_compliance_add_data_fusion.png["用于标识数据 Fusion 源�
 
 . 单击 * 添加 Data Fusion 源 * 。
 +
-"Data Fusion 清单"页面将显示已配置BlueXP分类以进行扫描的数据库源列。
-
-+
 image:screenshot_compliance_data_fusion_list.png["您已使用 Data Fusion 配置的所有数据源引用的屏幕截图。"]
 
 
 
 .结果
-下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。您添加的每个源列都会以"Table.Column"格式显示在筛选器列表中、例如`customers.CustomerID`。
+下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。例如，您用于此分层器的名称将显示在筛选器列表中 `Customers.CustomerID`。
 
 image:screenshot_add_data_fusion_result.png["在\"调查结果\"窗格中显示Data Fusion 结果示例的屏幕截图。"]
 
@@ -116,7 +113,7 @@ image:screenshot_select_classifier_tool_keywords.png["屏幕截图显示了选�
 以下屏幕截图显示了内部产品名称(不同类型的所有权)。这些项目的BlueXP分类搜索不区分大小写。
 
 +
-image:screenshot_select_classifier_create_logic_keyword.png["为客户分类器输入关键字的屏幕截图。"]
+image:screenshot_select_classifier_create_logic_keyword.png["输入自定义类词关键字的屏幕截图。"]
 
 . 单击*Done (完成)*、BlueXP分类将开始重新扫描您的数据。
 
@@ -138,7 +135,10 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 
 添加正则表达式后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"个人结果"部分下、以及调查页面中的"个人数据"筛选器中。
 
-请参见 https://regex101.com/[] 如果您在构建正则表达式时需要帮助、
+请参见 https://regex101.com/[] 如果您在构建正则表达式时需要帮助、选择*PYTHYTH*作为风味，以查看BlueXP分类将与正则表达式匹配的结果类型。
+
+
+NOTE: 目前、我们不允许在创建正则表达式时使用模式标志-这意味着您不应使用"/"。
 
 .步骤
 . 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。
@@ -161,7 +161,7 @@ image:screenshot_select_classifier_tool_regex.png["屏幕截图、显示选择�
 .. 您可以输入任何合法正则表达式。单击*Validify*按钮可让BlueXP分类验证正则表达式是否有效，并且不会太宽泛，这意味着它将返回太多结果。
 .. 或者、您也可以输入一些接近词来帮助细化结果的准确性。这些字词通常位于所搜索模式的300个字符内(在找到的模式之前或之后)。在单独的行中输入每个词或短语。
 +
-image:screenshot_select_classifier_create_logic_regex.png["为客户分类器输入正则表达式和接近词的屏幕截图。"]
+image:screenshot_select_classifier_create_logic_regex.png["输入自定义类词的正则表达式和接近词的屏幕截图。"]
 
 
 
@@ -241,6 +241,9 @@ image:screenshot_custom_classifier_top_5.png["显示根据返回结果排名前3
 == 管理自定义分类器
 
 您可以使用*编辑类元*按钮更改已创建的任何自定义类元。
+
+
+TIP: 此时无法编辑Data Fusion类类。
 
 如果您稍后决定不需要BlueXP分类来识别您添加的自定义模式，则可以使用*删除分类器*按钮删除每个项目。
 

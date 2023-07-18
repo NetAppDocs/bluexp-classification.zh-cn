@@ -41,7 +41,6 @@ BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的�
 
 * 内部部署ONTAP
 * Cloud Volumes ONTAP
-* Azure NetApp Files
 * 适用于 NetApp ONTAP 的 Amazon FSX
 
 
@@ -52,6 +51,9 @@ BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的�
 == 为文件访问审核日志记录配置卷
 
 您可以在单个卷上启用文件访问审核日志记录、以跟踪对文件和目录的更改。
+
+
+TIP: 此时、您最多可以在每个数据源上的8个卷上配置文件访问审核。
 
 .开始之前
 * 您应该为数据源配置Active Directory、以便BlueXP分类可以列出访问这些文件的人员的ID。

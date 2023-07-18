@@ -251,7 +251,7 @@ BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
 
 === 在政府区域部署时是否存在任何限制？
 
-如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类。以这种方式部署时、BlueXP分类具有以下限制：
+如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类、也称为"受限模式"。以这种方式部署时、BlueXP分类具有以下限制：
 
 * 无法扫描OneDrive帐户、SharePoint帐户和Google Drive帐户。
 * 无法集成Microsoft Azure信息保护(AIP)标签功能。
@@ -261,7 +261,7 @@ BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
 
 === 如果在无法访问Internet的站点上安装BlueXP分类、则可以扫描哪些数据源？
 
-BlueXP分类只能扫描内部站点本地数据源中的数据。此时、BlueXP分类可以扫描"非公开"站点中的以下本地数据源：
+BlueXP分类只能扫描内部站点本地数据源中的数据。此时、BlueXP分类可以在"专用模式"(也称为"非公开"站点)下扫描以下本地数据源：
 
 * 内部部署 ONTAP 系统
 * 数据库架构
@@ -360,7 +360,7 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 === 没有Internet访问的安全站点如何？
 
-是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["在无法访问Internet的内部Linux主机上部署Connector"^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。
+是的、这一点也受支持。您可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["在无法访问Internet的内部Linux主机上部署Connector"^]。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["这也称为"专用模式""^]。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。
 
 
 
