@@ -68,7 +68,7 @@
 +
 ** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
 +
-https://youtu.be/H1WS_-85pWA["观看此视频"] 有关在CentOS上安装Docker的快速演示。
+https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
 ** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 

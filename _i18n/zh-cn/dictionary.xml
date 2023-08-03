@@ -163,7 +163,6 @@
   <block id="80c4b6e3dfa1d4f33033585b7c74e7e9" category="list-text">登录到<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> 然后单击 * 系统 &gt; 软件许可证 * 。</block>
   <block id="5190e9ec018f5e661ec4b31ff1b34423" category="inline-image-macro">按序列号搜索后显示许可证表的屏幕截图。</block>
   <block id="d15379b9f839ac6523d1b06ad8763875" category="paragraph"><block ref="d15379b9f839ac6523d1b06ad8763875" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8e04bab9d0c0964365e3483da66e2f09" category="list-text">在 * 许可证密钥 * 下，单击 * 获取 NetApp 许可证文件 * 。</block>
   <block id="56273f3344c87fabbf5196fba9816fff" category="inline-image-macro">屏幕截图显示了获取许可证对话框，您可以在其中输入租户 ID ，然后单击提交下载许可证文件。</block>
   <block id="212f5a95c637538f9375d966345ca9f7" category="paragraph"><block ref="212f5a95c637538f9375d966345ca9f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">单击 * 添加许可证 * 。</block>
@@ -1291,8 +1290,6 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">接收用户反馈</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -1443,16 +1440,6 @@
   <block id="8b072c4e238b04c04c81cef3ed309703" category="list-text">在扫描配置页面中、单击暂停按钮以暂停卷的扫描、或者按恢复按钮以恢复对先前已暂停的卷的扫描。</block>
   <block id="bc9b17eea5246a704bb26be367a3b35f" category="inline-image-macro">显示如何暂停和恢复卷扫描的屏幕截图。</block>
   <block id="9b0105a4da00bc6036dcb389d0f65890" category="paragraph"><block ref="9b0105a4da00bc6036dcb389d0f65890" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d5b8d2f44acff1b98dd9992401eadf24" category="section-title">2022年7月6日(1.14版)</block>
-  <block id="45b5235b8c737e18e646514c30664517" category="section-title">现在、您可以查看有权访问目录的用户和组</block>
-  <block id="949b2765e1f54f21e0cad7eec542e087" category="inline-link">了解如何查看有权访问文件夹和文件共享的用户和组</block>
-  <block id="6a3dc819e6a301f028d6d27063bb3b04" category="section-title">您可以"暂停"扫描存储库、以暂时停止扫描某些内容</block>
-  <block id="1c32547b30cc36869742df049964326d" category="inline-link">请参见如何暂停和恢复扫描</block>
-  <block id="c249f6d964b8afde45218a63824a58eb" category="paragraph">Data sense可以识别和分类包含来自印第安纳、纽约和德克萨斯州的驾驶执照数据的文件。 <block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
-  <block id="a3096c7d9e0dca154e6250efb3ce3736" category="section-title">现在、策略将返回与搜索条件匹配的目录</block>
-  <block id="9fadb6e2508d92e954b40d39c36e9687" category="inline-link">了解有关创建策略的更多信息</block>
-  <block id="7d96313dbf4a19b7144c3ff41f415250" category="section-title">目前、数据感知一次最多可移动100、000个文件</block>
-  <block id="3e0c53bc3881ac60b7e7165fda5915c1" category="inline-link">请参见如何使用Data sense移动文件</block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">非NetApp CIFS文件共享(非NFS文件共享)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">德克萨斯驱动程序许可证</block>
   <block id="89b56b1e048dcf0ec285e29a05d6d029" category="paragraph">如果目标位置存在同名文件、则不会移动该文件。</block>
@@ -1559,7 +1546,6 @@
   <block id="78ed85a2b36b215d69761df3caf130df" category="cell">选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"应用程序"。</block>
   <block id="6195c7a1534de8abb0c4706e15d24a3c" category="sidebar">更改扫描设置</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
@@ -1567,7 +1553,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
@@ -1610,7 +1595,6 @@
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
@@ -1620,7 +1604,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">以下问题与BlueXP Connector相关。</block>
@@ -1643,7 +1626,6 @@
   <block id="0f6c00034bac6e049845fa36d40deb87" category="inline-image-macro">BlueXP右上角横幅的屏幕截图、您可以在其中选择设置图标。</block>
   <block id="ec24fbf33d16fbcbcd5109403b3ac212" category="paragraph"><block ref="ec24fbf33d16fbcbcd5109403b3ac212" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6193e62acb4a86204633b2d093e49546" category="list-text">单击BlueXP右下角的聊天图标以申请许可证。</block>
-  <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">输入您的BlueXP帐户ID (在支持站点上称为租户ID)、然后单击*提交*下载许可证文件。</block>
   <block id="257ff1df6b80ed0bf9b3463d53be79f9" category="paragraph">您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。</block>
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">将NSS帐户添加到BlueXP</block>
   <block id="15f4e537c6c3c2957b6e194cb0894a09" category="list-text">单击BlueXP右下角的聊天图标、请求延长您的期限或为特定序列号申请Cloud Data sense许可证的额外容量。您也可以发送电子邮件至： ng-contact-data-sense@netapp.com ？ Subject=Licensing[ 发送电子邮件以请求更新您的许可证 ] 。</block>
@@ -1830,7 +1812,6 @@
   <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">测试所有所需文件夹上的相关权限</block>
   <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">现在、在配置页面中、工作环境部分将显示_Working Environment ID_和_扫描 程序组_名称。如果您计划使用多个Data sense主机来提供额外的处理能力来扫描数据源、则需要了解工作环境ID。</block>
   <block id="73e22396c6474ab27832098f1351b823" category="inline-link">了解有关在一台主机服务器和多台主机上安装Data sense的更多信息</block>
-  <block id="13e915b0d4f4c5b06792671c4c55da56" category="section-title">Data sense可识别来自另外三种状态的美国驾驶证数据</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看对象存储前提条件</block>
@@ -2075,7 +2056,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自助支持选项</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在*资源*页面上、在技术支持下选择一个可用选项：</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">管理支持案例(预览)</block>
   <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">您可以直接从BlueXP查看和管理活动的和已解决的支持案例。您可以管理与您的NSS帐户和公司关联的案例。</block>
   <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">案例管理以预览形式提供。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
@@ -2086,10 +2066,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">您可以添加或删除感兴趣的列、也可以筛选优先级和状态等列的内容。其他列仅提供排序功能。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">有关更多详细信息、请查看以下步骤。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">在每个案例级别、我们可以更新案例备注或关闭尚未处于"已关闭"或"待关闭"状态的案例。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">单击*案例管理*、如果出现提示、请将您的NSS帐户添加到BlueXP。</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">"*案例管理*"页面显示了与您的BlueXP用户帐户关联的NSS帐户相关的已打开案例。此NSS帐户与* NSS管理*页面顶部显示的NSS帐户相同。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">也可以修改表中显示的信息：</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*组织的案例*下、单击*查看*以查看与您的公司关联的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">通过选择确切的日期范围或选择其他时间范围来修改日期范围。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理页面上表上方选项的屏幕截图、可用于选择确切的日期范围或过去7天、30天或3个月。</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">筛选列的内容。</block>
@@ -2098,7 +2076,6 @@
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">显示可在表中显示的列的屏幕截图。</block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">包含三个点的图标、显示在表的最后一列中</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*关闭案例*：提供关闭案例的详细信息、然后单击*关闭案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
   <block id="99d97930418935683e2b318283d0dfe1" category="section-title">上次访问时间时间戳</block>
   <block id="b2d4384c1deeeb5068a47d9c4f7fecae" category="paragraph">此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。</block>
@@ -2547,7 +2524,6 @@
   <block id="5bae938f4e490a5e1f1b65254d8e3ef5" category="paragraph">如果您没有BlueXP分类许可证、请联系我们购买一个：</block>
   <block id="4c7c3836e9f902c5159464ae2ebf8187" category="paragraph">您可以使用BlueXP中的BlueXP数字钱包页面管理BlueXP分类BYOL许可证。您可以添加新许可证并更新现有许可证。</block>
   <block id="656e076fbf2897c36a85dea0c00f2ddf" category="section-title">获取BlueXP分类许可证文件</block>
-  <block id="ca0f81e80599a08df323b438c6e77e1b" category="paragraph">购买BlueXP分类(Data Sense)许可证后、您可以在BlueXP中通过输入BlueXP分类序列号和NSS帐户或上传NLF许可证文件来激活许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。</block>
   <block id="eadd0c096097fd10d6470d5fc988867d" category="paragraph">如果您在无法访问Internet的内部站点中的主机上部署了BlueXP分类、则需要从连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。</block>
   <block id="91be63c0508d6a7954379847241750fe" category="list-text">输入BlueXP分类许可证序列号。</block>
   <block id="ab75085a52c32bc4b667115d2ca1861b" category="section-title">将BlueXP分类BYOL许可证添加到您的帐户</block>
@@ -3206,18 +3182,12 @@
   <block id="0aec8167e209c9b773de640809bb2ffe" category="paragraph">现在、"数据调查"页面将显示在您的目录(文件夹和共享)中找到的个人数据和敏感个人数据的结果。<block ref="838b4ac121a236248619da49a65d1710" category="inline-link-rx"></block>。</block>
   <block id="f1454006c2b84f6126900ebe59c31558" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="2a13251a6fe881bbd1315d595f667f8b" category="inline-link-rx"></block>。</block>
   <block id="b37b0bfc35cb447c84138ba82441ec4f" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="a38b2261878a3d41c0abfc69bd23b15e" category="inline-link-rx"></block>。</block>
-  <block id="54adf2468bc376e6a2826273aa432d26" category="paragraph">过去、您可以查看为单个文件授予的打开权限类型。现在、您可以查看有权访问目录(文件夹和文件共享)的所有用户或组的列表及其权限类型。<block ref="c924bafb5fe96f1f013565e3ebb31e47" category="inline-link-rx"></block>。</block>
-  <block id="3b572d9c05ed055da6459f3e2b6bea84" category="paragraph">暂停扫描意味着Data sense不会对卷或存储分段的任何添加或更改执行未来扫描、但系统中仍会显示所有当前结果。<block ref="fba52941eb2875e9ea6da4ed2fe28022" category="inline-link-rx"></block>。</block>
-  <block id="03b10003577e8d37f10edbb62ef2ee5c" category="paragraph">过去、在创建自定义策略时、结果会显示与搜索条件匹配的文件。现在、结果还会显示与查询匹配的目录(文件夹和文件共享)。<block ref="ccb93d8e566e1e038edf17d92ae50d0d" category="inline-link-rx"></block>。</block>
-  <block id="eaca269100e6cf0779ac7a4fcd678906" category="paragraph">如果您计划使用Data sense将文件从扫描的数据源移动到NFS共享、则最大文件数已增加到100、000个。<block ref="5a5ecc63e9c44abe629f0e448f245359" category="inline-link-rx"></block>。</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">您可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">通过单击更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">单击以管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bb928959b278e9a5a488494ff139d0d9" category="paragraph">如果您还没有 Connector ，<block ref="8635e4adecf532f5cc2442da36c54c5a" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。</block>
   <block id="7b80abc0703fcbc544c0ea34a81361df" category="paragraph">您还可以与云提供商一起创建Connector。请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
@@ -3289,9 +3259,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">有关以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">注册BlueXP帐户以获得NetApp支持</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">要注册支持并激活支持授权、BlueXP帐户中的一个用户必须将NetApp 支持站点 帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">单击*用户凭据*。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">要确认注册过程是否成功，请单击帮助图标，然后选择*Support*。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">“资源”页面应显示您的帐户已注册支持。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -3334,12 +3302,9 @@
 /var/lib/Docker上提供45 GiB
 /tmp上的5 GiB</block>
   <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">观看此视频</block>
-  <block id="404a8e21de3fe2bfdd2e77b81889e5cb" category="paragraph"><block ref="21e1c490f7e7bc90ffb6dabbc263e6f2" category="inline-link-rx"></block> 有关在CentOS上安装Docker的快速演示。</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。</block>
-  <block id="cf3d087ad95f213d839f606d398101ee" category="paragraph"><block ref="501f73c9c42bcec313b07a4d01108ec0" category="inline-link-rx"></block> 以了解如何安装BlueXP分类。</block>
   <block id="7273543485153af36bd67d8d37fe08b3" category="summary">您可以配置BlueXP分类、以便在访问或更改要扫描的文件之一时将事件记录到文件中。然后、您可以查看此日志文件(文件访问审核日志)的内容或下载此日志、以查看发生了哪些文件更改以及由谁进行的更改。</block>
   <block id="145ca78924109b125fb405dc2644ebba" category="paragraph">您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于<block ref="215c8ae39ab5aa2af1bf0d7956d6ac15" category="inline-link-rx"></block> 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。BlueXP分类大约每秒可处理来自ONTAP的990个事件。</block>
-  <block id="7a6df57d74a900c4b9e956add6358c97" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。<block ref="4ca4cc07e57f7afbeb1dff6c98bd6092" category="inline-link-rx"></block> 了解预检消息和含义。</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">如果不再需要使用BlueXP分类、则可以从云提供商环境中卸载和删除BlueXP分类实例。</block>
   <block id="7b608a074398a486bc744655598680ea" category="list-text">在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。</block>
   <block id="f10f83db534963d9efae7a297e100091" category="list-text">转到云提供商的控制台并删除BlueXP分类实例。此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_</block>
@@ -3415,4 +3380,54 @@
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">现在、在没有Internet访问(专用模式)和出站Internet访问受限(受限模式)的站点中、完全支持BlueXP分类。<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>。</block>
   <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">升级BlueXP分类的私有模式安装时可以跳过版本</block>
   <block id="241957d9f6c696915858d43476112454" category="paragraph">现在、您可以升级到较新版本的BlueXP分类、即使它不是按顺序进行的。这意味着不再需要一次升级一个版本的BlueXP分类的当前限制。从1.24版开始、此功能是相关的。</block>
+  <block id="15fc1f8a66b3adfefe2541e773678539" category="paragraph"><block ref="2ff31411f6cc987d8090218f1850091e" category="inline-link-rx"></block> 有关在CentOS上安装Docker的快速演示。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中、选择*帮助&gt;支持*。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人通话，请选择*呼叫我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择*创建案例*向NetApp支持专家开立TT：</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">要查看支持案例的历史记录，您可以选择*设置&gt;时间线*并查找名为“创建支持案例”的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">选择*案例管理*，如果出现提示，请将您的NSS帐户添加到BlueXP。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">在“*组织案例*”下，选择“*查看*”以查看与贵公司关联的所有案例。</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">通过选择更改表中显示的列 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然后选择要显示的列。</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">通过选择管理现有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 并选择一个可用选项：</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*关闭案例*：提供关闭案例的详细原因，然后选择*关闭案例*。</block>
+  <block id="7c85b55967124dd0c8b4e648a4555ba3" category="paragraph">购买BlueXP分类(Data Sense)许可证后、您可以在BlueXP中通过输入BlueXP分类序列号和NSS帐户或上传NLF许可证文件来激活许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。</block>
+  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">开始之前、您需要了解以下信息：</block>
+  <block id="9a0032efa4fb526fb96562269c928b44" category="list-text">BlueXP分类序列号</block>
+  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">从您的销售订单中找到此号码、或者联系客户团队了解此信息。</block>
+  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP帐户ID</block>
+  <block id="450f374ea7faf8a2818e9556a4ab9a8a" category="list-text">在*许可证密钥*列下，单击*获取NetApp许可证文件*。</block>
+  <block id="b543b3b4d3f21d79c2c8bf601ea5d45d" category="list-text">输入租户ID (BlueXP帐户ID)、然后单击*提交*以下载许可证文件。</block>
+  <block id="af8d3a18d6425ec49a99c09691466f39" category="summary">通过Web UI提供的BlueXP分类功能也可通过Swagger API获得。</block>
+  <block id="3e70aaa0489a8fa1d39b16943a3f0844" category="doc">BlueXP分类API</block>
+  <block id="8b2aa55ee7b70ec31ec11bb4537186f7" category="paragraph">BlueXP分类中定义了四个类别、它们对应于用户界面中的选项卡：</block>
+  <block id="5cbac16d406ddfc92080f39efa7437d8" category="list-text">调查</block>
+  <block id="9c0408c775a2b61052a2e700a89f396f" category="list-text">合规性</block>
+  <block id="5a935787d6f091fc760443ab4c491465" category="list-text">监管</block>
+  <block id="254f642527b45bc260048e30704edb39" category="list-text">Configuration</block>
+  <block id="eab49ad7138a34f5d13169cca28e4bea" category="paragraph">通过Swagger文档中的API、您可以搜索、聚合数据、跟踪扫描以及创建复制、移动等操作。</block>
+  <block id="0834282da4451153933b764b7c467961" category="paragraph">通过API、您可以执行以下功能：</block>
+  <block id="e9877434dd91b8be501cfda768f3d62d" category="list-text">导出信息</block>
+  <block id="9a69ba3b52dc90f668cf2dab5adcc31b" category="list-text">用户界面中提供的所有内容均可通过API导出(报告除外)</block>
+  <block id="0604d5a0ddef533e3d68308ba271ce3c" category="list-text">数据以JSON格式导出(易于解析并推送到第三方应用程序、如Splunk)</block>
+  <block id="78d5f8e107a8cbb07d42f849c3a75df8" category="list-text">使用"and"和"or"语句创建查询、包括和排除信息等。</block>
+  <block id="108bb92a1232380b4fb0f0145732e3d0" category="paragraph">例如、您可以查找files _without _ Specific Personal可识别信息(PII)(此功能在UI中不可用)。您还可以排除导出操作的特定字段。</block>
+  <block id="cff5f769d885300f77250bd96cd0eba3" category="list-text">执行操作</block>
+  <block id="7e5773dd5089c77c99fd8d8158864437" category="list-text">更新CIFS凭据</block>
+  <block id="8d4462bd75d514bcb1e0545bfb9272d9" category="list-text">查看和取消操作</block>
+  <block id="a3c128ab8674fa4b5e836c2d45315f6c" category="list-text">重新扫描目录</block>
+  <block id="a39ca37fb6314be500ea6c4e6028aad1" category="paragraph">此API非常安全、并且使用与用户界面相同的身份验证方法。有关身份验证的信息、请参见：<block ref="86100a8a51cdb9259081132b7d91c690" category="inline-link-rx"></block></block>
+  <block id="6bb2320a7f7d5e941653039f26a38ad9" category="section-title">访问Swagger API引用</block>
+  <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">要进入Swagger、您需要BlueXP分类实例的IP地址。对于云部署、您将使用公共IP地址。然后、您需要进入此端点：</block>
+  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
+  <block id="645d03e996949262e33f39d07370b668" category="paragraph"><block ref="e90064c25feae6986ca59b019f3b7da5" category="inline-link-rx"></block> 以了解如何安装BlueXP分类。</block>
+  <block id="2dfd5907ae1f7e0e308562b6add41f1d" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。<block ref="e374801a81d4dcec84b3740adf868110" category="inline-link-rx"></block> 了解预检消息和含义。</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角、选择设置图标、然后选择*凭据*。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭据*。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择帮助图标，然后选择*Support*。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">在BlueXP控制台的右上角、选择帮助图标、然后选择*支持*。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择* NSS管理&gt;添加NSS帐户*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">出现提示时、选择*继续*以重定向到Microsoft登录页面。</block>
+  <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP分类API现已推出</block>
+  <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">通过BlueXP分类API、您可以执行操作、创建查询以及导出有关正在扫描的数据的信息。可使用Swagger获取交互式文档。文档分为多个类别、包括调查、合规性、监管和配置。每个类别都是BlueXP分类UI中各个选项卡的参考。</block>
+  <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP分类视频</block>
 </blocks>

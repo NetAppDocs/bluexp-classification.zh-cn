@@ -97,19 +97,29 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(D
 
 如果您在无法访问Internet的内部站点中的主机上部署了BlueXP分类、则需要从连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
 
+.开始之前
+开始之前、您需要了解以下信息：
+
+* BlueXP分类序列号
++
+从您的销售订单中找到此号码、或者联系客户团队了解此信息。
+
+* BlueXP帐户ID
++
+您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。
+
+
+
 .步骤
 . 登录到 https://mysupport.netapp.com["NetApp 支持站点"^] 然后单击 * 系统 > 软件许可证 * 。
 . 输入BlueXP分类许可证序列号。
 +
 image:screenshot_cloud_tiering_license_step1.gif["按序列号搜索后显示许可证表的屏幕截图。"]
 
-. 在 * 许可证密钥 * 下，单击 * 获取 NetApp 许可证文件 * 。
-. 输入您的BlueXP帐户ID (在支持站点上称为租户ID)、然后单击*提交*下载许可证文件。
+. 在*许可证密钥*列下，单击*获取NetApp许可证文件*。
+. 输入租户ID (BlueXP帐户ID)、然后单击*提交*以下载许可证文件。
 +
 image:screenshot_cloud_tiering_license_step2.gif["屏幕截图显示了获取许可证对话框，您可以在其中输入租户 ID ，然后单击提交下载许可证文件。"]
-
-+
-您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。
 
 
 
