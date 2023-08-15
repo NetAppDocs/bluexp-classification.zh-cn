@@ -1294,15 +1294,11 @@
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
@@ -1420,7 +1416,6 @@
   <block id="b3478a494adde25715314b14559dd6a4" category="list-text">无法扫描OneDrive帐户、SharePoint帐户和Google Drive帐户。</block>
   <block id="d1f03114b8fef49b0f0cb0a28049ecdf" category="list-text">无法集成Microsoft Azure信息保护(AIP)标签功能。</block>
   <block id="d022b1f14ebf8b0b397ff02f8b6bfe78" category="section-title">在政府区域部署时是否存在任何限制？</block>
-  <block id="3f1d923e5a351dcc541f10e98f5da114" category="summary">您可以管理每个工作环境和数据源中正在扫描的数据。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
   <block id="e4723f182b426a80c2a46707ff02e15e" category="inline-link-macro">映射扫描或映射与映射；分类扫描</block>
   <block id="86cfaa233cd6203ca98aec701f702508" category="list-text">在配置选项卡中、单击工作环境对应的*配置*按钮。</block>
   <block id="c220e333c84311a5247ea56021c7f9af" category="inline-image-macro">显示如何在工作环境中单击配置按钮的屏幕截图。</block>
@@ -1428,7 +1423,6 @@
   <block id="d572e0d4b826c4aedc53e9ebf7b16a8f" category="list-text">在扫描配置页面中、您可以查看所有存储库的扫描设置。</block>
   <block id="dbb0dfda8b378050531f81450c4bc33e" category="section-title">更改存储库的扫描类型</block>
   <block id="80442a9b9f6c43539008be8521ce5283" category="paragraph">您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。</block>
-  <block id="e2fd7fccc8e37c687bd3d80bafb4e9fd" category="list-text">在扫描配置页面中、您可以更改任何存储库(本示例中的存储分段)以执行*映射*或*映射和分类*扫描、或者选择*关闭*以停止扫描特定存储分段。</block>
   <block id="d2c070afb22765e227addc428b9bb43d" category="inline-image-macro">显示如何为存储分段选择扫描类型的屏幕截图。</block>
   <block id="8d501a2dffff147be5f9997f70b34348" category="paragraph"><block ref="8d501a2dffff147be5f9997f70b34348" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a4bff1a8423db1d5e3d7178be9560749" category="paragraph">通过某些类型的工作环境、您可以使用页面顶部的按钮栏更改所有存储库的全局扫描类型。这适用于Cloud Volumes ONTAP 、内部ONTAP 、Azure NetApp Files 和适用于ONTAP 系统的Amazon FSX。</block>
@@ -1459,7 +1453,6 @@
   <block id="e947d88fc82f247e554cf80e35ff0831" category="list-text">在_move Files_对话框中、输入要移动所有选定文件的NFS共享的名称、格式为`&lt;host_name&gt;：/&lt;share_path&gt;`。</block>
   <block id="9bf85e569c6ef93411e4ce74471413a0" category="list-text">如果要保留痕迹文件、请选中_leave痕迹_框。您可以在对话框中输入文本、以指示文件的移动位置、移动文件的用户以及任何其他信息、例如文件移动的原因。</block>
   <block id="b91992584de04476d486c6819d26aaf3" category="list-text">单击*移动文件*。</block>
-  <block id="e023ca0db491fe9b0e7722609710e69b" category="doc">更改存储库的扫描设置</block>
   <block id="cc044854b72a7b1c98c22253b0aaedcd" category="section-title">查看存储库的扫描状态</block>
   <block id="bf3aeefcdd65b55f2612004f45b7257f" category="inline-image-macro">显示是否正在扫描存储分段以及当前扫描状态的屏幕截图。</block>
   <block id="69c5667893c99e5a388e892cc9784e66" category="paragraph"><block ref="69c5667893c99e5a388e892cc9784e66" category="inline-image-macro-rx" type="image"></block></block>
@@ -2807,7 +2800,6 @@
   <block id="94b91c8b97a54caa51b5a272c3ed5e69" category="inline-link">了解有关使用BlueXP分类移动源文件的更多信息</block>
   <block id="b862b7d304eea679b5f35e8257c465f6" category="list-text">现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果您输入包含和排除某些数据的路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除的路径中删除文件、最后显示结果。</block>
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="section-title">BlueXP分类可以标识日语个人编号</block>
-  <block id="f5055886b0ed4db432221d378f3730c1" category="paragraph">您可以更改的一些内容包括是否扫描存储库以及BlueXP分类是否正在执行 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
   <block id="06f4c04dbf4f6e1007102feb5e139b5f" category="paragraph">您可以查看BlueXP分类为每个工作环境和数据源扫描的各个存储库(卷、分段等)。此外、您还可以查看有多少已"映射"、有多少已"分类"。由于正在对所有数据执行完整的AI标识、因此分类需要较长时间。</block>
   <block id="e9ef05a76f2eb11216d8bcec1c8a1ee1" category="paragraph">BlueXP分类会持续扫描您的数据、以检测您添加的存储库中的增量更改。但是、系统扫描所有环境需要一些时间、并且无法控制所扫描的存储库的顺序。如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先扫描某些数据、而不是扫描其他数据。执行重新扫描操作后、选定存储库将恢复为按正常BlueXP分类计划进行扫描的状态。</block>
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP分类支持扫描除Amazon S3和数据库之外的所有数据源类型上的目录。目前、我们支持重新扫描单个目录(文件夹或共享)或多个目录。未来的支持包括重新扫描其他存储库类型(文件、数据库等)。</block>
@@ -3284,7 +3276,6 @@
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">三点</block>
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">您也可以通过单击在配置页面中为工作环境启用合规性扫描 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 按钮并选择*激活BlueXP分类*。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
-  <block id="967ed7b18cc2e131fa8fe860d4e4f18d" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。这与"关闭"扫描不同。关闭扫描后、系统将删除该卷的所有索引编制和相关信息、并停止为扫描数据而收费。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。暂停扫描不会停止为扫描数据充电、因为数据仍然存在。</block>
   <block id="218b1b5040dd27f37c3fab6adea21bff" category="paragraph">删除数据源后、为扫描数据而付费的操作将停止。</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机上安装BlueXP分类、也可以在云中的Linux主机上安装(如果使用的是1.23版安装程序)。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
   <block id="3e102feedd861186d57f6a85de9de541" category="paragraph">文件访问审核日志文件位于BlueXP分类计算机的以下位置：<block ref="86b82df39f08511f43d33216f4538d29" prefix=" " category="inline-code"></block></block>
@@ -3418,7 +3409,6 @@
   <block id="a39ca37fb6314be500ea6c4e6028aad1" category="paragraph">此API非常安全、并且使用与用户界面相同的身份验证方法。有关身份验证的信息、请参见：<block ref="86100a8a51cdb9259081132b7d91c690" category="inline-link-rx"></block></block>
   <block id="6bb2320a7f7d5e941653039f26a38ad9" category="section-title">访问Swagger API引用</block>
   <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">要进入Swagger、您需要BlueXP分类实例的IP地址。对于云部署、您将使用公共IP地址。然后、您需要进入此端点：</block>
-  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
   <block id="645d03e996949262e33f39d07370b668" category="paragraph"><block ref="e90064c25feae6986ca59b019f3b7da5" category="inline-link-rx"></block> 以了解如何安装BlueXP分类。</block>
   <block id="2dfd5907ae1f7e0e308562b6add41f1d" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。<block ref="e374801a81d4dcec84b3740adf868110" category="inline-link-rx"></block> 了解预检消息和含义。</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在BlueXP控制台的右上角、选择设置图标、然后选择*凭据*。</block>
@@ -3430,4 +3420,36 @@
   <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP分类API现已推出</block>
   <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">通过BlueXP分类API、您可以执行操作、创建查询以及导出有关正在扫描的数据的信息。可使用Swagger获取交互式文档。文档分为多个类别、包括调查、合规性、监管和配置。每个类别都是BlueXP分类UI中各个选项卡的参考。</block>
   <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP分类视频</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="b096d4ea7a8d51978fe48f490785e86a" category="list-text">删除、复制、标记用户并将其分配给数据</block>
+  <block id="c61b92a36eb48c5d3300779a62372cd3" category="list-text">克隆和复制文件</block>
+  <block id="49ef162b6621f970581074315940ec6c" category="paragraph">\https：//https：//documents/Documentation &lt;classification_ip&gt;</block>
+  <block id="b62dbbecd6533f9627427d34160e7d75" category="section-title">使用API的示例</block>
+  <block id="b7fd2e4068e2c6cc68317c7892c5290c" category="paragraph">以下示例显示了用于复制文件的API调用。</block>
+  <block id="7d9faab09c1d85e60360dfca30ab77cc" category="paragraph-title">API请求</block>
+  <block id="54b8a71f80c197c6f71c9b29df4f53a8" category="paragraph">您最初需要获取工作环境的所有相关字段和选项、才能查看调查选项卡中的所有筛选器。</block>
+  <block id="d64ed3e9c10229648e069f56e32f4c8e" category="listing-title">响应</block>
+  <block id="de47d5ffc03a894916b0d9b2eab236ab" category="paragraph">我们将在请求参数中使用该响应来筛选要复制的所需文件。</block>
+  <block id="dfd434a5421b4a63696b02416f668581" category="paragraph">您可以对多个项目应用操作。支持的操作类型包括：移动、删除、复制、分配到、FlexClone、 导出数据、重新扫描和标记。</block>
+  <block id="0ac331cece7c559ed07957dfa637e510" category="paragraph">我们将创建复制操作：</block>
+  <block id="8ad0c8a225121bfff89f847893f0d610" category="paragraph">下一个API是操作API、它允许您创建多个操作。</block>
+  <block id="87d1cd52d2ec66c4978b4d90f9069a04" category="paragraph">此响应将返回action对象、因此您可以使用GET和DELETE API获取有关此操作的状态或取消此操作。</block>
+  <block id="fda538fb93989725ef231d5f156d3ee9" category="summary">您可以管理在每个工作环境和数据源中扫描数据的方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
+  <block id="43ec96609274e10e69e4ef1f50473aba" category="doc">更改存储库的扫描设置</block>
+  <block id="926f6a4e85f1593fffa7270c143e3ddb" category="paragraph">您可以更改的一些内容包括是否扫描存储库以及BlueXP分类是否正在执行 <block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
+  <block id="5c7952df3d9c0233217acae5c6f1153d" category="list-text">在“扫描配置”页中，您可以更改任何存储库(在此示例中为分段)以执行*Map*或*Map &amp; Classify*扫描。</block>
+  <block id="fa11512af60e80dd5cda30d6a494a8cd" category="section-title">停止扫描存储库</block>
+  <block id="fbadcaa7267ae823837aff45d0dd7135" category="paragraph">如果不再需要监控存储库(例如卷)的合规性、则可以停止扫描该存储库。您可以通过关闭扫描来执行此操作。关闭扫描后、系统将删除该卷的所有索引编制和相关信息、并停止为扫描数据而收费。</block>
+  <block id="565a8976f79d6c76ecebff0fff08e98a" category="list-text">在“扫描配置”页面中，选择*off*停止扫描特定存储分段。</block>
+  <block id="935638dd063f7f7f75feaf9c1efed37e" category="paragraph"><block ref="935638dd063f7f7f75feaf9c1efed37e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="12b0af2e5ea89b04eb9606c50747a466" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。暂停扫描不会停止为扫描的数据充电、因为数据仍然存在。</block>
+  <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
+  <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
 </blocks>
