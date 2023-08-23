@@ -2462,7 +2462,6 @@
   <block id="84c1068a68e2f96982851954838c2d5b" category="list-text">如果已将AIP标签与BlueXP分类集成在一起、则可以为此文件分配一个标签、或者更改为其他标签(如果已存在)。请参见 <block ref="1d610d8b86b5e1441346aa765100c237" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。 <block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>。</block>
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP分类使用散列技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。</block>
-  <block id="fd1d98039043f82f0635dcf86849024a" category="paragraph">您可以将报告保存到本地计算机、作为.CSV文件(最多可包含5、000行数据)或导出到NFS共享的.json文件(最多可包含不限数量的行)。如果BlueXP分类是扫描文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)、则最多可以下载三个报告文件。</block>
   <block id="c67419f269df3afdc5c4ea77c6a74cef" category="paragraph">导出到文件共享时、请确保BlueXP分类具有正确的导出访问权限。</block>
   <block id="c3e3558057a47a586b2936491602503e" category="summary">通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。BlueXP Classification利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。</block>
   <block id="44b34442167c9611792529867ee76d90" category="doc">BlueXP分类文档</block>
@@ -3452,4 +3451,9 @@
   <block id="12b0af2e5ea89b04eb9606c50747a466" category="paragraph">如果要暂时停止扫描某些内容、可以"暂停"存储库上的扫描。暂停扫描意味着BlueXP分类不会在将来对存储库进行任何更改或添加的扫描、但所有当前结果仍会显示在系统中。暂停扫描不会停止为扫描的数据充电、因为数据仍然存在。</block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
+  <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">您可以将DFS (Distributed File System、分布式文件系统)共享添加为常规CIFS共享。但是、由于BlueXP分类不知道共享是基于多个服务器/卷构建的、并将其组合为一个CIFS共享、因此、如果此消息实际上仅显示适用场景位于其他服务器/卷上的其中一个文件夹/共享、则您可能会收到有关此共享的权限或连接错误。</block>
+  <block id="1cf7463413ea994be95c0189c2bb57a5" category="paragraph">您可以将报告保存为两种不同的格式：</block>
+  <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">作为.CSV文件传输到本地计算机；最多可包含5、000行数据。</block>
+  <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
+  <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
 </blocks>
