@@ -2823,7 +2823,6 @@
   <block id="976ad3f2a7f2faaf2e337cc8f2c2ff8d" category="list-text">确保您可以保持BlueXP分类运行。BlueXP分类实例需要持续扫描数据。</block>
   <block id="1b3e958cf9a7fe344e74aa95f30a09f3" category="list-text">确保Web浏览器连接到BlueXP分类。启用BlueXP分类后、确保用户从连接到BlueXP分类实例的主机访问BlueXP界面。</block>
   <block id="0886f35745ad179bc8c862cc1f35560d" category="paragraph">BlueXP分类实例使用专用IP地址来确保索引数据不可供其他人访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与BlueXP分类实例位于同一网络中的主机。</block>
-  <block id="357e290720f6835d0225e4c266e5fca5" category="cell">连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。</block>
   <block id="e47c11f521d98557641f18f4c041fad3" category="cell">BlueXP分类&lt;&gt; ONTAP 集群</block>
   <block id="40e4506c6bd794b594435aa3037f3a4e" category="paragraph">BlueXP分类需要与每个Cloud Volumes ONTAP 子网或内置ONTAP 系统建立网络连接。Cloud Volumes ONTAP 的安全组必须允许从BlueXP分类实例进行入站连接。</block>
   <block id="6000c544d001c3491f4169e31bbf0604" category="cell">BlueXP分类&lt;&gt; Active Directory</block>
@@ -3456,4 +3455,8 @@
   <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">作为.CSV文件传输到本地计算机；最多可包含5、000行数据。</block>
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
+  <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080 (TCP)、6000 (TCP)、443 (TCP)和80</block>
+  <block id="31bf187a1f6ba9a21c24893034392c45" category="cell">连接器的安全组必须允许通过端口6000和443传入和传出BlueXP分类实例的流量。
+
+确保端口8080已打开、以便您可以在BlueXP中查看安装进度。</block>
 </blocks>
