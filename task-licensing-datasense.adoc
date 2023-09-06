@@ -20,6 +20,7 @@ BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天�
 
 * 如果您已在云提供商的市场中订阅BlueXP按需购买(PAYGO)订阅、则您也会自动订阅BlueXP分类。您无需再次订阅。
 * BlueXP分类(Data Sense)自带许可证(BYOL)是一种_Float_许可证、可用于计划扫描的工作空间中的所有工作环境和数据源。您将在BlueXP电子钱包中看到有效订阅。
+* 扫描的数据量是根据逻辑文件大小计算的、不会产生任何存储效率。
 
 
 link:concept-cloud-compliance.html#cost["详细了解与BlueXP分类相关的许可和成本"]。

@@ -122,6 +122,13 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
+* 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
++
+** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+
+
 * *UNIX文件夹权限*：需要以下最低UNIX权限：
 +
 [cols="25,25"]
@@ -140,29 +147,32 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 | /user/lib/systemd/system | `rwxr-xr-x` 
 |===
-* 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
+* * 操作系统 * ：
 +
-** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
-** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
-** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+** 以下操作系统要求使用Docker容器引擎：
++
+*** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+*** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+*** 落基Linux 9 (需要BlueXP分类版本1.24或更高版本)
+*** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
-* *操作系统*：操作系统必须能够安装Docker引擎。
-+
-** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-** 落基Linux 9 (需要BlueXP分类版本1.24及更高版本)
-** Ubuntu 22.04 (需要BlueXP分类版本1.23及更高版本)
+
+
 
 
 * * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
 * *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
-** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+** 根据您使用的操作系统、您需要安装以下容器引擎之一：
++
+*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+
+
+** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
 * * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
@@ -186,7 +196,7 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-请注意、每当启用或更新时、都必须重新启动Docker `firewalld` 设置。
+请注意、每当启用或更新时、都必须重新启动Docker或Podman `firewalld` 设置。
 
 
 
@@ -311,7 +321,7 @@ https://youtu.be/rFpmekdbORc["观看此视频"^] 以了解如何安装BlueXP分�
 
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
-* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
+* 确认系统已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 如果您使用代理访问Internet：
 +
@@ -331,7 +341,7 @@ https://youtu.be/rFpmekdbORc["观看此视频"^] 以了解如何安装BlueXP分�
 +
 [source, cli]
 ----
-tar -xzf DATASENSE-INSTALLER-V1.22.0.tar.gz
+tar -xzf DATASENSE-INSTALLER-V1.25.0.tar.gz
 ----
 . 在BlueXP中、选择*监管>分类*。
 . 单击 * 激活数据感知 * 。
@@ -594,7 +604,7 @@ image:screenshot_scanner_groups.png["列出所有扫描程序组以及组中每�
 
 .您需要的内容
 * 验证管理器和扫描程序节点的所有 Linux 系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
-* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
+* 验证系统是否已安装两个必备软件包(Docker或Podman Engine和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 验证您的环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。

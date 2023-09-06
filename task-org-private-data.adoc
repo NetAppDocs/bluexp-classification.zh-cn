@@ -226,8 +226,9 @@ image:screenshot_compliance_tag_multi_files.png["显示如何从 \" 数据调查
 +
 ** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
 ** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
+** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
 +
-此时、您一次最多可以对20个文件应用标记-在数据调查结果页面上仅显示一页。
+一次最多可以对100、000个文件应用标记。
 
 
 

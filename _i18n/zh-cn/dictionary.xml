@@ -762,7 +762,6 @@
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">删除文件</block>
   <block id="05a9e2e2902a6ea5dacdfe3be87085eb" category="section-title">查看所有重复的文件</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">如果您需要列出在工作环境中复制的所有文件以及正在扫描的数据源，则可以在 " 数据调查 " 页面中使用名为 * 重复项 &gt; 具有重复项 * 的筛选器。</block>
-  <block id="d093b6ce815865a414da07677b4c868c" category="paragraph">结果页面将显示所有文件类型（不包括数据库）中的重复文件，最小大小为 50 MB 且 / 或包含个人或敏感个人信息。</block>
   <block id="7ae09bb031844e25b6bd333f8e364d99" category="section-title">查看特定文件是否重复</block>
   <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">如果要查看单个文件是否存在重复项，可以在数据调查结果窗格中单击 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 用于查看文件元数据的任何单个文件。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。</block>
   <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">要查看重复文件的列表及其所在位置，请单击 * 查看详细信息 * 。在下一页中，单击 * 查看重复项 * 以查看调查页面中的文件。</block>
@@ -929,7 +928,6 @@
   <block id="532b2291afa0585aed0b7f83e343086f" category="inline-xref">权限和连接</block>
   <block id="566ccf048003723333e9b10e7b0ffc81" category="section-title">准备 Linux 主机系统</block>
   <block id="117c0c98e2a5cb3503de68c655378d13" category="inline-link">查看安装说明</block>
-  <block id="c0ffa5845aefb5e4bb0fa6089bcc513d" category="list-text">Python 3 3.6 或更高版本。<block ref="f67fc9f0c7d8aa701884bad21356a242" category="inline-link-rx"></block>。</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">端点</block>
   <block id="261addf78c7b2c961032b3dd08ba0b1f" category="cell">目的</block>
   <block id="92aadc02d249003db0a3c659eb74f06b" category="inline-link-macro">请在此处查看这些步骤</block>
@@ -937,7 +935,6 @@
   <block id="49110f631362d4a9865d9c280368ebb1" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。 <block ref="31dc1b3eda8e489f4f5ca469c6f3d2e1" category="inline-link-macro-rx"></block>。</block>
   <block id="fadc42ee050a70884c159ab263e06542" category="section-title">典型配置的单主机安装</block>
   <block id="d709c500efa2b07b31dad2acb1fc7b92" category="list-text">验证您的 Linux 系统是否满足 <block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>。</block>
-  <block id="03d8c71f4932cca67122b714ef67000c" category="list-text">确认已安装两个必备软件包（ Docker 引擎和 Python 3 ）。</block>
   <block id="7e1fecc0c3cbd38b434a0a6232a69c06" category="list-text">确保您在 Linux 系统上具有 root 权限。</block>
   <block id="1eecc2fcccd4fcb3cadd8bec3044d3bb" category="list-text">解压缩主机上的安装程序包，例如：</block>
   <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">单击 * 激活数据感知 * 。</block>
@@ -1886,7 +1883,6 @@
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。</block>
   <block id="248b219562d5c677bea769543286aaf9" category="list-text">新西兰驾驶执照编号</block>
-  <block id="1a70f847ca98ead8008196451ddb3173" category="list-text">验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="dc398b6dfc944aa53fc80c488796fb93" category="list-text">验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">根据GDPR和CCPA等隐私法规的要求、隐私风险评估报告概述了贵组织的隐私风险状态。此报告包含以下信息：</block>
   <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">每个数据调查报告中包含的内容</block>
@@ -1958,7 +1954,6 @@
   <block id="a315a3a18e07665e5d98dc24a64a921f" category="paragraph">您可以使用*编辑类元*按钮更改已创建的任何自定义类元。</block>
   <block id="6c4af53d01a0fd2f4b9e2d860002e476" category="inline-image-macro">"Custom Classifiers (自定义类元)"页面的屏幕截图、其中包含用于编辑和删除类元的按钮。</block>
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="969665117064b959d3c660b43611f713" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">一次最多可以移动1、500万个文件。</block>
   <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">单击*部署*以启动云部署向导。</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023年2月5日(版本1.20)</block>
@@ -2447,7 +2442,6 @@
   <block id="264b044bf416a5337d28443921b46791" category="list-text">与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。</block>
   <block id="34c6b12ec99e0004de549a9d1fd9589c" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在三种系统大小中进行选择。</block>
   <block id="d5c832490c0ab9dcb105acd9ee7b4709" category="list-text">在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：</block>
-  <block id="f36c8c3dc40ab9521c9078ec5894a47c" category="list-text">*操作系统*：操作系统必须能够安装Docker引擎。</block>
   <block id="f2183b09e54e4aa491c008ea8ca08bbc" category="list-text">* Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。</block>
   <block id="7299a589db31a0bc8b28dedaafe896cd" category="list-text">*其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：</block>
   <block id="786452cdc534ba8395eb7a26c9ab3efc" category="summary">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。</block>
@@ -2909,7 +2903,6 @@
   <block id="e5cbd4e407b221a95e9bc8b3965978dd" category="paragraph">从较高层面来看、BlueXP分类的工作原理如下：</block>
   <block id="1483534eda512965970c7917b74698ae" category="list-text">您可以在BlueXP中部署BlueXP分类实例。</block>
   <block id="0392ab186be19d97094b4c522c8c8a61" category="list-text">BlueXP分类使用AI学习流程扫描数据。</block>
-  <block id="2a62deba2dc325bba21859a7763042d9" category="paragraph">启用BlueXP分类并选择要扫描的卷、存储分段、数据库架构或OneDrive或SharePoint用户数据后、它会立即开始扫描这些数据以确定个人数据和敏感数据。它会映射您的组织数据，对每个文件进行分类，并标识和提取数据中的实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。</block>
   <block id="8bb62f2d8bb562c2448b94ddd2767086" category="paragraph">BlueXP分类可通过挂载NFS和CIFS卷与任何其他客户端一样连接到数据。NFS 卷会自动以只读方式访问，而您需要提供 Active Directory 凭据来扫描 CIFS 卷。</block>
   <block id="328776a7300ef8a5bca61abea128357e" category="inline-image-macro">显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。BlueXP分类实例连接到NFS和CIFS卷、S3存储分段、OneDrive帐户和数据库以扫描它们。</block>
   <block id="e7e22a17fdc74eed26b429d4795f8f01" category="paragraph"><block ref="e7e22a17fdc74eed26b429d4795f8f01" category="inline-image-macro-rx" type="image"></block></block>
@@ -3308,8 +3301,6 @@
   <block id="958f4b7cbe550d6d49b31bbeff50f3a9" category="paragraph">如果您尚未在专用模式下安装BlueXP Connector、<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
   <block id="ebd8af30c2bd1f5614199bd389919de2" category="list-text">Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本</block>
   <block id="067032f0b3420d92b7bee458a84f9cb8" category="list-text">CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本</block>
-  <block id="171555066bf717df792509b1e762fc08" category="list-text">落基Linux 9 (需要BlueXP分类版本1.24及更高版本)</block>
-  <block id="941bcccad7d165ebd4c5d993e2643a0b" category="list-text">Ubuntu 22.04 (需要BlueXP分类版本1.23及更高版本)</block>
   <block id="5c2d28b4f3a99b0fe3968b98ea7d88e5" category="inline-link-macro">请单击此处查看更多详细信息</block>
   <block id="92b051108aff71c86d91cfa5338016b1" category="paragraph">请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>。 <block ref="d63cd9daf9e428da9929248a998d6b79" category="inline-link-macro-rx"></block>。</block>
   <block id="e441d0b06845e470533ecf90d990663b" category="list-text">将安装程序捆绑包复制到计划在专用模式下使用的Linux主机。</block>
@@ -3317,7 +3308,6 @@
   <block id="6d1c16ac15ccc187094a216f48771131" category="paragraph">如果BlueXP分类软件运行的版本早于1.24、则一次只能升级一个主要版本。例如、如果您安装了1.21.x版、则只能升级到1.22.x如果您有几个主要版本，则需要多次升级此软件。</block>
   <block id="6aeb4bc196ce15b33fc71ab2281bea05" category="inline-link-macro">了解如何从数据库中添加自定义个人数据标识符</block>
   <block id="d2a0b2ea5f0192d44b255b22ac07ac38" category="paragraph">请注意、在启用数据库扫描后、您可以根据数据库中的特定列添加BlueXP分类在所有数据源中标识的唯一标识符。这称为_Data Fusion _功能。 <block ref="27145dd16962daa6321a9c7c31532d09" category="inline-link-macro-rx"></block>。</block>
-  <block id="22aaaee7ed315da82bdc4e6c44ea217b" category="paragraph">此时、您一次最多可以对20个文件应用标记-在数据调查结果页面上仅显示一页。</block>
   <block id="f02bee48d510d4c39a70c57e295d5f38" category="summary">在扫描数据库架构时、BlueXP分类不提供某些特性和功能。</block>
   <block id="7aa098aa616e23b53a2f4243de4e4a07" category="doc">支持和不支持的数据库功能</block>
   <block id="f0061c0ade9d240d09f9bbadc2b27aa3" category="paragraph">在扫描数据库架构时、BlueXP分类不提供某些特性和功能。请参见以下列表。</block>
@@ -3451,7 +3441,6 @@
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
   <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">您可以将DFS (Distributed File System、分布式文件系统)共享添加为常规CIFS共享。但是、由于BlueXP分类不知道共享是基于多个服务器/卷构建的、并将其组合为一个CIFS共享、因此、如果此消息实际上仅显示适用场景位于其他服务器/卷上的其中一个文件夹/共享、则您可能会收到有关此共享的权限或连接错误。</block>
-  <block id="1cf7463413ea994be95c0189c2bb57a5" category="paragraph">您可以将报告保存为两种不同的格式：</block>
   <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">作为.CSV文件传输到本地计算机；最多可包含5、000行数据。</block>
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
@@ -3459,4 +3448,28 @@
   <block id="31bf187a1f6ba9a21c24893034392c45" category="cell">连接器的安全组必须允许通过端口6000和443传入和传出BlueXP分类实例的流量。
 
 确保端口8080已打开、以便您可以在BlueXP中查看安装进度。</block>
+  <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
+  <block id="3e91b710997d720d3e069e8c923eb206" category="list-text">以下操作系统要求使用Docker容器引擎：</block>
+  <block id="93dd08da8a4c0d472e885570798d74ab" category="list-text">落基Linux 9 (需要BlueXP分类版本1.24或更高版本)</block>
+  <block id="156e173d1de86766f5cb22a057c779e9" category="list-text">Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)</block>
+  <block id="2a2958e5280a05650587dc8d454a5f8d" category="list-text">根据您使用的操作系统、您需要安装以下容器引擎之一：</block>
+  <block id="42b04f3730744d602d0c4b812384dce9" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
+  <block id="1d7787fe4a7264402153a51d8513414f" category="list-text">Python 3.6或更高版本。<block ref="f67fc9f0c7d8aa701884bad21356a242" category="inline-link-rx"></block>。</block>
+  <block id="b3eca644efa08065eb8c4ac6103bb98b" category="list-text">确认系统已安装两个必备软件包(Docker引擎和Python 3)。</block>
+  <block id="b22f0c43f37aea47ed39cf9a0ab2a837" category="list-text">确认已安装两个必备软件包(Docker引擎和Python 3)。</block>
+  <block id="66f5e7d970f0cf4b79e5b61fd2dba7c1" category="list-text">扫描的数据量是根据逻辑文件大小计算的、不会产生任何存储效率。</block>
+  <block id="9977ca20c8bc19b052f79b784b9f28f8" category="paragraph">启用BlueXP分类并选择要扫描的存储库(即卷、存储分段、数据库架构或OneDrive或SharePoint用户数据)后、它会立即开始扫描数据以确定个人数据和敏感数据。在大多数情况下、您应重点扫描实时生产数据、而不是备份、镜像或灾难恢复站点。然后、BlueXP分类会映射您的组织数据、对每个文件进行分类、并在数据中标识和提取实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。</block>
+  <block id="ab7a4d49b4e814b44fcc2e4e34cdc29b" category="paragraph">请注意、每当启用或更新时、都必须重新启动Docker或Podman<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 设置。</block>
+  <block id="0cc4457720b5fe0dd1b8dc6667280ebb" category="list-text">验证系统是否已安装两个必备软件包(Docker或Podman Engine和Python 3)。</block>
+  <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">系统会比较所有大小为1 MB或更大且包含个人或敏感个人信息的文件(不包括数据库)、以查看是否存在重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小范围的文件的重复项。</block>
+  <block id="285a3049428c6b155fde44a18621f551" category="paragraph">所有复制的文件都会显示在结果页面中。</block>
+  <block id="d4c414c875c5535df32b9c04f15b398d" category="paragraph">您可以使用两种不同的格式保存报告：</block>
+  <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9月5日(版本1.25)</block>
+  <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">在"调查结果"页面中对多达100、000个商品应用标记</block>
+  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">了解如何操作</block>
+  <block id="6d37cd3f2b76637efa533f6623bf7ceb" category="paragraph">过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。 <block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
+  <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">确定文件大小至少为1 MB的重复文件</block>
+  <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP分类、用于仅在文件大于或等于50 MB时识别重复文件。现在、可以识别从1 MB开始的重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小的文件的重复项。</block>
+  <block id="a0b0397888c391cefadbe3fa028a49bc" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="6d073c59586864da957e4fe8e0338e10" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
+  <block id="b28003dc3eea16791b3379012ffb1993" category="paragraph">一次最多可以对100、000个文件应用标记。</block>
 </blocks>

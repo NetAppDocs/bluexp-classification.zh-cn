@@ -77,6 +77,13 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 请注意、使用这些较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
 
+* 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
++
+** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+
+
 * *UNIX文件夹权限*：需要以下最低UNIX权限：
 +
 [cols="25,25"]
@@ -95,29 +102,32 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 | /user/lib/systemd/system | `rwxr-xr-x` 
 |===
-* 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
+* * 操作系统 * ：
 +
-** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
-** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
-** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+** 以下操作系统要求使用Docker容器引擎：
++
+*** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+*** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+*** 落基Linux 9 (需要BlueXP分类版本1.24或更高版本)
+*** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
-* *操作系统*：操作系统必须能够安装Docker引擎。
-+
-** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-** 落基Linux 9 (需要BlueXP分类版本1.24及更高版本)
-** Ubuntu 22.04 (需要BlueXP分类版本1.23及更高版本)
+
+
 
 
 * * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
 * *其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：
 +
-** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+** 根据您使用的操作系统、您需要安装以下容器引擎之一：
++
+*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-** Python 3 3.6 或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+
+
+** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
 * * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
@@ -206,7 +216,7 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<验证主机要求,主机要求>>。
-* 验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。
+* 确认系统已安装两个必备软件包(Docker引擎和Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 
 
@@ -217,13 +227,13 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 +
 [source, cli]
 ----
-chmod +x standalone-pre-requisite-tester-v1.21.0
+chmod +x standalone-pre-requisite-tester-v1.25.0
 ----
 . 使用以下命令运行此脚本。
 +
 [source, cli]
 ----
- ./standalone-pre-requisite-tester-v1.21.0 <--darksite>
+ ./standalone-pre-requisite-tester-v1.25.0 <--darksite>
 ----
 +
 只有在无法访问Internet的主机上运行脚本时、才添加选项"-d暗 站点"。如果主机未连接到Internet、则会跳过某些前提条件测试。
