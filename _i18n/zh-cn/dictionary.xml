@@ -568,7 +568,6 @@
   <block id="f761b4a4393e1a53850ec9f4dd420f50" category="paragraph"><block ref="f761b4a4393e1a53850ec9f4dd420f50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11dfa7f8030ea34c4933fff6eaa19333" category="list-text">单击 * 为此文件分配标签 * ，然后选择此标签。</block>
   <block id="5108557521189397e1f9be01f92633b0" category="paragraph">此标签将显示在文件元数据中。</block>
-  <block id="398b53642810a3ebb827ca64a7e031fe" category="paragraph">为多个文件分配 AIP 标签：</block>
   <block id="f26e9a93fd90f2481bfff0f8c4517da6" category="list-text">在数据调查结果窗格中，选择要标记的一个或多个文件。</block>
   <block id="4547ea9eb340b9b3af947472b935464f" category="inline-image-macro">显示如何从 " 数据调查 " 页面选择要标记的文件的屏幕截图以及 " 标签 " 按钮。</block>
   <block id="82f4c85e0490488ae85ec5e3e8910f40" category="paragraph"><block ref="82f4c85e0490488ae85ec5e3e8910f40" category="inline-image-macro-rx" type="image"></block></block>
@@ -634,12 +633,10 @@
   <block id="c920fb7990e3c619785581c1ca57a2e6" category="section-title">分配用户以管理某些文件</block>
   <block id="640ddcfcbdd6fd24058616dfd813d30c" category="paragraph">例如，您的文件可能包含某些个人数据，这些数据允许过多的用户进行读写访问（打开权限）。因此，您可以将状态标记 " 更改权限 " 并将此文件分配给用户 "Joan Smith" ，以便用户确定如何修复问题描述。修复问题描述后，他们可以将状态标记更改为 " 已完成 " 。</block>
   <block id="931074f4d66344e7b9658958b6d87907" category="paragraph">通过 " 调查 " 页面中的新筛选器，您可以轻松查看 " 已分配给 " 字段中具有相同人员的所有文件。</block>
-  <block id="6f4326437137a604ca129e07fbf28447" category="paragraph">要将用户分配给单个文件，请执行以下操作：</block>
   <block id="a86a8c5ea91657b179c7c6639a2c33e7" category="list-text">单击 * 已分配给 * 字段并选择用户名。</block>
   <block id="a80ae116cfcf2ab82dcddbfc170be5b7" category="inline-image-macro">显示如何在 " 数据调查 " 页面中为文件分配用户的屏幕截图。</block>
   <block id="412f0fb9ebd6475572b807f651180d22" category="paragraph"><block ref="412f0fb9ebd6475572b807f651180d22" category="inline-image-macro-rx" type="image"></block></block>
   <block id="608c20f332a7cdf1c8b13907f1cc490c" category="paragraph">用户名显示在文件元数据中。</block>
-  <block id="8533d80dc327c1f01f502cb153b295dd" category="paragraph">要将用户分配给多个文件，请执行以下操作：</block>
   <block id="9d03854319e73cc41bd352adb5eb647e" category="list-text">在数据调查结果窗格中，选择要分配给用户的一个或多个文件。</block>
   <block id="ca614decc202c0a06868e70380a540ca" category="inline-image-macro">显示如何从数据调查页面选择要分配给用户的文件的屏幕截图以及分配给按钮。</block>
   <block id="5771f928056682d86e2c8ac3c8a3ba87" category="paragraph"><block ref="5771f928056682d86e2c8ac3c8a3ba87" category="inline-image-macro-rx" type="image"></block></block>
@@ -3472,4 +3469,8 @@
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP分类、用于仅在文件大于或等于50 MB时识别重复文件。现在、可以识别从1 MB开始的重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小的文件的重复项。</block>
   <block id="a0b0397888c391cefadbe3fa028a49bc" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="6d073c59586864da957e4fe8e0338e10" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
   <block id="b28003dc3eea16791b3379012ffb1993" category="paragraph">一次最多可以对100、000个文件应用标记。</block>
+  <block id="8b6c126d65d4a1501ecb5e4a7f296fa9" category="paragraph"><block ref="78a1f63a475eced077a3b4ccbdcfca4e" category="inline-link-rx"></block> 了解如何运行前提条件脚本并解读结果。</block>
+  <block id="6558368ee6073deea643cc8c934764fc" category="paragraph">按照以下步骤为多个文件分配AIP标签。请注意、一次最多可以为20个文件分配AIP标签(UI中的一页)。</block>
+  <block id="734926fafb1271c111d9404b81a2a40f" category="paragraph">按照以下步骤将用户分配给单个文件。</block>
+  <block id="7cb00932323e74919350bd2ce54bb9db" category="paragraph">按照以下步骤将用户分配给多个文件。请注意、一次最多可以为一个用户分配20个文件(UI中的一个页面)。</block>
 </blocks>
