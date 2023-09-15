@@ -108,7 +108,6 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 *** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
 *** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-*** 落基Linux 9 (需要BlueXP分类版本1.24或更高版本)
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 

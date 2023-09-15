@@ -2208,8 +2208,6 @@
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link-macro">请参见可用的实例类型和限制</block>
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">在AWS中部署</block>
   <block id="2cf7dbc159875140b6f5ecc68994fa13" category="list-text">在_Installation_page中、单击*部署&gt;部署*以使用"大型"实例大小并启动云部署向导。</block>
-  <block id="479b6b65ac792693f50797fe579cc223" category="paragraph">如果您没有大量要扫描的数据、也可以单击*部署&gt;配置*从两种较小的实例类型中进行选择。使用较小的实例时、这可以节省一些云成本。"中"资源大小如下所示。</block>
-  <block id="71cdc5961cdeced45790d6b0eddda4af" category="paragraph">然后单击*部署*以启动云部署向导。</block>
   <block id="125c9895b0de4086b75bd6de17240096" category="list-text">向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。</block>
   <block id="699be6723175322ef727a933c7b42bbd" category="open-title">在Azure中部署</block>
   <block id="12714d8579e39a7357fefed194511b8a" category="open-title">在Google Cloud中部署</block>
@@ -2566,9 +2564,6 @@
   <block id="d33aba60d91a201fe7b4bce522f9deb7" category="inline-image-macro">选择按钮以激活BlueXP分类的屏幕截图。</block>
   <block id="c48b9bad2a3a25d6dad223ab11c5a33e" category="paragraph"><block ref="c48b9bad2a3a25d6dad223ab11c5a33e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="473b6ff5a1c62a3a028f4dc37b9cbd6c" category="inline-image-macro">选择用于在云中部署BlueXP分类的按钮的屏幕截图。</block>
-  <block id="3da6cac2700be9c7ac98eca813973ea5" category="paragraph"><block ref="3da6cac2700be9c7ac98eca813973ea5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac4153eee3b95ba06c1d210eaf07d1a5" category="inline-image-macro">用于选择要部署BlueXP分类的实例大小的部署页面的屏幕截图。</block>
-  <block id="eaa6152e0a0616ae6e971e06d3710c49" category="paragraph"><block ref="eaa6152e0a0616ae6e971e06d3710c49" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6ccd3462f51e144ba54924a76ff58ce8" category="inline-image-macro">用于部署新实例的BlueXP分类向导的屏幕截图。</block>
   <block id="f7b6e8ebd5557b7030e15d04046f60e7" category="paragraph"><block ref="f7b6e8ebd5557b7030e15d04046f60e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdfca0a21ad4ec182fb0ff0fe7b8bc6b" category="list-text">部署实例并安装BlueXP分类后，单击*继续配置*转到_Configuration_页面。</block>
@@ -3348,9 +3343,6 @@
   <block id="26d411dfdee47762b69f79244d61895e" category="paragraph">是的、这一点也受支持。您可以<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>。<block ref="93d53de7d74c2549b2ebf074270b753f" category="inline-link-rx"></block>。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。</block>
   <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023年7月17日(版本1.24)</block>
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">两种新类型的德国个人数据通过BlueXP分类来识别</block>
-  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">现在、落基Linux 9是一个受支持的Linux分发版、您可以在其中安装BlueXP分类</block>
-  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">了解如何在安装了Rocky Linux的主机上安装BlueXP分类</block>
-  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">对于BlueXP分类、落基Linux 9 (9.0、9.1和9.2)已被认定为受支持的操作系统。您可以在网络中的Rocky Linux主机上安装BlueXP分类、如果使用1.24版安装程序、也可以在云中的Linux主机上安装BlueXP分类。<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>。</block>
   <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">在受限模式和专用模式下完全支持BlueXP分类</block>
   <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">详细了解连接器的BlueXP部署模式</block>
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">现在、在没有Internet访问(专用模式)和出站Internet访问受限(受限模式)的站点中、完全支持BlueXP分类。<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>。</block>
@@ -3447,7 +3439,6 @@
 确保端口8080已打开、以便您可以在BlueXP中查看安装进度。</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
   <block id="3e91b710997d720d3e069e8c923eb206" category="list-text">以下操作系统要求使用Docker容器引擎：</block>
-  <block id="93dd08da8a4c0d472e885570798d74ab" category="list-text">落基Linux 9 (需要BlueXP分类版本1.24或更高版本)</block>
   <block id="156e173d1de86766f5cb22a057c779e9" category="list-text">Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)</block>
   <block id="2a2958e5280a05650587dc8d454a5f8d" category="list-text">根据您使用的操作系统、您需要安装以下容器引擎之一：</block>
   <block id="42b04f3730744d602d0c4b812384dce9" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
@@ -3464,7 +3455,6 @@
   <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9月5日(版本1.25)</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">在"调查结果"页面中对多达100、000个商品应用标记</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">了解如何操作</block>
-  <block id="6d37cd3f2b76637efa533f6623bf7ceb" category="paragraph">过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。 <block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">确定文件大小至少为1 MB的重复文件</block>
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP分类、用于仅在文件大于或等于50 MB时识别重复文件。现在、可以识别从1 MB开始的重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小的文件的重复项。</block>
   <block id="a0b0397888c391cefadbe3fa028a49bc" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="6d073c59586864da957e4fe8e0338e10" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
@@ -3473,4 +3463,7 @@
   <block id="6558368ee6073deea643cc8c934764fc" category="paragraph">按照以下步骤为多个文件分配AIP标签。请注意、一次最多可以为20个文件分配AIP标签(UI中的一页)。</block>
   <block id="734926fafb1271c111d9404b81a2a40f" category="paragraph">按照以下步骤将用户分配给单个文件。</block>
   <block id="7cb00932323e74919350bd2ce54bb9db" category="paragraph">按照以下步骤将用户分配给多个文件。请注意、一次最多可以为一个用户分配20个文件(UI中的一个页面)。</block>
+  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">中小型部署暂时不可用</block>
+  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">在AWS中部署BlueXP分类实例时、选择*部署&gt;配置*并选择小型或中型实例的选项目前不可用。您仍然可以通过选择*Deploy &gt; DEPLE*来使用较大实例大小来部署实例。</block>
+  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
 </blocks>

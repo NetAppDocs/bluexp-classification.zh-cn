@@ -204,19 +204,7 @@ BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访�
 image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
 . 单击 * 激活数据感知 * 。
-+
-image:screenshot_cloud_compliance_deploy_cloud_aws.png["选择用于在云中部署BlueXP分类的按钮的屏幕截图。"]
-
 . 在_Installation_page中、单击*部署>部署*以使用"大型"实例大小并启动云部署向导。
-+
-如果您没有大量要扫描的数据、也可以单击*部署>配置*从两种较小的实例类型中进行选择。使用较小的实例时、这可以节省一些云成本。"中"资源大小如下所示。
-
-+
-然后单击*部署*以启动云部署向导。
-
-+
-image:screenshot_cloud_deploy_resource_size.png["用于选择要部署BlueXP分类的实例大小的部署页面的屏幕截图。"]
-
 . 向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。
 +
 image:screenshot_cloud_compliance_wizard_start.png["用于部署新实例的BlueXP分类向导的屏幕截图。"]
