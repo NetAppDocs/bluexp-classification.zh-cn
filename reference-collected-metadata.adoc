@@ -37,7 +37,7 @@ BlueXP分类在对数据源和工作环境中的数据执行分类扫描时会�
 |===
 [NOTE]
 ====
-* BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。
+* BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3以及数据库。
 * 默认情况下、较旧版本的Windows操作系统(例如Windows 7和Windows 8)会禁用"上次访问时间"属性的收集、因为它会影响系统性能。如果未收集此属性、则基于"上次访问时间"的BlueXP分类分析将受到影响。如果需要、您可以在这些旧版Windows系统上启用上次访问时间收集。
 
 

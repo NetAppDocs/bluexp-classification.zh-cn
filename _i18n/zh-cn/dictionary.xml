@@ -1392,7 +1392,6 @@
   <block id="c02ceb243337f566ebb5a2984a4d72eb" category="list-text">对于copy—源和目标</block>
   <block id="e701a25b99aca57280ba389dd0e551c6" category="paragraph">例如、日志文件中的以下行显示复制操作成功、复制操作失败。</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">从 " 调查结果 " 窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。</block>
-  <block id="a5129dfbdf0dc4588d520f42de3004dd" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。</block>
   <block id="038235769c3322b247e85f9bc8d7b5da" category="list-text">选择要下载.CSV报告还是.JSON数据报告、然后单击*下载报告*。</block>
   <block id="02b8107c002e6577adbfdfd6d6f1b208" category="inline-image-macro">包含多个选项的Download调查报告页面的屏幕截图。</block>
   <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
@@ -1430,7 +1429,6 @@
   <block id="9b0105a4da00bc6036dcb389d0f65890" category="paragraph"><block ref="9b0105a4da00bc6036dcb389d0f65890" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfb9b838b2fdca41edadb04c9ebbb240" category="list-text">非NetApp CIFS文件共享(非NFS文件共享)</block>
   <block id="9816532bdb11b99d3175be528e41c5b6" category="cell">德克萨斯驱动程序许可证</block>
-  <block id="89b56b1e048dcf0ec285e29a05d6d029" category="paragraph">如果目标位置存在同名文件、则不会移动该文件。</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">您可以创建自己的自定义策略，为特定于您的组织的搜索提供结果。系统将返回与搜索条件匹配的所有文件和目录(共享和文件夹)的结果。</block>
   <block id="5587c065d5a62295455b157389cd71e5" category="paragraph">请注意、根据策略结果删除数据和分配AIP标签的操作仅对文件有效。不能自动删除符合搜索条件的目录或为其分配AIP标签。</block>
   <block id="90915c385560094095567649cbd732aa" category="section-title">查看文件和目录的权限</block>
@@ -2424,7 +2422,6 @@
   <block id="342b7ce218ad37eb58175d677e743a1d" category="paragraph">BlueXP副本和同步UI将在BlueXP中打开。</block>
   <block id="8ed3cff1bce3680cbecb3718361328e0" category="paragraph">系统将提示您定义同步关系。源系统会根据您在BlueXP分类中选择的存储库和文件进行预先填充。</block>
   <block id="599b3adc06ff60709e02c3d42a15c442" category="paragraph">请注意、从BlueXP分类调用BlueXP时、某些常见的BlueXP复制和同步操作会被禁用：</block>
-  <block id="0507a26254d90555779319aac2a586a6" category="paragraph">您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成(请参见 <block ref="29fc238c82f37afa6e56193b0cf6f5eb" category="inline-link-macro-rx"></block>）。</block>
   <block id="687c2785d0e6bcc55e7d411f98257c26" category="list-text">要移动文件、需要NFS共享允许从BlueXP分类实例IP地址进行访问。</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。</block>
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">将对象存储服务添加到BlueXP分类。</block>
@@ -3175,7 +3172,6 @@
   <block id="c843b01ef48f3bd79d5d3521fbfa6125" category="cell">上次修改时间_</block>
   <block id="e9349d6c7fc3f860e75fd091e850b861" category="cell">_Open permissions _</block>
   <block id="44f76dcd3cb66939e2cbdab782c8314f" category="cell">_USERS/GROUP access_</block>
-  <block id="770ad37e7b6dccf816f59000b32376eb" category="list-text">BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。</block>
   <block id="846ac2b072f7b636a6e9eec4c3e71fe1" category="list-text">默认情况下、较旧版本的Windows操作系统(例如Windows 7和Windows 8)会禁用"上次访问时间"属性的收集、因为它会影响系统性能。如果未收集此属性、则基于"上次访问时间"的BlueXP分类分析将受到影响。如果需要、您可以在这些旧版Windows系统上启用上次访问时间收集。</block>
   <block id="e636b4a892ea62f67be639b3661d6897" category="list-text">默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。生成的页面包含一个您可以启用的设置、以便BlueXP分类将扫描卷、而不管权限如何。</block>
   <block id="dbc6be69ce4e1e10bc890167fa46f18b" category="inline-link-macro">请参见有关此BlueXP分类限制的更多详细信息</block>
@@ -3466,4 +3462,8 @@
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">中小型部署暂时不可用</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">在AWS中部署BlueXP分类实例时、选择*部署&gt;配置*并选择小型或中型实例的选项目前不可用。您仍然可以通过选择*Deploy &gt; DEPLE*来使用较大实例大小来部署实例。</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
+  <block id="b76d53d86b234eb61cbe1f1f8dd81414" category="paragraph">您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成。</block>
+  <block id="125161c62eedd013601db45d9716edf6" category="paragraph">请注意、移动文件时、源文件中的子目录结构会在目标共享上重新创建、以便于了解文件的移动位置。如果目标位置存在同名文件、则不会移动该文件。</block>
+  <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。请注意、移动单个文件等快速完成的短操作不会显示在操作状态窗格中。</block>
+  <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3以及数据库。</block>
 </blocks>
