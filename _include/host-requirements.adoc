@@ -64,6 +64,17 @@
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
+** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.26或更高版本：
++
+*** Red Hat Enterprise Linux 9.0、9.1和9.2版
++
+请注意、使用RHEL 9.x时、当前不支持以下功能：
+
++
+**** 在非公开站点安装
+**** 分布式扫描；使用主扫描程序节点和远程扫描程序节点
+
+
 
 
 
@@ -77,6 +88,7 @@
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
+*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install podman -y`）。
 
 
 ** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。

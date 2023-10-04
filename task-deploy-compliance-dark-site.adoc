@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification 
 summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"专用模式")中的Linux主机上安装BlueXP分类。此类安装非常适合您的安全站点。' 
 ---
 = 在无法访问Internet的主机上安装BlueXP分类
@@ -150,6 +150,17 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
+** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.26或更高版本：
++
+*** Red Hat Enterprise Linux 9.0、9.1和9.2版
++
+请注意、使用RHEL 9.x时、当前不支持以下功能：
+
++
+**** 在非公开站点安装
+**** 分布式扫描；使用主扫描程序节点和远程扫描程序节点
+
+
 
 
 
@@ -163,6 +174,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
+*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install podman -y`）。
 
 
 ** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
@@ -179,7 +191,7 @@ firewall-cmd --permanent --add-port=443/tcp
 firewall-cmd --reload
 ....
 +
-请注意、每当启用或更新时、都必须重新启动Docker `firewalld` 设置。
+请注意、每当启用或更新时、都必须重新启动Docker或Podman `firewalld` 设置。
 
 
 
@@ -279,7 +291,7 @@ image:diagram_deploy_onprem_multi_host_no_internet.png["一个图表、显示在
 
 .您需要的内容
 * 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
-* 确认已安装两个必备软件包(Docker引擎和Python 3)。
+* 确认已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 验证脱机环境是否满足要求 <<验证BlueXP和BlueXP分类前提条件,权限和连接>>。
 
@@ -364,7 +376,7 @@ BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类�
 
 .您需要的内容
 * 验证管理器和扫描程序节点的所有 Linux 系统是否都符合 <<准备 Linux 主机系统,主机要求>>。
-* 确认已安装两个必备软件包(Docker引擎和Python 3)。
+* 确认已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 验证脱机环境是否满足要求 <<验证BlueXP和BlueXP分类前提条件,权限和连接>>。
 * 您必须具有计划使用的扫描程序节点主机的 IP 地址。

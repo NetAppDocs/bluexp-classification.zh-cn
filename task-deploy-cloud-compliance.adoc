@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-cloud-compliance.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, bluexp classification 
 summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueXP Connector相同的云提供商网络中部署BlueXP分类实例。 
 ---
 = 使用BlueXP在云中部署BlueXP分类

@@ -217,8 +217,9 @@ TIP: 您无法移动驻留在数据库中的文件。
 .要求
 * 要移动文件，您必须具有帐户管理员或工作空间管理员角色。
 * 源文件可以位于以下数据源中：内部ONTAP 、Cloud Volumes ONTAP 、Azure NetApp Files 、文件共享和SharePoint Online。
-* 要移动文件、需要NFS共享允许从BlueXP分类实例IP地址进行访问。
 * 一次最多可以移动1、500万个文件。
+* 仅移动小于或等于50 MB的文件。
+* 目标NFS共享必须允许从BlueXP分类实例IP地址进行访问。
 
 
 .步骤

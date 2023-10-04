@@ -1630,7 +1630,6 @@
   <block id="acdc619c23bd4363ccec733a2e8a38ae" category="list-text">您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 <block ref="aae7319c920bbcb541f7fa3a1a1db120" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint内部部署帐户(SharePoint Server)</block>
   <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">从BlueXP菜单中、单击*监管&gt;分类*。</block>
   <block id="4bb7a83842b1271682b6be62080707cb" category="list-text">SharePoint Online和内部部署帐户</block>
@@ -1878,7 +1877,6 @@
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。</block>
   <block id="248b219562d5c677bea769543286aaf9" category="list-text">新西兰驾驶执照编号</block>
-  <block id="dc398b6dfc944aa53fc80c488796fb93" category="list-text">验证系统是否已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">根据GDPR和CCPA等隐私法规的要求、隐私风险评估报告概述了贵组织的隐私风险状态。此报告包含以下信息：</block>
   <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">每个数据调查报告中包含的内容</block>
   <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。</block>
@@ -1913,7 +1911,6 @@
   <block id="21e0d61d9e797a17767287de32bd7bef" category="list-text">HR—运行状况类别</block>
   <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">"更多"按钮</block>
   <block id="9098e762df6423155c77747444ce3402" category="list-text">按照中的步骤 1 至 8 进行操作 <block ref="6197de1d9d65c234b52f370ea2ee31e4" category="inline-link-macro-rx"></block> 在管理器节点上。</block>
-  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支持云提供商解决方案</block>
   <block id="0b95409e38fd76ec71d03e3e14b83763" category="paragraph">所有语言均支持所有这些添加自定义扫描条件的机制。</block>
   <block id="e1a196cfa9a98106e5ba102887a0c95d" category="paragraph">表中列出了可识别这些项目的语言。</block>
   <block id="ad225f707802ba118c22987186dd38e8" category="cell">法语</block>
@@ -2422,7 +2419,6 @@
   <block id="342b7ce218ad37eb58175d677e743a1d" category="paragraph">BlueXP副本和同步UI将在BlueXP中打开。</block>
   <block id="8ed3cff1bce3680cbecb3718361328e0" category="paragraph">系统将提示您定义同步关系。源系统会根据您在BlueXP分类中选择的存储库和文件进行预先填充。</block>
   <block id="599b3adc06ff60709e02c3d42a15c442" category="paragraph">请注意、从BlueXP分类调用BlueXP时、某些常见的BlueXP复制和同步操作会被禁用：</block>
-  <block id="687c2785d0e6bcc55e7d411f98257c26" category="list-text">要移动文件、需要NFS共享允许从BlueXP分类实例IP地址进行访问。</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。</block>
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">将对象存储服务添加到BlueXP分类。</block>
   <block id="a9dd30151c7008ee5251686104cfa16e" category="paragraph">如果要从可通过 Internet 访问的 S3 对象存储扫描数据，则可以 <block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block> 或 <block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block>。</block>
@@ -3068,7 +3064,6 @@
   <block id="c3e061f64826624fb21952c760e39065" category="paragraph">请注意、BlueXP分类不会从以下数据源提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。</block>
   <block id="21ed6b8b65a14c2b031742eda9665bec" category="section-title">按重复项筛选数据</block>
   <block id="3cdb36967a02a71e0d639c6d71d16ac3" category="summary">完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。</block>
-  <block id="967e2833b7b63650ec3b8ae154cf6a53" category="paragraph">请注意、每当启用或更新时、都必须重新启动Docker<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 设置。</block>
   <block id="04b2719843afa330fd4278f18f551cc0" category="list-text">粘贴您从第8步复制的信息：<block ref="f2d89fd6adc07cc741bd63dae759c280" prefix=" " category="inline-code"></block></block>
   <block id="a4dd9b20157e1f61ccf2fa0ae455122b" category="list-text">输入BlueXP分类主机的IP地址或主机名、以便连接器系统可以访问它。</block>
   <block id="ddc6172b757657046107ead16ab653d6" category="list-text">输入BlueXP Connector主机的IP地址或主机名、以便BlueXP分类系统可以访问它。</block>
@@ -3225,9 +3220,7 @@
   <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">现在、非公开站点支持Data sense BYOL许可证</block>
   <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">了解如何获取和上传Data sense BYOL许可证</block>
   <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>。</block>
-  <block id="0c7db2bd63c891adb2c0fa4527805d72" category="paragraph">您的BlueXP帐户和各个Cloud Volumes ONTAP系统都需要注册支持。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。要完成注册、请按如下所述将NetApp 支持站点(NSS)帐户添加到BlueXP中。</block>
-  <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">有关以下云提供商解决方案的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">注册BlueXP帐户以获得NetApp支持</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">要注册支持并激活支持授权、BlueXP帐户中的一个用户必须将NetApp 支持站点 帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
@@ -3439,8 +3432,6 @@
   <block id="2a2958e5280a05650587dc8d454a5f8d" category="list-text">根据您使用的操作系统、您需要安装以下容器引擎之一：</block>
   <block id="42b04f3730744d602d0c4b812384dce9" category="list-text">Docker引擎19.3.1或更高版本。<block ref="bbcf0e5e8b0c8687d84c2c22a5ad2ecf" category="inline-link-rx"></block>。</block>
   <block id="1d7787fe4a7264402153a51d8513414f" category="list-text">Python 3.6或更高版本。<block ref="f67fc9f0c7d8aa701884bad21356a242" category="inline-link-rx"></block>。</block>
-  <block id="b3eca644efa08065eb8c4ac6103bb98b" category="list-text">确认系统已安装两个必备软件包(Docker引擎和Python 3)。</block>
-  <block id="b22f0c43f37aea47ed39cf9a0ab2a837" category="list-text">确认已安装两个必备软件包(Docker引擎和Python 3)。</block>
   <block id="66f5e7d970f0cf4b79e5b61fd2dba7c1" category="list-text">扫描的数据量是根据逻辑文件大小计算的、不会产生任何存储效率。</block>
   <block id="9977ca20c8bc19b052f79b784b9f28f8" category="paragraph">启用BlueXP分类并选择要扫描的存储库(即卷、存储分段、数据库架构或OneDrive或SharePoint用户数据)后、它会立即开始扫描数据以确定个人数据和敏感数据。在大多数情况下、您应重点扫描实时生产数据、而不是备份、镜像或灾难恢复站点。然后、BlueXP分类会映射您的组织数据、对每个文件进行分类、并在数据中标识和提取实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。</block>
   <block id="ab7a4d49b4e814b44fcc2e4e34cdc29b" category="paragraph">请注意、每当启用或更新时、都必须重新启动Docker或Podman<block ref="7ba21652408bcade58b8719451511f2a" prefix=" " category="inline-code"></block> 设置。</block>
@@ -3466,4 +3457,26 @@
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">请注意、移动文件时、源文件中的子目录结构会在目标共享上重新创建、以便于了解文件的移动位置。如果目标位置存在同名文件、则不会移动该文件。</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。请注意、移动单个文件等快速完成的短操作不会显示在操作状态窗格中。</block>
   <block id="b2ed02bab90c71832a95050419f003e6" category="list-text">BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3以及数据库。</block>
+  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10月4日(版本1.26)</block>
+  <block id="620a73262e6956695319caae21506289" category="section-title">支持使用RHEL版本9进行内部安装</block>
+  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux版本8和9不支持Docker引擎、而这是BlueXP分类安装所必需的。现在、我们支持在使用Podman版本4或更高版本作为容器基础架构的RHEL 9.0、9.1和9.2上进行安装。如果您的环境要求使用最新版本的RHEL、现在可以在使用Podman时安装BlueXP分类(1.26或更高版本)。</block>
+  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">目前、我们不支持非公开站点安装或分布式扫描环境(使用主扫描程序节点和远程扫描程序节点)。</block>
+  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">现在、除了项目总数之外、调查页面结果还会显示总大小</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">现在、"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
+  <block id="4a90d7d35061a4c9e5845a989ea05db2" category="list-text">以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.26或更高版本：</block>
+  <block id="59f227bced13db9b55686d58d4422b7b" category="list-text">Red Hat Enterprise Linux 9.0、9.1和9.2版</block>
+  <block id="ca4483ba58214f8a91253985b52c976c" category="paragraph">请注意、使用RHEL 9.x时、当前不支持以下功能：</block>
+  <block id="1b32bd564a2d99c25093d522b505880d" category="list-text">在非公开站点安装</block>
+  <block id="1a81412d076e7b9aa74911a0adfb4688" category="list-text">分布式扫描；使用主扫描程序节点和远程扫描程序节点</block>
+  <block id="cf49e2a8099d82e2f5780f13362c4f6c" category="list-text">Podman版本4或更高版本。要安装Podman，请更新系统软件包 <block ref="2331e8e9c17f410bdfc0aa461e9aa2b7" prefix="(" category="inline-code"></block>)、然后安装Podman <block ref="e831e1bb8caac0e1ff717314d00a328d" prefix="(" category="inline-code"></block>）。</block>
+  <block id="194351f6f6e0cb2f129f2a15d7f6df07" category="list-text">确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
+  <block id="70982664d9f01c2eb3895d455947c83d" category="list-text">验证系统是否已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
+  <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">要获得BlueXP及其存储解决方案和服务的特定技术支持、需要注册支持。要为Cloud Volumes ONTAP系统启用关键工作流、还需要注册支持服务。</block>
+  <block id="8a3d807608e632d188a288fc5f4aa7eb" category="paragraph">注册获取支持不会为云提供商文件服务启用NetApp支持。有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
+  <block id="71015deb6ac3269a57685acb827c23be" category="list-text">仅移动小于或等于50 MB的文件。</block>
+  <block id="b8b9c11e2f16c4f7686b11f7596d2847" category="list-text">目标NFS共享必须允许从BlueXP分类实例IP地址进行访问。</block>
+  <block id="fc33df80766251e78dbe2beb48ec9528" category="list-text">确认已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
+  <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
+  <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
 </blocks>
