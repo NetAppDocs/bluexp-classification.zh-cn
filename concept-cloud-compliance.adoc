@@ -211,7 +211,7 @@ BlueXP分类可通过挂载NFS和CIFS卷与任何其他客户端一样连接到�
 
 image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。BlueXP分类实例连接到NFS和CIFS卷、S3存储分段、OneDrive帐户和数据库以扫描它们。"]
 
-完成初始扫描后、BlueXP分类会持续扫描数据以检测增量更改(这就是保持实例运行的重要性的原因)。
+完成初始扫描后、BlueXP分类会以轮循方式持续扫描数据、以检测增量更改(这就是保持实例运行至关重要的原因)。
 
 您可以在卷级别，存储分段级别，数据库架构级别， OneDrive 用户级别和 SharePoint 站点级别启用和禁用扫描。
 

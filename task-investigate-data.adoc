@@ -329,6 +329,7 @@ image:screenshot_compliance_investigation_report.png["包含多个选项的Downl
 * 创建时间
 * 上次修改时间
 * 上次访问
+* 打开权限
 * 文件所有者
 * 类别
 * 个人信息

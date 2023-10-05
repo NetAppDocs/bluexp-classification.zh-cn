@@ -96,7 +96,7 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(D
 
 购买BlueXP分类(Data Sense)许可证后、您可以在BlueXP中通过输入BlueXP分类序列号和NSS帐户或上传NLF许可证文件来激活许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。
 
-如果您在无法访问Internet的内部站点中的主机上部署了BlueXP分类、则需要从连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
+如果您已在无法访问Internet的内部站点中的主机上部署BlueXP分类、这意味着您已在中部署BlueXP Connector https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#private-mode["私有模式"^]，您需要从连接Internet的系统获取许可证文件。使用序列号和 NSS 帐户激活许可证不适用于非公开站点安装。
 
 .开始之前
 开始之前、您需要了解以下信息：
@@ -107,7 +107,7 @@ NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(D
 
 * BlueXP帐户ID
 +
-您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。
+您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。对于无法访问Internet的专用模式站点，请使用*ACCOUNT-HARKSITE1*。
 
 
 
