@@ -3479,4 +3479,8 @@
   <block id="74246010013353726bd9ff99866fa7d4" category="section-title">支持在RHEL版本9上进行BlueXP分类的内部安装</block>
   <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux版本8和9不支持Docker引擎；BlueXP分类安装需要此引擎。现在、我们支持在使用Podman版本4或更高版本作为容器基础架构的RHEL 9.0、9.1和9.2上安装BlueXP分类。如果您的环境要求使用最新版本的RHEL、现在可以在使用Podman时安装BlueXP分类(1.26或更高版本)。</block>
   <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">目前、在使用RHEL 9.x时、我们不支持非公开站点安装或分布式扫描环境(使用主扫描程序节点和远程扫描程序节点)</block>
+  <block id="abff2804f60c6da51fe02e78167abad1" category="section-title">11月6日(版本1.26.3)</block>
+  <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">此版本已修复以下问题</block>
+  <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修复了在信息板中显示系统扫描的文件数时出现的不一致问题。</block>
+  <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">通过处理和报告名称和元数据中包含特殊字符的文件和目录、改进了扫描行为。</block>
 </blocks>
