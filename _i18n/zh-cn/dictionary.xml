@@ -1253,7 +1253,6 @@
   <block id="38aabb48c7b00e0c5ef0ec27ca5a850d" category="paragraph"><block ref="38aabb48c7b00e0c5ef0ec27ca5a850d" category="inline-link-rx"></block></block>
   <block id="7c04897feb206ad3e6d38ea88ccde2d4" category="paragraph"><block ref="7c04897feb206ad3e6d38ea88ccde2d4" category="inline-link-rx"></block></block>
   <block id="0e07c8e30d5d787d70fbc93583eb3032" category="paragraph"><block ref="0e07c8e30d5d787d70fbc93583eb3032" category="inline-link-rx"></block></block>
-  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看 Data sense 可以在您的数据中识别的所有类型的个人数据</block>
   <block id="9ffceb20e382df6e4587add0d24af321" category="cell">澳大利亚 TFN （税务文件编号）</block>
   <block id="67863eec6ed398cda366fe555c1746bd" category="cell">澳大利亚医疗保健计划编号</block>
   <block id="bba082dd43baad5296b00863b2fd871e" category="cell">澳大利亚护照编号</block>
@@ -1448,16 +1447,6 @@
   <block id="1ce92447664cc42f3e2c04aaf8570862" category="cell">新西兰银行帐户</block>
   <block id="2be885677b02540592a1f44b87ee5fb9" category="cell">新西兰IRD编号(税务ID)</block>
   <block id="3c266b4db1bf588305e19eddcef36116" category="cell">新西兰的护照编号</block>
-  <block id="6006377785b7aa3dfed8795e05fbc569" category="section-title">2022年8月7日(1.15版)</block>
-  <block id="afae08b9f3014d73a3bf7e0c201b2b36" category="section-title">Data sense可识别来自新西兰的五种新类型的个人数据</block>
-  <block id="3b4b0faa54186ef002c6026e97e51a10" category="paragraph">Data sense可以识别包含以下类型数据的文件并对其进行分类：</block>
-  <block id="c189819be34e41f0ac712261c4bb10b0" category="list-text">新西兰银行帐号</block>
-  <block id="c8c8337bd5f0527c7ba4b08117f3d96f" category="paragraph"><block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
-  <block id="8d3dd83a131924f6dd08fdea2d8e7828" category="section-title">能够添加痕迹文件以指示文件移动的原因</block>
-  <block id="13cd21aa095db4c5e2c5cd12303ecc97" category="section-title">在您的目录中找到的个人数据和敏感的个人数据显示在调查结果中</block>
-  <block id="6b473faf5fc253b69b173e6b8b87f726" category="inline-link">请参见此处的示例</block>
-  <block id="76013a8e1044d1903752927bac2c2799" category="section-title">查看已成功分类的卷、分段等数量的状态</block>
-  <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">请参见如何查看此信息</block>
   <block id="992e3ca84c2944a0dbcaf7e99231a50e" category="inline-link-macro">查看映射扫描与分类扫描之间的区别</block>
   <block id="5e27c5cc9f66f543d963585b42d1709d" category="section-title">保持合规性</block>
   <block id="3a1ce1b3df0ddd54818235c5f83820d9" category="list-text">根据GDPR、CCPA、PCI和HIPAA隐私法规的要求、识别广泛的敏感个人信息。</block>
@@ -1495,17 +1484,7 @@
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">对于AWS：使用&lt;EC2-user&gt;</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">在"调查结果"窗格中显示自定义正则表达式结果示例的屏幕截图。</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">现在、您可以添加Data sense在数据中标识的自定义模式</block>
-  <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日(1.16版)</block>
-  <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">能够立即重新扫描存储库以反映文件中的更改</block>
   <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">请参见如何重新扫描目录</block>
-  <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">在"数据调查"页面中为数据感知扫描状态添加了新的筛选器</block>
-  <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">使用"分析状态"筛选器可以列出处于数据感知扫描特定阶段的文件。您可以选择一个选项来显示要扫描的*正在等待首次扫描*、正在扫描的*已完成*、*正在等待重新扫描*或*已失败*文件的列表。</block>
-  <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">现在、数据主体被视为扫描中"个人数据"的一部分</block>
-  <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">Data sense现在可将数据主题视为合规性信息板中显示的个人结果的一部分。此外、在"调查"页面中执行搜索时、您可以选择"个人数据"下的"数据主体"、以便仅查看包含数据主体的文件。</block>
-  <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">现在、数据感知痕迹文件被视为扫描中"类别"的一部分</block>
-  <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">详细了解如何创建痕迹文件</block>
-  <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">此外、在"调查"页面中执行搜索时、您可以选择"类别"下的"数据感知痕迹"、以便仅查看数据感知痕迹文件。</block>
   <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">添加SharePoint Online帐户</block>
   <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">添加用户文件所在的SharePoint Online帐户。</block>
   <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">配置页面的屏幕截图、您可以在其中单击添加SharePoint Online按钮。</block>
@@ -1714,8 +1693,6 @@
   <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：</block>
   <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">请参见如何安装扫描程序节点以扫描其他数据源</block>
-  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以通过两种方式添加自定义"个人数据"、Data sense将在未来扫描中识别这些数据。这样、您就可以全面了解潜在敏感数据在所有组织文件中的位置。</block>
-  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用正则表达式(regex)添加个人模式。</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。</block>
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">您的云提供商或订阅了BlueXP Marketplace列表</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">一次最多可重新扫描1000个项目。</block>
@@ -1869,7 +1846,6 @@
   <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">可以使用新筛选器细化数据调查页面中显示的结果：</block>
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。</block>
-  <block id="248b219562d5c677bea769543286aaf9" category="list-text">新西兰驾驶执照编号</block>
   <block id="47a431ede9d263c65258e5be6ff6b2c1" category="paragraph">根据GDPR和CCPA等隐私法规的要求、隐私风险评估报告概述了贵组织的隐私风险状态。此报告包含以下信息：</block>
   <block id="e9ebebe267d1d822cab67a314b8df765" category="section-title">每个数据调查报告中包含的内容</block>
   <block id="8b3b2b670034ec0279cb937c145f257a" category="paragraph">此操作将提取所需的软件和实际安装文件* cc_onprem_installer.tar.gz*。</block>
@@ -3128,13 +3104,6 @@
   <block id="b218ff5e02da9d35096238a32166dde5" category="paragraph">Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。<block ref="f9677d6768fea140fb85ff23d7983a85" category="inline-link-rx"></block>。</block>
   <block id="96c123ab6f4734112bc50bc214494621" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>。</block>
   <block id="0226172c9b936ddaa203e083a4b9cc81" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。<block ref="838641529bd2d9079ec09cedca69b267" category="inline-link-rx"></block>。</block>
-  <block id="cd0d9671e6080c26297795b009cbbdce" category="paragraph">如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>。</block>
-  <block id="394e72d8b35ee4d082653107b57db524" category="paragraph"><block ref="0036173f4fe5a5d22b0f2328a28ebcbb" category="inline-link-rx"></block>。</block>
-  <block id="82f7cb5359fda2db7066d505c282baf6" category="paragraph">Data sense现在可将痕迹文件识别为合规性信息板中显示的类别的一部分。这些文件是Data sense在将文件从源位置移动到NFS共享时创建的。<block ref="333cd23a73253379d4dadb8212365c81" category="inline-link-rx"></block>。</block>
-  <block id="9602c54aa4fcdb34c3d9e86a7d890ea2" category="paragraph">使用数据感知功能将源文件移动到NFS共享时、现在可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于移动的每个文件、系统都会在名为的源位置创建一个bed屑 文件<block ref="e5b81a76aedb2ddb1da7aba12de3e20b" prefix=" " category="inline-code"></block> 可显示文件的移动位置以及移动文件的用户。<block ref="2ccef004fdad5fd0d9cdb8ce1d569434" category="inline-link-rx"></block>。</block>
-  <block id="0aec8167e209c9b773de640809bb2ffe" category="paragraph">现在、"数据调查"页面将显示在您的目录(文件夹和共享)中找到的个人数据和敏感个人数据的结果。<block ref="838b4ac121a236248619da49a65d1710" category="inline-link-rx"></block>。</block>
-  <block id="f1454006c2b84f6126900ebe59c31558" category="paragraph">查看Data sense正在扫描的各个存储库(卷、存储分段等)时、现在您可以查看已"映射"的存储库数量以及已"分类"的存储库数量。由于正在对所有数据执行完整的AI标识、因此分类所需时间更长。<block ref="2a13251a6fe881bbd1315d595f667f8b" category="inline-link-rx"></block>。</block>
-  <block id="b37b0bfc35cb447c84138ba82441ec4f" category="paragraph">这些关键字和模式将添加到Data sense已使用的现有预定义模式中、其结果将显示在"Personal Patterns"部分下。<block ref="a38b2261878a3d41c0abfc69bd23b15e" category="inline-link-rx"></block>。</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">您可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3407,9 +3376,6 @@
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
   <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080 (TCP)、6000 (TCP)、443 (TCP)和80</block>
-  <block id="31bf187a1f6ba9a21c24893034392c45" category="cell">连接器的安全组必须允许通过端口6000和443传入和传出BlueXP分类实例的流量。
-
-确保端口8080已打开、以便您可以在BlueXP中查看安装进度。</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
   <block id="3e91b710997d720d3e069e8c923eb206" category="list-text">以下操作系统要求使用Docker容器引擎：</block>
   <block id="156e173d1de86766f5cb22a057c779e9" category="list-text">Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)</block>
@@ -3494,4 +3460,7 @@
   <block id="ee28dd0aeae91008620b667fd834dc53" category="paragraph">如果您的许可期限即将到期、或者您的许可容量即将达到限制、您将在分类UI中收到通知。</block>
   <block id="a274f4d4670213a9045ce258c6c56b80" category="inline-link">通知</block>
   <block id="697511e8d7a1e79b59a32ea4cdfd567a" category="paragraph">此状态也会显示在BlueXP电子钱包和中<block ref="5ed52bf872a49314e95419b00a21b97c" category="inline-link-rx"></block>。</block>
+  <block id="13d4946175fa2baa511a3731aec3cf3d" category="paragraph">连接器的安全组必须允许通过端口6000和443传入和传出BlueXP分类实例的流量。</block>
+  <block id="ba66ea25533ed21d178a828c4ca4e652" category="list-text">需要端口6000、以便BlueXP分类BYOL许可证在非公开站点中工作。</block>
+  <block id="1f883a560be0732076f2237a57c5195f" category="list-text">端口8080应处于打开状态、以便您可以在BlueXP中查看安装进度。</block>
 </blocks>
