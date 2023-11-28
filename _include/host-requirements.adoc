@@ -59,8 +59,8 @@
 +
 ** 以下操作系统要求使用Docker容器引擎：
 +
-*** Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本
-*** CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本
+*** Red Hat Enterprise Linux 7.8和7.9版
+*** CentOS 7.8和7.9版
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 

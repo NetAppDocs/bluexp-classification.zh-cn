@@ -3235,8 +3235,6 @@
   <block id="d2a2c5ad694a196d91103a3db366503f" category="paragraph">目前不支持扫描Cloud Volumes ONTAP、Azure NetApp Files、FSx for ONTAP、AWS S3或Google Drive、 在私有模式下部署BlueXP分类时的OneDrive或SharePoint Online帐户。</block>
   <block id="548a75d789202d935a1a2f04740b1caf" category="paragraph">如果尚未在私用模式下安装连接器，<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 现在在 Linux 主机上。</block>
   <block id="958f4b7cbe550d6d49b31bbeff50f3a9" category="paragraph">如果您尚未在专用模式下安装BlueXP Connector、<block ref="11f86544d4f60d001e494bbafd1f2548" category="inline-link-rx"></block> 在脱机站点的 Linux 主机上。</block>
-  <block id="ebd8af30c2bd1f5614199bd389919de2" category="list-text">Red Hat Enterprise Linux 7.8和7.9版- Linux内核版本必须为4.0或更高版本</block>
-  <block id="067032f0b3420d92b7bee458a84f9cb8" category="list-text">CentOS 7.8和7.9版- Linux内核版本必须为4.0或更高版本</block>
   <block id="5c2d28b4f3a99b0fe3968b98ea7d88e5" category="inline-link-macro">请单击此处查看更多详细信息</block>
   <block id="92b051108aff71c86d91cfa5338016b1" category="paragraph">请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>。 <block ref="d63cd9daf9e428da9929248a998d6b79" category="inline-link-macro-rx"></block>。</block>
   <block id="e441d0b06845e470533ecf90d990663b" category="list-text">将安装程序捆绑包复制到计划在专用模式下使用的Linux主机。</block>
@@ -3463,4 +3461,6 @@
   <block id="13d4946175fa2baa511a3731aec3cf3d" category="paragraph">连接器的安全组必须允许通过端口6000和443传入和传出BlueXP分类实例的流量。</block>
   <block id="ba66ea25533ed21d178a828c4ca4e652" category="list-text">需要端口6000、以便BlueXP分类BYOL许可证在非公开站点中工作。</block>
   <block id="1f883a560be0732076f2237a57c5195f" category="list-text">端口8080应处于打开状态、以便您可以在BlueXP中查看安装进度。</block>
+  <block id="3834cda66b40129353aaded5673c3634" category="list-text">Red Hat Enterprise Linux 7.8和7.9版</block>
+  <block id="05b80f267d8929f809fe86d91268bc94" category="list-text">CentOS 7.8和7.9版</block>
 </blocks>
