@@ -3370,7 +3370,6 @@
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
   <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">您可以将DFS (Distributed File System、分布式文件系统)共享添加为常规CIFS共享。但是、由于BlueXP分类不知道共享是基于多个服务器/卷构建的、并将其组合为一个CIFS共享、因此、如果此消息实际上仅显示适用场景位于其他服务器/卷上的其中一个文件夹/共享、则您可能会收到有关此共享的权限或连接错误。</block>
-  <block id="d9c89ee38491bdb679829f426faea2ef" category="list-text">作为.CSV文件传输到本地计算机；最多可包含5、000行数据。</block>
   <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
   <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080 (TCP)、6000 (TCP)、443 (TCP)和80</block>
@@ -3463,4 +3462,5 @@
   <block id="1f883a560be0732076f2237a57c5195f" category="list-text">端口8080应处于打开状态、以便您可以在BlueXP中查看安装进度。</block>
   <block id="3834cda66b40129353aaded5673c3634" category="list-text">Red Hat Enterprise Linux 7.8和7.9版</block>
   <block id="05b80f267d8929f809fe86d91268bc94" category="list-text">CentOS 7.8和7.9版</block>
+  <block id="7d389403e7b93ff8a467567b0e19cd8a" category="list-text">作为.CSV文件传输到本地计算机；最多可包含10、000行数据。</block>
 </blocks>
