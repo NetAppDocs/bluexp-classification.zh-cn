@@ -1393,7 +1393,6 @@
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">此时将显示一条消息、指出正在下载报告。</block>
   <block id="8cb8a6e0c4d4366f74cd4f0b6f61a0f6" category="paragraph">*非结构化目录数据报告*包含有关文件夹和文件共享的以下信息：</block>
   <block id="76cbd87b5322b897c255d541785ad658" category="list-text">存储库(例如、文件夹或文件共享)</block>
-  <block id="45fe1c24aae6844389ce04f26df40a13" category="list-text">文件路径(目录名称)</block>
   <block id="eed7cc7f64269eb19a98b58ae0d79b6f" category="list-text">发现时间</block>
   <block id="e1b1adec6acf239fb7bfb9f392edd34d" category="list-text">打开权限</block>
   <block id="c24fc9c3402e7cb47c72d71cf6d864be" category="list-text">目录类型</block>
@@ -3370,7 +3369,6 @@
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
   <block id="90ca6bd84833f8a6659f7ea02a7649ba" category="list-text">您可以将DFS (Distributed File System、分布式文件系统)共享添加为常规CIFS共享。但是、由于BlueXP分类不知道共享是基于多个服务器/卷构建的、并将其组合为一个CIFS共享、因此、如果此消息实际上仅显示适用场景位于其他服务器/卷上的其中一个文件夹/共享、则您可能会收到有关此共享的权限或连接错误。</block>
-  <block id="8909a1f3cdd58859743896107e545477" category="list-text">导出到NFS共享的.jSON文件；最多可包含100、000行数据。如果数据行数超过100、000行、则会创建其他.JSON文件。</block>
   <block id="090f87d7b81c809aa6a6d81dcabfeeb8" category="paragraph">如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。</block>
   <block id="abfab9fcbcf9c983c6fcb0efced8edc6" category="cell">8080 (TCP)、6000 (TCP)、443 (TCP)和80</block>
   <block id="17308c76959fcb971603b7274a57c128" category="list-text">* 操作系统 * ：</block>
@@ -3385,7 +3383,6 @@
   <block id="0cc4457720b5fe0dd1b8dc6667280ebb" category="list-text">验证系统是否已安装两个必备软件包(Docker或Podman Engine和Python 3)。</block>
   <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">系统会比较所有大小为1 MB或更大且包含个人或敏感个人信息的文件(不包括数据库)、以查看是否存在重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小范围的文件的重复项。</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">所有复制的文件都会显示在结果页面中。</block>
-  <block id="d4c414c875c5535df32b9c04f15b398d" category="paragraph">您可以使用两种不同的格式保存报告：</block>
   <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9月5日(版本1.25)</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">在"调查结果"页面中对多达100、000个商品应用标记</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">了解如何操作</block>
@@ -3462,5 +3459,14 @@
   <block id="1f883a560be0732076f2237a57c5195f" category="list-text">端口8080应处于打开状态、以便您可以在BlueXP中查看安装进度。</block>
   <block id="3834cda66b40129353aaded5673c3634" category="list-text">Red Hat Enterprise Linux 7.8和7.9版</block>
   <block id="05b80f267d8929f809fe86d91268bc94" category="list-text">CentOS 7.8和7.9版</block>
-  <block id="7d389403e7b93ff8a467567b0e19cd8a" category="list-text">作为.CSV文件传输到本地计算机；最多可包含10、000行数据。</block>
+  <block id="875fbf0a91ad95e1c95e1ac6fd492bc2" category="paragraph">报告有两种不同的格式：</block>
+  <block id="238112e6876034d2f424b96b637afe8a" category="list-text">以.CSV文件格式保存到本地计算机。</block>
+  <block id="604cde1447e130e4655296bd7bafa56a" category="paragraph">此报告最多可包含10、000行数据。</block>
+  <block id="0bcb699578dbf297d1eb8bc55c1d5ae8" category="list-text">导出到NFS共享的.jSON文件。</block>
+  <block id="9b90713ae6cde3bdbdd15b3cc3deed4f" category="paragraph">如果数据行数超过250、000行、则会创建其他.JSON文件。</block>
+  <block id="96a4e4d64dfcd958a53c9d27cb6f9c81" category="list-text">存储库类型</block>
+  <block id="8d41341b04800c9b0f9269d35caefe50" category="list-text">文件大小(MB)</block>
+  <block id="12863c4f3d21d132902517901137f0ce" category="list-text">扫描分析错误</block>
+  <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">目录名称</block>
+  <block id="ea36f55b106d5d1443d6a1e80c18df3d" category="list-text">目录所有者</block>
 </blocks>
