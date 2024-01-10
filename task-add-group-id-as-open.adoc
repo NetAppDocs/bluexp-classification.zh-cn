@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task-add-group-id-as-open.html 
+keywords: permissions, open to organization, file access 
+summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。' 
+---
+= 将其他组ID定义为"对组织开放"
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。
+
+在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。
+
+您需要登录到BlueXP分类系统、才能编辑配置文件并运行脚本以使用此功能。
+
+
+
+== 登录到BlueXP分类系统
+
+如果BlueXP分类安装在内部环境中的Linux计算机上或部署在云中的Linux计算机上、则可以直接访问配置文件和脚本。
+
+在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
+
+ ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
+* <path_to_the_ssh_key>= ssh身份验证密钥的位置
+* <machine_user>：
++
+** 对于AWS：使用<EC2-user>
+** 对于Azure：使用为BlueXP实例创建的用户
+** 对于GCP：使用为BlueXP实例创建的用户
+
+
+* <datasens_ip>=虚拟机实例的IP地址
+
+
+请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
+
+
+
+
+== 为组ID添加"向组织开放"权限
+
+在开始此任务之前、您需要知道组ID编号(GID)。
+
+.步骤
+. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件"data_Provider.yamL"。
+. 在"organation_group_ids：[]"行中、添加组ID。例如：
++
+ organization_group_ids: [1014, 1015, 21, 2021, 1013, 2020, 1018, 1019]
++
+请勿更改此文件中的任何其他内容。
+
+. 转到"//opt/NetApp/Dat感 应"并运行以下脚本：
++
+ update_data_providers_from_config_file.sh
++
+此命令会将修改后的组ID权限提交到分类引擎。
+
+
+
+对数据进行的所有后续扫描都将确定附加了这些组ID的文件或文件夹为"对组织开放"。
+
+您可以使用上述相同步骤编辑组ID列表并删除过去添加的任何组ID。在运行脚本提交更改后、修订后的组ID列表将会更新。
+
+要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense"运行以下命令：
+
+ get_data_providers_configuration.sh

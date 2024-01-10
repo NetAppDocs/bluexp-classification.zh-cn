@@ -3469,4 +3469,28 @@
   <block id="12863c4f3d21d132902517901137f0ce" category="list-text">扫描分析错误</block>
   <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">目录名称</block>
   <block id="ea36f55b106d5d1443d6a1e80c18df3d" category="list-text">目录所有者</block>
+  <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
+  <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">将其他组ID定义为"对组织开放"</block>
+  <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
+  <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。</block>
+  <block id="5b2ef9bd1232e63caf3da28133ca8a3d" category="paragraph">您需要登录到BlueXP分类系统、才能编辑配置文件并运行脚本以使用此功能。</block>
+  <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">登录到BlueXP分类系统</block>
+  <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">如果BlueXP分类安装在内部环境中的Linux计算机上或部署在云中的Linux计算机上、则可以直接访问配置文件和脚本。</block>
+  <block id="aea796c551760c123249c98597ef5dab" category="section-title">为组ID添加"向组织开放"权限</block>
+  <block id="cab0d8189f1383e6633abad2d8bb10e2" category="paragraph">在开始此任务之前、您需要知道组ID编号(GID)。</block>
+  <block id="2783de23499f1b6912284079950af328" category="list-text">在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件"data_Provider.yamL"。</block>
+  <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">在"organation_group_ids：[]"行中、添加组ID。例如：</block>
+  <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">请勿更改此文件中的任何其他内容。</block>
+  <block id="fb448d942cb14f250d9497a3bb5f49dc" category="list-text">转到"//opt/NetApp/Dat感 应"并运行以下脚本：</block>
+  <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">此命令会将修改后的组ID权限提交到分类引擎。</block>
+  <block id="fa72d06a2d710ef92a76614af32ec1f7" category="paragraph">对数据进行的所有后续扫描都将确定附加了这些组ID的文件或文件夹为"对组织开放"。</block>
+  <block id="3ef472518560fb1d514f802f7b78520c" category="paragraph">您可以使用上述相同步骤编辑组ID列表并删除过去添加的任何组ID。在运行脚本提交更改后、修订后的组ID列表将会更新。</block>
+  <block id="547ea5f0fcc4aedf35c256e9b5b85845" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense"运行以下命令：</block>
+  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1月10日(版本1.27)</block>
+  <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">现在、除了项目总数之外、调查页面结果还会显示总大小</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">现在、"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
+  <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">将其他组ID配置为"对组织开放"</block>
+  <block id="617de59f0823cef046ababc40408cb92" category="inline-link">将其他组ID添加为"对组织开放"</block>
+  <block id="883dea14e891e466e8184cc34b65bd17" category="paragraph">现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明<block ref="d0c1b51f12c2e361f70a1ff7d6038c44" category="inline-link-rx"></block>。</block>
+  <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">将现有组ID定义为"对组织开放"</block>
 </blocks>

@@ -90,6 +90,8 @@ sidebar:
       url: "/task-managing-data-fusion.html"
     - title: 查看BlueXP分类操作的状态
       url: "/task-view-compliance-actions.html"
+    - title: 将现有组ID定义为"对组织开放"
+      url: "/task-add-group-id-as-open.html"
     - title: 审核BlueXP分类操作的历史记录
       url: "/task-audit-data-sense-actions.html"
     - title: 降低BlueXP分类扫描速度
