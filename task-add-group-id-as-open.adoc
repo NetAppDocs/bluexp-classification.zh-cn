@@ -61,7 +61,7 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 +
 请勿更改此文件中的任何其他内容。
 
-. 转到"//opt/NetApp/Dat感 应"并运行以下脚本：
+. 转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：
 +
  update_data_providers_from_config_file.sh
 +
@@ -73,6 +73,6 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 
 您可以使用上述相同步骤编辑组ID列表并删除过去添加的任何组ID。在运行脚本提交更改后、修订后的组ID列表将会更新。
 
-要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense"运行以下命令：
+要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：
 
  get_data_providers_configuration.sh

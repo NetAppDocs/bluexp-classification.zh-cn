@@ -1294,7 +1294,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure 中连接器的规则</block>
   <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive帐户</block>
   <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">许多用户喜欢此功能、因为他们希望快速扫描其数据以确定需要更多研究的数据源、然后只能对所需的数据源或卷启用分类扫描。</block>
@@ -1561,7 +1560,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">以下问题与BlueXP Connector相关。</block>
@@ -3481,16 +3479,16 @@
   <block id="2783de23499f1b6912284079950af328" category="list-text">在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件"data_Provider.yamL"。</block>
   <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">在"organation_group_ids：[]"行中、添加组ID。例如：</block>
   <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">请勿更改此文件中的任何其他内容。</block>
-  <block id="fb448d942cb14f250d9497a3bb5f49dc" category="list-text">转到"//opt/NetApp/Dat感 应"并运行以下脚本：</block>
   <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">此命令会将修改后的组ID权限提交到分类引擎。</block>
   <block id="fa72d06a2d710ef92a76614af32ec1f7" category="paragraph">对数据进行的所有后续扫描都将确定附加了这些组ID的文件或文件夹为"对组织开放"。</block>
   <block id="3ef472518560fb1d514f802f7b78520c" category="paragraph">您可以使用上述相同步骤编辑组ID列表并删除过去添加的任何组ID。在运行脚本提交更改后、修订后的组ID列表将会更新。</block>
-  <block id="547ea5f0fcc4aedf35c256e9b5b85845" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense"运行以下命令：</block>
   <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1月10日(版本1.27)</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">现在、除了项目总数之外、调查页面结果还会显示总大小</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">现在、"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">将其他组ID配置为"对组织开放"</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">将其他组ID添加为"对组织开放"</block>
-  <block id="883dea14e891e466e8184cc34b65bd17" category="paragraph">现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明<block ref="d0c1b51f12c2e361f70a1ff7d6038c44" category="inline-link-rx"></block>。</block>
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">将现有组ID定义为"对组织开放"</block>
+  <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：</block>
+  <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
+  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -30,7 +30,7 @@ summary: 了解BlueXP分类中的新增功能。
 
 === 将其他组ID配置为"对组织开放"
 
-现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明 https://task-add-group-id-as-open["将其他组ID添加为"对组织开放""]。
+现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open["将其他组ID添加为"对组织开放""]。
 
 
 
