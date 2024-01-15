@@ -1482,7 +1482,6 @@
   <block id="0bac9ec0256a9fd2858c7836245c9025" category="list-text">对于AWS：使用&lt;EC2-user&gt;</block>
   <block id="5e0b61460f50f9b62d95b060b2f3f8d2" category="inline-image-macro">在"调查结果"窗格中显示自定义正则表达式结果示例的屏幕截图。</block>
   <block id="f0957a103fdf829c95e6748bbaec5b4a" category="paragraph"><block ref="f0957a103fdf829c95e6748bbaec5b4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">请参见如何重新扫描目录</block>
   <block id="88ce972549d8b67ad56bc9e681818ca2" category="section-title">添加SharePoint Online帐户</block>
   <block id="8b7071c98b3d8a3e43ecfa77bab75857" category="paragraph">添加用户文件所在的SharePoint Online帐户。</block>
   <block id="c5545572ea4069cfaa50e205fd80e522" category="inline-image-macro">配置页面的屏幕截图、您可以在其中单击添加SharePoint Online按钮。</block>
@@ -1658,9 +1657,6 @@
   <block id="8dd42ed78b27180f93de7913ecab156f" category="paragraph">在所有扫描程序节点上完成安装且这些节点已加入管理器节点后、"add_scanner_node.sh"脚本也会完成。安装可能需要10到20分钟。</block>
   <block id="ced90f42fe9747f4578603471ea454a3" category="list-text">如果将任何扫描程序节点添加到扫描程序组中、请返回到管理器节点并执行以下2项任务：</block>
   <block id="b77072323352dd1724df6d20002eb9f2" category="list-text">运行以下脚本、将此映射信息注册到所有扫描程序节点：<block ref="f484d7848213083a72fafef02f452b57" prefix=" " category="inline-code"></block></block>
-  <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">支持扫描SharePoint内部部署帐户</block>
-  <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">能够重新扫描多个目录(文件夹或共享)</block>
-  <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">可以添加其他内部"扫描程序"节点来扫描特定数据源</block>
   <block id="cbcceb43df0c94c9cc9e38ba4b9389c1" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。</block>
   <block id="aadddcc55c6a2a76a433b97a4366f53f" category="list-text">您可以从文本文件中添加自定义关键字—这些字在数据中标识。</block>
   <block id="a2c1b5d018e20e258024bece4a2d254e" category="section-title">从数据库中添加自定义个人数据标识符</block>
@@ -1689,17 +1685,12 @@
   <block id="00fde4d5ca4e0124dccf8017bb92fc4e" category="list-text">对于电子邮件警报—电子邮件地址/帐户</block>
   <block id="8cc577dbce4245d15abad6f3b1dfc995" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。</block>
   <block id="fbda64f06352e44a4e6523dbdd6b039e" category="paragraph">请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：</block>
-  <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">请参见如何安装扫描程序节点以扫描其他数据源</block>
   <block id="3c73fb515a637be4a1083e3e061099f9" category="paragraph">请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。</block>
   <block id="0cf39354f7edfa15dd84075131e27804" category="list-text">您的云提供商或订阅了BlueXP Marketplace列表</block>
   <block id="21315205ba34163a83853c5526e534c1" category="list-text">一次最多可重新扫描1000个项目。</block>
   <block id="a8c256c3bc4f2ab999fee3056f7bebab" category="paragraph"><block ref="5d86a8971ca34d1c831cc0be7e11109d" prefix="" category="inline-code"></block></block>
   <block id="79bd49250e598bf53655f50c83b04044" category="list-text">操作类型(删除、复制、移动、创建策略、更新策略、 重新扫描文件、下载JSON报告等)</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">您可以在中查看JSON报告生成的进度 <block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
-  <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022年11月13日(1.17版)</block>
-  <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。</block>
-  <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">现在、内部安装程序会在开始安装之前执行预检查</block>
-  <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
@@ -3098,9 +3089,6 @@
   <block id="256d4a07e31924bad219936ee7fbe092" category="paragraph"><block ref="6cbac5d82b5b6979376ae555290ffa96" category="inline-link-rx"></block>。</block>
   <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>。</block>
   <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>。</block>
-  <block id="b218ff5e02da9d35096238a32166dde5" category="paragraph">Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。<block ref="f9677d6768fea140fb85ff23d7983a85" category="inline-link-rx"></block>。</block>
-  <block id="96c123ab6f4734112bc50bc214494621" category="paragraph">现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。<block ref="30c54ee6e02a85bc7c1713b7a90e6ed8" category="inline-link-rx"></block>。</block>
-  <block id="0226172c9b936ddaa203e083a4b9cc81" category="paragraph">如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。<block ref="838641529bd2d9079ec09cedca69b267" category="inline-link-rx"></block>。</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">您可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3471,7 +3459,6 @@
   <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">将其他组ID定义为"对组织开放"</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。</block>
-  <block id="5b2ef9bd1232e63caf3da28133ca8a3d" category="paragraph">您需要登录到BlueXP分类系统、才能编辑配置文件并运行脚本以使用此功能。</block>
   <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">登录到BlueXP分类系统</block>
   <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">如果BlueXP分类安装在内部环境中的Linux计算机上或部署在云中的Linux计算机上、则可以直接访问配置文件和脚本。</block>
   <block id="aea796c551760c123249c98597ef5dab" category="section-title">为组ID添加"向组织开放"权限</block>
@@ -3490,5 +3477,6 @@
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">将现有组ID定义为"对组织开放"</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：</block>
   <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
-  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>。</block>
+  <block id="4103104f589e62a63d3d9cfb58c764f2" category="paragraph">要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。</block>
+  <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
 </blocks>

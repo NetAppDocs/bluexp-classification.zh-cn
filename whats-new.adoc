@@ -30,7 +30,7 @@ summary: 了解BlueXP分类中的新增功能。
 
 === 将其他组ID配置为"对组织开放"
 
-现在、您可以将NFS中的组ID配置为直接在BlueXP分类中被视为"对组织开放"(如果最初未使用该权限进行设置)。请参见操作说明 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open["将其他组ID添加为"对组织开放""]。
+现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open.html["将其他组ID添加为"对组织开放""]。
 
 
 
@@ -317,33 +317,3 @@ BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文�
 
 
 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["了解有关在一台主机服务器和多台主机上安装Data sense的更多信息"]。
-
-
-
-== 2022年11月13日(1.17版)
-
-
-
-=== 支持扫描SharePoint内部部署帐户
-
-Data sense现在可以同时扫描SharePoint Online帐户和SharePoint内部部署帐户(SharePoint Server)。如果您需要在自己的服务器上或无法访问Internet的站点上安装SharePoint、现在可以让Data sense扫描这些帐户中的用户文件。 https://docs.netapp.com/us-en/bluexp-classification/task-scanning-sharepoint.html#adding-a-sharepoint-on-premise-account["了解更多信息。"^]。
-
-
-
-=== 能够重新扫描多个目录(文件夹或共享)
-
-现在、您可以立即重新扫描多个目录(文件夹或共享)、以便在系统中反映所做的更改。这样、您可以优先重新扫描某些数据、而不是重新扫描其他数据。 https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#rescanning-data-for-an-existing-repository["请参见如何重新扫描目录"^]。
-
-
-
-=== 可以添加其他内部"扫描程序"节点来扫描特定数据源
-
-如果您在内部位置安装了Data sense、并且发现扫描某些数据源需要更多的扫描处理能力、则可以添加更多的"扫描程序"节点并将其分配给扫描这些数据源。您可以在安装管理器节点后立即添加扫描程序节点、也可以稍后添加扫描程序节点。
-
-如有必要、可以将扫描程序节点安装在物理上更接近要扫描的数据源的主机系统上。扫描程序节点与数据的距离越近、越好、因为它可以在扫描数据时尽可能地减少网络延迟。 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["请参见如何安装扫描程序节点以扫描其他数据源"^]。
-
-
-
-=== 现在、内部安装程序会在开始安装之前执行预检查
-
-在Linux系统上安装Data sense时、安装程序会在开始实际安装之前检查系统是否满足所有必要的要求(CPU、RAM、容量、网络等)。这有助于在*之前*花费时间进行安装时发现问题。
