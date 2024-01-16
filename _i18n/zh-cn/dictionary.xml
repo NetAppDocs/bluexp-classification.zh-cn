@@ -2569,7 +2569,6 @@
   <block id="a0ae0e32ddfd7ab74e020981760f58f8" category="paragraph">BlueXP分类可在云端或内部部署一个服务器或集群、无论您选择在何处。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样可以支持多云、跨云、私有云和内部环境。</block>
   <block id="ff5134b8822856ebcc5677de01bc300f" category="paragraph">BlueXP分类作为BlueXP的一部分运行、并支持AWS、Azure和GCP。这样，您的组织就可以在不同的云提供商之间实现统一的隐私可见性。</block>
   <block id="43fb0be49307beaaf607049cdcec4e54" category="section-title">BlueXP分类是否具有REST API？是否可与第三方工具配合使用？</block>
-  <block id="477e2dc63bdbee29f0ad2ab4fbe572fc" category="paragraph">BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。</block>
   <block id="f08123eb9486c940f0187f02090476ae" category="section-title">BlueXP分类是否可通过商城获得？</block>
   <block id="064545628e27cedb51462f11c151eea0" category="paragraph">是的、BlueXP和BlueXP分类可从AWS、Azure和GCP市场获得。</block>
   <block id="ff33a1d5662bade5069e8522071a3ff9" category="section-title">BlueXP分类扫描和分析</block>
@@ -3479,4 +3478,7 @@
   <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
   <block id="4103104f589e62a63d3d9cfb58c764f2" category="paragraph">要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
+  <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。请参见 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 了解详细信息。</block>
+  <block id="da4874b0888a9dafc160c24905184d23" category="section-title">是否已扫描驻留在ONTAP卷上的Snapshot副本？</block>
+  <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">否BlueXP分类不会扫描快照、因为内容与卷中的内容相同。</block>
 </blocks>

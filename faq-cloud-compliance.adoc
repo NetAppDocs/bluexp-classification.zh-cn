@@ -70,7 +70,7 @@ BlueXP分类作为BlueXP的一部分运行、并支持AWS、Azure和GCP。这样
 
 === BlueXP分类是否具有REST API？是否可与第三方工具配合使用？
 
-BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。
+BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。请参见 link:api-classification.html["BlueXP分类API"^] 了解详细信息。
 
 
 
@@ -178,6 +178,20 @@ link:task-managing-data-fusion.html["了解更多信息。"^]。
 
 
 
+=== 如果在 ONTAP 卷上启用了数据分层，会发生什么情况？
+
+当BlueXP分类扫描冷数据分层到对象存储的卷时、它会扫描所有数据—本地磁盘上的数据以及分层到对象存储的冷数据。实施分层的非NetApp产品也是如此。
+
+扫描不会加热冷数据—它会保持冷状态并保留在对象存储中。
+
+
+
+=== 是否已扫描驻留在ONTAP卷上的Snapshot副本？
+
+否BlueXP分类不会扫描快照、因为内容与卷中的内容相同。
+
+
+
 === 是否可以将BlueXP分类信息限制为特定用户？
 
 是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
@@ -191,14 +205,6 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 === 任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？
 
 否在您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。
-
-
-
-=== 如果在 ONTAP 卷上启用了数据分层，会发生什么情况？
-
-当BlueXP分类扫描冷数据分层到对象存储的卷时、它会扫描所有数据—本地磁盘上的数据以及分层到对象存储的冷数据。实施分层的非NetApp产品也是如此。
-
-扫描不会加热冷数据—它会保持冷状态并保留在对象存储中。
 
 
 
