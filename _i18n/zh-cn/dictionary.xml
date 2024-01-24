@@ -1230,26 +1230,7 @@
   <block id="3e51e074f12d2c873310422bb9c8cb50" category="sidebar">管理私有数据</block>
   <block id="b243b08794c870ea91d13357c677102f" category="sidebar">添加自定义个人数据标识符</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
-  <block id="7a1ecd84a5a121cd176d1d7c8945c20b" category="sidebar">Cloud Volumes ONTAP 卷</block>
-  <block id="8d097e38d6920ece5917d57da5699e5c" category="sidebar">内部 ONTAP 卷</block>
-  <block id="c7596ffa8d20a8a14d1f631c94185f72" category="sidebar">Azure NetApp Files 卷</block>
-  <block id="fd2fd9101d9dde8ab7090da05f8117ff" category="sidebar">适用于 ONTAP 卷的 Amazon FSX</block>
-  <block id="1dc03133d25c1924f8604133a6fa7f0a" category="sidebar">通用 S3 存储分段</block>
-  <block id="7644f60fe7823935bde3cbe9f9e82bf8" category="sidebar">使用 AIP 标签对数据进行分类</block>
-  <block id="40af1406afc061038f5851961a636714" category="sidebar">发现不合规数据时创建电子邮件警报</block>
-  <block id="b33a306cb7abd3790ba4311eb102a667" category="sidebar">添加您自己的自定义个人数据标识符</block>
-  <block id="514f916b25444f3ec0ab113c2706f83a" category="sidebar">将标记和所有者应用于需要关注的文件</block>
-  <block id="9293f14feca10eb970a136a34ecc9d8c" category="sidebar">响应数据主体访问请求</block>
-  <block id="503c49a3ccf62894992dc5b2f108ca21" category="sidebar">复制源文件</block>
-  <block id="2987f20ce906ae32ec7e3e192413377f" category="sidebar">移动源文件</block>
-  <block id="865eee83e350aaa1f9bf0c9f0c4adef0" category="sidebar">删除源文件</block>
-  <block id="3305adbdafef990b45e1b0ded7f5a486" category="sidebar">查看有关数据的详细信息</block>
-  <block id="ca60961cf2d876d600daca4a1ad60001" category="sidebar">创建策略以查看排名靠前的搜索</block>
-  <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">查看包含私有信息的文件</block>
-  <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">查看存储中重复的文件</block>
   <block id="becce430afb103abe05ad66b3e6cde8a" category="sidebar">生成合规性报告</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="38aabb48c7b00e0c5ef0ec27ca5a850d" category="paragraph"><block ref="38aabb48c7b00e0c5ef0ec27ca5a850d" category="inline-link-rx"></block></block>
   <block id="7c04897feb206ad3e6d38ea88ccde2d4" category="paragraph"><block ref="7c04897feb206ad3e6d38ea88ccde2d4" category="inline-link-rx"></block></block>
   <block id="0e07c8e30d5d787d70fbc93583eb3032" category="paragraph"><block ref="0e07c8e30d5d787d70fbc93583eb3032" category="inline-link-rx"></block></block>
@@ -1352,9 +1333,6 @@
   <block id="37c9303e988a90a91e5799c6d881439b" category="paragraph">内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户均可使用这些Cloud Connector中的任何一种进行扫描。</block>
   <block id="68c4a78a67d74510c65b916751c96b07" category="list-text">目前、Google Drive帐户中的数据无法使用上述任何功能。</block>
   <block id="9c471504c4f66f275b7d110c46622118" category="paragraph">使用上述任一Cloud Connector时、可以扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户。</block>
-  <block id="1692b32d79b99cfb5a1277f8c49a23af" category="sidebar">扫描您的工作环境</block>
-  <block id="0dcbed0ed443cc2be8b28a4bd6ea0b84" category="sidebar">扫描其他数据源</block>
-  <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">筛选数据以查看特定文件</block>
   <block id="bc80eb794f149fca6a16076a0e09247f" category="list-text">通过顶层选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。</block>
   <block id="d5ef18883c38c2dd1dffc30e93610cde" category="paragraph">添加用户文件所在的Google Drive帐户。如果要扫描多个用户的文件、则需要对每个用户运行此步骤。</block>
   <block id="ba7710e66e983f5d109ee54ee938f343" category="paragraph">您可以单击 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 查看属于该组的用户列表。</block>
@@ -1598,7 +1576,6 @@
   <block id="7aeae51930f9c356f9f8611d740f88b8" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*、然后单击*合规性*选项卡。</block>
   <block id="acdc619c23bd4363ccec733a2e8a38ae" category="list-text">您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 <block ref="aae7319c920bbcb541f7fa3a1a1db120" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="cd02721523de57441e385fc64cc693cc" category="list-text">SharePoint内部部署帐户(SharePoint Server)</block>
   <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">从BlueXP菜单中、单击*监管&gt;分类*。</block>
   <block id="4bb7a83842b1271682b6be62080707cb" category="list-text">SharePoint Online和内部部署帐户</block>
@@ -1920,7 +1897,6 @@
   <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="inline-link">n2-standard-16</block>
   <block id="610e28574a4dbf2d34e497e3ed7bd822" category="list-text">添加节点以协助扫描特定数据源或特定数据源组(通常基于位置)</block>
   <block id="3fe624f4914417740fe3cf68a4327554" category="list-text">您必须具有连接器系统的IP地址或主机名、NetApp帐户ID、连接器客户端ID和用户访问令牌。如果您计划使用扫描程序组、则需要知道帐户中每个数据源的工作环境ID。要获取此信息、请参见下面的*前提条件步骤_*。</block>
-  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
   <block id="a9cb7c21103eb81a473453f19f0d7b20" category="list-text">* 重复文件 * —在要扫描的数据源的其他位置复制的文件。 <block ref="440fccf34bc4c2a440d9bf3f906df06d" category="inline-link-macro-rx"></block>。</block>
   <block id="c79d6ed12c6347fc1bdd0dd91ef85ff7" category="paragraph">单击 <block ref="6160b7a55bd427b3fb91de138d9f467e" category="inline-link-macro-rx"></block> 了解有关策略的更多信息。</block>
   <block id="f7e44fd8c27ddf80c242fb3dae245422" category="paragraph">_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 <block ref="53e5c76c1fe1c6ab36aa624f6960e384" category="inline-xref-macro-rx"></block> 有关此报告的完整详细信息。</block>
@@ -2965,9 +2941,6 @@
   <block id="3304fa5a3260dac4f8f51ddd7ca9e5f3" category="sidebar">降低BlueXP分类扫描速度</block>
   <block id="54892fa61b1eb6050fbd342fbf8e2218" category="sidebar">从BlueXP分类中删除数据源</block>
   <block id="997bc9ee8834fdaee5b662f9a2bd743f" category="sidebar">卸载BlueXP分类</block>
-  <block id="daf1be80b90f9f38eccbf069ac08640c" category="sidebar">在具有Internet的Linux主机上安装BlueXP分类</block>
-  <block id="c3e36333a4a6733ccd92dafc9d8c17b5" category="sidebar">在内部环境中安装BlueXP分类、而不使用Internet</block>
-  <block id="c0b7cbffdfa6fa18059367f2045ac22c" category="sidebar">BlueXP分类用例</block>
   <block id="44b48aa0d2158361e53832315034f513" category="paragraph">例如、如果您要跟踪何时对敏感的人员文件或薪资文件进行任何更改、则可以在这些文件所在的卷上启用此功能。然后、您可以查看文件访问审核日志以查看这些文件是否已更改。如果已更改、您将能够看到进行更改的人员的安全标识符(SID)以及更改的时间。</block>
   <block id="c7f8db8434f3e3057bca29922b597e31" category="paragraph">BlueXP分类可以在以下数据源中记录驻留在ONTAP 卷上的文件的文件访问事件：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="list-text">适用于 NetApp ONTAP 的 Amazon FSX</block>
@@ -3006,7 +2979,6 @@
   <block id="5cbcaeca0f98bea3f5714fbeb859b1f8" category="cell"><block ref="a39d05df186d1deb03343bf4f79e6b17" prefix="" category="inline-code"></block></block>
   <block id="2e1a4e3f55001820560b237188c70bc3" category="cell">/var/lib/Docker</block>
   <block id="651ffe70d1da174ca6955ceb139ab71c" category="cell"><block ref="20218561600e990c68a725b6b98ae569" prefix="" category="inline-code"></block></block>
-  <block id="361e697d946a0a8473f2bda1979090c3" category="cell">/user/lib/systemd/system</block>
   <block id="9997b2ae11cbffd6fe1a6e9f683ed24a" category="paragraph">+如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户在CIFS中具有写入属性权限或在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">单击此处了解有关数据主题的更多信息</block>
   <block id="1a7107cbf75ccf5399b80fbafd0ee649" category="cell">输入数据主体的全名或已知标识符。 <block ref="dbe06c006d2f67629a75e1ec088edbea" category="inline-link-macro-rx"></block>。</block>
@@ -3028,7 +3000,6 @@
   <block id="8a7af24665c107d42e27bf9f85872742" category="cell">或者、您也可以预先创建整个命令、并提供必要的主机和代理参数：<block ref="3b4bbf213dadbeb10421530a3d8a245b" prefix=" " category="inline-code"></block></block>
   <block id="79dad5af8e7ba04bd45d58a3d10d4209" category="list-text">_client_id =连接器客户端ID (将后缀"clients"添加到在前提条件步骤中复制的客户端ID)</block>
   <block id="800fbb2e9f1063caafe6917c236f24a6" category="paragraph">例如、此命令将添加3个扫描程序节点：<block ref="ba1da14563d546c370f034861b50d8f8" prefix=" " category="inline-code"></block></block>
-  <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP网络研讨会</block>
   <block id="c1560b054493db03cae97adece148673" category="list-text"><block ref="c1560b054493db03cae97adece148673" category="inline-link-rx"></block></block>
   <block id="72a0c1f7935cbaab164295a8fac378d8" category="list-text"><block ref="72a0c1f7935cbaab164295a8fac378d8" category="inline-link-rx"></block></block>
   <block id="9d7d457b861dcdf8b4b7f28f3a120c36" category="list-text"><block ref="9d7d457b861dcdf8b4b7f28f3a120c36" category="inline-link-rx"></block></block>
@@ -3320,7 +3291,6 @@
   <block id="85b9386ed443776127e099931d73448a" category="list-text">出现提示时、选择*继续*以重定向到Microsoft登录页面。</block>
   <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP分类API现已推出</block>
   <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">通过BlueXP分类API、您可以执行操作、创建查询以及导出有关正在扫描的数据的信息。可使用Swagger获取交互式文档。文档分为多个类别、包括调查、合规性、监管和配置。每个类别都是BlueXP分类UI中各个选项卡的参考。</block>
-  <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP分类视频</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -3481,4 +3451,5 @@
   <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。请参见 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="da4874b0888a9dafc160c24905184d23" category="section-title">是否已扫描驻留在ONTAP卷上的Snapshot副本？</block>
   <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">否BlueXP分类不会扫描快照、因为内容与卷中的内容相同。</block>
+  <block id="dce2a9642217836d54f614dfd625b753" category="cell">/usr/lib/systemd/system</block>
 </blocks>

@@ -145,7 +145,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | /var/lib/Docker | `rwx------` 
 
 
-| /user/lib/systemd/system | `rwxr-xr-x` 
+| /usr/lib/systemd/system | `rwxr-xr-x` 
 |===
 * * 操作系统 * ：
 +
