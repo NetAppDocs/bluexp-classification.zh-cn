@@ -18,34 +18,7 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 
 在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。
 
-要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。
-
-
-
-== 登录到BlueXP分类系统
-
-如果BlueXP分类安装在内部环境中的Linux计算机上或部署在云中的Linux计算机上、则可以直接访问配置文件和脚本。
-
-在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
-
- ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
-* <path_to_the_ssh_key>= ssh身份验证密钥的位置
-* <machine_user>：
-+
-** 对于AWS：使用<EC2-user>
-** 对于Azure：使用为BlueXP实例创建的用户
-** 对于GCP：使用为BlueXP实例创建的用户
-
-
-* <datasens_ip>=虚拟机实例的IP地址
-
-
-请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
-
+要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
 
 
 

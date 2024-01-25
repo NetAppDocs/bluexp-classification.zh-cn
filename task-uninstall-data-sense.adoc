@@ -53,3 +53,5 @@ image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按�
 cleanup.sh
 ----
 
+
+请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类主机"]。

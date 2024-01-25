@@ -50,33 +50,16 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 ....
 
 
-== 访问日志文件
+== 日志文件位置
 
 管理审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/audit_logs/`
 
 安装审核日志文件将写入 `/opt/netapp/install_logs/`
 
-每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统最多保留100个日志文件—达到最大值后、旧日志文件将自动删除。
-
-如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到日志文件。
-
-在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例。您可以通过输入用户和密码或使用在安装BlueXP Connector期间提供的SSH密钥通过SSH连接到系统。SSH命令为：
-
- ssh -i <path_to_the_ssh_key> <machine_user>@<datasense_ip>
-* <path_to_the_ssh_key>= ssh身份验证密钥的位置
-* <machine_user>：
-+
-** 对于AWS：使用<EC2-user>
-** 对于Azure：使用为BlueXP实例创建的用户
-** 对于GCP：使用为BlueXP实例创建的用户
+每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统中最多保留100个日志文件-达到最大值后、较早的日志文件将自动删除。
 
 
-* <datasens_ip>=虚拟机实例的IP地址
 
+== 访问日志文件
 
-请注意、您需要修改安全组入站规则才能访问云中的系统。有关详细信息、请参见：
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS中的安全组规则"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure中的安全组规则"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-gcp.html["Google Cloud中的防火墙规则"^]
-
+您需要登录BlueXP分类系统才能访问日志文件。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
