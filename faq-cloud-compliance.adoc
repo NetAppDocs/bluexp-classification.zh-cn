@@ -192,22 +192,6 @@ link:task-managing-data-fusion.html["了解更多信息。"^]。
 
 
 
-=== 是否可以将BlueXP分类信息限制为特定用户？
-
-是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
-
-此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。
-
-link:concept-cloud-compliance.html#user-access-to-compliance-information["了解更多信息。"^]。
-
-
-
-=== 任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？
-
-否在您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。
-
-
-
 === BlueXP分类是否可以向我的组织发送通知？
 
 是的。在策略返回结果时、与策略功能结合使用、您可以向BlueXP用户(每日、每周或每月)或任何其他电子邮件地址发送电子邮件警报、以便您可以获得保护数据的通知。了解更多信息 link:task-using-policies.html["策略"^]。
@@ -309,6 +293,46 @@ BlueXP分类扫描在整个环境中使用标准协议和只读权限。系统�
 完成完整扫描后、您可以对数据应用许多其他BlueXP分类功能、例如在"数据调查"页面中查看和细化数据、在文件中搜索名称、复制、移动和删除源文件等。
 
 
+
+BlueXP分类可捕获元数据、例如：文件名、权限、创建时间、上次访问和上次修改。这包括"数据调查详细信息"页面和"数据调查报告"中显示的所有元数据。
+
+BlueXP分类可以识别多种类型的私有数据、例如个人数据和敏感个人数据。有关私有数据的详细信息、请参见 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["BlueXP分类扫描的私有数据的类别"]。
+
+
+
+=== 是否可以将BlueXP分类信息限制为特定用户？
+
+是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
+
+此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。
+
+link:concept-cloud-compliance.html#user-access-to-compliance-information["了解更多信息。"^]。
+
+
+
+=== 任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？
+
+否在您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。
+
+扫描的数据会保留在您的环境中。
+
+
+
+=== 如何处理敏感数据？
+
+NetApp无法访问敏感数据、也不会在UI中显示这些数据。敏感数据会被屏蔽、例如、信用卡信息会显示最后四个数字。
+
+
+
+=== 数据存储在何处？
+
+扫描结果存储在BlueXP分类实例中的Elastisearch中。
+
+
+
+=== 如何访问数据？
+
+BlueXP分类可通过API调用访问存储在El路径 搜索中的数据、API调用需要进行身份验证、并使用AES-128进行加密。要访问El路径 搜索、直接需要root访问权限。
 
 
 

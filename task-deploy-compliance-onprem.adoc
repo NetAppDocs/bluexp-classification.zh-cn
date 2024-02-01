@@ -186,7 +186,7 @@ https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker�
 ** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
-* *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP连接器系统之间的时间必须同步。
+* *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
 * * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....

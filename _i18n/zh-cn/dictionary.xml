@@ -1259,7 +1259,6 @@
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="21d99d41f7aa56147e5b8e2f64a15458" category="list-text">接收用户反馈</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
@@ -3451,11 +3450,22 @@
   <block id="31af9dbc59d95015ad9e14c7d979d66b" category="summary">有时、您可能需要登录到BlueXP分类系统、以便访问日志文件或编辑配置文件。</block>
   <block id="d4b72b40125aaee8335dc145cdc6e2f1" category="inline-link-macro">登录到BlueXP分类系统</block>
   <block id="5b40d5baf253a6d11974d57a0890fe5a" category="paragraph">要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。</block>
-  <block id="dd2a68717d555f6a974eca51868e4e97" category="list-text">*NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP连接器系统之间的时间必须同步。</block>
   <block id="bc43ce46ec2d6fbf9c8f6da8a4306dd8" category="section-title">日志文件位置</block>
   <block id="4f2ff1b367ff3e36e64a9ae197aa8277" category="paragraph">每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统中最多保留100个日志文件-达到最大值后、较早的日志文件将自动删除。</block>
   <block id="8d62d7d8c4e5247ff9d832d971c73356" category="section-title">访问日志文件</block>
   <block id="1adc1bcbca14587886f0722f89d1238c" category="paragraph">您需要登录BlueXP分类系统才能访问日志文件。请参见操作说明 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。</block>
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">登录到BlueXP分类主机</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">请参见操作说明 <block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>。</block>
+  <block id="dfd993077bb353282906702dc3143ec7" category="list-text">*NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。</block>
+  <block id="0d7b5294055876bf358044259606856f" category="paragraph">BlueXP分类可捕获元数据、例如：文件名、权限、创建时间、上次访问和上次修改。这包括"数据调查详细信息"页面和"数据调查报告"中显示的所有元数据。</block>
+  <block id="829d8d2f641dd9e58ec1a7d5e605ae21" category="inline-link">BlueXP分类扫描的私有数据的类别</block>
+  <block id="3db00327e72827118e6c677e24f6a704" category="paragraph">BlueXP分类可以识别多种类型的私有数据、例如个人数据和敏感个人数据。有关私有数据的详细信息、请参见<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>。</block>
+  <block id="74d4d96e624f192d4ebed96b99d9cedd" category="paragraph">扫描的数据会保留在您的环境中。</block>
+  <block id="b39079257432aa2e0ea1ac3e4e36cdf8" category="section-title">如何处理敏感数据？</block>
+  <block id="35a8814c3eaa26f66ca3a0eea1193f70" category="paragraph">NetApp无法访问敏感数据、也不会在UI中显示这些数据。敏感数据会被屏蔽、例如、信用卡信息会显示最后四个数字。</block>
+  <block id="a6b6381d05f6dc9530f37099c9feb5cf" category="section-title">数据存储在何处？</block>
+  <block id="efe4cf854e0017e5c35b4f8fb03e5a1b" category="paragraph">扫描结果存储在BlueXP分类实例中的Elastisearch中。</block>
+  <block id="dbe9d1b278184da6355700a9d5f9c0e6" category="section-title">如何访问数据？</block>
+  <block id="9e52028c48600512f13df2884f1ec709" category="paragraph">BlueXP分类可通过API调用访问存储在El路径 搜索中的数据、API调用需要进行身份验证、并使用AES-128进行加密。要访问El路径 搜索、直接需要root访问权限。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用Microsoft Entra ID作为特定于支持和许可的身份验证服务的身份提供程序。</block>
 </blocks>
