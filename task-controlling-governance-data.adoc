@@ -4,7 +4,7 @@ permalink: task-controlling-governance-data.html
 keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
 summary: 控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。 
 ---
-= 查看有关存储在组织中的数据的监管详细信息
+= 查看有关组织中存储的数据的监管详细信息
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -28,7 +28,7 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP分类监管信息�
 
 
 
-=== 节省机会
+=== 节省商机
 
 您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。单击每个项可在 " 调查 " 页面中查看筛选后的结果。
 
@@ -44,7 +44,7 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP分类监管信息�
 ** 其他（一般 " 其他 " 类别）
 
 
-* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-investigate-data.html#viewing-all-duplicated-files["查看显示的重复文件类型"]。
+* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-investigate-data.html#view-all-duplicated-files["查看显示的重复文件类型"]。
 +
 注意:: 如果您的任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会标识在_stale Data_类别中。
 
@@ -131,7 +131,7 @@ _Open Permissions_area 显示正在扫描的所有文件中存在的每种类型
 
 === 最明确的数据分类
 
-_Classification_area 提供了一个标识最多的列表 link:task-controlling-private-data.html#viewing-files-by-categories["类别"^]， link:task-controlling-private-data.html#viewing-files-by-file-types["文件类型"^]，和 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"^] 扫描的数据。
+_Classification_area 提供了一个标识最多的列表 link:task-controlling-private-data.html#view-files-by-categories["类别"^]， link:task-controlling-private-data.html#view-files-by-file-types["文件类型"^]，和 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"^] 扫描的数据。
 
 
 
@@ -139,7 +139,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。
 
-请参见 link:task-controlling-private-data.html#viewing-files-by-categories["按类别查看文件"^] 有关详细信息 ...
+请参见 link:task-controlling-private-data.html#view-files-by-categories["按类别查看文件"^] 有关详细信息 ...
 
 
 
@@ -147,7 +147,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。
 
-请参见 link:task-controlling-private-data.html#viewing-files-by-file-types["查看文件类型"^] 有关详细信息 ...
+请参见 link:task-controlling-private-data.html#view-files-by-file-types["查看文件类型"^] 有关详细信息 ...
 
 
 
@@ -155,7 +155,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。
 
-请参见 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"^] 有关详细信息 ...
+请参见 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"^] 有关详细信息 ...
 
 
 
@@ -183,7 +183,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 |===
 
 
-=== 正在生成数据映射报告
+=== 生成数据映射报告
 
 您可以从BlueXP分类中的"监管"选项卡生成此报告。
 
@@ -198,7 +198,7 @@ image:screenshot_compliance_data_mapping_report_button.png["监管信息板的�
 .结果
 BlueXP分类可生成PDF报告、您可以根据需要查看该报告并将其发送给其他组。
 
-如果报告大于1 MB、则PDF文件将保留在BlueXP分类实例中、您将看到有关确切位置的弹出消息。当BlueXP分类安装在内部环境中的Linux计算机上或云中部署的Linux计算机上时、您可以直接导航到PDF文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载PDF文件。 link:task-audit-data-sense-actions.html#access-the-log-file["请参见如何访问分类实例上的数据"^]。
+如果报告大于1 MB、则PDF文件将保留在BlueXP分类实例中、您将看到有关确切位置的弹出消息。当BlueXP分类安装在内部环境中的Linux计算机上或云中部署的Linux计算机上时、您可以直接导航到PDF文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载PDF文件。 link:task-audit-data-sense-actions.html#access-the-log-files["请参见如何访问分类实例上的数据"^]。
 
 请注意、您可以通过单击BlueXP分类页面顶部的自定义报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
 

@@ -21,7 +21,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 
 
-== 筛选 " 数据调查 " 页面中的数据
+== 筛选"数据调查"页面中的数据
 
 您可以筛选调查页面的内容，以便仅显示要查看的结果。这是一项功能非常强大的功能、因为在对数据进行细化后、您可以使用页面顶部的按钮栏执行各种操作、包括复制文件、移动文件、向文件添加标记或AIP标签等。
 
@@ -29,8 +29,8 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 image:screenshot_compliance_investigation_filtered.png["在调查页面中细化结果时可用筛选器的屏幕截图。"]
 
-* 通过顶层选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。
-* 通过每列顶部的控件，您可以按数字或字母顺序对结果进行排序。
+* 通过顶级选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。
+* 通过每列顶部的控件、您可以按数字或字母顺序对结果进行排序。
 * 通过左窗格筛选器、您可以选择下一节所述的属性来细化结果。
 
 
@@ -51,7 +51,9 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 敏感度级别 | 选择敏感度级别：个人、敏感个人或非敏感。 
 
 
-| 标识符数量 | 选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。 
+| 标识符数量 | 选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。
+
+注意：2023年12月(1.26.6版)发布的版本暂时删除了按目录计算个人身份信息(Personal可识别信息、个人身份信息)数据数量的选项。 
 
 
 | 个人数据 | 选择 link:reference-private-data-categories.html#types-of-personal-data["个人数据的类型"^]。 
@@ -60,7 +62,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 敏感个人数据 | 选择 link:reference-private-data-categories.html#types-of-sensitive-personal-data["敏感个人数据的类型"^]。 
 
 
-| 数据主题 | 输入数据主体的全名或已知标识符。 link:task-generating-compliance-reports.html#searching-for-data-subjects-and-downloading-reports["单击此处了解有关数据主题的更多信息"^]。 
+| 数据主题 | 输入数据主体的全名或已知标识符。 link:task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports["单击此处了解有关数据主题的更多信息"^]。 
 |===
 
 
@@ -168,10 +170,10 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 | 策略 | 选择一个或多个策略。开始 link:task-using-policies.html["此处"^] 可查看现有策略列表并创建您自己的自定义策略。 
 
 
-| Label | 选择 ... link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"] 分配给文件的。 
+| Label | 选择 ... link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"] 分配给文件的。 
 
 
-| Tags | 选择 ... link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["一个或多个标记"] 分配给文件的。 
+| Tags | 选择 ... link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["一个或多个标记"] 分配给文件的。 
 
 
 | 已分配给 | 选择将文件分配到的人员的姓名。 
@@ -215,17 +217,17 @@ link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"
 
 image:screenshot_compliance_file_details.png["显示数据调查页面中文件的元数据详细信息的屏幕截图。"]
 
-除了向您显示文件所在的工作环境和卷之外，元数据还会显示更多信息，包括文件权限，文件所有者，此文件是否存在重复项以及分配的 AIP 标签（如果有） link:task-org-private-data.html#categorizing-your-data-using-aip-labels["BlueXP分类中的集成AIP"^]）。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#creating-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
+除了向您显示文件所在的工作环境和卷之外，元数据还会显示更多信息，包括文件权限，文件所有者，此文件是否存在重复项以及分配的 AIP 标签（如果有） link:task-org-private-data.html#categorize-your-data-using-aip-labels["BlueXP分类中的集成AIP"^]）。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#create-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
 
 请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如，卷名称，权限和 AIP 标签与数据库文件无关。
 
 查看单个文件的详细信息时，可以对该文件执行以下操作：
 
-* 您可以将此文件移动或复制到任何 NFS 共享。请参见 link:task-managing-highlights.html#moving-source-files-to-an-nfs-share["将源文件移动到 NFS 共享"] 和 link:task-managing-highlights.html#copying-source-files["将源文件复制到 NFS 共享"] 了解详细信息。
-* 您可以删除此文件。请参见 link:task-managing-highlights.html#deleting-source-files["正在删除源文件"] 了解详细信息。
-* 您可以为文件分配特定状态。请参见 link:task-org-private-data.html#applying-tags-to-manage-your-scanned-files["正在应用标记"] 了解详细信息。
-* 您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 link:task-org-private-data.html#assigning-users-to-manage-certain-files["为文件分配用户"] 了解详细信息。
-* 如果已将AIP标签与BlueXP分类集成在一起、则可以为此文件分配一个标签、或者更改为其他标签(如果已存在)。请参见 link:task-org-private-data.html#assigning-aip-labels-manually["手动分配 AIP 标签"] 了解详细信息。
+* 您可以将此文件移动或复制到任何 NFS 共享。请参见 link:task-managing-highlights.html#move-source-files-to-an-nfs-share["将源文件移动到 NFS 共享"] 和 link:task-managing-highlights.html#copy-source-files["将源文件复制到 NFS 共享"] 了解详细信息。
+* 您可以删除此文件。请参见 link:task-managing-highlights.html#delete-source-files["正在删除源文件"] 了解详细信息。
+* 您可以为文件分配特定状态。请参见 link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["正在应用标记"] 了解详细信息。
+* 您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 link:task-org-private-data.html#assign-users-to-manage-certain-files["为文件分配用户"] 了解详细信息。
+* 如果已将AIP标签与BlueXP分类集成在一起、则可以为此文件分配一个标签、或者更改为其他标签(如果已存在)。请参见 link:task-org-private-data.html#assign-aip-labels-manually["手动分配 AIP 标签"] 了解详细信息。
 
 
 
@@ -252,11 +254,11 @@ image:screenshot_compliance_permissions.png["显示详细文件权限的屏幕�
 
 BlueXP分类使用散列技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。
 
-您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。您也可以 link:task-managing-highlights.html#deleting-source-files["删除文件"] 如果您确信不需要特定版本的文件，请自行选择。
+您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。您也可以 link:task-managing-highlights.html#delete-source-files["删除文件"] 如果您确信不需要特定版本的文件，请自行选择。
 
 
 
-=== 查看所有重复的文件
+=== 查看所有复制的文件
 
 如果您需要列出在工作环境中复制的所有文件以及正在扫描的数据源，则可以在 " 数据调查 " 页面中使用名为 * 重复项 > 具有重复项 * 的筛选器。
 

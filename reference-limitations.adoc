@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-limitations.html 
-keywords: limitations, data sense, classification, scan shares 
+keywords: limitations, data sense, classification, bluexp, scan shares 
 summary: 已知限制用于说明此产品版本不支持的功能或无法与其正确交互的功能。仔细审查这些限制。 
 ---
 = 已知限制
@@ -15,6 +15,17 @@ summary: 已知限制用于说明此产品版本不支持的功能或无法与�
 
 [role="lead"]
 已知限制用于说明此产品版本不支持的功能或无法与其正确交互的功能。仔细审查这些限制。
+
+
+
+== BlueXP分类版本暂时删除了选项
+
+2023年12月(1.26.6版)版本暂时删除了以下选项：
+
+* 已禁用用于激活审核日志收集的选项。
+* 在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、
+* 已禁用使用Azure信息保护(AIP)标签集成数据的选项。
+
 
 
 

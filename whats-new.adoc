@@ -18,7 +18,7 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
-== 1月10日(版本1.27)
+== 2024年1月10日(版本1.27)
 
 
 
@@ -34,7 +34,20 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
-== 11月6日(版本1.26.3)
+== 2023年12月(版本1.26.6)
+
+此版本包含一些小的增强功能。
+
+此版本还暂时删除了以下选项：
+
+* 已禁用用于激活审核日志收集的选项。请参见 link:task-manage-file-access-events.html["监控和管理文件访问事件"]。
+* 在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参见 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["调查存储在组织中的数据"]。
+* 已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参见 link:task-org-private-data.html["组织您的私有数据"]。
+
+
+
+
+== 2023年11月6日(版本1.26.3)
 
 
 
@@ -46,7 +59,7 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
-== 10月4日(版本1.26)
+== 2023年10月4日(版本1.26)
 
 
 
@@ -58,7 +71,7 @@ Red Hat Enterprise Linux版本8和9不支持Docker引擎；BlueXP分类安装需
 
 
 
-== 9月5日(版本1.25)
+== 2023年9月5日(版本1.25)
 
 
 
@@ -70,7 +83,7 @@ Red Hat Enterprise Linux版本8和9不支持Docker引擎；BlueXP分类安装需
 
 === 在"调查结果"页面中对多达100、000个商品应用标记
 
-过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。 https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["了解如何操作"]。
+过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。 https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assign-tags-to-files["了解如何操作"]。
 
 
 
@@ -239,7 +252,7 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 在早期版本的BlueXP分类中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。
 
-https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found["了解有关根据策略结果发送电子邮件警报的更多信息"]。
+https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#send-email-alerts-when-non-compliant-data-is-found["了解有关根据策略结果发送电子邮件警报的更多信息"]。
 
 
 
@@ -253,7 +266,7 @@ https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.ht
 
 === 能够使用BlueXP分类移动1、500万个文件
 
-过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。 https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#moving-source-files-to-an-nfs-share["了解有关使用BlueXP分类移动源文件的更多信息"]。
+过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。 https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#move-source-files-to-an-nfs-share["了解有关使用BlueXP分类移动源文件的更多信息"]。
 
 
 
@@ -288,7 +301,7 @@ https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.ht
 * 现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果您输入包含和排除某些数据的路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除的路径中删除文件、最后显示结果。
 
 
-https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filtering-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
+https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-in-the-data-investigation-page["查看可用于调查数据的所有筛选器的列表"]。
 
 
 

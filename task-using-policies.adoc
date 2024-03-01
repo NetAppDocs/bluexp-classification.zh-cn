@@ -34,7 +34,7 @@ image:screenshot_compliance_highlights_tab.png["BlueXP分类信息板中的\"Pol
 
 
 
-== 在 " 调查 " 页面中查看策略结果
+== 在调查页面中查看策略结果
 
 要在 " 调查 " 页面中显示策略的结果，请单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，然后选择 * 调查结果 * 。
 
@@ -58,9 +58,9 @@ image:screenshot_compliance_save_as_highlight.png["显示如何将筛选的查�
 +
 .. 输入唯一名称和问题描述。
 .. 或者，选中此框可自动删除与策略参数匹配的文件。了解更多信息 <<使用策略自动删除源文件,使用策略删除源文件>>。
-.. 或者、如果您希望向帐户中的BlueXP用户发送通知电子邮件、请选中此复选框、然后选择发送电子邮件的间隔。了解更多信息 <<在发现不合规数据时发送电子邮件警报,根据策略结果发送电子邮件警报>>。
+.. 或者、如果您希望向帐户中的BlueXP用户发送通知电子邮件、请选中此复选框、然后选择发送电子邮件的间隔。了解更多信息 <<发现不合规数据时发送电子邮件警报,根据策略结果发送电子邮件警报>>。
 .. 或者、如果您希望向其他用户发送通知电子邮件、请选中此框、最多输入20个电子邮件地址、然后选择发送电子邮件的间隔。
-.. 或者，选中此框可自动为与策略参数匹配的文件分配 AIP 标签，然后选择此标签。（仅当您已集成 AIP 标签时。了解更多信息 link:task-org-private-data.html#categorizing-your-data-using-aip-labels["AIP 标签"]）
+.. 或者，选中此框可自动为与策略参数匹配的文件分配 AIP 标签，然后选择此标签。（仅当您已集成 AIP 标签时。了解更多信息 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"]）
 .. 单击 * 创建策略 * 。
 +
 image:screenshot_compliance_save_highlight.png["显示如何配置和保存策略的屏幕截图。"]
@@ -74,7 +74,7 @@ image:screenshot_compliance_save_highlight.png["显示如何配置和保存策�
 
 
 
-== 在发现不合规数据时发送电子邮件警报
+== 发现不合规数据时发送电子邮件警报
 
 当某些关键策略返回结果时、BlueXP分类可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得通知来保护数据。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。
 
@@ -135,7 +135,7 @@ image:screenshot_compliance_delete_files_using_policies.png["显示如何配置�
 
 
 
-== 使用策略自动分配 AIP 标签
+== 使用策略自动分配AIP标签
 
 您可以为符合策略标准的所有文件分配 AIP 标签。您可以在创建策略时指定 AIP 标签，也可以在编辑任何策略时添加此标签。
 
@@ -210,7 +210,7 @@ image:screenshot_compliance_edit_policy_query.png["显示如何通过更改筛�
 
 
 
-== 正在删除策略
+== 删除策略
 
 如果您不再需要创建的任何自定义策略，则可以将其删除。您无法删除任何预定义策略。
 

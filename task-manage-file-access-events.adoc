@@ -20,6 +20,9 @@ summary: '您可以配置BlueXP分类、以便在访问或更改要扫描的文�
 
 您可以在运行ONTAP 软件的工作环境中的任何关键卷上启用此功能。在卷上启用后、系统会跟踪卷中所有文件和目录的文件访问事件。此功能基于 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["FPolicy功能"^] 从ONTAP 系统接收通知消息(事件)、并使用BlueXP分类系统作为FPolicy服务器从ONTAP 接收通知消息(事件)。BlueXP分类大约每秒可处理来自ONTAP的990个事件。
 
+
+NOTE: 2023年12月(1.26.6版)版本暂时删除了用于激活审核日志收集的选项。
+
 BlueXP分类当前会捕获文件和目录上以下操作的事件：
 
 * 创建

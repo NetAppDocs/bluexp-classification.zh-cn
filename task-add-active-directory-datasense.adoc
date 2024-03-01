@@ -20,8 +20,8 @@ summary: 您可以将全局Active Directory与BlueXP分类相集成、以增强B
 
 此集成在BlueXP分类的以下位置提供追加信息 ：
 
-* 您可以使用 " 文件所有者 " link:task-investigate-data.html#filtering-data-in-the-data-investigation-page["筛选器"] 并在"调查"窗格中查看文件元数据的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。
-* 您可以看到 link:task-investigate-data.html#viewing-permissions-for-files-and-directories["完整文件权限"] 单击"查看所有权限"按钮时对每个文件和目录执行此操作。
+* 您可以使用 " 文件所有者 " link:task-investigate-data.html#filter-data-in-the-data-investigation-page["筛选器"] 并在"调查"窗格中查看文件元数据的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。
+* 您可以看到 link:task-investigate-data.html#view-permissions-for-files-and-directories["完整文件权限"] 单击"查看所有权限"按钮时对每个文件和目录执行此操作。
 * 在中 link:task-controlling-governance-data.html["监管信息板"]下，打开权限面板将显示有关数据的更详细信息。
 
 
@@ -47,7 +47,7 @@ NOTE: 本地用户 SID 和未知域中的 SID 不会转换为实际用户名。
 
 
 
-== 正在连接到 Active Directory 服务器
+== 连接到Active Directory服务器
 
 在部署BlueXP分类并对数据源激活扫描后、您可以将BlueXP分类与Active Directory集成。可以使用 DNS 服务器 IP 地址或 LDAP 服务器 IP 地址访问 Active Directory 。
 
@@ -114,7 +114,7 @@ image:screenshot_compliance_active_directory_added.png["显示BlueXP中集成的
 
 
 
-== 管理 Active Directory 集成
+== 管理Active Directory集成
 
 如果需要修改 Active Directory 集成中的任何值，请单击 * 编辑 * 按钮并进行更改。
 

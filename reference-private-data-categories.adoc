@@ -23,7 +23,7 @@ TIP: 如果您需要BlueXP分类来识别其他私有数据类型、例如其他
 
 == 个人数据的类型
 
-文件中的个人数据可以是常规个人数据或国家标识符。下表中的第三列标识了BlueXP分类是否使用 link:task-controlling-private-data.html#viewing-files-that-contain-personal-data["接近验证"^] 以验证其对标识符的发现。
+文件中的个人数据可以是常规个人数据或国家标识符。下表中的第三列标识了BlueXP分类是否使用 link:task-controlling-private-data.html#view-files-that-contain-personal-data["接近验证"^] 以验证其对标识符的发现。
 
 表中列出了可识别这些项目的语言。
 

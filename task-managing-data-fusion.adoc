@@ -40,7 +40,7 @@ image:diagram_compliance_data_fusion.png["一个图，显示如何将数据库�
 请注意、由于您正在扫描自己的数据库、因此在未来的BlueXP分类扫描中、将使用存储数据的任何语言来标识数据。
 
 .步骤
-您必须拥有 link:task-scanning-databases.html#adding-the-database-server["已至少添加一个数据库服务器"^] 到BlueXP分类、然后才能添加数据Fusion 源。
+您必须拥有 link:task-scanning-databases.html#add-the-database-server["已至少添加一个数据库服务器"^] 到BlueXP分类、然后才能添加数据Fusion 源。
 
 . 在配置页面中，单击源数据所在数据库中的 * 管理 Data Fusion * 。
 +
@@ -184,7 +184,7 @@ BlueXP分类采用它扫描的数据并将其划分为不同类型的类别。�
 
 例如、您可能希望查看.gz格式的压缩安装文件在文件中的位置、以便在必要时将其删除。
 
-更新自定义类别后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"类别"部分下、以及调查页面中的"类别"筛选器中。 link:task-controlling-private-data.html#viewing-files-by-categories["请参见如何按类别查看文件"]。
+更新自定义类别后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"类别"部分下、以及调查页面中的"类别"筛选器中。 link:task-controlling-private-data.html#view-files-by-categories["请参见如何按类别查看文件"]。
 
 .您需要的内容
 您至少需要创建25个培训文件、这些文件包含您希望BlueXP分类识别的数据类别的示例。支持以下文件类型：
