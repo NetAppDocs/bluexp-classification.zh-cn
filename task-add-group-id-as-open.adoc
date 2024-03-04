@@ -4,7 +4,7 @@ permalink: task-add-group-id-as-open.html
 keywords: permissions, open to organization, file access 
 summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。' 
 ---
-= 将其他组ID定义为"对组织开放"
+= 将其他组ID定义为对组织开放
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -27,13 +27,14 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 在开始此任务之前、您需要知道组ID编号(GID)。
 
 .步骤
-. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件"data_Provider.yamL"。
+. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件 `data_provider.yaml`。
 . 在"organation_group_ids：[]"行中、添加组ID。例如：
 +
  organization_group_ids: [1014, 1015, 21, 2021, 1013, 2020, 1018, 1019]
 +
 请勿更改此文件中的任何其他内容。
 
+. 将更改保存到文件。
 . 转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：
 +
  update_data_providers_from_config_file.sh
@@ -42,10 +43,15 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 
 
 
+.结果
 对数据进行的所有后续扫描都将确定附加了这些组ID的文件或文件夹为"对组织开放"。
 
 您可以使用上述相同步骤编辑组ID列表并删除过去添加的任何组ID。在运行脚本提交更改后、修订后的组ID列表将会更新。
 
-要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：
+
+
+== 查看当前组ID列表
+
+可以查看的内容 `data_provider.yaml` 配置文件与运行后实际提交的配置文件不同 `update_data_providers_from_config_file.sh` 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：
 
  get_data_providers_configuration.sh

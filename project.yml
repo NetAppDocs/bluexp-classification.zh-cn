@@ -88,6 +88,8 @@ sidebar:
     entries:
     - title: 添加自定义个人数据标识符
       url: "/task-managing-data-fusion.html"
+    - title: 从扫描中排除目录
+      url: "/task-exclude-scan-paths.html"
     - title: 查看BlueXP分类操作的状态
       url: "/task-view-compliance-actions.html"
     - title: 将现有组ID定义为"对组织开放"

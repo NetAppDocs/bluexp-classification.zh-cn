@@ -1654,13 +1654,6 @@
   <block id="6187258d3b87228cf977d535a5db1ea0" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 选择扫描用户文件的类型</block>
   <block id="1a7c4f8acb1e42cdd7c2f34894fc2a2a" category="cell">大型(默认)</block>
   <block id="9868eea85c69d464c823a4c7e185121a" category="section-title">映射扫描与分类扫描之间的区别是什么</block>
-  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022年12月11日(1.18版)</block>
-  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">内部安装增强功能</block>
-  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">内部Data sense安装增加了以下增强功能：</block>
-  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">现在、在内部主机上开始安装之前、系统会检查一些其他前提条件。这有助于确保主机系统已完全准备好安装Data sense软件：</block>
-  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">测试所有所需文件夹上的相关权限</block>
-  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">现在、在配置页面中、工作环境部分将显示_Working Environment ID_和_扫描 程序组_名称。如果您计划使用多个Data sense主机来提供额外的处理能力来扫描数据源、则需要了解工作环境ID。</block>
-  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">了解有关在一台主机服务器和多台主机上安装Data sense的更多信息</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看对象存储前提条件</block>
@@ -1672,8 +1665,6 @@
   <block id="23dcbd39a65a485d50a0307dbfaed624" category="list-text">运行以下脚本、将此映射信息注册到所有扫描程序节点：<block ref="095075046e7ff767d3fd56d02f6fdfdb" prefix=" " category="inline-code"></block></block>
   <block id="a27db93614949e38a138b99356391903" category="paragraph-title">前提条件步骤</block>
   <block id="ddeaea1d2d5cacbe438413e4143bca6e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 在云环境中设置 S3 要求</block>
-  <block id="c73eb1c0478b9ea7f0699ac7b64d4214" category="list-text">测试上是否有足够的空间<block ref="2e1a4e3f55001820560b237188c70bc3" prefix=" " category="inline-code"></block>，<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block>，和<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block></block>
-  <block id="da8fda88af08dfa86e6c1895e629a7a5" category="list-text">此外、在配置页面中、还会显示一个新部分、其中显示了您设置的扫描程序组以及每个组中的扫描程序节点。</block>
   <block id="a0bc8fee488c4982eb9cac7b4cd30c5d" category="list-text">Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。如果Connector位于云中、则预定义的防火墙或路由规则允许所有出站通信。</block>
   <block id="be8e8316109467c39dd04940dda55d9c" category="list-text">打开文件"/opt/netapp/Datasens/工作 环境_to_scanner_group_config.yml"、并输入要扫描特定工作环境的扫描程序组的映射。您需要为每个数据源提供_Working Environment ID_。例如、以下条目会将2个工作环境添加到"欧洲"扫描程序组、并将2个添加到"美国"扫描程序组：</block>
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">如果尚未扫描、您可以从配置页面中选择要扫描的数据源。如果创建了扫描程序组、则每个数据源都会由相应组中的扫描程序节点进行扫描。</block>
@@ -2957,7 +2948,6 @@
   <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">新的"部分成功"状态表示BlueXP分类操作已完成、某些项目失败、而某些项目成功、例如、当您移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着对所有项目执行的所有操作都成功。<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>。</block>
   <block id="fccd9d5627e0ea943a2decbcedc75caf" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这样可以帮助您了解敏感数据可能存在哪些风险。<block ref="7c90c3d5fe3f2a4e9ca8ce0d84318210" category="inline-link-rx"></block>。</block>
   <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括"个人"和"公司我的号码"。<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>。</block>
-  <block id="70ef9f0f001698901fc7782c85efbd22" category="paragraph"><block ref="d164dabede0c4e6f2317947d0f40a4c9" category="inline-link-rx"></block>。</block>
   <block id="9aeb191a0aa6c1027436d873f00b71c9" category="paragraph">您可以<block ref="1f636e96c754f54f3e3b5b9bf17177fa" category="inline-link-rx"></block> 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。</block>
   <block id="1b01b1e09dd0c52ed6a6d8b4ca2a0568" category="paragraph">要在云提供商环境中创建Connector、请参见<block ref="43c354a9e10c487e79b72ac55319f506" category="inline-link-rx"></block>，<block ref="f57cc468ab9bea4198c876368a971c60" category="inline-link-rx"></block>或<block ref="4ed2379781d8ba33fa9fe0959039a8e2" category="inline-link-rx"></block>。</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
@@ -3317,14 +3307,12 @@
   <block id="c0796e6eb525f9f4fe2a9d96a28d314a" category="list-text">目录名称</block>
   <block id="ea36f55b106d5d1443d6a1e80c18df3d" category="list-text">目录所有者</block>
   <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
-  <block id="9ada56a36c98a6592b93aac97b759b65" category="doc">将其他组ID定义为"对组织开放"</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。</block>
   <block id="c079e3a087379d135bc6228cdbf4538d" category="section-title">登录到BlueXP分类系统</block>
   <block id="3e6039a3c9f368f407b293a4cae886e2" category="paragraph">如果BlueXP分类安装在内部环境中的Linux计算机上或部署在云中的Linux计算机上、则可以直接访问配置文件和脚本。</block>
   <block id="aea796c551760c123249c98597ef5dab" category="section-title">为组ID添加"向组织开放"权限</block>
   <block id="cab0d8189f1383e6633abad2d8bb10e2" category="paragraph">在开始此任务之前、您需要知道组ID编号(GID)。</block>
-  <block id="2783de23499f1b6912284079950af328" category="list-text">在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件"data_Provider.yamL"。</block>
   <block id="f81b0bf85bf2ac124c8235722fd5953b" category="list-text">在"organation_group_ids：[]"行中、添加组ID。例如：</block>
   <block id="98ab797cb238cc535772dce1663baf49" category="paragraph">请勿更改此文件中的任何其他内容。</block>
   <block id="8a9190ee1ce170537f2281a1fd3efbf8" category="paragraph">此命令会将修改后的组ID权限提交到分类引擎。</block>
@@ -3336,7 +3324,6 @@
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">将其他组ID添加为"对组织开放"</block>
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">将现有组ID定义为"对组织开放"</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：</block>
-  <block id="d16189c10d4d8a98db7b1b99d883a1fd" category="paragraph">要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
   <block id="3fa1e4aec3c930accd20ae2a1e354a79" category="paragraph">BlueXP支持其服务的REST API功能。如果BlueXP不是首选管理点、则也可以通过REST API使用BlueXP分类等服务。每个用户操作都有一个可与第三方系统集成的REST API。请参见 <block ref="6cf6f695e0ddd2cc536783d6e0951a10" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="da4874b0888a9dafc160c24905184d23" category="section-title">是否已扫描驻留在ONTAP卷上的Snapshot副本？</block>
@@ -3465,7 +3452,6 @@
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">添加数据库服务器</block>
   <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">对数据库架构启用和禁用合规性扫描</block>
   <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024年1月10日(版本1.27)</block>
-  <block id="c0aa452130abaadece0c71d90274bb8e" category="section-title">2023年12月(版本1.26.6)</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增强功能。</block>
   <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">此版本还暂时删除了以下选项：</block>
   <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">已禁用用于激活审核日志收集的选项。请参见 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>。</block>
@@ -3512,7 +3498,6 @@
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">查看包含私有信息的文件</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">查看存储中重复的文件</block>
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">筛选数据以查看特定文件</block>
-  <block id="ca60961cf2d876d600daca4a1ad60001" category="sidebar">创建策略以查看排名靠前的搜索</block>
   <block id="514f916b25444f3ec0ab113c2706f83a" category="sidebar">将标记和所有者应用于需要关注的文件</block>
   <block id="b33a306cb7abd3790ba4311eb102a667" category="sidebar">添加您自己的自定义个人数据标识符</block>
   <block id="2987f20ce906ae32ec7e3e192413377f" category="sidebar">移动源文件</block>
@@ -3524,4 +3509,68 @@
   <block id="ca37e37afe1d388be7dabea9f8f09ba3" category="sidebar">BlueXP分类视频</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="f93e4e0ba0745745e36a3b67b14a8a5b" category="sidebar">BlueXP网络研讨会</block>
+  <block id="8180cc16c2c6f5d6b650c76944d52252" category="summary">如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到配置文件中。应用此更改后、BlueXP分类引擎将排除这些目录中的扫描数据。</block>
+  <block id="f6af5e23cd22bc5f1b7833ad602a5c38" category="doc">从BlueXP分类扫描中排除特定目录</block>
+  <block id="bea0fd574e5a5abde1c8262dbd6e2370" category="paragraph">请注意、默认情况下、BlueXP分类会配置为排除扫描卷快照数据、因为该内容与卷中的内容相同。</block>
+  <block id="efebf801e240ae82ed1c434305548b38" category="paragraph">BlueXP分类版本1.29及更高版本(从2024年3月开始)提供了此功能。</block>
+  <block id="0abc7ce542155915b82311c6450bea62" category="paragraph">以下数据源中的NFS和CIFS共享支持从BlueXP分类扫描中排除特定目录：</block>
+  <block id="49fe103d0a39e5feeddf772106a8122e" category="list-text">常规文件共享</block>
+  <block id="cf2e31e61b9c0d3547f54fc506e4b383" category="section-title">定义要从扫描中排除的目录</block>
+  <block id="78e986fa820c103dbcc45ed24bd2f383" category="paragraph">在从分类扫描中排除目录之前、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 <block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block> 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。</block>
+  <block id="bc6218284832af039faeb4c497e97a18" category="list-text">每个BlueXP分类系统最多可以排除50个目录路径。</block>
+  <block id="66a7b6ae1af91171aaf4ecc7afd0b7d0" category="list-text">排除目录路径可能会影响扫描时间。</block>
+  <block id="2e19c6096e07e117219780aee7f88c45" category="list-text">在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block>。</block>
+  <block id="6e0803e8653caacbe1a019f32eda00bb" category="list-text">在"data_提供 程序"部分的"exc我们："行下、输入要排除的目录路径。例如：</block>
+  <block id="5a0dfd405c0424a01f42cdb7e596d91c" category="list-text">将更改保存到文件。</block>
+  <block id="d661ab86a14960e8bcf6cdfa727299d1" category="paragraph">此命令会将要从扫描中排除的目录提交到分类引擎。</block>
+  <block id="21f183efd2dff70b58a99d83fc4f0ce7" category="paragraph">对数据的所有后续扫描都将排除对这些指定目录的扫描。</block>
+  <block id="a495b8035b743d8b7dea2d9d0918de77" category="paragraph">您可以使用这些相同步骤从排除列表中添加、编辑或删除项目。在您运行脚本提交更改后、修订后的排除列表将会更新。</block>
+  <block id="ff7c0fcd6a31e735a61c001f75426961" category="section-title">示例</block>
+  <block id="0440227581515c72236de5a764242d5c" category="paragraph-title">配置1：</block>
+  <block id="8c0f7ed2eea737d19ff087745c78f4ae" category="paragraph">名称中任何位置包含"folder1"的每个文件夹都将从所有数据源中排除。</block>
+  <block id="d6d0a43c6c69d1f785258f09797e96a2" category="list-title">要排除的路径的预期结果：</block>
+  <block id="0d30977fecaa90640135943496e20863" category="list-text">/CVO1/fOLder1</block>
+  <block id="8eb7d336cfc030df3afe89d5c289514d" category="list-text">/CVO1/fOLder1name</block>
+  <block id="9f2d1aa2824b0506dd1e80da3eaebd63" category="list-text">/CVO1/fOLder10</block>
+  <block id="15fb383027ef8fbe15d374b2efc33994" category="list-text">/CVO1/*fOLder1.</block>
+  <block id="569806d3b5250620ff0f137d85df73c4" category="list-text">/CVO1/+fOLder1name</block>
+  <block id="d6f23bc30d0950bf24b440de3579ee1f" category="list-text">/CVO1/notfolder10.</block>
+  <block id="7e3057c60782470bd7f0c765e4d614b9" category="list-text">/CVO22/fOLder1</block>
+  <block id="b18ea64bfd5aa27240193320e354bfeb" category="list-text">/CVO22/fOLder1name</block>
+  <block id="6fdf0a8d667f474107a56d7566260558" category="list-text">/CVO22/fOLder10.</block>
+  <block id="7c9e22babb20d95a6ccacbc12c6e72db" category="list-title">不会排除的路径示例：</block>
+  <block id="ec2b190a955f29720921cc8e6a67731d" category="list-text">/CVO1/*文件夹</block>
+  <block id="0856e33548ceb338ab56d993d8281098" category="list-text">/CVO1/fOLdername</block>
+  <block id="14b8fac51101a115be8405f9d25adf0c" category="list-text">/CVO22/*文件20</block>
+  <block id="ce6c202454d84db0a51ee3b673259d76" category="paragraph-title">配置2：</block>
+  <block id="cd10b67d6b72e9152aca54085862e630" category="paragraph">仅在名称开头包含"*folder1"的每个文件夹都将被排除。</block>
+  <block id="33114d8cd4f5562094ea8f71798fab0c" category="list-text">/cvO/*文件1</block>
+  <block id="07099186c5910fc2467ae1b4757b70f3" category="list-text">/cvO/*fOLder1name</block>
+  <block id="b96768cc207dc3d7940a06aed4482e49" category="list-text">/cvO/*文件10.</block>
+  <block id="129853dc73d0231d5c812823e2480cba" category="list-text">/cvo/fOLder1</block>
+  <block id="c855f79110a45e3cf4ee4a2e9f07d01c" category="list-text">/cvo/folder1name</block>
+  <block id="5b6734714cb7b0ac3b7b695994d18616" category="list-text">/cvo/not *文件10.</block>
+  <block id="d3b9102bc3b45248bbfec3ec65c81ffd" category="paragraph-title">配置3：</block>
+  <block id="c962d247f3d6cbb96db748ddbc8947d0" category="paragraph">数据源"CVO22"中名称中任意位置包含"folder1"的每个文件夹都将被排除。</block>
+  <block id="85aafa7a10a33b1a6b3edd3a981f3e09" category="section-title">转义文件夹名称中的特殊字符</block>
+  <block id="555e1283533f2fd2406da22eb7c48543" category="paragraph">如果您的文件夹名称包含以下特殊字符之一、而您希望不扫描该文件夹中的数据、则需要在文件夹名称前面使用转义序列\\。</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">例如：</block>
+  <block id="f6b342a69edf320338b3f72b95931768" category="paragraph">源中的路径：<block ref="4cd339ff39aca9d50d4472947a989dc1" prefix=" " category="inline-code"></block></block>
+  <block id="457d08b230361da11684b35702d5d114" category="paragraph">排除文件中的语法：<block ref="656c9e12809cee621e2abce3032674d0" prefix=" " category="inline-code"></block></block>
+  <block id="3d704d8a7dea04055fa8e435fb3ba4a4" category="section-title">查看当前排除列表</block>
+  <block id="ce591271bee64e6f1ef9a4585a8a1142" category="paragraph">可以查看的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 配置文件与运行后实际提交的配置文件不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 脚本。要查看已从BlueXP分类扫描中排除的当前目录列表、请从"//opt/NetApp/Datasense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
+  <block id="75377d4edffa6c8df90ec35a6c2955ae" category="section-title">是否可以指示服务排除某些目录中的扫描数据？</block>
+  <block id="140079c23bf99666acb52cc8f9b453cb" category="paragraph">是的。如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将该列表提供给分类引擎。应用此更改后、BlueXP分类将排除指定目录中的扫描数据。</block>
+  <block id="cccdbfa223764cc2c6bbdf979c65ac39" category="paragraph"><block ref="8704cac21d49e5e6ff202bcfdaf0dcb0" category="inline-link-macro-rx"></block>。</block>
+  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024年3月4日(版本1.29)</block>
+  <block id="2155776a968fa3c23d5147a57832435f" category="section-title">现在、您可以排除驻留在特定数据源目录中的扫描数据</block>
+  <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到BlueXP分类处理的配置文件中。通过此功能、您可以避免扫描不必要的目录或可能导致返回误报的个人数据结果的目录。</block>
+  <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>。</block>
+  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023年12月14日(版本1.26.6)</block>
+  <block id="a1663078538acf931413c4667ee4dc32" category="doc">将其他组ID定义为对组织开放</block>
+  <block id="14262b7b54453519cfa73f76b2652616" category="section-title">查看当前组ID列表</block>
+  <block id="30e7ed02f97ac1e08032a6f980412c4b" category="paragraph">可以查看的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 配置文件与运行后实际提交的配置文件不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
+  <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">创建策略以查看排名靠前的搜索结果</block>
+  <block id="3e01ecaa94897c14b8a0c8eb76bf0c93" category="sidebar">从扫描中排除某些目录</block>
+  <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="sidebar">从扫描中排除目录</block>
 </blocks>

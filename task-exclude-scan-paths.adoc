@@ -1,0 +1,164 @@
+---
+sidebar: sidebar 
+permalink: task-exclude-scan-paths.html 
+keywords: exclude scans, folders, directories 
+summary: 如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到配置文件中。应用此更改后、BlueXP分类引擎将排除这些目录中的扫描数据。 
+---
+= 从BlueXP分类扫描中排除特定目录
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到配置文件中。应用此更改后、BlueXP分类引擎将排除这些目录中的扫描数据。
+
+请注意、默认情况下、BlueXP分类会配置为排除扫描卷快照数据、因为该内容与卷中的内容相同。
+
+BlueXP分类版本1.29及更高版本(从2024年3月开始)提供了此功能。
+
+
+
+== 支持的数据源
+
+以下数据源中的NFS和CIFS共享支持从BlueXP分类扫描中排除特定目录：
+
+* 内部部署ONTAP
+* Cloud Volumes ONTAP
+* 适用于 NetApp ONTAP 的 Amazon FSX
+* Azure NetApp Files
+* 常规文件共享
+
+
+
+
+== 定义要从扫描中排除的目录
+
+在从分类扫描中排除目录之前、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
+
+[NOTE]
+====
+* 每个BlueXP分类系统最多可以排除50个目录路径。
+* 排除目录路径可能会影响扫描时间。
+
+
+====
+.步骤
+. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件 `data_provider.yaml`。
+. 在"data_提供 程序"部分的"exc我们："行下、输入要排除的目录路径。例如：
++
+....
+exclude:
+- "folder1"
+- "folder2"
+....
++
+请勿更改此文件中的任何其他内容。
+
+. 将更改保存到文件。
+. 转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：
++
+ update_data_providers_from_config_file.sh
++
+此命令会将要从扫描中排除的目录提交到分类引擎。
+
+
+
+.结果
+对数据的所有后续扫描都将排除对这些指定目录的扫描。
+
+您可以使用这些相同步骤从排除列表中添加、编辑或删除项目。在您运行脚本提交更改后、修订后的排除列表将会更新。
+
+
+
+== 示例
+
+.配置1：
+名称中任何位置包含"folder1"的每个文件夹都将从所有数据源中排除。
+
+....
+data_providers:
+   exclude:
+   - "folder1"
+....
+.要排除的路径的预期结果：
+* /CVO1/fOLder1
+* /CVO1/fOLder1name
+* /CVO1/fOLder10
+* /CVO1/*fOLder1.
+* /CVO1/+fOLder1name
+* /CVO1/notfolder10.
+* /CVO22/fOLder1
+* /CVO22/fOLder1name
+* /CVO22/fOLder10.
+
+
+.不会排除的路径示例：
+* /CVO1/*文件夹
+* /CVO1/fOLdername
+* /CVO22/*文件20
+
+
+.配置2：
+仅在名称开头包含"*folder1"的每个文件夹都将被排除。
+
+....
+data_providers:
+   exclude:
+   - "\\*folder1"
+....
+.要排除的路径的预期结果：
+* /cvO/*文件1
+* /cvO/*fOLder1name
+* /cvO/*文件10.
+
+
+.不会排除的路径示例：
+* /cvo/fOLder1
+* /cvo/folder1name
+* /cvo/not *文件10.
+
+
+.配置3：
+数据源"CVO22"中名称中任意位置包含"folder1"的每个文件夹都将被排除。
+
+....
+data_providers:
+   exclude:
+   - "CVO22/folder1"
+....
+.要排除的路径的预期结果：
+* /CVO22/fOLder1
+* /CVO22/fOLder1name
+* /CVO22/fOLder10.
+
+
+.不会排除的路径示例：
+* /CVO1/fOLder1
+* /CVO1/fOLder1name
+* /CVO1/fOLder10
+
+
+
+
+== 转义文件夹名称中的特殊字符
+
+如果您的文件夹名称包含以下特殊字符之一、而您希望不扫描该文件夹中的数据、则需要在文件夹名称前面使用转义序列\\。
+
+ ., +, *, ?, ^, $, (, ), [, ], {, }, |
+例如：
+
+源中的路径： `/project/*not_to_scan`
+
+排除文件中的语法： `"\\*not_to_scan"`
+
+
+
+== 查看当前排除列表
+
+可以查看的内容 `data_provider.yaml` 配置文件与运行后实际提交的配置文件不同 `update_data_providers_from_config_file.sh` 脚本。要查看已从BlueXP分类扫描中排除的当前目录列表、请从"//opt/NetApp/Datasense/tools/customer_configuration/data_提供 程序"运行以下命令：
+
+ get_data_providers_configuration.sh
