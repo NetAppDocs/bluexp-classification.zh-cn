@@ -3573,4 +3573,13 @@
   <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">创建策略以查看排名靠前的搜索结果</block>
   <block id="3e01ecaa94897c14b8a0c8eb76bf0c93" category="sidebar">从扫描中排除某些目录</block>
   <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="sidebar">从扫描中排除目录</block>
+  <block id="6505788c29b47651fe2e94f0607a2ef7" category="section-title">超大型实例支持现已通过认证</block>
+  <block id="1647534ed4603d68f73fd3f261af9b65" category="paragraph">如果您需要BlueXP分类来扫描超过2.5亿个文件、则可以在云部署或内部安装中使用一个超大实例。此类系统最多可扫描5亿个文件。</block>
+  <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>。</block>
+  <block id="9b751021fe03877034959f96cd4215c8" category="cell">32个CPU、128 GB RAM、1 TiB GP3 SSD</block>
+  <block id="208031164ce87fe17cb9a0ed2c215c9d" category="inline-link">m6i.8x大型</block>
+  <block id="e29d39e8b73232f4d7b95d15d9f1add1" category="cell"><block ref="0285aa638d8bc84a14485422bcb58514" category="inline-link-rx"></block> (默认)</block>
+  <block id="49aabd686b53c6afa598f1b2279c7966" category="cell">32个CPU、128 GB RAM、1 TiB SSD (最小吞吐量为750MB/秒)</block>
+  <block id="02201d429f7390acabd29e5c0c6e22e2" category="inline-link">标准D32_v3</block>
+  <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (默认)</block>
 </blocks>

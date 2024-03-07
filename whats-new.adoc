@@ -30,6 +30,14 @@ https://docs.netapp.com/us-en/bluexp-classification/task-exclude-scan-paths.html
 
 
 
+=== 超大型实例支持现已通过认证
+
+如果您需要BlueXP分类来扫描超过2.5亿个文件、则可以在云部署或内部安装中使用一个超大实例。此类系统最多可扫描5亿个文件。
+
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#using-a-smaller-instance-type["了解更多信息。"]。
+
+
+
 == 2024年1月10日(版本1.27)
 
 

@@ -29,6 +29,9 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
+| 超大 | 32个CPU、128 GB RAM、1 TiB GP3 SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.8x大型"^] (默认) 
+
+
 | 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge"^] (默认) m6a.4xlarge m5a.4xlarge m5.4xlarge m4.4xlarge 
 
 
@@ -44,6 +47,9 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 [cols="20,30,25"]
 |===
 | 系统大小 | 规格 | Instance type 
+
+
+| 超大 | 32个CPU、128 GB RAM、1 TiB SSD (最小吞吐量为750MB/秒) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["标准D32_v3"^] (默认) 
 
 
 | 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^] (默认) 
