@@ -49,7 +49,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
-| 超大 | 32个CPU、128 GB RAM、1 TiB SSD (最小吞吐量为750MB/秒) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["标准D32_v3"^] (默认) 
+| 超大 | 32个CPU、128 GB RAM、操作系统磁盘(2、048 GiB、最小250 MB/秒吞吐量)和数据磁盘(1 TiB SSD、最小750 MB/秒吞吐量) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["标准D32_v3"^] (默认) 
 
 
 | 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^] (默认) 
