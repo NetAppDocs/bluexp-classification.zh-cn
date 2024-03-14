@@ -320,7 +320,7 @@ link:concept-cloud-compliance.html#user-access-to-compliance-information["了解
 
 === 任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？
 
-否在您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。
+否在浏览器和BlueXP分类实例之间发送的私有数据会通过TLS 1.2进行端到端加密来保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。
 
 扫描的数据会保留在您的环境中。
 

@@ -2477,7 +2477,6 @@
   <block id="b1cfb802271338af5bae746aee65d68f" category="paragraph">是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。</block>
   <block id="78d74c7ac59dc7722ad434f3b07f8c77" category="paragraph">此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。</block>
   <block id="baa3d508ff34a4c15a58d71fbe4f0e0f" category="section-title">任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？</block>
-  <block id="7dea17d7c4e7f3bb29ea4243e638d5bf" category="paragraph">否在您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。</block>
   <block id="d85edc022c467b1de0d062bc4f4215b5" category="paragraph">当BlueXP分类扫描冷数据分层到对象存储的卷时、它会扫描所有数据—本地磁盘上的数据以及分层到对象存储的冷数据。实施分层的非NetApp产品也是如此。</block>
   <block id="f56bd4fda221a92df45e4216f8b75da7" category="section-title">BlueXP分类是否可以向我的组织发送通知？</block>
   <block id="b1855bdbeb4a91ab4dc5cedfdb491dbf" category="section-title">BlueXP分类是否可以与我在文件中嵌入的AIP标签配合使用？</block>
@@ -2723,7 +2722,6 @@
   <block id="e1c6fd17dccbebfc440207f27d59459b" category="list-text">BlueXP分类可收集有关文件的标准元数据：文件类型、大小、创建和修改日期等。</block>
   <block id="8546288939f901d3a1276b7f9e394f46" category="list-text">BlueXP分类使用AI从文档中提取自然人姓名。 <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>。</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接器实例建立入站HTTP连接。</block>
-  <block id="be23e27acb2e7fab8227de3a00bddee1" category="paragraph">在SaaS模式下使用BlueXP时、与BlueXP的连接将通过HTTPS提供、并且您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">了解BlueXP分类所联系的端点</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">如果您有严格的网络连接要求， <block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>。</block>
@@ -3582,4 +3580,6 @@
   <block id="02201d429f7390acabd29e5c0c6e22e2" category="inline-link">标准D32_v3</block>
   <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (默认)</block>
   <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32个CPU、128 GB RAM、操作系统磁盘(2、048 GiB、最小250 MB/秒吞吐量)和数据磁盘(1 TiB SSD、最小750 MB/秒吞吐量)</block>
+  <block id="f3c46003464601608d44d2644affcce1" category="paragraph">在SaaS模式下使用BlueXP时、与BlueXP的连接通过HTTPS提供、浏览器和BlueXP分类实例之间发送的私有数据通过使用TLS 1.2的端到端加密进行保护、这意味着NetApp和第三方无法读取。</block>
+  <block id="522910fcbd37d9f1fe242ff7c7cde8db" category="paragraph">否在浏览器和BlueXP分类实例之间发送的私有数据会通过TLS 1.2进行端到端加密来保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。</block>
 </blocks>

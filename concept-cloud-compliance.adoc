@@ -297,7 +297,7 @@ BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP
 
 BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接器实例建立入站HTTP连接。
 
-在SaaS模式下使用BlueXP时、与BlueXP的连接将通过HTTPS提供、并且您的浏览器和BlueXP分类实例之间发送的私有数据会通过端到端加密进行保护、这意味着NetApp和第三方无法读取这些数据。
+在SaaS模式下使用BlueXP时、与BlueXP的连接通过HTTPS提供、浏览器和BlueXP分类实例之间发送的私有数据通过使用TLS 1.2的端到端加密进行保护、这意味着NetApp和第三方无法读取。
 
 出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。
 
