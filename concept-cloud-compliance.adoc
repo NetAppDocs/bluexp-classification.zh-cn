@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
 summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解BlueXP分类
@@ -14,15 +14,15 @@ summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业�
 
 
 [role="lead"]
-BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
-
-https://bluexp.netapp.com/netapp-cloud-data-sense["了解BlueXP分类的用例"^]。
+BlueXP分类(Cloud Data Sense)是一项适用于BlueXP的数据监管服务、可扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
 
 
 == 功能
 
 BlueXP分类使用人工智能(AI)、自然语言处理(NLL)和机器学习(ML)来了解它扫描的内容、以便提取实体并对内容进行相应的分类。这样、BlueXP分类就可以提供以下功能区域。
+
+https://bluexp.netapp.com/netapp-cloud-data-sense["详细了解BlueXP分类的用例"^]。
 
 
 
@@ -118,7 +118,7 @@ BlueXP分类可以扫描和分析来自以下类型数据源的结构化和非�
 * SQL Server （ MSSQL ）
 
 
-BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
+BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。
 
 
 

@@ -26,11 +26,13 @@ sidebar:
       url: "/concept-cloud-compliance.html"
     - title: 部署BlueXP分类
       entries:
+      - title: 您应使用哪种部署
+        url: "/task-deploy-overview.html"
       - title: 使用BlueXP在云中部署
         url: "/task-deploy-cloud-compliance.html"
       - title: 在可访问Internet的Linux主机上安装
         url: "/task-deploy-compliance-onprem.html"
-      - title: 在不访问Internet的情况下在内部安装
+      - title: 在不能访问Internet的内部Linux主机上安装
         url: "/task-deploy-compliance-dark-site.html"
       - title: 检查Linux主机是否已准备好安装BlueXP分类
         url: "/task-test-linux-system.html"

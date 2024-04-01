@@ -2,8 +2,8 @@
 indexpage:
   title: BlueXP分类文档
   summary: 通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。BlueXP分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。
-  keywords: classification, cloud data sense, data sense, compliance, security
-  lead: 通过BlueXP分类、您可以扫描组织混合多云中的数据并对其进行分类。分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。
+  keywords: bluexp, classification, cloud data sense, data sense, compliance, security
+  lead: 通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。
   tiles:
   - title: 入门
     links:
@@ -79,8 +79,6 @@ indexpage:
       url: task-managing-highlights.html#delete-source-files
     - title: 发现不合规数据时创建电子邮件警报
       url: task-using-policies.html#send-email-alerts-when-non-compliant-data-is-found
-    - title: 监控和管理文件访问事件
-      url: task-manage-file-access-events.html
     - title: 响应数据主体访问请求
       url: task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports
   - title: 博客和社区

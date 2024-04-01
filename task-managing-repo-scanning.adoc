@@ -35,7 +35,7 @@ image:screenshot_compliance_repo_scan_settings.png["显示是否正在扫描存�
 
 
 
-您可以将光标悬停在_Scan Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍待映射或分类的文件数。
+您可以将光标悬停在_Mapping Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍需映射或分类的文件数。
 
 
 
@@ -53,7 +53,7 @@ image:screenshot_compliance_config_button.png["显示如何在工作环境中单
 
 . 在“扫描配置”页中，您可以更改任何存储库(在此示例中为分段)以执行*Map*或*Map & Classify*扫描。
 +
-image:screenshot_compliance_repo_scanning.png["显示如何为存储分段选择扫描类型的屏幕截图。"]
+image:screenshot_compliance_repo_scan_settings.png["显示如何为存储分段选择扫描类型的屏幕截图。"]
 
 
 

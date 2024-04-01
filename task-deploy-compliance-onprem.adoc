@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification 
 summary: 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
 ---
 = 在可访问Internet的主机上安装BlueXP分类
@@ -162,11 +162,11 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
-** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.26或更高版本：
+** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
 +
-*** Red Hat Enterprise Linux 9.0、9.1和9.2版
+*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2和9.3版
 +
-请注意、使用RHEL 9.x时、当前不支持以下功能：
+请注意、使用RHEL 8.x和RHEL 9.x时、当前不支持以下功能：
 
 +
 **** 在非公开站点安装
@@ -186,14 +186,17 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install podman -y`）。
+*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install netavark -y`）。
 
 
-** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
-* *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
-* * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
+
+
+* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
++
+** *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
+** * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -215,6 +218,8 @@ firewall-cmd --permanent --add-port=4789/udp
 ....
 +
 请注意、每当启用或更新时、都必须重新启动Docker或Podman `firewalld` 设置。
+
+
 
 
 
@@ -574,7 +579,7 @@ image:screenshot_client_access_token.png["API文档页面的屏幕截图、其�
 
 . 如果将任何扫描程序节点添加到扫描程序组中、请返回到管理器节点并执行以下2项任务：
 +
-.. 打开文件"/opt/netapp/Datasens/工作 环境_to_scanner_group_config.yml"、并输入要扫描特定工作环境的扫描程序组的映射。您需要为每个数据源提供_Working Environment ID_。例如、以下条目会将2个工作环境添加到"欧洲"扫描程序组、并将2个添加到"美国"扫描程序组：
+.. 打开文件"//opt/NetApp/config/custom_configuration/working_뮷 뺳_sanner_group_config.yml"并输入要扫描特定工作环境的扫描程序组的映射。您需要为每个数据源提供_Working Environment ID_。例如、以下条目会将2个工作环境添加到"欧洲"扫描程序组、并将2个添加到"美国"扫描程序组：
 +
 ....
 scanner_groups:

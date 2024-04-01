@@ -245,7 +245,7 @@ BlueXP分类可以扫描您添加到BlueXP Canvas中的工作环境中的数据�
 * Google Drive帐户
 
 
-BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。
+BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。
 
 
 
@@ -392,9 +392,23 @@ Connector是在您的云帐户或内部环境中的计算实例上运行的软�
 
 
 
+=== BlueXP分类是否需要访问凭据？
+
+BlueXP分类本身不会检索存储凭据。而是存储在BlueXP Connector中。
+
+BlueXP分类使用数据平面凭据、例如CIFS凭据在扫描前挂载共享。
+
+
+
 === 是否可以在自己的主机上部署此连接器？
 
 是的。您可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的主机上。如果您计划在内部部署BlueXP分类、则可能还需要在内部安装Connector、但这不是必需的。
+
+
+
+=== 服务和连接器之间的通信是否使用HTTP？
+
+是的、BlueXP分类使用HTTP与BlueXP Connector进行通信。
 
 
 

@@ -70,11 +70,11 @@
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
 
 
-** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.26或更高版本：
+** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
 +
-*** Red Hat Enterprise Linux 9.0、9.1和9.2版
+*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2和9.3版
 +
-请注意、使用RHEL 9.x时、当前不支持以下功能：
+请注意、使用RHEL 8.x和RHEL 9.x时、当前不支持以下功能：
 
 +
 **** 在非公开站点安装
@@ -94,11 +94,16 @@
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install podman -y`）。
+*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install netavark -y`）。
 
 
-** Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
 
 
-* *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
+
+
+* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
++
+** *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
+
+
 
