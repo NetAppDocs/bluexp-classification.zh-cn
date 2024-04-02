@@ -3528,11 +3528,8 @@
   <block id="b05347ded7555dfe4b18afd3dfa678f3" category="paragraph">了解BlueXP分类(Cloud Data Sense)中的新增功能。</block>
   <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024年4月1日(版本1.3)</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">增加了对RHEL v8.8和v9.3 BlueXP分类的支持</block>
-  <block id="91e323b860fc9af090c33fd0be441816" category="paragraph">除了先前支持的9.x (需要Podman、而不是Docker引擎)之外、此版本还支持Red Hat Enterprise Linux v8.8和v9.3。</block>
-  <block id="07dc3e2055cac820c8885923e98b8e76" category="paragraph">这适用于BlueXP分类的任何手动内部安装。</block>
   <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">以下操作系统要求使用Podman容器引擎、并要求BlueXP分类版本1.3或更高版本：Red Hat Enterprise Linux版本8.8、9.0、9.1、9.2和9.3。</block>
   <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link-macro">BlueXP分类部署概述</block>
-  <block id="729b0325b4dca702948987b756d6c4dd" category="paragraph">了解更多信息 <block ref="203983d50efda661e0fb2921922583cd" category="inline-link-macro-rx"></block>。</block>
   <block id="efdeb6220b979140e56f16caceb1d7e9" category="section-title">删除了用于激活审核日志收集的选项</block>
   <block id="677b8eea0d783418318883e36c4858cc" category="paragraph">您可以将光标悬停在_Mapping Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍需映射或分类的文件数。</block>
   <block id="cdf1bf05ba65b107bb0cbe2a4303f966" category="paragraph"><block ref="cdf1bf05ba65b107bb0cbe2a4303f966" category="inline-image-macro-rx" type="image"></block></block>
@@ -3543,4 +3540,11 @@
   <block id="e7695799ba8bc92bb08a6949b8326571" category="sidebar">通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。</block>
   <block id="23b8d81b3767810f42dfbd7dcd9bd760" category="sidebar">您应使用哪种部署</block>
   <block id="fca1d82780afb1668b61925e8a0b964a" category="sidebar">在不能访问Internet的内部Linux主机上安装</block>
+  <block id="bed0a63060826a7b1ed8cba91cb12ba6" category="paragraph">除了先前支持的9.x (需要Podman、而不是Docker引擎)之外、此版本还支持Red Hat Enterprise Linux v8.8和v9.3。这适用于BlueXP分类的任何手动内部安装。</block>
+  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">了解更多信息<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>。</block>
+  <block id="6cf7e053021d02a6a394c1e69f8e8352" category="section-title">扫描速度提高</block>
+  <block id="9d343bee917ed42deed4a08429d2e86f" category="paragraph">二级扫描程序节点上的扫描性能已提高。如果您需要更多的扫描处理能力、可以添加更多的扫描程序节点。有关详细信息，请参见<block ref="bccb2247e180b6227640eec7d70d0351" category="inline-link-rx"></block>。</block>
+  <block id="747585a36be1e14a4dd3ff25c4bf1e48" category="section-title">自动升级</block>
+  <block id="5908128f01988745be85a67845195980" category="paragraph">如果您在可访问Internet的系统上部署了BlueXP分类、则系统将自动升级。以前、升级发生在自上次用户活动以来经过的特定时间之后。在此版本中、如果本地时间介于1：00 AM到5：00 AM之间、BlueXP分类会自动升级。如果本地时间不在这些时间内、则升级将在自上次用户活动后经过一段特定时间后进行。有关详细信息，请参见<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>。</block>
+  <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">如果您部署的BlueXP分类不能访问Internet、则需要手动升级。有关详细信息，请参见<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>。</block>
 </blocks>
