@@ -80,8 +80,6 @@ sidebar:
       url: "/task-using-policies.html"
     - title: 管理私有数据
       url: "/task-managing-highlights.html"
-    - title: 监控和管理文件访问事件
-      url: "/task-manage-file-access-events.html"
     - title: 更改扫描设置
       url: task-managing-repo-scanning.html
     - title: 生成合规性报告
