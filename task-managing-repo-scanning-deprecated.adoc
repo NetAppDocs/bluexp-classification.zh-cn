@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: task-managing-repo-scanning-deprecated.html 
+keywords: compliance, stop scan, start scan, map scan, classify scan, data sense, pause scan, resume scan 
+summary: '您可以管理在每个工作环境和数据源中扫描数据的方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。' 
+---
+= 重新扫描现有存储库的数据
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP分类会持续扫描您的数据、以检测您添加的存储库中的增量更改。但是、系统扫描所有环境需要一些时间、并且无法控制所扫描的存储库的顺序。如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先扫描某些数据、而不是扫描其他数据。执行重新扫描操作后、选定存储库将恢复为按正常BlueXP分类计划进行扫描的状态。
+
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
+BlueXP分类支持扫描除Amazon S3和数据库之外的所有数据源类型上的目录。目前、我们支持重新扫描单个目录(文件夹或共享)或多个目录。未来的支持包括重新扫描其他存储库类型(文件、数据库等)。
+
+* 重新扫描目录时、目录中的所有文件都会重新扫描、但不会重新扫描目录中的子文件夹。
+* 重新扫描共享时、只会重新扫描共享的元数据。
+* 一次最多可重新扫描1000个项目。
+
+
+.步骤
+. 在数据调查结果窗格中、选择要重新扫描的文件夹或共享、然后单击*重新扫描*。
++
+image:screenshot_compliance_rescan_directory.png["显示如何选择和重新扫描目录的屏幕截图。"]
+
+. 在_Rescan Directory_对话框中、单击*重新扫描*。
+
+
+请注意、您还可以在查看元数据详细信息时重新扫描单个目录。只需单击*重新扫描*即可。
+
+image:screenshot_compliance_rescan_single_file.png["显示如何重新扫描单个文件夹或共享的屏幕截图。"]

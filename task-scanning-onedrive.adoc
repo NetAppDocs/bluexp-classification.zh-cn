@@ -4,7 +4,7 @@ permalink: task-scanning-onedrive.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, onedrive, data sense 
 summary: 完成几个步骤、开始扫描具有BlueXP分类的用户OneDrive文件夹中的文件。 
 ---
-= 正在扫描 OneDrive 帐户
+= 扫描OneDrive帐户
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,6 +16,11 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的用户OneDrive文
 [role="lead"]
 完成几个步骤、开始扫描具有BlueXP分类的用户OneDrive文件夹中的文件。
 
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
 
 
 == 快速入门
@@ -133,5 +138,3 @@ BlueXP分类开始扫描您添加的用户的文件、结果将显示在信息�
 如果用户离开公司或其电子邮件地址发生变化，您可以随时删除单个 OneDrive 用户的文件扫描功能。只需从配置页面中单击 * 删除 OneDrive 用户 * 即可。
 
 image:screenshot_compliance_onedrive_remove_user.png["显示如何从扫描单个用户的文件中删除该用户的屏幕截图。"]
-
-请注意，您可以 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["从BlueXP分类中删除整个OneDrive帐户"] 如果您不想再扫描OneDrive帐户中的任何用户数据。

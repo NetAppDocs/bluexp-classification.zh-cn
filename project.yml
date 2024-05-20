@@ -44,20 +44,10 @@ sidebar:
         url: "/task-scanning-anf.html"
       - title: 适用于 ONTAP 的 Amazon FSX
         url: "/task-scanning-fsx.html"
-      - title: Amazon S3 存储分段
-        url: "/task-scanning-s3.html"
       - title: 数据库架构
         url: "/task-scanning-databases.html"
-      - title: OneDrive 帐户
-        url: "/task-scanning-onedrive.html"
-      - title: SharePoint 帐户
-        url: "/task-scanning-sharepoint.html"
-      - title: Google Drive帐户
-        url: "/task-scanning-google-drive.html"
       - title: 文件共享
         url: "/task-scanning-file-shares.html"
-      - title: 对象存储
-        url: "/task-scanning-object-storage.html"
     - title: 集成 Active Directory
       url: "/task-add-active-directory-datasense.html"
     - title: 设置许可
@@ -74,34 +64,64 @@ sidebar:
       url: "/reference-private-data-categories.html"
     - title: 调查您的数据
       url: "/task-investigate-data.html"
-    - title: 组织您的私有数据
-      url: "/task-org-private-data.html"
     - title: 为数据分配策略
       url: "/task-using-policies.html"
-    - title: 管理私有数据
-      url: "/task-managing-highlights.html"
     - title: 更改扫描设置
       url: task-managing-repo-scanning.html
     - title: 生成合规性报告
       url: "/task-generating-compliance-reports.html"
   - title: 管理BlueXP分类
     entries:
-    - title: 添加自定义个人数据标识符
-      url: "/task-managing-data-fusion.html"
     - title: 从扫描中排除目录
       url: "/task-exclude-scan-paths.html"
-    - title: 查看BlueXP分类操作的状态
-      url: "/task-view-compliance-actions.html"
     - title: 将现有组ID定义为"对组织开放"
       url: "/task-add-group-id-as-open.html"
-    - title: 审核BlueXP分类操作的历史记录
-      url: "/task-audit-data-sense-actions.html"
-    - title: 降低BlueXP分类扫描速度
-      url: "/task-reduce-scan-speed.html"
     - title: 从BlueXP分类中删除数据源
       url: "/task-managing-compliance.html"
     - title: 卸载BlueXP分类
       url: "/task-uninstall-data-sense.html"
+  - title: 已弃用的功能
+    entries:
+    - title: 已弃用功能的列表
+      url: "/reference-free-paid.html"
+    - title: 部署BlueXP分类
+      entries:
+      - title: 在无法访问Internet的多个主机上安装BlueXP分类
+        url: "/task-deploy-multi-host-install-dark-site.html"
+      - title: 将扫描程序节点添加到现有部署中
+        url: "/task-deploy-add-scanner-nodes.html"
+      - title: 设置免费试用版或自带许可证
+        url: "/task-licensing-byol-freetrial.html"
+    - title: 扫描数据
+      entries:
+      - title: 扫描Amazon S3存储分段
+        url: "/task-scanning-s3.html"
+      - title: 扫描OneDrive帐户
+        url: "/task-scanning-onedrive.html"
+      - title: 扫描SharePoint帐户
+        url: "/task-scanning-sharepoint.html"
+      - title: 扫描Google Drive帐户
+        url: "/task-scanning-google-drive.html"
+      - title: 扫描使用S3协议的对象存储
+        url: "/task-scanning-object-storage.html"
+    - title: 管理数据
+      entries:
+      - title: 在监管信息板上查看有关数据的监管详细信息
+        url: "/task-controlling-governance-dashboard-deprecated.html"
+      - title: 组织您的私有数据
+        url: "/task-org-private-data.html"
+      - title: 管理私有数据
+        url: "/task-managing-highlights.html"
+      - title: 添加自定义个人数据标识符
+        url: "/task-managing-data-fusion.html"
+      - title: 查看BlueXP分类操作的状态
+        url: "/task-view-compliance-actions.html"
+      - title: 审核BlueXP分类操作的历史记录
+        url: "/task-audit-data-sense-actions.html"
+      - title: 降低BlueXP分类扫描速度
+        url: "/task-reduce-scan-speed.html"
+      - title: 删除OneDrive、SharePoint或Google Drive帐户
+        url: "/task-managing-compliance-deprecated.html"
   - title: 参考
     entries:
     - title: 支持的BlueXP分类实例类型

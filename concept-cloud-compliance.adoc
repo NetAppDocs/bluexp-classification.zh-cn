@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
 summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解BlueXP分类
@@ -16,6 +16,17 @@ summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业�
 [role="lead"]
 BlueXP分类(Cloud Data Sense)是一项适用于BlueXP的数据监管服务、可扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
+[]
+====
+重要说明
+
+从2024年5月起、BlueXP版本1.31将作为BlueXP中的核心功能免费提供。不需要分类许可证或订阅。我们还将BlueXP分类功能重点放在NetApp存储系统上、因此、某些未使用或未充分利用的功能已弃用。
+
+link:reference-free-paid.html["请参见已弃用功能的列表"]。
+
+一直使用旧版1.3或更早版本的用户将继续使用该版本、直到其订阅到期为止。
+
+====
 
 
 == 功能
@@ -33,8 +44,6 @@ BlueXP分类提供了多种可帮助您实现合规性的工具。您可以使�
 * 识别个人身份信息（ PiII ）。
 * 根据GDPR、CCPA、PCI和HIPAA隐私法规的要求、识别广泛的敏感个人信息。
 * 根据名称或电子邮件地址响应数据主体访问请求(Data Subject Access Requests、DSAar)。
-* 确定是否在其他存储库的文件中找到了数据库中的唯一标识符-基本上是创建您自己的"个人数据"列表、该列表在BlueXP分类扫描中标识。
-* 当文件包含特定的PiE时、通过电子邮件通知特定用户(您可以使用定义此条件) link:task-using-policies.html["策略"^])、这样您就可以决定行动计划。
 
 
 
@@ -46,9 +55,7 @@ BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据�
 * 确定具有打开权限的所有文件和目录(共享和文件夹)、这些文件和目录会公开给您的整个组织或公有。
 * 确定位于初始专用位置以外的敏感数据。
 * 遵守数据保留策略。
-* 使用_policies_自动向安全人员通知新的安全问题、以便他们可以立即采取措施。
-* 向文件添加自定义标记(例如"需要移动")、并分配一个BlueXP用户、以便此用户可以拥有文件的更新。
-* 查看和修改 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）标签"^] 在文件中。
+* 使用_policies_自动检测新的安全问题、以便安全人员可以立即采取措施。
 
 
 
@@ -57,20 +64,8 @@ BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据�
 
 BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可以使用BlueXP分类来：
 
-* 通过识别重复数据或非业务相关数据来提高存储效率。您可以使用此信息来确定是要移动还是删除某些文件。
-* 删除看似不安全或风险太大、无法留在存储系统中的文件、或者您已确定为重复的文件。您可以使用_policies_自动删除符合特定条件的文件。
+* 通过识别重复数据或非业务相关数据来提高存储效率。
 * 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
-
-
-
-
-=== 加快数据迁移速度
-
-BlueXP分类可用于在将内部数据迁移到公共云或私有云之前对其进行扫描。您可以使用BlueXP分类来：
-
-* 在移动数据之前，查看数据的大小以及任何数据是否包含敏感信息。
-* 筛选源数据(基于超过25种标准类型)、以便只能将所需文件移动到目标-不会移动不必要的数据。
-* 仅自动持续地将所需数据移动、复制或同步到云存储库中。
 
 
 
@@ -79,43 +74,23 @@ BlueXP分类可用于在将内部数据迁移到公共云或私有云之前对�
 
 BlueXP分类可以扫描和分析来自以下类型数据源的结构化和非结构化数据：
 
-* NetApp：*
-
 * Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中）
 * 内部 ONTAP 集群
-* StorageGRID
 * Azure NetApp Files
 * 适用于 ONTAP 的 Amazon FSX
-* 适用于 Google Cloud 的 Cloud Volumes Service
+* Google Cloud NetApp卷
+* 文件共享(例如Dell EMC Isilon、PURE Storage、Nutanix等)
+* 数据库：
++
+** Amazon Relational Database Service （ Amazon RDS ）
+** MongoDB
+** MySQL
+** Oracle
+** PostgreSQL
+** SAP HANA
+** SQL Server （ MSSQL ）
 
 
-*非NetApp：*
-
-* Dell EMC Isilon
-* 纯存储
-* Nutanix
-* 任何其他存储供应商
-
-
-*云：*
-
-* Amazon S3
-* Google Cloud 存储
-* OneDrive
-* SharePoint Online
-* SharePoint内部部署(SharePoint Server)
-* Google Drive
-
-
-*数据库：*
-
-* Amazon Relational Database Service （ Amazon RDS ）
-* MongoDB
-* MySQL
-* Oracle
-* PostgreSQL
-* SAP HANA
-* SQL Server （ MSSQL ）
 
 
 BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。
@@ -124,9 +99,11 @@ BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。
 
 == 成本
 
-* 使用BlueXP分类的成本取决于要扫描的数据量。BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。这包括所有工作环境和数据源中的所有数据。要在这之后继续扫描数据，需要订阅 AWS ， Azure 或 GCP Marketplace 或 NetApp 提供的 BYOL 许可证。请参见 https://bluexp.netapp.com/netapp-cloud-data-sense["定价"^] 了解详细信息。
-+
-link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
+BlueXP分类现在可免费用于高达500 TiB的数据。不需要分类许可证或付费订阅。如果要扫描的数据超过500 TiB、则可以在某些原始系统上禁用扫描、并扫描可能会超过500 TiB限制的新系统。
+
+
+
+=== 基础架构成本
 
 * 在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参见 <<BlueXP分类实例,为每个云提供商部署的实例类型>>。如果您在内部系统上安装BlueXP分类、则不需要任何费用。
 * BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
@@ -136,7 +113,7 @@ link:task-licensing-datasense.html["了解如何许可BlueXP分类"^]。
 
 === 数据传输成本
 
-数据传输成本取决于您的设置。如果BlueXP分类实例和数据源位于同一可用性区域和区域、则不会产生数据传输成本。但是，如果数据源（例如 Cloud Volumes ONTAP 系统或 S3 存储分段）位于 _Different_ 可用性区域或区域，则云提供商会向您收取数据传输成本。有关详细信息，请参见以下链接：
+数据传输成本取决于您的设置。如果BlueXP分类实例和数据源位于同一可用性区域和区域、则不会产生数据传输成本。但是、如果数据源(例如Cloud Volumes ONTAP系统)位于_不同_可用性区域或区域、则云提供商将向您收取数据传输成本。有关详细信息，请参见以下链接：
 
 * https://aws.amazon.com/ec2/pricing/on-demand/["AWS ： Amazon EC2 定价"^]
 * https://azure.microsoft.com/en-us/pricing/details/bandwidth/["Microsoft Azure ：带宽定价详细信息"^]
@@ -208,15 +185,15 @@ TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据
 
 == 扫描的工作原理
 
-启用BlueXP分类并选择要扫描的存储库(即卷、存储分段、数据库架构或OneDrive或SharePoint用户数据)后、它会立即开始扫描数据以确定个人数据和敏感数据。在大多数情况下、您应重点扫描实时生产数据、而不是备份、镜像或灾难恢复站点。然后、BlueXP分类会映射您的组织数据、对每个文件进行分类、并在数据中标识和提取实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。
+启用BlueXP分类并选择要扫描的存储库(即卷、数据库架构或其他用户数据)后、它会立即开始扫描数据以确定个人数据和敏感数据。在大多数情况下、您应重点扫描实时生产数据、而不是备份、镜像或灾难恢复站点。然后、BlueXP分类会映射您的组织数据、对每个文件进行分类、并在数据中标识和提取实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。
 
 BlueXP分类可通过挂载NFS和CIFS卷与任何其他客户端一样连接到数据。NFS 卷会自动以只读方式访问，而您需要提供 Active Directory 凭据来扫描 CIFS 卷。
 
-image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。BlueXP分类实例连接到NFS和CIFS卷、S3存储分段、OneDrive帐户和数据库以扫描它们。"]
+image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。BlueXP分类实例连接到NFS和CIFS卷和数据库以扫描它们。"]
 
 完成初始扫描后、BlueXP分类会以轮循方式持续扫描数据、以检测增量更改(这就是保持实例运行至关重要的原因)。
 
-您可以在卷级别，存储分段级别，数据库架构级别， OneDrive 用户级别和 SharePoint 站点级别启用和禁用扫描。
+您可以在卷级别或数据库架构级别启用和禁用扫描。
 
 
 
@@ -257,12 +234,6 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 创建 link:task-using-policies.html["策略"] 可提供自定义搜索结果 | 是的。 | 否 
 
 
-| 使用 AIP 标签和状态标记对数据进行分类 | 是的。 | 否 
-
-
-| 复制，删除和移动源文件 | 是的。 | 否 
-
-
 | 能够运行其他报告 | 是的。 | 否 
 |===
 
@@ -271,11 +242,9 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。
 
-* 在执行映射扫描时、BlueXP分类功能每天可以为每个扫描程序节点扫描100-150 Tib的数据。
-* 执行分类扫描时、BlueXP分类可以每天扫描每个扫描程序节点15到40 Tib的数据。
+* 执行映射扫描时、BlueXP分类功能每天可以扫描100-150 Tib的数据。
+* 执行分类扫描时、BlueXP分类每天可扫描15-40 Tib的数据。
 
-
-link:task-deploy-compliance-onprem.html#install-bluexp-classification-on-the-linux-host["了解有关部署多个扫描程序节点以扫描数据的更多信息"^]。
 
 
 

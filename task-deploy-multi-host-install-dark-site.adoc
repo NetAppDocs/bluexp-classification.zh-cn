@@ -1,0 +1,89 @@
+---
+sidebar: sidebar 
+permalink: task-deploy-multi-host-install-dark-site.html 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification, classification, install 
+summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"专用模式")中的Linux主机上安装BlueXP分类。此类安装非常适合您的安全站点。' 
+---
+= 对于无法访问Internet的大型配置、在多个主机上安装BlueXP分类
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+完成几个步骤、在无法访问Internet的内部站点中的多个主机上安装BlueXP分类、也称为_private mode_.此类安装非常适合您的安全站点。
+
+对于需要扫描站点中数PB的数据而不能访问Internet的超大型配置、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时，主系统称为 _Manager node_ ，提供额外处理能力的其他系统称为 _扫描 程序 nodes_ 。
+
+在脱机环境中的多个内部主机上安装BlueXP分类软件时、请按照以下步骤进行操作。
+
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
+.您需要的内容
+* 验证管理器和扫描程序节点的所有Linux系统是否满足主机要求。
+* 确认已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
+* 确保您在 Linux 系统上具有 root 权限。
+* 验证脱机环境是否满足所需的权限和连接要求。
+* 您必须具有计划使用的扫描程序节点主机的 IP 地址。
+* 必须在所有主机上启用以下端口和协议：
++
+[cols="15,20,55"]
+|===
+| Port | 协议 | Description 
+
+
+| 2377 | TCP | 集群管理通信 
+
+
+| 7946 | TCP ， UDP | 节点间通信 
+
+
+| 4789 | UDP | 覆盖网络流量 
+
+
+| 50 | 电子服务 | 加密的 IPsec 覆盖网络（ ESP ）流量 
+
+
+| 111. | TCP ， UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
+
+
+| 2049. | TCP ， UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
+|===
+
+
+.步骤
+. 按照中的步骤 1 至 8 进行操作 link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["单主机安装"] 在管理器节点上。
+. 如步骤 9 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。
++
+除了可用于单主机安装的变量之外，还会使用一个新选项 * -n <node_IP>* 来指定扫描程序节点的 IP 地址。多个节点 IP 以逗号分隔。
+
++
+例如、此命令将添加3个扫描程序节点：
+`sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> *-n <node_ip1>,<node_ip2>,<node_ip3>* --no-proxy --darksite`
+
+. 在管理器节点安装完成之前，将显示一个对话框，其中显示了扫描程序节点所需的安装命令。复制命令(例如： `sudo ./node_install.sh -m 10.11.12.13 -t ABCDEF-1-3u69m1-1s35212`)并将其保存在文本文件中。
+. 在 * 每个 * 扫描程序节点主机上：
++
+.. 将Data sense安装程序文件(* cc_onprem_installer.tar.gz*)复制到主机。
+.. 解压缩安装程序文件。
+.. 粘贴并运行在步骤 3 中复制的命令。
++
+在所有扫描程序节点上完成安装且这些节点已加入管理器节点后，管理器节点安装也会完成。
+
+
+
+
+
+.结果
+BlueXP分类安装程序完成软件包安装并注册安装。安装可能需要 15 到 25 分钟。
+
+.下一步行动
+在配置页面中，您可以选择本地 link:task-getting-started-compliance.html["内部 ONTAP 集群"] 和本地 link:task-scanning-databases.html["数据库"] 要扫描的。
+
+您也可以 link:task-licensing-datasense.html["为BlueXP分类设置BYOL许可"] 此时从BlueXP电子钱包页面。即使30天免费试用结束、您也不会被收取费用。

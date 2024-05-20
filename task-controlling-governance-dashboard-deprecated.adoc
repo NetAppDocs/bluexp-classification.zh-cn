@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-controlling-governance-dashboard-deprecated.html 
+keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, policies 
+summary: 控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。 
+---
+= 使用监管信息板查看有关数据的监管详细信息
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。
+
+此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。
+
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
+
+
+== 在监管信息板上按敏感度和广泛权限列出的数据
+
+"监管"信息板上的"敏感数据和广泛权限"区域提供了包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件的热图。这样可以帮助您了解敏感数据可能存在哪些风险。
+
+
+NOTE: 此适用场景BlueXP分类版本为1.3及更早版本。
+
+根据有权访问X轴上文件的用户数量(从低到高)以及Y轴上文件中的敏感标识符数量(从低到高)、对文件进行评级。这些块表示与X轴和Y轴中的项匹配的文件数。颜色较浅的块很好；能够访问文件的用户较少、每个文件的敏感标识符较少。较暗的块是您可能需要调查的项目。例如、以下屏幕显示深蓝色块的悬停文本。它表明、您有1、500个文件、其中751-100个用户可以访问这些文件、并且每个文件有501到100个敏感标识符。
+
+image:screenshot_compliance_sensitive_data.png["一个屏幕截图、显示将光标置于此面板中的某个元素上时显示的数据。"]
+
+您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。
+
+如果尚未将身份服务与BlueXP分类集成、则此面板中不会显示任何数据。 link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与BlueXP分类集成"^]。
+
+
+TIP: 此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。
+
+
+
+== 信息板上显示AIP标签的分类区域
+
+信息板上的_Classification _区域提供了扫描数据中最能识别的Azure信息保护(AIP)标签的列表。
+
+如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。
+
+请参见 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"^] 有关详细信息 ...

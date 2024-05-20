@@ -14,13 +14,11 @@ summary: 如果需要、您可以停止BlueXP分类以扫描一个或多个工�
 
 
 [role="lead"]
-如果需要、您可以停止BlueXP分类以扫描一个或多个工作环境、数据库、文件共享组、OneDrive帐户、Google Drive帐户、 或SharePoint帐户。
-
-删除数据源后、为扫描数据而付费的操作将停止。
+如果需要、您可以停止BlueXP分类以扫描一个或多个工作环境、数据库或文件共享组。
 
 
 
-== 为工作环境停用合规性扫描
+== 停用工作环境的合规性扫描
 
 当您停用扫描时、BlueXP分类不再扫描工作环境中的数据、它会从BlueXP分类实例中删除已编制索引的合规性洞察信息(不会删除工作环境本身中的数据)。
 
@@ -42,20 +40,6 @@ TIP: 您也可以在选择工作环境时从服务面板为工作环境禁用合
 
 
 image:screenshot_compliance_remove_db.png["扫描配置页面中的删除数据库服务器按钮的屏幕截图。"]
-
-
-
-== 从BlueXP分类中删除OneDrive、SharePoint或Google Drive帐户
-
-如果您不再需要扫描特定OneDrive帐户、特定SharePoint帐户或Google Drive帐户中的用户文件、则可以从BlueXP分类界面中删除该帐户并停止所有扫描。
-
-.步骤
-. 从 _Configuration_ 页面中，单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮、然后单击*删除OneDrive帐户*、*删除SharePoint帐户*或*删除Google Drive帐户*。
-+
-image:screenshot_compliance_remove_onedrive.png["扫描配置页面中的删除 OneDrive 按钮的屏幕截图。"]
-
-. 单击确认对话框中的 * 删除帐户 * 。
-
 
 
 

@@ -1,0 +1,99 @@
+---
+sidebar: sidebar 
+permalink: task-investigate-data-deprecated.html 
+keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
+summary: '您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。' 
+---
+= 调查数据调查页面上存储的数据
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。
+
+
+NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。
+
+
+
+== 筛选"数据调查"页面中的数据
+
+您可以筛选调查页面的内容，以便仅显示要查看的结果。这是一项功能非常强大的功能、因为在对数据进行细化后、您可以使用页面顶部的按钮栏执行各种操作、包括复制文件、移动文件、向文件添加标记或AIP标签等。
+
+
+
+=== 按标记、标签、已分配用户和策略筛选数据
+
+使用以下筛选器按标记、AIP标签、分配的用户或策略查看数据。
+
+[]
+====
+*注意*按标记、标签和分配的用户进行筛选的功能仅与BlueXP分类版本1.3及更早版本相关。
+
+====
+[cols="30,60"]
+|===
+| 筛选器 | 详细信息 
+
+
+| 策略 | 选择一个或多个策略。开始 link:task-using-policies.html["此处"^] 可查看现有策略列表并创建您自己的自定义策略。 
+
+
+| Label | 选择 ... link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"] 分配给文件的。 
+
+
+| Tags | 选择 ... link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["一个或多个标记"] 分配给文件的。 
+
+
+| 已分配给 | 选择将文件分配到的人员的姓名。 
+|===
+
+
+== 创建数据调查报告
+
+"数据调查报告"是对"数据调查"页面中经过筛选的内容的下载。
+
+报告有两种不同的格式：
+
+* 以.CSV文件格式保存到本地计算机。
++
+此报告最多可包含10、000行数据。
+
+* 导出到NFS共享的.jSON文件。
++
+如果数据行数超过250、000行、则会创建其他.JSON文件。
+
++
+导出到文件共享时、请确保BlueXP分类具有正确的导出访问权限。
+
++
+[]
+====
+*注*在中生成报告的能力。 JSON格式仅适用于BlueXP分类版本1.3及更早版本。
+
+====
+
+
+如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。
+
+.步骤
+. 在数据调查页面中、单击 image:button_download.png["下载按钮"] 按钮。
+. 选择要下载.CSV报告还是.JSON数据报告、然后单击*下载报告*。
++
+选择.json报告时、请以`<host_name>：/<share_path>`格式输入要下载报告的NFS共享的名称。
+
++
+您可以在中查看JSON报告生成的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
+
++
+[]
+====
+*注意*按标记、标签和分配的用户进行筛选的功能仅与BlueXP分类版本1.3及更早版本相关。
+
+====
+

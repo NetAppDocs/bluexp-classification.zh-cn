@@ -1,0 +1,161 @@
+---
+sidebar: sidebar 
+permalink: reference-free-paid.html 
+keywords: bluexp, classification, cloud data sense, data sense, compliance, security 
+summary: BlueXP分类的免费版本中不提供某些特性和功能。 
+---
+= BlueXP分类已弃用的功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP分类作为BlueXP中的核心功能提供、无需额外付费。通过将BlueXP分类作为所有客户均可使用的核心BlueXP功能、NetApp使您能够使用核心功能访问定制的数据管理。
+
+从BlueXP核心版本1.31及更高版本开始、有些特性和功能已弃用、但在原有版本1.3及更低版本中仍受支持。
+
+
+
+== 支持的数据源
+
+[cols="60,20,20"]
+|===
+| 数据源 | 原有版本1.3及更早版本 | BlueXP核心版本1.31及更高版本 
+
+
+| Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中） | 是的。 | 是的。 
+
+
+| 内部 ONTAP 集群 | 是的。 | 是的。 
+
+
+| StorageGRID | 是的。 | 否 
+
+
+| Azure NetApp Files | 是的。 | 是的。 
+
+
+| 适用于 ONTAP 的 Amazon FSX | 是的。 | 是的。 
+
+
+| Google Cloud NetApp卷 | 是的。 | 是的。 
+
+
+| 适用于 Google Cloud 的 Cloud Volumes Service | 是的。 | 是的。 
+
+
+| 数据库 | 是的。 | 是的。 
+
+
+| Amazon S3 | 是的。 | 否 
+
+
+| Google Cloud 存储 | 是的。 | 否 
+
+
+| OneDrive | 是的。 | 否 
+
+
+| SharePoint Online | 是的。 | 否 
+
+
+| SharePoint内部部署(SharePoint Server) | 是的。 | 否 
+
+
+| Google Drive | 是的。 | 否 
+|===
+
+
+== 合规性功能
+
+[cols="60,20,20"]
+|===
+| 功能 | 原有版本1.3及更早版本 | BlueXP核心版本1.31及更高版本 
+
+
+| 识别个人身份信息（ PiII ） | 是的。 | 是的。 
+
+
+| 识别敏感的个人信息 | 是的。 | 是的。 
+
+
+| 响应数据主体访问请求（ DSAar ） | 是的。 | 是的。 
+
+
+| 创建已标识的自定义"个人数据"列表 | 是的。 | 否 
+
+
+| 当文件包含特定的身份信息时、通过电子邮件通知用户。(您可以使用定义此条件 link:task-using-policies.html["策略"^]） | 是的。 | 是的。 
+
+
+| 使用目录级筛选器 | 是的。 | 是的。 
+
+
+| 使用目录级的分析 | 是的。 | 否 
+|===
+
+
+== 用于管理数据的功能
+
+[cols="60,20,20"]
+|===
+| 功能 | 原有版本1.3及更早版本 | BlueXP核心版本1.31及更高版本 
+
+
+| 移动、复制和删除源文件 | 是的。 | 否 
+
+
+| 使用状态标记对数据进行分类 | 是的。 | 否 
+
+
+| 使用AIP标签对数据进行分类 | 是的。 | 否 
+
+
+| 将文件分配给用户 | 是的。 | 否 
+
+
+| 按需重新扫描数据 | 是的。 | 否 
+
+
+| 创建自定义的定义器 | 是的。 | 否 
+
+
+| 从扫描中排除目录 | 是的。 | 是的。 
+
+
+| 搜索文件中的名称 | 是的。 | 是的。 
+
+
+| 从调查中将数据导出到NFS | 是的。 | 否 
+
+
+| 支持多个扫描器 | 是的。 | 否 
+
+
+| 集成 Active Directory | 是的。 | 是的。 
+
+
+| 使用权限分析和筛选器 | 是的。 | 是的。 
+
+
+| 使用文件卡 | 是的。 | 是的。 
+
+
+| 使用热图 | 是的。 | 是的。 
+
+
+| 使用信息板和文件卡上的操作 | 是的。 | 否 
+
+
+| 使用文件访问审核日志记录 | 是的。 | 否 
+
+
+| 从配置页面启用文件访问 | 是的。 | 否 
+
+
+| 使用某些预定义策略 | 是的。 | 否 
+|===

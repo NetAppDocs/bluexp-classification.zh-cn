@@ -14,7 +14,7 @@ summary: BlueXP分类可以在卷、Amazon S3存储分段、数据库、OneDrive
 
 
 [role="lead"]
-BlueXP分类可以在卷、Amazon S3存储分段、数据库、OneDrive文件夹、SharePoint帐户、 和Google Drive帐户。请参见以下类别。
+BlueXP分类可以在卷和数据库中识别多种类型的私有数据。请参见以下类别。
 
 
 TIP: 如果您需要BlueXP分类来识别其他私有数据类型、例如其他国家/地区ID编号或医疗保健标识符、请发送电子邮件至ng-contact-data-sense@netapp.com并附上您的请求。
@@ -26,8 +26,6 @@ TIP: 如果您需要BlueXP分类来识别其他私有数据类型、例如其他
 文件中的个人数据可以是常规个人数据或国家标识符。下表中的第三列标识了BlueXP分类是否使用 link:task-controlling-private-data.html#view-files-that-contain-personal-data["接近验证"^] 以验证其对标识符的发现。
 
 表中列出了可识别这些项目的语言。
-
-请注意、您可以将添加到文件中的个人数据列表中。如果正在扫描数据库服务器、则可以通过选择Fusion 数据库表中的列来选择BlueXP分类在其扫描中要查找的其他标识符。您还可以从文本文件添加自定义关键字、或者使用正则表达式添加自定义模式。请参见 link:task-managing-data-fusion.html["将个人数据标识符添加到BlueXP分类扫描中"^] 了解详细信息。
 
 [cols="13,37,10,8,8,8,8,8"]
 |===

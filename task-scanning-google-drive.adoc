@@ -16,6 +16,11 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐�
 [role="lead"]
 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐户中的用户文件。
 
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
 
 
 == 快速入门
@@ -59,7 +64,7 @@ Google Drive文件当前不支持以下BlueXP分类功能：
 
 
 
-== 正在部署BlueXP分类
+== 部署BlueXP分类
 
 如果尚未部署实例、请部署BlueXP分类。
 
@@ -69,7 +74,7 @@ BlueXP分类可以是 link:task-deploy-cloud-compliance.html["部署在云中"^]
 
 
 
-== 正在添加Google Drive帐户
+== 添加Google Drive帐户
 
 添加用户文件所在的Google Drive帐户。如果要扫描多个用户的文件、则需要对每个用户运行此步骤。
 
@@ -122,4 +127,4 @@ BlueXP分类开始扫描您添加的Google Drive帐户中的文件、结果将�
 
 == 从合规性扫描中删除Google Drive帐户
 
-由于只有一个用户的Google Drive文件属于一个Google Drive帐户、因此、如果要停止扫描用户的Google Drive帐户中的文件、则应执行此操作 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["从BlueXP分类中删除Google Drive帐户"]。
+由于只有一个用户的Google Drive文件属于一个Google Drive帐户、因此、如果要停止扫描用户的Google Drive帐户中的文件、则应执行此操作 link:task-managing-compliance.html["从BlueXP分类中删除Google Drive帐户"]。

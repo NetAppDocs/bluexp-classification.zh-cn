@@ -39,8 +39,7 @@ NOTE: 本地用户 SID 和未知域中的 SID 不会转换为实际用户名。
 * Azure NetApp Files
 * 适用于 ONTAP 的 FSX
 * 非NetApp CIFS文件共享(非NFS文件共享)
-* OneDrive 帐户
-* SharePoint 帐户
+* OneDrive帐户和SharePoint帐户(适用于旧版1.3及更早版本)
 
 
 不支持从使用简单存储服务(Simple Storage Service、S3)协议的数据库架构、Google Drive帐户、Amazon S3帐户或对象存储中识别用户和权限信息。

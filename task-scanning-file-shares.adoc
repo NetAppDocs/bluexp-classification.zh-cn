@@ -17,6 +17,9 @@ summary: 完成几个步骤即可开始使用BlueXP分类直接扫描非NetApp N
 完成几个步骤即可开始使用BlueXP分类直接扫描非NetApp NFS或CIFS文件共享。这些文件共享可以驻留在内部或云中。
 
 
+TIP: 添加文件共享是从Google Cloud NetApp卷扫描数据的唯一方法。
+
+
 
 == 快速入门
 

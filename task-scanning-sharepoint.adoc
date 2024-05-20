@@ -4,7 +4,7 @@ permalink: task-scanning-sharepoint.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
 summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online和SharePoint内部部署帐户中的文件。 
 ---
-= 扫描 SharePoint 帐户
+= 扫描SharePoint帐户
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,6 +16,11 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online
 [role="lead"]
 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online和SharePoint内部部署帐户中的文件。
 
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
 
 
 == 快速入门
@@ -40,7 +45,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 
 
-== 查看 SharePoint 要求
+== 查看SharePoint要求
 
 查看以下前提条件、确保您已准备好在SharePoint帐户上激活BlueXP分类。
 
@@ -111,7 +116,7 @@ SharePoint内部部署帐户将添加到工作环境列表中。
 
 
 
-== 将 SharePoint 站点添加到合规性扫描
+== 将SharePoint站点添加到合规性扫描
 
 您可以在帐户中添加单个SharePoint网站或最多1、000个SharePoint网站、以便按BlueXP分类扫描关联的文件。无论您是添加SharePoint Online还是SharePoint内部部署网站、步骤都是相同的。
 
@@ -163,10 +168,10 @@ BlueXP分类开始扫描您添加的SharePoint网站中的文件、结果将显�
 
 
 
-== 从合规性扫描中删除 SharePoint 站点
+== 从合规性扫描中删除SharePoint网站
 
 如果您将来删除某个 SharePoint 站点，或者决定不扫描 SharePoint 站点中的文件，则可以随时删除各个 SharePoint 站点，使其无法扫描其文件。只需从配置页面中单击 * 删除 SharePoint 站点 * 即可。
 
 image:screenshot_compliance_sharepoint_remove_site.png["显示如何从扫描单个 SharePoint 站点的文件中删除此站点的屏幕截图。"]
 
-请注意，您可以 link:task-managing-compliance.html#removing-a-onedrive-sharepoint-or-google-drive-account-from-bluexp-classification["从BlueXP分类中删除整个SharePoint帐户"] 如果您不想再扫描SharePoint帐户中的任何用户数据。
+请注意，您可以 link:task-managing-compliance.html["从BlueXP分类中删除整个SharePoint帐户"] 如果您不想再扫描SharePoint帐户中的任何用户数据。

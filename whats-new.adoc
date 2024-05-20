@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, bluexp, bluexp classification' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, cloud data sense, bluexp, bluexp classification' 
 summary: 了解BlueXP分类中的新增功能。 
 ---
 = BlueXP的新增功能分类
@@ -15,6 +15,18 @@ summary: 了解BlueXP分类中的新增功能。
 
 [role="lead"]
 了解BlueXP分类(Cloud Data Sense)中的新增功能。
+
+
+
+== 2024年5月15日(版本1.31)
+
+
+
+=== 分类可作为BlueXP中的一项免费服务提供
+
+BlueXP分类现已作为BlueXP中的核心功能提供、无需额外付费即可处理高达500 TiB的扫描数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。
+
+link:reference-free-paid.html["详细了解已弃用的功能"]。
 
 
 
@@ -92,9 +104,9 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 
 此版本包含一些小的增强功能。
 
-此版本还暂时删除了以下选项：
+此版本还删除了以下选项：
 
-* 已禁用用于激活审核日志收集的选项。请参见 link:task-manage-file-access-events.html["监控和管理文件访问事件"]。
+* 已禁用用于激活审核日志收集的选项。
 * 在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参见 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["调查存储在组织中的数据"]。
 * 已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参见 link:task-org-private-data.html["组织您的私有数据"]。
 
@@ -207,7 +219,7 @@ Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网�
 
 === 可以将BlueXP分类配置为FPolicy收集器、以便从ONTAP系统接收FPolicy事件
 
-您可以在BlueXP分类系统上为工作环境中的卷上检测到的文件访问事件收集文件访问审核日志。BlueXP分类可以捕获以下类型的FPolicy事件以及对文件执行操作的用户：创建、读取、写入、删除、重命名、 Change owner/permissions和Change SACL/DACL。 https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["请参见如何监控和管理文件访问事件"]。
+您可以在BlueXP分类系统上为工作环境中的卷上检测到的文件访问事件收集文件访问审核日志。BlueXP分类可以捕获以下类型的FPolicy事件以及对文件执行操作的用户：创建、读取、写入、删除、重命名、 Change owner/permissions和Change SACL/DACL。
 
 
 

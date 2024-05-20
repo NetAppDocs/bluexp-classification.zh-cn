@@ -53,7 +53,7 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 
 | 标识符数量 | 选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。
 
-注意：2023年12月(1.26.6版)发布的版本暂时删除了按目录计算个人身份信息(Personal可识别信息、个人身份信息)数据数量的选项。 
+注意：2023年12月(1.26.6版)版本删除了按目录计算个人身份信息(Personal可识别信息、Personal可识别信息)数据数量的选项。 
 
 
 | 个人数据 | 选择 link:reference-private-data-categories.html#types-of-personal-data["个人数据的类型"^]。 
@@ -158,9 +158,9 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 |===
 
 
-=== 按标记、标签、已分配用户和策略筛选数据
+=== 按策略筛选数据
 
-使用以下筛选器按AIP标签或标记查看数据。
+使用以下筛选器按策略查看数据。
 
 [cols="30,60"]
 |===
@@ -168,15 +168,6 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 
 
 | 策略 | 选择一个或多个策略。开始 link:task-using-policies.html["此处"^] 可查看现有策略列表并创建您自己的自定义策略。 
-
-
-| Label | 选择 ... link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"] 分配给文件的。 
-
-
-| Tags | 选择 ... link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["一个或多个标记"] 分配给文件的。 
-
-
-| 已分配给 | 选择将文件分配到的人员的姓名。 
 |===
 
 
@@ -217,24 +208,15 @@ link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"
 
 image:screenshot_compliance_file_details.png["显示数据调查页面中文件的元数据详细信息的屏幕截图。"]
 
-除了向您显示文件所在的工作环境和卷之外，元数据还会显示更多信息，包括文件权限，文件所有者，此文件是否存在重复项以及分配的 AIP 标签（如果有） link:task-org-private-data.html#categorize-your-data-using-aip-labels["BlueXP分类中的集成AIP"^]）。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#create-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
+除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用此信息，此信息将非常有用 link:task-using-policies.html#create-custom-policies["创建策略"] 因为您可以看到可用于筛选数据的所有信息。
 
-请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如，卷名称，权限和 AIP 标签与数据库文件无关。
-
-查看单个文件的详细信息时，可以对该文件执行以下操作：
-
-* 您可以将此文件移动或复制到任何 NFS 共享。请参见 link:task-managing-highlights.html#move-source-files-to-an-nfs-share["将源文件移动到 NFS 共享"] 和 link:task-managing-highlights.html#copy-source-files["将源文件复制到 NFS 共享"] 了解详细信息。
-* 您可以删除此文件。请参见 link:task-managing-highlights.html#delete-source-files["正在删除源文件"] 了解详细信息。
-* 您可以为文件分配特定状态。请参见 link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["正在应用标记"] 了解详细信息。
-* 您可以将此文件分配给BlueXP用户、以负责对该文件执行任何后续操作。请参见 link:task-org-private-data.html#assign-users-to-manage-certain-files["为文件分配用户"] 了解详细信息。
-* 如果已将AIP标签与BlueXP分类集成在一起、则可以为此文件分配一个标签、或者更改为其他标签(如果已存在)。请参见 link:task-org-private-data.html#assign-aip-labels-manually["手动分配 AIP 标签"] 了解详细信息。
-
+请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如、卷名称和权限与数据库文件无关。
 
 
 
 == 查看文件和目录的权限
 
-要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享、SharePoint Online、SharePoint内部部署和OneDrive中的数据。
+要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享中的数据。
 
 请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。 link:task-add-active-directory-datasense.html["了解如何执行此操作"]。
 
@@ -283,20 +265,7 @@ TIP: 您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在
 
 "数据调查报告"是对"数据调查"页面中经过筛选的内容的下载。
 
-报告有两种不同的格式：
-
-* 以.CSV文件格式保存到本地计算机。
-+
-此报告最多可包含10、000行数据。
-
-* 导出到NFS共享的.jSON文件。
-+
-如果数据行数超过250、000行、则会创建其他.JSON文件。
-
-+
-导出到文件共享时、请确保BlueXP分类具有正确的导出访问权限。
-
-
+此报告以形式提供。 CSV文件、您可以将其保存到本地计算机。
 
 如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。
 
@@ -306,10 +275,7 @@ TIP: 您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在
 
 .步骤
 . 在数据调查页面中、单击 image:button_download.png["下载按钮"] 按钮。
-. 选择要下载.CSV报告还是.JSON数据报告、然后单击*下载报告*。
-+
-选择.json报告时、请以`<host_name>：/<share_path>`格式输入要下载报告的NFS共享的名称。
-
+. 选择以下载。 CSV报告数据，然后单击*Download Report*。
 +
 image:screenshot_compliance_investigation_report.png["包含多个选项的Download调查报告页面的屏幕截图。"]
 
@@ -318,11 +284,9 @@ image:screenshot_compliance_investigation_report.png["包含多个选项的Downl
 .结果
 此时将显示一条消息、指出正在下载报告。
 
-您可以在中查看JSON报告生成的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
 
 
-
-=== 每个数据调查报告中包含的内容
+=== 数据调查报告中包含的内容
 
 *非结构化文件数据报告*包含有关文件的以下信息：
 
