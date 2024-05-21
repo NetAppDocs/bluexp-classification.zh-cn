@@ -42,6 +42,8 @@ link:reference-free-paid.html["详细了解已弃用的功能"]。
 
 了解更多信息 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["BlueXP分类部署概述"]。
 
+如果在内部的RHEL 8或9主机上安装Connector、则支持BlueXP分类。如果RHEL 8或9主机位于AWS、Azure或Google Cloud中、则不支持此功能。
+
 
 
 === 删除了用于激活审核日志收集的选项
