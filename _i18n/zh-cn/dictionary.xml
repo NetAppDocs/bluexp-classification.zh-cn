@@ -3545,4 +3545,5 @@
   <block id="08a8e0f5e4c7d91e565955cb7f30b215" category="sidebar">在监管信息板上查看有关数据的监管详细信息</block>
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">删除OneDrive、SharePoint或Google Drive帐户</block>
   <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">如果在内部的RHEL 8或9主机上安装Connector、则支持BlueXP分类。如果RHEL 8或9主机位于AWS、Azure或Google Cloud中、则不支持此功能。</block>
+  <block id="cfe5d63c50c4794111fa6f65b931e130" category="cell">从调查中将数据导出至CSV</block>
 </blocks>
