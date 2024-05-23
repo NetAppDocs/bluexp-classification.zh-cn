@@ -84,7 +84,7 @@ sidebar:
     entries:
     - title: 已弃用功能的列表
       url: "/reference-free-paid.html"
-    - title: 部署BlueXP分类
+    - title: 部署BlueXP分类弃用
       entries:
       - title: 在无法访问Internet的多个主机上安装BlueXP分类
         url: "/task-deploy-multi-host-install-dark-site.html"
@@ -92,7 +92,7 @@ sidebar:
         url: "/task-deploy-add-scanner-nodes.html"
       - title: 设置免费试用版或自带许可证
         url: "/task-licensing-byol-freetrial.html"
-    - title: 扫描数据
+    - title: 扫描数据弃用
       entries:
       - title: 扫描Amazon S3存储分段
         url: "/task-scanning-s3.html"
@@ -104,7 +104,7 @@ sidebar:
         url: "/task-scanning-google-drive.html"
       - title: 扫描使用S3协议的对象存储
         url: "/task-scanning-object-storage.html"
-    - title: 管理数据
+    - title: 管理数据弃用
       entries:
       - title: 在监管信息板上查看有关数据的监管详细信息
         url: "/task-controlling-governance-dashboard-deprecated.html"

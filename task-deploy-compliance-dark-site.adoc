@@ -33,7 +33,6 @@ NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueX
 
 * 内部部署 ONTAP 系统
 * 数据库架构
-* 非 NetApp NFS 或 CIFS 文件共享
 
 
 在私有模式下部署BlueXP分类时、当前不支持扫描Cloud Volumes ONTAP、Azure NetApp Files或FSx for ONTAP帐户。
@@ -72,7 +71,7 @@ BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
 [role="quick-margin-para"]
-BlueXP分类在BlueXP中扫描的前500 TB数据可免费使用30天。要在此之后继续扫描数据，需要获得 NetApp 的 BYOL 许可证。BlueXP核心版本1.31免费。
+需要订阅云提供商Marketplace。
 
 
 

@@ -90,99 +90,15 @@ video::video_subscribing_gcp.mp4[width=848,height=480]
 
 
 
-== 使用年度合同
-
-通过获得年度合同、每年使用BlueXP分类。它们提供1年、2年或3年期服务。
-
-如果您有一份来自市场的年度合同、则所有BlueXP分类数据扫描都将从该合同中扣除费用。您不能将年度市场合同与BYOL混合搭配使用。
-
-* AWS https://aws.amazon.com/marketplace/pp/prodview-q7dg6zwszplri["有关定价详细信息、请访问BlueXP Marketplace产品"^]。
-* Azure 酒店 https://azuremarketplace.microsoft.com/en-us/marketplace/apps/netapp.netapp-bluexp["有关定价详细信息、请访问BlueXP Marketplace产品"^]。
-* Google Cloud：要购买年度合同、请与NetApp销售代表联系。此合同在Google Cloud Marketplace中以私人优惠形式提供。在NetApp与您分享私人优惠后、您可以在BlueXP分类激活期间从Google云市场订阅年度计划。
-
-
-
-
-== 使用BlueXP分类BYOL许可证
-
-NetApp 自带许可证的期限为 1 年， 2 年或 3 年。BYOL BlueXP分类(Data Sense)许可证是一种_Float_许可证、其中总容量在*所有*工作环境和数据源之间共享、从而可以轻松地进行初始许可和续订。
-
-如果您没有BlueXP分类许可证、请联系我们获取一个：
-
-* mailto ： ng-contact-data-sense@netapp.com ？ Subject=Licensing[ 发送电子邮件以购买许可证 ] 。
-* 单击BlueXP右下角的聊天图标以申请许可证。
-
-
-或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#exchange-unassigned-node-based-licenses["有关详细信息，请访问此处"^]。
-
-您可以使用BlueXP电子钱包管理BlueXP分类BYOL许可证。您可以通过BlueXP电子钱包添加新许可证、更新现有许可证以及查看许可证状态。
-
-
-
-=== 获取BlueXP分类许可证文件
-
-购买BlueXP分类(Data Sense)许可证后、您可以在BlueXP中通过输入BlueXP分类序列号和NetApp 支持站点(NSS)帐户或上传NetApp许可证文件(NLG)来激活许可证。以下步骤显示了如果您计划使用此方法，如何获取 NLF 许可证文件。
-
-如果您已在无法访问Internet的内部站点中的主机上部署BlueXP分类、这意味着您已在中部署BlueXP Connector https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#private-mode["私有模式"^]，您需要从连接Internet的系统获取许可证文件。使用序列号和NSS帐户激活许可证不适用于私用模式安装。
-
-.开始之前
-开始之前、您需要了解以下信息：
-
-* BlueXP分类序列号
-+
-从您的销售订单中找到此号码、或者联系客户团队了解此信息。
-
-* BlueXP帐户ID
-+
-您可以通过从BlueXP顶部选择*帐户*下拉列表、然后单击您的帐户旁边的*管理帐户*来查找您的BlueXP帐户ID。您的帐户 ID 位于概述选项卡中。对于无法访问Internet的专用模式站点，请使用*ACCOUNT-HARKSITE1*。
-
-
-
-.步骤
-. 登录到 https://mysupport.netapp.com["NetApp 支持站点"^] 然后单击 * 系统 > 软件许可证 * 。
-. 输入BlueXP分类许可证序列号。
-+
-image:screenshot_cloud_tiering_license_step1.gif["按序列号搜索后显示许可证表的屏幕截图。"]
-
-. 在*许可证密钥*列下，单击*获取NetApp许可证文件*。
-. 输入您的BlueXP帐户ID (在支持站点上称为租户ID)、然后单击*提交*下载许可证文件。
-+
-image:screenshot_cloud_tiering_license_step2.gif["屏幕截图显示了获取许可证对话框，您可以在其中输入租户 ID ，然后单击提交下载许可证文件。"]
-
-
-
-
-
-=== 将BlueXP分类BYOL许可证添加到您的帐户
-
-为BlueXP帐户购买BlueXP分类(Data Sense)许可证后、您需要将该许可证添加到BlueXP才能使用BlueXP分类服务。
-
-.步骤
-. 从BlueXP菜单中、单击*监管>数字电子钱包*、然后选择*数据服务许可证*选项卡。
-. 单击 * 添加许可证 * 。
-. 在 _Add License_ 对话框中，输入许可证信息并单击 * 添加许可证 * ：
-+
-** 如果您有BlueXP分类许可证序列号并且知道您的NSS帐户，请选择*Enter Serial Number*选项并输入该信息。
-+
-如果下拉列表中没有您的 NetApp 支持站点帐户， https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["将NSS帐户添加到BlueXP"^]。
-
-** 如果您有BlueXP分类许可证文件(安装在非公开站点时需要)，请选择*上传许可证文件*选项并按照提示附加该文件。
-+
-image:screenshot_services_license_add.png["显示用于添加BlueXP分类BYOL许可证的页面的屏幕截图。"]
-
-
-
-
-
-.结果
-BlueXP会添加许可证、以便BlueXP分类服务处于活动状态。
-
-
-
 === 更新BlueXP分类BYOL许可证
 
 如果您的许可期限即将到期、或者您的许可容量即将达到限制、您将在分类UI中收到通知。
 
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
 image:screenshot_services_license_expire_cc1.png["在BlueXP分类页面中显示即将到期的许可证的屏幕截图。"]
 
 此状态也会显示在BlueXP电子钱包和中 https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center["通知"^]。
@@ -198,7 +114,7 @@ image:screenshot_services_license_expire_cc2.png["在BlueXP数字钱包页面中
 
 . 如果BlueXP无法自动更新许可证(例如、安装在非公开站点时)、则需要手动上传许可证文件。
 +
-.. 您可以 <<获取BlueXP分类许可证文件,从 NetApp 支持站点获取许可证文件>>。
+.. 您可以从NetApp 支持站点 获取许可证文件。
 .. 在BlueXP数字钱包页面的_Data Services Licenss_选项卡中、单击 image:screenshot_horizontal_more_button.gif["更多图标"] 对于要更新的服务序列号，请单击 * 更新许可证 * 。
 +
 image:screenshot_services_license_update.png["选择特定服务的更新许可证按钮的屏幕截图。"]
@@ -215,17 +131,17 @@ BlueXP会更新许可证、以便BlueXP分类服务继续处于活动状态。
 
 === BYOL 许可证注意事项
 
-使用BlueXP分类(Data Sense) BYOL许可证时、如果要扫描的所有数据的大小接近容量限制或即将到期、BlueXP会在BlueXP分类UI和BlueXP数字钱包UI中显示警告。您会收到以下警告：
+使用BlueXP分类(Data Sense) BYOL许可证时、如果要扫描的所有数据的大小接近容量限制或即将到期、BlueXP会在BlueXP分类UI和BlueXP数字钱包UI中显示警告。
+
+[]
+====
+*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+
+====
+您会收到以下警告：
 
 * 扫描的数据量达到许可容量的 80% 时，再次达到限制时
 * 许可证到期前 30 天，许可证到期后再次
 
 
 如果您看到这些警告、请使用BlueXP界面右下角的聊天图标续订许可证。
-
-如果您的许可证过期或您已达到BYOL限制、BlueXP分类将继续运行、但对信息板的访问将被阻止、因此您无法查看有关任何扫描数据的信息。如果您希望减少要扫描的卷数量，从而可能使容量使用量低于许可证限制，则只能使用 _Configuration_ 页面。
-
-续订BYOL许可证后、BlueXP会自动更新BlueXP电子钱包中的许可证、并提供对所有信息板的完全访问权限。如果BlueXP无法通过安全Internet连接访问此许可证文件(例如、安装在非公开站点时)、您可以自行获取此文件并手动将其上传到BlueXP。有关说明，请参见 <<更新BlueXP分类BYOL许可证,如何更新BlueXP分类许可证>>。
-
-
-NOTE: 如果您正在使用的帐户同时具有BYOL许可证和PAYGO订阅、则在BYOL许可证过期后、BlueXP分类_不会_切换到PAYGO订阅。您必须续订 BYOL 许可证。

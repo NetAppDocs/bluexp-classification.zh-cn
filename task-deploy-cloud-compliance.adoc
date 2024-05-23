@@ -41,7 +41,7 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
 [role="quick-margin-para"]
-BlueXP分类在BlueXP中扫描的前500 TB数据可免费使用30天。要在这之后继续扫描数据、需要通过云提供商Marketplace订阅BlueXP或从NetApp获得BYOL许可证。
+需要通过云提供商Marketplace订阅BlueXP。
 
 
 
@@ -60,7 +60,7 @@ BlueXP分类在BlueXP中扫描的前500 TB数据可免费使用30天。要在这
 * 在 GCP 的 Cloud Volumes ONTAP 中扫描数据时，您可以在 GCP 中使用连接器。
 
 
-使用这些Cloud Connector时、可以扫描内部ONTAP系统、非NetApp文件共享、通用S3对象存储和数据库。
+使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享、通用S3对象存储和数据库。
 
 请注意，您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 

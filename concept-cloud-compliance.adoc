@@ -70,16 +70,22 @@ BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可
 
 
 
-== 支持的数据源
+== 支持的工作环境和数据源
 
-BlueXP分类可以扫描和分析来自以下类型数据源的结构化和非结构化数据：
+BlueXP分类可以扫描和分析来自以下类型的工作环境和数据源的结构化和非结构化数据：
+
+*工作环境*
 
 * Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中）
 * 内部 ONTAP 集群
 * Azure NetApp Files
 * 适用于 ONTAP 的 Amazon FSX
 * Google Cloud NetApp卷
-* 文件共享(例如Dell EMC Isilon、PURE Storage、Nutanix等)
+
+
+*数据源*
+
+* NetApp文件共享
 * 数据库：
 +
 ** Amazon Relational Database Service （ Amazon RDS ）
@@ -99,7 +105,7 @@ BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。
 
 == 成本
 
-BlueXP分类现在可免费用于高达500 TiB的数据。不需要分类许可证或付费订阅。如果要扫描的数据超过500 TiB、则可以在某些原始系统上禁用扫描、并扫描可能会超过500 TiB限制的新系统。
+BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。
 
 
 
@@ -280,7 +286,7 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 
 * * 帐户管理员 * 可以管理所有工作环境的合规性设置并查看合规性信息。
 * 只有当系统具有访问权限时， * 工作空间管理员 * 才能管理合规性设置并查看合规性信息。如果工作区管理员无法访问BlueXP中的工作环境、则他们无法在BlueXP分类选项卡中查看该工作环境的任何合规性信息。
-* 具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。这些用户也无法复制，移动或删除文件。
+* 具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。
 
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-netapp-accounts.html#adding-users["添加具有特定角色的用户"^]。

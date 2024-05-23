@@ -63,7 +63,7 @@ NOTE: 对于旧版1.3及更早版本、要添加扫描程序节点、请参见 l
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
 [role="quick-margin-para"]
-BlueXP分类在BlueXP中扫描的前500 TB数据可免费使用30天。要在这之后继续扫描数据，需要订阅云提供商 Marketplace 或获得 NetApp 的 BYOL 许可证。
+需要订阅云提供商Marketplace。
 
 
 
