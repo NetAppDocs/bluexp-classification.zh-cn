@@ -55,7 +55,7 @@ image:screenshot_compliance_save_as_highlight.png["显示如何将筛选的查�
 .. (可选)选中此框以自动删除与策略参数匹配的文件。
 .. 单击 * 创建策略 * 。
 +
-image:screenshot_compliance_save_highlight.png["显示如何配置和保存策略的屏幕截图。"]
+image:screenshot_compliance_save_highlight2.png["显示如何配置和保存策略的屏幕截图。"]
 
 
 

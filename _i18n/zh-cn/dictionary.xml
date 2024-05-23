@@ -600,7 +600,6 @@
   <block id="9d85612840e00794629f6dce90aa22fa" category="inline-link-macro">AIP 标签</block>
   <block id="fdc2c96185d2a7c98ab81a927c827edb" category="list-text">单击 * 创建策略 * 。</block>
   <block id="ab3a166dafa7696427031860a8ba2694" category="inline-image-macro">显示如何配置和保存策略的屏幕截图。</block>
-  <block id="23e34b6c117b6fd91abb568e48195e27" category="paragraph"><block ref="23e34b6c117b6fd91abb568e48195e27" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f124f85896ac18194a54f85b2d21b888" category="paragraph">新策略将显示在策略选项卡中。</block>
   <block id="ba7f20906bacf4fde87c14d7628aaec2" category="inline-image-macro">屏幕截图显示了如何为策略选择要发送的电子邮件条目的方式。</block>
   <block id="9cc0943710c206f20a91720ffe09f7bf" category="paragraph"><block ref="9cc0943710c206f20a91720ffe09f7bf" category="inline-image-macro-rx" type="image"></block></block>
@@ -3498,7 +3497,6 @@
   <block id="e2175eca7cd7227e608f98540d53af5e" category="paragraph">此版本还删除了以下选项：</block>
   <block id="cf39647f74e2ee71e92d2dcb020dab2d" category="paragraph">您可以在BlueXP分类系统上为工作环境中的卷上检测到的文件访问事件收集文件访问审核日志。BlueXP分类可以捕获以下类型的FPolicy事件以及对文件执行操作的用户：创建、读取、写入、删除、重命名、 Change owner/permissions和Change SACL/DACL。</block>
   <block id="06e3e3e8a40062c8a44b3bead8f60ccb" category="list-text">OneDrive帐户和SharePoint帐户(适用于旧版1.3及更早版本)</block>
-  <block id="a0c44cafcacc5478c539dba887219bc9" category="sidebar">提供免费和付费版本的功能</block>
   <block id="2cb8839a5444b5db421bd5b52586dd24" category="sidebar">扫描数据源</block>
   <block id="98f9f8a11a148aec70c39965293ea9b3" category="sidebar">已弃用的功能</block>
   <block id="dd6f713e594790101284e68ce9ae76f7" category="sidebar">已弃用功能列表</block>
@@ -3529,4 +3527,6 @@
   <block id="ff9a5988c9084ed8f91f339a8c5730ef" category="sidebar">部署BlueXP分类弃用</block>
   <block id="08504eba0f24252abaffadf616e91d7c" category="sidebar">扫描数据弃用</block>
   <block id="58b46c120f259bfcd0cbe13c84945204" category="sidebar">管理数据弃用</block>
+  <block id="9b07697830dbb49b6ea67bff8f36ad42" category="paragraph"><block ref="9b07697830dbb49b6ea67bff8f36ad42" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39ba3e6e56f553f6665e61fc4be73bd0" category="sidebar">BlueXP核心和原有版本中提供的功能</block>
 </blocks>
