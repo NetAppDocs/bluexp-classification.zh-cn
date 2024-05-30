@@ -60,7 +60,7 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 * 在 GCP 的 Cloud Volumes ONTAP 中扫描数据时，您可以在 GCP 中使用连接器。
 
 
-使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享、通用S3对象存储和数据库。
+使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享和数据库。
 
 请注意，您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 

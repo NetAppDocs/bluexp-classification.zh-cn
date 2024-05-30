@@ -471,11 +471,8 @@
   <block id="51d9478e8b1c7fd3b915c3258ca90c5f" category="cell">80%-95%</block>
   <block id="1f11d46635a2bb0b45eb74583d762a6b" category="cell">20%-30%</block>
   <block id="fcfb74f2666b695b8ad53eb3d1e156ff" category="cell">90% 到 97%</block>
-  <block id="3cba68afa7ab7242fd51494aeb5d8d7b" category="list-text">遵守数据合规性和隐私法规。</block>
   <block id="29c9ae62d38a9d393cc687207b213fa5" category="list-text">遵守数据保留策略。</block>
-  <block id="22e218023aca4f3c1af5339aa10fd3f1" category="list-text">根据 GDPR ， CCPA ， HIPAA 和其他数据隐私法规的要求，根据数据主题轻松查找和报告特定数据。</block>
   <block id="6858b5f69ec006bf6e2de7960deffea9" category="list-text">识别个人身份信息（ PiII ）。</block>
-  <block id="75561c13a7f1550c1d376b995ed2e83f" category="list-text">遵守新的和即将出台的数据隐私法规。</block>
   <block id="cb1df3001d7e0d737bf8af8bf621fee0" category="inline-link-macro">了解扫描的工作原理</block>
   <block id="37f3de5c9ae041a1644d4b78c54dcf40" category="section-title">支持哪些云提供商？</block>
   <block id="3cf31c18e1b66993cf63511a5ea327f3" category="paragraph">时间 <block ref="63b25124667f9a48140e6efc7dc1fd70" category="inline-link-macro-rx"></block>：</block>
@@ -914,7 +911,6 @@
   <block id="a54d3bccf6c646c46c072ad1fc403cb6" category="inline-link">在内部部署 Connector</block>
   <block id="94ee7072c2750da1997438a715efb7d4" category="section-title">创建连接器</block>
   <block id="ee9e25ed53166b2db3af20cf43c4404e" category="paragraph">在某些情况下，您必须使用部署在特定云提供商中的 Connector ：</block>
-  <block id="bd36c37245d1af16de2a713e0208a229" category="list-text">在 AWS 中的 Cloud Volumes ONTAP ，适用于 ONTAP 的 Amazon FSx 或 AWS S3 存储分段中扫描数据时，您可以使用 AWS 中的连接器。</block>
   <block id="f19eaef4d9d109ffcf1717f49dd5d48b" category="list-text">在 Azure 或 Azure NetApp Files 中的 Cloud Volumes ONTAP 中扫描数据时，您可以使用 Azure 中的连接器。</block>
   <block id="51604d985a41a8e2115db8de3eb4b40f" category="list-text">在 GCP 的 Cloud Volumes ONTAP 中扫描数据时，您可以在 GCP 中使用连接器。</block>
   <block id="267b476717c1665614f57e91725c67ff" category="inline-link">多个连接器</block>
@@ -1057,7 +1053,6 @@
   <block id="71802feecdbf246a5878ffd0776c9188" category="paragraph"><block ref="71802feecdbf246a5878ffd0776c9188" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e2fac2c70d1c0b8b442edf54cdc057a1" category="paragraph">如果要向现有组添加文件共享，请单击 * 添加共享 * 。</block>
   <block id="320628295265baf9bb69f0998f0f2fff" category="inline-image-macro">显示添加共享按钮以向组添加更多共享的屏幕截图。</block>
-  <block id="35307f7c2f311ec0462c4df13d4da801" category="paragraph"><block ref="35307f7c2f311ec0462c4df13d4da801" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f1defe21c2a372d658838710c3847b34" category="list-text">选择要添加的文件共享的协议，添加要扫描的文件共享 - 每行一个文件共享 - 然后单击 * 继续 * 。</block>
   <block id="eb78bc82dacf7ba8a0b44a1fcffc4ddf" category="paragraph">添加 CIFS （ SMB ）共享时，您需要输入 Active Directory 凭据，以提供对共享的读取访问权限。首选管理员凭据。</block>
   <block id="ea83a70e9aaa2fe5cdb89ca736c3f60f" category="inline-image-macro">添加文件共享页面的屏幕截图，您可以在其中添加要扫描的共享。</block>
@@ -1137,7 +1132,6 @@
   <block id="b445de53411a165e9c56da6430c38d59" category="inline-link">Azure 中连接器的规则</block>
   <block id="dc3d679737d761f6e72564d962617ffa" category="paragraph">许多用户喜欢此功能、因为他们希望快速扫描其数据以确定需要更多研究的数据源、然后只能对所需的数据源或卷启用分类扫描。</block>
   <block id="a29f21b4143f28dd101eaaa1fe82fd69" category="inline-xref">请参见下面的完整列表</block>
-  <block id="ddc3aba4eccf7778417b3605919f552e" category="list-text">将数据从传统系统迁移到云。</block>
   <block id="1e99ed6a00e6ef3956359cd96c54b66c" category="section-title">源系统的类型和数据类型</block>
   <block id="9648ab08d5b3fccc9c9ca3160e445cda" category="paragraph">以下问题与可扫描的存储类型以及所扫描的数据类型有关。</block>
   <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph">`+.CSV、.dcm、.Dicom、.DOC、.docx、 .json、.PDF、.PPTX、.RTV、.TXT、 .XLS、.XLSX、文档、工作表和幻灯片+`</block>
@@ -1148,7 +1142,6 @@
   <block id="f56912566696fa3cc8524bcac5febbeb" category="section-title">连接器部署</block>
   <block id="c6dbaaf1bef168a38de37623edb997f7" category="section-title">什么是连接器？</block>
   <block id="417cf0f3678f81efde443c4a85c2acb8" category="section-title">连接器需要安装在何处？</block>
-  <block id="f4fb039a49b8c7eb94cbf1c2e74a625f" category="list-text">在扫描内部ONTAP 系统、非NetApp文件共享、通用S3对象存储、数据库、OneDrive文件夹、SharePoint帐户和Google Drive帐户中的数据时、您可以在任何这些云位置使用连接器。</block>
   <block id="0908d2929b9ac231d6e9a69ca517b2e3" category="section-title">是否可以在自己的主机上部署此连接器？</block>
   <block id="729ba1cfab33ecb7cda6d642c21b247d" category="section-title">没有Internet访问的安全站点如何？</block>
   <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">数据调查报告</block>
@@ -1930,7 +1923,6 @@
   <block id="652d29fc9fdc8e0b507bb9eeecca952e" category="list-text">_cloud provider_=在云实例上安装时、根据云提供程序输入"AWs"、"Azure"或"GCP"。</block>
   <block id="9e7ff0af4669feb5e45b838a89143e27" category="paragraph">安装审核日志文件将写入<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block></block>
   <block id="e08c39eeecbac5d5f73dff71e2512def" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 将文件共享添加到组</block>
-  <block id="1c23c4b7c88b3335b15ccab5f09de226" category="list-text">共享可以托管在任何位置，包括云或内部。大多数情况下、这些文件共享驻留在非NetApp存储系统上。但是、旧版NetApp 7-模式存储系统中的CIFS共享可以扫描为文件共享。</block>
   <block id="a6ca0e2e27cafcb7c34af13f7d19c004" category="paragraph">扫描不会加热冷数据—它会保持冷状态并保留在对象存储中。</block>
   <block id="312ffbf4bf2c65989ebbd000c725c369" category="list-text">如果您的任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会标识在_stale Data_类别中。</block>
   <block id="66d08fa5ddeba835b1d01655713b9120" category="admonition">此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。</block>
@@ -1950,9 +1942,7 @@
   <block id="66d6758c1474f6b831dd835dbec91562" category="paragraph">如果尚未部署实例、请部署BlueXP分类。</block>
   <block id="d040d135cea4209ef4244e9d6e171fee" category="inline-link-macro">在云中部署BlueXP分类</block>
   <block id="9ee91e4270461c0df610bce432a6527d" category="inline-link-macro">在可访问Internet的内部位置部署BlueXP分类</block>
-  <block id="5293c70d5ea1ef3d44d61b35516c53fc" category="paragraph">如果要扫描可通过 Internet 访问的非 NetApp NFS 或 CIFS 文件共享，则可以 <block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block> 或 <block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block>。</block>
   <block id="b6c0a0e9e7e33313825824c0729f8062" category="inline-link-macro">在无法访问Internet的同一内部位置部署BlueXP分类</block>
-  <block id="be09c78e6d21282211ee75333d0774b6" category="paragraph">如果要扫描的非 NetApp NFS 或 CIFS 文件共享安装在无法访问 Internet 的非公开站点中，则需要执行以下操作 <block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>。这还要求在同一内部位置部署BlueXP Connector。</block>
   <block id="6be9e736bffe3ff19cc1d1527b2af101" category="paragraph">只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。</block>
   <block id="a5847332edc397d8726675e5b89d4f7a" category="paragraph">您可以将文件共享添加到文件共享组、以便按照BlueXP分类扫描这些共享中的文件。您可以按格式添加共享<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>。</block>
   <block id="81242ae208378634d2437d68837ba560" category="paragraph">默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 <block ref="62855d79cc7b1c143d998d83fe5addab" category="inline-link-macro-rx"></block>。</block>
@@ -2248,7 +2238,6 @@
   <block id="ec0631d303344ddf5e8847c240ebaf7d" category="paragraph">BlueXP分类使用AI提供对数据的上下文了解、以实现准确的检测和分类。它由AI驱动、因为它专为现代数据类型和规模而设计。它还了解数据环境、以便提供强大、准确的发现和分类。</block>
   <block id="f017155aed79417a0a3f81b29dd1e6dd" category="inline-link-macro">详细了解BlueXP分类的工作原理</block>
   <block id="5443d0bbbf3c65783aa8ff115d84afd8" category="paragraph"><block ref="6984153574af8acd30cf16c47f7727f6" category="inline-link-macro-rx"></block>。</block>
-  <block id="e3f6f3fc066d3be15e6a093f55c5df1a" category="section-title">BlueXP分类的常见用例有哪些？</block>
   <block id="84869a8fd0e55b1142c336faf2aa6794" category="inline-link">详细了解BlueXP分类的用例</block>
   <block id="a1e79fa90d2c4d08e4e3fee15391f900" category="paragraph"><block ref="90f6ceedc5aafd07687f764c72c6fb1c" category="inline-link-rx"></block>。</block>
   <block id="dc7fadd7e7f28b26fb9ae94db1b83b8f" category="section-title">BlueXP分类的架构如何？</block>
@@ -2264,8 +2253,6 @@
   <block id="afc513a3724d36f6d8c4fc99c59325b5" category="section-title">是否可以使用BlueXP分类搜索数据？</block>
   <block id="09491c07cd2dfaa3838ed0ef6f3b7af0" category="paragraph">BlueXP分类提供了广泛的搜索功能、使您可以轻松搜索所有连接源中的特定文件或数据片段。BlueXP分类使用户能够更深入地搜索元数据所反映的内容。它是一种不受语言限制的服务、还可以读取文件并分析多种敏感数据类型、例如名称和ID。例如、用户可以在结构化数据存储和非结构化数据存储之间进行搜索、以查找可能违反公司策略从数据库泄漏到用户文件的数据。可以保存搜索以供日后使用、也可以创建策略以按设置的频率搜索结果并对结果执行操作。</block>
   <block id="ce529b051aa9ebc4101b6a54911240a8" category="paragraph">找到感兴趣的文件后、可以列出相关特征、包括标记、工作环境帐户、存储分段、文件路径、 类别(来自分类)、文件大小、上次修改、权限状态、重复、 敏感度级别、个人数据、文件中的敏感数据类型、所有者、文件类型、文件大小、创建时间、 文件哈希、数据是否已分配给需要关注的人员等。筛选器可用于筛选与此无关的特征。BlueXP分类还具有RBAC控件、允许在具有适当权限的情况下移动或删除文件。如果不存在适当的权限、则可以将任务分配给组织中拥有适当权限的人员。</block>
-  <block id="87638ea8808069d9fbd32cddb1a4d4a7" category="section-title">BlueXP分类提供哪种分析？</block>
-  <block id="6a4d70c8dbf4260425fe714f100afb4e" category="paragraph">可以直观地表示数据源、并以图形方式定义和描述关系。例如、管理员可以查看整个企业内数据源(内部系统、数据库、文件共享、S3存储、OneDrive、 等)。然后、他们可以复制、移动、删除和管理数据、以优化存储成本并降低风险。用户可以通过查看哪些敏感数据可能会公开来降低风险、并且可以创建作业来管理权限以实现强大的数据保护。BlueXP分类还会对所有不同类型的数据进行分类、因此管理员可以按类型调查数据、并查看对数据执行了哪些操作以及何时执行。</block>
   <block id="d095e6f9eb9e0116dd2770cfc6896fff" category="section-title">BlueXP分类是否提供报告？</block>
   <block id="57bfc848a81decccc2c84f613fe93312" category="paragraph">是的。BlueXP分类提供的信息可能与组织中的其他利益相关方相关、因此我们可以帮助您生成报告以分享见解。以下报告可用于BlueXP分类：</block>
   <block id="fc0325f4af61a33abeb25a3ce71542e3" category="inline-link-macro">BlueXP分类实例</block>
@@ -2277,7 +2264,6 @@
   <block id="cc595e0116e3ea401ed2deba0cb5fe9f" category="paragraph">首先、您需要在BlueXP中或内部系统上部署BlueXP分类实例。实例运行后，您可以从*Configuration*选项卡或通过选择特定的工作环境在现有工作环境、数据库和其他数据源上启用该服务。</block>
   <block id="9c8ec203a4decddb8e9b0be1fb76ba06" category="admonition">在数据源上激活BlueXP分类会立即执行初始扫描。扫描结果会在之后不久显示。</block>
   <block id="cf10ed09d1b432e00f7d40ae089eff17" category="section-title">如何禁用BlueXP分类？</block>
-  <block id="f4cb5ae42dd1805db0c4abe550526c1f" category="paragraph">您可以从"BlueXP分类配置"页面中禁用BlueXP分类、以便扫描单个工作环境、数据库、文件共享组、OneDrive帐户或SharePoint帐户。</block>
   <block id="51da61c9b4199dc02176673546f1121d" category="admonition">要完全删除BlueXP分类实例、您可以从云提供商的门户或内部位置手动删除BlueXP分类实例。</block>
   <block id="65e3729b16ea2f0aa958f3b977a42b91" category="paragraph">BlueXP分类可提供开箱即用的数据洞察力。您可以根据组织的需求提取和利用这些洞察信息。</block>
   <block id="b2a009fe641242daa8ff4cc2e848a015" category="paragraph">此外、BlueXP分类还提供了多种方法来添加BlueXP分类将在扫描中识别的自定义"个人数据"列表、从而为您提供有关组织的_all_文件中潜在敏感数据所在位置的完整信息。</block>
@@ -3356,14 +3342,10 @@
   <block id="13871df601ad6fe31ca70129438c5986" category="list-text">BlueXP分类不会从数据库数据源中提取"上次访问时间"。</block>
   <block id="52c31809bdb836acfc2de3ee032c0faa" category="paragraph">对于扫描PB级数据的超大型配置、在版本1.3及更早版本上、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时、主系统称为_Manager node_、提供额外处理能力的其他系统称为_扫描 程序nodes_。</block>
   <block id="166af9c4abcdeaeaa01f2df7fcd961a7" category="inline-link-macro">在无法访问Internet的多个主机上安装BlueXP分类</block>
-  <block id="c7b12c8155232c80e9aca6bc1eb67427" category="paragraph">对于版本1.3及更早版本、如果需要在多个主机上安装BlueXP分类、请参见 <block ref="94ed65ad8557cbd4dade332ad2e77a61" category="inline-link-macro-rx"></block>。</block>
   <block id="0dcde9bea70f4948a25486523fde4e97" category="paragraph">您也可以 <block ref="76c224cc80265848284829e2886db42b" category="inline-link-macro-rx"></block> 适用于完全安全的站点。</block>
   <block id="85aa6acd6442a61f72e7d0ea942bae6f" category="admonition">对于旧版1.3及更早版本、要添加扫描程序节点、请参见 <block ref="6201a969fc4638d8cfca1139fbc49a51" category="inline-link-macro-rx"></block>。</block>
   <block id="7cc60b2d044c80070664df0b3bdf1a77" category="paragraph">在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST<block ref="4b65067251af1a04ab5f187e9a47f47a" category="inline-link-rx"></block>但在某些情况下，您需要立即设置一个。</block>
   <block id="d91ed5bff9bd13eee5c43964bbe67be4" category="list-text">在AWS中的Cloud Volumes ONTAP或Amazon FSx for ONTAP中扫描数据时、您可以使用AWS中的Connector。</block>
-  <block id="f7ddb3fae62084df9775f83831fce054" category="paragraph">可以使用这些Cloud Connector扫描内部ONTAP系统、非NetApp文件共享和数据库帐户。</block>
-  <block id="b42e6291cc6a037ddc6ee554887f32db" category="paragraph">如您所见，在某些情况下可能需要使用<block ref="60e68d53c84b484e2f34cc068011138d" category="inline-link-rx"></block>。</block>
-  <block id="572512a4612a49492403a6507fd8298a" category="paragraph">如果您使用多个BlueXP分类主机来提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 <block ref="b9fe4b9748c1443c9180192248fc010d" category="inline-link-macro-rx"></block>。</block>
   <block id="428a85a15f039350823864cdd9f6711b" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。了解更多信息链接：t任务 部署多主机安装dark站点.html&gt;有关在大型配置的多个主机上安装的信息。</block>
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block> 不同的数据源。</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>。 <block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>。</block>
@@ -3432,8 +3414,6 @@
   <block id="d1d0b0240f763b10942cc206a4f4e980" category="paragraph">BlueXP分类提供了以下系统定义的策略：</block>
   <block id="551ae439eb74eb4d9463c5592e518e13" category="doc">为BlueXP分类设置按需购买许可</block>
   <block id="bbf3f1b670e986bdd66666003ca90040" category="paragraph">扫描数据需要订阅按需购买(PAYGO)。</block>
-  <block id="ef36f15af4b7e51baf5bf0e08d78a021" category="paragraph">*注*此信息仅与BlueXP分类核心版本1.31及更高版本相关。</block>
-  <block id="aa03ad3837e520978aceb5f3f06e3acc" category="paragraph">我们提供30天免费试用、最多可试用500 TB BlueXP分类在BlueXP工作空间中扫描的数据。您需要从NetApp购买BYOL许可证、或者从云提供商的市场注册订阅、才能在这之后继续扫描数据。</block>
   <block id="bb0dfe0b54c3baac2c6710b8940b4744" category="paragraph">您可以随时订阅、即使在30天试用期结束后也不会向您收费。您始终可以从BlueXP分类监管信息板查看正在扫描的总数据量。现在订阅 _ 按钮可以让您在准备就绪后轻松订阅。</block>
   <block id="f5e624878bf9762aa2d37e975ce44226" category="paragraph">订阅可确保在免费试用结束后不会中断服务。试用期结束后、您无需支付BlueXP核心版本1.31或更高版本的费用。</block>
   <block id="98700edb399fd9cd3004efe19dd93686" category="doc">扫描Google Drive帐户</block>
@@ -3476,7 +3456,6 @@
   <block id="b532da7497718d74daf0199075ee34b0" category="admonition">此适用场景BlueXP分类版本为1.3及更早版本。</block>
   <block id="87c1c448997235b59b248a48144bb882" category="section-title">信息板上显示AIP标签的分类区域</block>
   <block id="1fb90b34e92ce998c65c8899830aa15f" category="paragraph">信息板上的_Classification _区域提供了扫描数据中最能识别的Azure信息保护(AIP)标签的列表。</block>
-  <block id="e02905cfda9904851c15f359bae91eb8" category="admonition">添加文件共享是从Google Cloud NetApp卷扫描数据的唯一方法。</block>
   <block id="fd9e0b72c2e1965f70f191bf060f0c35" category="doc">对于无法访问Internet的大型配置、在多个主机上安装BlueXP分类</block>
   <block id="ff50a558849a2e68c9f240f475cf7b94" category="paragraph">完成几个步骤、在无法访问Internet的内部站点中的多个主机上安装BlueXP分类、也称为_private mode_.此类安装非常适合您的安全站点。</block>
   <block id="6e154273e95ff921bb43e9896a26d6bb" category="paragraph">对于需要扫描站点中数PB的数据而不能访问Internet的超大型配置、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时，主系统称为 _Manager node_ ，提供额外处理能力的其他系统称为 _扫描 程序 nodes_ 。</block>
@@ -3511,7 +3490,6 @@
   <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">请参见 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>。</block>
   <block id="3270840fec1d1272ecdf8fa5dacfe375" category="paragraph">BlueXP分类是BlueXP的核心功能、不收费。</block>
   <block id="1f5565609924c19f8cc66ee9b3e5ff8b" category="paragraph">需要通过云提供商Marketplace订阅BlueXP。</block>
-  <block id="07005138abd2ab6bc21bd0ca8dd1552a" category="paragraph">使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享、通用S3对象存储和数据库。</block>
   <block id="178bf9bf543decf7d7b3739b703708f1" category="paragraph">在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后，您可以管理所有文件中的 AIP 标签 <block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block> 在您的BlueXP工作空间中。</block>
   <block id="25c24221a948a50ce66f8d4fb0f6d79c" category="paragraph">需要订阅云提供商Marketplace。</block>
   <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">您可以从NetApp 支持站点 获取许可证文件。</block>
@@ -3529,4 +3507,17 @@
   <block id="58b46c120f259bfcd0cbe13c84945204" category="sidebar">管理数据弃用</block>
   <block id="9b07697830dbb49b6ea67bff8f36ad42" category="paragraph"><block ref="9b07697830dbb49b6ea67bff8f36ad42" category="inline-image-macro-rx" type="image"></block></block>
   <block id="39ba3e6e56f553f6665e61fc4be73bd0" category="sidebar">BlueXP核心和原有版本中提供的功能</block>
+  <block id="0110688ab0278eb10777e6346a3407b7" category="paragraph">您可以从"BlueXP分类配置"页面中禁用BlueXP分类、使其无法扫描单个工作环境、数据库或文件共享组。</block>
+  <block id="fd3479aa2412da82a5c0ec56898d7547" category="list-text">在AWS中的Cloud Volumes ONTAP或Amazon FSx for ONTAP中扫描数据时、您需要使用AWS中的连接器。</block>
+  <block id="4ed8051d33f972fa0cc6d75e4ab1b870" category="list-text">在扫描内部ONTAP系统、NetApp文件共享或数据库中的数据时、您可以使用这些云位置中任何位置的连接器。</block>
+  <block id="7d6fb1ca0011c57644b1d2a7f6e4b92f" category="paragraph">使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享和数据库。</block>
+  <block id="45c3f94e2c6cdec1b996f63c1e4f35d4" category="paragraph">可以使用这些Cloud Connector扫描内部ONTAP系统、NetApp文件共享和数据库帐户。</block>
+  <block id="66bad41fed356683067822a39c0f9de3" category="paragraph">*注*此信息仅与BlueXP分类核心版本1.31及更高版本相关。对于原有版本1.3及更早版本、您也可以使用BYOL许可证。</block>
+  <block id="354edbe327cd09667a9ea94c49b976f7" category="paragraph">我们提供30天免费试用、最多可试用500 TB BlueXP分类在BlueXP工作空间中扫描的数据。您需要在云提供商的市场上注册订阅、然后才能继续扫描数据。</block>
+  <block id="e134a6a7927c694ae4d422caedd41a01" category="section-title">更新旧版本的BlueXP分类BYOL许可证</block>
+  <block id="3001385112718c67b07ae5d62555bd7e" category="section-title">旧版的BYOL许可证注意事项</block>
+  <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">完成几个步骤、开始扫描Google Cloud NetApp卷和旧版NetApp 7-模式系统中的NFS或CIFS文件共享。这些文件共享可以驻留在内部或云中。</block>
+  <block id="f146ec0537a829117da7d3ce3e588d3b" category="admonition">BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。</block>
+  <block id="d809bb142c0a96aef201dfc891e977e3" category="list-text">共享可以托管在任何位置，包括云或内部。可以将旧版NetApp 7-模式存储系统中的CIFS共享扫描为文件共享。</block>
+  <block id="8fedda70275ec7ba2bbf1cf099d2a559" category="paragraph"><block ref="8fedda70275ec7ba2bbf1cf099d2a559" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

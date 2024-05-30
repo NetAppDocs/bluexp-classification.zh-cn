@@ -30,7 +30,8 @@ image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件�
 
 对于扫描PB级数据的超大型配置、在版本1.3及更早版本上、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时、主系统称为_Manager node_、提供额外处理能力的其他系统称为_扫描 程序nodes_。
 
-对于版本1.3及更早版本、如果需要在多个主机上安装BlueXP分类、请参见 link:task-deploy-multi-host-install-dark-site.html["在无法访问Internet的多个主机上安装BlueXP分类"]。
+
+NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueXP分类、请参见 link:task-deploy-multi-host-install-dark-site.html["在无法访问Internet的多个主机上安装BlueXP分类"]。
 
 您也可以 link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装BlueXP分类"] 适用于完全安全的站点。
 
@@ -83,11 +84,9 @@ NOTE: 对于旧版1.3及更早版本、要添加扫描程序节点、请参见 l
 * 在 GCP 的 Cloud Volumes ONTAP 中扫描数据时，您可以在 GCP 中使用连接器。
 
 
-可以使用这些Cloud Connector扫描内部ONTAP系统、非NetApp文件共享和数据库帐户。
+可以使用这些Cloud Connector扫描内部ONTAP系统、NetApp文件共享和数据库帐户。
 
 请注意，您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
-
-如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["多个连接器"]。
 
 安装BlueXP分类时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
@@ -316,8 +315,6 @@ NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 
 
 |===
-如果您使用多个BlueXP分类主机来提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 link:task-deploy-compliance-onprem.html["请参见其他端口要求"]。
-
 
 
 == 在Linux主机上安装BlueXP分类
