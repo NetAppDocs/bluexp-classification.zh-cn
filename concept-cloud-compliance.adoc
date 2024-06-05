@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning, aip labels, governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning,  governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
 summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解BlueXP分类
@@ -121,7 +121,7 @@ BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。
 
 数据传输成本取决于您的设置。如果BlueXP分类实例和数据源位于同一可用性区域和区域、则不会产生数据传输成本。但是、如果数据源(例如Cloud Volumes ONTAP系统)位于_不同_可用性区域或区域、则云提供商将向您收取数据传输成本。有关详细信息，请参见以下链接：
 
-* https://aws.amazon.com/ec2/pricing/on-demand/["AWS ： Amazon EC2 定价"^]
+* https://aws.amazon.com/ec2/pricing/on-demand/["AWS：Amazon Elelic计算云(Amazon EC2)定价"^]
 * https://azure.microsoft.com/en-us/pricing/details/bandwidth/["Microsoft Azure ：带宽定价详细信息"^]
 * https://cloud.google.com/storage-transfer/pricing["Google Cloud ：存储传输服务定价"^]
 
@@ -219,6 +219,12 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 扫描速度 | 速度较慢 | 快速 
 
 
+| 定价 | 免费 | 免费 
+
+
+| Capacity | 限制为500 TB | 限制为500 TB 
+
+
 | 文件类型和已用容量的列表 | 是的。 | 是的。 
 
 
@@ -241,6 +247,178 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 
 | 能够运行其他报告 | 是的。 | 否 
+
+
+| 能够从文件中查看元数据* | 否 | 是的。 
+|===
+*映射扫描期间从文件中提取以下元数据：
+
+* Working environment
+* Working environment type
+* 存储库
+* 文件类型
+* Used capacity
+* 文件数
+* 文件大小
+* 文件创建
+* 文件上次访问
+* 文件上次修改时间
+* 文件发现时间
+* 权限提取
+
+
+*监管信息板差异*：
+
+[cols="47,18,18"]
+|===
+| 功能 | 映射和分类 | 映射 
+
+
+| 陈旧数据 | 是的。 | 是的。 
+
+
+| 非业务数据 | 是的。 | 是的。 
+
+
+| 文件重复 | 是的。 | 否 
+
+
+| 预定义策略 | 是的。 | 否 
+
+
+| 自定义策略 | 是的。 | 是的。 
+
+
+| DDA报告 | 是的。 | 是的。 
+
+
+| 映射报告 | 是的。 | 是的。 
+
+
+| 灵敏度级别检测 | 是的。 | 否 
+
+
+| 具有广泛权限的敏感数据 | 是的。 | 否 
+
+
+| 打开权限 | 是的。 | 是的。 
+
+
+| 数据存在期限 | 是的。 | 是的。 
+
+
+| 数据大小 | 是的。 | 是的。 
+
+
+| 类别 | 是的。 | 否 
+
+
+| 文件类型 | 是的。 | 是的。 
+|===
+*合规性信息板差异*：
+
+[cols="47,18,18"]
+|===
+| 功能 | 映射和分类 | 映射 
+
+
+| 个人信息 | 是的。 | 否 
+
+
+| 敏感的个人信息 | 是的。 | 否 
+
+
+| 隐私风险评估报告 | 是的。 | 否 
+
+
+| HIPAA 报告 | 是的。 | 否 
+
+
+| PCI DSS 报告 | 是的。 | 否 
+|===
+*调查过滤差异*：
+
+[cols="47,18,18"]
+|===
+| 功能 | 映射和分类 | 映射 
+
+
+| 策略 | 是的。 | 是的。 
+
+
+| Working environment type | 是的。 | 是的。 
+
+
+| Working environment | 是的。 | 是的。 
+
+
+| 存储库 | 是的。 | 是的。 
+
+
+| 文件类型 | 是的。 | 是的。 
+
+
+| 文件大小 | 是的。 | 是的。 
+
+
+| 创建时间 | 是的。 | 是的。 
+
+
+| 发现时间 | 是的。 | 是的。 
+
+
+| 上次修改时间 | 是的。 | 是的。 
+
+
+| 上次访问 | 是的。 | 是的。 
+
+
+| 打开权限 | 是的。 | 是的。 
+
+
+| 文件目录路径 | 是的。 | 是的。 
+
+
+| 类别 | 是的。 | 否 
+
+
+| 敏感度 | 是的。 | 否 
+
+
+| 标识符数量 | 是的。 | 否 
+
+
+| 个人数据 | 是的。 | 否 
+
+
+| 敏感的个人数据 | 是的。 | 否 
+
+
+| 数据主题 | 是的。 | 否 
+
+
+| 重复 | 是的。 | 否 
+
+
+| 分类状态 | 是的。 | 状态始终为"洞察力有限" 
+
+
+| 扫描分析事件 | 是的。 | 是的。 
+
+
+| 文件哈希 | 是的。 | 是的。 
+
+
+| 具有访问权限的用户数 | 是的。 | 是的。 
+
+
+| 用户/组权限 | 是的。 | 是的。 
+
+
+| 文件所有者 | 是的。 | 是的。 
+
+
+| 目录类型 | 是的。 | 是的。 
 |===
 
 
@@ -263,7 +441,7 @@ BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP
 敏感的个人数据:: GDPR 和其他隐私法规定义的特殊类型的敏感信息，例如健康数据，种族或政治观点。 link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^]。
 类别:: BlueXP分类采用它扫描的数据、并将其划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。 link:task-controlling-private-data.html#view-files-by-categories["了解有关类别的更多信息"^]。
 类型:: BlueXP分类会采用它扫描的数据、并按文件类型将其细分。 link:task-controlling-private-data.html#view-files-by-file-types["了解有关类型的更多信息"^]。
-名称实体识别:: BlueXP分类使用AI从文档中提取自然人姓名。 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["了解如何响应数据主体访问请求"^]。
+名称实体识别:: BlueXP分类使用AI从文档中提取人员的自然名称。 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["了解如何响应数据主体访问请求"^]。
 
 
 

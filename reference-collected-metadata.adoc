@@ -52,7 +52,7 @@ BlueXP分类在对数据源和工作环境中的数据执行分类扫描时会�
 
 image:screenshot_scan_missing_permissions.png["屏幕截图显示了可用于让BlueXP分类扫描文件的开关、即使该开关没有将上次访问时间还原到原始时间戳的正确权限也是如此。"]
 
-此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。
+此功能适用于内部ONTAP系统、Cloud Volumes ONTAP、Azure NetApp Files、FSx for ONTAP和第三方文件共享。
 
 请注意、"调查"页面中有一个名为_Scan Analysis Event_的筛选器、可用于显示因BlueXP分类无法还原上次访问时间而未分类的文件、 或者、即使BlueXP分类无法还原上次访问时间、仍被分类的文件。
 

@@ -34,8 +34,6 @@
   <block id="73e82d6326f541ace82886b5c0cd44eb" category="inline-xref">为每个云提供商部署的实例类型</block>
   <block id="e1229dd3741de325a7a26a00931944cd" category="inline-link">为每个云提供商部署的实例类型</block>
   <block id="17dc12e433367516ebb888f04d0428a7" category="section-title">数据传输成本</block>
-  <block id="9dfcb55e7b0aaa04660a96ede4a3458f" category="inline-link">AWS ： Amazon EC2 定价</block>
-  <block id="865fef30627e082f6460395b15ac714b" category="list-text"><block ref="865fef30627e082f6460395b15ac714b" category="inline-link-rx"></block></block>
   <block id="ec41ccef0058f3bdb78fe38313b87456" category="inline-link">Microsoft Azure ：带宽定价详细信息</block>
   <block id="3be19ebc8415f831f4fbfc27b3e37f8e" category="list-text"><block ref="3be19ebc8415f831f4fbfc27b3e37f8e" category="inline-link-rx"></block></block>
   <block id="3b33b762bb5216176a14f853b1d711f2" category="inline-link">Google Cloud ：存储传输服务定价</block>
@@ -631,7 +629,6 @@
   <block id="74186caba3373d78db8333ee67330575" category="paragraph"><block ref="74186caba3373d78db8333ee67330575" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f57be897cf74c2ec8ac018d90999d9ef" category="section-title">按类别查看文件</block>
   <block id="47b347a1f7b1686950802bcaa8f089d4" category="inline-link-macro">查看类别列表</block>
-  <block id="91f604faaf2806916a0c893987a95a74" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如，恢复或员工合同等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
   <block id="768ab8a6971014c8ffceeccf0f73db14" category="admonition">类别支持英语，德语和西班牙语。稍后将添加对更多语言的支持。</block>
   <block id="9aa9abf60f82df3e21d796f9168c36b0" category="list-text">直接从主屏幕中单击前 4 个类别之一的 * 调查结果 * 图标，或者单击 * 查看全部 * ，然后单击任意类别的图标。</block>
   <block id="613f07741bbd9071b1b79a6196853b30" category="inline-image-macro">类别对话框的屏幕截图，您可以在其中单击某个类别旁边的调查结果图标。</block>
@@ -865,17 +862,14 @@
   <block id="b70528883a2d1dce278c3b16e0f8c608" category="section-title">数据概述</block>
   <block id="5054e48efbd7d7a23b39d5c48f13943f" category="section-title">按数据敏感度列出的前几个数据存储库</block>
   <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">敏感的个人数据</block>
-  <block id="43ec9a8f95b41a9a8648d4df5db2c7f1" category="paragraph">您可以将鼠标悬停在每个部分上以查看每个类别中的项目总数。</block>
   <block id="9f3ca55177a9cff0208b29196f6a269a" category="paragraph">单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
   <block id="645e4f0b71c92a4a3810668742adff95" category="section-title">按打开权限类型列出的数据</block>
   <block id="140692ffca26cf04b2ffe208e40614b6" category="paragraph">_Open Permissions_area 显示正在扫描的所有文件中存在的每种类型的权限的百分比。此图表显示了以下类型的权限：</block>
   <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">对组织开放</block>
   <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">打开公有</block>
   <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">未知访问</block>
-  <block id="78c332986dbd1952b5fedb1405ea7ea1" category="paragraph">您可以将鼠标悬停在每个部分上以查看每个类别中的文件总数。单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
   <block id="f7610c6f6e541c5a2364ba4e2af4b7b2" category="section-title">数据期限和数据大小图</block>
   <block id="3ec606c48dc49534660f77920d3af604" category="paragraph">您可能需要调查 _age_ 和 _size_ 图中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。</block>
-  <block id="ede4d419502ce502a02eed2521b13f7f" category="paragraph">您可以将鼠标悬停在图表中的某个点上，以查看有关该类别中数据的使用期限或大小的详细信息。单击可查看按此期限或大小范围筛选的所有文件。</block>
   <block id="cbeed5582d295effbe84db6394c89a55" category="list-text">* 数据期限图 * —根据数据创建时间，上次访问时间或上次修改时间对数据进行分类。</block>
   <block id="1c7e3b4981e1a369ab27fd559df0e974" category="list-text">数据图形的大小 * —根据大小对数据进行分类。</block>
   <block id="adb18f5fb34b742716a832a865f1d8e2" category="section-title">最明确的数据分类</block>
@@ -1543,8 +1537,6 @@
   <block id="1d4c3c5a59e200a8cf6bd280a00b8b39" category="paragraph">如果尚未扫描、您可以从配置页面中选择要扫描的数据源。如果创建了扫描程序组、则每个数据源都会由相应组中的扫描程序节点进行扫描。</block>
   <block id="00c5c673cfa296bce54ec77743dbf5a5" category="paragraph">您可以在配置页面中查看每个工作环境的扫描程序组名称。</block>
   <block id="1f3259fd3977a2467ab298df6a6d44d1" category="paragraph">您还可以在配置页面底部查看所有扫描程序组的列表以及组中每个扫描程序节点的IP地址和状态。</block>
-  <block id="e046fe016499c2584ccbc85ec4b21f9d" category="inline-image-macro">列出所有扫描程序组以及组中每个扫描程序节点的IP地址的屏幕截图。</block>
-  <block id="dace7436ca5a83360d9bbd7d056c44bd" category="paragraph"><block ref="dace7436ca5a83360d9bbd7d056c44bd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d54227dbf49473f423d5988bdb7771ff" category="inline-link">了解有关从Cloud Volumes ONTAP 系统分层的更多信息</block>
   <block id="aeaf9676bf6ac22ff407af9053be1238" category="inline-link">了解有关从内部ONTAP 系统分层的更多信息</block>
   <block id="a33f1b61e65aad9cca86d3578cf3028a" category="cell">选择数据以及文件夹/共享中的权限类型。</block>
@@ -1606,16 +1598,13 @@
   <block id="657428712375fa5789abe7c6de9782a7" category="inline-image-macro">关于选择所有文件</block>
   <block id="f4b007384ec89845c9935758ba0063c6" category="list-text">要选择所有页面上的所有文件，请选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block>下，单击 * 选择列表中的所有项（ xxx 项） * 。</block>
   <block id="78f57849bdbd66782ef9877d36177fcb" category="list-text">在调查结果窗格中，选中标题行（<block ref="240ed779654c3f6cf32843800cecc801" category="inline-image-macro-rx" type="image"></block>），然后显示在弹出消息中 <block ref="a340f0047d2dd8cefeca9fd0bc9a1c6d" category="inline-image-macro-rx" type="image"></block> 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。</block>
-  <block id="17dca911bcce42574615a9d04b2c26cd" category="paragraph">此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。</block>
   <block id="8eb1fec334dabbaf8e8ce1c5c57d9629" category="paragraph">在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。</block>
   <block id="c84e7df5fd818e5aa11d03239984b3bd" category="paragraph">Top Data Repository by Sensitivity level_区域列出了包含最敏感项目的前四个数据存储库(工作环境和数据源)。每个工作环境的条形图分为：</block>
   <block id="c2587967478c7df25fe839d6f619f443" category="list-text">非敏感数据</block>
-  <block id="e0247fb281ffe9cb88e8d27a1d7db85b" category="paragraph">根据有权访问X轴上文件的用户数量(从低到高)以及Y轴上文件中的敏感标识符数量(从低到高)、对文件进行评级。这些块表示与X轴和Y轴中的项匹配的文件数。颜色较浅的块很好；能够访问文件的用户较少、每个文件的敏感标识符较少。较暗的块是您可能需要调查的项目。例如、以下屏幕显示深蓝色块的悬停文本。它表明、您有1、500个文件、其中751-100个用户可以访问这些文件、并且每个文件有501到100个敏感标识符。</block>
   <block id="baf19cb0f888989db2710471a613fbd9" category="inline-image-macro">一个屏幕截图、显示将光标置于此面板中的某个元素上时显示的数据。</block>
   <block id="84bb65a316fae3e8d82ea950dc220467" category="paragraph"><block ref="84bb65a316fae3e8d82ea950dc220467" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c09a51a41728880502cacff404ad64e8" category="paragraph">您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。</block>
   <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">无打开权限</block>
-  <block id="e5ffd57c8ceca007705d9700419ab52a" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。</block>
   <block id="13e71bc7a750dcb909f7b6e859dba7aa" category="paragraph">请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。</block>
   <block id="6d3bb929d06fa3023ab7239f4567ed1a" category="paragraph">使用符合条件的用户凭据登录到要访问的SharePoint帐户、以便将其添加为新的数据源/工作环境。</block>
   <block id="7a8c400460fcd57ab61e646f8f7222ff" category="list-text">您必须具有可对所有SharePoint站点进行读取访问的SharePoint帐户的管理员用户登录凭据。</block>
@@ -1754,7 +1743,6 @@
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*查看案例*：查看有关特定案例的完整详细信息。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">屏幕截图、显示在表的最后一列中选择菜单后可以执行的操作。</block>
   <block id="99d97930418935683e2b318283d0dfe1" category="section-title">上次访问时间时间戳</block>
-  <block id="b2d4384c1deeeb5068a47d9c4f7fecae" category="paragraph">此功能适用于内部ONTAP 系统、Cloud Volumes ONTAP 、Azure NetApp Files 、FSX for ONTAP 和非NetApp文件共享。</block>
   <block id="2e9bf0fba1b77a1da35499a6b728c5e6" category="inline-image-macro">筛选器的屏幕截图、用于根据是否具有写入权限来查看哪些文件已扫描、哪些文件未扫描。</block>
   <block id="ee9a6cd4eeadce3c62fa7db3af1981ac" category="paragraph"><block ref="ee9a6cd4eeadce3c62fa7db3af1981ac" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7d72055dc8f09beeb77f4fa9d71f6382" category="paragraph">筛选器选项包括：</block>
@@ -1879,7 +1867,6 @@
   <block id="f3e6e184202c9901024fa409f2c24cb1" category="cell">*中*</block>
   <block id="e8ae9f0392263b55e4580177a75c948e" category="cell">*小*</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">请参见其他AWS实例类型</block>
-  <block id="07c511fd0ad633d44d9e71cb0c9eaba9" category="list-text">* AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>。</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">请参见其他Azure实例类型</block>
   <block id="d713d26696157989a3e54d75e186ddb9" category="list-text">* Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 <block ref="600a0a16acacbb97202eae2cd680ce79" category="inline-link-macro-rx"></block>。</block>
   <block id="02a3b057fd8df2afe74574d8ba4929b5" category="inline-link-macro">请参见其他GCP实例类型</block>
@@ -1898,10 +1885,8 @@
   <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023年4月3日(1.22版)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">新的数据发现评估报告</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">请参见如何生成和使用数据发现评估报告</block>
-  <block id="5e4569f52e263bc5988dd871099065f5" category="paragraph">数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出了一个概述、其中汇总了您的所有工作环境和数据源、然后对每个工作环境进行了细分。</block>
   <block id="2d948e473e2d70b037f0549e51ba2a9d" category="list-text">单击*监管*、然后单击*数据映射报告*按钮。</block>
   <block id="7ddeaa5e00e834742bed79816a143502" category="section-title">数据发现评估报告</block>
-  <block id="d40936cf7a3a0b1e1def94efecb41182" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
   <block id="4fc6419c6a12af16883e770d99dbf849" category="cell">数据监管问题</block>
   <block id="29682fe2b70e1decc5fcddf7dc56bb80" category="cell">详细了解您拥有的所有数据以及可以减少数据量以节省成本的领域。</block>
   <block id="e26970e3266bdd73a6217ce7b8af4c3e" category="cell">数据安全风险</block>
@@ -2077,7 +2062,6 @@
   <block id="5f7d2531317684863a8928345cd2c72a" category="paragraph">在对象存储服务上启用BlueXP分类后、下一步是配置要扫描的分段。BlueXP分类可发现这些分段、并在您创建的工作环境中显示它们。</block>
   <block id="37e611c0f6034e9d39537aca9c9331a7" category="paragraph">BlueXP分类开始扫描您启用的分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
   <block id="264b044bf416a5337d28443921b46791" category="list-text">与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。</block>
-  <block id="34c6b12ec99e0004de549a9d1fd9589c" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在三种系统大小中进行选择。</block>
   <block id="d5c832490c0ab9dcb105acd9ee7b4709" category="list-text">在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：</block>
   <block id="f2183b09e54e4aa491c008ea8ca08bbc" category="list-text">* Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。</block>
   <block id="7299a589db31a0bc8b28dedaafe896cd" category="list-text">*其他软件*：在安装BlueXP分类之前、必须在主机上安装以下软件：</block>
@@ -2203,12 +2187,10 @@
   <block id="59ebdcac794eeda1621f09a3ecc27439" category="inline-link-macro">从BlueXP分类中删除整个SharePoint帐户</block>
   <block id="6f59ca5f245fc8c3519e5b1002026165" category="summary">您可以将全局Active Directory与BlueXP分类相集成、以增强BlueXP分类报告的有关文件所有者以及哪些用户和组有权访问您的文件的结果。</block>
   <block id="0f4b94b9c8f266d8f84728edf8666d68" category="doc">将Active Directory与BlueXP分类集成</block>
-  <block id="c06c60ce3256abb2eeb5ee0ee7195c2c" category="paragraph">在设置某些数据源(如下所列)时、您需要输入Active Directory凭据、以便BlueXP分类扫描CIFS卷。这种集成提供了BlueXP分类、其中包含驻留在这些数据源中的数据的文件所有者和权限详细信息。为这些数据源输入的 Active Directory 可能与您在此输入的全局 Active Directory 凭据不同。BlueXP分类将在所有集成的Active Directory中查找用户和权限详细信息。</block>
   <block id="7e7d69dec0250fdcf96317ada370e511" category="paragraph">此集成在BlueXP分类的以下位置提供追加信息 ：</block>
   <block id="b4ec1c14ab4bd386dfefef45aa353ede" category="paragraph">与BlueXP分类的Active Directory集成可以标识以下数据源中的数据：</block>
   <block id="161492e147f9953ea294f077d7f3093b" category="paragraph">在部署BlueXP分类并对数据源激活扫描后、您可以将BlueXP分类与Active Directory集成。可以使用 DNS 服务器 IP 地址或 LDAP 服务器 IP 地址访问 Active Directory 。</block>
   <block id="f6713c69bf16489b9255768e1e4aa54b" category="paragraph">Active Directory凭据可以是只读的、但提供管理员凭据可确保BlueXP分类可以读取需要提升权限的任何数据。这些凭据存储在BlueXP分类实例上。</block>
-  <block id="abee1c7ea617ac0486284783521e443b" category="paragraph">对于CIFS卷/文件共享、如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户具有写入属性权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="4b05a60d6cd8813d76fd85958d02d2dc" category="list-text">必须通过BlueXP分类实例为出站通信打开以下端口：</block>
   <block id="6ba5ae96727e23ab610dbb43f5eba89c" category="list-text">从"BlueXP分类配置"页面中，单击*Add Active Directory*。</block>
   <block id="b2514742bc1fd53a05e15ba5d54bf10e" category="inline-image-macro">显示单击按钮以将Active Directory服务器添加到BlueXP分类的屏幕截图。</block>
@@ -2265,7 +2247,6 @@
   <block id="9c8ec203a4decddb8e9b0be1fb76ba06" category="admonition">在数据源上激活BlueXP分类会立即执行初始扫描。扫描结果会在之后不久显示。</block>
   <block id="cf10ed09d1b432e00f7d40ae089eff17" category="section-title">如何禁用BlueXP分类？</block>
   <block id="51da61c9b4199dc02176673546f1121d" category="admonition">要完全删除BlueXP分类实例、您可以从云提供商的门户或内部位置手动删除BlueXP分类实例。</block>
-  <block id="65e3729b16ea2f0aa958f3b977a42b91" category="paragraph">BlueXP分类可提供开箱即用的数据洞察力。您可以根据组织的需求提取和利用这些洞察信息。</block>
   <block id="b2a009fe641242daa8ff4cc2e848a015" category="paragraph">此外、BlueXP分类还提供了多种方法来添加BlueXP分类将在扫描中识别的自定义"个人数据"列表、从而为您提供有关组织的_all_文件中潜在敏感数据所在位置的完整信息。</block>
   <block id="3e54663a2ffb430b0a951b91fab46029" category="section-title">是否可以将BlueXP分类信息限制为特定用户？</block>
   <block id="b1cfb802271338af5bae746aee65d68f" category="paragraph">是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。</block>
@@ -2484,7 +2465,6 @@
   <block id="737ab30d4451f7b971d756cdcc6b7d6b" category="section-title">BlueXP分类索引的信息</block>
   <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP分类索引的数据包括以下内容：</block>
   <block id="e1c6fd17dccbebfc440207f27d59459b" category="list-text">BlueXP分类可收集有关文件的标准元数据：文件类型、大小、创建和修改日期等。</block>
-  <block id="8546288939f901d3a1276b7f9e394f46" category="list-text">BlueXP分类使用AI从文档中提取自然人姓名。 <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>。</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接器实例建立入站HTTP连接。</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">了解BlueXP分类所联系的端点</block>
@@ -2766,18 +2746,6 @@
   <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">您也可以通过单击在配置页面中为工作环境启用合规性扫描 <block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block> 按钮并选择*激活BlueXP分类*。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机上安装BlueXP分类、也可以在云中的Linux主机上安装(如果使用的是1.23版安装程序)。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
-  <block id="34c688a0843dc19a0624e151973b37a7" category="cell">500 GiB SSD位于/、或上
--100 GiB可从/opt获得
--395 GiB可在/var/lib/Docker上使用
-/tmp上的5 GiB</block>
-  <block id="7c2e343b426a44deea2cb9e6eb69e8af" category="cell">200 GiB SSD开启/、或
--50 GiB可从/opt获得
--145 GiB可在/var/lib/Docker上使用
-/tmp上的5 GiB</block>
-  <block id="a8ec707d3d7dc0af4b9cce44343387b0" category="cell">100 GiB SSD位于/、或上
--50 GiB可从/opt获得
-/var/lib/Docker上提供45 GiB
-/tmp上的5 GiB</block>
   <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">观看此视频</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">如果不再需要使用BlueXP分类、则可以从云提供商环境中卸载和删除BlueXP分类实例。</block>
@@ -3026,7 +2994,6 @@
   <block id="7823cdf226bddeed3789b41cce9f2f73" category="sidebar">将现有组ID定义为"对组织开放"</block>
   <block id="c994485ccd2b31a48f2ec01a7e6462e0" category="list-text">转到"//opt/NetApp/Dat感 应/tools/customer_configuration/data_提供 程序"并运行以下脚本：</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
-  <block id="da4874b0888a9dafc160c24905184d23" category="section-title">是否已扫描驻留在ONTAP卷上的Snapshot副本？</block>
   <block id="a35301b044a7bc259b579edebe42bff3" category="paragraph">否BlueXP分类不会扫描快照、因为内容与卷中的内容相同。</block>
   <block id="dce2a9642217836d54f614dfd625b753" category="cell">/usr/lib/systemd/system</block>
   <block id="31af9dbc59d95015ad9e14c7d979d66b" category="summary">有时、您可能需要登录到BlueXP分类系统、以便访问日志文件或编辑配置文件。</block>
@@ -3055,7 +3022,6 @@
   <block id="1841518caa387e4e9bb9d49c95609785" category="paragraph">请参见 <block ref="624739c32d4b253a90da8dd449f98632" category="inline-link-macro-rx"></block> 有关详细信息 ...</block>
   <block id="181332a3540aa1ea82fa85f6dc6f6625" category="paragraph">请参见 <block ref="831f3d64e1800ca5ef8e2c817b5a43b2" category="inline-link-macro-rx"></block> 有关详细信息 ...</block>
   <block id="1ec26f1d39a398158aea4e2d5e31e150" category="section-title">生成数据映射报告</block>
-  <block id="69bf5c037f5606f34aefc52d8ef3628b" category="paragraph">如果报告大于1 MB、则PDF文件将保留在BlueXP分类实例中、您将看到有关确切位置的弹出消息。当BlueXP分类安装在内部环境中的Linux计算机上或云中部署的Linux计算机上时、您可以直接导航到PDF文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载PDF文件。 <block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>。</block>
   <block id="1f409051045abcc9fdb719d7f375ac7a" category="section-title">生成数据发现评估报告</block>
   <block id="8d2b3a00bc0d44767cf3d5dfed11884d" category="section-title">筛选"数据调查"页面中的数据</block>
   <block id="31d2b3f1b10e9877e365a14d5f9212e4" category="list-text">通过顶级选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。</block>
@@ -3236,7 +3202,6 @@
   <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023年12月14日(版本1.26.6)</block>
   <block id="a1663078538acf931413c4667ee4dc32" category="doc">将其他组ID定义为对组织开放</block>
   <block id="14262b7b54453519cfa73f76b2652616" category="section-title">查看当前组ID列表</block>
-  <block id="30e7ed02f97ac1e08032a6f980412c4b" category="paragraph">可以查看的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 配置文件与运行后实际提交的配置文件不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
   <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">创建策略以查看排名靠前的搜索结果</block>
   <block id="c7d804294d8fa0d1ba6bfc80ead25ca0" category="sidebar">从扫描中排除目录</block>
   <block id="6505788c29b47651fe2e94f0607a2ef7" category="section-title">超大型实例支持现已通过认证</block>
@@ -3249,7 +3214,6 @@
   <block id="f15da40a9b4a1b9d1900476ba761ddf8" category="cell"><block ref="98fbfccb7d937f28be2761c9fd869045" category="inline-link-rx"></block> (默认)</block>
   <block id="7c6b159592aa05d7d8934685f5b0c4c8" category="cell">32个CPU、128 GB RAM、操作系统磁盘(2、048 GiB、最小250 MB/秒吞吐量)和数据磁盘(1 TiB SSD、最小750 MB/秒吞吐量)</block>
   <block id="f3c46003464601608d44d2644affcce1" category="paragraph">在SaaS模式下使用BlueXP时、与BlueXP的连接通过HTTPS提供、浏览器和BlueXP分类实例之间发送的私有数据通过使用TLS 1.2的端到端加密进行保护、这意味着NetApp和第三方无法读取。</block>
-  <block id="522910fcbd37d9f1fe242ff7c7cde8db" category="paragraph">否在浏览器和BlueXP分类实例之间发送的私有数据会通过TLS 1.2进行端到端加密来保护、这意味着NetApp和第三方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。</block>
   <block id="f943db85a7c2edd799890ddb18f29cab" category="doc">在无法访问Internet的Linux主机上安装BlueXP分类</block>
   <block id="e920147793c6514a998387c74226605b" category="paragraph">完成几个步骤、在无法访问Internet的内部站点中的Linux主机上安装BlueXP分类、也称为_private mode_.此类安装非常适合您的安全站点。</block>
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：</block>
@@ -3520,4 +3484,97 @@
   <block id="f146ec0537a829117da7d3ce3e588d3b" category="admonition">BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。</block>
   <block id="d809bb142c0a96aef201dfc891e977e3" category="list-text">共享可以托管在任何位置，包括云或内部。可以将旧版NetApp 7-模式存储系统中的CIFS共享扫描为文件共享。</block>
   <block id="8fedda70275ec7ba2bbf1cf099d2a559" category="paragraph"><block ref="8fedda70275ec7ba2bbf1cf099d2a559" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e1f976f12c87e7d413491bc2ea717ca3" category="inline-image-macro">显示所有扫描程序组以及组中每个扫描程序节点的IP地址的屏幕截图。</block>
+  <block id="254be716f61cb4173917688092391cd9" category="paragraph"><block ref="254be716f61cb4173917688092391cd9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d287499aa4821b39ee4c1fbee3fb8bf" category="paragraph">BlueXP分类可帮助您深入了解数据。您可以根据组织的需求提取和利用这些洞察信息。</block>
+  <block id="7d3c06dd12cabb9dbaf2d41b93d148c7" category="section-title">是否已扫描驻留在ONTAP卷上的快照？</block>
+  <block id="d041b324ecbc035762393b90f89e331b" category="paragraph">否在浏览器和BlueXP分类实例之间发送的私有数据会通过TLS 1.2进行端到端加密来保护、这意味着NetApp和非NetApp方无法读取这些数据。除非您申请并批准访问权限、否则BlueXP分类不会与NetApp共享任何数据或结果。</block>
+  <block id="94f9509960db4da7c33e447627040c36" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如，恢复或员工合同等类别可以包含敏感数据。调查结果时、您可能会发现员工合同存储在非安全位置。然后，您可以更正此问题描述。</block>
+  <block id="b01528e1880fb637601a6af0e12e237f" category="paragraph">此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。</block>
+  <block id="0d6f87888ce8ecaae88101ac2ce74b99" category="paragraph">您可以将光标置于每个部分上方、以查看每个类别中的项目总数。</block>
+  <block id="6dddb9855aff5ba938a803fad44cc45e" category="paragraph">您可以将光标置于每个部分上方、以查看每个类别中的文件总数。单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
+  <block id="7ae4efbbdd2f74c778120cfafe0d43a2" category="paragraph">您可以将光标置于图表中的某个点上方、以查看有关该类别中数据的使用期限或大小的详细信息。单击可查看按此期限或大小范围筛选的所有文件。</block>
+  <block id="9a5f838c2dd7ef4d943b30889f557531" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时、您可能会发现员工合同存储在非安全位置。然后，您可以更正此问题描述。</block>
+  <block id="781de2ced798a15ae10aba6c21cb05e7" category="paragraph">数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出了概述、总结了您的所有工作环境和数据源、然后对每个工作环境进行了分析。</block>
+  <block id="9fdf01a1261d4a4e788383c1af9adaf2" category="paragraph">BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其发送给其他组。</block>
+  <block id="7478ade8cfb34d944424b511227fdfa2" category="paragraph">如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。 <block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>。</block>
+  <block id="a271d225cad25b912ce5858124897ffe" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
+  <block id="a5c44a10e9c98a0d20204951c490574b" category="paragraph">此功能适用于内部ONTAP系统、Cloud Volumes ONTAP、Azure NetApp Files、FSx for ONTAP和第三方文件共享。</block>
+  <block id="cd0e4d172a3c3cc49c7d48effd234198" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小、在三种系统大小中进行选择。</block>
+  <block id="30786f70a10900b6a9d4fd46363a55cb" category="cell">500 GiB SSD位于/、或上
+-100 GiB可从/opt获得
+-395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
+/tmp上的5 GiB</block>
+  <block id="fb7aa8c3ffe50126e6eca8378926faad" category="cell">200 GiB SSD开启/、或
+-50 GiB可从/opt获得
+-145 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
+/tmp上的5 GiB</block>
+  <block id="276dee9bc704113bddf51474d12b15ff" category="cell">100 GiB SSD位于/、或上
+-50 GiB可从/opt获得
+-45 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
+/tmp上的5 GiB</block>
+  <block id="b5f08a168a732355a95d9acdc430dcaf" category="list-text">* Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>。</block>
+  <block id="797b21f4662c52d1572473764912397d" category="paragraph">可以查看的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 配置文件与运行后实际提交的配置文件不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
+  <block id="f3d1244221881043e7d38d834935042d" category="inline-link">AWS：Amazon Elelic计算云(Amazon EC2)定价</block>
+  <block id="8de1990a68818d4a3c6e1ae7c064bcf9" category="list-text"><block ref="8de1990a68818d4a3c6e1ae7c064bcf9" category="inline-link-rx"></block></block>
+  <block id="e22ac25b066b201473de7aa700ef5d92" category="cell">定价</block>
+  <block id="b24ce0cd392a5b0b8dedc66c25213594" category="cell">免费</block>
+  <block id="3b8f7696879f77dfc8c74aa8df8db24b" category="cell">Capacity</block>
+  <block id="1210ad5d6a7beaf8ab7fd7d0808a95ca" category="cell">限制为500 TB</block>
+  <block id="a9cec06f0851d8f2722f032a0e63c115" category="cell">能够从文件中查看元数据*</block>
+  <block id="4f40caf952f66945a674f638c61be8d9" category="paragraph">*映射扫描期间从文件中提取以下元数据：</block>
+  <block id="10fd66f5b4802aee3a88de2a537a57b4" category="list-text">Used capacity</block>
+  <block id="18de356008c3efffac62590fd7849509" category="list-text">文件数</block>
+  <block id="50ec28434e3dc1b37a0577b6d3f9bfe6" category="list-text">文件创建</block>
+  <block id="cc7296b3deecc7ff6216732368393311" category="list-text">文件上次访问</block>
+  <block id="a1870449a3811abcc8d02d43cec49cf2" category="list-text">文件上次修改时间</block>
+  <block id="5752d1aca2fb066ca51eb98052561289" category="list-text">文件发现时间</block>
+  <block id="d9dc47834e451d5a23b2dd5638b1310b" category="list-text">权限提取</block>
+  <block id="e64f4699e3677ec83e92eb7fc517d88b" category="paragraph">*监管信息板差异*：</block>
+  <block id="c8110422ac17b8559c40c507fe0bed65" category="cell">映射和分类</block>
+  <block id="46f3ea056caa3126b91f3f70beea068c" category="cell">映射</block>
+  <block id="58f9985309ad441d05540492b96a7afd" category="cell">陈旧数据</block>
+  <block id="60ba2191f39b045b2e7dd2bc96654d1c" category="cell">非业务数据</block>
+  <block id="959cab1cb99ef2d51c2197ef17b2105b" category="cell">文件重复</block>
+  <block id="0b0168bee54c0e61b8aa5a962967a322" category="cell">自定义策略</block>
+  <block id="369cd14037692c6f09dcfda1b4ac8ed3" category="cell">DDA报告</block>
+  <block id="ea8d76cdda2904dcca99873fc91b4643" category="cell">映射报告</block>
+  <block id="31b12a0b18d3e31cef5bf330060e1485" category="cell">灵敏度级别检测</block>
+  <block id="eeb19f8ceecc074a02badf8ee06710b5" category="cell">具有广泛权限的敏感数据</block>
+  <block id="6c8173b9fd1df4291ec6a95f705c54f4" category="cell">数据存在期限</block>
+  <block id="f737cdef2fd67e0953a5953ca506b30c" category="cell">数据大小</block>
+  <block id="5155139afba6f744102515d13f1c5578" category="paragraph">*合规性信息板差异*：</block>
+  <block id="74a8dd8ef4ee037974b7843898eabfcd" category="cell">隐私风险评估报告</block>
+  <block id="ba7cad27cdcf17f7da95938585ca2071" category="paragraph">*调查过滤差异*：</block>
+  <block id="f1be55e10a484bdeb7e4eae576688474" category="cell">上次访问</block>
+  <block id="4797f8fb709b9cdf801351bca3181105" category="cell">文件目录路径</block>
+  <block id="76596c862fd4cd497cf2a3ea36b26c43" category="cell">分类状态</block>
+  <block id="fb8a04662bc42d13ae8a2d1bddbc05b3" category="cell">状态始终为"洞察力有限"</block>
+  <block id="29344a3c58cf84dcf0144a3627f021d1" category="cell">文件哈希</block>
+  <block id="4df26807127a67f2d98166e4384eea07" category="cell">用户/组权限</block>
+  <block id="922dab0122736d5f9b503433210903c7" category="list-text">BlueXP分类使用AI从文档中提取人员的自然名称。 <block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>。</block>
+  <block id="c1de1b0548f24874b79874a91bd0f05a" category="paragraph">根据有权访问X轴上文件的用户数量(从低到高)以及Y轴上文件中的敏感标识符数量(从低到高)、对文件进行评级。这些块表示与X轴和Y轴中的项匹配的文件数。颜色较浅的块很好；能够访问文件的用户较少、每个文件的敏感标识符较少。较暗的块是您可能需要调查的项目。例如、以下屏幕显示了深蓝色块的工具提示文本。它表明、您有1、500个文件、其中751-100个用户可以访问这些文件、并且每个文件有501到100个敏感标识符。</block>
+  <block id="d4af8d75643e49d82b42b7eb654ed0c7" category="summary">您可以在BlueXP分类中管理每个工作环境和数据源中的数据扫描方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
+  <block id="e415c7da5280de793049e6b59816274d" category="paragraph">您可以在配置页面上查看每个工作环境的扫描状态：</block>
+  <block id="209f3dabc722accc7b4db77a133ef209" category="list-text">*正在初始化*(浅蓝色圆点)：已激活映射或分类配置。在启动"待处理队列"状态之前、此状态会显示几秒钟。</block>
+  <block id="fbbc6bcf9c53aaad4b5476065f315bb1" category="list-text">*待处理队列*(橙色圆点)：扫描任务正在等待在扫描队列中列出。</block>
+  <block id="ea7971f9c02e5fa9234d7af5cd0b34c7" category="list-text">*已排队*(橙色圆点)：任务已成功添加到扫描队列。当卷在队列中的位置到达时、系统将开始对卷进行映射或分类。</block>
+  <block id="863f25b6c394057a4286fa671cfd048b" category="list-text">*正在运行*(绿点)：正在对选定存储库执行队列中的扫描任务。</block>
+  <block id="1110cfca2e7c6a5f3e560597c03abeab" category="list-text">*完成*(绿点)：存储库扫描已完成。</block>
+  <block id="da30b4408b5e1540ac02763204c943ad" category="list-text">*暂停*(灰点)：您选择了“暂停”选项以暂停扫描。虽然卷中的更改不会显示在系统中、但扫描的洞察力仍会显示出来。</block>
+  <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">*错误*(红点)：由于遇到问题，扫描无法完成。如果需要完成操作、则错误会显示在工具提示中的"Required action"列下。  否则、系统将显示"error"状态并尝试恢复。完成后、状态将发生变化。</block>
+  <block id="4c5b4656410d347cf852f162490f2e15" category="list-text">*未扫描*：已选择卷配置"off"、系统未扫描此卷。</block>
+  <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024年6月5日(版本1.32)</block>
+  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">此版本包含以下更新。</block>
+  <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">映射扫描可收集元数据</block>
+  <block id="6c7aa72b096dc637dbeefccf15ca45f8" category="paragraph">以下元数据在映射扫描期间从文件中提取、并显示在"监管"、"合规性"和"调查"信息板上：</block>
+  <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="section-title">信息板中的其他数据</block>
+  <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。</block>
+  <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">映射扫描与分类扫描之间有何区别</block>
+  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">有关详细信息，请参见<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
+  <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">配置页面中的新建映射状态列</block>
+  <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">此版本现在会在配置页面中显示一个新的映射状态列。新列可帮助您确定映射正在运行、已排队、已暂停还是更多。</block>
+  <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">有关状态的说明、请参见<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>。</block>
+  <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">在设置某些数据源(如下所列)时、您需要输入Active Directory凭据、以便BlueXP分类扫描CIFS卷。这种集成提供了BlueXP分类、其中包含驻留在这些数据源中的数据的文件所有者和权限详细信息。为这些数据源输入的Active Directory可能与您在此处输入的全局Active Directory凭据不同。BlueXP分类将在所有集成的Active Directory中查找用户和权限详细信息。</block>
+  <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">对于CIFS卷/文件共享、如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户具有写入属性权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
 </blocks>

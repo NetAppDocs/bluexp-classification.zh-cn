@@ -50,7 +50,7 @@ BlueXP分类安装脚本中还有一个必备测试脚本。此处介绍的脚�
 BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。
 
 * 与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。
-* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在三种系统大小中进行选择。
+* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小、在三种系统大小中进行选择。
 +
 [cols="17,17,27,31"]
 |===
@@ -65,19 +65,19 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 | *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD位于/、或上
 -100 GiB可从/opt获得
--395 GiB可在/var/lib/Docker上使用
+-395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
 /tmp上的5 GiB 
 
 
 | *中* | 8个CPU | 32 GB RAM | 200 GiB SSD开启/、或
 -50 GiB可从/opt获得
--145 GiB可在/var/lib/Docker上使用
+-145 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
 /tmp上的5 GiB 
 
 
 | *小* | 8个CPU | 16 GB RAM | 100 GiB SSD位于/、或上
 -50 GiB可从/opt获得
-/var/lib/Docker上提供45 GiB
+-45 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
 /tmp上的5 GiB 
 |===
 +
@@ -85,7 +85,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
-** * AWS EC2实例类型*：我们建议使用"m6i.4xlarge"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
+** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
 ** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
 ** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
 
