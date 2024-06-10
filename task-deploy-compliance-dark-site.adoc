@@ -69,10 +69,6 @@ BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能�
 [role="quick-margin-para"]
 从NetApp 支持站点 下载BlueXP分类软件、并将安装程序文件复制到要使用的Linux主机。然后启动安装向导并按照提示部署BlueXP分类实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
-[role="quick-margin-para"]
-需要订阅云提供商Marketplace。
-
 
 
 == 安装BlueXP Connector
@@ -375,8 +371,6 @@ BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类�
 .下一步行动
 在配置页面中，您可以选择本地 link:task-getting-started-compliance.html["内部 ONTAP 集群"] 和 link:task-scanning-databases.html["数据库"] 要扫描的。
 
-您也可以 link:task-licensing-datasense.html["为BlueXP分类设置BYOL许可"] 此时从BlueXP电子钱包页面。在30天免费试用结束之前、不会向您收取任何费用。
-
 
 
 == 升级BlueXP分类软件
@@ -422,7 +416,5 @@ start_darksite_upgrade.sh
 
 .结果
 在主机上升级BlueXP分类软件。更新可能需要 5 到 10 分钟。
-
-请注意、如果您已在多个主机系统上部署BlueXP分类来扫描非常大的配置、则不需要对扫描程序节点进行升级。
 
 您可以通过检查BlueXP分类UI页面底部的版本来验证软件是否已更新。

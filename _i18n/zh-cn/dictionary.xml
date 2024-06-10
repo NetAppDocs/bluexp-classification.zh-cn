@@ -1075,7 +1075,6 @@
   <block id="8c7729e22a223978ef26b521fa9ee122" category="sidebar">Cloud Volumes ONTAP 和内部 ONTAP</block>
   <block id="c2d47b6bc95c845ff73e9809734fad1a" category="sidebar">文件共享</block>
   <block id="81ef4cd6c60d70e2956f5aceef3493d2" category="sidebar">集成 Active Directory</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="sidebar">设置许可</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常见问题解答</block>
   <block id="a1b1318193a35f78be2416bedbe04261" category="sidebar">查看有关数据的监管详细信息</block>
   <block id="056f094fced7be2185f9f1e21b455e6b" category="sidebar">查看有关数据的合规性详细信息</block>
@@ -2146,7 +2145,6 @@
   <block id="f7266d8094dca138937225e514a105f9" category="paragraph">确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <block ref="25e4901d8a209a1b27bffd328e6e2ea6" category="inline-xref-macro-rx"></block>。</block>
   <block id="c420094b0555914cda2fb7305e46da39" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 部署BlueXP分类</block>
   <block id="d6939615c063b246ee57f46ba5658a27" category="paragraph">启动安装向导以在云中部署BlueXP分类实例。</block>
-  <block id="fbd26eae2917c57f49aa73f6b5377420" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 订阅BlueXP分类服务</block>
   <block id="3c4d86937393bb95a8eb9deff91fdca3" category="list-text">在Azure或Azure NetApp Files 中扫描Cloud Volumes ONTAP 中的数据时、您可以使用Azure中的连接器。</block>
   <block id="434f7377ad007c7085d3489daef770a7" category="paragraph">如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类。以这种方式部署时、BlueXP分类具有以下限制：</block>
   <block id="a3c7cd542dbae9813f2f591e1d616bf8" category="list-text">从BlueXP分类启用出站Internet访问</block>
@@ -2176,8 +2174,6 @@
   <block id="1f61c6b070b23b20d4af173152567e3d" category="paragraph"><block ref="1f61c6b070b23b20d4af173152567e3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f7f52f1ee1d2634a6ef6ca88452892e9" category="paragraph">BlueXP在云提供商中部署BlueXP分类实例。</block>
   <block id="e15b54208d366c801ab9cdffb6e683fc" category="paragraph">只要这些实例具有Internet连接、BlueXP Connector和BlueXP分类软件的升级就会自动完成。</block>
-  <block id="5f33fdb01d61b0057674068a8e4f48fa" category="inline-link-macro">为BlueXP分类设置许可</block>
-  <block id="7cdfce8fdd8dcd9e17a5ea7ac3072db4" category="paragraph">您也可以 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 目前。在30天免费试用结束之前、不会向您收取任何费用。</block>
   <block id="bd55f8107f06cc057a2ee0b7487375bc" category="summary">完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online和SharePoint内部部署帐户中的文件。</block>
   <block id="30a7d0aa212920161c46f31812859285" category="paragraph">查看以下前提条件、确保您已准备好在SharePoint帐户上激活BlueXP分类。</block>
   <block id="9505f2139fceb372def97e101e0d0f23" category="list-text">对于SharePoint Online、BlueXP分类可以是 <block ref="879c41e64fac303868428ba32472ed0b" category="inline-link-macro-rx"></block>。</block>
@@ -2263,7 +2259,6 @@
   <block id="e4304e4b14d97af30d876414d94156c9" category="paragraph">BlueXP分类仅扫描元数据。这对于整体数据管理和监管、快速的项目范围界定、非常大的资产和优先级排序非常有用。数据映射基于元数据、被视为*快速*扫描。</block>
   <block id="d506351fc51b067200effaea00b650b7" category="paragraph">BlueXP分类扫描在整个环境中使用标准协议和只读权限。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。</block>
   <block id="dd3080e9b8238619b33db17f32f0014c" category="paragraph">完成完整扫描后、您可以对数据应用许多其他BlueXP分类功能、例如在"数据调查"页面中查看和细化数据、在文件中搜索名称、复制、移动和删除源文件等。</block>
-  <block id="c7c0e44b6916a9859c04b6f890acc7f4" category="paragraph">以下问题与使用BlueXP分类的许可和成本相关。</block>
   <block id="c327ff2d5e993e56b5e37bd52bc902cc" category="section-title">BlueXP分类的成本是多少？</block>
   <block id="655b44b42a0405ade73bd1b7c7fe7759" category="paragraph">Connector是在您的云帐户或内部环境中的计算实例上运行的软件、可使BlueXP安全地管理云资源。要使用BlueXP分类、您必须部署Connector。</block>
   <block id="20d2d9d43536e58f448006e30ede92ef" category="section-title">BlueXP分类部署</block>
@@ -2408,14 +2403,12 @@
   <block id="00f28e201d21c2b9684ea38809307277" category="list-text">_ds_host_= BlueXP分类Linux系统的IP地址或主机名。</block>
   <block id="e1d099266f9e920a7c8817ff766480f2" category="paragraph">BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类。安装可能需要 10 到 20 分钟。</block>
   <block id="9abb289ebc0275e08c6036e047e788f2" category="paragraph">如果主机和连接器实例之间通过端口8080建立了连接、您将在BlueXP的BlueXP分类选项卡中看到安装进度。</block>
-  <block id="41400601e067114b3b38643c1a3f9b1c" category="inline-link-macro">为BlueXP分类设置BYOL许可</block>
   <block id="04094342c588e9aace2c0624ecce4366" category="paragraph">在脱机环境中的多个内部主机上安装BlueXP分类软件时、请按照以下步骤进行操作。</block>
   <block id="3cbfe5d6050d3fa6a178743d08cc033f" category="paragraph">BlueXP分类安装程序完成软件包安装并注册安装。安装可能需要 15 到 25 分钟。</block>
   <block id="f00f20082c79c9a705bd40373b5cc586" category="section-title">升级BlueXP分类软件</block>
   <block id="63f5b4da5545b30a2083b6f7eedcd826" category="paragraph">由于BlueXP分类软件定期更新新功能、因此您应进入例行程序定期检查新版本、以确保您使用的是最新的软件和功能。您需要手动升级BlueXP分类软件、因为没有Internet连接、无法自动执行升级。</block>
   <block id="b814c5d8e5cff4b4ed2155ea6a2243a8" category="list-text">将软件包复制到非公开站点上安装了BlueXP分类的Linux主机。</block>
   <block id="7780686cdd0be0a9a8a2193a030392e5" category="paragraph">在主机上升级BlueXP分类软件。更新可能需要 5 到 10 分钟。</block>
-  <block id="0c15d0871362e4ad1de8e6731ecdac22" category="paragraph">请注意、如果您已在多个主机系统上部署BlueXP分类来扫描非常大的配置、则不需要对扫描程序节点进行升级。</block>
   <block id="c22cac5d13be450c907e1e287edd3bb0" category="paragraph">您可以通过检查BlueXP分类UI页面底部的版本来验证软件是否已更新。</block>
   <block id="dc2cef0fd6e1865d999166313e8a662e" category="list-text">成功—BlueXP分类操作已完成、所有项目均成功。</block>
   <block id="49c1585bc7478e2c4fa2d03438b162bb" category="list-text">部分成功—BlueXP分类操作已完成、一些项目失败、一些成功。</block>
@@ -2517,7 +2510,6 @@
   <block id="9d303bf713b934df67ac3fc8db55e1df" category="list-text">_ds_manager_IP_= BlueXP分类管理器节点系统的专用IP地址</block>
   <block id="63cd14dda48c5ae594fd32586e8adbe6" category="list-text">_NODE_PRIVIGE_IP_= BlueXP分类扫描程序节点系统的IP地址(多个扫描程序节点IP以逗号分隔)</block>
   <block id="66860472392a03bca0e5ca8e62545a3d" category="paragraph">BlueXP分类可通过管理器和扫描程序节点进行设置、以扫描所有数据源。</block>
-  <block id="c1421d8b9e8d1f53104bed922d4c6218" category="paragraph">您可以 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 目前。在30天免费试用结束之前、不会向您收取任何费用。</block>
   <block id="59fa51186008f79eadcd65359371b963" category="inline-link-macro">BlueXP分类通知</block>
   <block id="2e704f1b5abc96acf51b532e4a02d03c" category="list-text"><block ref="2e704f1b5abc96acf51b532e4a02d03c" category="inline-link-macro-rx"></block></block>
   <block id="1fd880d67ad7d5a9e1ce56b61569fe92" category="summary">您可以卸载BlueXP分类软件以解决问题或从主机中永久删除该软件。删除实例也会删除索引数据所在的关联磁盘- BlueXP分类扫描的所有信息都将被永久删除。</block>
@@ -3313,7 +3305,6 @@
   <block id="428a85a15f039350823864cdd9f6711b" category="paragraph">对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。了解更多信息链接：t任务 部署多主机安装dark站点.html&gt;有关在大型配置的多个主机上安装的信息。</block>
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block> 不同的数据源。</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>。 <block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>。</block>
-  <block id="106ac36303312e947023d820e6e7357c" category="paragraph">您也可以 <block ref="732c743571ecc0dc482f5e9d7d25880e" category="inline-link-macro-rx"></block> 目前。即使30天免费试用结束、您也不会被收取费用。</block>
   <block id="8a2fa9f62a3f919edf2af881f8e7795e" category="paragraph">BlueXP分类可以在卷和数据库中识别多种类型的私有数据。请参见以下类别。</block>
   <block id="224bbd10a45d7fdcbbb8075666b6c93a" category="cell">选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。
 
@@ -3391,7 +3382,6 @@
   <block id="806f5ac1a8b4e82bb0bb458ed4a8f577" category="paragraph">BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="03a7f11cb6270c0421715ee58cbcdb85" category="inline-link-rx"></block> 和 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>。</block>
   <block id="3fba2d2072ada5e4a305ed49625f7c97" category="paragraph">如果您使用多个BlueXP分类主机来提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 <block ref="8ab506a6f74eff926eb35a8eb7627a1d" category="inline-link-macro-rx"></block>。</block>
   <block id="ce9b3c0997395cdac24ac84544289f19" category="paragraph">对于典型配置，您将在一个主机系统上安装该软件。</block>
-  <block id="1d8330f2303758f6a2278d74e5f2fda9" category="paragraph">您也可以 <block ref="22859e5e32c097ea1d67937698834047" category="inline-link-macro-rx"></block> 此时从BlueXP电子钱包页面。在30天免费试用结束之前、不会向您收取任何费用。</block>
   <block id="8cf455ffbc4c9c6d2cfe61097a812701" category="list-text">我们建议您将BlueXP Connector软件升级到最新可用版本。<block ref="bc80efc6b3afb0a245df87934f8f3cd1" category="inline-link-rx"></block>。</block>
   <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">重要说明</block>
   <block id="a14a0ee1284c6c34c6c0305b52963e2f" category="paragraph">从2024年5月起、BlueXP版本1.31将作为BlueXP中的核心功能免费提供。不需要分类许可证或订阅。我们还将BlueXP分类功能重点放在NetApp存储系统上、因此、某些未使用或未充分利用的功能已弃用。</block>
@@ -3425,7 +3415,6 @@
   <block id="6e154273e95ff921bb43e9896a26d6bb" category="paragraph">对于需要扫描站点中数PB的数据而不能访问Internet的超大型配置、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时，主系统称为 _Manager node_ ，提供额外处理能力的其他系统称为 _扫描 程序 nodes_ 。</block>
   <block id="b9c7e18d108f82ba440210aecbe950ad" category="list-text">验证管理器和扫描程序节点的所有Linux系统是否满足主机要求。</block>
   <block id="928ed2812cce5a72d98ee96a2b856e67" category="list-text">验证脱机环境是否满足所需的权限和连接要求。</block>
-  <block id="d681456d0964ef9c77d0e295444695a9" category="paragraph">您也可以 <block ref="22859e5e32c097ea1d67937698834047" category="inline-link-macro-rx"></block> 此时从BlueXP电子钱包页面。即使30天免费试用结束、您也不会被收取费用。</block>
   <block id="1b37870dae094b28860019e52e52b4ff" category="doc">从BlueXP分类中删除OneDrive、SharePoint或Google Drive帐户</block>
   <block id="15d852c533c897c089cb8de8c1b7855c" category="doc">扫描OneDrive帐户</block>
   <block id="311be35314517dfdb66902778b278206" category="doc">扫描Amazon S3存储分段</block>
@@ -3444,7 +3433,6 @@
   <block id="98f9f8a11a148aec70c39965293ea9b3" category="sidebar">已弃用的功能</block>
   <block id="dd6f713e594790101284e68ce9ae76f7" category="sidebar">已弃用功能列表</block>
   <block id="4ebce9b5fd8cf4975c04bb94087ff4b3" category="sidebar">已弃用功能的列表</block>
-  <block id="57a53311aaf61c9ce5d7ccc7b0678f93" category="sidebar">设置免费试用版或自带许可证</block>
   <block id="08a8e0f5e4c7d91e565955cb7f30b215" category="sidebar">在监管信息板上查看有关数据的监管详细信息</block>
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">删除OneDrive、SharePoint或Google Drive帐户</block>
   <block id="b6417b62aacc6d16c1ae7a79d851d413" category="paragraph">如果在内部的RHEL 8或9主机上安装Connector、则支持BlueXP分类。如果RHEL 8或9主机位于AWS、Azure或Google Cloud中、则不支持此功能。</block>
@@ -3453,9 +3441,7 @@
   <block id="53fa8df095671f897c8cbcd13ce182b1" category="inline-link-macro">支持的工作环境和数据源</block>
   <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">请参见 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>。</block>
   <block id="3270840fec1d1272ecdf8fa5dacfe375" category="paragraph">BlueXP分类是BlueXP的核心功能、不收费。</block>
-  <block id="1f5565609924c19f8cc66ee9b3e5ff8b" category="paragraph">需要通过云提供商Marketplace订阅BlueXP。</block>
   <block id="178bf9bf543decf7d7b3739b703708f1" category="paragraph">在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后，您可以管理所有文件中的 AIP 标签 <block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block> 在您的BlueXP工作空间中。</block>
-  <block id="25c24221a948a50ce66f8d4fb0f6d79c" category="paragraph">需要订阅云提供商Marketplace。</block>
   <block id="147b35ab5352426bba38d99d810db4ed" category="list-text">您可以从NetApp 支持站点 获取许可证文件。</block>
   <block id="5956d6a178701862e65cfb2557c264ca" category="paragraph">使用BlueXP分类(Data Sense) BYOL许可证时、如果要扫描的所有数据的大小接近容量限制或即将到期、BlueXP会在BlueXP分类UI和BlueXP数字钱包UI中显示警告。</block>
   <block id="c5225ba8742170a4ff16813a131d50d2" category="paragraph">您会收到以下警告：</block>
@@ -3565,16 +3551,12 @@
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">*错误*(红点)：由于遇到问题，扫描无法完成。如果需要完成操作、则错误会显示在工具提示中的"Required action"列下。  否则、系统将显示"error"状态并尝试恢复。完成后、状态将发生变化。</block>
   <block id="4c5b4656410d347cf852f162490f2e15" category="list-text">*未扫描*：已选择卷配置"off"、系统未扫描此卷。</block>
   <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024年6月5日(版本1.32)</block>
-  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">此版本包含以下更新。</block>
-  <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">映射扫描可收集元数据</block>
-  <block id="6c7aa72b096dc637dbeefccf15ca45f8" category="paragraph">以下元数据在映射扫描期间从文件中提取、并显示在"监管"、"合规性"和"调查"信息板上：</block>
-  <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="section-title">信息板中的其他数据</block>
-  <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。</block>
-  <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">映射扫描与分类扫描之间有何区别</block>
-  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">有关详细信息，请参见<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">配置页面中的新建映射状态列</block>
   <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">此版本现在会在配置页面中显示一个新的映射状态列。新列可帮助您确定映射正在运行、已排队、已暂停还是更多。</block>
   <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">有关状态的说明、请参见<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>。</block>
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">在设置某些数据源(如下所列)时、您需要输入Active Directory凭据、以便BlueXP分类扫描CIFS卷。这种集成提供了BlueXP分类、其中包含驻留在这些数据源中的数据的文件所有者和权限详细信息。为这些数据源输入的Active Directory可能与您在此处输入的全局Active Directory凭据不同。BlueXP分类将在所有集成的Active Directory中查找用户和权限详细信息。</block>
   <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">对于CIFS卷/文件共享、如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户具有写入属性权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
+  <block id="bf353be94d6ba74709e3d127af6ba1a6" category="paragraph">以下问题与使用BlueXP分类的许可和成本有关。</block>
+  <block id="b660413c1fbf79ce31a119db078401fe" category="paragraph">此版本包含以下更新。</block>
+  <block id="ee817e39b08fa171d62efb8f7b4143b2" category="admonition">BlueXP分类核心版本不支持与Active Directory集成。</block>
 </blocks>

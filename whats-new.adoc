@@ -24,34 +24,6 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
-=== 映射扫描可收集元数据
-
-以下元数据在映射扫描期间从文件中提取、并显示在"监管"、"合规性"和"调查"信息板上：
-
-* Working environment
-* Working environment type
-* 存储库
-* 文件类型
-* Used capacity
-* 文件数
-* 文件大小
-* 文件创建
-* 文件上次访问
-* 文件上次修改时间
-* 文件发现时间
-* 权限提取
-
-
-
-
-=== 信息板中的其他数据
-
-此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。
-
-有关详细信息，请参见 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["映射扫描与分类扫描之间有何区别"]
-
-
-
 === 配置页面中的新建映射状态列
 
 此版本现在会在配置页面中显示一个新的映射状态列。新列可帮助您确定映射正在运行、已排队、已暂停还是更多。

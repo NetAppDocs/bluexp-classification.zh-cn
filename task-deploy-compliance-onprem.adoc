@@ -62,10 +62,6 @@ NOTE: 对于旧版1.3及更早版本、要添加扫描程序节点、请参见 l
 [role="quick-margin-para"]
 从NetApp 支持站点 下载Cloud BlueXP分类软件、并将安装程序文件复制到您计划使用的Linux主机。然后启动安装向导并按照提示部署BlueXP分类实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
-[role="quick-margin-para"]
-需要订阅云提供商Marketplace。
-
 
 
 == 创建连接器
@@ -428,5 +424,3 @@ BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类�
 
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
-
-您也可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。即使30天免费试用结束、您也不会被收取费用。

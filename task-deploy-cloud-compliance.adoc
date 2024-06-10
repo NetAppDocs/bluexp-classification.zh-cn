@@ -39,10 +39,6 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 [role="quick-margin-para"]
 启动安装向导以在云中部署BlueXP分类实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 订阅BlueXP分类服务
-[role="quick-margin-para"]
-需要通过云提供商Marketplace订阅BlueXP。
-
 
 
 == 创建连接器
@@ -257,5 +253,3 @@ BlueXP在云提供商中部署BlueXP分类实例。
 
 .下一步行动
 在配置页面中，您可以选择要扫描的数据源。
-
-您也可以 link:task-licensing-datasense.html["为BlueXP分类设置许可"] 目前。在30天免费试用结束之前、不会向您收取任何费用。

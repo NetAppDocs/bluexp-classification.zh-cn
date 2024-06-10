@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-cloud-compliance.html 
-keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning,  governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp 
+keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, personal data, personal information, sensitive, personal sensitive data, gdpr, hipaa, scans, scanning,  governance, cloud data sense, data sense, privacy control, classification, optimization, cloud data sense, bluexp, bluexp classification 
 summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解BlueXP分类
@@ -280,7 +280,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 非业务数据 | 是的。 | 是的。 
 
 
-| 文件重复 | 是的。 | 否 
+| 文件重复 | 是的。 | 是的。 
 
 
 | 预定义策略 | 是的。 | 否 
@@ -397,7 +397,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 数据主题 | 是的。 | 否 
 
 
-| 重复 | 是的。 | 否 
+| 重复 | 是的。 | 是的。 
 
 
 | 分类状态 | 是的。 | 状态始终为"洞察力有限" 
