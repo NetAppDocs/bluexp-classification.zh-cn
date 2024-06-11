@@ -47,7 +47,7 @@ NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueX
 * 使用BlueXP复制和同步功能复制和同步源文件
 * 从BlueXP自动升级软件
 +
-BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
+BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 link:whats-new.html["BlueXP分类发行说明"] 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作 https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["升级BlueXP Connector"^] 和 <<升级BlueXP分类软件,升级BlueXP分类软件>>。
 
 
 
@@ -378,7 +378,7 @@ BlueXP分类安装程序会安装软件包、注册安装并安装BlueXP分类�
 由于BlueXP分类软件定期更新新功能、因此您应进入例行程序定期检查新版本、以确保您使用的是最新的软件和功能。您需要手动升级BlueXP分类软件、因为没有Internet连接、无法自动执行升级。
 
 .开始之前
-* 我们建议您将BlueXP Connector软件升级到最新可用版本。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["请参见 Connector 升级步骤"^]。
+* 我们建议您将BlueXP Connector软件升级到最新可用版本。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["请参见 Connector 升级步骤"^]。
 * 从BlueXP分类版本1.24开始、您可以升级到任何未来的软件版本。
 +
 如果BlueXP分类软件运行的版本早于1.24、则一次只能升级一个主要版本。例如、如果您安装了1.21.x版、则只能升级到1.22.x如果您有几个主要版本，则需要多次升级此软件。
