@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification, cloud data sense 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification, cloud data sense, cds 
 summary: 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
 ---
 = 在可访问Internet的主机上安装BlueXP分类
@@ -95,7 +95,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 确保您可以保持BlueXP分类运行。BlueXP分类机需要持续扫描数据。
 
 * 与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。
-* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小、在三种系统大小中进行选择。
+* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在这些系统大小中进行选择。
 +
 [cols="17,17,27,31"]
 |===
@@ -112,22 +112,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 -100 GiB可从/opt获得
 -395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
 /tmp上的5 GiB 
-
-
-| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD开启/、或
--50 GiB可从/opt获得
--145 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
-/tmp上的5 GiB 
-
-
-| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD位于/、或上
--50 GiB可从/opt获得
--45 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
-/tmp上的5 GiB 
 |===
-+
-请注意、使用较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
 ** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。

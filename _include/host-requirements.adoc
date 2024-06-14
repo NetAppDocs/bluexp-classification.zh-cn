@@ -3,7 +3,7 @@
 
 
 * 与其他应用程序共享的主机不支持BlueXP分类-该主机必须是专用主机。
-* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小、在三种系统大小中进行选择。
+* 在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在这些系统大小中进行选择。
 +
 [cols="17,17,27,31"]
 |===
@@ -20,22 +20,7 @@
 -100 GiB可从/opt获得
 -395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
 /tmp上的5 GiB 
-
-
-| *中* | 8个CPU | 32 GB RAM | 200 GiB SSD开启/、或
--50 GiB可从/opt获得
--145 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
-/tmp上的5 GiB 
-
-
-| *小* | 8个CPU | 16 GB RAM | 100 GiB SSD位于/、或上
--50 GiB可从/opt获得
--45 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
-/tmp上的5 GiB 
 |===
-+
-请注意、使用较小的系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
 ** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。

@@ -1812,9 +1812,6 @@
   <block id="3a69b34ce86dacb205936a8094f6c743" category="cell">大型</block>
   <block id="dc8179e6e72156a5578bf35cf9574540" category="cell">16个CPU</block>
   <block id="5a1fdf37d5cd85436f7504641d78b95f" category="cell">64 GB RAM</block>
-  <block id="bef6aed074693bd02885fa89c8b418f0" category="cell">8个CPU</block>
-  <block id="70eb72cfa1dbdb5556e79344f161d62a" category="cell">32 GB RAM</block>
-  <block id="e706090ac76b3e56523819912497e0f6" category="cell">16 GB RAM</block>
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">如果您使用代理访问Internet：</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。</block>
   <block id="829124a47242d374aed9d0704a781736" category="paragraph">Linux主机_in your premises_上的典型安装包含以下组件和连接。</block>
@@ -1863,8 +1860,6 @@
   <block id="088be43867eaac29f74142859d1e2a13" category="paragraph">运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。</block>
   <block id="93144470251168b3e5488b736447f48f" category="section-title">验证主机要求</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">*大型*</block>
-  <block id="f3e6e184202c9901024fa409f2c24cb1" category="cell">*中*</block>
-  <block id="e8ae9f0392263b55e4580177a75c948e" category="cell">*小*</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">请参见其他AWS实例类型</block>
   <block id="130a6b20e1175876fb22c9520aa18c8c" category="inline-link-macro">请参见其他Azure实例类型</block>
   <block id="d713d26696157989a3e54d75e186ddb9" category="list-text">* Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 <block ref="600a0a16acacbb97202eae2cd680ce79" category="inline-link-macro-rx"></block>。</block>
@@ -3053,7 +3048,6 @@
 -100 GiB可从/opt获得
 -在/var/lib/Docker上提供了»
 /tmp上的5 GiB</block>
-  <block id="7e6ae7e8de71f1a36043487bc45a85eb" category="paragraph">请注意、使用较小的系统时存在一些限制。请参见 <block ref="0e704e23a30c6a19db4ec4aec3706681" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="7644f60fe7823935bde3cbe9f9e82bf8" category="section-title">使用 AIP 标签对数据进行分类</block>
   <block id="0ed54f1d736772cdfa10d041612c19cc" category="section-title">在工作空间中集成AIP标签</block>
   <block id="dc868ca3e5d8a2a78f0a032d630be98e" category="section-title">查看文件中的AIP标签</block>
@@ -3126,7 +3120,6 @@
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">查看包含私有信息的文件</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">查看存储中重复的文件</block>
   <block id="fe146c842cc64934263018d6ec158b7e" category="sidebar">筛选数据以查看特定文件</block>
-  <block id="40af1406afc061038f5851961a636714" category="sidebar">发现不合规数据时创建电子邮件警报</block>
   <block id="9293f14feca10eb970a136a34ecc9d8c" category="sidebar">响应数据主体访问请求</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
@@ -3484,18 +3477,9 @@
   <block id="7478ade8cfb34d944424b511227fdfa2" category="paragraph">如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。 <block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>。</block>
   <block id="a271d225cad25b912ce5858124897ffe" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
   <block id="a5c44a10e9c98a0d20204951c490574b" category="paragraph">此功能适用于内部ONTAP系统、Cloud Volumes ONTAP、Azure NetApp Files、FSx for ONTAP和第三方文件共享。</block>
-  <block id="cd0e4d172a3c3cc49c7d48effd234198" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小、在三种系统大小中进行选择。</block>
   <block id="30786f70a10900b6a9d4fd46363a55cb" category="cell">500 GiB SSD位于/、或上
 -100 GiB可从/opt获得
 -395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
-/tmp上的5 GiB</block>
-  <block id="fb7aa8c3ffe50126e6eca8378926faad" category="cell">200 GiB SSD开启/、或
--50 GiB可从/opt获得
--145 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
-/tmp上的5 GiB</block>
-  <block id="276dee9bc704113bddf51474d12b15ff" category="cell">100 GiB SSD位于/、或上
--50 GiB可从/opt获得
--45 GiB可从/var/lib/Docker或用于Podman /var/lib/containers
 /tmp上的5 GiB</block>
   <block id="b5f08a168a732355a95d9acdc430dcaf" category="list-text">* Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 <block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>。</block>
   <block id="797b21f4662c52d1572473764912397d" category="paragraph">可以查看的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block> 配置文件与运行后实际提交的配置文件不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block> 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
@@ -3559,4 +3543,5 @@
   <block id="ee817e39b08fa171d62efb8f7b4143b2" category="admonition">BlueXP分类核心版本不支持与Active Directory集成。</block>
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 和 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>。</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">我们建议您将BlueXP Connector软件升级到最新可用版本。<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>。</block>
+  <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在这些系统大小中进行选择。</block>
 </blocks>
