@@ -18,6 +18,46 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
+== 2024年7月1日(版本1.33)
+
+此版本包含以下更新。
+
+
+
+=== 支持Ubuntu
+
+此版本支持Ubuntu 24.04 Linux平台。
+
+
+
+=== 映射扫描可收集元数据
+
+以下元数据在映射扫描期间从文件中提取、并显示在"监管"、"合规性"和"调查"信息板上：
+
+* Working environment
+* Working environment type
+* 存储库
+* 文件类型
+* Used capacity
+* 文件数
+* 文件大小
+* 文件创建
+* 文件上次访问
+* 文件上次修改时间
+* 文件发现时间
+* 权限提取
+
+
+
+
+=== 信息板中的其他数据
+
+此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。
+
+有关详细信息，请参见 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["映射扫描与分类扫描之间有何区别"]
+
+
+
 == 2024年6月5日(版本1.32)
 
 此版本包含以下更新。
