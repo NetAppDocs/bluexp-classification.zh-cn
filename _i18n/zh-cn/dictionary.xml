@@ -3163,7 +3163,6 @@
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：</block>
   <block id="17809026adc94f6c0d618b91e6379bec" category="list-text">Red Hat Enterprise Linux 8.8、9.0、9.1、9.2和9.3版</block>
   <block id="57da374715d9745b4dd1b2494e49b1c4" category="paragraph">请注意、使用RHEL 8.x和RHEL 9.x时、当前不支持以下功能：</block>
-  <block id="555c829e9c93dc526a387388830a8e53" category="list-text">Podman版本4或更高版本。要安装Podman，请更新系统软件包 <block ref="2331e8e9c17f410bdfc0aa461e9aa2b7" prefix="(" category="inline-code"></block>)、然后安装Podman <block ref="f93cc32458404a89e1885eee2d68276f" prefix="(" category="inline-code"></block>）。</block>
   <block id="bf9330c0401cb1794286325e86e14bc1" category="paragraph">BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。</block>
   <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP分类是否需要访问凭据？</block>
   <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP分类本身不会检索存储凭据。而是存储在BlueXP Connector中。</block>
@@ -3542,4 +3541,5 @@
   <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。</block>
   <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">映射扫描与分类扫描之间有何区别</block>
   <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">有关详细信息，请参见<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
+  <block id="1e61042bc6437e79f5a1cc09c86acd1a" category="list-text">Podman版本4或更高版本。要安装Podman，请输入 <block ref="9305f04686d4e3dadce4d1e9e77d9d71" prefix="(" category="inline-code"></block>)。</block>
 </blocks>

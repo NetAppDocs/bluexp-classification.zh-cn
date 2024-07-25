@@ -79,7 +79,7 @@
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install netavark -y`）。
+*** Podman版本4或更高版本。要安装Podman，请输入 (`sudo yum install podman netavark -y`)。
 
 
 

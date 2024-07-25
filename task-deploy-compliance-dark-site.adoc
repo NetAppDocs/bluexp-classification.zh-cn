@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification, classification, install, cloud data sense, cds 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification, classification, install, cloud data sense, cds, linux host 
 summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"专用模式")中的Linux主机上安装BlueXP分类。此类安装非常适合您的安全站点。' 
 ---
 = 在无法访问Internet的Linux主机上安装BlueXP分类
@@ -158,7 +158,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
 
-*** Podman版本4或更高版本。要安装Podman，请更新系统软件包 (`sudo yum update -y`)、然后安装Podman (`sudo yum install netavark -y`）。
+*** Podman版本4或更高版本。要安装Podman，请输入 (`sudo yum install podman netavark -y`)。
 
 
 
