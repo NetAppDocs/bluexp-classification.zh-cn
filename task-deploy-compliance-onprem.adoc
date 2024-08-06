@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification, cloud data sense, cds, linux host 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, linux, ubuntu, cloud compliance access, privacy, compliance, on-premises, bluexp classification, docker, podman, install bluexp classification, cloud data sense, cds, rhel, linux host 
 summary: 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
 ---
 = 在可访问Internet的主机上安装BlueXP分类
@@ -143,8 +143,8 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 ** 以下操作系统要求使用Docker容器引擎：
 +
 *** Red Hat Enterprise Linux 7.8和7.9版
-*** CentOS 7.8和7.9版
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
+*** Ubuntu 24.04 (需要BlueXP分类版本1.23或更高版本)
 
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：

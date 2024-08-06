@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-test-linux-system.html 
-keywords: cloud compliance, data sense, get started, deploy, bluexp classification, cloud compliance access, compliance, on-premises, linux, test linux system, docker, podman, dark site, bluexp 
+keywords: cloud compliance, bluexp, data sense, get started, deploy, bluexp classification, cloud compliance access, compliance, on-premises, linux, test linux system, docker, podman, ubuntu, rhel, dark site, bluexp 
 summary: 在Linux主机上手动安装BlueXP分类之前、您可以在此主机上运行一个脚本、以验证是否满足安装BlueXP分类的所有前提条件。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点中。 
 ---
 = 检查Linux主机是否已准备好安装BlueXP分类
@@ -98,8 +98,8 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 ** 以下操作系统要求使用Docker容器引擎：
 +
 *** Red Hat Enterprise Linux 7.8和7.9版
-*** CentOS 7.8和7.9版
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
+*** Ubuntu 24.04 (需要BlueXP分类版本1.23或更高版本)
 
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：

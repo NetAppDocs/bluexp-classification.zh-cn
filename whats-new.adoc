@@ -18,6 +18,20 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
+== 2024年8月5日(版本1.34)
+
+此BlueXP  分类版本包含以下更新。
+
+
+
+=== 从CentOS更改为Ubuntu
+
+BlueXP  Classification已将适用于Microsoft Azure和Google Cloud Platform (GCP)的Linux操作系统从CentOS 7.9更新为Ubuntu 22.04。
+
+有关部署的详细信息，请参见 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html#prepare-the-linux-host-system["在可访问Internet的Linux主机上安装并准备Linux主机系统"]。
+
+
+
 == 2024年7月1日(版本1.33)
 
 此版本包含以下更新。

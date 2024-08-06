@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-dark-site.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, compliance, on-premises, dark site, upgrade, private mode, docker, podman, bluexp classification, classification, install, cloud data sense, cds, linux host 
+keywords: cloud compliance, bluexp, data sense, get started, deploy cloud data sense, web browser connectivity, cloud compliance access, privacy, linux, ubuntu, compliance, on-premises, dark site, upgrade, private mode, docker, podman, rhel, bluexp classification, classification, install, cloud data sense, cds, linux host 
 summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"专用模式")中的Linux主机上安装BlueXP分类。此类安装非常适合您的安全站点。' 
 ---
 = 在无法访问Internet的Linux主机上安装BlueXP分类
@@ -130,8 +130,8 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 ** 以下操作系统要求使用Docker容器引擎：
 +
 *** Red Hat Enterprise Linux 7.8和7.9版
-*** CentOS 7.8和7.9版
 *** Ubuntu 22.04 (需要BlueXP分类版本1.23或更高版本)
+*** Ubuntu 24.04 (需要BlueXP分类版本1.23或更高版本)
 
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
