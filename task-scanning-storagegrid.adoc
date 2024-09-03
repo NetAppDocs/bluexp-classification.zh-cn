@@ -1,7 +1,7 @@
 ---
-sidebar: sidebariance, privacy, compliance, object storage, data sense 
+sidebar: sidebar 
 permalink: task-scanning-storagegrid.html 
-keywords: cloud compliance, enable cloud compl 
+keywords: cloud compliance, enable cloud compliance, privacy, compliance, object storage, data sense 
 summary: 完成几个步骤、即可开始使用BlueXP  分类直接扫描StorageGRID中的数据。 
 ---
 = 开始扫描StorageGRID数据
