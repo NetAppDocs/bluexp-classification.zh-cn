@@ -18,6 +18,20 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
+== 2024年9月2日(版本1.31)
+
+此BlueXP  分类版本包含以下更新。
+
+
+
+=== 扫描StorageGRID数据
+
+BlueXP  分类现在可以在StorageGRID中扫描数据。
+
+有关详细信息，请参见 link:task-scanning-storagegrid.html["扫描StorageGRID数据"]。
+
+
+
 == 2024年8月5日(版本1.34)
 
 此BlueXP  分类版本包含以下更新。

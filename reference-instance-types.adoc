@@ -16,7 +16,7 @@ summary: 'BlueXP分类软件必须在满足特定操作系统要求、RAM要求�
 [role="lead"]
 BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件要求等的主机上运行。在云中部署BlueXP分类时、我们建议您使用具有"大型"特征的系统来实现全部功能。
 
-您可以在CPU较少、RAM较少的系统上部署BlueXP分类、但在使用这些功能较弱的系统时存在一些限制。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["了解这些限制"^]。
+您可以在CPU较少、RAM较少的系统上部署BlueXP分类、但在使用这些功能较弱的系统时存在一些限制。link:concept-cloud-compliance.html["了解这些限制"^](英文)
 
 在下表中、如果标记为"default"的系统在您要安装BlueXP分类的区域中不可用、则将部署表中的下一个系统。
 

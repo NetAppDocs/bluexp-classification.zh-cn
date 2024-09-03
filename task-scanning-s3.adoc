@@ -108,7 +108,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 *注意：*扫描S3存储分段时、当前不支持在内部位置部署BlueXP分类。
 
-只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
+只要实例具有Internet连接、BlueXP  分类软件的升级就会自动进行。
 
 
 

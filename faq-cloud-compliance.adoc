@@ -373,8 +373,6 @@ BlueXP分类使用数据平面凭据、例如CIFS凭据在扫描前挂载共享�
 * 在GCP中、BlueXP分类在具有500 GiB标准永久性磁盘的n2-standard-16虚拟机上运行。
 
 
-请注意、您可以在CPU较少、RAM较少的系统上部署BlueXP分类、但使用这些系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
 link:concept-cloud-compliance.html["详细了解BlueXP分类的工作原理"^]。
 
 

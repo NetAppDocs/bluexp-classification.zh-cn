@@ -39,16 +39,18 @@ sidebar:
         url: "/task-test-linux-system.html"
     - title: 激活对数据源的扫描
       entries:
-      - title: Cloud Volumes ONTAP 和内部 ONTAP
-        url: "/task-getting-started-compliance.html"
       - title: Azure NetApp Files
         url: "/task-scanning-anf.html"
       - title: 适用于 ONTAP 的 Amazon FSX
         url: "/task-scanning-fsx.html"
+      - title: Cloud Volumes ONTAP 和内部 ONTAP
+        url: "/task-getting-started-compliance.html"
       - title: 数据库架构
         url: "/task-scanning-databases.html"
       - title: 文件共享
         url: "/task-scanning-file-shares.html"
+      - title: StorageGRID
+        url: "/task-scanning-storagegrid.html"
     - title: 集成 Active Directory
       url: "/task-add-active-directory-datasense.html"
     - title: 常见问题解答

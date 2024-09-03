@@ -4,7 +4,7 @@ permalink: task-scanning-anf.html
 keywords: cloud compliance, get started, enable cloud compliance, cloud compliance access, privacy, compliance, ANF, azure netApp files, data sense 
 summary: 完成几个步骤即可开始使用适用于Azure NetApp Files 的BlueXP分类。 
 ---
-= Azure NetApp Files BlueXP分类入门
+= 开始使用适用于Azure NetApp Files的BlueXP  分类
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -59,7 +59,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 
 
-== 正在发现要扫描的 Azure NetApp Files 系统
+== 发现要扫描的Azure NetApp Files系统
 
 如果您要扫描的Azure NetApp Files 系统尚未作为工作环境在BlueXP中、您可以此时将其添加到画布中。
 
@@ -79,7 +79,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 
 
-== 在工作环境中启用BlueXP分类
+== 在您的工作环境中启用BlueXP  分类
 
 您可以在Azure NetApp Files 卷上启用BlueXP分类。
 
@@ -93,7 +93,7 @@ image:screenshot_cloud_compliance_anf_scan_config.png["部署BlueXP分类实例�
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
 +
-请参见 <<在卷上启用和禁用合规性扫描,在卷上启用和禁用合规性扫描>> 了解详细信息。
+有关详细信息、请参见。 <<对卷启用和禁用合规性扫描,对卷启用和禁用合规性扫描>>
 
 
 
@@ -112,7 +112,7 @@ BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类�
 ====
 
 
-== 验证BlueXP分类是否有权访问卷
+== 验证BlueXP  分类是否有权访问卷
 
 通过检查网络连接、安全组和导出策略、确保BlueXP分类可以访问卷。您需要为BlueXP分类提供CIFS凭据、以便它可以访问CIFS卷。
 
@@ -161,7 +161,7 @@ image:screenshot_compliance_volume_details.gif["扫描配置中的\"查看详细
 
 
 
-== 在卷上启用和禁用合规性扫描
+== 对卷启用和禁用合规性扫描
 
 您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。建议您扫描所有卷。
 

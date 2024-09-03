@@ -173,8 +173,6 @@ BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访�
 * https://cloud.google.com/compute/quotas["Google Cloud 文档：资源配额"^]
 
 
-请注意、您可以在CPU较少、RAM较少的AWS云环境中的实例上部署BlueXP分类、但使用这些系统时存在一些限制。请参见 link:concept-cloud-compliance.html#using-a-smaller-instance-type["使用较小的实例类型"] 了解详细信息。
-
 --
 
 

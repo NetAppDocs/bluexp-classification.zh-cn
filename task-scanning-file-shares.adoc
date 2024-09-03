@@ -4,7 +4,7 @@ permalink: task-scanning-file-shares.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, file shares, nfs, cifs, smb, data sense, 7-mode 
 summary: 完成几个步骤即可开始使用BlueXP分类直接扫描非NetApp NFS或CIFS文件共享。这些文件共享可以驻留在内部或云中。 
 ---
-= 正在扫描文件共享
+= 扫描文件共享
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -72,7 +72,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果尚未部署实例、请部署BlueXP分类。
 
-只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
+只要实例具有Internet连接、BlueXP  分类软件的升级就会自动进行。
 
 
 

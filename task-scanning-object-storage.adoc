@@ -4,7 +4,7 @@ permalink: task-scanning-object-storage.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, object storage, data sense 
 summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。' 
 ---
-= 扫描使用S3协议的对象存储
+= 扫描StorageGRID数据
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,7 +18,7 @@ summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*NOTE*使用核心BlueXP  中的BlueXP  分类，您现在可以扫描StorageGRID数据。请参阅。link:task-scanning-storagegrid.html["扫描StorageGRID数据"]此处的其余信息仅与BlueXP  分类原有版本1.3及更早版本相关。
 
 ====
 

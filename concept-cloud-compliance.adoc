@@ -35,10 +35,7 @@ BlueXP分类使用人工智能(AI)、自然语言处理(NLL)和机器学习(ML)�
 
 https://bluexp.netapp.com/netapp-cloud-data-sense["详细了解BlueXP分类的用例"^]。
 
-
-
-=== 保持合规性
-
+.保持合规性
 BlueXP分类提供了多种可帮助您实现合规性的工具。您可以使用BlueXP分类来：
 
 * 识别个人身份信息（ PiII ）。
@@ -46,10 +43,7 @@ BlueXP分类提供了多种可帮助您实现合规性的工具。您可以使�
 * 根据名称或电子邮件地址响应数据主体访问请求(Data Subject Access Requests、DSAar)。
 
 
-
-
-=== 增强安全性
-
+.增强安全性
 BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据。您可以使用BlueXP分类来：
 
 * 确定具有打开权限的所有文件和目录(共享和文件夹)、这些文件和目录会公开给您的整个组织或公有。
@@ -58,10 +52,7 @@ BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据�
 * 使用_policies_自动检测新的安全问题、以便安全人员可以立即采取措施。
 
 
-
-
-=== 优化存储使用
-
+.优化存储使用
 BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可以使用BlueXP分类来：
 
 * 通过识别重复数据或非业务相关数据来提高存储效率。
@@ -78,6 +69,7 @@ BlueXP分类可以扫描和分析来自以下类型的工作环境和数据源�
 
 * Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中）
 * 内部 ONTAP 集群
+* StorageGRID
 * Azure NetApp Files
 * 适用于 ONTAP 的 Amazon FSX
 * Google Cloud NetApp卷
@@ -149,9 +141,7 @@ image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的Bl
 
 TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据。
 
-
-
-=== 在不同的实例类型上部署
+*部署在不同的实例类型*
 
 您可以在CPU较少、RAM较少的系统上部署BlueXP分类。
 
@@ -181,7 +171,7 @@ TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据
 
 
 
-== 扫描的工作原理
+=== 扫描的工作原理
 
 启用BlueXP分类并选择要扫描的存储库(即卷、数据库架构或其他用户数据)后、它会立即开始扫描数据以确定个人数据和敏感数据。在大多数情况下、您应重点扫描实时生产数据、而不是备份、镜像或灾难恢复站点。然后、BlueXP分类会映射您的组织数据、对每个文件进行分类、并在数据中标识和提取实体和预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。
 
@@ -259,9 +249,10 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 * 权限提取
 
 
-*监管信息板差异*：
-
-[cols="47,18,18"]
+.监管信息板差异：
+[%collapsible]
+====
+[cols="40,25,25"]
 |===
 | 功能 | 映射和分类 | 映射 
 
@@ -307,9 +298,11 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 | 文件类型 | 是的。 | 是的。 
 |===
-*合规性信息板差异*：
-
-[cols="47,18,18"]
+====
+.合规性信息板差异：
+[%collapsible]
+====
+[cols="40,25,25"]
 |===
 | 功能 | 映射和分类 | 映射 
 
@@ -328,9 +321,11 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 | PCI DSS 报告 | 是的。 | 否 
 |===
-*调查过滤差异*：
-
-[cols="47,18,18"]
+====
+.调查筛选差异：
+[%collapsible]
+====
+[cols="40,25,25"]
 |===
 | 功能 | 映射和分类 | 映射 
 
@@ -412,6 +407,7 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 | 目录类型 | 是的。 | 是的。 
 |===
+====
 
 
 === BlueXP分类扫描数据的速度
@@ -424,11 +420,11 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 
 
-== BlueXP分类索引的信息
+== BlueXP  分类分类的信息
 
 BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP分类索引的数据包括以下内容：
 
-* *标准元数据* BlueXP分类收集有关文件的标准元数据：文件类型、大小、创建和修改日期等。
+* *关于文件的标准元数据*：文件类型、大小、创建和修改日期等。
 * *个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码。 link:task-controlling-private-data.html#view-files-that-contain-personal-data["了解有关个人数据的更多信息"^]。
 * *敏感个人数据*：特殊类型的敏感个人信息(SPii)、如GDPR和其他隐私法规定义的健康数据、种族或政治观点。 link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^]。
 * *类别*：BlueXP分类将其扫描的数据分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。 link:task-controlling-private-data.html#view-files-by-categories["了解有关类别的更多信息"^]。
@@ -450,7 +446,7 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 
 
 
-== 用户访问合规性信息
+== BlueXP  分类中的用户角色
 
 为每个用户分配的角色在BlueXP和BlueXP分类中提供不同的功能：
 
