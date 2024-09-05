@@ -260,7 +260,7 @@ BlueXP分类可以识别多种类型的私有数据、例如个人信息(个人�
 
 此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。
 
-link:concept-cloud-compliance.html#user-access-to-compliance-information["了解更多信息。"^]。
+link:concept-cloud-compliance.html["了解更多信息。"^](英文)
 
 
 

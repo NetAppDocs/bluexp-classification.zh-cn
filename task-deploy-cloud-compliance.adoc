@@ -182,7 +182,7 @@ BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访�
 
 按照以下步骤在云中部署BlueXP分类实例。Connector将在云中部署实例、然后在该实例上安装BlueXP分类软件。
 
-请注意、在AWS环境中从BlueXP Connector部署BlueXP分类时、您可以选择默认实例大小、也可以从两种较小的实例类型中进行选择。 link:concept-cloud-compliance.html#using-a-smaller-instance-type["请参见可用的实例类型和限制"]。在默认实例类型不可用的区域中、BlueXP分类在上运行 link:reference-instance-types.html["备用实例类型"]。
+在缺省实例类型不可用的区域中，BlueXP  分类在上运行link:reference-instance-types.html["备用实例类型"]。
 
 [role="tabbed-block"]
 ====

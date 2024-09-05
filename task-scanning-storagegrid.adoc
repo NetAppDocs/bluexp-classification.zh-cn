@@ -22,9 +22,9 @@ summary: 完成几个步骤、即可开始使用BlueXP  分类直接扫描Stora
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看对象存储前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看StorageGRID前提条件
 [role="quick-margin-para"]
-您需要具有端点 URL 才能连接到对象存储服务。
+要连接到StorageGRID服务、您需要具有端点URL。
 
 [role="quick-margin-para"]
 您需要具有StorageGRID中的访问密钥和机密密钥、以便BlueXP  分类可以访问存储分段。
@@ -33,7 +33,7 @@ summary: 完成几个步骤、即可开始使用BlueXP  分类直接扫描Stora
 [role="quick-margin-para"]
 link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加对象存储服务
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加StorageGRID服务
 [role="quick-margin-para"]
 将StorageGRID服务添加到BlueXP  分类。
 
@@ -70,17 +70,17 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 添加StorageGRID服务。
 
 .步骤
-. 在工作环境配置页面中，单击 * 添加数据源 * > * 添加对象存储服务 * 。
+. 从“工作环境配置”页中，单击*添加数据源*>*添加StorageGRID。
 +
-image:screenshot_compliance_add_object_storage_button.png["扫描配置页面的屏幕截图，您可以在其中单击添加文件共享组按钮。"]
+image:screenshot-scanning-add-storagegrid.png["扫描配置页面的屏幕截图、您可以在其中单击添加StorageGRID按钮。"]
 
-. 在“添加对象存储服务”对话框中，输入StorageGRID服务的详细信息，然后单击*CONTINUE*。
+. 在添加StorageGRID服务对话框中，输入StorageGRID服务的详细信息，然后单击*Continue*。
 +
 .. 输入要用于工作环境的名称。此名称应反映要连接到的StorageGRID服务的名称。
 .. 输入端点 URL 以访问对象存储服务。
 .. 输入访问密钥和机密密钥、以便BlueXP  分类可以访问StorageGRID中的分段。
 +
-image:screenshot_compliance_add_object_storage.png["对话框的屏幕截图，您可以在其中输入值以访问对象存储服务。"]
+image:screenshot-scanning-storagegrid-add.png["可在其中输入值以访问StorageGRID服务的对话框的屏幕截图。"]
 
 
 
@@ -98,11 +98,11 @@ StorageGRID已添加到工作环境列表中。
 .步骤
 . 在配置页中，从StorageGRID工作环境中单击*配置*。
 +
-image:screenshot_compliance_object_storage_config.png["单击工作环境的配置以选择要扫描的分段的屏幕截图。"]
+image:screenshot-scanning-storagegrid-configuration.png["单击工作环境的配置以选择要扫描的分段的屏幕截图。"]
 
 . 在存储分段上启用仅映射扫描或映射和分类扫描。
 +
-image:screenshot_compliance_object_storage_select_buckets.png["选择要扫描的对象存储分段的屏幕截图。"]
+image:screenshot-scanning-add-storagegrid-buckets.png["选择要扫描的StorageGRID存储分段的屏幕截图。"]
 
 +
 [cols="45,45"]
