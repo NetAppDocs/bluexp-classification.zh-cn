@@ -33,7 +33,7 @@ BlueXP分类作为BlueXP中的核心功能提供、无需额外付费。通过�
 | 内部 ONTAP 集群 | 是的。 | 是的。 
 
 
-| StorageGRID | 是的。 | 否 
+| StorageGRID | 是的。 | 是的。 
 
 
 | Azure NetApp Files | 是的。 | 是的。 
