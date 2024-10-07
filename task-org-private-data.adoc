@@ -74,9 +74,9 @@ BlueXP分类支持以下文件类型中的AIP标签：.DOC、.docx、.PDF、.PPT
 ====
 
 
-=== 在工作空间中集成AIP标签
+=== 在项目或工作空间中集成AIP标签
 
-在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后，您可以管理所有文件中的 AIP 标签 link:concept-cloud-compliance.html["数据源"^] 在您的BlueXP工作空间中。
+在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后、您可以在BlueXP  项目或工作空间中的所有文件中管理AIP标签link:concept-cloud-compliance.html["数据源"^]。
 
 .要求
 * 您必须拥有帐户和 Azure 信息保护许可证。

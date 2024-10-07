@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-licensing-byol-freetrial.html 
 keywords: subscribe, trial, marketplace, subscription, byol, bring your own license, data sense, cloud data sense 
-summary: BlueXP分类在BlueXP工作空间中扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商Marketplace的订阅。 
+summary: BlueXP  分类在BlueXP  项目或工作空间中扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商Marketplace的订阅。 
 ---
 = 为BlueXP分类设置免费试用版或自带许可证
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP分类在BlueXP工作空间中扫描的前1 TB数据是免费的�
 
 
 [role="lead"]
-对于版本1.3及更早版本、BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。
+对于版本1.3及更早版本、BlueXP  分类在BlueXP  项目或工作空间中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。
 
 []
 ====
@@ -23,7 +23,7 @@ summary: BlueXP分类在BlueXP工作空间中扫描的前1 TB数据是免费的�
 ====
 在阅读其他内容之前，请先阅读一些注释：
 
-* BlueXP分类(Data Sense)自带许可证(BYOL)是一种_Float_许可证、可用于计划扫描的工作空间中的所有工作环境和数据源。您将在BlueXP电子钱包中看到有效订阅。
+* BlueXP  分类(Data Sense)自带许可证(BYOL)是一种_Float_许可证、可用于计划扫描的BlueXP  项目或工作空间中的所有工作环境和数据源。您将在BlueXP电子钱包中看到有效订阅。
 * 扫描的数据量是根据逻辑文件大小计算的、不会产生任何存储效率。
 
 
@@ -33,7 +33,7 @@ link:concept-cloud-compliance.html#cost["详细了解与BlueXP分类相关的许
 
 == 30天免费试用
 
-提供30天免费试用、最多可试用1 TB BlueXP分类在BlueXP工作空间中扫描的数据。您需要从NetApp购买BYOL许可证、或者从云提供商的市场注册订阅、才能在这之后继续扫描数据。
+30天免费试用版可用于BlueXP  分类在BlueXP  项目或工作空间中扫描的最多1 TB数据。您需要从NetApp购买BYOL许可证、或者从云提供商的市场注册订阅、才能在这之后继续扫描数据。
 
 您可以随时订阅、除非30天试用结束或数据量超过1 TB、否则不会向您收取任何费用。您始终可以从BlueXP分类监管信息板查看正在扫描的总数据量。现在订阅 _ 按钮可以让您在准备就绪后轻松订阅。
 

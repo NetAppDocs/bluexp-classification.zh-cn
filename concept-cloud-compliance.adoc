@@ -448,11 +448,8 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 
 == BlueXP  分类中的用户角色
 
-为每个用户分配的角色在BlueXP和BlueXP分类中提供不同的功能：
+为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息，请参阅以下内容：
 
-* * 帐户管理员 * 可以管理所有工作环境的合规性设置并查看合规性信息。
-* 只有当系统具有访问权限时， * 工作空间管理员 * 才能管理合规性设置并查看合规性信息。如果工作区管理员无法访问BlueXP中的工作环境、则他们无法在BlueXP分类选项卡中查看该工作环境的任何合规性信息。
-* 具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  IAM角色"](在标准模式下使用BlueXP  时)
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["BlueXP  帐户角色"^](在受限模式或专用模式下使用BlueXP  时)
 
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-user-roles.html["了解有关BlueXP角色的更多信息"^] 以及操作方法 https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-netapp-accounts.html#adding-users["添加具有特定角色的用户"^]。

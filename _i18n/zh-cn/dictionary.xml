@@ -75,8 +75,6 @@
   <block id="5cb163817b0d897b166cc75827e8c477" category="inline-link-macro">了解有关类型的更多信息</block>
   <block id="13d0a191166a1a3dc29ebcd8e3aae81f" category="inline-link-macro">了解如何响应数据主体访问请求</block>
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">网络概述</block>
-  <block id="7e576e4144e56e656ad24bb096e2e6fe" category="list-text">* 帐户管理员 * 可以管理所有工作环境的合规性设置并查看合规性信息。</block>
-  <block id="2d4684d2aec68a0b0d987ac449846c38" category="inline-link">添加具有特定角色的用户</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入门</block>
   <block id="91e06e9a9ef97681b798e2e5e007ba97" category="paragraph">按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。</block>
   <block id="f86df9b5b428fe5b37c14bd1162bc107" category="list-text">对于要扫描的所有数据，您需要一个以行分隔的 SharePoint 站点 URL 列表。</block>
@@ -679,7 +677,6 @@
   <block id="2c727edaa875c00494a86714e286c25d" category="inline-link-macro">NetApp FlexClone</block>
   <block id="cacf80b84fb78c42b4f9ad4c81a37286" category="list-text">将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。</block>
   <block id="6ca416dc347d5360ab86e69583f4b2b0" category="admonition">您不能复制数据库中的文件。</block>
-  <block id="61d4fcc3c026e16853fc4a4c3af3238e" category="list-text">要复制文件，您必须具有帐户管理员或工作空间管理员角色。</block>
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">在数据调查结果窗格中，选择要复制的一个或多个文件，然后单击 * 复制 * 。</block>
   <block id="e78ae78fac1620efb2c4db4938844274" category="inline-image-macro">显示如何从 " 数据调查 " 页面选择要复制的文件以及 " 复制 " 按钮的屏幕截图。</block>
   <block id="cb1cacc23b0ae330cc87e78659350142" category="paragraph"><block ref="cb1cacc23b0ae330cc87e78659350142" category="inline-image-macro-rx" type="image"></block></block>
@@ -710,7 +707,6 @@
   <block id="2fe40b402eb4dc28515dfbbf411e5e9e" category="paragraph">新的克隆卷将在与源卷相同的聚合中创建。</block>
   <block id="d25aba80994e98cacd011b113628101b" category="inline-link-macro">手动对卷启用扫描</block>
   <block id="59a46e0ea7e3441d068ab93e14650d6e" category="admonition">您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。</block>
-  <block id="fa00f0feeabd281b23e8571faacaf649" category="list-text">要复制和同步文件，您必须具有帐户管理员或工作空间管理员角色。</block>
   <block id="2e5ce55dec2ff1c76b2eb8662089db85" category="list-text">所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。</block>
   <block id="5698905e8d060e455d19636040ff425c" category="inline-link-macro">快速启动问题描述</block>
   <block id="ff0485cd041399c074cb840a8d93eafb" category="list-text">在数据调查窗格中，选择一个 * 工作环境 * 和一个 * 存储库 * 来创建筛选器，以确保所有文件都来自同一个存储库。</block>
@@ -724,7 +720,6 @@
   <block id="9b955d2f8c7eb79fa331696ccaea0382" category="list-text">不能使用 * 删除源上的文件 * 或 * 删除目标上的文件 * 按钮。</block>
   <block id="b1a4d105700fff61a746fdbacd809814" category="list-text">已禁用运行报告。</block>
   <block id="4ae80798b0ef194ea50cfe00aa1b363c" category="admonition">您无法移动驻留在数据库中的文件。</block>
-  <block id="362922d3096f2a8f75a966c92ac6d984" category="paragraph">要移动文件，您必须具有帐户管理员或工作空间管理员角色。</block>
   <block id="cc7802d7dd00fcef6b110f6c11d254d0" category="list-text">在数据调查结果窗格中，选择要移动的一个或多个文件。</block>
   <block id="9ec28b3e8959ec52791e2484cca2dae5" category="inline-image-macro">显示如何从数据调查页面选择要移动的文件以及移动按钮的屏幕截图。</block>
   <block id="9c17966e66e119d1fcd44440de888f1b" category="paragraph"><block ref="9c17966e66e119d1fcd44440de888f1b" category="inline-image-macro-rx" type="image"></block></block>
@@ -737,7 +732,6 @@
   <block id="f00d1d6da069b57d87e693fce6b2fc27" category="paragraph">您可以永久删除看似不安全或风险太大，无法留在存储系统中的源文件，或者已确定为重复的源文件。此操作为永久操作，不会撤消或还原。</block>
   <block id="5415e45b4bcc0ac609070c6e72408406" category="paragraph">删除文件需要以下权限：</block>
   <block id="e9d85b8e3ea5257d3468eb6f787a1fcd" category="list-text">对于 S3 数据 - IAM 角色必须包括以下权限： `s 3 ： DeleteObject`</block>
-  <block id="b625bf3592e2928981ee61c2a8d659a8" category="list-text">要删除文件，您必须具有帐户管理员或工作空间管理员角色。</block>
   <block id="982e0ea8ac129cb8e1614b1eb919a238" category="list-text">一次最多可以删除 100 ， 000 个文件。</block>
   <block id="d14aadac54b4954b4a906556c2e19bd5" category="list-text">在数据调查结果窗格中，选择要删除的一个或多个文件。</block>
   <block id="47a3f3156d581e80ad2e6dc38b57f4fd" category="inline-image-macro">显示如何从数据调查页面选择要删除的文件的屏幕截图以及删除按钮。</block>
@@ -1291,7 +1285,6 @@
   <block id="a5b37e45ed042a9bf7c09bfcc25c3211" category="list-text">对于GCP：使用为BlueXP实例创建的用户</block>
   <block id="23c0e03df230b1dfa0e16b9d275b80ea" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
@@ -1303,9 +1296,7 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
   <block id="f92115ef83b34980e3bba84c1a861bac" category="paragraph">以下问题与BlueXP Connector相关。</block>
-  <block id="78e53b124783e106b07d5599c5ff16c3" category="inline-link">了解有关BlueXP角色的更多信息</block>
   <block id="877f09bae1b7112a88e564afe0b39149" category="inline-link">必须设置BlueXP才能发现配置</block>
   <block id="4739351a47029a08d047c6f8c00da39e" category="paragraph">如果您要扫描的Azure NetApp Files 系统尚未作为工作环境在BlueXP中、您可以此时将其添加到画布中。</block>
   <block id="fe7e3d60e37233edf0b5fcd9a28bb00d" category="inline-link">了解如何在BlueXP中发现Azure NetApp Files 系统</block>
@@ -1424,7 +1415,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
   <block id="d9c5a199091edda801a88fd2fdabd9d0" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 发现要扫描的FSX for ONTAP 文件系统</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
@@ -2039,8 +2029,6 @@
   <block id="5cc02cd150bab8f17f768fc0a2b24362" category="paragraph"><block ref="5cc02cd150bab8f17f768fc0a2b24362" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6552f1048a3ae38a8cec0a3b3f0241d7" category="list-text">确保BlueXP分类实例与包含Azure NetApp Files 卷的每个网络之间具有网络连接。</block>
   <block id="f27267e8337bbab386f4c4d33a5066ab" category="admonition">对于Azure NetApp Files 、BlueXP分类只能扫描与BlueXP位于同一区域的卷。</block>
-  <block id="2b72c8c8b6a53f0bd35a27c35e4b05f6" category="summary">BlueXP分类在BlueXP工作空间中扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商Marketplace的订阅。</block>
-  <block id="e19d11025f1d0db5b77507e8aaad17e1" category="list-text">BlueXP分类(Data Sense)自带许可证(BYOL)是一种_Float_许可证、可用于计划扫描的工作空间中的所有工作环境和数据源。您将在BlueXP电子钱包中看到有效订阅。</block>
   <block id="1fe75a0ab5171136a5ec6503ed9e85d1" category="inline-link-macro">详细了解与BlueXP分类相关的许可和成本</block>
   <block id="e01ae5b37a34fb436f617365e020721a" category="paragraph"><block ref="5547e182cd4b08f09049a0606997f4a9" category="inline-link-macro-rx"></block>。</block>
   <block id="defd0f223a0cf4f1e58e88bd1721d45e" category="paragraph">您可以随时订阅、除非30天试用结束或数据量超过1 TB、否则不会向您收取任何费用。您始终可以从BlueXP分类监管信息板查看正在扫描的总数据量。现在订阅 _ 按钮可以让您在准备就绪后轻松订阅。</block>
@@ -2176,8 +2164,6 @@
   <block id="51da61c9b4199dc02176673546f1121d" category="admonition">要完全删除BlueXP分类实例、您可以从云提供商的门户或内部位置手动删除BlueXP分类实例。</block>
   <block id="b2a009fe641242daa8ff4cc2e848a015" category="paragraph">此外、BlueXP分类还提供了多种方法来添加BlueXP分类将在扫描中识别的自定义"个人数据"列表、从而为您提供有关组织的_all_文件中潜在敏感数据所在位置的完整信息。</block>
   <block id="3e54663a2ffb430b0a951b91fab46029" category="section-title">是否可以将BlueXP分类信息限制为特定用户？</block>
-  <block id="b1cfb802271338af5bae746aee65d68f" category="paragraph">是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。</block>
-  <block id="78d74c7ac59dc7722ad434f3b07f8c77" category="paragraph">此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。</block>
   <block id="baa3d508ff34a4c15a58d71fbe4f0e0f" category="section-title">任何人都可以访问在我的浏览器和BlueXP分类之间发送的私有数据吗？</block>
   <block id="d85edc022c467b1de0d062bc4f4215b5" category="paragraph">当BlueXP分类扫描冷数据分层到对象存储的卷时、它会扫描所有数据—本地磁盘上的数据以及分层到对象存储的冷数据。实施分层的非NetApp产品也是如此。</block>
   <block id="a243387e3677f17692394ce770a377f8" category="section-title">可以使用BlueXP分类扫描哪些数据源？</block>
@@ -2385,8 +2371,6 @@
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">了解BlueXP分类所联系的端点</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">如果您有严格的网络连接要求， <block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>。</block>
-  <block id="134fcb5e98d6c85fb7e78899c34709f6" category="paragraph">为每个用户分配的角色在BlueXP和BlueXP分类中提供不同的功能：</block>
-  <block id="96efd2ea08eb0e0fd4053096747f1b55" category="list-text">只有当系统具有访问权限时， * 工作空间管理员 * 才能管理合规性设置并查看合规性信息。如果工作区管理员无法访问BlueXP中的工作环境、则他们无法在BlueXP分类选项卡中查看该工作环境的任何合规性信息。</block>
   <block id="bf9282cd68ceb267317aa336c787020b" category="summary">策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。</block>
   <block id="967b04771a3458159d11dd8932d09129" category="inline-image-macro">BlueXP分类信息板中的"Policies"选项卡的屏幕截图。</block>
   <block id="d44d997087e7d999102d47f4839b74ac" category="paragraph"><block ref="d44d997087e7d999102d47f4839b74ac" category="inline-image-macro-rx" type="image"></block></block>
@@ -2548,7 +2532,6 @@
   <block id="fb9f305ae47362d3da6e3ade499105ee" category="list-text">通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。<block ref="a40f0fdd4afe274f77ca519732617a55" category="inline-link-rx"></block>。<block ref="b7350948393fc35e7105d2df80148b7f" category="inline-link-rx"></block>。</block>
   <block id="8dea330b22e02b664ce6abd469b6f6e0" category="list-text">BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见<block ref="48e31103093fd55a8a781c9c8d4b19d2" category="inline-link-rx"></block>。如果在内部部署系统上安装 Connector ，则不需要任何成本。</block>
   <block id="36363460a1fe53a08276b3693b695989" category="paragraph">在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。<block ref="999d7d869d9eebca95ac2936610a6036" category="inline-link-rx"></block></block>
-  <block id="5d371907ae213447466e27377160549c" category="paragraph"><block ref="19cae19bf9f9858c5d5d9cdd392e7141" category="inline-link-rx"></block> 以及操作方法<block ref="27e77e6892da189bf97ea3bb339cc8fb" category="inline-link-rx"></block>。</block>
   <block id="96b988aeea7df07c150c06631b8e1023" category="list-text">对于内部 ONTAP 系统，<block ref="00999886c013da85fef603135c9ef779" category="inline-link-rx"></block></block>
   <block id="93d98288c3d4c3fe1a384ea14c84db4e" category="paragraph">您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有<block ref="764bc5313eb3242221adb26dbbb188c9" category="inline-link-rx"></block>。</block>
   <block id="6a79ed48a5fce7523ab5bc4c5c5c16bc" category="paragraph">或者、如果您有一个不会使用的Cloud Volumes ONTAP 基于节点的未分配许可证、则可以将其转换为具有相同美元等价性和相同到期日期的BlueXP分类许可证。<block ref="f4c32a82791cf9fc58c736c0aed05092" category="inline-link-rx"></block>。</block>
@@ -2634,25 +2617,18 @@
   <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">了解如何获取和上传Data sense BYOL许可证</block>
   <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。要完成注册、请按如下所述将NetApp 支持站点(NSS)帐户添加到BlueXP中。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">注册BlueXP帐户以获得NetApp支持</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">要注册支持并激活支持授权、BlueXP帐户中的一个用户必须将NetApp 支持站点 帐户与其BlueXP登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">“资源”页面应显示您的帐户已注册支持。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">请注意、其他BlueXP用户如果没有将NetApp 支持站点 帐户与其BlueXP登录关联、则不会看到此相同的支持注册状态。但是、这并不意味着您的BlueXP帐户未注册支持。只要帐户中有一个用户执行了这些步骤、您的帐户即已注册。</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是现有许可证和序列号但拥有_no_ nss帐户的现有NetApp客户、则需要创建一个NSS帐户并将其与BlueXP登录关联。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">完成下的步骤、将新的NSS帐户与BlueXP登录关联起来 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">拥有NetApp 支持站点 帐户后、通过完成下的步骤将帐户与BlueXP登录关联起来 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">关联Cloud Volumes ONTAP支持的NSS凭据</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp 支持站点 凭据与BlueXP帐户相关联：</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">注册按需购买Cloud Volumes ONTAP系统以获得支持</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">要激活对系统的支持并访问 NetApp 技术支持资源，需要提供 NSS 帐户。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自带许可证时部署Cloud Volumes ONTAP (BYOL)</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">需要提供您的NSS帐户、以便BlueXP可以上传您的许可证密钥并为您购买的期限启用订阅。这包括自动更新期限续订。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">将Cloud Volumes ONTAP 软件升级到最新版本</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">将NSS凭据与BlueXP帐户关联与与与BlueXP用户登录关联的NSS帐户不同。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">这些NSS凭据与您的特定BlueXP帐户ID关联。属于BlueXP帐户的用户可以从*支持&gt; NSS管理*访问这些凭据。</block>
   <block id="48439ae905464923337d7464952d3315" category="list-text">代理必须不透明-我们目前不支持透明代理。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="list-text">用户必须是本地用户。不支持域用户。</block>
   <block id="fae80424c022f4f6a5863e7a9e007154" category="list-text">_proxy_user_= 已通过身份验证的用户，用于连接到代理服务器（如果需要基本身份验证）。用户必须是本地用户-不支持域用户。</block>
@@ -2850,7 +2826,6 @@
   <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修复了在信息板中显示系统扫描的文件数时出现的不一致问题。</block>
   <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">通过处理和报告名称和元数据中包含特殊字符的文件和目录、改进了扫描行为。</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">30天免费试用</block>
-  <block id="ebca662192a78887713c7cdcbabfe424" category="paragraph">提供30天免费试用、最多可试用1 TB BlueXP分类在BlueXP工作空间中扫描的数据。您需要从NetApp购买BYOL许可证、或者从云提供商的市场注册订阅、才能在这之后继续扫描数据。</block>
   <block id="66145e361f72b54aa011f59d543dfb08" category="section-title">使用年度合同</block>
   <block id="5eaba7c2dc62e15a7621fd6721ea170d" category="paragraph">通过购买年度合同按年度支付BlueXP分类费用。它们提供1年、2年或3年期服务。</block>
   <block id="5d88ecbc0b3e3130da7993534c150ab6" category="paragraph">如果您有一份来自市场的年度合同、则所有BlueXP分类数据扫描都将从该合同中扣除费用。您不能将年度市场合同与BYOL混合搭配使用。</block>
@@ -2958,7 +2933,6 @@
 -在/var/lib/Docker上提供了»
 /tmp上的5 GiB</block>
   <block id="7644f60fe7823935bde3cbe9f9e82bf8" category="section-title">使用 AIP 标签对数据进行分类</block>
-  <block id="0ed54f1d736772cdfa10d041612c19cc" category="section-title">在工作空间中集成AIP标签</block>
   <block id="dc868ca3e5d8a2a78f0a032d630be98e" category="section-title">查看文件中的AIP标签</block>
   <block id="a63feced797847158dd7b93ba9ec1c9c" category="section-title">手动分配AIP标签</block>
   <block id="079ba7083ee44d94b780ca3410262aad" category="section-title">删除AIP集成</block>
@@ -3152,7 +3126,6 @@
   <block id="5908128f01988745be85a67845195980" category="paragraph">如果您在可访问Internet的系统上部署了BlueXP分类、则系统将自动升级。以前、升级发生在自上次用户活动以来经过的特定时间之后。在此版本中、如果本地时间介于1：00 AM到5：00 AM之间、BlueXP分类会自动升级。如果本地时间不在这些时间内、则升级将在自上次用户活动后经过一段特定时间后进行。有关详细信息，请参见<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>。</block>
   <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">如果您部署的BlueXP分类不能访问Internet、则需要手动升级。有关详细信息，请参见<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>。</block>
   <block id="2d403d52aec87c9291e770c63009d05a" category="doc">为BlueXP分类设置免费试用版或自带许可证</block>
-  <block id="02ddf1ef4d10d5139184d78e06ee6aae" category="paragraph">对于版本1.3及更早版本、BlueXP分类在BlueXP工作空间中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。</block>
   <block id="cdcb25957da09f59854744bf2007b696" category="paragraph">*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。</block>
   <block id="092ffbf49760b0e115866a94479e9c08" category="summary">BlueXP分类的免费版本中不提供某些特性和功能。</block>
   <block id="719bf77baad8c1d4bc8f2344d2f3e191" category="doc">BlueXP分类已弃用的功能</block>
@@ -3333,13 +3306,11 @@
   <block id="53fa8df095671f897c8cbcd13ce182b1" category="inline-link-macro">支持的工作环境和数据源</block>
   <block id="2930994d2cff6bdaceb544c2a0169659" category="paragraph">请参见 <block ref="fb235327a04124182aad24d53e898b94" category="inline-link-macro-rx"></block>。</block>
   <block id="3270840fec1d1272ecdf8fa5dacfe375" category="paragraph">BlueXP分类是BlueXP的核心功能、不收费。</block>
-  <block id="178bf9bf543decf7d7b3739b703708f1" category="paragraph">在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后，您可以管理所有文件中的 AIP 标签 <block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block> 在您的BlueXP工作空间中。</block>
   <block id="c6f088f8c47d3f6f693b41a70370107f" category="paragraph">BlueXP分类可以扫描和分析来自以下类型的工作环境和数据源的结构化和非结构化数据：</block>
   <block id="4e74f624e4d0f3f558ca01aa93696658" category="paragraph">*工作环境*</block>
   <block id="181c4b9812ec18a3c5280cac985783ed" category="paragraph">*数据源*</block>
   <block id="ffc184891768c331383cd53bcd1bc968" category="list-text">NetApp文件共享</block>
   <block id="1d4f5c4d2298eeba0567ba65029151d4" category="paragraph">BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。</block>
-  <block id="92b5d31c7573ec4b607f3345517ac2ac" category="list-text">具有 * 合规性查看器 * 角色的用户只能查看其有权访问的系统的合规性信息并生成报告。这些用户无法启用 / 禁用卷，分段或数据库架构的扫描。</block>
   <block id="d1e72f4d21bb915d180e5f6d1e9d4264" category="section-title">分类可作为BlueXP中的核心服务提供</block>
   <block id="ff9a5988c9084ed8f91f339a8c5730ef" category="sidebar">部署BlueXP分类弃用</block>
   <block id="08504eba0f24252abaffadf616e91d7c" category="sidebar">扫描数据弃用</block>
@@ -3549,4 +3520,32 @@
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">扫描具有BlueXP  分类的文件共享</block>
   <block id="7265eae2a2b23f32087dc3e5083938a2" category="doc">扫描具有BlueXP  分类的ONTAP卷的Amazon FSx</block>
   <block id="98e210281b17a386ae53922f3fb716a8" category="doc">使用BlueXP  分类扫描StorageGRID数据</block>
+  <block id="52da9a73cb03e4535f2a000cdfb2c195" category="paragraph">为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息，请参阅以下内容：</block>
+  <block id="0fceee5053bfc73b3d9e3253ad7b8f0b" category="inline-link">BlueXP  IAM角色</block>
+  <block id="0f2b8063a749695d6e6cabb6fbe23802" category="list-text"><block ref="ef314777f2af1a60f50572a2ebd3830d" category="inline-link-rx"></block>(在标准模式下使用BlueXP  时)</block>
+  <block id="a09850a7316fc61e73b43603f00aa4e5" category="inline-link">BlueXP  帐户角色</block>
+  <block id="50f8f96dbb569f9e44b89d471f24ac54" category="list-text"><block ref="76d5ea9223c9516110f9647ce6970108" category="inline-link-rx"></block>(在受限模式或专用模式下使用BlueXP  时)</block>
+  <block id="31c54f238cebe0e67876bead2dd9ca81" category="paragraph">是的、BlueXP分类与BlueXP完全集成。BlueXP  用户只能查看其根据权限有资格查看的工作环境的信息。</block>
+  <block id="97b57408711e2d9ba278434cd17598c5" category="paragraph">此外，如果要允许某些用户只查看BlueXP  分类扫描结果而不管理BlueXP  分类设置，则可以为这些用户分配*Classification viewer*角色(在标准模式下使用BlueXP  时)或*Compliance Viewer*角色(在受限模式下使用BlueXP  时)。</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作环境列表位于您在服务顶部横幅中选择的BlueXP  组织(或帐户)、项目(或工作空间)和连接器的范围内。</block>
+  <block id="19cffc0053aafa946f7ebe7f34c7193e" category="summary">BlueXP  分类在BlueXP  项目或工作空间中扫描的前1 TB数据是免费的。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商Marketplace的订阅。</block>
+  <block id="932933f9ba6b9665ae6c1e4717709ac0" category="paragraph">对于版本1.3及更早版本、BlueXP  分类在BlueXP  项目或工作空间中扫描的前1 TB数据可免费使用30天。要在这之后继续扫描数据、需要NetApp提供的BYOL许可证或云提供商所在市场的订阅。</block>
+  <block id="3f626dca09c3d8c920c3fb187cbf82d3" category="list-text">BlueXP  分类(Data Sense)自带许可证(BYOL)是一种_Float_许可证、可用于计划扫描的BlueXP  项目或工作空间中的所有工作环境和数据源。您将在BlueXP电子钱包中看到有效订阅。</block>
+  <block id="d2160d301fecae093e137b07230bc3c6" category="paragraph">30天免费试用版可用于BlueXP  分类在BlueXP  项目或工作空间中扫描的最多1 TB数据。您需要从NetApp购买BYOL许可证、或者从云提供商的市场注册订阅、才能在这之后继续扫描数据。</block>
+  <block id="ab24d4e851f3db949095d520c7a20014" category="inline-link-macro">了解用户对合规性信息的访问权限</block>
+  <block id="626f686c5ceb0252f691c5ea070f437b" category="list-text">您必须具有复制文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="2e23ab8075b914f073724aeeab7a7221" category="list-text">您必须具有复制和同步文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="7253808b56101588fe6b9f8e3310f2de" category="list-text">您必须具有移动文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="b7f17bad276a0a849229c1ccd0d02ea8" category="list-text">您必须具有删除文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="9dff072cdf15f8fff2b82997cdd81978" category="section-title">在项目或工作空间中集成AIP标签</block>
+  <block id="4a3effbc18e64b5e273a49d67d85f05b" category="paragraph">在管理AIP标签之前、您需要登录到现有Azure帐户、将AIP标签功能集成到BlueXP分类中。启用后、您可以在BlueXP  项目或工作空间中的所有文件中管理AIP标签<block ref="9f69f043f42f5e941f29feed1ea9caea" category="inline-link-macro-rx"></block>。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">注册BlueXP  帐户序列号(20位960xxxxxxxxx序列号位于BlueXP  的支持资源页面)。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">注册BlueXP  以获得NetApp支持</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">要注册支持并激活支持授权、您的BlueXP  组织中的一个用户(或帐户)必须将NetApp支持站点帐户与其BlueXP  登录名关联。如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">“资源”页面应显示您的BlueXP  组织已注册支持。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">请注意、其他BlueXP用户如果没有将NetApp 支持站点 帐户与其BlueXP登录关联、则不会看到此相同的支持注册状态。但是、这并不意味着您的BlueXP  组织未注册支持。只要组织中有一个用户执行了这些步骤、您的组织就已注册。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这将加快处理速度。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp支持站点凭据与您的BlueXP  组织相关联：</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
 </blocks>

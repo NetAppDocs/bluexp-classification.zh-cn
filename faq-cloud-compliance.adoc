@@ -256,9 +256,9 @@ BlueXP分类可以识别多种类型的私有数据、例如个人信息(个人�
 
 === 是否可以将BlueXP分类信息限制为特定用户？
 
-是的、BlueXP分类与BlueXP完全集成。BlueXP用户只能根据其工作空间权限查看其有资格查看的工作环境的信息。
+是的、BlueXP分类与BlueXP完全集成。BlueXP  用户只能查看其根据权限有资格查看的工作环境的信息。
 
-此外、如果要允许某些用户仅查看BlueXP分类扫描结果而不管理BlueXP分类设置、则可以为这些用户分配云合规性查看器角色。
+此外，如果要允许某些用户只查看BlueXP  分类扫描结果而不管理BlueXP  分类设置，则可以为这些用户分配*Classification viewer*角色(在标准模式下使用BlueXP  时)或*Compliance Viewer*角色(在受限模式下使用BlueXP  时)。
 
 link:concept-cloud-compliance.html["了解更多信息。"^](英文)
 
