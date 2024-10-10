@@ -136,15 +136,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
 +
-*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2和9.3版
-+
-请注意、使用RHEL 8.x和RHEL 9.x时、当前不支持以下功能：
-
-+
-**** 在非公开站点安装
-**** 分布式扫描；使用主扫描程序节点和远程扫描程序节点
-
-
+*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4版
 
 
 
@@ -155,9 +147,6 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 ** 根据您使用的操作系统、您需要安装以下容器引擎之一：
 +
 *** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
-+
-https://youtu.be/Ogoufel1q6c["观看此视频"^] 有关在CentOS上安装Docker的快速演示。
-
 *** Podman版本4或更高版本。要安装Podman，请输入 (`sudo yum install podman netavark -y`)。
 
 

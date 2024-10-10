@@ -2353,8 +2353,6 @@
   <block id="5224a506004fee451317bef2d8675e7e" category="inline-image-macro">显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。</block>
   <block id="fd1e8dbd30ef938d68f6110d8e753a9e" category="paragraph"><block ref="fd1e8dbd30ef938d68f6110d8e753a9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8efedf0156c990ce376aed3b9694842" category="list-text">在AWS中、BlueXP分类在上运行<block ref="8b5561a11e73285eb1f0d9f437aa0677" category="inline-link-rx"></block> 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。</block>
-  <block id="5be3f656bf8d3ebc226f24be2f937262" category="list-text">在Azure中、BlueXP分类在上运行 <block ref="258fa0e906df18ccf945022280cc0721" category="inline-link-macro-rx"></block> 使用500 GiB磁盘。操作系统映像为 CentOS 7.9 。</block>
-  <block id="3efce2eadb0031e842d4fbb423c4b11b" category="list-text">在GCP中、BlueXP分类在上运行 <block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block> 使用500 GiB标准持久性磁盘。操作系统映像为 CentOS 7.9 。</block>
   <block id="555b1e52bb127041158dea54f3685aaf" category="list-text">在默认实例不可用的区域中、BlueXP分类在备用实例上运行。 <block ref="e3d4e40a766f2ed64294b1dd26c6e095" category="inline-link-macro-rx"></block>。</block>
   <block id="d05dbd72313077420069ae49fe175de1" category="list-text">每个连接器仅部署一个BlueXP分类实例。</block>
   <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">您还可以在内部的Linux主机上或首选云提供商的主机上部署BlueXP分类。无论您选择哪种安装方法，软件的工作方式都完全相同。只要该实例可以访问Internet、BlueXP分类软件的升级就会自动进行。</block>
@@ -2492,8 +2490,6 @@
   <block id="f28b62cbbb13ada1264e3712622be29c" category="paragraph">例如、此命令将添加3个扫描程序节点：<block ref="1e3d5ab9f2f03870882d89f4a82b2729" prefix=" " category="inline-code"></block></block>
   <block id="441e8ff948470291018a26dd540b6d1d" category="cell">https://github.com/docker \https://download.docker.com</block>
   <block id="b629edc182d9ce4a079d9f954ad3f9b7" category="cell">提供Docker安装的必备软件包。</block>
-  <block id="fa328073ed60b8719f54add213e6f2e6" category="cell">http://mirror.centos.org \http://mirrorlist.centos.org \http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.107-3.el7.noarch.rpm</block>
-  <block id="43881c6dbe21a65cdf42dc01d8cfb295" category="cell">提供安装CentOS所需的软件包。</block>
   <block id="3c2ecff14c7a136216f1928a3a8052bf" category="list-text">粘贴您从第7步复制的命令：<block ref="50a00801fc41bbffdcb652318eb14c43" prefix=" " category="inline-code"></block></block>
   <block id="8a7af24665c107d42e27bf9f85872742" category="cell">或者、您也可以预先创建整个命令、并提供必要的主机和代理参数：<block ref="3b4bbf213dadbeb10421530a3d8a245b" prefix=" " category="inline-code"></block></block>
   <block id="79dad5af8e7ba04bd45d58a3d10d4209" category="list-text">_client_id =连接器客户端ID (将后缀"clients"添加到在前提条件步骤中复制的客户端ID)</block>
@@ -2700,7 +2696,6 @@
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">现在、在没有Internet访问(专用模式)和出站Internet访问受限(受限模式)的站点中、完全支持BlueXP分类。<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>。</block>
   <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">升级BlueXP分类的私有模式安装时可以跳过版本</block>
   <block id="241957d9f6c696915858d43476112454" category="paragraph">现在、您可以升级到较新版本的BlueXP分类、即使它不是按顺序进行的。这意味着不再需要一次升级一个版本的BlueXP分类的当前限制。从1.24版开始、此功能是相关的。</block>
-  <block id="15fc1f8a66b3adfefe2541e773678539" category="paragraph"><block ref="2ff31411f6cc987d8090218f1850091e" category="inline-link-rx"></block> 有关在CentOS上安装Docker的快速演示。</block>
   <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在BlueXP中、选择*帮助&gt;支持*。</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">如果您想通过电话与某人通话，请选择*呼叫我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">选择*创建案例*向NetApp支持专家开立TT：</block>
@@ -2802,8 +2797,6 @@
   <block id="b76d53d86b234eb61cbe1f1f8dd81414" category="paragraph">您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成。</block>
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">请注意、移动文件时、源文件中的子目录结构会在目标共享上重新创建、以便于了解文件的移动位置。如果目标位置存在同名文件、则不会移动该文件。</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。请注意、移动单个文件等快速完成的短操作不会显示在操作状态窗格中。</block>
-  <block id="1b32bd564a2d99c25093d522b505880d" category="list-text">在非公开站点安装</block>
-  <block id="1a81412d076e7b9aa74911a0adfb4688" category="list-text">分布式扫描；使用主扫描程序节点和远程扫描程序节点</block>
   <block id="194351f6f6e0cb2f129f2a15d7f6df07" category="list-text">确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
   <block id="70982664d9f01c2eb3895d455947c83d" category="list-text">验证系统是否已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
   <block id="ece19bab46695021f109a5e50f08bebe" category="paragraph">要获得BlueXP及其存储解决方案和服务的特定技术支持、需要注册支持。要为Cloud Volumes ONTAP系统启用关键工作流、还需要注册支持服务。</block>
@@ -3083,8 +3076,6 @@
   <block id="f943db85a7c2edd799890ddb18f29cab" category="doc">在无法访问Internet的Linux主机上安装BlueXP分类</block>
   <block id="e920147793c6514a998387c74226605b" category="paragraph">完成几个步骤、在无法访问Internet的内部站点中的Linux主机上安装BlueXP分类、也称为_private mode_.此类安装非常适合您的安全站点。</block>
   <block id="8e75bb9e135d127903c8df1b4d72574d" category="list-text">以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：</block>
-  <block id="17809026adc94f6c0d618b91e6379bec" category="list-text">Red Hat Enterprise Linux 8.8、9.0、9.1、9.2和9.3版</block>
-  <block id="57da374715d9745b4dd1b2494e49b1c4" category="paragraph">请注意、使用RHEL 8.x和RHEL 9.x时、当前不支持以下功能：</block>
   <block id="bf9330c0401cb1794286325e86e14bc1" category="paragraph">BlueXP分类支持NFS 3.x和CIFS 1.x、2.0、2.1和3.0。</block>
   <block id="8da041e8fe3c0d961b0ec560416bc9a4" category="section-title">BlueXP分类是否需要访问凭据？</block>
   <block id="e54c52f3a3c545fc2e2f82026ac5945f" category="paragraph">BlueXP分类本身不会检索存储凭据。而是存储在BlueXP Connector中。</block>
@@ -3548,4 +3539,14 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">要为Cloud Volumes ONTAP启用以下关键工作流、需要将NetApp支持站点凭据与您的BlueXP  组织相关联：</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">将NSS凭据与您的BlueXP  组织相关联与与与BlueXP  用户登录相关联的NSS帐户不同。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
+  <block id="c5910ee83de42fbe3194b03bc2ba3298" category="list-text">Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4版</block>
+  <block id="4f34a80e3e6d8f9cd074e18c890d4c92" category="list-text">在Azure中、BlueXP  分类在具有500 GiB磁盘的上运行<block ref="258fa0e906df18ccf945022280cc0721" category="inline-link-macro-rx"></block>。操作系统映像为Ubuntu 22.04。</block>
+  <block id="8f378974482a16d17205adf9936c789b" category="list-text">在GCP中、BlueXP  分类在具有500 GiB标准永久性磁盘的上运行<block ref="f47e4641d38801bee7cf28563a438093" category="inline-link-macro-rx"></block>。操作系统映像为Ubuntu 22.04。</block>
+  <block id="e75804de09e19a35ad3cd360d45cd0fb" category="section-title">2024年10月10日(版本1.36)</block>
+  <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此BlueXP  分类版本包含以下更新。</block>
+  <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">支持RHEL 9.4</block>
+  <block id="409886e91bb1c98ce7537a6ea025aa8e" category="paragraph">除了先前支持的版本之外、此版本还支持Red Hat Enterprise Linux v9.4。这适用于BlueXP  分类的任何手动内部安装、包括非公开站点部署。</block>
+  <block id="a851e95484895c6e743c9be7755facd2" category="paragraph">以下操作系统要求使用Podman容器引擎、并要求使用BlueXP  分类版本1.3或更高版本：Red Hat Enterprise Linux版本8.8、9.0、9.1、9.2、9.3和9.4。</block>
+  <block id="7062dd46798946172bc9078744756dfc" category="section-title">提高了扫描性能</block>
+  <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">此版本可提高扫描性能。</block>
 </blocks>
