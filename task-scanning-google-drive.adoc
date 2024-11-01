@@ -97,8 +97,7 @@ Google Drive帐户将添加到工作环境列表中。
 
 .步骤
 . 在_Configuration_页面中、单击Google Drive帐户的*配置*按钮。
-+
-image:screenshot_compliance_google_drive_add_sites.png["配置页面的屏幕截图、您可以在其中选择配置按钮。"]
+
 
 . 对Google Drive帐户中的文件启用仅映射扫描或映射和分类扫描。
 +

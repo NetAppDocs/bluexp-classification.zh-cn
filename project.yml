@@ -10,7 +10,7 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+  langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: BlueXP分类文档
@@ -89,8 +89,6 @@ sidebar:
       entries:
       - title: 在无法访问Internet的多个主机上安装BlueXP分类
         url: "/task-deploy-multi-host-install-dark-site.html"
-      - title: 将扫描程序节点添加到现有部署中
-        url: "/task-deploy-add-scanner-nodes.html"
     - title: 扫描数据弃用
       entries:
       - title: 扫描Amazon S3存储分段

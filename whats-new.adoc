@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, data sense, cloud data sense, bluexp, bluexp classification' 
 summary: 了解BlueXP分类中的新增功能。 
 ---
-= BlueXP的新增功能分类
+= BlueXP  分类中的新增功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,49 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 [role="lead"]
-了解BlueXP分类(Cloud Data Sense)中的新增功能。
+了解BlueXP分类中的新增功能。
 
 
 
-== 2024年10月10日(版本1.36)
+== 2024年11月4日
+
+
+
+=== 版本1.37
 
 此BlueXP  分类版本包含以下更新。
 
 
 
-=== 支持RHEL 9.4
+==== 支持RHEL 8.10
+
+除了先前支持的版本之外、此版本还支持Red Hat Enterprise Linux v8.10。这适用于BlueXP  分类的任何手动内部安装、包括非公开站点部署。
+
+以下操作系统要求使用Podman容器引擎、并要求使用BlueXP  分类版本1.3或更高版本：Red Hat Enterprise Linux版本8.8、8.10、9.0、9.1、9.2、9.3和9.4。
+
+详细了解 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP分类"]。
+
+
+
+==== 支持NFS v4.1
+
+除了先前支持的版本之外、此版本还支持NFS v4.1。
+
+详细了解 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP分类"]。
+
+
+
+== 2024年10月10日
+
+
+
+=== 1.36版
+
+此BlueXP  分类版本包含以下更新。
+
+
+
+==== 支持RHEL 9.4
 
 除了先前支持的版本之外、此版本还支持Red Hat Enterprise Linux v9.4。这适用于BlueXP  分类的任何手动内部安装、包括非公开站点部署。
 
@@ -34,23 +66,27 @@ summary: 了解BlueXP分类中的新增功能。
 
 
 
-=== 提高了扫描性能
+==== 提高了扫描性能
 
 此版本可提高扫描性能。
 
 
 
-== 2024年9月2日(版本1.31)
+== 2024年9月2日
+
+
+
+=== 版本：1.
 
 此BlueXP  分类版本包含以下更新。
 
 
 
-=== 扫描StorageGRID数据
+==== 扫描StorageGRID数据
 
 BlueXP  分类现在可以在StorageGRID中扫描数据。
 
-有关详细信息，请参见 link:task-scanning-storagegrid.html["扫描StorageGRID数据"]。
+有关详细信息，请参见 https://docs.netapp.com/us-en/bluexp-classification/task-scanning-storagegrid.html["扫描StorageGRID数据"]。
 
 
 
@@ -331,7 +367,7 @@ Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网�
 
 === 现在、非公开站点支持Data sense BYOL许可证
 
-现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。 https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["了解如何获取和上传Data sense BYOL许可证"]。
+现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。
 
 
 
