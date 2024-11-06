@@ -1470,7 +1470,6 @@
   <block id="688de20ddbb7b2207a9c3999989be28b" category="cell">电子邮件地址—高风险</block>
   <block id="d55a6a9af72cb1355db97941acafb865" category="cell">个人数据—高风险</block>
   <block id="39dcf805c803eacb6e35a6ea5e8cb25d" category="cell">敏感个人数据—高风险</block>
-  <block id="91edc807a7157b7f0159521433ea5b0f" category="section-title">2023年1月9日(1.19版)</block>
   <block id="738f7059231d5fe5c1e22879f52682fd" category="section-title">数据调查页面提供了三个新筛选器</block>
   <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">可以使用新筛选器细化数据调查页面中显示的结果：</block>
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
@@ -1538,7 +1537,6 @@
   <block id="ba3a038a97b620898e33b9e09db66632" category="paragraph"><block ref="ba3a038a97b620898e33b9e09db66632" category="inline-image-macro-rx" type="image"></block></block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">一次最多可以移动1、500万个文件。</block>
   <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">单击*部署*以启动云部署向导。</block>
-  <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023年2月5日(版本1.20)</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能够将基于策略的通知电子邮件发送到任何电子邮件地址</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">了解有关根据策略结果发送电子邮件警报的更多信息</block>
   <block id="e25a297a27416e76c1a8e01af56d07ed" category="section-title">能够查看有权访问SharePoint Online文件的用户数量</block>
@@ -1666,7 +1664,6 @@
   <block id="42942f3489af451c9c0c8a2e6cc0b756" category="cell">扫描分析事件</block>
   <block id="0f609c3035a725a4b4c05c34c154b6a8" category="inline-link-macro">查看有关"上次访问时间"时间戳的详细信息</block>
   <block id="cdbe480dc11409647fd956762112b463" category="paragraph"><block ref="cb955744923a641be9b94cbcd31ea046" category="inline-link-macro-rx"></block> 有关使用扫描分析事件筛选时"调查"页面中显示的项目的详细信息。</block>
-  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023年3月7日(1.21版)</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">预定义的类别</block>
   <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">更新了目录的功能</block>
   <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">现在、数据调查报告的"轻型CSV报告"选项包括目录中的信息。</block>
@@ -1762,7 +1759,6 @@
   <block id="94ac6dca39b0d38f3b950014db488255" category="list-text">如果您没有安装Connector、请输入*。</block>
   <block id="d3530f7f55e5b4f9a9f54539096d928d" category="list-text">如果安装了Connector、请输入*。然后、输入BlueXP Connector的IP地址或主机名、以便测试脚本可以测试此连接。</block>
   <block id="b6aefc1f5bf5d61908d5d40fe783f3c9" category="paragraph">如果存在任何"必需"问题、应修复这些问题并重新运行前提条件测试脚本。</block>
-  <block id="f42926ae5eb2834453e4706e43354d5c" category="section-title">2023年4月3日(1.22版)</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="section-title">新的数据发现评估报告</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">请参见如何生成和使用数据发现评估报告</block>
   <block id="2d948e473e2d70b037f0549e51ba2a9d" category="list-text">单击*监管*、然后单击*数据映射报告*按钮。</block>
@@ -2529,7 +2525,6 @@
   <block id="6365c8ecbac772805c308b501098968e" category="list-text"><block ref="3c14a300450508449fa4ac656dc2d2d2" category="inline-link-macro-rx"></block>。</block>
   <block id="312913ed4c4493306983760e524a18bf" category="paragraph">您需要逐个添加所有共享、例如：</block>
   <block id="5bf592857864b6327e9f9e7ac8b12e7e" category="list-text">对具有多个共享的工作环境中的每个卷执行以下步骤。</block>
-  <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023年6月6日(版本1.23)</block>
   <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">现在、搜索数据主题名称时支持日语</block>
   <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">"数据调查"页面中的"数据主题"筛选器</block>
   <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以生成<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 以及生成的信息。您也可以在中输入日语名称<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 标识包含主题名称的文件。</block>
@@ -2616,7 +2611,6 @@
   <block id="d8e9d38457b0cf1fc41c4f7dc9118e28" category="paragraph">BlueXP分类只能扫描内部站点本地数据源中的数据。此时、BlueXP分类可以在"专用模式"(也称为"非公开"站点)下扫描以下本地数据源：</block>
   <block id="3b1883650bdcd250161cbf99ce0450d4" category="inline-link">这也称为"专用模式"</block>
   <block id="26d411dfdee47762b69f79244d61895e" category="paragraph">是的、这一点也受支持。您可以<block ref="1c270efcf36a8d1c2de58c1ed2ed7315" category="inline-link-rx"></block>。<block ref="93d53de7d74c2549b2ebf074270b753f" category="inline-link-rx"></block>。然后、您可以发现内部ONTAP 集群和其他本地数据源、并使用BlueXP分类扫描数据。</block>
-  <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023年7月17日(版本1.24)</block>
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">两种新类型的德国个人数据通过BlueXP分类来识别</block>
   <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">在受限模式和专用模式下完全支持BlueXP分类</block>
   <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">详细了解连接器的BlueXP部署模式</block>
@@ -2886,13 +2880,9 @@
   <block id="846eb83e821481bdeafbcc34c9138401" category="section-title">部署BlueXP分类实例</block>
   <block id="117276e96b89d072e0a833596332ef29" category="section-title">添加数据库服务器</block>
   <block id="0dacbfa35e4a190378a78ef8c1f6a644" category="section-title">对数据库架构启用和禁用合规性扫描</block>
-  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024年1月10日(版本1.27)</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增强功能。</block>
   <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参见 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>。</block>
   <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参见 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>。</block>
-  <block id="8571bddd96e0bf7c1af547bf5706fe41" category="section-title">2023年11月6日(版本1.26.3)</block>
-  <block id="7e59fce056fd1f38e1a30dea9fa90ab7" category="section-title">2023年10月4日(版本1.26)</block>
-  <block id="371c5ebc9b12d1edc94ae540d4adaef6" category="section-title">2023年9月5日(版本1.25)</block>
   <block id="f9be4df42ee71d8a46fc32f8b40e0b1b" category="paragraph">过去、您一次只能在调查结果页面(20个项目)中对单个页面应用标记。现在、您可以在调查结果页面中选择*所有*项目、并将标记应用于所有项目-一次最多10万个项目。<block ref="46e19d501a7aeb47676677c6786cd6a8" category="inline-link-rx"></block>。</block>
   <block id="5dfcd9d1075127141684c90379617d15" category="paragraph"><block ref="f9682605316459d6868d028dc460934e" category="inline-link-rx"></block>。</block>
   <block id="1a24f136700e7d996dbc845dbf267e7f" category="paragraph">过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。<block ref="51df0b03dbf1aa6425434a76a39934ae" category="inline-link-rx"></block>。</block>
@@ -2980,11 +2970,9 @@
   <block id="75377d4edffa6c8df90ec35a6c2955ae" category="section-title">是否可以指示服务排除某些目录中的扫描数据？</block>
   <block id="140079c23bf99666acb52cc8f9b453cb" category="paragraph">是的。如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将该列表提供给分类引擎。应用此更改后、BlueXP分类将排除指定目录中的扫描数据。</block>
   <block id="cccdbfa223764cc2c6bbdf979c65ac39" category="paragraph"><block ref="8704cac21d49e5e6ff202bcfdaf0dcb0" category="inline-link-macro-rx"></block>。</block>
-  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024年3月4日(版本1.29)</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">现在、您可以排除驻留在特定数据源目录中的扫描数据</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到BlueXP分类处理的配置文件中。通过此功能、您可以避免扫描不必要的目录或可能导致返回误报的个人数据结果的目录。</block>
   <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>。</block>
-  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023年12月14日(版本1.26.6)</block>
   <block id="a1663078538acf931413c4667ee4dc32" category="doc">将其他组ID定义为对组织开放</block>
   <block id="14262b7b54453519cfa73f76b2652616" category="section-title">查看当前组ID列表</block>
   <block id="2238095e02de090e407d911c0f0f1e9f" category="sidebar">创建策略以查看排名靠前的搜索结果</block>
@@ -3018,7 +3006,6 @@
   <block id="7c5fdd74ce4770d435a4270b4817294a" category="list-text"><block ref="7ec82fd84f3aea81a9c6badedcfda318" category="inline-link-macro-rx"></block>，也称为_private模式。_此类型的安装使用安装脚本，适合您的安全站点。</block>
   <block id="a59f7e9514f364f5b3574b8ad02f202d" category="paragraph">可以访问Internet的Linux主机上的安装以及不能访问Internet的Linux主机上的内部安装都使用安装脚本。该脚本首先会检查系统和环境是否满足前提条件。如果满足这些前提条件、安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。</block>
   <block id="1e4c9e5b4eb9656593e357ac3f61cdc1" category="paragraph">请参见 <block ref="a838f62b35f046b790a8a32eff3e63b6" category="inline-link-macro-rx"></block>。</block>
-  <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024年4月1日(版本1.3)</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">增加了对RHEL v8.8和v9.3 BlueXP分类的支持</block>
   <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">以下操作系统要求使用Podman容器引擎、并要求BlueXP分类版本1.3或更高版本：Red Hat Enterprise Linux版本8.8、9.0、9.1、9.2和9.3。</block>
   <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link-macro">BlueXP分类部署概述</block>
@@ -3196,7 +3183,6 @@
   <block id="1ba8a6d88a1ff9a34215586899b08a1e" category="paragraph">您可以管理在每个工作环境和数据源中扫描数据的方式。您可以基于"存储库"进行更改；这意味着您可以根据所扫描的数据源类型对每个卷、架构、用户等进行更改。</block>
   <block id="4cf46b88592b20071552593714707a46" category="paragraph">如果在为源卷所在的工作环境启用BlueXP分类时最初选择了*映射所有卷*或*映射并分类所有卷*、则BlueXP分类将自动扫描新克隆的卷。如果最初未使用上述任一选项，则如果要扫描此新卷，则需要执行以下操作 <block ref="9c238ad6b45b928020692cb5de74fd06" category="inline-link-macro-rx"></block>。</block>
   <block id="c63897b00e1bb7484e004dc2e1337d94" category="paragraph">您可以从"调查"窗格或手动删除文件 <block ref="189dcbbb5debf653b5fc0860b1c881e2" category="inline-link-macro-rx"></block>。</block>
-  <block id="240debedb0b95c0376b930ba9355ecf4" category="section-title">2024年5月15日(版本1.31)</block>
   <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP分类现已作为BlueXP中的核心功能提供、无需额外付费即可处理高达500 TiB的扫描数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">详细了解已弃用的功能</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>。</block>
@@ -3300,14 +3286,12 @@
   <block id="da30b4408b5e1540ac02763204c943ad" category="list-text">*暂停*(灰点)：您选择了“暂停”选项以暂停扫描。虽然卷中的更改不会显示在系统中、但扫描的洞察力仍会显示出来。</block>
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">*错误*(红点)：由于遇到问题，扫描无法完成。如果需要完成操作、则错误会显示在工具提示中的"Required action"列下。  否则、系统将显示"error"状态并尝试恢复。完成后、状态将发生变化。</block>
   <block id="4c5b4656410d347cf852f162490f2e15" category="list-text">*未扫描*：已选择卷配置"off"、系统未扫描此卷。</block>
-  <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024年6月5日(版本1.32)</block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">配置页面中的新建映射状态列</block>
   <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">此版本现在会在配置页面中显示一个新的映射状态列。新列可帮助您确定映射正在运行、已排队、已暂停还是更多。</block>
   <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">有关状态的说明、请参见<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>。</block>
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">在设置某些数据源(如下所列)时、您需要输入Active Directory凭据、以便BlueXP分类扫描CIFS卷。这种集成提供了BlueXP分类、其中包含驻留在这些数据源中的数据的文件所有者和权限详细信息。为这些数据源输入的Active Directory可能与您在此处输入的全局Active Directory凭据不同。BlueXP分类将在所有集成的Active Directory中查找用户和权限详细信息。</block>
   <block id="70f05bdab0f283eaffba98f53fceb776" category="paragraph">对于CIFS卷/文件共享、如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户具有写入属性权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。</block>
   <block id="bf353be94d6ba74709e3d127af6ba1a6" category="paragraph">以下问题与使用BlueXP分类的许可和成本有关。</block>
-  <block id="b660413c1fbf79ce31a119db078401fe" category="paragraph">此版本包含以下更新。</block>
   <block id="14aa1b744a832a1cebfb9dd4d34b809d" category="paragraph">BlueXP Connector和BlueXP分类都需要定期手动升级才能启用新功能。您可以在BlueXP分类UI页面底部看到BlueXP分类版本。检查 <block ref="4cc8c968e2438af740515443c2861b36" category="inline-link-macro-rx"></block> 以查看每个版本中的新功能以及是否需要这些功能。然后，您可以按照以下步骤进行操作<block ref="29c5c6557943f5249ffe666c6e468ce9" category="inline-link-rx"></block> 和 <block ref="b1d8f2a5489be1789530a7fc668375fb" category="inline-xref-macro-rx"></block>。</block>
   <block id="8a39158958544ff49d3dc95bad3f3a82" category="list-text">我们建议您将BlueXP Connector软件升级到最新可用版本。<block ref="4abf459c8cfa6d4ca98cecc130eefa9a" category="inline-link-rx"></block>。</block>
   <block id="914179b3d4545ce8b8e8ba122c53f4d9" category="list-text">在内部构建主机系统时、您可以根据计划进行BlueXP分类扫描的数据集大小在这些系统大小中进行选择。</block>
@@ -3340,8 +3324,6 @@
 业务应用程序数据</block>
   <block id="1903cd6e75503b7859268e96d356ea13" category="doc">查看有关组织中存储的私有数据的合规性详细信息</block>
   <block id="aa7740206cc512120060a1c060de9543" category="paragraph">通过查看组织中有关个人数据(个人数据、II)和敏感个人数据(SPii)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。</block>
-  <block id="3b08fbca8f3b3deaf466cedfd425cfc6" category="section-title">2024年7月1日(版本1.33)</block>
-  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">此版本包含以下更新。</block>
   <block id="d61892207457d808cffbfc18b9dcd8ad" category="section-title">支持Ubuntu</block>
   <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">此版本支持Ubuntu 24.04 Linux平台。</block>
   <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">映射扫描可收集元数据</block>
@@ -3403,7 +3385,6 @@
   <block id="ffc704586971ad083fdf8dd3a75b06c9" category="list-text">在配置页中，从StorageGRID工作环境中单击*配置*。</block>
   <block id="2c9810189a9662217559e6c599b47a67" category="cell">8080 (TCP)、443 (TCP)和80。9000</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">BlueXP  分类现在可以在StorageGRID中扫描数据。</block>
-  <block id="a5ac20c838605b872613985f5c302c61" category="section-title">2024年8月5日(版本1.34)</block>
   <block id="7618b35d0748b4efb66fc940006fadd5" category="paragraph"><block ref="83ed27e05a338173092039c2d8e0ae3b" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="67103c15357d4cb02c120c2f07095363" category="paragraph">在缺省实例类型不可用的区域中，BlueXP  分类在上运行<block ref="45910d58f60ef6c6ec6de81dc1fbd5cf" category="inline-link-macro-rx"></block>。</block>
   <block id="59b7feee7c455334bdb5e4ec5e6894ed" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>查看StorageGRID前提条件</block>
@@ -3478,6 +3459,41 @@
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">1.36版</block>
   <block id="28dc8814bfe656bc8e29052d1508b999" category="section-title">2024年9月2日</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">版本：1.</block>
-  <block id="1aa327f677148af5679dfc598fb8f539" category="paragraph">有关详细信息，请参见<block ref="3e1b901b9270f6f4c97e16e88c4e3161" category="inline-link-rx"></block>。</block>
-  <block id="164199ecac7ab88714ff0c68b5fb98f0" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。</block>
+  <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
+  <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024年8月5日</block>
+  <block id="3b506912c9fbc6e924c90fcd67f9e81d" category="section-title">1.34 版</block>
+  <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024年7月1日</block>
+  <block id="29ca6f4adc7aee37872328bb347b7543" category="section-title">1.33 版</block>
+  <block id="4497f9fd188a9629ea47d91a3f025c8c" category="section-title">2024年6月5日</block>
+  <block id="decdab3311a7d521fe764d5d580ddd35" category="section-title">1.32 版</block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
+  <block id="362a66c8caf141f86c11be1e2f936c77" category="section-title">1.31 版</block>
+  <block id="4434c8a49854e6484f6c158999be4e10" category="section-title">2024年4月1日</block>
+  <block id="e6a70634d4a42783e6d5918eff0a0ab6" category="section-title">1.30 版</block>
+  <block id="9ee51d75827fcf6a985ed40e7418fea6" category="section-title">2024年3月4日</block>
+  <block id="512d4a337ec357edd106a616e83b1a1f" category="section-title">1.29 版</block>
+  <block id="c630754f942c555264fff115d6b5e9b2" category="section-title">2024年1月10日</block>
+  <block id="536149161458a7a77ae5b72258f34e48" category="section-title">1.27 版</block>
+  <block id="3500d4b863ccad6f25298c3ab1519e74" category="section-title">2023年12月14日</block>
+  <block id="552c9ad11d5dffc1189fa270ca015445" category="section-title">1.26.6版</block>
+  <block id="c8684cf4ccd502e49d1d79ff9936bc98" category="section-title">2023年11月6日</block>
+  <block id="0778a32085af8830c408efb93cb7239f" category="section-title">1.26.3版</block>
+  <block id="e5899cce271b544ee6441231f3c8cb3f" category="section-title">2023年10月4日</block>
+  <block id="a7dfa38887a337aec315ca23d79dc622" category="section-title">1.26 版</block>
+  <block id="133c04bb5f03e7d4a910bcf2f7193ebd" category="section-title">2023年9月5日</block>
+  <block id="3f1982a78707e6a0e0433cad5b5a037d" category="section-title">1.25 版</block>
+  <block id="deac043b98b13aa9a1a0d041a820ee2c" category="section-title">2023年7月17日</block>
+  <block id="314ecd7c1da8864532628a8aa4a6c85b" category="section-title">1.24 版</block>
+  <block id="6a7140fd5370f297d9a834d30e26ffde" category="section-title">2023年6月6日</block>
+  <block id="5a78709b3e68f78b25a72a31cfcaa8f0" category="section-title">1.23 版</block>
+  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">了解如何获取和上传Data sense BYOL许可证</block>
+  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP  电子钱包中、以便在许可证不足时收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>(英文)。</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
+  <block id="288d139ea0d21561e65bec74c2f7c646" category="section-title">1.22 版</block>
+  <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
+  <block id="321553493f3e3f76105c5f5c5633b4c1" category="section-title">1.21 版</block>
+  <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023年2月5日</block>
+  <block id="4d892f9a0cb70711d12ffb41d4d77d8b" category="section-title">1.20 版</block>
+  <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023年1月9日</block>
+  <block id="58080b77f4121259ffde5ce32650fff6" category="section-title">1.19 版</block>
 </blocks>
