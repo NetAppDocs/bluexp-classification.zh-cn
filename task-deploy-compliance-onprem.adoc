@@ -28,12 +28,10 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 
 image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件以及相关连接的示意图。"]
 
-对于扫描PB级数据的超大型配置、在版本1.3及更早版本上、您可以包含多个主机以提供额外的处理能力。使用多个主机系统时、主系统称为_Manager node_、提供额外处理能力的其他系统称为_扫描 程序nodes_。
-
 
 NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueXP分类、请参见 link:task-deploy-multi-host-install-dark-site.html["在无法访问Internet的多个主机上安装BlueXP分类"]。
 
-您也可以 link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装BlueXP分类"] 适用于完全安全的站点。
+您也可以link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装BlueXP分类"]。
 
 
 
@@ -286,10 +284,6 @@ NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 对于典型配置，您将在一个主机系统上安装该软件。 <<典型配置的单主机安装,请在此处查看这些步骤>>。
 
 image:diagram_deploy_onprem_single_host_internet.png["一个图表、显示了使用在内部部署且可访问Internet的单个BlueXP分类实例时可以扫描的数据源的位置。"]
-
-对于需要扫描数 PB 数据的大型配置，您可以使用多个主机来提供额外的处理能力。了解更多信息链接：t任务 部署多主机安装dark站点.html>有关在大型配置的多个主机上安装的信息。
-
-image:diagram_deploy_onprem_multi_host_internet.png["一个图表、显示在使用部署在内部且可访问Internet的多个BlueXP分类实例时可以扫描的数据源的位置。"]
 
 请参见 <<准备 Linux 主机系统,准备 Linux 主机系统>> 和 <<从BlueXP分类启用出站Internet访问,查看前提条件>> 了解部署BlueXP分类之前的完整要求列表。
 

@@ -14,7 +14,7 @@ summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"
 
 
 [role="lead"]
-完成几个步骤、在无法访问Internet的内部站点中的Linux主机上安装BlueXP分类、也称为_private mode_.此类安装非常适合您的安全站点。
+完成几个步骤、在无法访问Internet的内部站点中的Linux主机上安装BlueXP分类、也称为_private mode_.此类安装使用安装脚本、无法连接到BlueXP  SaaS层。
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["了解BlueXP Connector和BlueXP分类的不同部署模式"^]。
 
@@ -254,8 +254,6 @@ NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 
 | 如果在Linux主机上使用了防火墙 | 9000 | Ubuntu服务器中的内部流程需要此功能。 
 |===
-如果您使用多个BlueXP分类主机来提供额外的处理能力来扫描数据源、则需要启用其他端口/协议。 link:task-deploy-compliance-dark-site.html["请参见其他端口要求"]。
-
 
 
 == 在内部Linux主机上安装BlueXP分类
@@ -263,8 +261,6 @@ NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 对于典型配置，您将在一个主机系统上安装该软件。
 
 image:diagram_deploy_onprem_single_host_no_internet.png["一个图表、显示在不访问Internet的情况下使用内部部署的单个BlueXP分类实例时可以扫描的数据源的位置。"]
-
-image:diagram_deploy_onprem_multi_host_no_internet.png["一个图表、显示在使用部署在内部而无法访问Internet的多个BlueXP分类实例时可以扫描的数据源的位置。"]
 
 
 
