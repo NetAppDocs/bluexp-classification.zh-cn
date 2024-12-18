@@ -18,7 +18,7 @@ BlueXP分类为您提供了许多方法来添加BlueXP分类将在未来扫描�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 * 您可以根据要扫描的数据库中的特定列添加唯一标识符。
@@ -45,7 +45,7 @@ image:diagram_compliance_data_fusion.png["一个图，显示如何将数据库�
 请注意、由于您正在扫描自己的数据库、因此在未来的BlueXP分类扫描中、将使用存储数据的任何语言来标识数据。
 
 .步骤
-您必须拥有 link:task-scanning-databases.html#add-the-database-server["已至少添加一个数据库服务器"^] 到BlueXP分类、然后才能添加数据Fusion 源。
+您必须link:task-scanning-databases.html#add-the-database-server["已至少添加一个数据库服务器"^]先进行BlueXP  分类、然后才能添加数据Fusion源。
 
 . 在配置页面中，单击源数据所在数据库中的 * 管理 Data Fusion * 。
 +
@@ -72,7 +72,7 @@ image:screenshot_compliance_data_fusion_list.png["您已使用 Data Fusion 配�
 
 
 .结果
-下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。例如，您用于此分层器的名称将显示在筛选器列表中 `Customers.CustomerID`。
+下次扫描后、结果将在"个人结果"部分的"合规性信息板"中以及"个人数据"筛选器的"调查"页面中包含此新信息。您用于此筛选器的名称将显示在筛选器列表中，例如 `Customers.CustomerID`。
 
 image:screenshot_add_data_fusion_result.png["在\"调查结果\"窗格中显示Data Fusion 结果示例的屏幕截图。"]
 
@@ -140,7 +140,7 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 
 添加正则表达式后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"个人结果"部分下、以及调查页面中的"个人数据"筛选器中。
 
-如果在构建正则表达式时需要帮助、请参见 https://regex101.com/["正则表达式101."^]。选择*PYTHYTH*作为风味，以查看BlueXP分类将与正则表达式匹配的结果类型。。 https://pythonium.net/regex["Python Regex测试程序页面"^] 通过以图形方式显示模式也很有用。
+如果在构建正则表达式时需要帮助，请参阅 https://regex101.com/["正则表达式101."^]。选择*PYTHYTH*作为风味，以查看BlueXP分类将与正则表达式匹配的结果类型。 https://pythonium.net/regex["Python Regex测试程序页面"^]通过以图形方式显示模式、也很有用。
 
 
 NOTE: 目前、我们不允许在创建正则表达式时使用模式标志-这意味着您不应使用"/"。
@@ -181,7 +181,7 @@ image:screenshot_personal_info_regex_added.png["显示正在扫描的系统中�
 
 == 添加自定义类别
 
-BlueXP分类采用它扫描的数据并将其划分为不同类型的类别。类别是基于对每个文件的内容和元数据进行人工智能分析的主题。 link:reference-private-data-categories.html#types-of-categories["请参见预定义类别列表"]。
+BlueXP分类采用它扫描的数据并将其划分为不同类型的类别。类别是基于对每个文件的内容和元数据进行人工智能分析的主题。link:reference-private-data-categories.html#types-of-categories["请参见预定义类别列表"](英文)
 
 类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如、_resumes_或_empleee contracts _等类别可能包含敏感数据。调查结果时，您可能会发现员工合同存储在不安全的位置。然后，您可以更正此问题描述。
 
@@ -189,7 +189,7 @@ BlueXP分类采用它扫描的数据并将其划分为不同类型的类别。�
 
 例如、您可能希望查看.gz格式的压缩安装文件在文件中的位置、以便在必要时将其删除。
 
-更新自定义类别后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"类别"部分下、以及调查页面中的"类别"筛选器中。 link:task-controlling-private-data.html#view-files-by-categories["请参见如何按类别查看文件"]。
+更新自定义类别后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"类别"部分下、以及调查页面中的"类别"筛选器中。link:task-controlling-private-data.html#view-files-by-categories["请参见如何按类别查看文件"](英文)
 
 .您需要的内容
 您至少需要创建25个培训文件、这些文件包含您希望BlueXP分类识别的数据类别的示例。支持以下文件类型：
@@ -235,7 +235,7 @@ image:screenshot_category_files_added.png["显示BlueXP分类将用作定义新�
 
 image:screenshot_add_regex_result.png["在\"调查结果\"窗格中显示自定义正则表达式结果示例的屏幕截图。"]
 
-单击 image:button_arrow_investigate.png["带箭头的圆圈"] 按钮以在"调查"页面中查看详细结果。
+单击image:button_arrow_investigate.png["带箭头的圆圈"]按钮可在调查页面中查看详细结果。
 
 此外、所有自定义分类器结果都会显示在"Custom Classifiers (自定义分类器)"选项卡中、排名前6位的自定义分类器结果会显示在"Compliance Dashboard"(合规性信息板)中、如下所示。
 

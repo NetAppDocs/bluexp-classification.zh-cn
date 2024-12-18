@@ -22,19 +22,19 @@ summary: 完成几个步骤即可开始使用适用于Azure NetApp Files 的Blue
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的Azure NetApp Files 系统
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]发现要扫描的Azure NetApp Files系统
 [role="quick-margin-para"]
-扫描 Azure NetApp Files 卷之前， https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["必须设置BlueXP才能发现配置"^]。
+在扫描Azure NetApp Files卷之前， https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["必须设置BlueXP才能发现配置"^]。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用BlueXP分类并选择要扫描的卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]启用BlueXP  分类并选择要扫描的卷
 [role="quick-margin-para"]
 单击 * 合规性 * ，选择 * 配置 * 选项卡，然后为特定工作环境中的卷激活合规性扫描。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 确保能够访问卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]确保对卷的访问
 [role="quick-margin-para"]
 启用BlueXP分类后、请确保它可以访问所有卷。
 
@@ -53,7 +53,7 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 管理要扫描的卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"]管理要扫描的卷
 [role="quick-margin-para"]
 选择或取消选择要扫描的卷、BlueXP分类将开始或停止扫描这些卷。
 
@@ -63,13 +63,13 @@ link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果
 
 如果您要扫描的Azure NetApp Files 系统尚未作为工作环境在BlueXP中、您可以此时将其添加到画布中。
 
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["了解如何在BlueXP中发现Azure NetApp Files 系统"^]。
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-quick-start.html["了解如何在BlueXP中发现Azure NetApp Files 系统"^](英文)
 
 
 
 == 部署BlueXP分类实例
 
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
 扫描Azure NetApp Files 卷时、必须在云中部署BlueXP分类、并且必须将其部署在与要扫描的卷相同的区域。
 
@@ -87,7 +87,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 +
 image:screenshot_cloud_compliance_anf_scan_config.png["部署BlueXP分类实例后立即显示\"配置\"选项卡的屏幕截图。"]
 
-. 选择要如何扫描每个工作环境中的卷。 link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["了解映射和分类扫描"]：
+. 选择要如何扫描每个工作环境中的卷。link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["了解映射和分类扫描"]：
 +
 ** 要映射所有卷，请单击 * 映射所有卷 * 。
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
@@ -106,7 +106,7 @@ BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类�
 [NOTE]
 ====
 * 默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。生成的页面包含一个您可以启用的设置、以便BlueXP分类将扫描卷、而不管权限如何。
-* BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。 link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["请参见有关此BlueXP分类限制的更多详细信息"^]。
+* BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["请参见有关此BlueXP分类限制的更多详细信息"^](英文)
 
 
 ====
@@ -165,13 +165,13 @@ image:screenshot_compliance_volume_details.gif["扫描配置中的\"查看详细
 
 您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。建议您扫描所有卷。
 
-默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
 
 image:screenshot_volume_compliance_selection.png["配置页面的屏幕截图，您可以在其中启用或禁用单个卷的扫描。"]
 
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 在卷上启用仅映射扫描 | 在卷区域中，单击 * 映射 * 

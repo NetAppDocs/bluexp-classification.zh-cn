@@ -18,7 +18,7 @@ BlueXP分类提供了多种管理私有数据的方式。某些功能使您可�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 * 如果要为某些数据创建副本并将其移动到其他 NFS 位置，可以将文件复制到目标 NFS 共享。
@@ -47,11 +47,11 @@ BlueXP分类提供了多种管理私有数据的方式。某些功能使您可�
 
 * * 将 ONTAP 卷 * 克隆到同一聚合中的新卷，但在新克隆的卷中仅包含源卷中的选定文件。
 +
-如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作将使用 https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["NetApp FlexClone"^] 用于快速复制卷，然后删除您 * 未 * 选择的文件的功能。
+如果您要迁移数据，并且希望从原始卷中排除某些文件，则此选项非常有用。此操作使用 https://docs.netapp.com/us-en/ontap/volumes/flexclone-efficient-copies-concept.html["NetApp FlexClone"^]功能快速复制卷，然后删除您*未*选择的文件。
 
 * 将文件 * 从单个源存储库（ ONTAP 卷， S3 存储分段， NFS 共享等）复制并同步到特定目标（目标）位置的目录。
 +
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作将使用 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。初始副本之后、服务将根据您设置的计划同步所有更改的数据。此操作使用 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^]功能将数据从源复制并同步到目标。
 
 
 
@@ -59,7 +59,7 @@ BlueXP分类提供了多种管理私有数据的方式。某些功能使您可�
 
 === 将源文件复制到NFS共享
 
-您可以将BlueXP分类正在扫描的源文件复制到任何NFS共享。NFS共享不需要与BlueXP分类集成、您只需知道将以格式复制所有选定文件的NFS共享的名称即可 `<host_name>:/<share_path>`。
+您可以将BlueXP分类正在扫描的源文件复制到任何NFS共享。NFS共享不需要与BlueXP  分类集成，您只需要知道NFS共享的名称，其中所有选定文件将以格式进行复制 `<host_name>:/<share_path>`。
 
 
 TIP: 您不能复制数据库中的文件。
@@ -76,22 +76,22 @@ TIP: 您不能复制数据库中的文件。
 image:screenshot_compliance_copy_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要复制的文件以及 \" 复制 \" 按钮的屏幕截图。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
+** 要选择所有页面上的所有文件，请选中标题行()中的框，image:button_select_all_files.png[""]然后在弹出消息image:screenshot_select_all_items.png["关于选择所有文件"]中单击*选择列表中的所有项目(xxx个项目)*。
 
 
 . 在 _Copy Files_ 对话框中，选择 * 常规复制 * 选项卡。
 +
 image:screenshot_compliance_copy_files_dialog.png["显示复制文件对话框的屏幕截图，用于指定要复制所有选定文件的 NFS 共享的名称。"]
 
-. 输入要复制所有选定文件的 NFS 共享的名称，格式为 ` <host_name> ： /<share_path>` ，然后单击 * 复制 * 。
+. 输入将以格式复制所有选定文件的NFS共享的名称 `<host_name>:/<share_path>`，然后单击*Copy*。
 +
 此时将显示一个对话框，其中包含复制操作的状态。
 
 
 
-您可以在中查看复制操作的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
+您可以在中查看复制操作的进度link:task-view-compliance-actions.html["操作状态窗格"]。
 
 请注意，您也可以在查看文件的元数据详细信息时复制单个文件。只需单击 * 复制文件 * 。
 
@@ -128,9 +128,9 @@ image:screenshot_compliance_filter_1_repo.png["创建筛选器以在单个工作
 image:screenshot_compliance_copy_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要复制的文件以及 \" 复制 \" 按钮的屏幕截图。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
+** 要选择所有页面上的所有文件，请选中标题行()中的框，image:button_select_all_files.png[""]然后在弹出消息image:screenshot_select_all_items.png["关于选择所有文件"]中单击*选择列表中的所有项目(xxx个项目)*。
 
 
 . 在 _Copy Files_ 对话框中，选择 * FlexClone * 选项卡。此页面显示要从卷克隆的文件总数（您选择的文件），以及未从克隆的卷中包含 / 删除的文件数（您未选择的文件）。
@@ -146,17 +146,17 @@ image:screenshot_compliance_clone_files_dialog.png["显示复制文件对话框�
 .结果
 新的克隆卷将在与源卷相同的聚合中创建。
 
-您可以在中查看克隆操作的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
+您可以在中查看克隆操作的进度link:task-view-compliance-actions.html["操作状态窗格"]。
 
-如果在为源卷所在的工作环境启用BlueXP分类时最初选择了*映射所有卷*或*映射并分类所有卷*、则BlueXP分类将自动扫描新克隆的卷。如果最初未使用上述任一选项，则如果要扫描此新卷，则需要执行以下操作 link:task-getting-started-compliance.html["手动对卷启用扫描"]。
+如果在为源卷所在的工作环境启用BlueXP分类时最初选择了*映射所有卷*或*映射并分类所有卷*、则BlueXP分类将自动扫描新克隆的卷。如果您最初没有使用这些选项中的任何一个，则如果要扫描此新卷，则需要link:task-getting-started-compliance.html["手动对卷启用扫描"]。
 
 
 
 === 将源文件复制并同步到目标系统
 
-您可以将BlueXP分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录 (https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["BlueXP复制和同步支持的目标位置"^]）。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
+您可以将BlueXP  分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录(https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["BlueXP复制和同步支持的目标位置"^])。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。
 
-这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作将使用 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^] 用于将数据从源复制并同步到目标的功能。
+这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作使用 https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["NetApp BlueXP复制和同步"^]功能将数据从源复制并同步到目标。
 
 
 TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。
@@ -165,7 +165,7 @@ TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户�
 * 您必须具有复制和同步文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
 * 您必须至少选择20个文件。
 * 所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。
-* 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP副本和同步要求 https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["快速启动问题描述"^]。
+* 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP  副本和同步要求 https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["快速启动问题描述"^]。
 +
 请注意、BlueXP复制和同步服务会为您的同步关系单独收取服务费用、如果您在云中部署数据代理、则会产生资源费用。
 
@@ -179,7 +179,7 @@ image:screenshot_compliance_filter_1_repo.png["创建筛选器以在单个工作
 +
 应用任何其他筛选器，以便您仅看到要复制并同步到目标系统的文件。
 
-. 在调查结果窗格中，选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"] 单击 * 选择列表中的所有项（ xxx 项） * ，然后单击 * 复制 * 。
+. 在“调查结果”窗格中，选中标题行()中的复选框，选择所有页面上的所有文件image:button_select_all_files.png[""]，然后在弹出消息image:screenshot_select_all_items.png["关于选择所有文件"]中单击*选择列表中的所有项目(xxx个项目)*，然后单击*复制*。
 +
 image:screenshot_compliance_sync_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要复制的文件以及 \" 复制 \" 按钮的屏幕截图。"]
 
@@ -194,7 +194,7 @@ BlueXP副本和同步UI将在BlueXP中打开。
 +
 系统将提示您定义同步关系。源系统会根据您在BlueXP分类中选择的存储库和文件进行预先填充。
 
-. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。从开始查看BlueXP副本和同步要求 link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["快速启动问题描述"^]。
+. 您需要选择目标系统，然后选择（或创建）计划使用的数据代理。从开始查看BlueXP  副本和同步要求link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["快速启动问题描述"^]。
 
 
 .结果
@@ -212,7 +212,7 @@ BlueXP副本和同步UI将在BlueXP中打开。
 
 您可以将BlueXP分类正在扫描的源文件移动到任何NFS共享。NFS共享不需要与BlueXP分类集成。
 
-或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件、系统会在源位置`<filename>-breadcrumb-<date>.txt`创建一个痕迹文件。您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。
+或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件，系统都会在源位置创建一个名为的b7b; `<filename>-breadcrumb-<date>.txt`您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。
 
 请注意、移动文件时、源文件中的子目录结构会在目标共享上重新创建、以便于了解文件的移动位置。如果目标位置存在同名文件、则不会移动该文件。
 
@@ -233,16 +233,16 @@ TIP: 您无法移动驻留在数据库中的文件。
 image:screenshot_compliance_move_multi_files.png["显示如何从数据调查页面选择要移动的文件以及移动按钮的屏幕截图。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
+** 要选择所有页面上的所有文件，请选中标题行()中的框，image:button_select_all_files.png[""]然后在弹出消息image:screenshot_select_all_items.png["关于选择所有文件"]中单击*选择列表中的所有项目(xxx个项目)*。
 
 
 . 在按钮栏中，单击 * 移动 * 。
 +
 image:screenshot_compliance_move_files_dialog.png["显示移动文件对话框的屏幕截图，用于指定要移动所有选定文件的 NFS 共享的名称。"]
 
-. 在_move Files_对话框中、输入要移动所有选定文件的NFS共享的名称、格式为`<host_name>：/<share_path>`。
+. 在_Move Files_对话框中，以格式输入要移动所有选定文件的NFS共享的名称 `<host_name>:/<share_path>`。
 . 如果要保留痕迹文件、请选中_leave痕迹_框。您可以在对话框中输入文本、以指示文件的移动位置、移动文件的用户以及任何其他信息、例如文件移动的原因。
 . 单击*移动文件*。
 
@@ -257,7 +257,7 @@ image:screenshot_compliance_move_file.png["屏幕截图显示了从 \" 数据调
 
 您可以永久删除看似不安全或风险太大，无法留在存储系统中的源文件，或者已确定为重复的源文件。此操作为永久操作，不会撤消或还原。
 
-您可以从"调查"窗格或手动删除文件 link:task-using-policies.html["自动使用策略"^]。
+您可以从“调查”窗格、或link:task-using-policies.html["自动使用策略"^]中手动删除文件。
 
 
 TIP: 您不能删除数据库中的文件。支持所有其他数据源。
@@ -266,7 +266,7 @@ TIP: 您不能删除数据库中的文件。支持所有其他数据源。
 
 * 对于NFS数据—需要使用写入权限定义导出策略。
 * 对于CIFS数据—CIFS凭据需要具有写入权限。
-* 对于 S3 数据 - IAM 角色必须包括以下权限： `s 3 ： DeleteObject`
+* 对于S3数据- IAM角色必须包括以下权限： `s3:DeleteObject`。
 
 
 
@@ -284,16 +284,16 @@ TIP: 您不能删除数据库中的文件。支持所有其他数据源。
 image:screenshot_compliance_delete_multi_files.png["显示如何从数据调查页面选择要删除的文件的屏幕截图以及删除按钮。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png["关于选择所有文件"]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
+** 要选择所有页面上的所有文件，请选中标题行()中的框，image:button_select_all_files.png[""]然后在弹出消息image:screenshot_select_all_items.png["关于选择所有文件"]中单击*选择列表中的所有项目(xxx个项目)*。
 
 
 . 在按钮栏中，单击 * 删除 * 。
 . 由于删除操作是永久性的，因此您必须在后续的 _Delete File_ 对话框中键入 "* 永久删除 * " ，然后单击 * 删除文件 * 。
 
 
-您可以在中查看删除操作的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
+您可以在中查看删除操作的进度link:task-view-compliance-actions.html["操作状态窗格"]。
 
 请注意，您也可以在查看文件的元数据详细信息时删除单个文件。只需单击 * 删除文件 * 。
 

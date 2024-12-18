@@ -27,22 +27,22 @@ summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看对象存储前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看对象存储前提条件
 [role="quick-margin-para"]
 您需要具有端点 URL 才能连接到对象存储服务。
 
 [role="quick-margin-para"]
 您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加对象存储服务
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加对象存储服务
 [role="quick-margin-para"]
 将对象存储服务添加到BlueXP分类。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择要扫描的存储分段
 [role="quick-margin-para"]
 选择要扫描的存储分段、BlueXP分类将开始扫描它们。
 
@@ -62,9 +62,9 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果尚未部署实例、请部署BlueXP分类。
 
-如果要从可通过 Internet 访问的 S3 对象存储扫描数据，则可以 link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^] 或 link:task-deploy-compliance-onprem.html["在可访问Internet的内部位置部署BlueXP分类"^]。
+如果您正在扫描可通过Internet访问的S3对象存储中link:task-deploy-compliance-onprem.html["在可访问Internet的内部位置部署BlueXP分类"^]的数据，则可以link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^]或。
 
-如果要从安装在无法访问 Internet 的非公开站点中的 S3 对象存储扫描数据，则需要执行以下操作 link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
+如果要从安装在无法访问Internet的非公开站点上的S3对象存储扫描数据，则需要link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
@@ -112,7 +112,7 @@ image:screenshot_compliance_object_storage_select_buckets.png["选择要扫描�
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 在存储分段上启用仅映射扫描 | 单击 * 映射 * 

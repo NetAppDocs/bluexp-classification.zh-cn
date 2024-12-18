@@ -33,7 +33,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 []
 ====
-*注意*按标记、标签和分配的用户进行筛选的功能仅与BlueXP分类版本1.3及更早版本相关。
+*注*按标记、标签和分配的用户进行筛选的功能仅与BlueXP  分类版本1.3及更早版本相关。
 
 ====
 [cols="30,60"]
@@ -41,13 +41,13 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 | 筛选器 | 详细信息 
 
 
-| 策略 | 选择一个或多个策略。开始 link:task-using-policies.html["此处"^] 可查看现有策略列表并创建您自己的自定义策略。 
+| 策略 | 选择一个或多个策略。转到link:task-using-policies.html["此处"^]以查看现有策略列表并创建您自己的自定义策略。 
 
 
-| Label | 选择 ... link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"] 分配给文件的。 
+| 标签 | 选择link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"]已分配给文件的。 
 
 
-| Tags | 选择 ... link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["一个或多个标记"] 分配给文件的。 
+| Tags | 选择link:task-org-private-data.html#apply-tags-to-manage-your-scanned-files["一个或多个标记"]已分配给文件的。 
 
 
 | 已分配给 | 选择将文件分配到的人员的姓名。 
@@ -74,7 +74,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 +
 []
 ====
-*注*在中生成报告的能力。 JSON格式仅适用于BlueXP分类版本1.3及更早版本。
+*注*以.jSON格式生成报告的功能仅适用于BlueXP  分类版本1.3及更早版本。
 
 ====
 
@@ -82,18 +82,18 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 如果BlueXP分类为扫描文件(非结构化数据)、目录(文件夹和文件共享)和数据库(结构化数据)、则最多可下载三个报告文件。
 
 .步骤
-. 在数据调查页面中、单击 image:button_download.png["下载按钮"] 按钮。
+. 在"Data Investigation (数据调查)"页面中、单击image:button_download.png["下载按钮"]页面右侧顶部的按钮。
 . 选择要下载.CSV报告还是.JSON数据报告、然后单击*下载报告*。
 +
-选择.json报告时、请以`<host_name>：/<share_path>`格式输入要下载报告的NFS共享的名称。
+选择.jSON报告时，请以格式输入要下载该报告的NFS共享的名称 `<host_name>:/<share_path>`。
 
 +
-您可以在中查看JSON报告生成的进度 link:task-view-compliance-actions.html["操作状态窗格"]。
+您可以在中查看JSON报告生成进度link:task-view-compliance-actions.html["操作状态窗格"]。
 
 +
 []
 ====
-*注意*按标记、标签和分配的用户进行筛选的功能仅与BlueXP分类版本1.3及更早版本相关。
+*注*按标记、标签和分配的用户进行筛选的功能仅与BlueXP  分类版本1.3及更早版本相关。
 
 ====
 

@@ -22,7 +22,7 @@ BlueXP分类(Cloud Data Sense)是一项适用于BlueXP的数据监管服务、�
 
 从2024年5月起、BlueXP版本1.31将作为BlueXP中的核心功能免费提供。不需要分类许可证或订阅。我们还将BlueXP分类功能重点放在NetApp存储系统上、因此、某些未使用或未充分利用的功能已弃用。
 
-link:reference-free-paid.html["请参见已弃用功能的列表"]。
+link:reference-free-paid.html["请参见已弃用功能的列表"](英文)
 
 一直使用旧版1.3或更早版本的用户将继续使用该版本、直到其订阅到期为止。
 
@@ -33,7 +33,7 @@ link:reference-free-paid.html["请参见已弃用功能的列表"]。
 
 BlueXP分类使用人工智能(AI)、自然语言处理(NLL)和机器学习(ML)来了解它扫描的内容、以便提取实体并对内容进行相应的分类。这样、BlueXP分类就可以提供以下功能区域。
 
-https://bluexp.netapp.com/netapp-cloud-data-sense["详细了解BlueXP分类的用例"^]。
+https://bluexp.netapp.com/netapp-cloud-data-sense["详细了解BlueXP分类的用例"^](英文)
 
 .保持合规性
 BlueXP分类提供了多种可帮助您实现合规性的工具。您可以使用BlueXP分类来：
@@ -56,7 +56,7 @@ BlueXP分类可以识别可能存在被用于犯罪目的访问风险的数据�
 BlueXP分类提供了有助于降低存储总拥有成本(TCO)的工具。您可以使用BlueXP分类来：
 
 * 通过识别重复数据或非业务相关数据来提高存储效率。
-* 通过确定可以分层到成本较低的对象存储的非活动数据、节省存储成本。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^]。 https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^]。
+* 识别可分层到成本较低的对象存储的非活动数据、从而节省存储成本。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["了解有关从Cloud Volumes ONTAP 系统分层的更多信息"^](英文)。 https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关从内部ONTAP 系统分层的更多信息"^](英文)。
 
 
 
@@ -103,7 +103,7 @@ BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。
 
 === 基础架构成本
 
-* 在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参见 <<BlueXP分类实例,为每个云提供商部署的实例类型>>。如果您在内部系统上安装BlueXP分类、则不需要任何费用。
+* 在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参阅。 <<BlueXP分类实例,为每个云提供商部署的实例类型>>如果您在内部系统上安装BlueXP分类、则不需要任何费用。
 * BlueXP分类要求您已部署BlueXP Connector。在许多情况下、由于您在BlueXP中使用的其他存储和服务、您已经有了一个Connector。Connector 实例会从部署该实例的云提供商处收取费用。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["为每个云提供商部署的实例类型"^]。如果在内部部署系统上安装 Connector ，则不需要任何成本。
 
 
@@ -122,16 +122,16 @@ BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。
 
 == BlueXP分类实例
 
-在云中部署BlueXP分类时、BlueXP会将实例部署在与连接器相同的子网中。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
+在云中部署BlueXP  分类时、BlueXP  会将实例部署在与连接器相同的子网中。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解有关连接器的更多信息。"^]
 
 image:diagram_cloud_compliance_instance.png["显示在云提供商中运行的BlueXP实例和BlueXP分类实例的示意图。"]
 
 请注意以下有关默认实例的信息：
 
-* 在AWS中、BlueXP分类在上运行 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge实例"^] 使用500 GiB GP2磁盘。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。
+* 在AWS中、BlueXP  分类在具有500 GiB GP2磁盘的上运行 https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge实例"^]。操作系统映像为 Amazon Linux 2 。在AWS中部署时、如果您要扫描少量数据、则可以选择较小的实例大小。
 * 在Azure中、BlueXP  分类在具有500 GiB磁盘的上运行link:https://docs.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准的 D16s_v3 VM"^]。操作系统映像为Ubuntu 22.04。
 * 在GCP中、BlueXP  分类在具有500 GiB标准永久性磁盘的上运行link:https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16 虚拟机"^]。操作系统映像为Ubuntu 22.04。
-* 在默认实例不可用的区域中、BlueXP分类在备用实例上运行。 link:reference-instance-types.html["请参见备用实例类型"]。
+* 在默认实例不可用的区域中、BlueXP分类在备用实例上运行。link:reference-instance-types.html["请参见备用实例类型"](英文)
 * 此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_
 * 每个连接器仅部署一个BlueXP分类实例。
 
@@ -143,7 +143,7 @@ TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据
 
 *部署在不同的实例类型*
 
-您可以在CPU较少、RAM较少的系统上部署BlueXP分类。
+您可以在CPU更少、RAM更少的系统上部署BlueXP  分类。
 
 [cols="18,31,51"]
 |===
@@ -155,7 +155,7 @@ TIP: 实例应始终保持运行状态、因为BlueXP分类会持续扫描数据
 
 | 大型(默认) | 16个CPU、64 GB RAM、500 GiB SSD | 最多可扫描2.5亿个文件。 
 |===
-在Azure或GCP中部署BlueXP分类时、如果要使用较小的实例类型、请发送电子邮件至ng-contact-data-sense@netapp.com以获得帮助。
+在Azure或GCP中部署BlueXP  分类时、如果要使用较小的实例类型、请发送电子邮件至ng-contace-data-sSense@NetApp。com以获取帮助。
 
 
 
@@ -198,40 +198,40 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 功能 | 分类 | 映射 
 
 
-| 扫描速度 | 速度较慢 | 快速 
+| 扫描速度 | 慢 | 快速 
 
 
 | 定价 | 免费 | 免费 
 
 
-| Capacity | 限制为500 TB | 限制为500 TB 
+| 容量 | 限制为500 TB | 限制为500 TB 
 
 
-| 文件类型和已用容量的列表 | 是的。 | 是的。 
+| 文件类型和已用容量的列表 | 是 | 是 
 
 
-| 文件数和已用容量 | 是的。 | 是的。 
+| 文件数和已用容量 | 是 | 是 
 
 
-| 文件的期限和大小 | 是的。 | 是的。 
+| 文件的期限和大小 | 是 | 是 
 
 
-| 能够运行 link:task-controlling-governance-data.html#data-mapping-report["数据映射报告"] | 是的。 | 是的。 
+| 能够运行link:task-controlling-governance-data.html#data-mapping-report["数据映射报告"] | 是 | 是 
 
 
-| 数据调查页面以查看文件详细信息 | 是的。 | 否 
+| 数据调查页面以查看文件详细信息 | 是 | 否 
 
 
-| 搜索文件中的名称 | 是的。 | 否 
+| 搜索文件中的名称 | 是 | 否 
 
 
-| 创建 link:task-using-policies.html["策略"] 可提供自定义搜索结果 | 是的。 | 否 
+| 创建link:task-using-policies.html["策略"]以提供自定义搜索结果 | 是 | 否 
 
 
-| 能够运行其他报告 | 是的。 | 否 
+| 能够运行其他报告 | 是 | 否 
 
 
-| 能够从文件中查看元数据* | 否 | 是的。 
+| 能够从文件中查看元数据* | 否 | 是 
 |===
 *映射扫描期间从文件中提取以下元数据：
 
@@ -257,46 +257,46 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 功能 | 映射和分类 | 映射 
 
 
-| 陈旧数据 | 是的。 | 是的。 
+| 陈旧数据 | 是 | 是 
 
 
-| 非业务数据 | 是的。 | 是的。 
+| 非业务数据 | 是 | 是 
 
 
-| 文件重复 | 是的。 | 是的。 
+| 文件重复 | 是 | 是 
 
 
-| 预定义策略 | 是的。 | 否 
+| 预定义策略 | 是 | 否 
 
 
-| 自定义策略 | 是的。 | 是的。 
+| 自定义策略 | 是 | 是 
 
 
-| DDA报告 | 是的。 | 是的。 
+| DDA报告 | 是 | 是 
 
 
-| 映射报告 | 是的。 | 是的。 
+| 映射报告 | 是 | 是 
 
 
-| 灵敏度级别检测 | 是的。 | 否 
+| 灵敏度级别检测 | 是 | 否 
 
 
-| 具有广泛权限的敏感数据 | 是的。 | 否 
+| 具有广泛权限的敏感数据 | 是 | 否 
 
 
-| 打开权限 | 是的。 | 是的。 
+| 打开权限 | 是 | 是 
 
 
-| 数据存在期限 | 是的。 | 是的。 
+| 数据存在期限 | 是 | 是 
 
 
-| 数据大小 | 是的。 | 是的。 
+| 数据大小 | 是 | 是 
 
 
-| 类别 | 是的。 | 否 
+| 类别 | 是 | 否 
 
 
-| 文件类型 | 是的。 | 是的。 
+| 文件类型 | 是 | 是 
 |===
 ====
 .合规性信息板差异：
@@ -307,19 +307,19 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 功能 | 映射和分类 | 映射 
 
 
-| 个人信息 | 是的。 | 否 
+| 个人信息 | 是 | 否 
 
 
-| 敏感的个人信息 | 是的。 | 否 
+| 敏感的个人信息 | 是 | 否 
 
 
-| 隐私风险评估报告 | 是的。 | 否 
+| 隐私风险评估报告 | 是 | 否 
 
 
-| HIPAA 报告 | 是的。 | 否 
+| HIPAA 报告 | 是 | 否 
 
 
-| PCI DSS 报告 | 是的。 | 否 
+| PCI DSS 报告 | 是 | 否 
 |===
 ====
 .调查筛选差异：
@@ -330,82 +330,82 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 | 功能 | 映射和分类 | 映射 
 
 
-| 策略 | 是的。 | 是的。 
+| 策略 | 是 | 是 
 
 
-| Working environment type | 是的。 | 是的。 
+| Working environment type | 是 | 是 
 
 
-| Working environment | 是的。 | 是的。 
+| Working environment | 是 | 是 
 
 
-| 存储库 | 是的。 | 是的。 
+| 存储库 | 是 | 是 
 
 
-| 文件类型 | 是的。 | 是的。 
+| 文件类型 | 是 | 是 
 
 
-| 文件大小 | 是的。 | 是的。 
+| 文件大小 | 是 | 是 
 
 
-| 创建时间 | 是的。 | 是的。 
+| 创建时间 | 是 | 是 
 
 
-| 发现时间 | 是的。 | 是的。 
+| 发现时间 | 是 | 是 
 
 
-| 上次修改时间 | 是的。 | 是的。 
+| 上次修改时间 | 是 | 是 
 
 
-| 上次访问 | 是的。 | 是的。 
+| 上次访问 | 是 | 是 
 
 
-| 打开权限 | 是的。 | 是的。 
+| 打开权限 | 是 | 是 
 
 
-| 文件目录路径 | 是的。 | 是的。 
+| 文件目录路径 | 是 | 是 
 
 
-| 类别 | 是的。 | 否 
+| 类别 | 是 | 否 
 
 
-| 敏感度 | 是的。 | 否 
+| 敏感度 | 是 | 否 
 
 
-| 标识符数量 | 是的。 | 否 
+| 标识符数量 | 是 | 否 
 
 
-| 个人数据 | 是的。 | 否 
+| 个人数据 | 是 | 否 
 
 
-| 敏感的个人数据 | 是的。 | 否 
+| 敏感的个人数据 | 是 | 否 
 
 
-| 数据主题 | 是的。 | 否 
+| 数据主题 | 是 | 否 
 
 
-| 重复 | 是的。 | 是的。 
+| 重复 | 是 | 是 
 
 
-| 分类状态 | 是的。 | 状态始终为"洞察力有限" 
+| 分类状态 | 是 | 状态始终为"洞察力有限" 
 
 
-| 扫描分析事件 | 是的。 | 是的。 
+| 扫描分析事件 | 是 | 是 
 
 
-| 文件哈希 | 是的。 | 是的。 
+| 文件哈希 | 是 | 是 
 
 
-| 具有访问权限的用户数 | 是的。 | 是的。 
+| 具有访问权限的用户数 | 是 | 是 
 
 
-| 用户/组权限 | 是的。 | 是的。 
+| 用户/组权限 | 是 | 是 
 
 
-| 文件所有者 | 是的。 | 是的。 
+| 文件所有者 | 是 | 是 
 
 
-| 目录类型 | 是的。 | 是的。 
+| 目录类型 | 是 | 是 
 |===
 ====
 
@@ -425,11 +425,11 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP分类索引的数据包括以下内容：
 
 * *关于文件的标准元数据*：文件类型、大小、创建和修改日期等。
-* *个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码。 link:task-controlling-private-data.html#view-files-that-contain-personal-data["了解有关个人数据的更多信息"^]。
-* *敏感个人数据*：特殊类型的敏感个人信息(SPii)、如GDPR和其他隐私法规定义的健康数据、种族或政治观点。 link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^]。
-* *类别*：BlueXP分类将其扫描的数据分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。 link:task-controlling-private-data.html#view-files-by-categories["了解有关类别的更多信息"^]。
-* *Types*：BlueXP分类采用它扫描的数据并按文件类型进行细分。 link:task-controlling-private-data.html#view-files-by-file-types["了解有关类型的更多信息"^]。
-* *名称实体识别*：BlueXP分类使用AI从文档中提取人们的自然名称。 link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["了解如何响应数据主体访问请求"^]。
+* *个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码。link:task-controlling-private-data.html#view-files-that-contain-personal-data["了解有关个人数据的更多信息"^](英文)
+* *敏感个人数据*：特殊类型的敏感个人信息(SPii)、如GDPR和其他隐私法规定义的健康数据、种族或政治观点。link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^](英文)
+* *类别*：BlueXP  分类将其扫描的数据划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。link:task-controlling-private-data.html#view-files-by-categories["了解有关类别的更多信息"^](英文)
+* *Types*：BlueXP  分类采用它扫描的数据并按文件类型进行细分。link:task-controlling-private-data.html#view-files-by-file-types["了解有关类型的更多信息"^](英文)
+* *名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。link:task-generating-compliance-reports.html#what-is-a-data-subject-access-request["了解如何响应数据主体访问请求"^](英文)
 
 
 
@@ -442,7 +442,7 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 
 出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。
 
-如果您有严格的网络连接要求， link:task-deploy-cloud-compliance.html#review-prerequisites["了解BlueXP分类所联系的端点"^]。
+如果您有严格的网络要求，link:task-deploy-cloud-compliance.html#review-prerequisites["了解BlueXP分类所联系的端点"^]。
 
 
 

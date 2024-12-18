@@ -20,7 +20,7 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -37,7 +37,7 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 * 文件名(如果操作与文件相关)
 * 操作的详细信息—已执行的操作：取决于操作
 +
-** Policy name
+** 策略名称
 ** for move—源和目标
 ** 对于copy—源和目标
 ** 标记-标记名称
@@ -57,9 +57,9 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 
 == 日志文件位置
 
-管理审核日志文件位于BlueXP分类计算机的以下位置： `/opt/netapp/audit_logs/`
+管理审核日志文件位于BlueXP  分类计算机的以下位置： `/opt/netapp/audit_logs/`
 
-安装审核日志文件将写入 `/opt/netapp/install_logs/`
+安装审核日志文件将写入其中 `/opt/netapp/install_logs/`
 
 每个日志文件的大小最多可以为10 MB。达到此限制后、将启动一个新的日志文件。这些日志文件名为"DataSICE_AUDIST.LOG_"、"DataSICE_AUDULT_LOG_1"、"DataSICE_AUDIST_LOG.2"等。系统中最多保留100个日志文件-达到最大值后、较早的日志文件将自动删除。
 
@@ -67,4 +67,4 @@ BlueXP分类可记录对BlueXP分类正在扫描的所有工作环境和数据�
 
 == 访问日志文件
 
-您需要登录BlueXP分类系统才能访问日志文件。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
+您需要登录BlueXP分类系统才能访问日志文件。根据您是在Linux计算机上手动安装软件还是在云中部署了实例、了解如何link:reference-log-in-to-instance.html["登录到BlueXP分类系统"]。

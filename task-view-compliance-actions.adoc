@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-compliance-actions.html 
 keywords: compliance, actions, view progress 
-summary: '从 " 调查结果 " 窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。' 
+summary: '从调查结果窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。' 
 ---
 = 查看合规性操作的状态
 :hardbreaks:
@@ -20,7 +20,7 @@ summary: '从 " 调查结果 " 窗格对多个文件运行操作时，例如删�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 状态可以是：
@@ -36,7 +36,7 @@ summary: '从 " 调查结果 " 窗格对多个文件运行操作时，例如删�
 请注意，您可以取消状态为 " 已排队 " 或 " 正在进行 " 的任何操作。
 
 .步骤
-. 在BlueXP分类UI的右下角可以看到*Actions Status*按钮 image:button_actions_status.png[""]。
+. 在BlueXP  分类UI的右下角，您可以看到*Actions Status*按钮image:button_actions_status.png[""]。
 . 单击此按钮，将列出最近 20 个操作。
 +
 image:screenshot_compliance_action_status.png["一个屏幕截图，用于在配置页面中显示最近 20 个操作及其状态。"]

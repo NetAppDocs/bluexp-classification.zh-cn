@@ -18,7 +18,7 @@ summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 
 
 策略提供以下功能：
 
-* <<预定义策略列表,预定义策略>> 基于用户请求从 NetApp 获得
+* <<预定义策略列表,预定义策略>>根据用户请求从NetApp发送
 * 能够创建您自己的自定义策略
 * 单击一下即可启动包含策略结果的调查页面
 
@@ -33,7 +33,7 @@ image:screenshot_compliance_highlights_tab.png["BlueXP分类信息板中的\"Pol
 
 == 在调查页面中查看策略结果
 
-要在"调查"页面中显示策略的结果、请单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，然后选择*Investigate results*。
+要在调查页面中显示策略的结果，请单击特定策略的按钮，image:screenshot_gallery_options.gif["更多按钮"]然后选择*Investigate results*。
 
 image:screenshot_compliance_highlights_investigate.png["从\"Policies\"(策略)选项卡中选择\"Investigate results\"(调查特定策略的结果)的屏幕截图。"]
 
@@ -44,7 +44,7 @@ image:screenshot_compliance_highlights_investigate.png["从\"Policies\"(策略)�
 您可以创建自己的自定义策略，为特定于您的组织的搜索提供结果。系统将返回与搜索条件匹配的所有文件和目录(共享和文件夹)的结果。
 
 .步骤
-. 在数据调查页面中，选择要使用的所有筛选器来定义搜索。请参见 link:task-investigate-data.html["筛选 " 数据调查 " 页面中的数据"^] 了解详细信息。
+. 在数据调查页面中，选择要使用的所有筛选器来定义搜索。有关详细信息、请参见。 link:task-investigate-data.html["筛选 " 数据调查 " 页面中的数据"^]
 . 按所需方式获取所有筛选器特征后，单击 * 从此搜索创建策略 * 。
 +
 image:screenshot_compliance_save_as_highlight.png["显示如何将筛选的查询另存为策略的屏幕截图。"]
@@ -99,7 +99,7 @@ image:screenshot_compliance_edit_policy_query.png["显示如何通过更改筛�
 
 如果您不再需要任何已创建的自定义策略、则可以将其删除。您无法删除任何预定义策略。
 
-要删除策略、请单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，单击 * 删除策略 * ，然后在确认对话框中再次单击 * 删除策略 * 。
+要删除策略，请单击image:screenshot_gallery_options.gif["更多按钮"]特定策略的按钮，单击*Delete Policy*，然后在确认对话框中再次单击*Delete Policy*。
 
 
 
@@ -109,7 +109,7 @@ BlueXP分类提供了以下系统定义的策略：
 
 [cols="25,40,40"]
 |===
-| Name | Description | 逻辑 
+| 名称 | 说明 | 逻辑 
 
 
 | 私有数据—过期7年 | 包含个人或敏感个人信息的文件，上次修改时间为 7 年前。 | 包含个人或敏感个人信息的文件，上次修改时间为 7 年前 

@@ -22,7 +22,7 @@ summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 .您需要的内容
@@ -35,13 +35,13 @@ summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"
 +
 [cols="15,20,55"]
 |===
-| Port | 协议 | Description 
+| 端口 | 协议 | 说明 
 
 
 | 2377 | TCP | 集群管理通信 
 
 
-| 7946 | TCP ， UDP | 节点间通信 
+| 7946 | TCP、UDP | 节点间通信 
 
 
 | 4789 | UDP | 覆盖网络流量 
@@ -50,15 +50,15 @@ summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"
 | 50 | 电子服务 | 加密的 IPsec 覆盖网络（ ESP ）流量 
 
 
-| 111. | TCP ， UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
+| 111 | TCP、UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
 
 
-| 2049. | TCP ， UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
+| 2049 | TCP、UDP | 用于在主机之间共享文件的 NFS 服务器（需要从每个扫描程序节点到管理器节点） 
 |===
 
 
 .步骤
-. 按照中的步骤 1 至 8 进行操作 link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["单主机安装"] 在管理器节点上。
+. 从管理器节点上的执行步骤1到8link:task-deploy-compliance-dark-site.html#single-host-installation-for-typical-configurations["单主机安装"]。
 . 如步骤 9 所示，在安装程序提示时，您可以在一系列提示中输入所需值，也可以将所需参数作为命令行参数提供给安装程序。
 +
 除了可用于单主机安装的变量之外，还会使用一个新选项 * -n <node_IP>* 来指定扫描程序节点的 IP 地址。多个节点 IP 以逗号分隔。
@@ -81,7 +81,7 @@ summary: '完成几个步骤、在无法访问Internet的内部站点(也称为"
 
 
 .结果
-BlueXP分类安装程序完成软件包安装并注册安装。安装可能需要 15 到 25 分钟。
+BlueXP分类安装程序完成软件包安装并注册安装。安装可能需要15到25分钟。
 
 .下一步行动
-在配置页面中，您可以选择本地 link:task-getting-started-compliance.html["内部 ONTAP 集群"] 和本地 link:task-scanning-databases.html["数据库"] 要扫描的。
+从配置页面中、您可以选择要扫描的本地link:task-getting-started-compliance.html["内部 ONTAP 集群"]和本地link:task-scanning-databases.html["数据库"]。

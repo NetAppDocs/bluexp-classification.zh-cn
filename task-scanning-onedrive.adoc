@@ -18,7 +18,7 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的用户OneDrive文
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -27,19 +27,19 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的用户OneDrive文
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看 OneDrive 前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看OneDrive前提条件
 [role="quick-margin-para"]
 确保您拥有登录到 OneDrive 帐户所需的管理员凭据。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加 OneDrive 帐户
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加OneDrive帐户
 [role="quick-margin-para"]
 使用管理员用户凭据登录到要访问的 OneDrive 帐户，以便将其添加为新的工作环境。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 添加用户并选择扫描类型
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]添加用户并选择扫描类型
 [role="quick-margin-para"]
 从 OneDrive 帐户中添加要扫描的用户列表，然后选择扫描类型。一次最多可以添加 100 个用户。
 
@@ -59,7 +59,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果尚未部署实例、请部署BlueXP分类。
 
-BlueXP分类可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
+BlueXP  分类可以是link:task-deploy-cloud-compliance.html["部署在云中"^]或link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
@@ -115,7 +115,7 @@ image:screenshot_compliance_onedrive_add_email_addresses.png["添加 OneDrive �
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 对用户文件启用仅映射扫描 | 单击 * 映射 * 

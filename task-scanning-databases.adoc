@@ -22,19 +22,19 @@ summary: 完成几个步骤、开始使用BlueXP分类扫描数据库架构。
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看数据库前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看数据库前提条件
 [role="quick-margin-para"]
 确保您的数据库受支持，并且您具有连接到数据库所需的信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 添加数据库服务器
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加数据库服务器
 [role="quick-margin-para"]
 添加要访问的数据库服务器。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择模式
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择模式
 [role="quick-margin-para"]
 选择要扫描的模式。
 
@@ -69,7 +69,7 @@ CAUTION: 数据库中必须启用 * 统计信息收集功能。
 无论数据库托管在何处、都可以扫描连接到BlueXP分类实例的任何数据库。要连接到数据库，您只需提供以下信息：
 
 * IP 地址或主机名
-* Port
+* 端口
 * 服务名称（仅用于访问 Oracle 数据库）
 * 允许对模式进行读取访问的凭据
 +
@@ -85,9 +85,9 @@ CAUTION: 数据库中必须启用 * 统计信息收集功能。
 
 如果尚未部署实例、请部署BlueXP分类。
 
-如果要扫描可通过 Internet 访问的数据库架构，则可以 link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^] 或 link:task-deploy-compliance-onprem.html["在可访问Internet的内部位置部署BlueXP分类"^]。
+如果正在扫描可通过Internet访问的数据库架构，则可以link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^]或link:task-deploy-compliance-onprem.html["在可访问Internet的内部位置部署BlueXP分类"^]。
 
-如果要扫描的数据库架构安装在无法访问 Internet 的非公开站点中，则需要执行 link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
+如果要扫描安装在无法访问Internet的非公开站点上的数据库架构，则需要link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 

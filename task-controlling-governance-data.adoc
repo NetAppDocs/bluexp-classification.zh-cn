@@ -44,7 +44,7 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP分类监管信息�
 ** 其他（一般 " 其他 " 类别）
 
 
-* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。 link:task-investigate-data.html#view-all-duplicated-files["查看显示的重复文件类型"]。
+* * 重复文件 * —在要扫描的数据源的其他位置复制的文件。link:task-investigate-data.html#view-all-duplicated-files["查看显示的重复文件类型"](英文)
 
 
 
@@ -56,13 +56,13 @@ NOTE: 如果您的任何数据源实施数据分层、则已驻留在对象存�
 
 在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。
 
-单击 link:task-using-policies.html["此处"] 了解有关策略的更多信息。
+单击link:task-using-policies.html["此处"]以了解有关策略的更多信息。
 
 
 
 === 数据概述
 
-_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。请参见 <<数据映射报告,数据映射报告>> 有关此报告的完整详细信息。
+_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。有关此报告的完整详细信息、请参见<<数据映射报告,数据映射报告>>。
 
 
 
@@ -112,7 +112,7 @@ NOTE: 如果任何数据源实施数据分层、则已驻留在对象存储中�
 
 === 最明确的数据分类
 
-_Classification_area 提供了一个标识最多的列表 link:task-controlling-private-data.html#view-files-by-categories["类别"^] 和 link:task-controlling-private-data.html#view-files-by-file-types["文件类型"^] 扫描的数据。
+"分类_"区域提供了扫描数据中最常识别和link:task-controlling-private-data.html#view-files-by-file-types["文件类型"^]的列表link:task-controlling-private-data.html#view-files-by-categories["类别"^]。
 
 
 
@@ -120,7 +120,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时、您可能会发现员工合同存储在非安全位置。然后，您可以更正此问题描述。
 
-请参见 link:task-controlling-private-data.html#view-files-by-categories["按类别查看文件"^] 有关详细信息 ...
+有关详细信息、请参见 link:task-controlling-private-data.html#view-files-by-categories["按类别查看文件"^] 。
 
 
 
@@ -128,7 +128,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。
 
-请参见 link:task-controlling-private-data.html#view-files-by-file-types["查看文件类型"^] 有关详细信息 ...
+有关详细信息、请参见 link:task-controlling-private-data.html#view-files-by-file-types["查看文件类型"^] 。
 
 
 
@@ -140,7 +140,7 @@ _Classification_area 提供了一个标识最多的列表 link:task-controlling-
 
 [cols="25,65"]
 |===
-| 类别 | Description 
+| 类别 | 说明 
 
 
 | 使用容量 | 对于所有工作环境：列出每个工作环境的文件数和已用容量。对于单个工作环境：列出容量最多的文件。 
@@ -171,9 +171,9 @@ image:screenshot_compliance_data_mapping_report_button.png["监管信息板的�
 .结果
 BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其发送给其他组。
 
-如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。 link:task-audit-data-sense-actions.html#access-the-log-files["请参见如何访问分类实例上的数据"^]。
+如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。link:task-audit-data-sense-actions.html#access-the-log-files["请参见如何访问分类实例上的数据"^](英文)
 
-请注意、您可以通过单击BlueXP分类页面顶部的自定义报告第一页上显示的公司名称 image:screenshot_gallery_options.gif["\"更多\"按钮"] 然后单击*更改公司名称*。下次生成报告时、报告将包含新名称。
+请注意，您可以通过单击然后单击*更改公司名称*，自定义BlueXP  分类页面顶部报告第一页上显示的公司名称image:screenshot_gallery_options.gif["\"更多\"按钮"]。下次生成报告时、报告将包含新名称。
 
 
 
@@ -183,7 +183,7 @@ BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其�
 
 [cols="25,65"]
 |===
-| 功能 | Description 
+| 功能 | 说明 
 
 
 | 数据监管问题 | 详细了解您拥有的所有数据以及可以减少数据量以节省成本的领域。 

@@ -16,7 +16,7 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 [role="lead"]
 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueXP Connector相同的云提供商网络中部署BlueXP分类实例。
 
-请注意，您也可以 link:task-deploy-compliance-onprem.html["在可访问Internet的Linux主机上安装BlueXP分类"]。如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
+请注意，您也可以link:task-deploy-compliance-onprem.html["在可访问Internet的Linux主机上安装BlueXP分类"]。如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则此类安装可能是一个不错的选择、但这不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
 
 
@@ -24,18 +24,18 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 创建连接器
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]创建接头
 [role="quick-margin-para"]
-如果您还没有 Connector ，请立即创建一个 Connector 。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+如果您还没有 Connector ，请立即创建一个 Connector 。请参阅 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 [role="quick-margin-para"]
-您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
+您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^]在网络中的Linux主机上或云中的Linux主机上运行。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <<查看前提条件,请参见完整列表>>。
+确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。<<查看前提条件,请参见完整列表>>(英文)
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 部署BlueXP分类
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]部署BlueXP  分类
 [role="quick-margin-para"]
 启动安装向导以在云中部署BlueXP分类实例。
 
@@ -43,7 +43,7 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 == 创建连接器
 
-如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^] 或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
+如果您还没有 Connector ，请在云提供商中创建一个 Connector 。请参阅 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]、或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。在大多数情况下，您可能在尝试激活BlueXP  分类之前设置了连接器，因为大多数，但在某些情况下，您需要立即设置一个连接器 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#when-a-connector-is-required["BlueXP功能需要使用Connector"]。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -58,9 +58,9 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 使用任何这些Cloud Connector时、都可以扫描内部ONTAP系统、NetApp文件共享和数据库。
 
-请注意，您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络或云中的 Linux 主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
+请注意、您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^]在网络或云中的Linux主机上运行。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
-如您所见，在某些情况下可能需要使用 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
+如您所见，在某些情况下，您可能需要使用 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#multiple-connectors["多个连接器"]。
 
 
 
@@ -68,7 +68,7 @@ summary: 完成几个步骤、在云中部署BlueXP分类。BlueXP将在与BlueX
 
 如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类。以这种方式部署时、BlueXP分类具有以下限制：
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.html["请参见有关在政府区域部署Connector的详细信息"^]。
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.html["请参见有关在政府区域部署Connector的详细信息"^](英文)
 
 
 
@@ -86,7 +86,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.ht
 
 [role="tabbed-block"]
 ====
-.AWS所需端点
+.AWS所需的端点
 --
 [cols="43,57"]
 |===
@@ -96,16 +96,16 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.ht
 | https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+| \https：//https：NetApp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
-| https://cloud-compliance-support-netapp.s3.us-west-2.amazonaws.com \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 提供对软件映像、清单和模板的访问。 
+| https://cloud-compliance-support-NetApp.s3.us-west-2.amazonaws.com \https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 提供对软件映像、清单和模板的访问。 
 
 
-| https://kinesis.us-east-1.amazonaws.com | 使 NetApp 能够从审计记录流化数据。 
+| \https://kinesis.us-east-1.amazonaws.com | 使 NetApp 能够从审计记录流化数据。 
 
 
-| https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | 启用BlueXP分类以访问和下载清单和模板、并发送日志和指标。 
+| \https://cognito-idp.us-east-1.amazonaws.com \https://cognito-identity.us-east-1.amazonaws.com \https://user-feedback-store-prod.s3.us-west-2.amazonaws.com \https://customer-data-production.s3.us-west-2.amazonaws.com | 启用BlueXP分类以访问和下载清单和模板、并发送日志和指标。 
 |===
 --
 .Azure所需端点
@@ -118,13 +118,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.ht
 | https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+| \https：//https：NetApp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+| \https://support.compliance.api BlueXP ．NetApp．com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+| \https://support.compliance.api BlueXP ．NetApp．com/ | 使 NetApp 能够从审计记录流化数据。 
 |===
 --
 .GCP所需的端点
@@ -137,23 +137,23 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-restricted-mode.ht
 | https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+| \https：//https：NetApp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+| \https://support.compliance.api BlueXP ．NetApp．com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+| \https://support.compliance.api BlueXP ．NetApp．com/ | 使 NetApp 能够从审计记录流化数据。 
 |===
 --
 ====
-确保BlueXP具有所需权限:: 确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP权限 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
+确保BlueXP具有所需权限:: 确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP  权限 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["NetApp 提供的策略"^]。
 确保BlueXP Connector可以访问BlueXP分类:: 确保连接器与BlueXP分类实例之间的连接。连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。通过此连接、可以部署BlueXP分类实例、并可在合规性和监管选项卡中查看信息。在AWS和Azure中的政府地区支持BlueXP分类。
 +
 --
-AWS和AWS GovCloud部署需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS 中连接器的规则"^] 了解详细信息。
+AWS和AWS GovCloud部署需要其他入站和出站安全组规则。有关详细信息、请参见。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-aws.html["AWS 中连接器的规则"^]
 
-Azure和Azure政府部署还需要其他入站和出站安全组规则。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure 中连接器的规则"^] 了解详细信息。
+Azure和Azure政府部署还需要其他入站和出站安全组规则。有关详细信息、请参见。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-ports-azure.html["Azure 中连接器的规则"^]
 
 --
 确保您可以保持BlueXP分类运行:: BlueXP分类实例需要持续扫描数据。
@@ -163,7 +163,7 @@ Azure和Azure政府部署还需要其他入站和出站安全组规则。请参�
 BlueXP分类实例使用专用IP地址来确保索引数据不可供Internet访问。因此、用于访问BlueXP的Web浏览器必须连接到该专用IP地址。此连接可以来自与云提供商(例如VPN)的直接连接、也可以来自与BlueXP分类实例位于同一网络中的主机。
 
 --
-检查 vCPU 限制:: 确保云提供商的vCPU限制允许部署具有所需核心数的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。 link:concept-cloud-compliance.html#the-bluexp-classification-instance["请参见所需的实例类型"]。
+检查 vCPU 限制:: 确保云提供商的vCPU限制允许部署具有所需核心数的实例。您需要验证运行BlueXP的区域中相关实例系列的vCPU限制。link:concept-cloud-compliance.html#the-bluexp-classification-instance["请参见所需的实例类型"](英文)
 +
 --
 有关 vCPU 限制的详细信息，请参见以下链接：

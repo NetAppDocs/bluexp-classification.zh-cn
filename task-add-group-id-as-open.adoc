@@ -18,7 +18,7 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 
 在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。
 
-要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
+要激活此功能、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。根据您是在Linux计算机上手动安装软件还是在云中部署了实例、了解如何link:reference-log-in-to-instance.html["登录到BlueXP分类系统"]。
 
 
 
@@ -27,7 +27,7 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 在开始此任务之前、您需要知道组ID编号(GID)。
 
 .步骤
-. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件 `data_provider.yaml`。
+. 在BlueXP  分类系统上，转至“/opt/config/custom_configuration NetApp”并打开文件 `data_provider.yaml`。
 . 在"organation_group_ids：[]"行中、添加组ID。例如：
 +
  organization_group_ids: [1014, 1015, 21, 2021, 1013, 2020, 1018, 1019]
@@ -52,6 +52,6 @@ summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们�
 
 == 查看当前组ID列表
 
-可以查看的内容 `data_provider.yaml` 配置文件与运行后实际提交的配置文件不同 `update_data_providers_from_config_file.sh` 脚本。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：
+此配置文件的内容可能与运行此脚本后实际提交的内容 `data_provider.yaml`不同 `update_data_providers_from_config_file.sh`。要查看已添加到BlueXP分类的当前组ID列表、请从"//opt/NetApp/Datense/tools/customer_configuration/data_提供 程序"运行以下命令：
 
  get_data_providers_configuration.sh

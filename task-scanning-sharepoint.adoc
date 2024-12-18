@@ -18,7 +18,7 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -27,19 +27,19 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看SharePoint前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看SharePoint前提条件
 [role="quick-margin-para"]
 请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到SharePoint帐户
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]登录到SharePoint帐户
 [role="quick-margin-para"]
 使用符合条件的用户凭据登录到要访问的SharePoint帐户、以便将其添加为新的数据源/工作环境。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 添加要扫描的SharePoint站点URL
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]添加要扫描的SharePoint网站URL
 [role="quick-margin-para"]
 在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。您一次最多可以添加100个URL、每个帐户总共最多可以添加1、000个站点。
 
@@ -64,11 +64,11 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果尚未部署实例、请部署BlueXP分类。
 
-* 对于SharePoint Online、BlueXP分类可以是 link:task-deploy-cloud-compliance.html["部署在云中"^]。
-* 对于内部SharePoint、可以安装BlueXP分类 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^] 或 link:task-deploy-compliance-dark-site.html["位于无法访问Internet的内部位置"^]。
+* 对于SharePoint Online，BlueXP  分类可以是link:task-deploy-cloud-compliance.html["部署在云中"^]。
+* 对于SharePoint内部部署，可以安装或link:task-deploy-compliance-dark-site.html["位于无法访问Internet的内部位置"^]进行BlueXP  分类link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
 
 
-如果BlueXP分类安装在无法访问Internet的站点上、则BlueXP Connector也必须安装在无法访问Internet的同一站点上。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["了解更多信息。"^]。
+如果BlueXP  分类安装在无法访问Internet的站点上、则BlueXP  连接器也必须安装在无法访问Internet的同一站点上。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["了解更多信息。"^](英文)。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
@@ -150,7 +150,7 @@ image:screenshot_compliance_sharepoint_add_site.png["\" 添加 SharePoint 站点
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 对文件启用仅映射扫描 | 单击 * 映射 * 
@@ -174,4 +174,4 @@ BlueXP分类开始扫描您添加的SharePoint网站中的文件、结果将显�
 
 image:screenshot_compliance_sharepoint_remove_site.png["显示如何从扫描单个 SharePoint 站点的文件中删除此站点的屏幕截图。"]
 
-请注意，您可以 link:task-managing-compliance.html["从BlueXP分类中删除整个SharePoint帐户"] 如果您不想再扫描SharePoint帐户中的任何用户数据。
+请注意、如果您不再需要扫描SharePoint帐户中的任何用户数据、则可以link:task-managing-compliance.html["从BlueXP分类中删除整个SharePoint帐户"]执行此操作。

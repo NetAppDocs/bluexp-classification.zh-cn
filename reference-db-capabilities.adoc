@@ -16,11 +16,11 @@ summary: 在扫描数据库架构时、BlueXP分类不提供某些特性和功�
 [role="lead"]
 在扫描数据库架构时、BlueXP分类不提供某些特性和功能。请参见以下列表。
 
-您可以将数据库架构添加到BlueXP分类中以进行扫描 link:task-scanning-databases.html["如此处所述"^]。
+您可以将数据库架构添加到要扫描的BlueXP  分类link:task-scanning-databases.html["如此处所述"^]中。
 
 [cols="12,25,9,9,9,9,9,9,9"]
 |===
-| Type | Description | MongoDB | SQL Server | MySQL | Oracle | PostgreSQL | SAP HANA | Amazon RDS 
+| 键入 | 说明 | MongoDB | SQL Server | MySQL | Oracle | PostgreSQL | SAP HANA | Amazon RDS 
 
 
 .9+| 操作 | 创建策略 | ✓ | ✓ | ✓ | ✓ | ✓ |  |  
@@ -47,7 +47,7 @@ summary: 在扫描数据库架构时、BlueXP分类不提供某些特性和功�
 | 复制 | X | X | X | X | X | X | X 
 
 
-| Label | X | X | X | X | X | X | X 
+| 标签 | X | X | X | X | X | X | X 
 
 
 .25+| 筛选器 | 策略 | ✓ | ✓ | ✓ | ✓ | ✓ |  |  
@@ -104,7 +104,7 @@ summary: 在扫描数据库架构时、BlueXP分类不提供某些特性和功�
 | 权限筛选器 | X | X | X | X | X | X | X 
 
 
-| Label | X | X | X | X | X | X | X 
+| 标签 | X | X | X | X | X | X | X 
 
 
 | 标识符数量 | X | X | X | X | X | X | X 

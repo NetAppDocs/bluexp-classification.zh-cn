@@ -18,7 +18,7 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -27,19 +27,19 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐�
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看Google Drive前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看Google Drive前提条件
 [role="quick-margin-para"]
 确保您拥有登录到Google Drive帐户所需的管理员凭据。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 登录到Google Drive帐户
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]登录到Google Drive帐户
 [role="quick-margin-para"]
 使用管理员用户凭据登录到要访问的Google Drive帐户、以便将其添加为新的数据源。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择扫描用户文件的类型
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择扫描用户文件的类型
 [role="quick-margin-para"]
 选择要对用户文件执行的扫描类型；映射或映射和分类。
 
@@ -68,7 +68,7 @@ Google Drive文件当前不支持以下BlueXP分类功能：
 
 如果尚未部署实例、请部署BlueXP分类。
 
-BlueXP分类可以是 link:task-deploy-cloud-compliance.html["部署在云中"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
+BlueXP  分类可以是link:task-deploy-cloud-compliance.html["部署在云中"^]或link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
@@ -106,7 +106,7 @@ image:screenshot_compliance_google_drive_select_scan.png["将对Google Drive数�
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 对文件启用仅映射扫描 | 单击 * 映射 * 
@@ -126,4 +126,4 @@ BlueXP分类开始扫描您添加的Google Drive帐户中的文件、结果将�
 
 == 从合规性扫描中删除Google Drive帐户
 
-由于只有一个用户的Google Drive文件属于一个Google Drive帐户、因此、如果要停止扫描用户的Google Drive帐户中的文件、则应执行此操作 link:task-managing-compliance.html["从BlueXP分类中删除Google Drive帐户"]。
+由于只有一个用户的Google Drive文件属于一个Google Drive帐户，因此如果您要停止从用户的Google Drive帐户扫描文件，则应停止扫描link:task-managing-compliance.html["从BlueXP分类中删除Google Drive帐户"]。

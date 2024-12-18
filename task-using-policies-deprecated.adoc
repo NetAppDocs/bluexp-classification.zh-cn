@@ -52,7 +52,7 @@ image:screenshot_compliance_add_email_alert_2.png["屏幕截图显示了如何�
 NOTE: 与此策略匹配的所有文件将每天永久删除一次。
 
 .步骤
-. 在数据调查页面中，选择要使用的所有筛选器来定义搜索。请参见 link:task-investigate-data.html["筛选 " 数据调查 " 页面中的数据"^] 了解详细信息。
+. 在数据调查页面中，选择要使用的所有筛选器来定义搜索。有关详细信息、请参见。 link:task-investigate-data.html["筛选 " 数据调查 " 页面中的数据"^]
 . 按所需方式获取所有筛选器特征后，单击 * 从此搜索创建策略 * 。
 . 命名策略并选择可由策略执行的其他操作：
 +
@@ -69,7 +69,7 @@ image:screenshot_compliance_delete_files_using_policies.png["显示如何配置�
 .结果
 新策略将显示在策略选项卡中。与策略匹配的文件将在策略运行时每天删除一次。
 
-您可以在中查看已删除的文件列表 link:task-view-compliance-actions.html["操作状态窗格"]。
+您可以在中查看已删除的文件列表link:task-view-compliance-actions.html["操作状态窗格"]。
 
 
 
@@ -83,7 +83,7 @@ image:screenshot_compliance_delete_files_using_policies.png["显示如何配置�
 
 [cols="60,40"]
 |===
-| 如果文件 ... | 那么 ... 
+| 如果文件 ... | 然后... 
 
 
 | 无标签 | 此时将添加此标签 

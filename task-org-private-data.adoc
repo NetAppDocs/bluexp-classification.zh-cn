@@ -18,10 +18,10 @@ BlueXP分类提供了多种管理和组织私有数据的方式。这样可以�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。2023年12月(v1.26.6)版本删除了使用Azure信息保护(AIP)标签集成数据的选项。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。2023年12月(v1.26.6)版本删除了使用Azure信息保护(AIP)标签集成数据的选项。
 
 ====
-* 如果您已订阅 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^] 要对文件进行分类和保护、您可以使用BlueXP分类来管理这些AIP标签。
+* 如果您订阅了 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]以对文件进行分类和保护、则可以使用BlueXP  分类来管理这些AIP标签。
 * 您可以将标记添加到要标记用于组织或某种类型的跟进的文件中。
 * 您可以将一个BlueXP用户分配给一个特定文件或多个文件、以便此用户可以负责管理此文件。
 * 使用 " 策略 " 功能，您可以创建自己的自定义搜索查询，以便通过单击一个按钮轻松查看结果。
@@ -60,7 +60,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 == 使用 AIP 标签对数据进行分类
 
-如果您订阅了BlueXP分类正在扫描的文件、则可以管理这些文件中的AIP标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。AIP 允许您通过将标签应用于内容来对文档和文件进行分类和保护。通过BlueXP分类、您可以查看已分配给文件的标签、向文件添加标签以及在标签已存在时更改标签。
+如果您订阅了，则可以在BlueXP  分类正在扫描的文件中管理AIP标签 https://azure.microsoft.com/en-us/services/information-protection/["Azure 信息保护（ AIP ）"^]。AIP 允许您通过将标签应用于内容来对文档和文件进行分类和保护。通过BlueXP分类、您可以查看已分配给文件的标签、向文件添加标签以及在标签已存在时更改标签。
 
 BlueXP分类支持以下文件类型中的AIP标签：.DOC、.docx、.PDF、.PPTX、.xls、 .xlsx。
 
@@ -81,7 +81,7 @@ BlueXP分类支持以下文件类型中的AIP标签：.DOC、.docx、.PDF、.PPT
 .要求
 * 您必须拥有帐户和 Azure 信息保护许可证。
 * 您必须具有 Azure 帐户的登录凭据。
-* 如果您计划更改 Amazon S3 存储分段中文件的标签，请确保 IAM 角色中包含权限 `s 3 ： PutObject` 。请参见 link:task-scanning-s3.html#reviewing-s3-prerequisites["设置 IAM 角色"^]。
+* 如果您计划更改Amazon S3存储分段中文件的标签、请确保IAM角色包含此权限 `s3:PutObject`。请参阅。 link:task-scanning-s3.html#reviewing-s3-prerequisites["设置 IAM 角色"^]
 
 
 .步骤
@@ -107,7 +107,7 @@ image:screenshot_compliance_aip_labels_int.png["已成功集成显示 AIP 标签
 
 您可以查看分配给文件的当前 AIP 标签。
 
-在数据调查结果窗格中，单击 image:button_down_caret.png["注意"] 文件以展开文件元数据详细信息。
+在数据调查结果窗格中、单击image:button_down_caret.png["注意"]文件对应的以展开文件元数据详细信息。
 
 image:screenshot_compliance_show_label.png["显示单个文件的元数据详细信息的屏幕截图，包括分配的 AIP 标签。"]
 
@@ -120,7 +120,7 @@ image:screenshot_compliance_show_label.png["显示单个文件的元数据详细
 按照以下步骤为单个文件分配 AIP 标签。
 
 .步骤
-. 在数据调查结果窗格中，单击 image:button_down_caret.png["注意"] 文件以展开文件元数据详细信息。
+. 在数据调查结果窗格中、单击image:button_down_caret.png["注意"]文件对应的以展开文件元数据详细信息。
 +
 image:screenshot_compliance_add_label_manually.png["显示数据调查页面中文件的元数据详细信息的屏幕截图。"]
 
@@ -138,8 +138,8 @@ image:screenshot_compliance_add_label_manually.png["显示数据调查页面中�
 image:screenshot_compliance_tag_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要标记的文件的屏幕截图以及 \" 标签 \" 按钮。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
 
 
 . 从按钮栏中，单击 * 标签 * 并选择 AIP 标签：
@@ -205,7 +205,7 @@ image:screenshot_compliance_filter_status.png["显示如何从筛选器窗格中
 向单个文件添加标记：
 
 .步骤
-. 在数据调查结果窗格中，单击 image:button_down_caret.png["注意"] 文件以展开文件元数据详细信息。
+. 在数据调查结果窗格中、单击image:button_down_caret.png["注意"]文件对应的以展开文件元数据详细信息。
 . 单击 * 标记 * 字段，此时将显示当前已分配的标记。
 . 添加一个或多个标记：
 +
@@ -229,9 +229,9 @@ image:screenshot_compliance_add_status_manually.png["显示如何在 \" 数据�
 image:screenshot_compliance_tag_multi_files.png["显示如何从 \" 数据调查 \" 页面选择要标记的文件的屏幕截图以及 \" 标记 \" 按钮。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
-** 要选择所有页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]），然后显示在弹出消息中 image:screenshot_select_all_items.png[""]下，单击 * 选择列表中的所有项（ xxx 项） * 。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
+** 要选择所有页面上的所有文件，请选中标题行()中的框，image:button_select_all_files.png[""]然后在弹出消息image:screenshot_select_all_items.png[""]中单击*选择列表中的所有项目(xxx个项目)*。
 +
 一次最多可以对100、000个文件应用标记。
 
@@ -277,7 +277,7 @@ image:button_delete_datasense_file_tag.png["删除标记按钮位置的屏幕截
 按照以下步骤将用户分配给单个文件。
 
 .步骤
-. 在数据调查结果窗格中，单击 image:button_down_caret.png["注意"] 文件以展开文件元数据详细信息。
+. 在数据调查结果窗格中、单击image:button_down_caret.png["注意"]文件对应的以展开文件元数据详细信息。
 . 单击 * 已分配给 * 字段并选择用户名。
 +
 image:screenshot_compliance_add_user_manually.png["显示如何在 \" 数据调查 \" 页面中为文件分配用户的屏幕截图。"]
@@ -295,8 +295,8 @@ image:screenshot_compliance_add_user_manually.png["显示如何在 \" 数据调�
 image:screenshot_compliance_tag_multi_files.png["显示如何从数据调查页面选择要分配给用户的文件的屏幕截图以及分配给按钮。"]
 
 +
-** 要选择单个文件，请选中每个文件（image:button_backup_1_volume.png[""]）。
-** 要选择当前页面上的所有文件，请选中标题行（image:button_select_all_files.png[""]）。
+** 要选择单个文件，请选中每个文件的复选框image:button_backup_1_volume.png[""]()。
+** 要选择当前页上的所有文件，请选中标题行()中的复选框。image:button_select_all_files.png[""]
 
 
 . 从按钮栏中，单击 * 分配给 * 并选择用户名：

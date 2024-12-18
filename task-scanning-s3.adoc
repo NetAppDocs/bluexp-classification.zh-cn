@@ -18,7 +18,7 @@ BlueXP分类可以扫描Amazon S3存储分段、以确定驻留在S3对象存储
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -27,19 +27,19 @@ BlueXP分类可以扫描Amazon S3存储分段、以确定驻留在S3对象存储
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 在云环境中设置 S3 要求
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]在云环境中设置S3要求
 [role="quick-margin-para"]
-确保您的云环境可以满足BlueXP分类的要求、包括准备IAM角色以及设置从BlueXP分类到S3的连接。 <<查看 S3 前提条件,请参见完整列表>>。
+确保您的云环境可以满足BlueXP分类的要求、包括准备IAM角色以及设置从BlueXP分类到S3的连接。<<查看 S3 前提条件,请参见完整列表>>(英文)
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 在S3工作环境中激活BlueXP分类
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]在S3工作环境中激活BlueXP  分类
 [role="quick-margin-para"]
 选择 Amazon S3 工作环境，单击 * 启用 * ，然后选择包含所需权限的 IAM 角色。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择要扫描的存储分段
 [role="quick-margin-para"]
 选择要扫描的存储分段、BlueXP分类将开始扫描它们。
 
@@ -83,12 +83,12 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 }
 ----
 --
-提供从BlueXP分类到Amazon S3的连接:: BlueXP分类需要连接到Amazon S3。提供此连接的最佳方式是通过 VPC 端点连接到 S3 服务。有关说明，请参见 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 文档：创建网关端点"^]。
+提供从BlueXP分类到Amazon S3的连接:: BlueXP分类需要连接到Amazon S3。提供此连接的最佳方式是通过 VPC 端点连接到 S3 服务。有关说明，请参阅 https://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpce-gateway.html#create-gateway-endpoint["AWS 文档：创建网关端点"^]。
 +
 --
 创建VPC端点时、请务必选择与BlueXP分类实例对应的区域、VPC和路由表。您还必须修改安全组才能添加出站 HTTPS 规则、该规则允许通信到 S3 端点。否则、BlueXP分类无法连接到S3服务。
 
-如果遇到任何问题，请参见 https://aws.amazon.com/premiumsupport/knowledge-center/connect-s3-vpc-endpoint/["AWS支持知识中心：为什么我无法使用网关VPC端点连接到S3存储分段？"^]
+如果遇到任何问题、请参见 https://aws.amazon.com/premiumsupport/knowledge-center/connect-s3-vpc-endpoint/["AWS支持知识中心：为什么我无法使用网关VPC端点连接到S3存储分段？"^]
 
 另一种方法是使用 NAT 网关提供连接。
 
@@ -102,7 +102,7 @@ NOTE: 您无法使用代理通过 Internet 访问 S3 。
 
 == 部署BlueXP分类实例
 
-link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^]如果尚未部署实例。
 
 您需要使用部署在AWS中的Connector部署此实例、以便BlueXP自动发现此AWS帐户中的S3存储分段并将其显示在Amazon S3工作环境中。
 
@@ -126,7 +126,7 @@ image:screenshot_s3_we.gif["Amazon S3 工作环境图标的屏幕截图"]
 +
 image:screenshot_s3_enable_compliance.png["从\"服务\"面板启用BlueXP分类服务的屏幕截图"]
 
-. 出现提示时、将IAM角色分配给具有的BlueXP分类实例 <<查看 S3 前提条件,所需权限>>。
+. 出现提示时，将IAM角色分配给具有<<查看 S3 前提条件,所需权限>>的BlueXP  分类实例。
 +
 image:screenshot_s3_compliance_iam_role.png["为BlueXP分类输入AWS IAM角色的屏幕截图"]
 
@@ -134,7 +134,7 @@ image:screenshot_s3_compliance_iam_role.png["为BlueXP分类输入AWS IAM角色�
 
 
 
-TIP: 您也可以通过单击在配置页面中为工作环境启用合规性扫描 image:screenshot_gallery_options.gif["三点"] 按钮并选择*激活BlueXP分类*。
+TIP: 您还可以从配置页中单击按钮并选择*激活BlueXP  分类*，为工作环境启用合规性扫描image:screenshot_gallery_options.gif["三点"]。
 
 .结果
 BlueXP将IAM角色分配给实例。
@@ -147,7 +147,7 @@ BlueXP将IAM角色分配给实例。
 
 当BlueXP在包含要扫描的S3存储分段的AWS帐户中运行时、它会发现这些存储分段并将其显示在Amazon S3工作环境中。
 
-BlueXP分类也可以 <<从其他 AWS 帐户扫描存储分段,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
+BlueXP  分类也可以<<从其他 AWS 帐户扫描存储分段,扫描位于不同 AWS 帐户中的 S3 存储分段>>。
 
 .步骤
 . 选择 Amazon S3 工作环境。
@@ -162,7 +162,7 @@ image:screenshot_s3_select_buckets.png["选择要扫描的 S3 存储分段的屏
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 在存储分段上启用仅映射扫描 | 单击 * 映射 * 

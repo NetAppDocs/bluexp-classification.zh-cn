@@ -20,7 +20,7 @@ summary: 控制与组织存储资源上的数据相关的成本。BlueXP分类�
 
 []
 ====
-*注*此信息仅与BlueXP分类的旧版版本1.3及更早版本相关。
+*注*此信息仅与BlueXP  分类旧版1.3及更早版本相关。
 
 ====
 
@@ -38,7 +38,7 @@ image:screenshot_compliance_sensitive_data.png["一个屏幕截图、显示将�
 
 您可以单击感兴趣的块以在"调查"页面中查看受影响文件的筛选结果、以便进一步调查。
 
-如果尚未将身份服务与BlueXP分类集成、则此面板中不会显示任何数据。 link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与BlueXP分类集成"^]。
+如果尚未将身份服务与BlueXP分类集成、则此面板中不会显示任何数据。link:task-add-active-directory-datasense.html["了解如何将Active Directory服务与BlueXP分类集成"^](英文)
 
 
 TIP: 此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。目前不支持数据库、Google Drive、Amazon S3和通用对象存储。
@@ -51,4 +51,4 @@ TIP: 此面板支持CIFS共享、OneDrive和SharePoint数据源中的文件。�
 
 如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。
 
-请参见 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"^] 有关详细信息 ...
+有关详细信息、请参见 link:task-org-private-data.html#categorize-your-data-using-aip-labels["AIP 标签"^] 。

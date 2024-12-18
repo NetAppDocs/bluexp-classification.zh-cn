@@ -17,7 +17,7 @@ summary: 如果需要、您可以停止BlueXP分类以扫描一个或多个工�
 如果您不再需要扫描特定OneDrive帐户、特定SharePoint帐户或Google Drive帐户中的用户文件、则可以从BlueXP分类界面中删除该帐户并停止所有扫描。
 
 .步骤
-. 从 _Configuration_ 页面中，单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮、然后单击*删除OneDrive帐户*、*删除SharePoint帐户*或*删除Google Drive帐户*。
+. 从_Configuration_页面中、单击image:screenshot_gallery_options.gif["更多按钮"]OneDrive、SharePoint或Google Drive帐户行中的按钮、然后单击*删除OneDrive帐户*、*删除SharePoint帐户*或*删除Google Drive帐户*。
 +
 image:screenshot_compliance_remove_onedrive.png["扫描配置页面中的删除 OneDrive 按钮的屏幕截图。"]
 

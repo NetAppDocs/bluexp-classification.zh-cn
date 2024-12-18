@@ -37,9 +37,9 @@ BlueXP分类安装脚本中还有一个必备测试脚本。此处介绍的脚�
 
 在安装和使用BlueXP分类之前、需要BlueXP Connector。但是、您可以在不使用Connector的情况下运行Prerequisites脚本。
 
-您可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
+您可以在网络中的Linux主机上、也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部安装 Connector"^]在云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
-要在云提供商环境中创建Connector、请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+要在云提供商环境中创建Connector，请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 运行Prerequisites脚本时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
@@ -54,25 +54,19 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 [cols="17,17,27,31"]
 |===
-| 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
+| 系统大小 | CPU | RAM (必须禁用交换内存) | 磁盘 
 
 
-| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD开启/、或
--100 GiB可从/opt获得
--在/var/lib/Docker上提供了»
-/tmp上的5 GiB 
+| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD位于/上、或- 100 GiB位于/opt上-可用于/var/lib/Docker上- 5 GiB位于/tmp上 
 
 
-| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD位于/、或上
--100 GiB可从/opt获得
--395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
-/tmp上的5 GiB 
+| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD (位于/上)、或- 100 GiB (位于/opt上)- 395 GiB (位于/var/lib/Docker上)、或用于Podman /var/lib/containers或用于Podman /var/lib/containers -/tmp上5 GiB 
 |===
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
-** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
-** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
-** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^](英文)
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^](英文)
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^](英文)
 
 
 * *UNIX文件夹权限*：需要以下最低UNIX权限：
@@ -114,7 +108,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 ** 根据您使用的操作系统、您需要安装以下容器引擎之一：
 +
-*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^](英文)。
 *** Podman版本4或更高版本。要安装Podman，请输入 (`sudo yum install podman netavark -y`)。
 
 
@@ -122,10 +116,10 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 
 
-* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^](英文)。
 +
 ** *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
-** * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
+** *Firewalld注意事项*：如果您计划使用 `firewalld`，建议您在安装BlueXP  分类之前启用它。运行以下命令进行配置 `firewalld`、使其与BlueXP  分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -146,7 +140,7 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-请注意、每当启用或更新时、都必须重新启动Docker或Podman `firewalld` 设置。
+请注意、每当启用或更新设置时、都必须重新启动Docker或Podman `firewalld`。
 
 
 
@@ -169,20 +163,19 @@ TIP: 对于安装在无Internet连接站点中的主机系统、不需要此部�
 | https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+| \https：//https：NetApp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+| \https://support.compliance.api BlueXP ．NetApp．com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+| \https://support.compliance.api BlueXP ．NetApp．com/ | 使 NetApp 能够从审计记录流化数据。 
 
 
 | https://github.com/docker \https://download.docker.com | 提供Docker安装的必备软件包。 
 
 
-| \http://packages.ubuntu.com/
-\http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
+| \http://packages.ubuntu.com/ \http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
 |===
 
 
@@ -192,7 +185,7 @@ TIP: 对于安装在无Internet连接站点中的主机系统、不需要此部�
 
 [cols="25,25,50"]
 |===
-| 连接类型 | 端口 | Description 
+| 连接类型 | 端口 | 说明 
 
 
 | 连接器<> BlueXP分类 | 8080 (TCP)、443 (TCP)和80。9000 | 连接器的防火墙或路由规则必须允许通过端口443传入和传出BlueXP分类实例的流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。如果在Linux主机上使用防火墙、则Ubuntu服务器中的内部进程需要端口9000。 
@@ -208,17 +201,17 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 
 按照以下步骤运行BlueXP分类前提条件脚本。
 
-https://youtu.be/_RCYpuLXiV0?si=QLGUw8mqPrz9qs4B["观看此视频"^] 了解如何运行前提条件脚本并解读结果。
+https://youtu.be/_RCYpuLXiV0?si=QLGUw8mqPrz9qs4B["观看此视频"^]了解如何运行前提条件脚本并解读结果。
 
 .您需要的内容
-* 验证您的 Linux 系统是否满足 <<验证主机要求,主机要求>>。
+* 验证您的Linux系统是否符合<<验证主机要求,主机要求>>。
 * 确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 
 
 .步骤
-. 从下载BlueXP分类前提条件脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*<version>。
-. 将文件复制到您计划使用的Linux主机(使用 `scp` 或其他方法)。
+. 从下载BlueXP  分类前提条件脚本 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*<version>。
+. 将文件复制到要使用的Linux主机(使用或其他方法) `scp`。
 . 分配运行脚本的权限。
 +
 [source, cli]
@@ -245,7 +238,7 @@ chmod +x standalone-pre-requisite-tester-v1.25.0
 ** 如果安装了Connector、请输入*。然后、输入BlueXP Connector的IP地址或主机名、以便测试脚本可以测试此连接。
 
 
-. 该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后、它会将会话日志写入名为的文件 `prerequisites-test-<timestamp>.log` 在目录中 `/opt/netapp/install_logs`。
+. 该脚本会在系统上运行各种测试、并在执行过程中显示结果。完成后，它会将会话日志写入目录中 `/opt/netapp/install_logs`名为的文件 `prerequisites-test-<timestamp>.log`。
 
 
 .结果

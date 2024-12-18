@@ -25,19 +25,19 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 查看文件共享前提条件
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看文件共享前提条件
 [role="quick-margin-para"]
 对于 CIFS （ SMB ）共享，请确保您具有访问这些共享的凭据。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 创建一个组以存放文件共享
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]创建一个组以存放文件共享
 [role="quick-margin-para"]
 组是要扫描的文件共享的容器，它用作这些文件共享的工作环境名称。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 将文件共享添加到组
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]将文件共享添加到组
 [role="quick-margin-para"]
 添加要扫描的文件共享列表并选择扫描类型。一次最多可以添加 100 个文件共享。
 
@@ -63,7 +63,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 +
 如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户在CIFS中具有写入属性权限或在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
 
-* 您需要采用格式 ` <host_name> ： /<share_path>` 添加的共享列表。您可以单独输入共享，也可以提供要扫描的文件共享的行分隔列表。
+* 您将需要以格式添加的共享列表 `<host_name>:/<share_path>`。您可以单独输入共享，也可以提供要扫描的文件共享的行分隔列表。
 
 
 
@@ -134,7 +134,7 @@ image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享�
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 对文件共享启用仅映射扫描 | 单击 * 映射 * 
@@ -146,7 +146,7 @@ image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享�
 | 禁用对文件共享的扫描 | 单击 * 关闭 * 
 |===
 +
-默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
 
 
 

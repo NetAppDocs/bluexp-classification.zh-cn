@@ -18,7 +18,7 @@ summary: 完成几个步骤、在网络中的Linux主机或云中可访问Intern
 
 如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则内部安装可能是一个不错的选择、但这不是一个要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
-BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。 link:task-test-linux-system.html["请参见How to check if your Linux host is ready to install BlueXP classification"]。
+BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。link:task-test-linux-system.html["请参见How to check if your Linux host is ready to install BlueXP classification"](英文)
 
 Linux主机_in your premises_上的典型安装包含以下组件和连接。
 
@@ -29,7 +29,7 @@ image:diagram_deploy_onprem_overview.png["所需的BlueXP和网络组件以及�
 image:diagram_deploy_onprem_cloud_instance.png["所需的BlueXP和网络组件以及相关连接的示意图。"]
 
 
-NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueXP分类、请参见 link:task-deploy-multi-host-install-dark-site.html["在无法访问Internet的多个主机上安装BlueXP分类"]。
+NOTE: 对于传统版本1.3及更早版本，如果需要在多个主机上安装BlueXP  分类，请参见link:task-deploy-multi-host-install-dark-site.html["在无法访问Internet的多个主机上安装BlueXP分类"]。
 
 您也可以link:task-deploy-compliance-dark-site.html["在无法访问Internet的内部站点中安装BlueXP分类"]。
 
@@ -39,21 +39,21 @@ NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueX
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 创建连接器
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]创建接头
 [role="quick-margin-para"]
-如果您还没有 Connector ， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。
+如果您还没有Connector、请 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^]在网络中的Linux主机上或云中的Linux主机上使用。
 
 [role="quick-margin-para"]
-您还可以与云提供商一起创建Connector。请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+您还可以与云提供商一起创建Connector。请参阅 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 查看前提条件
 [role="quick-margin-para"]
-确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。 <<从BlueXP分类启用出站Internet访问,请参见完整列表>>。
+确保您的环境可以满足前提条件。这包括实例的出站Internet访问、连接器与BlueXP分类之间通过端口443进行的连接等。<<从BlueXP分类启用出站Internet访问,请参见完整列表>>(英文)
 
 [role="quick-margin-para"]
-您还需要满足的 Linux 系统 <<准备 Linux 主机系统,以下要求>>。
+您还需要一个符合的Linux系统<<准备 Linux 主机系统,以下要求>>。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 下载并部署BlueXP分类
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]下载并部署BlueXP  分类
 [role="quick-margin-para"]
 从NetApp 支持站点 下载Cloud BlueXP分类软件、并将安装程序文件复制到您计划使用的Linux主机。然后启动安装向导并按照提示部署BlueXP分类实例。
 
@@ -61,9 +61,9 @@ NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueX
 
 == 创建连接器
 
-在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下、您可能会在尝试激活BlueXP分类之前设置连接器、因为MOST https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP功能需要使用Connector"]但在某些情况下，您需要立即设置一个。
+在安装和使用BlueXP分类之前、需要BlueXP Connector。在大多数情况下，您可能在尝试激活BlueXP  分类之前设置了连接器，因为大多数，但在某些情况下，您需要立即设置一个连接器 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["BlueXP功能需要使用Connector"]。
 
-要在云提供商环境中创建一个、请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]， https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
+要在云提供商环境中创建一个，请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["在 AWS 中创建连接器"^]、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["在 Azure 中创建连接器"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-google.html["在 GCP 中创建连接器"^]。
 
 在某些情况下，您必须使用部署在特定云提供商中的 Connector ：
 
@@ -77,7 +77,7 @@ NOTE: 对于旧版1.3及更早版本、如果需要在多个主机上安装BlueX
 
 可以使用这些Cloud Connector扫描内部ONTAP系统、NetApp文件共享和数据库帐户。
 
-请注意，您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^] 在网络中的Linux主机或云中的Linux主机上。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
+请注意、您也可以 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-on-prem.html["在内部部署 Connector"^]在网络中的Linux主机上或云中的Linux主机上运行。一些计划在本机安装BlueXP分类的用户也可以选择在本机安装Connector。
 
 安装BlueXP分类时、您需要连接器系统的IP地址或主机名。如果您在内部安装了Connector、则可以获得此信息。如果Connector部署在云中、您可以从BlueXP控制台找到此信息：单击帮助图标、选择*支持*、然后单击*蓝XP连接器*。
 
@@ -94,25 +94,19 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 [cols="17,17,27,31"]
 |===
-| 系统大小 | CPU | RAM (必须禁用交换内存) | Disk 
+| 系统大小 | CPU | RAM (必须禁用交换内存) | 磁盘 
 
 
-| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD开启/、或
--100 GiB可从/opt获得
--在/var/lib/Docker上提供了»
-/tmp上的5 GiB 
+| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD位于/上、或- 100 GiB位于/opt上-可用于/var/lib/Docker上- 5 GiB位于/tmp上 
 
 
-| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD位于/、或上
--100 GiB可从/opt获得
--395 GiB可从/var/lib/Docker或用于Podman /var/lib/containers或用于Podman /var/lib/containers
-/tmp上的5 GiB 
+| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD (位于/上)、或- 100 GiB (位于/opt上)- 395 GiB (位于/var/lib/Docker上)、或用于Podman /var/lib/containers或用于Podman /var/lib/containers -/tmp上5 GiB 
 |===
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +
-** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。 link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^]。
-** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。 link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^]。
-** * GCP计算机类型*：我们建议使用"n2-standard-16"。 link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^]。
+** * Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。link:reference-instance-types.html#aws-instance-types["请参见其他AWS实例类型"^](英文)
+** * Azure虚拟机大小*：建议使用"Standard_d16s_v3_"。link:reference-instance-types.html#azure-instance-types["请参见其他Azure实例类型"^](英文)
+** * GCP计算机类型*：我们建议使用"n2-standard-16"。link:reference-instance-types.html#gcp-instance-types["请参见其他GCP实例类型"^](英文)
 
 
 * *UNIX文件夹权限*：需要以下最低UNIX权限：
@@ -154,7 +148,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 +
 ** 根据您使用的操作系统、您需要安装以下容器引擎之一：
 +
-*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^]。
+*** Docker引擎19.3.1或更高版本。 https://docs.docker.com/engine/install/["查看安装说明"^](英文)。
 *** Podman版本4或更高版本。要安装Podman，请输入 (`sudo yum install podman netavark -y`)。
 
 
@@ -162,10 +156,10 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 
 
-* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^]。
+* Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^](英文)。
 +
 ** *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
-** * Firewalld注意事项*：如果您计划使用 `firewalld`，我们建议您在安装BlueXP分类之前启用它。运行以下命令进行配置 `firewalld` 以便与BlueXP分类兼容：
+** *Firewalld注意事项*：如果您计划使用 `firewalld`，建议您在安装BlueXP  分类之前启用它。运行以下命令进行配置 `firewalld`、使其与BlueXP  分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -186,7 +180,7 @@ firewall-cmd --permanent --add-port=7946/tcp
 firewall-cmd --permanent --add-port=4789/udp
 ....
 +
-请注意、每当启用或更新时、都必须重新启动Docker或Podman `firewalld` 设置。
+请注意、每当启用或更新设置时、都必须重新启动Docker或Podman `firewalld`。
 
 
 
@@ -209,20 +203,19 @@ BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用
 | https://api.bluexp.netapp.com | 与包括NetApp帐户在内的BlueXP服务进行通信。 
 
 
-| https://netapp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
+| \https：//https：NetApp-cloud-account.auth0.com \https://auth0.com | 与BlueXP网站通信以实现集中式用户身份验证。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/\https://dseasb33srnrn.cloudfront.net/\https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
+| \https://support.compliance.api BlueXP ．NetApp．com/\https://hub.docker.com \https://auth.docker.io \https://registry-1.docker.io \https://index.docker.io/ \https://dseasb33srnrn.cloudfront.net/ \https://production.cloudflare.docker.com/ | 可用于访问软件映像，清单，模板以及发送日志和指标。 
 
 
-| https://support.compliance.api.bluexp.netapp.com/ | 使 NetApp 能够从审计记录流化数据。 
+| \https://support.compliance.api BlueXP ．NetApp．com/ | 使 NetApp 能够从审计记录流化数据。 
 
 
 | https://github.com/docker \https://download.docker.com | 提供Docker安装的必备软件包。 
 
 
-| \http://packages.ubuntu.com/
-\http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
+| \http://packages.ubuntu.com/ \http://archive.ubuntu.com | 提供Ubuntu安装的必备软件包。 
 |===
 
 
@@ -232,7 +225,7 @@ BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用
 
 [cols="25,25,50"]
 |===
-| 连接类型 | 端口 | Description 
+| 连接类型 | 端口 | 说明 
 
 
 | 连接器<> BlueXP分类 | 8080 (TCP)、443 (TCP)和80。9000 | 连接器的防火墙或路由规则必须允许通过端口443传入和传出BlueXP分类实例的流量。确保端口8080已打开、以便您可以在BlueXP中查看安装进度。如果在Linux主机上使用防火墙、则Ubuntu服务器中的内部进程需要端口9000。 
@@ -281,16 +274,16 @@ NFS卷导出策略必须允许从BlueXP分类实例进行访问。
 
 == 在Linux主机上安装BlueXP分类
 
-对于典型配置，您将在一个主机系统上安装该软件。 <<典型配置的单主机安装,请在此处查看这些步骤>>。
+对于典型配置，您将在一个主机系统上安装该软件。<<典型配置的单主机安装,请在此处查看这些步骤>>(英文)
 
 image:diagram_deploy_onprem_single_host_internet.png["一个图表、显示了使用在内部部署且可访问Internet的单个BlueXP分类实例时可以扫描的数据源的位置。"]
 
-请参见 <<准备 Linux 主机系统,准备 Linux 主机系统>> 和 <<从BlueXP分类启用出站Internet访问,查看前提条件>> 了解部署BlueXP分类之前的完整要求列表。
+有关部署BlueXP  分类之前的完整要求列表、请参见<<准备 Linux 主机系统,准备 Linux 主机系统>>和<<从BlueXP分类启用出站Internet访问,查看前提条件>>。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
 
-NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云和中部署一个单独的BlueXP分类连接器和实例 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["在连接器之间切换"^] 不同的数据源。
+NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云中为不同的数据源部署单独的BlueXP  分类连接器和实例 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["在连接器之间切换"^]。
 
 
 
@@ -298,12 +291,12 @@ NOTE: 如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存
 
 在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。
 
-https://youtu.be/rFpmekdbORc["观看此视频"^] 以了解如何安装BlueXP分类。
+https://youtu.be/rFpmekdbORc["观看此视频"^]以了解如何安装BlueXP  分类。
 
-请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它将写入到 `/opt/netapp/install_logs/`。 link:task-audit-data-sense-actions.html["请单击此处查看更多详细信息"]。
+请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它会写入到 `/opt/netapp/install_logs/`。link:task-audit-data-sense-actions.html["请单击此处查看更多详细信息"](英文)
 
 .您需要的内容
-* 验证您的 Linux 系统是否满足 <<准备 Linux 主机系统,主机要求>>。
+* 验证您的Linux系统是否符合<<准备 Linux 主机系统,主机要求>>。
 * 确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。
 * 如果您使用代理访问Internet：
@@ -314,12 +307,12 @@ https://youtu.be/rFpmekdbORc["观看此视频"^] 以了解如何安装BlueXP分�
 ** 用户必须是本地用户。不支持域用户。
 
 
-* 验证脱机环境是否满足要求 <<从BlueXP分类启用出站Internet访问,权限和连接>>。
+* 验证脱机环境是否满足所需的<<从BlueXP分类启用出站Internet访问,权限和连接>>。
 
 
 .步骤
-. 从下载BlueXP分类软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
-. 将安装程序文件复制到您计划使用的 Linux 主机（使用 `scp` 或其他方法）。
+. 从下载BlueXP  分类软件 https://mysupport.netapp.com/site/products/all/details/cloud-data-sense/downloads-tab/["NetApp 支持站点"^]。您应选择的文件名为* datasENSE-installer-datas.tar.gz*<version>。
+. 将安装程序文件复制到要使用的Linux主机(使用 `scp`或其他方法)。
 . 解压缩主机上的安装程序文件，例如：
 +
 [source, cli]
@@ -335,10 +328,10 @@ image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP�
 +
 image:screenshot_cloud_compliance_deploy_onprem.png["选择用于在云中或内部的计算机上部署BlueXP分类的按钮的屏幕截图。"]
 
-. 此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如： `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`)并将其粘贴到文本文件中、以便稍后使用。然后单击*关闭*以关闭此对话框。
+. 此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如： `sudo ./install.sh -a 12345 -c 27AG75 -t 2198qq`)并将其粘贴到文本文件中，以便日后使用。然后单击*关闭*以关闭此对话框。
 . 在主机上、输入复制的命令、然后按照一系列提示进行操作、或者您也可以提供完整命令、其中包含所有必需的参数作为命令行参数。
 +
-请注意、安装程序会执行预检、以确保满足您的系统和网络要求、以便成功安装。 https://youtu.be/_RCYpuLXiV0["观看此视频"^] 了解预检消息和含义。
+请注意、安装程序会执行预检查、以确保满足您的系统和网络要求、以便成功安装。 https://youtu.be/_RCYpuLXiV0["观看此视频"^]了解预检消息和含义。
 
 +
 [cols="50a,50"]
@@ -347,16 +340,16 @@ image:screenshot_cloud_compliance_deploy_onprem.png["选择用于在云中或内
 
 
  a| 
-.. 粘贴您从第7步复制的命令：
+.. 粘贴从步骤7复制的命令：
 `sudo ./install.sh -a <account_id> -c <client_id> -t <user_token>`
 +
-如果要在云实例(而不是内部)上安装、请添加 `--manual-cloud-install <cloud_provider>`。
+如果要在云实例(而不是内部环境)上安装，请添加 `--manual-cloud-install <cloud_provider>`。
 
 .. 输入BlueXP分类主机的IP地址或主机名、以便连接器系统可以访问它。
 .. 输入BlueXP Connector主机的IP地址或主机名、以便BlueXP分类系统可以访问它。
 .. 根据提示输入代理详细信息。如果BlueXP Connector已使用代理、则无需在此再次输入此信息、因为BlueXP分类会自动使用连接器使用的代理。
 
-| 或者、您也可以预先创建整个命令、并提供必要的主机和代理参数：
+| 或者、您也可以提前创建整个命令、并提供必要的主机和代理参数：
 `sudo ./install.sh -a <account_id> -c <client_id> -t <user_token> --host <ds_host> --manager-host <cm_host> --manual-cloud-install <cloud_provider> --proxy-host <proxy_host> --proxy-port <proxy_port> --proxy-scheme <proxy_scheme> --proxy-user <proxy_user> --proxy-password <proxy_password> --cacert-folder-path <ca_cert_dir>` 
 |===
 +

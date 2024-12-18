@@ -22,7 +22,7 @@ summary: 如果需要、您可以停止BlueXP分类以扫描一个或多个工�
 
 当您停用扫描时、BlueXP分类不再扫描工作环境中的数据、它会从BlueXP分类实例中删除已编制索引的合规性洞察信息(不会删除工作环境本身中的数据)。
 
-. 从 _Configuration_ 页面中，单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，然后单击 * 停用数据感知 * 。
+. 在_Configuration_页面中，单击image:screenshot_gallery_options.gif["更多按钮"]工作环境行中的按钮，然后单击*Deactivate Data Sense *。
 
 
 image:screenshot_deactivate_compliance_scan.png["可在其中选择停用BlueXP分类的操作图标的屏幕截图。从 \" 画布 \" 页面选择工作环境后，此选项将可用。"]
@@ -36,7 +36,7 @@ TIP: 您也可以在选择工作环境时从服务面板为工作环境禁用合
 
 如果不再需要扫描某个数据库、可以从BlueXP分类界面中将其删除并停止所有扫描。
 
-. 从 _Configuration_ 页面中，单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，然后单击 * 删除数据库服务器 * 。
+. 在_Configuration_页中，单击image:screenshot_gallery_options.gif["更多按钮"]数据库行中的按钮，然后单击*Remove DB Server*。
 
 
 image:screenshot_compliance_remove_db.png["扫描配置页面中的删除数据库服务器按钮的屏幕截图。"]
@@ -48,7 +48,7 @@ image:screenshot_compliance_remove_db.png["扫描配置页面中的删除数据�
 如果不再需要扫描文件共享组中的用户文件、可以从BlueXP分类界面中删除文件共享组并停止所有扫描。
 
 .步骤
-. 从 _Configuration_ 页面中，单击 image:screenshot_gallery_options.gif["更多按钮"] 按钮，然后单击 * 删除文件共享组 * 。
+. 在_Configuration_页面中，单击image:screenshot_gallery_options.gif["更多按钮"]文件共享组行中的按钮，然后单击*Remove File SharesGroup*。
 +
 image:screenshot_compliance_remove_fileshare_group.png["扫描配置页面中的删除文件共享组按钮的屏幕截图。"]
 

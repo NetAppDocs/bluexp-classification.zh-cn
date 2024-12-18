@@ -37,7 +37,7 @@ BlueXP分类版本1.29及更高版本(从2024年3月开始)提供了此功能。
 
 == 定义要从扫描中排除的目录
 
-在从分类扫描中排除目录之前、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类系统"] 具体取决于您是在Linux计算机上手动安装软件、还是在云中部署了实例。
+在从分类扫描中排除目录之前、您需要登录到BlueXP分类系统、以便编辑配置文件并运行脚本。根据您是在Linux计算机上手动安装软件还是在云中部署了实例、了解如何link:reference-log-in-to-instance.html["登录到BlueXP分类系统"]。
 
 [NOTE]
 ====
@@ -47,7 +47,7 @@ BlueXP分类版本1.29及更高版本(从2024年3月开始)提供了此功能。
 
 ====
 .步骤
-. 在BlueXP分类系统上、转至"//opt/NetApp/config/custom_configuration"并打开文件 `data_provider.yaml`。
+. 在BlueXP  分类系统上，转至“/opt/config/custom_configuration NetApp”并打开文件 `data_provider.yaml`。
 . 在"data_提供 程序"部分的"exc我们："行下、输入要排除的目录路径。例如：
 +
 ....
@@ -87,7 +87,7 @@ data_providers:
 .要排除的路径的预期结果：
 * /CVO1/fOLder1
 * /CVO1/fOLder1name
-* /CVO1/fOLder10
+* /CVO1/fOLder10.
 * /CVO1/*fOLder1.
 * /CVO1/+fOLder1name
 * /CVO1/notfolder10.
@@ -139,7 +139,7 @@ data_providers:
 .不会排除的路径示例：
 * /CVO1/fOLder1
 * /CVO1/fOLder1name
-* /CVO1/fOLder10
+* /CVO1/fOLder10.
 
 
 
@@ -159,6 +159,6 @@ data_providers:
 
 == 查看当前排除列表
 
-可以查看的内容 `data_provider.yaml` 配置文件与运行后实际提交的配置文件不同 `update_data_providers_from_config_file.sh` 脚本。要查看已从BlueXP分类扫描中排除的当前目录列表、请从"//opt/NetApp/Datasense/tools/customer_configuration/data_提供 程序"运行以下命令：
+此配置文件的内容可能与运行此脚本后实际提交的内容 `data_provider.yaml`不同 `update_data_providers_from_config_file.sh`。要查看已从BlueXP分类扫描中排除的当前目录列表、请从"//opt/NetApp/Datasense/tools/customer_configuration/data_提供 程序"运行以下命令：
 
  get_data_providers_configuration.sh

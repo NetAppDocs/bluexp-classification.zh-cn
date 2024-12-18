@@ -24,7 +24,7 @@ summary: 您可以卸载BlueXP分类软件以解决问题或从主机中永久�
 
 如果不再需要使用BlueXP分类、则可以从云提供商环境中卸载和删除BlueXP分类实例。
 
-. 在BlueXP分类页面顶部、单击 image:screenshot_gallery_options.gif["更多按钮"] 然后单击*卸载数据感知*。
+. 在BlueXP  分类页面顶部，单击，然后单击image:screenshot_gallery_options.gif["更多按钮"]*卸载Data Sense *。
 +
 image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按钮的屏幕截图。"]
 
@@ -41,12 +41,12 @@ image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按�
 
 如果不再需要使用BlueXP分类、或者您的问题描述 需要重新安装、则可以从主机卸载BlueXP分类。
 
-. 在BlueXP分类页面顶部、单击 image:screenshot_gallery_options.gif["更多按钮"] 然后单击*卸载数据感知*。
+. 在BlueXP  分类页面顶部，单击，然后单击image:screenshot_gallery_options.gif["更多按钮"]*卸载Data Sense *。
 +
 image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按钮的屏幕截图。"]
 
 . 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。
-. 要从主机卸载软件、请运行 `cleanup.sh` 主机上的脚本、例如：
+. 要从主机卸载软件、请在主机上运行 `cleanup.sh`脚本、例如：
 +
 [source, cli]
 ----
@@ -54,4 +54,4 @@ cleanup.sh
 ----
 
 
-请参见操作说明 link:reference-log-in-to-instance.html["登录到BlueXP分类主机"]。
+请参见操作说明link:reference-log-in-to-instance.html["登录到BlueXP分类主机"]。

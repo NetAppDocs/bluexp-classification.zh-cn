@@ -32,13 +32,13 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 超大 | 32个CPU、128 GB RAM、1 TiB GP3 SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.8x大型"^] (默认) 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge"^] (默认) m6a.4xlarge m5a.4xlarge m5.4xlarge m4.4xlarge 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.4xlarge"^](默认值) m6a.4x大m5a.4x大m5.4x大m4.4x大 
 
 
-| 中等 | 8个CPU、32 GB RAM、200 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xlarge"^] (默认) m6a.2xlarge m5a.2xlarge m5.2xlarge m4.2xlarge 
+| 中 | 8个CPU、32 GB RAM、200 GiB SSD | https://aws.amazon.com/ec2/instance-types/m6i/["m6i.2xlarge"^](默认值) m6a.2x大块m5a.2x大块m5.2x大块m4.2x大块 
 
 
-| 小型 | 8个CPU、16 GB RAM、100 GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xlarge"^] (默认值) c5a.2xlarge c5.2xlarge c4.2xlarge 
+| 小型 | 8个CPU、16 GB RAM、100 GiB SSD | https://aws.amazon.com/ec2/instance-types/c6a/["c6a.2xlarge"^](默认值) c5a.2x大型c5.2x大型c4.2x大型 
 |===
 
 
@@ -52,7 +52,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 超大 | 32个CPU、128 GB RAM、操作系统磁盘(2、048 GiB、最小250 MB/秒吞吐量)和数据磁盘(1 TiB SSD、最小750 MB/秒吞吐量) | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dv3-series["标准D32_v3"^] (默认) 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["标准D16s_v3"^] (默认) 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://learn.microsoft.com/en-us/azure/virtual-machines/dv3-dsv3-series#dsv3-series["Standard_D16s_v3"^] (默认) 
 |===
 
 
@@ -63,5 +63,5 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | 规格 | Instance type 
 
 
-| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["n2-standard-16"^] (默认) n2D-standard-16 n1-standard-16 
+| 大型 | 16个CPU、64 GB RAM、500 GiB SSD | https://cloud.google.com/compute/docs/general-purpose-machines#n2_machines["N2-standard-16"^](默认) n2D-standard-16 n1-standard-16 
 |===

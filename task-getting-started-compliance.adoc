@@ -22,24 +22,24 @@ summary: 完成几个步骤、开始使用BlueXP分类扫描Cloud Volumes ONTAP 
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"] 发现要扫描的数据源
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]发现要扫描的数据源
 [role="quick-margin-para"]
 在扫描卷之前、必须在BlueXP中将系统添加为工作环境：
 
 [role="quick-margin-list"]
 * 对于Cloud Volumes ONTAP 系统、这些工作环境应已在BlueXP中可用
-* 对于内部 ONTAP 系统， https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["BlueXP必须发现ONTAP 集群"^]
+* 对于内部ONTAP系统、 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["BlueXP必须发现ONTAP 集群"^]
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"] 启用BlueXP分类并选择要扫描的卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]启用BlueXP  分类并选择要扫描的卷
 [role="quick-margin-para"]
 选择*配置*选项卡，并为特定工作环境中的卷激活合规性扫描。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 确保能够访问卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]确保对卷的访问
 [role="quick-margin-para"]
 启用BlueXP分类后、请确保它可以访问所有卷。
 
@@ -59,7 +59,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"] 管理要扫描的卷
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"]管理要扫描的卷
 [role="quick-margin-para"]
 选择或取消选择要扫描的卷、BlueXP分类将开始或停止扫描这些卷。
 
@@ -69,7 +69,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果您要扫描的数据源尚未位于您的BlueXP环境中、您可以此时将其添加到画布中。
 
-您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的 ONTAP 系统，您需要拥有 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["BlueXP会发现这些集群"^]。
+您的Cloud Volumes ONTAP 系统应已在BlueXP的"画布"中可用。对于内部部署的ONTAP系统，您需要具有 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["BlueXP会发现这些集群"^]。
 
 
 
@@ -77,9 +77,9 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 
 如果尚未部署实例、请部署BlueXP分类。
 
-如果您要扫描可通过 Internet 访问的 Cloud Volumes ONTAP 和内部 ONTAP 系统，则可以 link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^] 或 link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
+如果您要扫描可通过Internet访问的Cloud Volumes ONTAP和内部ONTAP系统，则可以link:task-deploy-cloud-compliance.html["在云中部署BlueXP分类"^]或link:task-deploy-compliance-onprem.html["位于可访问 Internet 的内部位置"^]。
 
-如果要扫描安装在无法访问 Internet 的非公开站点上的内部 ONTAP 系统，则需要执行以下操作 link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
+如果您要扫描安装在无法访问Internet的非公开站点上的内部ONTAP系统，则需要link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
@@ -93,7 +93,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署
 +
 image:screenshot_cloud_compliance_we_scan_config.png["部署BlueXP分类实例后立即显示\"配置\"选项卡的屏幕截图。"]
 
-. 选择要如何扫描每个工作环境中的卷。 link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["了解映射和分类扫描"]：
+. 选择要如何扫描每个工作环境中的卷。link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["了解映射和分类扫描"]：
 +
 ** 要映射所有卷，请单击 * 映射所有卷 * 。
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
@@ -112,7 +112,7 @@ BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类�
 [NOTE]
 ====
 * 默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。生成的页面包含一个您可以启用的设置、以便BlueXP分类将扫描卷、而不管权限如何。
-* BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。 link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["请参见有关此BlueXP分类限制的更多详细信息"^]。
+* BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。link:reference-limitations.html#bluexp-classification-scans-only-one-share-under-a-volume["请参见有关此BlueXP分类限制的更多详细信息"^](英文)
 
 
 ====
@@ -171,13 +171,13 @@ image:screenshot_compliance_volume_details.gif["扫描配置中的\"查看详细
 
 您可以随时从 " 配置 " 页面在工作环境中启动或停止仅映射扫描或映射和分类扫描。您也可以从仅映射扫描更改为映射和分类扫描，反之亦然。建议您扫描所有卷。
 
-默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。 link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^]。
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
 
 image:screenshot_volume_compliance_selection.png["配置页面的屏幕截图，您可以在其中启用或禁用单个卷的扫描。"]
 
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 在卷上启用仅映射扫描 | 在卷区域中，单击 * 映射 * 

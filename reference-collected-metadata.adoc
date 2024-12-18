@@ -64,4 +64,4 @@ image:screenshot_scan_analysis_event_filter.png["筛选器的屏幕截图、用�
 * "已分类并更新上次访问时间"—显示已分类的文件、BlueXP分类无法将上次访问时间重置回原始日期。此筛选器仅适用于缺少"写入属性"权限*时启用了*扫描的环境。
 
 
-如果需要、您可以将这些结果导出到报告中、以便查看哪些文件因权限而被扫描或未被扫描。 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#data-investigation-report["了解有关数据调查报告的更多信息"^]。
+如果需要、您可以将这些结果导出到报告、以便查看哪些文件因权限而正在扫描或未扫描。 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#data-investigation-report["了解有关数据调查报告的更多信息"^](英文)。

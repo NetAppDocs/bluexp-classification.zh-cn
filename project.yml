@@ -21,7 +21,7 @@ sidebar:
       url: "/whats-new.html"
     - title: 已知限制
       url: "/reference-limitations.html"
-  - title: 入门
+  - title: 开始使用
     entries:
     - title: 了解BlueXP分类
       url: "/concept-cloud-compliance.html"

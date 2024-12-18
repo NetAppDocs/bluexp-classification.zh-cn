@@ -29,15 +29,15 @@ summary: 完成几个步骤、即可开始使用BlueXP  分类直接扫描Stora
 [role="quick-margin-para"]
 您需要具有StorageGRID中的访问密钥和机密密钥、以便BlueXP  分类可以访问存储分段。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"] 部署BlueXP分类实例
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
 [role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^] 如果尚未部署实例。
+link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加StorageGRID服务
 [role="quick-margin-para"]
 将StorageGRID服务添加到BlueXP  分类。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"] 选择要扫描的分段
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择要扫描的存储分段
 [role="quick-margin-para"]
 选择要扫描的存储分段、BlueXP分类将开始扫描它们。
 
@@ -107,7 +107,7 @@ image:screenshot-scanning-add-storagegrid-buckets.png["选择要扫描的Storage
 +
 [cols="45,45"]
 |===
-| 收件人： | 执行以下操作： 
+| 至： | 执行以下操作： 
 
 
 | 在存储分段上启用仅映射扫描 | 单击 * 映射 * 
