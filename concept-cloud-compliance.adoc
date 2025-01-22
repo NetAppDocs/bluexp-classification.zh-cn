@@ -67,12 +67,11 @@ BlueXP分类可以扫描和分析来自以下类型的工作环境和数据源�
 
 *工作环境*
 
+* 适用于 ONTAP 的 Amazon FSX
+* Azure NetApp Files
 * Cloud Volumes ONTAP （部署在 AWS ， Azure 或 GCP 中）
 * 内部 ONTAP 集群
 * StorageGRID
-* Azure NetApp Files
-* 适用于 ONTAP 的 Amazon FSX
-* Google Cloud NetApp卷
 
 
 *数据源*

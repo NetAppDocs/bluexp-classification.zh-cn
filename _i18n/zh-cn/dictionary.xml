@@ -691,7 +691,6 @@
   <block id="3b6b18ad7909031011a3960e81ac99e4" category="paragraph">BlueXP  分类可识别两种类型的个人数据：</block>
   <block id="85542d81e9687ba10d962e859cdaf35a" category="list-text">*个人身份信息(Pi2)*</block>
   <block id="874a594310f3c66b96cad8a1ef4af095" category="list-text">*敏感个人信息(SPi)*</block>
-  <block id="092e6dee95258860d663bccecea3a137" category="admonition">如果您需要BlueXP分类来识别其他私有数据类型、例如其他国家/地区ID编号或医疗保健标识符、请发送电子邮件至ng-contact-data-sense@netapp.com并附上您的请求。</block>
   <block id="10ff4e7c2ffc1fd426aa6f784a05da66" category="section-title">个人数据的类型</block>
   <block id="664f12aee95db5001901ada82a66a117" category="inline-link-macro">接近验证</block>
   <block id="185a6c810ca281a80052f73d8e326953" category="paragraph">在文件中找到的个人数据或个人身份信息(Pix)可以是一般个人数据或国家标识符。下表中的第三列标识了BlueXP  分类是否使用<block ref="af3f1f2f9514770a1cfe0f9a422e763d" category="inline-link-macro-rx"></block>来验证其标识符发现结果。</block>
@@ -1959,23 +1958,16 @@
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP分类使用散列技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。</block>
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">删除文件</block>
   <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。或者、如果您确信不需要特定版本的文件、也可以<block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block>自行选择。</block>
-  <block id="11b431a799ad33cee933ceccc5de850c" category="section-title">查看所有复制的文件</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">如果您需要列出在工作环境中复制的所有文件以及正在扫描的数据源，则可以在 " 数据调查 " 页面中使用名为 * 重复项 &gt; 具有重复项 * 的筛选器。</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">所有复制的文件都会显示在结果页面中。</block>
-  <block id="3c4c508b343b43aeeceba1d0993025fc" category="section-title">查看特定文件是否重复</block>
   <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">如果要查看单个文件是否存在重复项、可以在"数据调查结果"窗格中单击<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>任何单个文件以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。</block>
   <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">要查看重复文件的列表及其所在位置，请单击 * 查看详细信息 * 。在下一页中，单击 * 查看重复项 * 以查看调查页面中的文件。</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">显示如何查看重复文件所在位置的屏幕截图。</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
   <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">数据调查报告</block>
-  <block id="fbc24f64c5cfaa3ec5851bea3459db25" category="paragraph">此报告以形式提供。 CSV文件、您可以将其保存到本地计算机。</block>
-  <block id="d9f65abd84f27877cbba1b5ea828d53d" category="section-title">生成数据调查报告</block>
-  <block id="707592628336b767af6468130ccb5f10" category="list-text">选择以下载。 CSV报告数据，然后单击*Download Report*。</block>
   <block id="02b8107c002e6577adbfdfd6d6f1b208" category="inline-image-macro">包含多个选项的Download调查报告页面的屏幕截图。</block>
-  <block id="0b0eacf696b45d65c53ff1b5473edb39" category="paragraph"><block ref="0b0eacf696b45d65c53ff1b5473edb39" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">此时将显示一条消息、指出正在下载报告。</block>
-  <block id="376c2577995f32a4c8892e8aefb140ba" category="section-title">数据调查报告中包含的内容</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">*非结构化文件数据报告*包含有关文件的以下信息：</block>
   <block id="34082694d21dbdcfc31e6e32d9fb2b9f" category="list-text">文件名</block>
   <block id="8c16f0464e311229da94de789324309e" category="list-text">位置类型</block>
@@ -3117,7 +3109,6 @@
   <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">此操作将删除此实例以及BlueXP分类收集的所有关联数据。</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">从内部部署中卸载BlueXP分类</block>
   <block id="19699e7aed7e972e489e53b7a581039d" category="paragraph">如果不再需要使用BlueXP分类、或者您的问题描述 需要重新安装、则可以从主机卸载BlueXP分类。</block>
-  <block id="2c81bcce32daace3a1e27ca8e62dfd40" category="list-text">要从主机卸载软件、请在主机上运行<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>脚本、例如：</block>
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">登录到BlueXP分类主机</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">请参见操作说明<block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>。</block>
   <block id="bf9282cd68ceb267317aa336c787020b" category="summary">策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。</block>
@@ -3437,7 +3428,6 @@
   <block id="8d097e38d6920ece5917d57da5699e5c" category="sidebar">内部 ONTAP 卷</block>
   <block id="c7596ffa8d20a8a14d1f631c94185f72" category="sidebar">Azure NetApp Files 卷</block>
   <block id="fd2fd9101d9dde8ab7090da05f8117ff" category="sidebar">适用于 ONTAP 卷的 Amazon FSX</block>
-  <block id="34a23f91ee1733d5151d67d6f922e573" category="sidebar">非 NetApp 文件共享</block>
   <block id="3305adbdafef990b45e1b0ded7f5a486" category="sidebar">查看有关数据的详细信息</block>
   <block id="f72e4f10556fdc1e84c715407cbda16b" category="sidebar">查看包含私有信息的文件</block>
   <block id="53aba5c7ba7952b6d58e9dfb83a4516e" category="sidebar">查看存储中重复的文件</block>
@@ -3481,4 +3471,28 @@
   <block id="aeb69ebcaffd7e18cd55db906e582bf5" category="sidebar">删除OneDrive、SharePoint或Google Drive帐户</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">参考</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="0a401367ec8a2cd84bb197e6d12c99af" category="doc">1.39 版</block>
+  <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">此BlueXP  分类版本更新了数据调查报告的导出流程。此导出更新适用于对数据执行其他分析、为数据创建其他可视化效果或与他人共享数据调查结果。</block>
+  <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">以前、数据调查报告导出限制为10、000行。此版本已删除限制、您可以导出所有数据。通过此更改、您可以从数据调查报告导出更多数据、从而提高数据分析的灵活性。</block>
+  <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">您可以选择工作环境、卷、目标文件夹以及JSON或CSV格式。导出的文件名包含一个时间戳、可帮助您确定数据的导出时间。</block>
+  <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">支持的工作环境包括：</block>
+  <block id="253b40ae359ba25b56231803430c4873" category="list-text">ONTAP</block>
+  <block id="a512cd9b163bcb1be6bf96aa95fdfe74" category="list-text">共享组</block>
+  <block id="d3fdc77553ad7d05684cea9b7806dac8" category="paragraph">从数据调查报告导出数据时存在以下限制：</block>
+  <block id="d33a90467b78849917ec44b3e694a192" category="list-text">要下载的最大记录数为5亿。每种类型(文件、目录和表)</block>
+  <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">100万条记录预计需要大约35分钟才能导出。</block>
+  <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">调查存储在组织中的数据</block>
+  <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">有关数据调查和报告的详细信息，请参见<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>。</block>
+  <block id="251452e49ab5b88b5d8545e58cd46509" category="admonition">如果您需要通过BlueXP  分类来识别其他私有数据类型、例如其他国家/地区ID编号或医疗保健标识符、请联系您的客户经理。</block>
+  <block id="2a09f412ecce26a24c17d782c064aa73" category="paragraph">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。</block>
+  <block id="b995ac679338c896401b451552e5d419" category="paragraph">*查看所有复制的文件*</block>
+  <block id="ee27fa3e6dfe09f89a9d57742c167aa9" category="paragraph">*查看特定文件是否重复*</block>
+  <block id="47b72e580332bb9da872607466b406bc" category="paragraph">此报告以.CSV或.JSON文件的形式提供、您可以将其保存到本地计算机。</block>
+  <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">*数据调查报告中包含的内容*</block>
+  <block id="f3f4c1edbf92907aa9051152a36ae4cc" category="list-title">生成报告的步骤</block>
+  <block id="868f49e80cf5d3f7ac26cbec13a8d0be" category="list-text">选择以下载数据的.CSV或.jSON报告，然后单击*Download Report*。</block>
+  <block id="8b93cae59bfdd9d1f5373c4f243f1891" category="paragraph"><block ref="8b93cae59bfdd9d1f5373c4f243f1891" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">要从主机卸载此软件、请在BlueXP  分类主机上运行此<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>脚本、例如：</block>
+  <block id="009d2060a609114df262eff04e83f241" category="section-title">2025年1月22日</block>
+  <block id="987a49b32f868f747d862315b00a6b36" category="sidebar">文件共享(CIFS、NFS)</block>
 </blocks>

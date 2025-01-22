@@ -19,18 +19,20 @@ indexpage:
       url: task-deploy-compliance-onprem.html
   - title: 扫描数据源
     links:
-    - title: Cloud Volumes ONTAP 卷
-      url: task-getting-started-compliance.html
-    - title: 内部 ONTAP 卷
-      url: task-getting-started-compliance.html
-    - title: Azure NetApp Files 卷
-      url: task-scanning-anf.html
     - title: 适用于 ONTAP 卷的 Amazon FSX
       url: task-scanning-fsx.html
-    - title: 非 NetApp 文件共享
-      url: task-scanning-file-shares.html
+    - title: Azure NetApp Files 卷
+      url: task-scanning-anf.html
+    - title: Cloud Volumes ONTAP 卷
+      url: task-getting-started-compliance.html
     - title: 数据库架构
       url: task-scanning-databases.html
+    - title: 文件共享(CIFS、NFS)
+      url: task-scanning-file-shares.html
+    - title: 内部 ONTAP 卷
+      url: task-getting-started-compliance.html
+    - title: StorageGRID
+      url: task-scanning-storagegrid.html
   - title: 查看有关数据的详细信息
     links:
     - title: 查看包含私有信息的文件

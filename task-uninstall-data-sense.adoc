@@ -46,7 +46,7 @@ image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按�
 image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按钮的屏幕截图。"]
 
 . 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。
-. 要从主机卸载软件、请在主机上运行 `cleanup.sh`脚本、例如：
+. 要从主机卸载此软件、请在BlueXP  分类主机上运行此 `cleanup.sh`脚本、例如：
 +
 [source, cli]
 ----
