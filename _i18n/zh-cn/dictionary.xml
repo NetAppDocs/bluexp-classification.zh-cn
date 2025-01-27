@@ -3495,4 +3495,5 @@
   <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">要从主机卸载此软件、请在BlueXP  分类主机上运行此<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>脚本、例如：</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025年1月22日</block>
   <block id="987a49b32f868f747d862315b00a6b36" category="sidebar">文件共享(CIFS、NFS)</block>
+  <block id="0476d890c406400d4a4b0337b0492ab6" category="paragraph">该脚本位于目录中<block ref="ef7bc183495180bf03292b7d03184b05" prefix=" " category="inline-code"></block>。</block>
 </blocks>
