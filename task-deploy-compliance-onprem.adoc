@@ -16,7 +16,7 @@ summary: 完成几个步骤、在网络中的Linux主机或云中可访问Intern
 [role="lead"]
 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。
 
-如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则内部安装可能是一个不错的选择、但这不是一个要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
+如果您更喜欢使用同时位于内部的BlueXP  分类实例扫描内部ONTAP系统、则内部安装可能是一个不错的选择、但这不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。
 
 BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。link:task-test-linux-system.html["请参见How to check if your Linux host is ready to install BlueXP classification"](英文)
 
@@ -97,10 +97,24 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 | 系统大小 | CPU | RAM (必须禁用交换内存) | 磁盘 
 
 
-| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD位于/上、或- 100 GiB位于/opt上-可用于/var/lib/Docker上- 5 GiB位于/tmp上 
+| *超大* | 32个CPU | 128 GB RAM  a| 
+** 1 TiB SSD (位于/上)或100 GiB (位于/opt上)
+** 在/var/lib/Docker上提供了»»»»»»»»»»»»»»»»»»
+** /tmp 上 5 GiB
+** *对于Podman，/tmp*上为5 GB
+** *对于Podman，/var/tmp*上为30 GB
 
 
-| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD (位于/上)、或- 100 GiB (位于/opt上)- 395 GiB (位于/var/lib/Docker上)、或用于Podman /var/lib/containers或用于Podman /var/lib/containers -/tmp上5 GiB 
+
+
+| *大型* | 16个CPU | 64 GB RAM  a| 
+** 500 GiB SSD (位于/上)或100 GiB (位于/opt上)
+** 395 GiB可从/var/lib/Docker或Podman /var/lib/containers或Podman /var/lib/containers获得
+** /tmp 上 5 GiB
+** *对于Podman，/tmp*上为5 GB
+** *对于Podman，/var/tmp*上为30 GB
+
+
 |===
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +

@@ -10,10 +10,24 @@
 | 系统大小 | CPU | RAM (必须禁用交换内存) | 磁盘 
 
 
-| *超大* | 32个CPU | 128 GB RAM | 1 TiB SSD位于/上、或- 100 GiB位于/opt上-可用于/var/lib/Docker上- 5 GiB位于/tmp上 
+| *超大* | 32个CPU | 128 GB RAM  a| 
+** 1 TiB SSD (位于/上)或100 GiB (位于/opt上)
+** 在/var/lib/Docker上提供了»»»»»»»»»»»»»»»»»»
+** /tmp 上 5 GiB
+** *对于Podman，/tmp*上为5 GB
+** *对于Podman，/var/tmp*上为30 GB
 
 
-| *大型* | 16个CPU | 64 GB RAM | 500 GiB SSD (位于/上)、或- 100 GiB (位于/opt上)- 395 GiB (位于/var/lib/Docker上)、或用于Podman /var/lib/containers或用于Podman /var/lib/containers -/tmp上5 GiB 
+
+
+| *大型* | 16个CPU | 64 GB RAM  a| 
+** 500 GiB SSD (位于/上)或100 GiB (位于/opt上)
+** 395 GiB可从/var/lib/Docker或Podman /var/lib/containers或Podman /var/lib/containers获得
+** /tmp 上 5 GiB
+** *对于Podman，/tmp*上为5 GB
+** *对于Podman，/var/tmp*上为30 GB
+
+
 |===
 * 在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：
 +

@@ -11,11 +11,9 @@
   <block id="acff74627293e3e739a3c24e5fec03c2" category="cell">*超大*</block>
   <block id="8a0a1142229b3b639f68556794cbd985" category="cell">32个CPU</block>
   <block id="228d50520d6c2a627ecce76f2775d5e1" category="cell">128 GB RAM</block>
-  <block id="92194a80ea376740e10d5ee7343f171c" category="cell">1 TiB SSD位于/上、或- 100 GiB位于/opt上-可用于/var/lib/Docker上- 5 GiB位于/tmp上</block>
   <block id="c1b7308083354b8b60760460bcce3ccc" category="cell">*大型*</block>
   <block id="dc8179e6e72156a5578bf35cf9574540" category="cell">16个CPU</block>
   <block id="5a1fdf37d5cd85436f7504641d78b95f" category="cell">64 GB RAM</block>
-  <block id="30786f70a10900b6a9d4fd46363a55cb" category="cell">500 GiB SSD (位于/上)、或- 100 GiB (位于/opt上)- 395 GiB (位于/var/lib/Docker上)、或用于Podman /var/lib/containers或用于Podman /var/lib/containers -/tmp上5 GiB</block>
   <block id="d5c832490c0ab9dcb105acd9ee7b4709" category="list-text">在云中为BlueXP分类安装部署计算实例时、我们建议使用满足上述"大型"系统要求的系统：</block>
   <block id="e6414c92b8fa46238f4135e4d3e45674" category="inline-link-macro">请参见其他AWS实例类型</block>
   <block id="b5f08a168a732355a95d9acdc430dcaf" category="list-text">* Amazon Elelic计算云(Amazon EC2)实例类型*：建议使用"m6i.4x大"。<block ref="2fad631c28a07a1344ecdbaabb5084bf" category="inline-link-macro-rx"></block>(英文)</block>
@@ -1235,7 +1233,6 @@
   <block id="05e22c2c931d6a4218f029a72eeb9206" category="inline-link">了解BlueXP Connector和BlueXP分类的不同部署模式</block>
   <block id="3c86f5b7f0c9db7841cc30ae9d32c2c2" category="paragraph"><block ref="a9635649936a46cf7723db5b3c00a913" category="inline-link-rx"></block>(英文)</block>
   <block id="4f7157701d2db96edcc01457067a6771" category="inline-link-macro">在可访问Internet的内部站点中部署BlueXP分类</block>
-  <block id="90815e3d99ff61b4887b2f941fff4e46" category="paragraph">请注意，您也可以<block ref="1a9c56cdde8c9a93a744fbe95f12b64a" category="inline-link-macro-rx"></block>。</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link-macro">请参见How to check if your Linux host is ready to install BlueXP classification</block>
   <block id="e883a1e45b8fba8675ed0e79f4a46200" category="paragraph">BlueXP分类安装脚本首先会检查系统和环境是否满足所需的前提条件。如果满足所有前提条件、则安装将开始。如果要独立于运行BlueXP分类安装来验证前提条件、则可以下载一个单独的软件包、该软件包仅测试前提条件。<block ref="18e558c0c5f7db863c39638301013423" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="166af9c4abcdeaeaa01f2df7fcd961a7" category="inline-link-macro">在无法访问Internet的多个主机上安装BlueXP分类</block>
@@ -1362,7 +1359,6 @@
   <block id="c22cac5d13be450c907e1e287edd3bb0" category="paragraph">您可以通过检查BlueXP分类UI页面底部的版本来验证软件是否已更新。</block>
   <block id="7d2b76399031094bccc00e1ddb38ac56" category="summary">完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。</block>
   <block id="0989b495229f449df36968cf973306ca" category="doc">在可访问Internet的主机上安装BlueXP分类</block>
-  <block id="945fde4f1ebdd85f6388e97e6bcab270" category="paragraph">如果您更喜欢使用同时位于内部的BlueXP分类实例扫描内部ONTAP 系统、则内部安装可能是一个不错的选择、但这不是一个要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
   <block id="829124a47242d374aed9d0704a781736" category="paragraph">Linux主机_in your premises_上的典型安装包含以下组件和连接。</block>
   <block id="f1250c9b73cd8f5ef391e449f0b5dcb4" category="inline-image-macro">所需的BlueXP和网络组件以及相关连接的示意图。</block>
   <block id="0b0f1899ec6aba7470224b92502a86ac" category="paragraph"><block ref="0b0f1899ec6aba7470224b92502a86ac" category="inline-image-macro-rx" type="image"></block></block>
@@ -3060,7 +3056,6 @@
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭据令牌，菜单中也有一个*更新凭据*选项 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项将提示您重新登录。请注意、这些帐户的令牌将在90天后过期。系统将发布通知、提醒您注意这一点。</block>
   <block id="11f000270c03dc2a6cc3e9a5e9262aa8" category="summary">在Linux主机上手动安装BlueXP分类之前、您可以在此主机上运行一个脚本、以验证是否满足安装BlueXP分类的所有前提条件。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点中。</block>
-  <block id="5f0111c9b1c6f9cd6124c008eaaa60d2" category="paragraph">在Linux主机上手动安装BlueXP分类之前、您可以在此主机上运行一个脚本、以验证是否满足安装BlueXP分类的所有前提条件。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点(_dark site_）中。</block>
   <block id="b739631d891333c2d4cfa4c6421ccdcb" category="paragraph">BlueXP分类安装脚本中还有一个必备测试脚本。此处介绍的脚本专为希望独立于运行BlueXP分类安装脚本来验证Linux主机的用户而设计。</block>
   <block id="bf647454e36069fd16f1a7a35cf6a865" category="section-title">入门</block>
   <block id="88a37f7fbc3214e9153d0377c4db9ded" category="paragraph">您将执行以下任务。</block>
@@ -3496,4 +3491,16 @@
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025年1月22日</block>
   <block id="987a49b32f868f747d862315b00a6b36" category="sidebar">文件共享(CIFS、NFS)</block>
   <block id="0476d890c406400d4a4b0337b0492ab6" category="paragraph">该脚本位于目录中<block ref="ef7bc183495180bf03292b7d03184b05" prefix=" " category="inline-code"></block>。</block>
+  <block id="74110511ebf4f8eea597c953392110f9" category="list-text">1 TiB SSD (位于/上)或100 GiB (位于/opt上)</block>
+  <block id="4056804c808441484593a6cd5998f06e" category="list-text">在/var/lib/Docker上提供了»»»»»»»»»»»»»»»»»»</block>
+  <block id="f9ddd233a713e3719c7d8046ab62cc1e" category="list-text">/tmp 上 5 GiB</block>
+  <block id="79d1a6d2ec5f279b488952c279f36449" category="list-text">*对于Podman，/tmp*上为5 GB</block>
+  <block id="0e1cb4b06a070e11230e1c8de75a1db8" category="list-text">*对于Podman，/var/tmp*上为30 GB</block>
+  <block id="16b9e4a3843d82aedd78ddf5568f32cc" category="list-text">500 GiB SSD (位于/上)或100 GiB (位于/opt上)</block>
+  <block id="7d5ad3bf21c571c611eed766c4a188c1" category="list-text">395 GiB可从/var/lib/Docker或Podman /var/lib/containers或Podman /var/lib/containers获得</block>
+  <block id="155acacab86f1c55608330de83b4e05f" category="paragraph">您也可以<block ref="1a9c56cdde8c9a93a744fbe95f12b64a" category="inline-link-macro-rx"></block>。</block>
+  <block id="f9cb03d21a26b2f64053d2e527396790" category="paragraph">如果您更喜欢使用同时位于内部的BlueXP  分类实例扫描内部ONTAP系统、则内部安装可能是一个不错的选择、但这不是一项要求。无论您选择哪种安装方法，软件的工作方式都完全相同。</block>
+  <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">您可以筛选调查页面的内容，以便仅显示要查看的结果。</block>
+  <block id="260af28d48ba051bd7cdd887380f9ece" category="paragraph">在Linux主机上手动安装BlueXP  分类之前、可以选择在此主机上运行一个脚本、以验证安装BlueXP  分类的所有前提条件是否都已满足。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点(_dark site_）中。</block>
+  <block id="b64eea97fe56778b0e28c568854873ed" category="paragraph">卸载BlueXP  分类软件以解决问题或从主机中永久删除该软件。删除实例也会删除索引数据所在的关联磁盘- BlueXP分类扫描的所有信息都将被永久删除。</block>
 </blocks>
