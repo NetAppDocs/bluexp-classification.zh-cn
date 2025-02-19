@@ -23,28 +23,6 @@ summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online
 ====
 
 
-== 快速入门
-
-按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看SharePoint前提条件
-[role="quick-margin-para"]
-请确保您拥有可登录到SharePoint帐户的合格凭据、并且拥有要扫描的SharePoint站点的URL。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
-[role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]登录到SharePoint帐户
-[role="quick-margin-para"]
-使用符合条件的用户凭据登录到要访问的SharePoint帐户、以便将其添加为新的数据源/工作环境。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]添加要扫描的SharePoint网站URL
-[role="quick-margin-para"]
-在 SharePoint 帐户中添加要扫描的 SharePoint 站点 URL 列表，然后选择扫描类型。您一次最多可以添加100个URL、每个帐户总共最多可以添加1、000个站点。
-
-
-
 == 查看SharePoint要求
 
 查看以下前提条件、确保您已准备好在SharePoint帐户上激活BlueXP分类。

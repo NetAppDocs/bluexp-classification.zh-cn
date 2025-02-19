@@ -18,31 +18,6 @@ summary: 完成几个步骤、即可开始使用BlueXP  分类直接扫描Stora
 
 
 
-== 快速入门
-
-按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看StorageGRID前提条件
-[role="quick-margin-para"]
-要连接到StorageGRID服务、您需要具有端点URL。
-
-[role="quick-margin-para"]
-您需要具有StorageGRID中的访问密钥和机密密钥、以便BlueXP  分类可以访问存储分段。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
-[role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]添加StorageGRID服务
-[role="quick-margin-para"]
-将StorageGRID服务添加到BlueXP  分类。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]选择要扫描的存储分段
-[role="quick-margin-para"]
-选择要扫描的存储分段、BlueXP分类将开始扫描它们。
-
-
-
 == 查看StorageGRID要求
 
 在启用BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
@@ -61,8 +36,6 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 
 如果要从安装在无法访问Internet的非公开站点上的StorageGRID扫描数据，则需要link:task-deploy-compliance-dark-site.html["在无法访问Internet的同一内部位置部署BlueXP分类"^]。这还要求在同一内部位置部署BlueXP Connector。
 
-只要实例具有Internet连接、BlueXP  分类软件的升级就会自动进行。
-
 
 
 == 将StorageGRID服务添加到BlueXP  分类
@@ -70,10 +43,8 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 添加StorageGRID服务。
 
 .步骤
-. 从“工作环境配置”页中，单击*添加数据源*>*添加StorageGRID。
-+
-image:screenshot-scanning-add-storagegrid.png["扫描配置页面的屏幕截图、您可以在其中单击添加StorageGRID按钮。"]
-
+. 从BlueXP  分类菜单中，选择*Configuration*选项。
+. 从“配置”页中，选择*Add Working Environment *>*Add StorageGRID *。
 . 在添加StorageGRID服务对话框中，输入StorageGRID服务的详细信息，然后单击*Continue*。
 +
 .. 输入要用于工作环境的名称。此名称应反映要连接到的StorageGRID服务的名称。
@@ -96,28 +67,18 @@ StorageGRID已添加到工作环境列表中。
 在StorageGRID上启用BlueXP  分类后、下一步是配置要扫描的存储分段。BlueXP分类可发现这些分段、并在您创建的工作环境中显示它们。
 
 .步骤
-. 在配置页中，从StorageGRID工作环境中单击*配置*。
-+
-image:screenshot-scanning-storagegrid-configuration.png["单击工作环境的配置以选择要扫描的分段的屏幕截图。"]
-
-. 在存储分段上启用仅映射扫描或映射和分类扫描。
+. 在配置页面中、找到StorageGRID工作环境。
+. 在StorageGRID工作环境磁贴中，选择*Configuration*。
 +
 image:screenshot-scanning-add-storagegrid-buckets.png["选择要扫描的StorageGRID存储分段的屏幕截图。"]
 
+. 完成以下步骤之一以启用或禁用扫描：
 +
-[cols="45,45"]
-|===
-| 至： | 执行以下操作： 
+** 要对存储分段启用仅映射扫描，请选择*Map*。
+** 要对存储分段启用完整扫描，请选择*映射和分类*。
+** 要禁用存储分段上的扫描，请选择*off*。
 
 
-| 在存储分段上启用仅映射扫描 | 单击 * 映射 * 
-
-
-| 对存储分段启用完全扫描 | 单击 * 映射和分类 * 
-
-
-| 禁用对存储分段的扫描 | 单击 * 关闭 * 
-|===
 
 
 .结果

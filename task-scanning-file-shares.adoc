@@ -21,28 +21,6 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 
 
 
-== 快速入门
-
-按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]查看文件共享前提条件
-[role="quick-margin-para"]
-对于 CIFS （ SMB ）共享，请确保您具有访问这些共享的凭据。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
-[role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署实例。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]创建一个组以存放文件共享
-[role="quick-margin-para"]
-组是要扫描的文件共享的容器，它用作这些文件共享的工作环境名称。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]将文件共享添加到组
-[role="quick-margin-para"]
-添加要扫描的文件共享列表并选择扫描类型。一次最多可以添加 100 个文件共享。
-
-
-
 == 查看文件共享要求
 
 在启用BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
@@ -72,8 +50,6 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 
 如果尚未部署实例、请部署BlueXP分类。
 
-只要实例具有Internet连接、BlueXP  分类软件的升级就会自动进行。
-
 
 
 == 为文件共享创建组
@@ -83,13 +59,12 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 您可以在同一个组中混用 NFS 和 CIFS 共享，但是，一个组中的所有 CIFS 文件共享都需要使用相同的 Active Directory 凭据。如果您计划添加使用不同凭据的 CIFS 共享，则必须为每组唯一的凭据创建一个单独的组。
 
 .步骤
-. 在工作环境配置页面中，单击 * 添加数据源 * > * 添加文件共享组 * 。
-+
-image:screenshot_compliance_add_fileshares_button.png["扫描配置页面的屏幕截图，您可以在其中单击添加文件共享组按钮。"]
-
-. 在添加文件共享组对话框中，输入共享组的名称，然后单击 * 继续 * 。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 从配置页中，选择*添加工作环境*>*添加文件共享组*。
+. 在"Add Files Shares"(添加文件共享组)对话框中，输入共享组的名称，然后选择*Continue*(继续)。
 
 
+.结果
 新的文件共享组将添加到工作环境列表中。
 
 
@@ -103,21 +78,22 @@ image:screenshot_compliance_add_fileshares_button.png["扫描配置页面的屏�
 在一个组中同时添加 NFS 和 CIFS 共享时，您需要运行此过程两次，一次是添加 NFS 共享，然后再次添加 CIFS 共享。
 
 .步骤
-. 在 _Working Environments_ 页面中，单击文件共享组的 * 配置 * 按钮。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 从"配置"页面上的"工作环境"磁贴中、选择文件共享组的*配置*按钮。
 +
 image:screenshot_compliance_fileshares_add_shares.png["扫描配置页面的屏幕截图，您可以在其中选择配置按钮。"]
 
-. 如果这是首次为此文件共享组添加文件共享，请单击 * 添加您的第一个共享 * 。
+. 如果这是首次为此文件共享组添加文件共享，请选择*添加您的第一个共享*。
 +
 image:screenshot_compliance_fileshares_add_initial_shares.png["屏幕截图显示了用于向组添加初始共享的 \" 添加第一个共享 \" 按钮。"]
 
 +
-如果要向现有组添加文件共享，请单击 * 添加共享 * 。
+如果要向现有组添加文件共享，请选择*Add Shares*。
 
 +
 image:screenshot_compliance_fileshares_add_more_shares2.png["显示添加共享按钮以向组添加更多共享的屏幕截图。"]
 
-. 选择要添加的文件共享的协议，添加要扫描的文件共享 - 每行一个文件共享 - 然后单击 * 继续 * 。
+. 为要添加的文件共享选择协议，添加要扫描的文件共享(每行一个文件共享)，然后选择*CONTINUOD*。
 +
 添加 CIFS （ SMB ）共享时，您需要输入 Active Directory 凭据，以提供对共享的读取访问权限。首选管理员凭据。
 
@@ -131,24 +107,16 @@ image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享�
 如果此对话框列出了任何无法添加的共享，请捕获此信息，以便解析此问题描述。在某些情况下，您可以使用更正后的主机名或共享名称重新添加共享。
 
 . 在每个文件共享上启用仅映射扫描或映射和分类扫描。
+. 执行以下操作之一以启用或禁用扫描：
 +
-[cols="45,45"]
-|===
-| 至： | 执行以下操作： 
+** 要对文件共享启用仅映射扫描，请选择*Map*。
+** 要对文件共享启用完全扫描，请选择*映射和分类*。
+** 要禁用对文件共享的扫描，请选择*off*。
 
 
-| 对文件共享启用仅映射扫描 | 单击 * 映射 * 
 
 
-| 对文件共享启用完全扫描 | 单击 * 映射和分类 * 
-
-
-| 禁用对文件共享的扫描 | 单击 * 关闭 * 
-|===
-+
 默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
-
-
 
 .结果
 BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。
@@ -157,6 +125,12 @@ BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示�
 
 == 从合规性扫描中删除文件共享
 
-如果您不再需要扫描某些文件共享，则可以随时从扫描其文件中删除各个文件共享。只需单击配置页面中的 * 删除共享 * 即可。
+如果您不再需要扫描某些文件共享，则可以随时从扫描其文件中删除各个文件共享。
 
+.步骤
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 在配置页中，选择*Remove Share*。
++
 image:screenshot_compliance_fileshares_remove_share.png["屏幕截图显示了如何从扫描单个文件共享的文件中删除该文件共享。"]
+
+

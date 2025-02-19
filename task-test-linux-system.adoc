@@ -112,7 +112,7 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
 +
-*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4版
+*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4和9.5版
 
 
 

@@ -31,53 +31,13 @@ https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/security-group-rules.html
 +
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html["AWS 弹性网络接口（ ENI ）"^]
 
-
-
-
-
-== 快速入门
-
-按照以下步骤快速入门，或者向下滚动以查看完整详细信息。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一个"]发现要扫描的FSx for ONTAP文件系统
-[role="quick-margin-para"]
-在扫描FSx for ONTAP卷之前， https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html["您必须具有配置了卷的 FSX 工作环境"^]。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["两个"]部署BlueXP  分类实例
-[role="quick-margin-para"]
-link:task-deploy-cloud-compliance.html["在BlueXP中部署BlueXP分类"^]如果尚未部署实例。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三个"]启用BlueXP  分类并选择要扫描的卷
-[role="quick-margin-para"]
-选择*配置*选项卡，并为特定工作环境中的卷激活合规性扫描。
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四个"]确保对卷的访问
-[role="quick-margin-para"]
-启用BlueXP分类后、请确保它可以访问所有卷。
-
-[role="quick-margin-list"]
-* BlueXP分类实例需要与每个FSx for ONTAP 子网建立网络连接。
 * 确保以下端口对BlueXP分类实例开放：
 +
 ** 对于 NFS —端口 111 和 2049 。
 ** 对于 CIFS —端口 139 和 445 。
 
 
-* NFS卷导出策略必须允许从BlueXP分类实例进行访问。
-* BlueXP分类需要Active Directory凭据才能扫描CIFS卷。+ 单击 * 合规性 * > * 配置 * > * 编辑 CIFS 凭据 * 并提供凭据。
 
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五个"]管理要扫描的卷
-[role="quick-margin-para"]
-选择或取消选择要扫描的卷、BlueXP分类将开始或停止扫描这些卷。
-
-
-
-== 发现要扫描的FSx for ONTAP文件系统
-
-如果您要扫描的ONTAP 的FSX文件系统尚未作为工作环境在BlueXP中、则可以此时将其添加到画布中。
-
-https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html["了解如何在BlueXP中发现或创建适用于ONTAP 的FSX文件系统"^](英文)
 
 
 
@@ -97,7 +57,8 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 
 您可以为FSx for ONTAP 卷启用BlueXP分类。
 
-. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
+. 从BlueXP  左侧导航菜单中、选择*监管>分类*。
+. 从BlueXP  分类菜单中，选择*Configuration*。
 +
 image:screenshot_fsx_scanning_activate.png["部署BlueXP分类实例后立即显示\"配置\"选项卡的屏幕截图。"]
 
@@ -106,9 +67,6 @@ image:screenshot_fsx_scanning_activate.png["部署BlueXP分类实例后立即显
 ** 要映射所有卷，请单击 * 映射所有卷 * 。
 ** 要映射所有卷并对其进行分类，请单击 * 映射并分类所有卷 * 。
 ** 要自定义每个卷的扫描，请单击 * 或选择每个卷的扫描类型 * ，然后选择要映射和 / 或分类的卷。
-+
-有关详细信息、请参见对卷启用和禁用合规性扫描。
-
 
 
 . 在确认对话框中、单击*批准*以使BlueXP分类开始扫描卷。
@@ -133,7 +91,8 @@ BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类�
 您需要为BlueXP分类提供CIFS凭据、以便它可以访问CIFS卷。
 
 .步骤
-. 在 _Configuration_ 页面上，单击 * 查看详细信息 * 以查看状态并更正任何错误。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 在配置页上，选择*View Details*以查看状态并更正任何错误。
 +
 例如、下图显示了由于BlueXP分类实例和卷之间的网络连接问题而无法扫描的卷BlueXP分类。
 
@@ -145,17 +104,11 @@ image:screenshot_fsx_scanning_no_network_error.png["扫描配置中的\"查看�
 
 NOTE: 对于FSx for ONTAP 、BlueXP分类只能扫描与BlueXP位于同一区域的卷。
 
-. 确保以下端口对BlueXP分类实例开放。
-+
-** 对于 NFS —端口 111 和 2049 。
-** 对于 CIFS —端口 139 和 445 。
-
-
 . 确保NFS卷导出策略包含BlueXP分类实例的IP地址、以便它可以访问每个卷上的数据。
 . 如果使用CIFS、请提供BlueXP分类和Active Directory凭据、以便它可以扫描CIFS卷。
 +
-.. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后选择*配置*选项卡。
-.. 对于每个工作环境，单击*编辑CIFS凭据*并输入BlueXP分类访问系统上的CIFS卷所需的用户名和密码。
+.. 从BlueXP  分类菜单中，选择*Configuration*。
+.. 对于每个工作环境，请选择*编辑CIFS凭据*并输入BlueXP  分类访问系统上的CIFS卷所需的用户名和密码。
 +
 这些凭据可以是只读的、但提供管理员凭据可确保BlueXP分类可以读取需要提升权限的任何数据。这些凭据存储在BlueXP分类实例上。
 
@@ -179,31 +132,16 @@ NOTE: 对于FSx for ONTAP 、BlueXP分类只能扫描与BlueXP位于同一区域
 
 image:screenshot_volume_compliance_selection.png["配置页面的屏幕截图，您可以在其中启用或禁用单个卷的扫描。"]
 
-[cols="45,45"]
-|===
-| 至： | 执行以下操作： 
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 在配置页面中、找到包含要扫描的卷的工作环境。
+. 执行以下操作之一：
++
+** 要对卷启用仅映射扫描，请在卷区域中选择*Map*。或者，要在所有卷上启用，请在标题区域中选择*Map*。要对卷启用完全扫描，请在卷区域中选择*映射和分类*。或者、要在所有卷上启用、请在标题区域中选择*映射和分类*。
+** 要禁用对卷的扫描，请在卷区域中选择*off*。要禁用对所有卷的扫描，请在标题区域中选择*off*。
 
 
-| 在卷上启用仅映射扫描 | 在卷区域中，单击 * 映射 * 
 
 
-| 对卷启用完全扫描 | 在卷区域中，单击 * 映射和分类 * 
-
-
-| 禁用对卷的扫描 | 在卷区域中，单击 * 关闭 * 
-
-
-|  |  
-
-
-| 在所有卷上启用仅映射扫描 | 在标题区域中，单击 * 映射 * 
-
-
-| 对所有卷启用完全扫描 | 在标题区域中，单击 * 映射和分类 * 
-
-
-| 禁用对所有卷的扫描 | 在标题区域中，单击 * 关闭 * 
-|===
 
 NOTE: 只有在标题区域中设置了 * 映射 * 或 * 映射和分类 * 设置后，才会自动扫描添加到工作环境中的新卷。如果在标题区域中设置为 * 自定义 * 或 * 关闭 * ，则需要在工作环境中添加的每个新卷上激活映射和 / 或完全扫描。
 
@@ -220,8 +158,9 @@ image:screenshot_cloud_compliance_dp_volumes.png["显示启用对 DP 卷的访�
 .步骤
 如果要扫描这些数据保护卷：
 
-. 单击页面顶部的 * 启用对 DP 卷的访问 * 。
-. 查看确认消息，然后再次单击 * 启用对 DP 卷的访问 * 。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 选择页面顶部的*启用对DP卷的访问*。
+. 查看确认消息并再次选择*启用对DP卷的访问*。
 +
 ** 系统将启用最初在源 FSX for ONTAP 文件系统中创建为 NFS 卷的卷。
 ** 最初在源 FSX for ONTAP 文件系统中创建为 CIFS 卷的卷需要输入 CIFS 凭据才能扫描这些 DP 卷。如果您已输入Active Directory凭据以便BlueXP分类可以扫描CIFS卷、则可以使用这些凭据、也可以指定一组不同的管理员凭据。
@@ -236,7 +175,7 @@ image:screenshot_compliance_dp_cifs_volumes.png["用于启用 CIFS 数据保护�
 .结果
 启用后、BlueXP分类会从已激活扫描的每个DP卷创建一个NFS共享。共享导出策略仅允许从BlueXP分类实例进行访问。
 
-* 注意： * 如果在最初启用对 DP 卷的访问时没有 CIFS 数据保护卷，稍后再添加一些，则配置页面顶部会显示 * 启用对 CIFS DP* 的访问。单击此按钮并添加 CIFS 凭据，以便能够访问这些 CIFS DP 卷。
+如果在最初启用对DP卷的访问后添加了一些CIFS数据保护卷、则配置页面顶部会显示按钮*启用对CIFS DP*的访问。选择此按钮并添加CIFS凭据、以允许访问这些CIFS DP卷。
 
 
-NOTE: Active Directory 凭据仅在第一个 CIFS DP 卷的 Storage VM 中注册，因此将扫描该 SVM 上的所有 DP 卷。驻留在其他 SVM 上的任何卷都不会注册 Active Directory 凭据，因此不会扫描这些 DP 卷。
+NOTE: Active Directory凭据仅会注册到第一个CIFS DP卷的Storage VM中、因此系统将扫描该SVM上的所有DP卷。驻留在其他 SVM 上的任何卷都不会注册 Active Directory 凭据，因此不会扫描这些 DP 卷。
