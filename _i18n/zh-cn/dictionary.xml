@@ -3306,7 +3306,6 @@
   <block id="ee8870d1e0595ddae329cf8ef1ee89fa" category="paragraph">您可以筛选调查页面的内容，以便仅显示要查看的结果。</block>
   <block id="260af28d48ba051bd7cdd887380f9ece" category="paragraph">在Linux主机上手动安装BlueXP  分类之前、可以选择在此主机上运行一个脚本、以验证安装BlueXP  分类的所有前提条件是否都已满足。您可以在网络中的Linux主机或云中的Linux主机上运行此脚本。主机可以连接到Internet、也可以位于无法访问Internet的站点(_dark site_）中。</block>
   <block id="b64eea97fe56778b0e28c568854873ed" category="paragraph">卸载BlueXP  分类软件以解决问题或从主机中永久删除该软件。删除实例也会删除索引数据所在的关联磁盘- BlueXP分类扫描的所有信息都将被永久删除。</block>
-  <block id="378c20222de970dbe3321fec8e32e947" category="list-text">Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4和9.5版</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="doc">1.40 版</block>
   <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">支持RHEL 9.5</block>
   <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">除了先前支持的版本之外、此版本还支持Red Hat Enterprise Linux v9.5。这适用于BlueXP  分类的任何手动内部安装、包括非公开站点部署。</block>
@@ -3394,4 +3393,6 @@
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025年2月19日</block>
   <block id="5904eed2db8ef4855e1fd04bcf8b7d97" category="paragraph">有关详细信息、请参见<block ref="45d8326cb72a8fa1d7ca8c887062a7ee" category="inline-link-macro-rx"></block></block>
   <block id="279961977f7de811c4eeee90a2454c87" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP  电子钱包中、以便在许可证不足时收到通知。<block ref="3e32e5c3cf84ce7c25efff198a230761" category="inline-link-rx"></block>(英文)。</block>
+  <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版</block>
+  <block id="e69d7b651771ff110228ddae78e71631" category="list-text">必须在主机系统上启用高级矢量扩展(AVX)。</block>
 </blocks>

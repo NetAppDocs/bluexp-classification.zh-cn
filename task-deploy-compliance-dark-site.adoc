@@ -144,9 +144,10 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 
 ** 以下操作系统要求使用Podman容器引擎、并且需要BlueXP分类版本1.3或更高版本：
 +
-*** Red Hat Enterprise Linux 8.8、9.0、9.1、9.2、9.3、9.4和9.5版
+*** Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版
 
 
+** 必须在主机系统上启用高级矢量扩展(AVX)。
 
 
 * * Red Hat订阅管理*：主机必须向Red Hat订阅管理注册。如果未注册、系统将无法在安装期间访问存储库来更新所需的第三方软件。
@@ -165,7 +166,11 @@ BlueXP分类软件必须在满足特定操作系统要求、RAM要求、软件�
 * Python 3.6或更高版本。 https://www.python.org/downloads/["查看安装说明"^](英文)。
 +
 ** *NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。
-** *Firewalld注意事项*：如果您计划使用 `firewalld`，建议您在安装BlueXP  分类之前启用它。运行以下命令进行配置 `firewalld`、使其与BlueXP  分类兼容：
+
+
+
+
+* *Firewalld注意事项*：如果您计划使用 `firewalld`，建议您在安装BlueXP  分类之前启用它。运行以下命令进行配置 `firewalld`、使其与BlueXP  分类兼容：
 +
 ....
 firewall-cmd --permanent --add-service=http
@@ -177,8 +182,6 @@ firewall-cmd --reload
 ....
 +
 请注意、每当启用或更新设置时、都必须重新启动Docker或Podman `firewalld`。
-
-
 
 
 
