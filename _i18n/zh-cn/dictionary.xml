@@ -3395,4 +3395,6 @@
   <block id="279961977f7de811c4eeee90a2454c87" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP  电子钱包中、以便在许可证不足时收到通知。<block ref="3e32e5c3cf84ce7c25efff198a230761" category="inline-link-rx"></block>(英文)。</block>
   <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版</block>
   <block id="e69d7b651771ff110228ddae78e71631" category="list-text">必须在主机系统上启用高级矢量扩展(AVX)。</block>
+  <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高了分类模型的准确性</block>
+  <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">的机器学习模型准确性<block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>提高了11%。</block>
 </blocks>
