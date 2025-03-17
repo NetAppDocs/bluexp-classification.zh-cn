@@ -1734,7 +1734,6 @@
   <block id="5c4a0511ffaeef83ec4f6f814c84e1f5" category="inline-xref">对卷启用和禁用合规性扫描</block>
   <block id="c0c91d6f7c9b085f79f701932b3d9cc7" category="paragraph">有关详细信息、请参见。 <block ref="95ce3baacaaadbae6a6ffc1a8884d40a" category="inline-xref-macro-rx"></block></block>
   <block id="d5e967f01610f01cb30183e6b342e630" category="list-text">在确认对话框中、单击*批准*以使BlueXP分类开始扫描卷。</block>
-  <block id="b0dab6dc992c93096b218e009d2afb00" category="paragraph">BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类完成初始扫描、结果将显示在Compliance信息板中。所需时间取决于数据量—可能需要几分钟或几小时。</block>
   <block id="e636b4a892ea62f67be639b3661d6897" category="list-text">默认情况下、如果BlueXP分类在CIFS中没有写入属性权限或在NFS中没有写入权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请单击*或为每个卷选择扫描类型*。生成的页面包含一个您可以启用的设置、以便BlueXP分类将扫描卷、而不管权限如何。</block>
   <block id="dbc6be69ce4e1e10bc890167fa46f18b" category="inline-link-macro">请参见有关此BlueXP分类限制的更多详细信息</block>
   <block id="9b39a17b00cb629e1990cbdcbad1001d" category="list-text">BlueXP分类仅扫描卷下的一个文件共享。如果卷中有多个共享、则需要将这些其他共享作为一个共享组单独扫描。<block ref="5dac6ccd725a941d49a9e107a98eb409" category="inline-link-macro-rx"></block>(英文)</block>
@@ -1810,7 +1809,6 @@
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">您可以在中查看JSON报告生成进度<block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="doc">调查存储在组织中的数据</block>
   <block id="615e6d6aa74682391d600dc61fe1090c" category="inline-xref">有关数据调查报告的详细信息、请访问此处</block>
-  <block id="56de383365196dfaf32d315a2b4b3cae" category="paragraph">如果要在精炼后将页面内容下载为报告、请单击按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block><block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>(英文)</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">在调查页面中细化结果时可用筛选器的屏幕截图。</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31d2b3f1b10e9877e365a14d5f9212e4" category="list-text">通过顶级选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。</block>
@@ -1888,20 +1886,16 @@
   <block id="936baf22f04cffa654fef2a2806e8fcd" category="cell">选择是否在存储库中复制文件。</block>
   <block id="d9ff86959e1f6d2016c4db58114184ab" category="section-title">查看文件元数据</block>
   <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">注意</block>
-  <block id="f934a72c8aa162f28cd2451333d31995" category="paragraph">在"数据调查结果"窗格中、您可以单击<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>任何单个文件以查看文件元数据。</block>
   <block id="04a8c17bf0b1e2cd69db6fba82b59dc0" category="inline-image-macro">显示数据调查页面中文件的元数据详细信息的屏幕截图。</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">创建策略</block>
   <block id="d2b1e6329082b8cf29999896b3d3d744" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="8c7af7ec06ac1cea6800f7cd16a5f7c0" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
   <block id="9538e6335cc9662b264dd0870f2ca091" category="paragraph">请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如、卷名称和权限与数据库文件无关。</block>
   <block id="fffb468d89636ef35919bda57df8f0bc" category="section-title">查看文件和目录的权限</block>
-  <block id="6fa893a1485524675ae044e22dd04d02" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享中的数据。</block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">了解如何执行此操作</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。<block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">显示详细文件权限的屏幕截图。</block>
   <block id="33b3bef30743bda1b0909a4417b45583" category="paragraph"><block ref="33b3bef30743bda1b0909a4417b45583" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ba7710e66e983f5d109ee54ee938f343" category="paragraph">您可以单击<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>任何组以查看属于该组的用户列表。</block>
-  <block id="b242cddbb1cb85737a2fd06f1d715934" category="paragraph">此外、 您可以单击某个用户或组的名称、此时将显示调查页面、并在"用户/组权限"筛选器中填充该用户或组的名称、以便您可以查看该用户或组有权访问的所有文件和目录。</block>
   <block id="33f1c68834e7b02c4c8b3b9dc4f796d3" category="section-title">检查存储系统中是否存在重复文件</block>
   <block id="5180c6809f41234a64af29e1a7ad708c" category="paragraph">您可以查看存储系统中是否存储了重复的文件。如果您要确定可节省存储空间的区域，此功能非常有用。此外，确保具有特定权限或敏感信息的某些文件不会在存储系统中进行不必要的复制也会很有帮助。</block>
   <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">系统会比较所有大小为1 MB或更大且包含个人或敏感个人信息的文件(不包括数据库)、以查看是否存在重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小范围的文件的重复项。</block>
@@ -1910,8 +1904,6 @@
   <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。或者、如果您确信不需要特定版本的文件、也可以<block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block>自行选择。</block>
   <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">如果您需要列出在工作环境中复制的所有文件以及正在扫描的数据源，则可以在 " 数据调查 " 页面中使用名为 * 重复项 &gt; 具有重复项 * 的筛选器。</block>
   <block id="285a3049428c6b155fde44a18621f551" category="paragraph">所有复制的文件都会显示在结果页面中。</block>
-  <block id="481ee5e06ca7a72cfe4a783b39c7d0e3" category="paragraph">如果要查看单个文件是否存在重复项、可以在"数据调查结果"窗格中单击<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>任何单个文件以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。</block>
-  <block id="b478c70cc88f62deb519e4d41609fff2" category="paragraph">要查看重复文件的列表及其所在位置，请单击 * 查看详细信息 * 。在下一页中，单击 * 查看重复项 * 以查看调查页面中的文件。</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">显示如何查看重复文件所在位置的屏幕截图。</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
@@ -2465,7 +2457,6 @@
   <block id="b1f7c7e36d5ee01af131dd25c658e41f" category="list-text">向右移动滑块以选择要扫描的架构。</block>
   <block id="cc939570e2fbb3d7e526d9e3e757a5f0" category="inline-image-macro">扫描配置页面的屏幕截图，您可以从中选择要扫描的架构。</block>
   <block id="46e57bba2892a9df10ae0b7ae9e43f45" category="paragraph"><block ref="46e57bba2892a9df10ae0b7ae9e43f45" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e7161999dbadbbf09541cb6606d43f78" category="paragraph">BlueXP分类开始扫描您启用的数据库架构。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
   <block id="c4758ec8f4163fa99b08557425a59f56" category="summary">完成几个步骤即可开始使用BlueXP分类直接扫描非NetApp NFS或CIFS文件共享。这些文件共享可以驻留在内部或云中。</block>
   <block id="b5e00ff2b7559dfa6fc6fe96058ede54" category="doc">扫描具有BlueXP  分类的文件共享</block>
   <block id="12a96925a3b6ebd1419915c8b0bfada9" category="paragraph">完成几个步骤、开始扫描Google Cloud NetApp卷和旧版NetApp 7-模式系统中的NFS或CIFS文件共享。这些文件共享可以驻留在内部或云中。</block>
@@ -2501,7 +2492,6 @@
   <block id="ae70ae1b93c56367429b7d2bb0ece139" category="cell">单击 * 映射 *</block>
   <block id="c8f32db0b52a7b7e31ee04bd02eddbb6" category="cell">单击 * 映射和分类 *</block>
   <block id="a988b0977fb89f6574cfc55d252b1cf9" category="cell">单击 * 关闭 *</block>
-  <block id="07ada1e73188e64ef4fd43b06b4a2a48" category="paragraph">BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。</block>
   <block id="0eb30c84638dc32a52a08e70a70b2a55" category="section-title">从合规性扫描中删除文件共享</block>
   <block id="90777a343fd7f5c83c97f473d59a2af2" category="inline-image-macro">屏幕截图显示了如何从扫描单个文件共享的文件中删除该文件共享。</block>
   <block id="c8716632d7055f530ad579b6f751cf3a" category="paragraph"><block ref="c8716632d7055f530ad579b6f751cf3a" category="inline-image-macro-rx" type="image"></block></block>
@@ -3288,7 +3278,6 @@
   <block id="47b72e580332bb9da872607466b406bc" category="paragraph">此报告以.CSV或.JSON文件的形式提供、您可以将其保存到本地计算机。</block>
   <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">*数据调查报告中包含的内容*</block>
   <block id="f3f4c1edbf92907aa9051152a36ae4cc" category="list-title">生成报告的步骤</block>
-  <block id="868f49e80cf5d3f7ac26cbec13a8d0be" category="list-text">选择以下载数据的.CSV或.jSON报告，然后单击*Download Report*。</block>
   <block id="8b93cae59bfdd9d1f5373c4f243f1891" category="paragraph"><block ref="8b93cae59bfdd9d1f5373c4f243f1891" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f22985ba0d865da0fb0dc1149ac8684" category="list-text">要从主机卸载此软件、请在BlueXP  分类主机上运行此<block ref="cc561bef4dbd2996ec2b2478f3e1042d" prefix=" " category="inline-code"></block>脚本、例如：</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025年1月22日</block>
@@ -3397,4 +3386,26 @@
   <block id="e69d7b651771ff110228ddae78e71631" category="list-text">必须在主机系统上启用高级矢量扩展(AVX)。</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高了分类模型的准确性</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">的机器学习模型准确性<block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>提高了11%。</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">1.41 版</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此BlueXP  分类版本包括一些常规改进和错误修复。它还包括：</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">扫描状态</block>
+  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">现在、BlueXP  分类可跟踪卷上_initial-_映射和分类扫描的实时进度。单独的渐进式条可跟踪映射和分类扫描、显示扫描总文件的百分比。您也可以将鼠标悬停在进度条上以查看扫描的文件数和总文件数。跟踪扫描状态可更深入地了解扫描进度、使您能够更好地规划扫描并了解资源分配。</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">要查看扫描的状态，请导航到BlueXP  分类中的**配置**，然后选择**工作环境配置**。每个卷的进度将以行显示。</block>
+  <block id="801fd0ca68a5867228784d88be71f1fd" category="paragraph">BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP  分类完成初始扫描、结果将显示在合规性信息板中。所需时间取决于数据量—可能需要几分钟或几小时。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。</block>
+  <block id="b7daace328e6741286f27d2ac5e2f47a" category="paragraph">如果要在精炼后将页面内容下载为报告、请选择按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block><block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>(英文)</block>
+  <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">您只能在"数据调查"页面上查看一次扫描的前10、000个结果或500页。</block>
+  <block id="d70c15611bfee94500d72ff7b26a3246" category="paragraph">在"数据调查结果"窗格中、为任何单个文件选择脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>按钮以查看文件元数据。</block>
+  <block id="9fb67493aa2d989d001de2e7c4462b4e" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型，请选择*查看所有权限*。此按钮仅适用于CIFS共享中的数据。</block>
+  <block id="65e8d4fae364cb5c5e1a2304c301a6ad" category="paragraph">选择任何组的下脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>按钮以查看组中的用户列表。</block>
+  <block id="21f378c3412ff535e51a7de907a17ad8" category="paragraph">选择用户或组的名称将刷新"调查"页面、以便您可以查看用户或组有权访问的所有文件和目录。</block>
+  <block id="b646744a4cb3933c62e69361ab1b0fb9" category="paragraph">如果要查看单个文件是否存在重复项、请在"数据调查结果"窗格中、为任何单个文件选择<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。</block>
+  <block id="6085b17a40397d5797aee31606263dda" category="paragraph">要查看重复文件的列表及其所在位置，请选择*View Details*。在下一页中，选择*查看复制*以查看“调查”页面中的文件。</block>
+  <block id="9dbaf2723509754918929e09594f8800" category="list-text">在"Data Investigation (数据调查)"页面中、选择<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>页面右侧顶部的按钮。</block>
+  <block id="c290efd7814d022961f943c1af408a6f" category="list-text">选择报告类型：CSV或JSON并提供**报告名称**。选择**工作环境**和**卷**，然后提供**目标文件夹路径**。</block>
+  <block id="8c574751ceb947fcd2a71198a9109d98" category="list-text">选择**下载报告**。</block>
+  <block id="794d07bb17fcda62a163d4acc32a2c19" category="paragraph">BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类完成初始扫描、结果将显示在Compliance信息板中。所需时间取决于数据量—可能需要几分钟或几小时。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。</block>
+  <block id="04bcd6818aecd8c0fe46b7d49aa8b39a" category="paragraph">BlueXP分类开始扫描您启用的数据库架构。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
+  <block id="92b3b54a8e8438f0bd12202608c4ab34" category="paragraph">BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。</block>
+  <block id="ed8331881c930d67b63a6ed99c045b28" category="paragraph">BlueXP分类开始扫描您启用的分段。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
 </blocks>

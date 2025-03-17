@@ -25,7 +25,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 
 您可以筛选调查页面的内容，以便仅显示要查看的结果。
 
-如果要在精炼后将页面内容下载为报告、请单击按钮。image:button_download.png["下载按钮"]<<数据调查报告,有关数据调查报告的详细信息、请访问此处>>(英文)
+如果要在精炼后将页面内容下载为报告、请选择按钮。image:button_download.png["下载按钮"]<<数据调查报告,有关数据调查报告的详细信息、请访问此处>>(英文)
 
 image:screenshot_compliance_investigation_filtered.png["在调查页面中细化结果时可用筛选器的屏幕截图。"]
 
@@ -33,6 +33,9 @@ image:screenshot_compliance_investigation_filtered.png["在调查页面中细化
 * 通过每列顶部的控件、您可以按数字或字母顺序对结果进行排序。
 * 通过左窗格筛选器、您可以选择下一节所述的属性来细化结果。
 
+
+
+NOTE: 您只能在"数据调查"页面上查看一次扫描的前10、000个结果或500页。
 
 
 
@@ -202,7 +205,7 @@ link:reference-collected-metadata.html#last-access-time-timestamp["查看有关"
 
 == 查看文件元数据
 
-在"数据调查结果"窗格中、您可以单击image:button_down_caret.png["注意"]任何单个文件以查看文件元数据。
+在"数据调查结果"窗格中、为任何单个文件选择脱字符image:button_down_caret.png["注意"]按钮以查看文件元数据。
 
 image:screenshot_compliance_file_details.png["显示数据调查页面中文件的元数据详细信息的屏幕截图。"]
 
@@ -214,15 +217,15 @@ image:screenshot_compliance_file_details.png["显示数据调查页面中文件�
 
 == 查看文件和目录的权限
 
-要查看有权访问文件或目录的所有用户或组的列表及其权限类型、请单击*查看所有权限*。此按钮仅适用于CIFS共享中的数据。
+要查看有权访问文件或目录的所有用户或组的列表及其权限类型，请选择*查看所有权限*。此按钮仅适用于CIFS共享中的数据。
 
 请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。link:task-add-active-directory-datasense.html["了解如何执行此操作"](英文)
 
 image:screenshot_compliance_permissions.png["显示详细文件权限的屏幕截图。"]
 
-您可以单击image:button_down_caret.png["注意"]任何组以查看属于该组的用户列表。
+选择任何组的下脱字符image:button_down_caret.png["注意"]按钮以查看组中的用户列表。
 
-此外、 您可以单击某个用户或组的名称、此时将显示调查页面、并在"用户/组权限"筛选器中填充该用户或组的名称、以便您可以查看该用户或组有权访问的所有文件和目录。
+选择用户或组的名称将刷新"调查"页面、以便您可以查看用户或组有权访问的所有文件和目录。
 
 
 
@@ -244,9 +247,9 @@ BlueXP分类使用散列技术来确定重复文件。如果任何文件与另�
 
 *查看特定文件是否重复*
 
-如果要查看单个文件是否存在重复项、可以在"数据调查结果"窗格中单击image:button_down_caret.png["注意"]任何单个文件以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。
+如果要查看单个文件是否存在重复项、请在"数据调查结果"窗格中、为任何单个文件选择image:button_down_caret.png["注意"]以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。
 
-要查看重复文件的列表及其所在位置，请单击 * 查看详细信息 * 。在下一页中，单击 * 查看重复项 * 以查看调查页面中的文件。
+要查看重复文件的列表及其所在位置，请选择*View Details*。在下一页中，选择*查看复制*以查看“调查”页面中的文件。
 
 image:screenshot_compliance_duplicate_file.png["显示如何查看重复文件所在位置的屏幕截图。"]
 
@@ -318,8 +321,9 @@ TIP: 您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在
 
 
 .生成报告的步骤
-. 在"Data Investigation (数据调查)"页面中、单击image:button_download.png["下载按钮"]页面右侧顶部的按钮。
-. 选择以下载数据的.CSV或.jSON报告，然后单击*Download Report*。
+. 在"Data Investigation (数据调查)"页面中、选择image:button_download.png["下载按钮"]页面右侧顶部的按钮。
+. 选择报告类型：CSV或JSON并提供**报告名称**。选择**工作环境**和**卷**，然后提供**目标文件夹路径**。
+. 选择**下载报告**。
 +
 image:screenshot_compliance_investigation_report2.png["包含多个选项的Download调查报告页面的屏幕截图。"]
 
