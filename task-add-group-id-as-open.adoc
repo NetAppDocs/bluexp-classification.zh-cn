@@ -4,7 +4,7 @@ permalink: task-add-group-id-as-open.html
 keywords: permissions, open to organization, file access 
 summary: '当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。' 
 ---
-= 将其他组ID定义为对组织开放
+= 在BlueXP  分类中将其他组ID定义为对组织开放
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

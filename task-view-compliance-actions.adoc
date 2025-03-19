@@ -4,7 +4,7 @@ permalink: task-view-compliance-actions.html
 keywords: compliance, actions, view progress 
 summary: '从调查结果窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。' 
 ---
-= 查看合规性操作的状态
+= 在BlueXP  分类中查看合规性操作的状态
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

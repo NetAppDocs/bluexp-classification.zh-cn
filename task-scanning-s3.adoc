@@ -4,7 +4,7 @@ permalink: task-scanning-s3.html
 keywords: cloud compliance, amazon s3, s3 buckets, amazon s3 buckets, scan s3 buckets, scan amazon s3 buckets, enable compliance s3, enable compliance on s3, s3 working environment, data sense 
 summary: BlueXP分类可以扫描Amazon S3存储分段、以确定驻留在S3对象存储中的个人数据和敏感数据。BlueXP分类可以扫描帐户中的任何存储分段、而不管该存储分段是否是为NetApp解决方案 创建的。 
 ---
-= 扫描Amazon S3存储分段
+= 扫描具有BlueXP  分类的Amazon S3存储分段
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

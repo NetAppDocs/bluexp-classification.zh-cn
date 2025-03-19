@@ -4,7 +4,7 @@ permalink: reference-collected-metadata.html
 keywords: compliance, metadata, permissions, time stamps, privacy, last access time 
 summary: BlueXP分类在对数据源和工作环境中的数据执行分类扫描时会收集某些元数据。BlueXP分类可以访问我们对您的数据进行分类所需的大多数元数据、但在某些源中、我们无法访问所需的数据。 
 ---
-= 从数据源收集的元数据
+= 从BlueXP  分类中的数据源收集的元数据
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

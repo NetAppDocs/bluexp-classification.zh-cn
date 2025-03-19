@@ -4,7 +4,7 @@ permalink: task-scanning-google-drive.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, google drive, data sense 
 summary: 完成几个步骤、开始扫描具有BlueXP分类的Google Drive帐户中的用户文件。 
 ---
-= 扫描Google Drive帐户
+= 扫描具有BlueXP  分类的Google Drive帐户
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

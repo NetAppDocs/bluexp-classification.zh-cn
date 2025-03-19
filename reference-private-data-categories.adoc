@@ -4,7 +4,7 @@ permalink: reference-private-data-categories.html
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, categories, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, sex, criminal, compliance, privacy, 
 summary: BlueXP分类可以在卷、Amazon S3存储分段、数据库、OneDrive文件夹、SharePoint帐户、 和Google Drive帐户。 
 ---
-= 私有数据的类别
+= BlueXP  分类中的私有数据类别
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: task-using-policies-deprecated.html
 keywords: compliance, privacy, filter data, highlights, policies, email alerts, notifications, aip labels, azure information protection, add labels, change labels, tags, data sense 
 summary: '策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。' 
 ---
-= 发现不合规数据时发送电子邮件警报
+= 当BlueXP  分类发现不合规数据时、发送电子邮件警报
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

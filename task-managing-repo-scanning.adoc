@@ -4,7 +4,7 @@ permalink: task-managing-repo-scanning.html
 keywords: compliance, stop scan, start scan, map scan, classify scan, data sense, pause scan, resume scan, cloud data sense, bluexp classification, bluexp 
 summary: '您可以在BlueXP分类中管理每个工作环境和数据源中的数据扫描方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。' 
 ---
-= 更改存储库的扫描设置
+= 更改存储库的BlueXP  分类扫描设置
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

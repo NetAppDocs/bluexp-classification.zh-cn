@@ -4,7 +4,7 @@ permalink: task-scanning-sharepoint.html
 keywords: cloud compliance, enable cloud compliance, privacy, compliance, sharepoint, sharepoint online, sharepoint on-premises, data sense 
 summary: 完成几个步骤、开始扫描具有BlueXP分类的SharePoint Online和SharePoint内部部署帐户中的文件。 
 ---
-= 扫描SharePoint帐户
+= 扫描具有BlueXP  分类的SharePoint帐户
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

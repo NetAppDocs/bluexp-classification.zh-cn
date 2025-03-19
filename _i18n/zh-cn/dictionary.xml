@@ -536,7 +536,6 @@
   <block id="529e58159a0567a96e1265aa7c80760b" category="inline-link">了解有关数据调查报告的更多信息</block>
   <block id="94a52882adfe57c5834eeba52357fc83" category="paragraph">如果需要、您可以将这些结果导出到报告、以便查看哪些文件因权限而正在扫描或未扫描。<block ref="12cdeb999c26684f4f639c285d1ab42e" category="inline-link-rx"></block>(英文)。</block>
   <block id="f02bee48d510d4c39a70c57e295d5f38" category="summary">在扫描数据库架构时、BlueXP分类不提供某些特性和功能。</block>
-  <block id="7aa098aa616e23b53a2f4243de4e4a07" category="doc">支持和不支持的数据库功能</block>
   <block id="f0061c0ade9d240d09f9bbadc2b27aa3" category="paragraph">在扫描数据库架构时、BlueXP分类不提供某些特性和功能。请参见以下列表。</block>
   <block id="990222def8053839fd07dd4a3c81e9dc" category="inline-link-macro">如此处所述</block>
   <block id="f408878c9c22bd52607fe08b497546a4" category="paragraph">您可以将数据库架构添加到要扫描的BlueXP  分类<block ref="32350e7a1f032d301549bb941192cdc0" category="inline-link-macro-rx"></block>中。</block>
@@ -909,7 +908,6 @@
   <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">更多按钮</block>
   <block id="e0beb155f64410441b0e76c0d0350422" category="paragraph">如果不再需要集成，也可以单击按钮，然后单击*Remove Active Directory*来删除它<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
-  <block id="a1663078538acf931413c4667ee4dc32" category="doc">将其他组ID定义为对组织开放</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。</block>
   <block id="d4b72b40125aaee8335dc145cdc6e2f1" category="inline-link-macro">登录到BlueXP分类系统</block>
@@ -952,7 +950,6 @@
   <block id="a83bc0aa2bd876d7cc5a350879bd008c" category="section-title">访问日志文件</block>
   <block id="1adc1bcbca14587886f0722f89d1238c" category="paragraph">您需要登录BlueXP分类系统才能访问日志文件。根据您是在Linux计算机上手动安装软件还是在云中部署了实例、了解如何<block ref="fee7c33f779340beee212bd52ff12fd0" category="inline-link-macro-rx"></block>。</block>
   <block id="ce50a718dd429a5e657ccbd9341b88bc" category="summary">控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。</block>
-  <block id="c5ba748f583fe4223c75a9034de9dce2" category="doc">使用监管信息板查看有关数据的监管详细信息</block>
   <block id="b01528e1880fb637601a6af0e12e237f" category="paragraph">此外、如果您计划将数据从内部位置迁移到云、则可以在移动数据之前查看数据的大小以及任何数据是否包含敏感信息。</block>
   <block id="adcf97e371b51b3ef5db6975bde3d5f6" category="section-title">在监管信息板上按敏感度和广泛权限列出的数据</block>
   <block id="c931a13b5b1b3b46f4605e5202c47eb9" category="paragraph">"监管"信息板上的"敏感数据和广泛权限"区域提供了包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件的热图。这样可以帮助您了解敏感数据可能存在哪些风险。</block>
@@ -969,7 +966,6 @@
   <block id="fb91597bc7333ab092ccda3e2c38ed9f" category="paragraph">如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。</block>
   <block id="02ac28e6aac96ae29edd75daf4e929ad" category="inline-link-macro">AIP 标签</block>
   <block id="181332a3540aa1ea82fa85f6dc6f6625" category="paragraph">有关详细信息、请参见 <block ref="831f3d64e1800ca5ef8e2c817b5a43b2" category="inline-link-macro-rx"></block> 。</block>
-  <block id="b97835ec7267635dbdb6a030bb594b9b" category="doc">查看有关组织中存储的数据的监管详细信息</block>
   <block id="f7b090ae0361a33be68398c938094aa6" category="section-title">监管信息板</block>
   <block id="e5295f0dcd9974bcca40c2b38f856a76" category="paragraph">" 监管 " 信息板可提供相关信息，以便您提高效率并控制存储资源上存储的数据的相关成本。</block>
   <block id="fddf72145fd99d867c4069e0c4b20ad7" category="inline-image-macro">BlueXP分类监管信息板的屏幕截图。</block>
@@ -1052,7 +1048,6 @@
   <block id="d3cfc5adb7d762b3824a7c02a95765b9" category="inline-image-macro">监管信息板的屏幕截图、显示了如何启动数据发现评估报告。</block>
   <block id="6e54901f5113f24a64a46275f84c34da" category="paragraph"><block ref="6e54901f5113f24a64a46275f84c34da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25f467812f399c77efcfc6346bef2db9" category="summary">通过查看有关组织中个人数据和敏感个人数据的详细信息来控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。</block>
-  <block id="1903cd6e75503b7859268e96d356ea13" category="doc">查看有关组织中存储的私有数据的合规性详细信息</block>
   <block id="aa7740206cc512120060a1c060de9543" category="paragraph">通过查看组织中有关个人数据(个人数据、II)和敏感个人数据(SPii)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。</block>
   <block id="6dd2018793ec98bc5468877b15393d0a" category="admonition">只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。</block>
   <block id="ede2af1c9594d8f1e37d9ded96531f5f" category="paragraph">默认情况下、BlueXP分类信息板显示所有工作环境和数据库的合规性数据。</block>
@@ -1525,7 +1520,6 @@
   <block id="3d704d8a7dea04055fa8e435fb3ba4a4" category="section-title">查看当前排除列表</block>
   <block id="ce591271bee64e6f1ef9a4585a8a1142" category="paragraph">此配置文件的内容可能与运行此脚本后实际提交的内容<block ref="4a7b66d4befa0d10315241d623b44528" prefix=" " category="inline-code"></block>不同<block ref="cb4115d511c44acda4b130ad06cd4322" prefix=" " category="inline-code"></block>。要查看已从BlueXP分类扫描中排除的当前目录列表、请从"//opt/NetApp/Datasense/tools/customer_configuration/data_提供 程序"运行以下命令：</block>
   <block id="d00262b814d9ca29426ceae460b61927" category="summary">BlueXP分类提供了一些报告、您可以使用这些报告更好地了解组织的数据隐私计划的状态。</block>
-  <block id="07b74cfb8b148331baaaa74d89dd4cec" category="doc">查看合规性报告</block>
   <block id="8932e9435ce03fbb7ecf0b2f738ce66a" category="paragraph">默认情况下、BlueXP分类信息板显示所有工作环境、数据库和数据源的合规性和监管数据。如果要查看仅包含某些工作环境的数据的报告，请<block ref="200c05d79644e6ad09afbf686b752513" category="inline-xref-macro-rx"></block>。</block>
   <block id="16a978df0c48afdfbda069f5d1b195fc" category="list-text">只有在选择对数据源执行完整分类扫描后，才可以使用本节中所述的报告。已执行仅映射扫描的数据源只能生成数据映射报告。</block>
   <block id="216b4fc24b6fa4197a8fc2d1066a4de4" category="section-title">隐私风险评估报告</block>
@@ -1776,7 +1770,6 @@
   <block id="5f9318195cc151f5faab62105798a8f9" category="list-text">激活要扫描的每个DP卷。</block>
   <block id="b9061f396efcc4df381ceed3ac729d32" category="paragraph">启用后、BlueXP分类会从已激活扫描的每个DP卷创建一个NFS共享。共享导出策略仅允许从BlueXP分类实例进行访问。</block>
   <block id="786452cdc534ba8395eb7a26c9ab3efc" category="summary">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。</block>
-  <block id="493287f21a2aa7f90cebc83c869352a4" category="doc">调查数据调查页面上存储的数据</block>
   <block id="8d2b3a00bc0d44767cf3d5dfed11884d" category="section-title">筛选"数据调查"页面中的数据</block>
   <block id="5ba18772d6c4efd6fedbaf5fb29d559a" category="paragraph">您可以筛选调查页面的内容，以便仅显示要查看的结果。这是一项功能非常强大的功能、因为在对数据进行细化后、您可以使用页面顶部的按钮栏执行各种操作、包括复制文件、移动文件、向文件添加标记或AIP标签等。</block>
   <block id="b3c7c4e0f0d5f23cefa1d143f9a57eb7" category="section-title">按标记、标签、已分配用户和策略筛选数据</block>
@@ -2209,8 +2202,6 @@
   <block id="73b79920d299fa15b37932692eeed2d3" category="paragraph">请注意，您也可以在查看文件的元数据详细信息时删除单个文件。只需单击 * 删除文件 * 。</block>
   <block id="78933a7726c13f608f7d7da25c47d184" category="inline-image-macro">屏幕截图显示了从 " 数据调查 " 页面中的文件元数据详细信息中选择的删除文件按钮。</block>
   <block id="1ae48305acc0dd19cfd8f7461fcc887a" category="paragraph"><block ref="1ae48305acc0dd19cfd8f7461fcc887a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fda538fb93989725ef231d5f156d3ee9" category="summary">您可以管理在每个工作环境和数据源中扫描数据的方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
-  <block id="86e9fad25d6f638eb7f7e437763b425e" category="doc">重新扫描现有存储库的数据</block>
   <block id="e9ef05a76f2eb11216d8bcec1c8a1ee1" category="paragraph">BlueXP分类会持续扫描您的数据、以检测您添加的存储库中的增量更改。但是、系统扫描所有环境需要一些时间、并且无法控制所扫描的存储库的顺序。如果您需要立即重新扫描特定存储库以使更改反映在系统中、则可以选择该存储库并重新扫描它。这样、您可以优先扫描某些数据、而不是扫描其他数据。执行重新扫描操作后、选定存储库将恢复为按正常BlueXP分类计划进行扫描的状态。</block>
   <block id="c07dbec3e7acd472789625d35a7563da" category="paragraph">BlueXP分类支持扫描除Amazon S3和数据库之外的所有数据源类型上的目录。目前、我们支持重新扫描单个目录(文件夹或共享)或多个目录。未来的支持包括重新扫描其他存储库类型(文件、数据库等)。</block>
   <block id="62796d34bcb4d2217e01776ba00d5ea0" category="list-text">重新扫描目录时、目录中的所有文件都会重新扫描、但不会重新扫描目录中的子文件夹。</block>
@@ -2224,7 +2215,6 @@
   <block id="64305177aa881c77aecfabbcc7100f17" category="inline-image-macro">显示如何重新扫描单个文件夹或共享的屏幕截图。</block>
   <block id="4f70b74049fac9e8f382a26a4f516f44" category="paragraph"><block ref="4f70b74049fac9e8f382a26a4f516f44" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d4af8d75643e49d82b42b7eb654ed0c7" category="summary">您可以在BlueXP分类中管理每个工作环境和数据源中的数据扫描方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。</block>
-  <block id="43ec96609274e10e69e4ef1f50473aba" category="doc">更改存储库的扫描设置</block>
   <block id="1ba8a6d88a1ff9a34215586899b08a1e" category="paragraph">您可以管理在每个工作环境和数据源中扫描数据的方式。您可以基于"存储库"进行更改；这意味着您可以根据所扫描的数据源类型对每个卷、架构、用户等进行更改。</block>
   <block id="e4723f182b426a80c2a46707ff02e15e" category="inline-link-macro">映射扫描或映射&amp;amp；分类扫描</block>
   <block id="926f6a4e85f1593fffa7270c143e3ddb" category="paragraph">您可以更改的一些内容包括是否扫描存储库以及BlueXP  分类是否正在执行<block ref="9c20ac53e6a16bb1a8678a8405359003" category="inline-link-macro-rx"></block>。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。</block>
@@ -2902,7 +2892,6 @@
   <block id="2556206d42384bb829190e0aafdb0def" category="inline-link-macro">登录到BlueXP分类主机</block>
   <block id="3d156543c6fce54302812044d96a7f13" category="paragraph">请参见操作说明<block ref="4d88ed2399fdae83afcc83672f5b6c79" category="inline-link-macro-rx"></block>。</block>
   <block id="bf9282cd68ceb267317aa336c787020b" category="summary">策略类似于自定义筛选器的收藏夹列表，可在 " 调查 " 页面中为常见请求的合规性查询提供搜索结果。BlueXP分类可根据常见客户请求提供一组预定义策略。您可以创建自定义策略，为特定于您的组织的搜索提供结果。</block>
-  <block id="d78b3e7832ff9a2bb5655d9088bc9162" category="doc">发现不合规数据时发送电子邮件警报</block>
   <block id="f38e65de4ce9c990f949a6ec4d679e75" category="paragraph">当某些关键策略返回结果时、BlueXP分类可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得通知来保护数据。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。</block>
   <block id="7b58cd26f9f4676d5e7fb384e4fd3990" category="paragraph">您可以在创建策略或编辑任何策略时配置此设置。</block>
   <block id="b1b39ff951119dbc880b7e58c9b4a20d" category="paragraph">按照以下步骤向现有策略添加电子邮件更新。</block>
@@ -3010,7 +2999,6 @@
   <block id="9b81ccdb2be13f884e301547dfac52b2" category="cell">包含 20 个以上敏感个人数据标识符的文件，或者包含敏感个人数据的行数超过 50% 的数据库列。</block>
   <block id="d3566f9763235eb9dbff68cd1220088a" category="cell">包含 20 多个敏感个人或数据库列的文件，其中 50% 以上的行包含敏感个人</block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">从调查结果窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。</block>
-  <block id="43ed2558da29e111d7b394e516d927d4" category="doc">查看合规性操作的状态</block>
   <block id="c06ccfe24df0bff683583f82911916e0" category="paragraph">从"调查结果"窗格对多个文件运行异步操作时、例如移动或删除100个文件、此过程可能需要一些时间。您可以在_Action Status_窗格中监控这些操作的状态、以便了解何时将其应用于所有文件。</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。请注意、移动单个文件等快速完成的短操作不会显示在操作状态窗格中。</block>
   <block id="402bab7d605cd8ea629df214c4351f69" category="paragraph">状态可以是：</block>
@@ -3408,4 +3396,29 @@
   <block id="92b3b54a8e8438f0bd12202608c4ab34" category="paragraph">BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。</block>
   <block id="ed8331881c930d67b63a6ed99c045b28" category="paragraph">BlueXP分类开始扫描您启用的分段。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
+  <block id="ac388a00980404a1045abf70041973da" category="doc">从BlueXP  分类中的数据源收集的元数据</block>
+  <block id="ded3f24219262642ca838641453e4d1b" category="doc">BlueXP  分类中支持和不支持的数据库功能</block>
+  <block id="1c7cd9818fa418a74067072fbf72688f" category="doc">BlueXP  分类的已知限制</block>
+  <block id="05dfdacc680b9436fb78de4fb656af88" category="doc">BlueXP  分类中的私有数据类别</block>
+  <block id="e8a464a220840b352197594e04661f3e" category="doc">在BlueXP  分类中将其他组ID定义为对组织开放</block>
+  <block id="b5ec1360131f1e423a75324d0efc44f0" category="doc">使用BlueXP  分类监管信息板查看有关数据的监管详细信息</block>
+  <block id="76ef2414276f8879430858a21291789c" category="doc">查看有关组织中存储的BlueXP  分类数据的监管详细信息</block>
+  <block id="511cd9560854198c9959a180d13c7867" category="doc">查看有关组织中存储的BlueXP  分类私有数据的合规性详细信息</block>
+  <block id="b5d93be173a184a4fb6db8a39efd574d" category="doc">查看BlueXP  分类合规性报告</block>
+  <block id="85d2f6a5391a9076821c031dc32f719c" category="doc">获取有关BlueXP  分类的帮助</block>
+  <block id="bc4afc67652efc7bb46ea216ef816335" category="doc">调查存储在BlueXP  分类数据调查页面上的数据</block>
+  <block id="6b41c846432704bbeebdc71cd92e0ac2" category="doc">根据BlueXP  分类调查存储在您的组织中的数据</block>
+  <block id="26518067b705171b7a519040ef4d3e8d" category="doc">使用BlueXP  分类管理您的私有数据</block>
+  <block id="f9a1c072a8a2ed1caed0ec764af24540" category="summary">您可以管理在每个工作环境和数据源中扫描数据的方式。您可以基于存储库进行更改；这意味着您可以根据所扫描的数据源类型对每个卷、存储分段、共享、架构、用户等进行更改。</block>
+  <block id="a57cc3ea6135535b80c7952038f60bd1" category="doc">重新扫描具有BlueXP  分类的现有存储库的数据</block>
+  <block id="183d7397a151f6a26c073f1c6074c9ee" category="doc">更改存储库的BlueXP  分类扫描设置</block>
+  <block id="c1d1bad1e287161eaa040e61fdc83bf4" category="doc">使用BlueXP  分类整理您的私有数据</block>
+  <block id="6a518a4dfd914c13784b960912600ad9" category="doc">扫描具有BlueXP  分类的Google Drive帐户</block>
+  <block id="2dbd2a514d84b364607087d77e299402" category="doc">扫描具有BlueXP  分类的OneDrive帐户</block>
+  <block id="87df97a3437e4de140c071b1660bff5f" category="doc">扫描具有BlueXP  分类的Amazon S3存储分段</block>
+  <block id="6915401740d9460ed0e142b3fd0b402c" category="doc">扫描具有BlueXP  分类的SharePoint帐户</block>
+  <block id="df3ac8bd169a771ea350cd5cc533e873" category="doc">注册以获得BlueXP  支持</block>
+  <block id="c0a6118312ef4878e08365a032d30e38" category="doc">当BlueXP  分类发现不合规数据时、发送电子邮件警报</block>
+  <block id="d359757dd1d4d8c3ff7449e1a600e014" category="doc">使用BlueXP  分类为数据分配策略</block>
+  <block id="81969dc99e0a4fcee700e3390e9e8d60" category="doc">在BlueXP  分类中查看合规性操作的状态</block>
 </blocks>

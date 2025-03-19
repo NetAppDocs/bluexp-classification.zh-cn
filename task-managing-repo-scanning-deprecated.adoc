@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-managing-repo-scanning-deprecated.html 
 keywords: compliance, stop scan, start scan, map scan, classify scan, data sense, pause scan, resume scan 
-summary: '您可以管理在每个工作环境和数据源中扫描数据的方式。您可以在"存储库"基础上进行更改；这意味着您可以对每个卷、存储分段、共享、架构、用户、 等。具体取决于要扫描的数据源类型。' 
+summary: 您可以管理在每个工作环境和数据源中扫描数据的方式。您可以基于存储库进行更改；这意味着您可以根据所扫描的数据源类型对每个卷、存储分段、共享、架构、用户等进行更改。 
 ---
-= 重新扫描现有存储库的数据
+= 重新扫描具有BlueXP  分类的现有存储库的数据
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
