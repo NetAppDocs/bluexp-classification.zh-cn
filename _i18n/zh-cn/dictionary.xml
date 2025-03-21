@@ -966,43 +966,24 @@
   <block id="fb91597bc7333ab092ccda3e2c38ed9f" category="paragraph">如果您已订阅 Azure 信息保护（ AIP ），则可以通过将标签应用于内容来对文档和文件进行分类和保护。通过查看分配给文件的最常用 AIP 标签，您可以查看文件中最常使用的标签。</block>
   <block id="02ac28e6aac96ae29edd75daf4e929ad" category="inline-link-macro">AIP 标签</block>
   <block id="181332a3540aa1ea82fa85f6dc6f6625" category="paragraph">有关详细信息、请参见 <block ref="831f3d64e1800ca5ef8e2c817b5a43b2" category="inline-link-macro-rx"></block> 。</block>
-  <block id="f7b090ae0361a33be68398c938094aa6" category="section-title">监管信息板</block>
   <block id="e5295f0dcd9974bcca40c2b38f856a76" category="paragraph">" 监管 " 信息板可提供相关信息，以便您提高效率并控制存储资源上存储的数据的相关成本。</block>
   <block id="fddf72145fd99d867c4069e0c4b20ad7" category="inline-image-macro">BlueXP分类监管信息板的屏幕截图。</block>
   <block id="6dddc0d3e2bbe7c0b8fdf2abf2454744" category="paragraph"><block ref="6dddc0d3e2bbe7c0b8fdf2abf2454744" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="137856a117db72a4c07a63ed4622372f" category="section-title">节省商机</block>
-  <block id="66828697b142b247f0ff8f5fde69fed4" category="paragraph">您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。单击每个项可在 " 调查 " 页面中查看筛选后的结果。</block>
   <block id="da7e456f74e6e77de59afc145e42d85d" category="list-text">* 陈旧数据 * —上次修改时间超过 3 年的数据。</block>
   <block id="c25ad118eb89526500bf75c7b98bc13a" category="list-text">* 非业务数据 * - 根据类别或文件类型视为与业务无关的数据。其中包括：</block>
   <block id="b77538c14bb334b644fd69d280cca12f" category="list-text">其他（一般 " 其他 " 类别）</block>
   <block id="dc6d9a4419750aae3db17878ffe18e5c" category="inline-link-macro">查看显示的重复文件类型</block>
-  <block id="312ffbf4bf2c65989ebbd000c725c369" category="admonition">如果您的任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会标识在_stale Data_类别中。</block>
-  <block id="2b4d8a4ffe486173d89394fc3d6ccdb3" category="section-title">结果数量最多的策略</block>
-  <block id="8eb1fec334dabbaf8e8ce1c5c57d9629" category="paragraph">在_policies_区域中、结果数最多的策略显示在列表顶部。单击策略的名称以在"调查"页面中显示结果。单击 * 查看全部 * 可查看所有可用策略的列表。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">此处</block>
-  <block id="c79d6ed12c6347fc1bdd0dd91ef85ff7" category="paragraph">单击<block ref="6160b7a55bd427b3fb91de138d9f467e" category="inline-link-macro-rx"></block>以了解有关策略的更多信息。</block>
-  <block id="b70528883a2d1dce278c3b16e0f8c608" category="section-title">数据概述</block>
-  <block id="f7e44fd8c27ddf80c242fb3dae245422" category="paragraph">_Data Overview_部分简要概述了正在扫描的所有数据。单击按钮可下载完整的数据映射报告、其中包括所有工作环境和数据源的使用容量、数据期限、数据大小和文件类型。有关此报告的完整详细信息、请参见<block ref="53e5c76c1fe1c6ab36aa624f6960e384" category="inline-xref-macro-rx"></block>。</block>
-  <block id="5054e48efbd7d7a23b39d5c48f13943f" category="section-title">按数据敏感度列出的前几个数据存储库</block>
   <block id="c84e7df5fd818e5aa11d03239984b3bd" category="paragraph">Top Data Repository by Sensitivity level_区域列出了包含最敏感项目的前四个数据存储库(工作环境和数据源)。每个工作环境的条形图分为：</block>
   <block id="c2587967478c7df25fe839d6f619f443" category="list-text">非敏感数据</block>
   <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">敏感的个人数据</block>
-  <block id="0d6f87888ce8ecaae88101ac2ce74b99" category="paragraph">您可以将光标置于每个部分上方、以查看每个类别中的项目总数。</block>
-  <block id="9f3ca55177a9cff0208b29196f6a269a" category="paragraph">单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
-  <block id="645e4f0b71c92a4a3810668742adff95" category="section-title">按打开权限类型列出的数据</block>
   <block id="140692ffca26cf04b2ffe208e40614b6" category="paragraph">_Open Permissions_area 显示正在扫描的所有文件中存在的每种类型的权限的百分比。此图表显示了以下类型的权限：</block>
   <block id="4f7b4b702c17bca954d2d186aaea71c0" category="list-text">无打开权限</block>
   <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">对组织开放</block>
   <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">打开公有</block>
   <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">未知访问</block>
-  <block id="6dddb9855aff5ba938a803fad44cc45e" category="paragraph">您可以将光标置于每个部分上方、以查看每个类别中的文件总数。单击每个区域以在 " 调查 " 页面中查看筛选后的结果，以便您可以进一步调查。</block>
-  <block id="f7610c6f6e541c5a2364ba4e2af4b7b2" category="section-title">数据期限和数据大小图</block>
-  <block id="3ec606c48dc49534660f77920d3af604" category="paragraph">您可能需要调查 _age_ 和 _size_ 图中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。</block>
-  <block id="7ae4efbbdd2f74c778120cfafe0d43a2" category="paragraph">您可以将光标置于图表中的某个点上方、以查看有关该类别中数据的使用期限或大小的详细信息。单击可查看按此期限或大小范围筛选的所有文件。</block>
   <block id="cbeed5582d295effbe84db6394c89a55" category="list-text">* 数据期限图 * —根据数据创建时间，上次访问时间或上次修改时间对数据进行分类。</block>
   <block id="1c7e3b4981e1a369ab27fd559df0e974" category="list-text">数据图形的大小 * —根据大小对数据进行分类。</block>
-  <block id="fd48a7c8c60d4f4ca62e7f192f27abea" category="admonition">如果任何数据源实施数据分层、则已驻留在对象存储中的旧数据可能会在_age of Data_图形中进行标识。</block>
-  <block id="adb18f5fb34b742716a832a865f1d8e2" category="section-title">最明确的数据分类</block>
   <block id="d23cdfe3be69f69baed369d543f36aa9" category="paragraph">"分类_"区域提供了扫描数据中最常识别和<block ref="6d5873eba480eee9411c9a14fd12e5d9" category="inline-link-macro-rx"></block>的列表<block ref="d3b5de2fe3785a28f0b4099f30abefe6" category="inline-link-macro-rx"></block>。</block>
   <block id="9a5f838c2dd7ef4d943b30889f557531" category="paragraph">类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如， " 恢复 " 或 " 员工合同 " 等类别可以包含敏感数据。调查结果时、您可能会发现员工合同存储在非安全位置。然后，您可以更正此问题描述。</block>
   <block id="f57be897cf74c2ec8ac018d90999d9ef" category="inline-link-macro">按类别查看文件</block>
@@ -1010,7 +991,6 @@
   <block id="cb45e879b815142e4e2cd0d22e5c6dd9" category="paragraph">查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。</block>
   <block id="5e8739b0bd7e602b7f492e7398e41425" category="inline-link-macro">查看文件类型</block>
   <block id="1841518caa387e4e9bb9d49c95609785" category="paragraph">有关详细信息、请参见 <block ref="624739c32d4b253a90da8dd449f98632" category="inline-link-macro-rx"></block> 。</block>
-  <block id="781de2ced798a15ae10aba6c21cb05e7" category="paragraph">数据映射报告概述了存储在企业数据源中的数据，可帮助您决定迁移，备份，安全性和合规性过程。该报告首先列出了概述、总结了您的所有工作环境和数据源、然后对每个工作环境进行了分析。</block>
   <block id="889fccf2502dc396b9b9c66885b6a093" category="paragraph">此报告包含以下信息：</block>
   <block id="03841f26d25c8d7aef0d271b79a05859" category="cell">使用容量</block>
   <block id="660bfa8882061d8f060790c38df904d6" category="cell">对于所有工作环境：列出每个工作环境的文件数和已用容量。对于单个工作环境：列出容量最多的文件。</block>
@@ -1020,33 +1000,19 @@
   <block id="e22f9909ed0cc14af3ae41c9e280cf13" category="cell">列出了工作环境中特定大小范围内的文件数。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="cell">文件类型</block>
   <block id="7d8121f1bc518fb0e6e184fba09d6b2b" category="cell">列出了工作环境中存储的每种类型的文件的总文件数和已用容量。</block>
-  <block id="1ec26f1d39a398158aea4e2d5e31e150" category="section-title">生成数据映射报告</block>
-  <block id="3ffeed0f270433c9f8f9c4d5fb1757b1" category="paragraph">您可以从BlueXP分类中的"监管"选项卡生成此报告。</block>
   <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">从BlueXP菜单中、单击*监管&gt;分类*。</block>
-  <block id="2d948e473e2d70b037f0549e51ba2a9d" category="list-text">单击*监管*、然后单击*数据映射报告*按钮。</block>
   <block id="fb5cbffc5e8f979523247654de6b0102" category="inline-image-macro">监管信息板的屏幕截图、显示了如何启动数据映射报告。</block>
-  <block id="7a9d38d1340793fbf851372aaba4270d" category="paragraph"><block ref="7a9d38d1340793fbf851372aaba4270d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fdf01a1261d4a4e788383c1af9adaf2" category="paragraph">BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其发送给其他组。</block>
   <block id="e0f8faa1f60bb9ad057dbed0ae3366cd" category="inline-link-macro">请参见如何访问分类实例上的数据</block>
   <block id="7478ade8cfb34d944424b511227fdfa2" category="paragraph">如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。<block ref="21695d5d9eec77c608b7fe7666155715" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">"更多"按钮</block>
-  <block id="2cd45d3fb160d90a0b0fe2eed550f4de" category="paragraph">请注意，您可以通过单击然后单击*更改公司名称*，自定义BlueXP  分类页面顶部报告第一页上显示的公司名称<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>。下次生成报告时、报告将包含新名称。</block>
-  <block id="7ddeaa5e00e834742bed79816a143502" category="section-title">数据发现评估报告</block>
-  <block id="a271d225cad25b912ce5858124897ffe" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
   <block id="4fc6419c6a12af16883e770d99dbf849" category="cell">数据监管问题</block>
   <block id="29682fe2b70e1decc5fcddf7dc56bb80" category="cell">详细了解您拥有的所有数据以及可以减少数据量以节省成本的领域。</block>
   <block id="e26970e3266bdd73a6217ce7b8af4c3e" category="cell">数据安全风险</block>
   <block id="7f63d3fd95ece72febd67545c6ea1e22" category="cell">由于访问权限广泛、数据可供内部或外部攻击访问的区域。</block>
   <block id="d5143a80246b3eadc253d2f9951f4497" category="cell">数据合规性差距</block>
   <block id="c75a625e2486681483f05951add3c0b6" category="cell">您的个人或敏感个人信息所在位置是为了安全和数据主体访问请求(DSAR)。</block>
-  <block id="9aec4530d7d1ab984331088496677dbd" category="paragraph">评估完成后、此报告将确定您可以在哪些方面：</block>
-  <block id="483d6c5447c876cec7c9f20a2f16d52e" category="list-text">通过更改保留策略或移动或删除某些数据(陈旧、重复或非业务数据)来降低存储成本</block>
-  <block id="5672e2463aa066853c9eb4cf4b3e3fa8" category="list-text">通过修订全局组管理策略来保护具有广泛权限的数据</block>
-  <block id="1f4e12eb3b2fcb4ce87b8ed675d3270c" category="list-text">通过将PiII迁移到更安全的数据存储来保护包含个人或敏感个人信息的数据</block>
-  <block id="1f409051045abcc9fdb719d7f375ac7a" category="section-title">生成数据发现评估报告</block>
-  <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">单击*监管*、然后单击*数据发现评估报告*按钮。</block>
   <block id="d3cfc5adb7d762b3824a7c02a95765b9" category="inline-image-macro">监管信息板的屏幕截图、显示了如何启动数据发现评估报告。</block>
-  <block id="6e54901f5113f24a64a46275f84c34da" category="paragraph"><block ref="6e54901f5113f24a64a46275f84c34da" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25f467812f399c77efcfc6346bef2db9" category="summary">通过查看有关组织中个人数据和敏感个人数据的详细信息来控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。</block>
   <block id="aa7740206cc512120060a1c060de9543" category="paragraph">通过查看组织中有关个人数据(个人数据、II)和敏感个人数据(SPii)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。</block>
   <block id="6dd2018793ec98bc5468877b15393d0a" category="admonition">只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。</block>
@@ -3421,4 +3387,54 @@
   <block id="c0a6118312ef4878e08365a032d30e38" category="doc">当BlueXP  分类发现不合规数据时、发送电子邮件警报</block>
   <block id="d359757dd1d4d8c3ff7449e1a600e014" category="doc">使用BlueXP  分类为数据分配策略</block>
   <block id="81969dc99e0a4fcee700e3390e9e8d60" category="doc">在BlueXP  分类中查看合规性操作的状态</block>
+  <block id="87259e291cf73ff3b26cf61342184d7a" category="section-title">查看监管信息板</block>
+  <block id="d930cabf64be47e8e8836a7ffce60dbd" category="list-text">从BlueXP  菜单中，选择*监管&gt;分类*。</block>
+  <block id="2cb533e4202a16a29d8a35f975b18546" category="list-text">选择*监管*。</block>
+  <block id="59fb9b8d21a1200f68a3255348e5aad7" category="paragraph">此时将显示监管信息板。</block>
+  <block id="cd44aff9043f042044d20fa9200a9168" category="section-title">查看节省机会</block>
+  <block id="64d5cdb36e33cae106a6b70c95fdc6de" category="paragraph">您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。</block>
+  <block id="d7fc3a438d308cfbcbd8fa3231391419" category="list-text">从BlueXP  分类菜单中，选择*监管*。</block>
+  <block id="6135c90ca8390ee87799da32e490b107" category="list-text">在监管信息板的每个节省商机图块中、选择*优化存储*以在调查页面中查看筛选的结果。</block>
+  <block id="1902fe7d73e4e06ca6b8981aef9ff39b" category="admonition">如果您的任何数据源实施了数据分层、则可以在_stale Data_类别中标识已驻留在对象存储c中的旧数据。</block>
+  <block id="b425c4e4b41334f19572d1e9e51d7b9a" category="section-title">查看结果最多的策略</block>
+  <block id="e026e06fb0f6082b58b19e0ae90f9015" category="paragraph">在_policies_区域中、结果数最多的策略显示在列表顶部。</block>
+  <block id="b2baefff9b3ed0ce45ba30f59cc62cb1" category="list-text">在"监控信息板"&gt;"策略"磁贴中、选择中的策略名称、以在"调查"页面中显示结果。</block>
+  <block id="e2981960c7200ea11e83da6a095d249b" category="list-text">选择*查看全部*以查看所有可用策略的列表。</block>
+  <block id="24c741c03fc84375fc7935a70023d0ac" category="paragraph">有关策略的详细信息，请参见<block ref="eb4899a5ae2ad655555b425171c60bf8" category="inline-link-macro-rx"></block>。</block>
+  <block id="9da3158754790a2bd5d492ff265be3c4" category="section-title">创建数据发现评估报告</block>
+  <block id="310db9cf8ba2482b63b9ab1efe7fe48c" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以显示关注的方面和可能的补救步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
+  <block id="ba8c35e924f949589fd6e14b916db6fc" category="paragraph">您可以使用此报告执行以下操作：</block>
+  <block id="0b41f25c79381f33f43c7337423508d5" category="list-text">通过更改保留策略或移动或删除某些数据(陈旧、重复或非业务数据)来降低存储成本。</block>
+  <block id="68e72237516d47f00bd54a5b6436d24d" category="list-text">通过修订全局组管理策略来保护具有广泛权限的数据。</block>
+  <block id="fb5a05e0fc5655d8fe4a337e5966cf54" category="list-text">通过将个人信息或敏感个人信息移至更安全的数据存储库来保护您的数据。</block>
+  <block id="85b1cb7e8e4481210af8dd08f7144383" category="list-text">在监管信息板&gt;数据概述部分中，选择*数据发现评估报告*按钮。</block>
+  <block id="b1d35e9ba32779b24fcef34132e15f8c" category="paragraph"><block ref="b1d35e9ba32779b24fcef34132e15f8c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="96929b0f4dead0308876154107c4bcb8" category="section-title">创建数据映射概述报告</block>
+  <block id="bfb48ff12b1469d0b2731ba4b39d8082" category="paragraph">"数据映射概述报告"概述了企业数据源中存储的数据、可帮助您制定迁移、备份、安全性和合规性流程决策。该报告首先列出了概述、总结了您的所有工作环境和数据源、然后对每个工作环境进行了分析。</block>
+  <block id="91c6b86f18254007884e6ec4802cc896" category="list-text">在监管信息板&gt;数据概述部分中、选择*完整数据映射概述报告*按钮。</block>
+  <block id="a1fe048fbf4d3c352f8807ca8e61a815" category="paragraph"><block ref="a1fe048fbf4d3c352f8807ca8e61a815" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35d8ebf9eb3e6fb636c2c5c3d8cddab5" category="list-text">要自定义报告第一页上显示的公司名称，请从BlueXP  分类页的顶部选择。<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>然后选择*更改公司名称*。下次生成报告时、报告将包含新名称。</block>
+  <block id="6374c84804cec753d099290142ab1465" category="section-title">查看按数据敏感度列出的前几个数据存储库</block>
+  <block id="b89e0d7e9a701dd092d61473510fba30" category="list-text">在"监管信息板"&gt;"数据概述"部分中、要查看每个类别中的项目总数、请将光标置于该栏的每个部分上方。</block>
+  <block id="6a0a0aa77d6678b0ac42141cf2b473bc" category="list-text">要筛选将显示在调查页面中的结果、请选择条形图中的每个区域、然后进行进一步调查。</block>
+  <block id="b2c12a3831282ab991643e16075afb77" category="section-title">查看敏感数据和广泛的权限</block>
+  <block id="12e6f66d938dc7c6568aaab98f275b1f" category="paragraph">敏感数据和宽权限区域显示了包含敏感数据且具有广泛权限的文件的百分比。此图表显示了以下类型的权限：</block>
+  <block id="dd0ba7576314f49b14e69d557e1760b4" category="list-text">从最严格的限制权限到水平axix上最宽松的限制。</block>
+  <block id="115db9a4d58348c93542384adcf071b0" category="list-text">从敏感度最低的数据到垂直轴上最敏感的数据。</block>
+  <block id="24885cc260e3b19c603b0d66df075323" category="list-text">在"监管"信息板&gt;"敏感数据和宽权限"部分中、要查看每个类别中的文件总数、请将光标置于每个框上方。</block>
+  <block id="a72b82c1583cb44d3bde15fd3b45db0a" category="list-text">要筛选调查页面中显示的结果、请选择一个框并进一步调查。</block>
+  <block id="912072af1bc9d9c75e7bd16ebc45d2eb" category="section-title">查看按打开权限类型列出的数据</block>
+  <block id="34a3b7a40173a85de5fff32ac7d16adc" category="list-text">在监管信息板&gt;打开权限部分中、要查看每个类别中的文件总数、请将光标置于每个框上方。</block>
+  <block id="aba1ea5ecac0b70b83e6fef3deec34cf" category="section-title">查看数据的使用期限和大小</block>
+  <block id="fc8556e6c95f991acbf5ef8610bf8c7b" category="paragraph">您可能需要调查_age_和_size_graphs中的项目、以了解是否存在任何应删除或分层到成本较低的对象存储的数据。</block>
+  <block id="b41e204625d2342ac1443afb9cd23995" category="list-text">在"监管"信息板的"数据期限"图表中、要查看有关数据期限的详细信息、请将光标置于图表中的某个点上方。</block>
+  <block id="163744c4505495283a600a1c9f062f51" category="list-text">要按期限或大小范围进行筛选、请选择该期限或大小。</block>
+  <block id="0d1f53f7df2c46c047e4cf95fc8bb8d7" category="admonition">如果您的任何数据源实施了数据分层、则可能会在_age of Data_图中标识已驻留在对象存储中的旧数据。</block>
+  <block id="d3057f8e098d72850d91f222796050a1" category="section-title">查看数据中最易识别的数据分类</block>
+  <block id="eff9c92efbc58be66538dbfacec6b4e0" category="section-title">查看最常用的分类类别</block>
+  <block id="eca4dd32f8f0367cd8e70bda21eec6b5" category="list-text">在监管信息板&gt;分类部分&gt;类别板块中、要查看有关某个类别的详细信息、请选择该类别。"调查"页面提供仅针对该类别筛选的数据。</block>
+  <block id="b08b9747886b004ab2b1be414199d0dc" category="list-text">要显示所有类别，请选择*View All*。</block>
+  <block id="ca304384fad03eae82a8e99a165128d0" category="section-title">查看最常见的文件类型</block>
+  <block id="5af3bad2ce7ed86124fdaa43b19e15c1" category="list-text">在监管信息板&gt;分类部分&gt;文件类型磁贴中、要查看有关某个文件类型的详细信息、请在监管信息板的文件类型部分中将其选中。"调查"页面提供仅针对该文件类型筛选的数据。</block>
+  <block id="3b879833e0c35c3e97d6bcec57a9aad0" category="list-text">要显示所有文件类型，请选择*View All*。</block>
 </blocks>
