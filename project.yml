@@ -39,6 +39,8 @@ sidebar:
         url: "/task-test-linux-system.html"
     - title: 激活对数据源的扫描
       entries:
+      - title: 扫描数据源概述
+        url: "/task-scanning-overview.html"
       - title: Azure NetApp Files
         url: "/task-scanning-anf.html"
       - title: 适用于 ONTAP 的 Amazon FSX

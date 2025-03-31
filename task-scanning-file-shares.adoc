@@ -21,7 +21,7 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 
 
 
-== 查看文件共享要求
+== 前提条件
 
 在启用BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
@@ -30,12 +30,6 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 请注意、BlueXP分类无法从7-模式系统提取权限或"上次访问时间"。此外、由于某些Linux版本与7-模式系统上的CIFS共享之间存在已知问题描述 、因此必须将共享配置为仅使用启用了NTLM身份验证的SMB v1。
 
 * BlueXP分类实例和共享之间需要有网络连接。
-* 确保这些端口对BlueXP分类实例开放：
-+
-** 对于 NFS —端口 111 和 2049 。
-** 对于 CIFS —端口 139 和 445 。
-
-
 * 您可以将DFS (Distributed File System、分布式文件系统)共享添加为常规CIFS共享。但是、由于BlueXP分类不知道共享是基于多个服务器/卷构建的、并将其组合为一个CIFS共享、因此、如果此消息实际上仅显示适用场景位于其他服务器/卷上的其中一个文件夹/共享、则您可能会收到有关此共享的权限或连接错误。
 * 对于 CIFS （ SMB ）共享，请确保您具有 Active Directory 凭据来提供对共享的读取访问权限。如果BlueXP分类需要扫描任何需要提升权限的数据、则首选使用管理员凭据。
 +
@@ -46,17 +40,11 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 
 
 
-== 部署BlueXP分类实例
-
-如果尚未部署实例、请部署BlueXP分类。
-
-
-
 == 为文件共享创建组
 
 您必须先添加文件共享 "group" ，然后才能添加文件共享。组是要扫描的文件共享的容器，组名称用作这些文件共享的工作环境名称。
 
-您可以在同一个组中混用 NFS 和 CIFS 共享，但是，一个组中的所有 CIFS 文件共享都需要使用相同的 Active Directory 凭据。如果您计划添加使用不同凭据的 CIFS 共享，则必须为每组唯一的凭据创建一个单独的组。
+您可以在同一组中混用NFS和CIFS共享；但是、组中的所有CIFS文件共享都需要使用相同的Active Directory凭据。如果您计划添加使用不同凭据的 CIFS 共享，则必须为每组唯一的凭据创建一个单独的组。
 
 .步骤
 . 从BlueXP  分类菜单中，选择*Configuration*。
@@ -81,32 +69,30 @@ NOTE: BlueXP分类核心版本不支持从非NetApp文件共享扫描数据。
 . 从BlueXP  分类菜单中，选择*Configuration*。
 . 从"配置"页面上的"工作环境"磁贴中、选择文件共享组的*配置*按钮。
 +
-image:screenshot_compliance_fileshares_add_shares.png["扫描配置页面的屏幕截图，您可以在其中选择配置按钮。"]
+image:screen-cl-config-file-shares.png["显示文件共享组的配置按钮的屏幕截图。"]
 
 . 如果这是首次为此文件共享组添加文件共享，请选择*添加您的第一个共享*。
 +
-image:screenshot_compliance_fileshares_add_initial_shares.png["屏幕截图显示了用于向组添加初始共享的 \" 添加第一个共享 \" 按钮。"]
+image:screen-cl-config-file-shares-addshares.png["屏幕截图显示了用于向组添加初始共享的 \" 添加第一个共享 \" 按钮。"]
 
 +
-如果要向现有组添加文件共享，请选择*Add Shares*。
+如果要向现有组添加文件共享，请选择该组，选择*Configuration*，然后选择*Add Shares*。
 
+. 为要添加的文件共享选择协议。
 +
-image:screenshot_compliance_fileshares_add_more_shares2.png["显示添加共享按钮以向组添加更多共享的屏幕截图。"]
+image:screen-cl-config-shares-add.png["显示用于向组中添加NFS或CIFS共享的选项的屏幕截图"]
 
-. 为要添加的文件共享选择协议，添加要扫描的文件共享(每行一个文件共享)，然后选择*CONTINUOD*。
+. 添加要扫描的文件共享(每行一个文件共享)。
 +
 添加 CIFS （ SMB ）共享时，您需要输入 Active Directory 凭据，以提供对共享的读取访问权限。首选管理员凭据。
 
-+
-image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享页面的屏幕截图，您可以在其中添加要扫描的共享。"]
-
+. 选择 * 继续 * 。
 +
 确认对话框将显示已添加的共享数量。
 
 +
 如果此对话框列出了任何无法添加的共享，请捕获此信息，以便解析此问题描述。在某些情况下，您可以使用更正后的主机名或共享名称重新添加共享。
 
-. 在每个文件共享上启用仅映射扫描或映射和分类扫描。
 . 执行以下操作之一以启用或禁用扫描：
 +
 ** 要对文件共享启用仅映射扫描，请选择*Map*。
@@ -114,12 +100,28 @@ image:screenshot_compliance_fileshares_add_file_shares.png["添加文件共享�
 ** 要禁用对文件共享的扫描，请选择*off*。
 
 
+. 如果您不关心上次访问时间是否已重置，请打开“*缺少写入属性时扫描”权限*开关，无论权限如何，都会扫描所有文件。
++
+默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
 
 
-默认情况下、页面顶部的*缺少"写入属性"权限时扫描*开关处于禁用状态。这意味着、如果BlueXP分类在CIFS中没有写入属性权限、或者在NFS中没有写入权限、则系统将不会扫描文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。如果您不关心上次访问时间是否已重置、请打开此开关、无论权限如何、所有文件都将被扫描。link:reference-collected-metadata.html#last-access-time-timestamp["了解更多信息。"^](英文)
 
 .结果
-BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。
+BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示在信息板和其他位置。
+
+
+
+== 跟踪扫描进度
+
+您可以跟踪初始扫描的进度。
+
+. 选择**配置**菜单。
+. 选择**工作环境配置**。
++
+每个扫描的进度显示为一个进度条。
+
+. 将鼠标悬停在进度条上、可查看扫描的文件数与卷中的总文件数之比。
+
 
 
 
@@ -129,8 +131,8 @@ BlueXP分类开始扫描您添加的文件共享中的文件、结果将显示�
 
 .步骤
 . 从BlueXP  分类菜单中，选择*Configuration*。
-. 在配置页中，选择*Remove Share*。
-+
-image:screenshot_compliance_fileshares_remove_share.png["屏幕截图显示了如何从扫描单个文件共享的文件中删除该文件共享。"]
-
+. 选择工作环境。
+. 选择 * 配置 * 。
+. 从配置页面中、选择要删除的文件共享对应的操作image:button-actions-horizontal.png["操作图标"]。
+. 从操作菜单中，选择*Remove Share*。
 
