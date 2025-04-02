@@ -217,7 +217,6 @@
   <block id="f70dc1570da6e051d772bf79c53fd19c" category="cell">文件数和已用容量</block>
   <block id="54b296bb41f878ea9f44275a6563c54b" category="cell">文件的期限和大小</block>
   <block id="15a0850e358be6a3f1534ff44f5ee252" category="inline-link-macro">数据映射报告</block>
-  <block id="36e377c8a0b4c6ebe59f98c838a743cd" category="cell">能够运行<block ref="6b956b76d0c0c2036c3988157efcea9e" category="inline-link-macro-rx"></block></block>
   <block id="05327aa199c43fe7269bc4f4f2162fd0" category="cell">数据调查页面以查看文件详细信息</block>
   <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">否</block>
   <block id="142b203627d7e1032702a2d19364935b" category="cell">搜索文件中的名称</block>
@@ -295,18 +294,13 @@
   <block id="5cb163817b0d897b166cc75827e8c477" category="inline-link-macro">了解有关类型的更多信息</block>
   <block id="0fbd08a5b8412239310f1e6624aeaf6c" category="list-text">*Types*：BlueXP  分类采用它扫描的数据并按文件类型进行细分。<block ref="a23a1c3a68ab723cb619be8574a4637d" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="13d0a191166a1a3dc29ebcd8e3aae81f" category="inline-link-macro">了解如何响应数据主体访问请求</block>
-  <block id="9557b1a380e33e450b6180ada3830e35" category="list-text">*名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。<block ref="3e345053a8e9ce1c3eacafd31ce8d78d" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="7b895b198aba9634ffec5e0ec9a3aff4" category="section-title">网络概述</block>
   <block id="6baaa35b9d6c708af7920a94de9f3951" category="paragraph">BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接器实例建立入站HTTP连接。</block>
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">了解BlueXP分类所联系的端点</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">如果您有严格的网络要求，<block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>。</block>
   <block id="1e81701a0a647214aeef7f6f5b09394b" category="section-title">BlueXP  分类中的用户角色</block>
-  <block id="52da9a73cb03e4535f2a000cdfb2c195" category="paragraph">为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息，请参阅以下内容：</block>
   <block id="0fceee5053bfc73b3d9e3253ad7b8f0b" category="inline-link">BlueXP  IAM角色</block>
-  <block id="0f2b8063a749695d6e6cabb6fbe23802" category="list-text"><block ref="ef314777f2af1a60f50572a2ebd3830d" category="inline-link-rx"></block>(在标准模式下使用BlueXP  时)</block>
-  <block id="a09850a7316fc61e73b43603f00aa4e5" category="inline-link">BlueXP  帐户角色</block>
-  <block id="50f8f96dbb569f9e44b89d471f24ac54" category="list-text"><block ref="76d5ea9223c9516110f9647ce6970108" category="inline-link-rx"></block>(在受限模式或专用模式下使用BlueXP  时)</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="aa2fb7dd454c7ccfa2e848f8e1ae91b3" category="doc">有关BlueXP分类的常见问题</block>
   <block id="d114fb433bcf7d5f0818cbc8249575fd" category="section-title">BlueXP分类服务</block>
@@ -1653,7 +1647,6 @@
   <block id="efbc704c741274e96fb34f9918eea9bc" category="cell">选择。<block ref="ea8f57582e4e2ddb4974e03972a326d7" category="inline-link-macro-rx"></block></block>
   <block id="6e264db6b651951b08b9d4e4d7a39d66" category="cell">数据主题</block>
   <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">单击此处了解有关数据主题的更多信息</block>
-  <block id="7fa4c0d19f9e22e46c1599f489a40200" category="cell">输入数据主体的全名或已知标识符。<block ref="c68d9f5d265dae5a91c67e9376307e7e" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="987fbe649715077616c7db868bf36786" category="section-title">按用户所有者和用户权限筛选数据</block>
   <block id="67d3d4113dc052ac6827e9faba9e9a7b" category="paragraph">使用以下筛选器查看文件所有者和访问数据的权限。</block>
   <block id="ce7a0235b268c4eaa207fb036462b6a0" category="cell">打开权限</block>
@@ -2939,7 +2932,6 @@
   <block id="5a78709b3e68f78b25a72a31cfcaa8f0" category="section-title">1.23 版</block>
   <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="paragraph-title">现在、搜索数据主题名称时支持日语</block>
   <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">"数据调查"页面中的"数据主题"筛选器</block>
-  <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以使用生成的信息生成<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block>。您也可以在中输入日语名称<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block>、以标识包含主题名称的文件。</block>
   <block id="988e5d1ef231d33d94784c928261f0aa" category="paragraph-title">Ubuntu现在是一个受支持的Linux分发版、您可以在其中安装BlueXP分类</block>
   <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">了解如何在安装了Ubuntu的主机上安装BlueXP分类</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04已被认定为BlueXP分类支持的操作系统。您可以在网络中的Ubuntu Linux主机上安装分类、也可以在云中的Linux主机上安装BlueXP  分类(如果使用安装程序版本1.23)。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>(英文)。</block>
@@ -2948,32 +2940,25 @@
   <block id="b5ba343fa4469021dbdf64181a67e909" category="paragraph-title">可以将BlueXP分类配置为FPolicy收集器、以便从ONTAP系统接收FPolicy事件</block>
   <block id="cf39647f74e2ee71e92d2dcb020dab2d" category="paragraph">您可以在BlueXP分类系统上为工作环境中的卷上检测到的文件访问事件收集文件访问审核日志。BlueXP分类可以捕获以下类型的FPolicy事件以及对文件执行操作的用户：创建、读取、写入、删除、重命名、 Change owner/permissions和Change SACL/DACL。</block>
   <block id="e1161f065b10936afc930fd3d9d0c76f" category="paragraph-title">现在、非公开站点支持Data sense BYOL许可证</block>
-  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">了解如何获取和上传Data sense BYOL许可证</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
   <block id="288d139ea0d21561e65bec74c2f7c646" category="section-title">1.22 版</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="paragraph-title">新的数据发现评估报告</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">请参见如何生成和使用数据发现评估报告</block>
-  <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">数据发现评估报告对扫描环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。本报告的目标是提高对数据集的数据监管问题、数据安全风险以及数据合规性差距的认识。<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>(英文)。</block>
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="paragraph-title">能够在云中的较小实例上部署BlueXP分类</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">请参见可用的实例类型和限制</block>
-  <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">在AWS环境中从BlueXP Connector部署BlueXP分类时、现在您可以从两种比默认实例更小的实例类型中进行选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会有一些限制。<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>(英文)。</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="paragraph-title">现在、可以使用独立脚本在安装BlueXP分类之前对Linux系统进行资格认定</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">如果要独立于运行BlueXP  分类安装来验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅测试前提条件。<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>(英文)。</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="321553493f3e3f76105c5f5c5633b4c1" category="section-title">1.21 版</block>
   <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="paragraph-title">新增了一项功能、可从BlueXP分类UI添加您自己的自定义类别</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">预定义的类别</block>
-  <block id="75e47d62ba360614f8cdea86c229c321" category="paragraph">现在、您可以通过BlueXP分类添加自己的自定义类别、以便BlueXP分类能够识别适合这些类别的文件。BlueXP  分类有许多<block ref="7587255274ad12f237a14fbd5f47a14a" category="inline-link-rx"></block>，因此，您可以通过此功能添加自定义类别，以确定在数据中您的组织所特有的信息的位置。</block>
-  <block id="740f66f04097135a7846557949061bf8" category="paragraph"><block ref="e14cfeac39419a4a8a842fd3611a27db" category="inline-link-rx"></block>(英文)</block>
   <block id="bca8069b731ea966c03da0cea318f9d1" category="paragraph-title">现在、您可以从BlueXP分类UI添加自定义关键字</block>
   <block id="c9383e3b8d4c0ef8e217c6982644630b" category="paragraph">BlueXP分类可以添加BlueXP分类在未来扫描中识别的自定义关键字。但是、您需要登录到BlueXP classification Linux主机并使用命令行界面添加关键字。在此版本中、BlueXP分类UI中提供了添加自定义关键字的功能、因此可以轻松添加和编辑这些关键字。</block>
   <block id="bb81f229fc6d121a288d657aea60262e" category="inline-link">了解有关从BlueXP分类UI添加自定义关键字的更多信息</block>
-  <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>(英文)</block>
   <block id="7e5ec3b51659d16db2e72438a8ca680a" category="paragraph-title">当"上次访问时间"将被更改时、BlueXP分类*不*扫描文件的功能</block>
   <block id="f9bee7a7e545f0d95664d3ccaa7b7151" category="paragraph">默认情况下、如果BlueXP分类没有足够的"写入"权限、则系统不会扫描卷中的文件、因为BlueXP分类无法将"上次访问时间"还原为原始时间戳。但是、如果您不在乎文件中的上次访问时间是否重置为原始时间、则可以在配置页面中覆盖此行为、以便BlueXP分类将扫描卷、而不管权限如何。</block>
   <block id="61d99226273ea30523883fe7209399c2" category="paragraph">与此功能结合使用时、添加了名为"扫描分析事件"的新筛选器、因此您可以查看因BlueXP分类无法还原上次访问时间而未进行分类的文件、或者即使BlueXP分类无法还原上次访问时间也进行分类的文件。</block>
   <block id="bf8521a1bd91dd809d1d007594f22498" category="inline-link">了解有关"上次访问时间时间戳"和BlueXP分类所需权限的更多信息</block>
-  <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>(英文)</block>
   <block id="9422d01ffeaf90b54d512834d7e52972" category="paragraph-title">BlueXP分类标识了三种新类型的个人数据</block>
   <block id="c750c2392e2683a70ab7309253a1954b" category="list-title">更新了目录的功能</block>
   <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">现在、数据调查报告的"轻型CSV报告"选项包括目录中的信息。</block>
@@ -2986,14 +2971,11 @@
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="paragraph-title">能够将基于策略的通知电子邮件发送到任何电子邮件地址</block>
   <block id="af415967f6e10a35f69e4fdddc729da2" category="paragraph">在早期版本的BlueXP分类中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">了解有关根据策略结果发送电子邮件警报的更多信息</block>
-  <block id="5dfcd9d1075127141684c90379617d15" category="paragraph"><block ref="f9682605316459d6868d028dc460934e" category="inline-link-rx"></block>(英文)</block>
   <block id="110171733cad0cc9610f24012ccf6ee1" category="paragraph-title">现在、您可以从BlueXP分类UI添加个人模式</block>
   <block id="b4b2d6fd13a7e1b0764dda2bc816816f" category="paragraph">BlueXP分类可以添加BlueXP分类在未来一段时间内将识别的自定义"个人数据"。但是、您需要登录到BlueXP classification Linux主机并使用命令行添加自定义模式。在此版本中、BlueXP分类UI中提供了使用正则表达式添加个人模式的功能、因此可以轻松添加和编辑这些自定义模式。</block>
   <block id="5d7647ce431c6117f0877b4d9397cbcd" category="inline-link">从BlueXP分类UI中了解有关添加自定义模式的更多信息</block>
-  <block id="75dbbfa0c63b5452f1dab4062180db11" category="paragraph"><block ref="096bf81f435bf11200f532bd4759e1e0" category="inline-link-rx"></block>(英文)</block>
   <block id="7a726788f7018e2e33cf2248365cb342" category="paragraph-title">能够使用BlueXP分类移动1、500万个文件</block>
   <block id="94b91c8b97a54caa51b5a272c3ed5e69" category="inline-link">了解有关使用BlueXP分类移动源文件的更多信息</block>
-  <block id="1a24f136700e7d996dbc845dbf267e7f" category="paragraph">过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。<block ref="51df0b03dbf1aa6425434a76a39934ae" category="inline-link-rx"></block>(英文)。</block>
   <block id="e25a297a27416e76c1a8e01af56d07ed" category="paragraph-title">能够查看有权访问SharePoint Online文件的用户数量</block>
   <block id="6e0f24b07c077e6e557a1d0fac76b6c1" category="paragraph">筛选器"可访问的用户数"现在支持存储在SharePoint Online存储库中的文件。过去仅支持CIFS共享上的文件。请注意、目前不会在此筛选器中计入非基于Active Directory的SharePoint组。</block>
   <block id="cab6c5a0928827eecbe652fb21944075" category="paragraph-title">已将新的"部分成功"状态添加到"操作状态"面板中</block>
@@ -3002,16 +2984,13 @@
   <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023年1月9日</block>
   <block id="58080b77f4121259ffde5ce32650fff6" category="section-title">1.19 版</block>
   <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="paragraph-title">可以查看包含敏感数据且过于宽松的文件图表</block>
-  <block id="fccd9d5627e0ea943a2decbcedc75caf" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这有助于您了解敏感数据在哪些方面可能存在一些风险。<block ref="7c90c3d5fe3f2a4e9ca8ce0d84318210" category="inline-link-rx"></block>(英文)。</block>
   <block id="738f7059231d5fe5c1e22879f52682fd" category="paragraph-title">数据调查页面提供了三个新筛选器</block>
   <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">可以使用新筛选器细化数据调查页面中显示的结果：</block>
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">"Number of users with access"筛选器显示了哪些文件和文件夹对一定数量的用户开放。您可以选择一个数字范围来细化结果、例如、查看51-100个用户可访问哪些文件。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">现在、"创建时间"、"发现时间"、"上次修改时间"和"上次访问时间"筛选器允许您创建自定义日期范围、而不是仅选择预定义的天数范围。例如、您可以查找"创建时间"为"超过6个月"或"最近10天"内"上次修改"日期的文件。</block>
   <block id="b862b7d304eea679b5f35e8257c465f6" category="list-text">现在、您可以使用"文件路径"筛选器指定要从筛选的查询结果中排除的路径。如果您输入包含和排除某些数据的路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除的路径中删除文件、最后显示结果。</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">查看可用于调查数据的所有筛选器的列表</block>
-  <block id="e8c2efb8e9d3b045395cb04412e0a901" category="paragraph"><block ref="3cbb63227aae75adda769f4ce4856356" category="inline-link-rx"></block>(英文)</block>
   <block id="4b273eb22f0e890dce8d8a73dba2425e" category="paragraph-title">BlueXP分类可以标识日语个人编号</block>
-  <block id="e5047cfc3a021db29e30390a5a0de3c1" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括个人和公司我的号码。<block ref="902797e77ffbfd681f1fc19dad4fefbc" category="inline-link-rx"></block>(英文)。</block>
   <block id="e7695799ba8bc92bb08a6949b8326571" category="sidebar">通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。</block>
   <block id="44b34442167c9611792529867ee76d90" category="sidebar">BlueXP分类文档</block>
   <block id="e3a146b1e8e087acabb6e5959293dcd8" category="sidebar">通过BlueXP分类(Cloud Data Sense)、您可以扫描组织混合多云中的数据并对其进行分类。BlueXP分类利用AI驱动的自然语言处理(NLR)进行上下文数据分析和分类、为您提供可指导行动的数据洞察力、以满足合规性要求、检测安全漏洞、优化成本并加快迁移速度。</block>
@@ -3130,7 +3109,6 @@
   <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">默认情况下、扫描会根据启动顺序进行排队。现在、您可以将扫描移动到队列的前面、从而确定扫描的优先级。可以确定多个扫描的优先级。优先级按先入先出的顺序指定、这意味着您优先处理的第一个扫描将移至队列的前端；您优先处理的第二个扫描将成为队列中的第二个扫描、依此类推。</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">优先权是一次性授予的。按默认顺序自动重新选择映射数据。</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">仅映射扫描</block>
-  <block id="92fbf5243922258219f1e304b1549560" category="paragraph">优先级限制为<block ref="4fb1432e3e9b17c8a7a21683abcd7d6c" category="inline-link-macro-rx"></block>；它不适用于地图扫描和分类扫描。</block>
   <block id="42968807986d9cd74ea7703d63bf3408" category="paragraph">要更改优先级：</block>
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">重试所有扫描</block>
   <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">BlueXP  分类现在支持批量重试所有失败的扫描。</block>
@@ -3181,8 +3159,6 @@
   <block id="de112667eda744a4b358697bb7edc818" category="list-text">要对存储分段启用完整扫描，请选择*映射和分类*。</block>
   <block id="da912e25717291a31093b36e55bb8641" category="list-text">要禁用存储分段上的扫描，请选择*off*。</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025年2月19日</block>
-  <block id="5904eed2db8ef4855e1fd04bcf8b7d97" category="paragraph">有关详细信息、请参见<block ref="45d8326cb72a8fa1d7ca8c887062a7ee" category="inline-link-macro-rx"></block></block>
-  <block id="279961977f7de811c4eeee90a2454c87" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP  电子钱包中、以便在许可证不足时收到通知。<block ref="3e32e5c3cf84ce7c25efff198a230761" category="inline-link-rx"></block>(英文)。</block>
   <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版</block>
   <block id="e69d7b651771ff110228ddae78e71631" category="list-text">必须在主机系统上启用高级矢量扩展(AVX)。</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高了分类模型的准确性</block>
@@ -3417,4 +3393,25 @@
   <block id="87dda2e6b67eed182754a59416a10145" category="doc">使用BlueXP  分类扫描数据源概述</block>
   <block id="9ed967b138578dbb6c57d7b336d5c696" category="paragraph">BlueXP  分类可扫描您选择的存储库(卷、数据库架构或其他用户数据)中的数据、以确定个人数据和敏感数据。然后、BlueXP  分类会映射您的组织数据、对每个文件进行分类、并确定数据中的预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。</block>
   <block id="3779db1fb21572df76305e5ede3efad1" category="sidebar">扫描数据源概述</block>
+  <block id="c00e1d18d877d030ee92aec3422b1aeb" category="paragraph">优先级限制为<block ref="377ae34afcc76614c5602798befc8a4b" category="inline-link-macro-rx"></block>；它不适用于地图扫描和分类扫描。</block>
+  <block id="fc9679220132eb8e0f499680bbe8909a" category="list-text">*名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。<block ref="8e814e02dddb19e3bb4166c15fc34470" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="e888dadabb0f55fe5c317b3b6754087e" category="paragraph">为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息、请参见<block ref="9e5b18f30859b96d93203df427b4bd3d" category="inline-link-rx"></block>(在标准模式下使用BlueXP  时)。</block>
+  <block id="d4b632c51605e0651196fc5f65069cfa" category="cell">输入数据主体的全名或已知标识符。<block ref="71815f3f7b8d4b4b725578d3162c5d1a" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="6f0ff027a4b5c5cccc90c166290d3013" category="cell">能够运行<block ref="c2177dc55e01ee229f523014b3bacb31" category="inline-link-macro-rx"></block></block>
+  <block id="a7e6da043e68990d1e9627e5da9319c2" category="paragraph">有关详细信息，请参见 <block ref="8df90f52b87f57dd64f76114b6c4e6a8" category="inline-link-macro-rx"></block>。</block>
+  <block id="3d0a52f701c42fc59411425fdc2a4746" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以使用生成的信息生成<block ref="413db830e9f14a03bda795e0ca85886f" category="inline-link-rx"></block>。您也可以在中输入日语名称<block ref="dc85c6bd448621c7d3e7987af7ac2483" category="inline-link-rx"></block>、以标识包含主题名称的文件。</block>
+  <block id="164199ecac7ab88714ff0c68b5fb98f0" category="paragraph">现在、您可以将Data Sense BYOL许可证上传到非公开站点的BlueXP数字钱包中、以便在许可证不足时收到通知。</block>
+  <block id="690fb77701b9a5e1d52617ed5c75165f" category="paragraph">数据发现评估报告对扫描环境进行了深入分析、以突出显示系统的发现结果、并显示关注领域和可能的修复步骤。本报告的目标是提高对数据集的数据监管问题、数据安全风险以及数据合规性差距的认识。<block ref="c4627434e1c3049fcb3a3e31e22a3d9b" category="inline-link-rx"></block>(英文)。</block>
+  <block id="1ae5c89ba79b84f87b649ae2fa5f0317" category="paragraph">在AWS环境中从BlueXP Connector部署BlueXP分类时、现在您可以从两种比默认实例更小的实例类型中进行选择。如果您要扫描小型环境、这可以帮助您节省云成本。但是、使用较小的实例时会有一些限制。<block ref="2baada3b185c01028d09ee4c20d5dbe7" category="inline-link-rx"></block>(英文)。</block>
+  <block id="4a21c3c87c43b2ce1a3680741fdac75b" category="paragraph">现在、您可以通过BlueXP分类添加自己的自定义类别、以便BlueXP分类能够识别适合这些类别的文件。BlueXP  分类有许多<block ref="1a375de0b29eb08d6a50e1033521c799" category="inline-link-rx"></block>，因此，您可以通过此功能添加自定义类别，以确定在数据中您的组织所特有的信息的位置。</block>
+  <block id="48f42063fd88c5b05bbc95f022b98a65" category="paragraph"><block ref="aa8fa8f46301f2e4dd7bad52f8ced829" category="inline-link-rx"></block>(英文)</block>
+  <block id="ccca5b4835512fbbf8755aa4abba98d5" category="paragraph"><block ref="370a68036df91a49d53b07df731d18c0" category="inline-link-rx"></block>(英文)</block>
+  <block id="d3a27eddcd8f572f97351ab7f7e95485" category="paragraph"><block ref="03a37a75f55bed202ddf1168c6275ab4" category="inline-link-rx"></block>(英文)</block>
+  <block id="aa5c08797883e5856cf0a5a38dd2ca6c" category="paragraph"><block ref="9e9ad8c800c18851ee5bc2fd1faca118" category="inline-link-rx"></block>(英文)</block>
+  <block id="94bbb884afcd2a61de8e4302e3427881" category="paragraph"><block ref="9bb64f9c17c4323c779617aed81c036a" category="inline-link-rx"></block>(英文)</block>
+  <block id="2defb661f23eb0aa10478fa80e570ebd" category="paragraph"><block ref="2e68ca6f1bb81e3f88754e4f0509d13d" category="inline-link-rx"></block>(英文)</block>
+  <block id="1fe8b96c968a367a4809ce820856fcfa" category="paragraph">过去、您可以让BlueXP分类将最多100、000个源文件移动到任何NFS共享。现在、一次最多可以移动1500万个文件。<block ref="ee72c203bff75f15e1eb50ecf18dfff3" category="inline-link-rx"></block>(英文)。</block>
+  <block id="7a3f4b8a61a5875e38119a7b881ac03f" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这有助于您了解敏感数据在哪些方面可能存在一些风险。<block ref="d7b9639d6680ad605dc243bfd82e033b" category="inline-link-rx"></block>(英文)。</block>
+  <block id="8a414cbe63db51de3a19474f7997ea96" category="paragraph"><block ref="f55b10f863af101d26702cf3138d8a0a" category="inline-link-rx"></block>(英文)</block>
+  <block id="2af207f2eb37384a8196d6e4ce166dff" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括个人和公司我的号码。<block ref="a5e6b492e90e47a35f52baac04519256" category="inline-link-rx"></block>(英文)。</block>
 </blocks>

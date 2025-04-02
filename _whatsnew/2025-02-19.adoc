@@ -20,7 +20,7 @@
 
 优先权是一次性授予的。按默认顺序自动重新选择映射数据。
 
-优先级限制为link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["仅映射扫描"]；它不适用于地图扫描和分类扫描。
+优先级限制为link:concept-cloud-compliance.html["仅映射扫描"]；它不适用于地图扫描和分类扫描。
 
 要更改优先级：
 

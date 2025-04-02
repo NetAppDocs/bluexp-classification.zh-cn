@@ -46,7 +46,7 @@ indexpage:
     - title: 生成合规性报告
       url: task-generating-compliance-reports.html
     - title: 响应数据主体访问请求
-      url: task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports
+      url: task-generating-compliance-reports.html
   - title: 已弃用的功能
     links:
     - title: 已弃用功能列表

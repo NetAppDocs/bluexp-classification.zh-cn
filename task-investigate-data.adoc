@@ -63,7 +63,7 @@ NOTE: 您只能在"数据调查"页面上查看一次扫描的前10、000个结�
 | 敏感个人数据 | 选择。link:reference-private-data-categories.html#types-of-sensitive-personal-data["敏感个人数据的类型"^] 
 
 
-| 数据主题 | 输入数据主体的全名或已知标识符。link:task-generating-compliance-reports.html#search-for-data-subjects-and-download-reports["单击此处了解有关数据主题的更多信息"^](英文) 
+| 数据主题 | 输入数据主体的全名或已知标识符。link:task-generating-compliance-reports.html["单击此处了解有关数据主题的更多信息"^](英文) 
 |===
 
 
