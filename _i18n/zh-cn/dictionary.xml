@@ -1264,7 +1264,6 @@
   <block id="758de85e3f025a37293713e5735825a9" category="admonition">如果软件安装在内部环境中、BlueXP分类当前无法扫描S3存储分段、Azure NetApp Files 或FSx for ONTAP。在这些情况下、您需要在云中为不同的数据源部署单独的BlueXP  分类连接器和实例<block ref="3cd9b819ecbc63be3401566b7b7cbf66" category="inline-link-rx"></block>。</block>
   <block id="d56adb545fe9309fc7a4cfd339798344" category="paragraph">在单个内部部署主机上安装BlueXP分类软件时、请查看相关要求并遵循以下步骤。</block>
   <block id="0a10409b2f38332b7a7c8f820fc0edd5" category="inline-link">观看此视频</block>
-  <block id="645d03e996949262e33f39d07370b668" category="paragraph"><block ref="e90064c25feae6986ca59b019f3b7da5" category="inline-link-rx"></block>以了解如何安装BlueXP  分类。</block>
   <block id="194351f6f6e0cb2f129f2a15d7f6df07" category="list-text">确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">如果您使用代理访问Internet：</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。</block>
@@ -1280,7 +1279,6 @@
   <block id="d7ac5ade86e4b2666f6afeef9265e1d3" category="inline-image-macro">选择用于在云中或内部的计算机上部署BlueXP分类的按钮的屏幕截图。</block>
   <block id="b38b55296c40fa4f717f81b6b88fa568" category="paragraph"><block ref="b38b55296c40fa4f717f81b6b88fa568" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bda678b1fb683a403f093f2555da8faf" category="list-text">此时将显示_Deploy Data sense on premises_对话框。复制提供的命令(例如：<block ref="a402a6c8a10b4c24d7596599c6dfb7db" prefix=" " category="inline-code"></block>)并将其粘贴到文本文件中，以便日后使用。然后单击*关闭*以关闭此对话框。</block>
-  <block id="2dfd5907ae1f7e0e308562b6add41f1d" category="paragraph">请注意、安装程序会执行预检查、以确保满足您的系统和网络要求、以便成功安装。<block ref="e374801a81d4dcec84b3740adf868110" category="inline-link-rx"></block>了解预检消息和含义。</block>
   <block id="3c2ecff14c7a136216f1928a3a8052bf" category="list-text">粘贴从步骤7复制的命令：<block ref="50a00801fc41bbffdcb652318eb14c43" prefix=" " category="inline-code"></block></block>
   <block id="388579bd3749a8791992636cbe6fcba2" category="paragraph">如果要在云实例(而不是内部环境)上安装，请添加<block ref="8a51c007faa66fa433403fdda9b5aea8" prefix=" " category="inline-code"></block>。</block>
   <block id="5cfb15b32cc8e79b78f33c5c950f2e2e" category="list-text">根据提示输入代理详细信息。如果BlueXP Connector已使用代理、则无需在此再次输入此信息、因为BlueXP分类会自动使用连接器使用的代理。</block>
@@ -2673,7 +2671,6 @@
   <block id="66670decd5d421e77fa94c728d92b561" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则Connector主机必须允许通过端口443进行出站HTTPS访问。如果Connector位于云中、则预定义的防火墙或路由规则允许所有出站通信。</block>
   <block id="a26fd5b2cbfceb82a5a56055a3eb03b2" category="section-title">运行BlueXP分类前提条件脚本</block>
   <block id="b87dc210bfdadbb1715d3a2f4432d3b2" category="paragraph">按照以下步骤运行BlueXP分类前提条件脚本。</block>
-  <block id="8b6c126d65d4a1501ecb5e4a7f296fa9" category="paragraph"><block ref="78a1f63a475eced077a3b4ccbdcfca4e" category="inline-link-rx"></block>了解如何运行前提条件脚本并解读结果。</block>
   <block id="501ccf13f0ae6f5bf8325fb7b226f1cc" category="list-text">验证您的Linux系统是否符合<block ref="1d205163b0a8ca2801018349a2f8a3d4" category="inline-xref-macro-rx"></block>。</block>
   <block id="5a3c7fe5b5c81c3229ac2d26caa35ec9" category="list-text">从下载BlueXP  分类前提条件脚本<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为*独立-前提条件-测试人员-tester-tester*&lt;version&gt;。</block>
   <block id="39ce475fbf0eef780b35fe3ac485fece" category="list-text">将文件复制到要使用的Linux主机(使用或其他方法)<block ref="8a444a43bdf534c0c6338bb7809659b3" prefix=" " category="inline-code"></block>。</block>
@@ -3414,4 +3411,7 @@
   <block id="7a3f4b8a61a5875e38119a7b881ac03f" category="paragraph">"监管"信息板添加了一个新的"敏感数据和宽权限"区域、用于为包含敏感数据(包括敏感和敏感个人数据)且过于宽松的文件提供热图。这有助于您了解敏感数据在哪些方面可能存在一些风险。<block ref="d7b9639d6680ad605dc243bfd82e033b" category="inline-link-rx"></block>(英文)。</block>
   <block id="8a414cbe63db51de3a19474f7997ea96" category="paragraph"><block ref="f55b10f863af101d26702cf3138d8a0a" category="inline-link-rx"></block>(英文)</block>
   <block id="2af207f2eb37384a8196d6e4ce166dff" category="paragraph">BlueXP分类可以识别包含日语个人编号(也称为"我的编号")的文件并对其进行分类。这包括个人和公司我的号码。<block ref="a5e6b492e90e47a35f52baac04519256" category="inline-link-rx"></block>(英文)。</block>
+  <block id="8596fbd0d6e4b9782a36919493e0f086" category="paragraph"><block ref="2d2ba3511c6805480e0a015c44902c12" category="inline-link-rx"></block>以了解如何安装BlueXP  分类。</block>
+  <block id="e3dd4dfda4973beedb5de6104236142b" category="paragraph">请注意、安装程序会执行预检查、以确保满足您的系统和网络要求、以便成功安装。<block ref="dea23cd1830b75045583053d44b9aee3" category="inline-link-rx"></block>了解预检消息和含义。</block>
+  <block id="7ec81e7bd855030d276d5e61de219e52" category="paragraph"><block ref="c0e59dce73248da1782dbe9a4a61e5dc" category="inline-link-rx"></block>了解如何运行前提条件脚本并解读结果。</block>
 </blocks>

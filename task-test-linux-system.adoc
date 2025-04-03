@@ -218,7 +218,7 @@ BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略、则
 
 按照以下步骤运行BlueXP分类前提条件脚本。
 
-https://youtu.be/_RCYpuLXiV0?si=QLGUw8mqPrz9qs4B["观看此视频"^]了解如何运行前提条件脚本并解读结果。
+https://youtu.be/5ONowfPWkFs?si=QLGUw8mqPrz9qs4B["观看此视频"^]了解如何运行前提条件脚本并解读结果。
 
 .您需要的内容
 * 验证您的Linux系统是否符合<<验证主机要求,主机要求>>。
