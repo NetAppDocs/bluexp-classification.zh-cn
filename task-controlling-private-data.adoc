@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-controlling-private-data.html 
 keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
-summary: 通过查看有关组织中个人数据和敏感个人数据的详细信息来控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。 
+summary: '通过查看组织中的个人数据(个人数据、II)和敏感个人数据(SPII)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。' 
 ---
 = 查看有关组织中存储的BlueXP  分类私有数据的合规性详细信息
 :hardbreaks:
@@ -14,42 +14,40 @@ summary: 通过查看有关组织中个人数据和敏感个人数据的详细�
 
 
 [role="lead"]
-通过查看组织中有关个人数据(个人数据、II)和敏感个人数据(SPii)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。
+通过查看组织中的个人数据(个人数据、II)和敏感个人数据(SPII)的详细信息、控制您的私有数据。您还可以通过查看BlueXP分类在数据中找到的类别和文件类型来获得可见性。
 
 
 NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用本节所述的功能。已执行仅映射扫描的数据源不会显示文件级详细信息。
 
-默认情况下、BlueXP分类信息板显示所有工作环境和数据库的合规性数据。
+默认情况下、BlueXP分类信息板显示所有工作环境和数据库的合规性数据。要仅查看部分工作环境的数据、请选择这些环境。
 
 image:screenshot_compliance_dashboard.png["BlueXP分类信息板的屏幕截图"]
 
-如果只想查看部分工作环境的数据，<<查看特定工作环境的信息板数据,选择这些工作环境>>。
-
-您还可以从 " 数据调查 " 页面筛选结果，并以 CSV 文件的形式下载结果报告。有关详细信息、请参见。 link:task-investigate-data.html#filter-data-in-the-data-investigation-page["筛选 " 数据调查 " 页面中的数据"]
+筛选"Data Investigation (数据调查)"页面中的结果、然后下载CSV文件格式的结果报告。有关详细信息、请参见。 link:task-investigate-data.html["筛选 " 数据调查 " 页面中的数据"]
 
 
 
 == 查看包含个人数据的文件
 
-BlueXP分类可自动识别数据中的特定单词、字符串和模式(Regex)。例如，个人身份识别信息（ PiII ），信用卡号，社会保险号，银行帐号，密码， 等等。link:reference-private-data-categories.html#types-of-personal-data["请参见完整列表"^](英文)BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
+BlueXP分类可自动识别数据中的特定单词、字符串和模式(Regex)。例如，个人身份识别信息（ PiII ），信用卡号，社会保险号，银行帐号，密码， 等等。link:reference-private-data-categories.html["请参见完整列表"](英文)BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
 
-此外，如果您添加了要扫描的数据库服务器，则 _Data Fusion 功能允许您扫描文件，以确定这些文件或其他数据库中是否存在数据库中的唯一标识符。有关详细信息、请参见。 link:task-managing-data-fusion.html["使用 Data Fusion 添加个人数据标识符"^]
+此外、如果添加了要扫描的数据库服务器、则_Data Fusion _功能会扫描您的文件、以确定这些文件或其他数据库中是否存在数据库中的唯一标识符。有关详细信息、请参见。 link:task-managing-data-fusion.html["使用 Data Fusion 添加个人数据标识符"]
 
-对于某些类型的个人数据、BlueXP分类使用_Proximity validation_来验证其发现结果。通过查找与所发现的个人数据相邻的一个或多个预定义关键字来进行验证。例如，如果BlueXP  分类发现一个美国社会保障号码(SSN)旁边有一个邻近词，则将其标识为SSN--例如_SSN_或_Social securi_。link:reference-private-data-categories.html#types-of-personal-data["个人数据表"^]显示BlueXP  分类何时使用接近验证。
+对于某些类型的个人数据、BlueXP分类使用_Proximity validation_来验证其发现结果。通过查找与所发现的个人数据相邻的一个或多个预定义关键字来进行验证。例如，如果BlueXP  分类发现一个美国社会保障号码(SSN)旁边有一个邻近词，则将其标识为SSN--例如_SSN_或_Social securi_。link:reference-private-data-categories.html["个人数据表"]显示BlueXP  分类何时使用接近验证。
 
 .步骤
-. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后单击*合规性*选项卡。
-. 要调查所有个人数据的详细信息，请单击个人数据百分比旁边的图标。
+. 从BlueXP  分类菜单中，选择*合规性*选项卡。
+. 要调查所有个人数据的详细信息、请选择个人数据百分比旁边的图标。
 +
-image:screenshot_compliance_personal.gif["选择个人数据百分比的屏幕截图。"]
+image:screenshot_compliance_dashboard.png["BlueXP分类信息板的屏幕截图"]
 
-. 要调查特定类型的个人数据的详细信息，请单击 * 全部查看 * ，然后单击特定类型的个人数据的 * 调查结果 * 图标；例如，电子邮件地址。
+. 要调查特定类型个人数据的详细信息，请选择*查看全部*，然后选择特定类型个人数据(例如电子邮件地址)的*调查结果*箭头图标。
 +
-image:screenshot_personal_files.gif["个人文件对话框的屏幕截图，您可以在其中单击个人数据类型旁边的调查结果图标。"]
+image:screenshot_personal_files.png["个人文件对话框的屏幕截图，您可以在其中单击个人数据类型旁边的调查结果图标。"]
 
-. 通过搜索，排序，展开特定文件的详细信息，单击 * 调查结果 * 以查看屏蔽信息或下载文件列表来调查数据。
+. 通过搜索、排序、展开特定文件的详细信息、选择*调查结果*箭头以查看屏蔽信息或下载文件列表来调查数据。
 +
-下面的2个屏幕截图显示了在各个文件中找到的个人数据、以及在目录(共享和文件夹)中的文件中找到的个人数据。您还可以选择*结构化*选项卡以查看在数据库中找到的个人数据。
+以下两个屏幕截图显示了在各个文件中以及在目录(共享和文件夹)内的文件中找到的个人数据。您还可以选择*结构化*选项卡以查看在数据库中找到的个人数据。
 
 +
 image:screenshot_compliance_investigation_page.png["单击调查结果后文件中的详细信息屏幕截图。"]
@@ -63,7 +61,7 @@ image:screenshot_compliance_investigation_page_directory.png["单击调查结果
 
 == 查看包含敏感个人数据的文件
 
-BlueXP  分类可根据隐私法规(如)的定义自动识别特殊类型的敏感个人信息 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2051-1-1["《一般数据保护条例》第 9 条和第 10 条"^]。例如，有关个人健康，种族或性取向的信息。link:reference-private-data-categories.html#types-of-sensitive-personal-data["请参见完整列表"^](英文)BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
+BlueXP  分类可根据隐私法规(如)的定义自动识别特殊类型的敏感个人信息 https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2051-1-1["《一般数据保护条例》第 9 条和第 10 条"^]。例如，有关个人健康，种族或性取向的信息。link:reference-private-data-categories.html["请参见完整列表"](英文)BlueXP分类可在各个文件、目录(共享和文件夹)内的文件以及数据库表中标识此类信息。
 
 BlueXP分类使用人工智能(AI)、自然语言处理(NLR)、机器学习(ML)和认知计算(CC)来了解其为提取实体并对其进行相应分类而扫描的内容的含义。
 
@@ -73,14 +71,14 @@ BlueXP分类使用人工智能(AI)、自然语言处理(NLR)、机器学习(ML)�
 NOTE: 扫描敏感个人数据时，仅支持英语。稍后将添加对更多语言的支持。
 
 .步骤
-. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后单击*合规性*选项卡。
-. 要调查所有敏感个人数据的详细信息，请单击敏感个人数据百分比旁边的图标。
+. 从BlueXP  分类菜单中，选择*Compliance。
+. 要调查所有敏感个人数据的详细信息、请选择敏感个人数据百分比旁边的图标。
 +
-image:screenshot_compliance_sensitive_personal.gif["选择敏感个人数据百分比的屏幕截图。"]
+image:screenshot_compliance_sensitive_personal.png["选择敏感个人数据百分比的屏幕截图。"]
 
-. 要调查特定类型的敏感个人数据的详细信息，请单击 * 查看全部 * ，然后单击特定类型的敏感个人数据的 * 调查结果 * 图标。
+. 要调查特定类型的敏感个人数据的详细信息，请选择*查看全部*，然后选择特定类型的敏感个人数据的*调查结果*箭头图标。
 +
-image:screenshot_sensitive_personal_files.gif["敏感个人文件对话框的屏幕截图，您可以在其中单击个人数据类型旁边的调查结果图标。"]
+image:screenshot_sensitive_personal_files.png["敏感个人文件对话框的屏幕截图，您可以在其中单击个人数据类型旁边的调查结果图标。"]
 
 . 通过搜索，排序，展开特定文件的详细信息，单击 * 调查结果 * 以查看屏蔽信息或下载文件列表来调查数据。
 
@@ -89,7 +87,7 @@ image:screenshot_sensitive_personal_files.gif["敏感个人文件对话框的屏
 
 == 按类别查看文件
 
-BlueXP分类采用它扫描的数据、并将其划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。link:reference-private-data-categories.html#types-of-categories["查看类别列表"^](英文)
+BlueXP分类采用它扫描的数据、并将其划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。link:reference-private-data-categories.html["查看类别列表"](英文)
 
 类别可以通过向您显示所拥有的信息类型来帮助您了解数据的变化。例如，恢复或员工合同等类别可以包含敏感数据。调查结果时、您可能会发现员工合同存储在非安全位置。然后，您可以更正此问题描述。
 
@@ -97,42 +95,27 @@ BlueXP分类采用它扫描的数据、并将其划分为不同类型的类别�
 NOTE: 类别支持英语，德语和西班牙语。稍后将添加对更多语言的支持。
 
 .步骤
-. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后单击*合规性*选项卡。
-. 直接从主屏幕中单击前 4 个类别之一的 * 调查结果 * 图标，或者单击 * 查看全部 * ，然后单击任意类别的图标。
+. 从BlueXP  分类菜单中，选择*合规性*选项卡。
+. 直接从主屏幕选择前4个类别之一的*Investigate Results (调查结果)*箭头图标，或选择*View All*(查看全部)，然后选择任一类别的图标。
 +
-image:screenshot_categories.gif["类别对话框的屏幕截图，您可以在其中单击某个类别旁边的调查结果图标。"]
+image:screenshot_categories.png["类别对话框的屏幕截图，您可以在其中单击某个类别旁边的调查结果图标。"]
 
-. 通过搜索，排序，展开特定文件的详细信息，单击 * 调查结果 * 以查看屏蔽信息或下载文件列表来调查数据。
+. 通过搜索、排序、展开特定文件的详细信息、选择*调查结果*箭头以查看屏蔽信息或下载文件列表来调查数据。
 
 
 
 
 == 按文件类型查看文件
 
-BlueXP分类会采用它扫描的数据、并按文件类型将其细分。查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。link:reference-private-data-categories.html#types-of-files["请参见文件类型列表"^](英文)
+BlueXP分类会采用它扫描的数据、并按文件类型将其细分。查看文件类型有助于控制敏感数据，因为您可能会发现某些文件类型存储不正确。link:reference-private-data-categories.html["请参见文件类型列表"](英文)
 
 例如，您可能存储的 CAD 文件包含有关您的组织的非常敏感的信息。如果这些文件不安全，您可以通过限制权限或将文件移动到其他位置来控制敏感数据。
 
 .步骤
-. 从BlueXP左侧导航菜单中、单击*监管>分类*、然后单击*合规性*选项卡。
-. 直接从主屏幕中单击前 4 种文件类型之一的 * 调查结果 * 图标，或者单击 * 查看全部 * ，然后单击任意文件类型的图标。
+. 从BlueXP  分类模块中，选择*Compliance选项卡。
+. 直接从主屏幕选择前4种文件类型之一的*Investigate Results (调查结果)*箭头图标，或选择*View All*(查看全部)，然后选择任一文件类型的图标。
 +
-image:screenshot_file_types.gif["文件类型对话框的屏幕截图，您可以在其中单击文件类型旁边的调查结果图标。"]
+image:screenshot_file_types.png["文件类型对话框的屏幕截图，您可以在其中单击文件类型旁边的调查结果图标。"]
 
-. 通过搜索，排序，展开特定文件的详细信息，单击 * 调查结果 * 以查看屏蔽信息或下载文件列表来调查数据。
-
-
-
-
-== 查看特定工作环境的信息板数据
-
-您可以筛选BlueXP分类信息板的内容、以查看所有工作环境和数据库的合规性数据、或者仅查看特定工作环境的合规性数据。
-
-在筛选信息板时、BlueXP分类会将合规性数据和报告的范围仅限于您选择的工作环境。
-
-.步骤
-. 单击筛选器下拉列表，选择要查看其数据的工作环境，然后单击 * 查看 * 。
-+
-image:screenshot_cloud_compliance_filter.gif["显示如何筛选特定工作环境的调查结果的屏幕截图。"]
-
+. 通过搜索、排序、展开特定文件的详细信息、选择*调查结果*箭头以查看屏蔽信息或下载文件列表来调查数据。
 

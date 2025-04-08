@@ -70,7 +70,7 @@ sidebar:
     - title: 为数据分配策略
       url: "/task-using-policies.html"
     - title: 更改扫描设置
-      url: task-managing-repo-scanning.html
+      url: "/task-managing-repo-scanning.html"
     - title: 生成合规性报告
       url: "/task-generating-compliance-reports.html"
   - title: 管理BlueXP分类

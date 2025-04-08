@@ -16,7 +16,7 @@ summary: '您可以在BlueXP分类中管理每个工作环境和数据源中的�
 [role="lead"]
 您可以管理在每个工作环境和数据源中扫描数据的方式。您可以基于"存储库"进行更改；这意味着您可以根据所扫描的数据源类型对每个卷、架构、用户等进行更改。
 
-您可以更改的一些内容包括是否扫描存储库以及BlueXP  分类是否正在执行link:concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["映射扫描或映射"]。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。
+您可以更改的一些内容包括是否扫描存储库以及BlueXP  分类是否正在执行link:concept-cloud-compliance.html["映射扫描或映射"]。您也可以暂停和恢复扫描、例如、如果需要在一段时间内停止扫描卷。
 
 
 
@@ -37,17 +37,17 @@ summary: '您可以在BlueXP分类中管理每个工作环境和数据源中的�
 
 
 .步骤
-. 在配置选项卡中、单击工作环境对应的*配置*按钮。
+. 从BlueXP  分类菜单中，选择*Configuration*。
 +
 image:screenshot_compliance_config_button.png["显示如何在工作环境中单击配置按钮的屏幕截图。"]
 
-. 在扫描配置页面中、您可以查看所有存储库的扫描设置。
+. 从配置选项卡中，选择工作环境的*Configuration*按钮。
+. 在扫描配置页面中、查看所有存储库的扫描设置。
 +
 image:screenshot_compliance_repo_scan_settings.png["显示是否正在扫描存储分段以及当前扫描状态的屏幕截图。"]
 
+. 将光标悬停在_Mapping Status_列中的图表上方、可查看每个存储库(本示例中的存储分段)中仍需映射或分类的文件数。
 
-
-您可以将光标悬停在_Mapping Status_列中的图表上方、以查看每个存储库(本示例中的存储分段)中仍需映射或分类的文件数。
 
 
 
@@ -59,21 +59,25 @@ image:screenshot_compliance_repo_scan_settings.png["显示是否正在扫描存�
 TIP: 不能将数据库设置为仅映射扫描。数据库扫描可以关闭或打开；其中、"启用"相当于"映射和分类"。
 
 .步骤
-. 在配置选项卡中、单击工作环境对应的*配置*按钮。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 从配置选项卡中，选择工作环境的*Configuration*按钮。
 +
 image:screenshot_compliance_config_button.png["显示如何在工作环境中单击配置按钮的屏幕截图。"]
 
-. 在“扫描配置”页中，您可以更改任何存储库(在此示例中为分段)以执行*Map*或*Map & Classify*扫描。
+. 在“扫描配置”页中，更改任何存储库(在此示例中为分段)以执行*Map*或*Map & Classify*扫描。
 +
 image:screenshot_compliance_repo_scan_settings.png["显示如何为存储分段选择扫描类型的屏幕截图。"]
 
-
-
++
 通过某些类型的工作环境、您可以使用页面顶部的按钮栏更改所有存储库的全局扫描类型。这适用于Cloud Volumes ONTAP 、内部ONTAP 、Azure NetApp Files 和适用于ONTAP 系统的Amazon FSX。
 
++
 以下示例显示了Azure NetApp Files 系统的此按钮栏。
 
++
 image:screenshot_compliance_repo_scan_all.png["显示如何为工作环境中的所有卷配置相同扫描设置的屏幕截图。"]
+
+
 
 
 
@@ -82,13 +86,14 @@ image:screenshot_compliance_repo_scan_all.png["显示如何为工作环境中的
 如果不再需要监控存储库(例如卷)的合规性、则可以停止扫描该存储库。您可以通过关闭扫描来执行此操作。关闭扫描后、系统将删除该卷的所有索引编制和相关信息、并停止为扫描数据而收费。
 
 .步骤
-. 在配置选项卡中、单击工作环境对应的*配置*按钮。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 从配置选项卡中，选择工作环境的*Configuration*按钮。
 +
 image:screenshot_compliance_config_button.png["显示如何在工作环境中单击配置按钮的屏幕截图。"]
 
 . 在“扫描配置”页面中，选择*off*停止扫描特定存储分段。
 +
-image:screenshot_compliance_stop_repo_scanning.png["显示如何为存储分段选择扫描类型的屏幕截图。"]
+image:screenshot_compliance_repo_scan_settings.png["显示如何为存储分段选择扫描类型的屏幕截图。"]
 
 
 
@@ -101,18 +106,11 @@ image:screenshot_compliance_stop_repo_scanning.png["显示如何为存储分段�
 您可以随时"恢复"扫描。
 
 .步骤
-. 在配置选项卡中、单击工作环境对应的*配置*按钮。
+. 从BlueXP  分类菜单中，选择*Configuration*。
+. 从配置选项卡中，选择工作环境的*Configuration*按钮。
 +
 image:screenshot_compliance_config_button.png["显示如何在工作环境中单击配置按钮的屏幕截图。"]
 
-. 在扫描配置页面中、单击暂停按钮以暂停卷的扫描、或者按恢复按钮以恢复对先前已暂停的卷的扫描。
-+
-image:screenshot_compliance_repo_pause_resume.png["显示如何暂停和恢复卷扫描的屏幕截图。"]
-
-+
-请注意、某些数据源会在菜单中提供暂停和恢复功能、如下所示用于SharePoint站点。
-
-+
-image:screenshot_compliance_repo_pause_resume2.png["显示如何在SharePoint站点上暂停和恢复扫描的屏幕截图。"]
-
+. 在扫描配置页面中、选择操作图标。image:button-actions-horizontal.png["操作图标"]
+. 选择*Pause*暂停扫描卷，或选择*Resume*恢复扫描先前暂停的卷。
 
