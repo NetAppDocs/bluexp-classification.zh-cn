@@ -1588,25 +1588,16 @@
   <block id="615e6d6aa74682391d600dc61fe1090c" category="inline-xref">有关数据调查报告的详细信息、请访问此处</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">在调查页面中细化结果时可用筛选器的屏幕截图。</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="31d2b3f1b10e9877e365a14d5f9212e4" category="list-text">通过顶级选项卡、您可以查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据。</block>
-  <block id="2decf56c6b11817a8a3b1d8d3feeba96" category="list-text">通过每列顶部的控件、您可以按数字或字母顺序对结果进行排序。</block>
-  <block id="d5b86a40c04ed9239e06725e520aff4c" category="list-text">通过左窗格筛选器、您可以选择下一节所述的属性来细化结果。</block>
-  <block id="c4b676d6d1ca1e1490e2a24787adad27" category="section-title">按敏感度和内容筛选数据</block>
   <block id="1be522c5c4e210c9a7f92f7f83637d7e" category="paragraph">使用以下筛选器查看数据中包含的敏感信息量。</block>
   <block id="dad25b649a281b9705d7fbdfc91bb96c" category="inline-link-macro">类别类型</block>
-  <block id="01c40954af185b794e35d719875d3a7a" category="cell">选择。<block ref="d4eabbd4fb9268c1389fccae66300714" category="inline-link-macro-rx"></block></block>
   <block id="86171ac828a961155f1ccf4dfa1eb93f" category="cell">敏感度级别</block>
   <block id="cc8f113115a15a733dabb8452c0006ca" category="cell">选择敏感度级别：个人、敏感个人或非敏感。</block>
-  <block id="224bbd10a45d7fdcbbb8075666b6c93a" category="cell">选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。注意：2023年12月(1.26.6版)版本删除了按目录计算个人身份信息(Personal可识别信息、Personal可识别信息)数据数量的选项。</block>
   <block id="d0902d27bce16ddeb2cb9c788db8ddcd" category="cell">个人数据</block>
   <block id="7a3dcbf3ed229470d34578d4f4f6fc43" category="inline-link-macro">个人数据的类型</block>
-  <block id="858f7504093c180b7179d29d8e1200d9" category="cell">选择。<block ref="1b5fb6ede432593c04dc0306b78c1e56" category="inline-link-macro-rx"></block></block>
   <block id="7c65cc06bc9ebcd449c8956bcf440d87" category="cell">敏感个人数据</block>
   <block id="22d9005388d9e535daefed3f2e693f8c" category="inline-link-macro">敏感个人数据的类型</block>
-  <block id="efbc704c741274e96fb34f9918eea9bc" category="cell">选择。<block ref="ea8f57582e4e2ddb4974e03972a326d7" category="inline-link-macro-rx"></block></block>
   <block id="6e264db6b651951b08b9d4e4d7a39d66" category="cell">数据主题</block>
   <block id="ae4d468f55febeccb4eff973d9b635ff" category="inline-link-macro">单击此处了解有关数据主题的更多信息</block>
-  <block id="987fbe649715077616c7db868bf36786" category="section-title">按用户所有者和用户权限筛选数据</block>
   <block id="67d3d4113dc052ac6827e9faba9e9a7b" category="paragraph">使用以下筛选器查看文件所有者和访问数据的权限。</block>
   <block id="ce7a0235b268c4eaa207fb036462b6a0" category="cell">打开权限</block>
   <block id="a33f1b61e65aad9cca86d3578cf3028a" category="cell">选择数据以及文件夹/共享中的权限类型。</block>
@@ -1615,7 +1606,6 @@
   <block id="7593aaae27016a1a6e673834742f688c" category="cell">文件所有者</block>
   <block id="ff149397e3b0b14099015d624d39c42d" category="cell">输入文件所有者名称。</block>
   <block id="0ffaed104783fa77dca7b463b63d6a3d" category="cell">选择一个或多个类别范围、以显示哪些文件和文件夹对特定数量的用户开放。</block>
-  <block id="dbe1efde4ceae1caa66442472d4dd3d0" category="section-title">按时间筛选数据</block>
   <block id="8999d4891e9704c8ef8ab57f28c53a69" category="paragraph">使用以下筛选器根据时间条件查看数据。</block>
   <block id="171f0707519d57cefcbb271e1ecffd3c" category="cell">创建时间</block>
   <block id="9b5e1fda139121eaa435619d67e14fd7" category="cell">选择创建文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。</block>
@@ -1625,8 +1615,6 @@
   <block id="55e421a96ef89113e0aa27aebfaa73aa" category="cell">选择上次修改文件的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。</block>
   <block id="a9f801b2760a798eee18ba63dccf3ba6" category="cell">上次访问</block>
   <block id="ed50439b6d76225c4473b3e79754891d" category="paragraph">选择上次访问文件或目录(仅限CIFS或NFS)的时间范围。您还可以指定自定义时间范围以进一步细化搜索结果。对于BlueXP分类扫描的文件类型、这是BlueXP分类扫描文件的最后一次。</block>
-  <block id="c3e061f64826624fb21952c760e39065" category="paragraph">请注意、BlueXP分类不会从以下数据源提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。</block>
-  <block id="0a1a0230a16dc669f221a6646040ec73" category="section-title">按元数据筛选数据</block>
   <block id="f20fdaad431988cc576541dc5f1e5aa1" category="paragraph">使用以下筛选器可根据位置、大小以及目录或文件类型查看数据。</block>
   <block id="5da9dcd1cb9325e60a8744a544371fd3" category="cell">文件路径</block>
   <block id="38047badba2a7d1889fc338e16f28ba7" category="cell">最多输入20个要在查询中包含或排除的部分或完整路径。如果同时输入包含路径和排除路径、BlueXP分类会首先查找包含路径中的所有文件、然后从排除路径中删除文件、最后显示结果。请注意、在此筛选器中使用"*"不起作用、并且无法从扫描中排除特定文件夹-将扫描已配置共享下的所有目录和文件。</block>
@@ -1634,12 +1622,10 @@
   <block id="6dd0ccfe2edc5e0affb1f92d200d803f" category="cell">选择目录类型："共享"或"文件夹"。</block>
   <block id="e539fd665e202f536325140d87d7bf72" category="cell">文件类型</block>
   <block id="928f61e49cd944376fa6750b67a9050e" category="inline-link-macro">文件类型</block>
-  <block id="af1d33c2d159e6129aa8d5cec06d9e66" category="cell">选择。<block ref="4a178e0468c164aff717ffc6699fa1c6" category="inline-link-macro-rx"></block></block>
   <block id="a00fe904aecabd4bff74d8776e6da2c5" category="cell">文件大小</block>
   <block id="7e1e60231552d76c5626d3b5ad9519d3" category="cell">选择文件大小范围。</block>
   <block id="116279f96a5a5a07b36a9ed5e3b30ae8" category="cell">文件哈希</block>
   <block id="6c19be59705b1afb4e5b6315b9a0d84e" category="cell">输入文件的哈希以查找特定文件、即使名称不同也是如此。</block>
-  <block id="0cfb1731e1c39d3c830bd61d60a23ce9" category="section-title">按存储类型筛选数据</block>
   <block id="f0eecb698de174ba50c884e569ff3bf3" category="paragraph">使用以下筛选器按存储类型查看数据。</block>
   <block id="d9104233b7c0bd37d4c7d710debdd552" category="cell">工作环境类型</block>
   <block id="78ed85a2b36b215d69761df3caf130df" category="cell">选择工作环境的类型。OneDrive、SharePoint和Google Drive归类为"应用程序"。</block>
@@ -1647,17 +1633,13 @@
   <block id="c670f11fe2007eb5c3be88dd2f27af16" category="cell">选择特定的工作环境。</block>
   <block id="5da8b466834d55ddcdf18f51655016b9" category="cell">存储库</block>
   <block id="5bf1893d83226372ff2fad4fcb1c9ae2" category="cell">选择存储库、例如卷或模式。</block>
-  <block id="216fb8584b339721b139cb0692689dde" category="section-title">按策略筛选数据</block>
   <block id="19797a891bd45c541e59f0948f6e102b" category="paragraph">使用以下筛选器按策略查看数据。</block>
-  <block id="158e99247d19480d767e25e00d129553" category="section-title">按分析状态筛选数据</block>
   <block id="2cc5511704a792153e3bfc286f24901a" category="paragraph">使用以下筛选器按BlueXP分类扫描状态查看数据。</block>
   <block id="d55969f99169fb1ccecedd45e530342d" category="cell">分析状态</block>
   <block id="133617814b053dc465cdc57c432b1756" category="cell">选择一个选项以显示"等待首次扫描"、"已完成扫描"、"等待重新扫描"或"无法扫描"的文件列表。</block>
   <block id="42942f3489af451c9c0c8a2e6cc0b756" category="cell">扫描分析事件</block>
   <block id="7d1696fb9cd67d3f50bae50111c3ca63" category="cell">选择是要查看因BlueXP分类无法还原上次访问时间而未进行分类的文件、还是要查看即使BlueXP分类无法还原上次访问时间仍进行分类的文件。</block>
   <block id="0f609c3035a725a4b4c05c34c154b6a8" category="inline-link-macro">查看有关"上次访问时间"时间戳的详细信息</block>
-  <block id="cdbe480dc11409647fd956762112b463" category="paragraph"><block ref="cb955744923a641be9b94cbcd31ea046" category="inline-link-macro-rx"></block>有关使用扫描分析事件进行筛选时调查页面中显示的项目的更多信息。</block>
-  <block id="21ed6b8b65a14c2b031742eda9665bec" category="section-title">按重复项筛选数据</block>
   <block id="9c7541a95b9333c21b847910917cc789" category="paragraph">使用以下筛选器可查看存储中重复的文件。</block>
   <block id="936baf22f04cffa654fef2a2806e8fcd" category="cell">选择是否在存储库中复制文件。</block>
   <block id="d9ff86959e1f6d2016c4db58114184ab" category="section-title">查看文件元数据</block>
@@ -1665,25 +1647,17 @@
   <block id="04a8c17bf0b1e2cd69db6fba82b59dc0" category="inline-image-macro">显示数据调查页面中文件的元数据详细信息的屏幕截图。</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">创建策略</block>
-  <block id="d2b1e6329082b8cf29999896b3d3d744" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="8c7af7ec06ac1cea6800f7cd16a5f7c0" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
-  <block id="9538e6335cc9662b264dd0870f2ca091" category="paragraph">请注意，并非所有信息都可用于所有数据源—只是适合该数据源的信息。例如、卷名称和权限与数据库文件无关。</block>
-  <block id="fffb468d89636ef35919bda57df8f0bc" category="section-title">查看文件和目录的权限</block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">了解如何执行此操作</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。<block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">显示详细文件权限的屏幕截图。</block>
   <block id="33b3bef30743bda1b0909a4417b45583" category="paragraph"><block ref="33b3bef30743bda1b0909a4417b45583" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33f1c68834e7b02c4c8b3b9dc4f796d3" category="section-title">检查存储系统中是否存在重复文件</block>
   <block id="5180c6809f41234a64af29e1a7ad708c" category="paragraph">您可以查看存储系统中是否存储了重复的文件。如果您要确定可节省存储空间的区域，此功能非常有用。此外，确保具有特定权限或敏感信息的某些文件不会在存储系统中进行不必要的复制也会很有帮助。</block>
-  <block id="bfd42c156b2ca871cd12ee8e72e55e95" category="paragraph">系统会比较所有大小为1 MB或更大且包含个人或敏感个人信息的文件(不包括数据库)、以查看是否存在重复文件。您可以使用"调查"页面筛选"文件大小"和"重复项"、查看环境中具有特定大小范围的文件的重复项。</block>
   <block id="bcd3dc09170e331762d1f098247c3974" category="paragraph">BlueXP分类使用散列技术来确定重复文件。如果任何文件与另一个文件具有相同的哈希代码，我们可以 100% 确保这些文件完全重复，即使文件名不同也是如此。</block>
   <block id="fc9033d933e9132cc23bfe396744d214" category="inline-link-macro">删除文件</block>
-  <block id="e6bbcb2826ce1a4f58fd341c4f5ae5f3" category="paragraph">您可以下载重复文件列表并将其发送给存储管理员，以便他们确定可以删除哪些文件（如果有）。或者、如果您确信不需要特定版本的文件、也可以<block ref="53c8cd880d15e2953a8e763d6f4dff0c" category="inline-link-macro-rx"></block>自行选择。</block>
-  <block id="5b00edf3a5903017b22e268ae58998c0" category="paragraph">如果您需要列出在工作环境中复制的所有文件以及正在扫描的数据源，则可以在 " 数据调查 " 页面中使用名为 * 重复项 &gt; 具有重复项 * 的筛选器。</block>
-  <block id="285a3049428c6b155fde44a18621f551" category="paragraph">所有复制的文件都会显示在结果页面中。</block>
   <block id="68309bcfd455803ffbae49714037b789" category="inline-image-macro">显示如何查看重复文件所在位置的屏幕截图。</block>
   <block id="0dc6d718adece3621c4a40fa3b4b2a82" category="paragraph"><block ref="0dc6d718adece3621c4a40fa3b4b2a82" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f89dc042c7b1c3561acf8c224411dd1a" category="admonition">您可以随时使用此页面中提供的 " 文件哈希 " 值并直接在 " 调查 " 页面中输入此值以搜索特定的重复文件，也可以在策略中使用此值。</block>
-  <block id="b783177554ae1d03f46ea830d39a7822" category="section-title">数据调查报告</block>
   <block id="02b8107c002e6577adbfdfd6d6f1b208" category="inline-image-macro">包含多个选项的Download调查报告页面的屏幕截图。</block>
   <block id="c7fa83e1836cada62d287dfbba3779c2" category="paragraph">此时将显示一条消息、指出正在下载报告。</block>
   <block id="6dc6bf0d1023a1b5714c777b474cce12" category="paragraph">*非结构化文件数据报告*包含有关文件的以下信息：</block>
@@ -3005,8 +2979,6 @@
   <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">调查存储在组织中的数据</block>
   <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">有关数据调查和报告的详细信息，请参见<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>。</block>
   <block id="251452e49ab5b88b5d8545e58cd46509" category="admonition">如果您需要通过BlueXP  分类来识别其他私有数据类型、例如其他国家/地区ID编号或医疗保健标识符、请联系您的客户经理。</block>
-  <block id="2a09f412ecce26a24c17d782c064aa73" category="paragraph">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。您可以从BlueXP分类UI的许多区域导航到此页面、包括监管和合规性信息板。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。</block>
-  <block id="b995ac679338c896401b451552e5d419" category="paragraph">*查看所有复制的文件*</block>
   <block id="ee27fa3e6dfe09f89a9d57742c167aa9" category="paragraph">*查看特定文件是否重复*</block>
   <block id="47b72e580332bb9da872607466b406bc" category="paragraph">此报告以.CSV或.JSON文件的形式提供、您可以将其保存到本地计算机。</block>
   <block id="f257e5460f3ab87ec47290dc11518fc8" category="paragraph">*数据调查报告中包含的内容*</block>
@@ -3114,16 +3086,10 @@
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">扫描状态</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">现在、BlueXP  分类可跟踪卷上_initial-_映射和分类扫描的实时进度。单独的渐进式条可跟踪映射和分类扫描、显示扫描总文件的百分比。您也可以将鼠标悬停在进度条上以查看扫描的文件数和总文件数。跟踪扫描状态可更深入地了解扫描进度、使您能够更好地规划扫描并了解资源分配。</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">要查看扫描的状态，请导航到BlueXP  分类中的**配置**，然后选择**工作环境配置**。每个卷的进度将以行显示。</block>
-  <block id="b7daace328e6741286f27d2ac5e2f47a" category="paragraph">如果要在精炼后将页面内容下载为报告、请选择按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block><block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>(英文)</block>
   <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">您只能在"数据调查"页面上查看一次扫描的前10、000个结果或500页。</block>
-  <block id="d70c15611bfee94500d72ff7b26a3246" category="paragraph">在"数据调查结果"窗格中、为任何单个文件选择脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>按钮以查看文件元数据。</block>
   <block id="9fb67493aa2d989d001de2e7c4462b4e" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型，请选择*查看所有权限*。此按钮仅适用于CIFS共享中的数据。</block>
   <block id="65e8d4fae364cb5c5e1a2304c301a6ad" category="paragraph">选择任何组的下脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>按钮以查看组中的用户列表。</block>
-  <block id="21f378c3412ff535e51a7de907a17ad8" category="paragraph">选择用户或组的名称将刷新"调查"页面、以便您可以查看用户或组有权访问的所有文件和目录。</block>
-  <block id="b646744a4cb3933c62e69361ab1b0fb9" category="paragraph">如果要查看单个文件是否存在重复项、请在"数据调查结果"窗格中、为任何单个文件选择<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>以查看文件元数据。如果某个文件存在重复项，则此信息将显示在 _Duplicates_ 字段旁边。</block>
-  <block id="6085b17a40397d5797aee31606263dda" category="paragraph">要查看重复文件的列表及其所在位置，请选择*View Details*。在下一页中，选择*查看复制*以查看“调查”页面中的文件。</block>
   <block id="9dbaf2723509754918929e09594f8800" category="list-text">在"Data Investigation (数据调查)"页面中、选择<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block>页面右侧顶部的按钮。</block>
-  <block id="c290efd7814d022961f943c1af408a6f" category="list-text">选择报告类型：CSV或JSON并提供**报告名称**。选择**工作环境**和**卷**，然后提供**目标文件夹路径**。</block>
   <block id="8c574751ceb947fcd2a71198a9109d98" category="list-text">选择**下载报告**。</block>
   <block id="794d07bb17fcda62a163d4acc32a2c19" category="paragraph">BlueXP分类开始扫描您在工作环境中选择的卷。一旦BlueXP分类完成初始扫描、结果将显示在Compliance信息板中。所需时间取决于数据量—可能需要几分钟或几小时。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。</block>
   <block id="04bcd6818aecd8c0fe46b7d49aa8b39a" category="paragraph">BlueXP分类开始扫描您启用的数据库架构。您可以通过导航到**配置**菜单，然后选择**工作环境配置**来跟踪初始扫描的进度。每个扫描的进度显示为进度条。您也可以将鼠标悬停在进度条上、查看扫描的文件数与卷中的文件总数的关系。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。</block>
@@ -3222,7 +3188,6 @@
   <block id="07e08dea25bfa1156af7557f74e53774" category="paragraph">"仅映射"扫描不会加热冷数据、它会保持冷数据并保留在对象存储中。另一方面、如果执行地图和分类扫描、某些配置可能会加热冷数据。</block>
   <block id="1908b16f68b0cb8d9e1d9c407168a2b9" category="paragraph">如果Connector部署在政府区域(AWS GovCloud、Azure Gov或Azure DoD)中、则支持BlueXP分类、也称为"受限模式"。</block>
   <block id="a84227330ab0b4642315d9a874aace3b" category="list-text">*数据映射扫描(仅映射扫描)*：BlueXP  分类仅扫描元数据。这对于整体数据管理和监管、快速的项目范围界定、非常大的资产和优先级排序非常有用。数据映射基于元数据、被视为*快速*扫描。</block>
-  <block id="f9eaf41b503c7b3eb24b8b8e481a6bfc" category="list-text">*数据分类(深度)扫描(映射和分类扫描)*：在整个环境中使用标准协议和只读权限进行BlueXP  分类扫描。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。</block>
   <block id="2ec8b134bb6f73f9323b67682c3f3696" category="paragraph">BlueXP分类可捕获元数据、例如：文件名、权限、创建时间、上次访问和上次修改。这包括"数据调查"面页和"数据调查报告"中显示的所有元数据。</block>
   <block id="bc689be7b5780fe5de6454939079a821" category="paragraph">BlueXP  分类可以识别多种类型的私有数据、例如个人信息(Pii)和敏感个人信息(SPII)。有关私有数据的详细信息，请参见<block ref="56427cf32f2481dc2470f5e57414e198" category="inline-link-rx"></block>。</block>
   <block id="bbb4fed25c4c7e3a56537ad9198aa68c" category="paragraph">此外，如果要允许某些用户只查看BlueXP  分类扫描结果而不管理BlueXP  分类设置，则可以为这些用户分配*Classification viewer*角色(在标准模式下使用BlueXP  时)或*Compliance Viewer*角色(在受限模式下使用BlueXP  时)。<block ref="90248cd9043c9e38adbcda32b8273783" category="inline-link-macro-rx"></block>(英文)</block>
@@ -3335,7 +3300,6 @@
   <block id="c00e1d18d877d030ee92aec3422b1aeb" category="paragraph">优先级限制为<block ref="377ae34afcc76614c5602798befc8a4b" category="inline-link-macro-rx"></block>；它不适用于地图扫描和分类扫描。</block>
   <block id="fc9679220132eb8e0f499680bbe8909a" category="list-text">*名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。<block ref="8e814e02dddb19e3bb4166c15fc34470" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="e888dadabb0f55fe5c317b3b6754087e" category="paragraph">为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息、请参见<block ref="9e5b18f30859b96d93203df427b4bd3d" category="inline-link-rx"></block>(在标准模式下使用BlueXP  时)。</block>
-  <block id="d4b632c51605e0651196fc5f65069cfa" category="cell">输入数据主体的全名或已知标识符。<block ref="71815f3f7b8d4b4b725578d3162c5d1a" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="6f0ff027a4b5c5cccc90c166290d3013" category="cell">能够运行<block ref="c2177dc55e01ee229f523014b3bacb31" category="inline-link-macro-rx"></block></block>
   <block id="a7e6da043e68990d1e9627e5da9319c2" category="paragraph">有关详细信息，请参见 <block ref="8df90f52b87f57dd64f76114b6c4e6a8" category="inline-link-macro-rx"></block>。</block>
   <block id="3d0a52f701c42fc59411425fdc2a4746" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以使用生成的信息生成<block ref="413db830e9f14a03bda795e0ca85886f" category="inline-link-rx"></block>。您也可以在中输入日语名称<block ref="dc85c6bd448621c7d3e7987af7ac2483" category="inline-link-rx"></block>、以标识包含主题名称的文件。</block>
@@ -3403,4 +3367,62 @@
   <block id="c708db8afe21d20708d3b9f9c1103713" category="list-text">在“扫描配置”页中，更改任何存储库(在此示例中为分段)以执行*Map*或*Map &amp; Classify*扫描。</block>
   <block id="ceb02fa059b59b1ab250e24b23e83492" category="list-text">在扫描配置页面中、选择操作图标。<block ref="9599256bd913e17dd34fce684015b2f9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d7530ec47cb0f60bf26bff38cfcd4f1f" category="list-text">选择*Pause*暂停扫描卷，或选择*Resume*恢复扫描先前暂停的卷。</block>
+  <block id="e28f00b8dd55b4a2626bbd4233f326a1" category="list-text">*数据分类深度扫描(地图和分类扫描)*：在整个环境中使用标准协议和只读权限进行BlueXP  分类扫描。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。</block>
+  <block id="e90444baa59788bd6471cf703b12a16e" category="summary">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。</block>
+  <block id="43b0fcc067500dde9cd348cfb2a4fb95" category="paragraph">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。</block>
+  <block id="b7f6a3bebde141b211f7f03ea94b59a0" category="paragraph">您可以从BlueXP  分类UI的许多区域导航到此页面、包括监管和合规性信息板以及这些页面上已选择的筛选器。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。</block>
+  <block id="503f38415f575979b1abb29789cbda50" category="list-text">从BlueXP  分类菜单中，选择*Investigation *。</block>
+  <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">在"数据调查"页面上、执行以下任一操作：</block>
+  <block id="9dd4d7f07b73e6aaac505f7417738860" category="list-text">要在精炼后将页面内容下载为报告、请选择按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block><block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>(英文)</block>
+  <block id="112a92421a821122ddfd7d3b0735b4ec" category="list-text">要查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据、请选择顶部的选项卡之一。</block>
+  <block id="de1f3a62aada6a5e03bde4ce908b4d24" category="list-text">要按数字或字母顺序对结果进行排序、请选择每列顶部的控件。</block>
+  <block id="3575ec00f80ae9ff26cf47ff8300221a" category="list-text">要进一步细化结果、请选择左侧筛选器窗格中的多个筛选器之一。</block>
+  <block id="a8d1bb5ba95108ab3a2f0fd87ebd3b07" category="paragraph">*按敏感度和内容过滤数据*</block>
+  <block id="33399d32771439fb4356bebcb3641046" category="cell">选择。<block ref="cbf64d77e33a53f16ad429da7b163a2e" category="inline-link-macro-rx"></block></block>
+  <block id="529289f3a4b107ecb94c76e23fe0459f" category="cell">选择每个文件检测到的敏感标识符范围。包括个人数据和敏感个人数据。在目录中筛选时、BlueXP分类汇总每个文件夹(和子文件夹)中所有文件的匹配项。注意：2023年12月(1.26.6版)版本删除了按目录计算个人身份信息(Personal可识别信息、Personal可识别信息)数据数量的选项。</block>
+  <block id="65b6b7baa7e4d65af02da4a28d7e4bab" category="cell">选择。<block ref="d6673982dd91cd362c9b6d1d0d52a74d" category="inline-link-macro-rx"></block></block>
+  <block id="aa7dd09dc91fb2b7579c570bb8503fc1" category="cell">选择。<block ref="feb1ec2b416a383c470022e04b16d413" category="inline-link-macro-rx"></block></block>
+  <block id="070396a1b27d6204768841e19470e47e" category="cell">输入数据主体的全名或已知标识符。<block ref="0985c0b127f694a4306132f04f30036d" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="ee280a3521123fa6ae2208b6c18ce269" category="paragraph">*按用户所有者和用户权限过滤数据*</block>
+  <block id="e52157656c10d29bc569f6690f63d9c3" category="paragraph">*按时间过滤数据*</block>
+  <block id="770ad37e7b6dccf816f59000b32376eb" category="paragraph">BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint Online、SharePoint内部部署(SharePoint Server)、OneDrive、Google Drive和Amazon S3。</block>
+  <block id="93df112866b7972d001a7d5a43ee807d" category="paragraph">*按元数据筛选数据*</block>
+  <block id="8e1a5e11bb2fb28b8b6dcec568a360c4" category="cell">选择。<block ref="e1626033bf44d9df7edfb5f14619672b" category="inline-link-macro-rx"></block></block>
+  <block id="bf49fd74a7f1e071ae8d9037d850229b" category="paragraph">*按存储类型过滤数据*</block>
+  <block id="1931b0be2f819fbc984873eab7604c0e" category="paragraph">*按策略筛选数据*</block>
+  <block id="6926f90beadfdb901f306772787c7f05" category="paragraph">*按分析状态过滤数据*</block>
+  <block id="0fdacc8c067979a1926a265cd399f05a" category="paragraph"><block ref="d865d9e7da9a534ddb8c0b18eca2435c" category="inline-link-macro-rx"></block>有关使用扫描分析事件进行筛选时调查页面中显示的项目的更多信息。</block>
+  <block id="c2d41b84903ff9433b055cd311767824" category="paragraph">*按重复项筛选数据*</block>
+  <block id="deb92d356adf2bc4203235e994269d9a" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="ea156c161a340e4bbece1f1483afe558" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
+  <block id="1f54ce0e770f5c76ff9e305bb20ea41a" category="paragraph">并非所有信息都可用于所有数据源-仅适用于该数据源。例如、卷名称和权限与数据库文件无关。</block>
+  <block id="efcf64fabaf1cd0d5d0c35cfea3e25d9" category="list-text">在右侧的"数据调查"列表中、为任何单个文件选择右侧的脱机脱机脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>、以查看文件元数据。</block>
+  <block id="887f8cc0eb69a50c3835261bb514ecb7" category="section-title">查看用户对文件和目录的权限</block>
+  <block id="50f624bdefacfa8c1da9ed79642cacaa" category="list-text">要查看有权访问文件或目录的所有用户或组的列表及其权限类型，请在打开权限字段中选择*查看所有权限*。</block>
+  <block id="ae18ef4e8ebb0e7f89b69a1d9c3d0f0f" category="admonition">BlueXP  分类最多可在列表中显示100个用户。</block>
+  <block id="f60e204b581c5d2d22e4d6b4119efdeb" category="admonition">您可以展开组的一级以查看组中的用户。</block>
+  <block id="293d9f51d90274c3eb6f28b88bdf5b95" category="list-text">选择用户或组的名称以刷新"调查"页面、以便您可以查看该用户或组有权访问的所有文件和目录。</block>
+  <block id="6c8f43fb3633672815a9819858118a4c" category="paragraph">系统会比较所有大小为1 MB或更大的文件(不包括数据库)、或者包含个人或敏感个人信息的文件、以查看是否存在重复文件。</block>
+  <block id="7f90d40f25a1214f4536e03c0a2ef47a" category="list-text">在左侧的调查页面筛选器窗格中、选择"文件大小"以及"重复项"("有重复项")、以查看特定大小范围的文件在您的环境中重复。</block>
+  <block id="7de24db523b93565f747bc5d9df1a823" category="list-text">(可选)下载重复文件列表并将其发送给存储管理员、以便他们可以决定哪些文件(如果有)可以删除。</block>
+  <block id="3d2ab943bd4816ddebc5f9e0511599c9" category="list-text">(可选)如果您确信不需要特定版本的文件、请自行选择<block ref="98798b8dd7c03920eae7ec175a7a3ceb" category="inline-link-macro-rx"></block>。</block>
+  <block id="232e219814cfdc03793357852446d7a9" category="paragraph">您可以查看单个文件是否存在重复项。</block>
+  <block id="0b6b27e33fc9a47830519ca8d98e5327" category="list-text">在数据调查列表中、选择右侧的<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>任意单个文件以查看文件元数据。</block>
+  <block id="1c02a0bc34965940f9a4a14c7adac1b2" category="paragraph">如果某个文件存在重复项、则此信息将显示在_D重复 项_字段旁边。</block>
+  <block id="c96bf252030be7d77f32e236939f6da2" category="list-text">要查看重复文件的列表及其所在位置，请选择*View Details*。</block>
+  <block id="5e6ec4e1f88d65eaeb13fa82313d9809" category="list-text">在下一页中，选择*查看复制*以查看“调查”页面中的文件。</block>
+  <block id="b9cf7636c1458813ea2386a78b8774cd" category="list-text">选择报告类型：CSV或JSON。</block>
+  <block id="fc4f6fceccd6c5f18eabd79aacf08023" category="list-text">请提供**报告名称**。</block>
+  <block id="ef151ce6e85f07953f9567895b0703e3" category="list-text">选择**工作环境**和**卷**</block>
+  <block id="cb013f85229d9d37e97ad54696f24544" category="list-text">提供**目标文件夹路径**。</block>
+  <block id="3acd7c6848524cfd6cd39d023db6c391" category="section-title">根据选定筛选器创建策略</block>
+  <block id="dbcfe39ddc3ef4e14d4b8ff904564614" category="paragraph">将您在"数据调查"页面中选择的筛选器保存为策略可能会很有帮助。这样、您可以随时运行相同的筛选器、而无需重新选择它们。</block>
+  <block id="461f18298523b9780c64f7622a558e72" category="list-text">在数据调查页面上、选择要用于创建策略的筛选器。</block>
+  <block id="7b3efd4315afe81c069931074b6b2bcf" category="list-text">在筛选器窗格底部，选择*从此搜索中创建策略*。</block>
+  <block id="02732823805cfd3fcc35939ca3602379" category="list-text">输入策略的名称和说明。</block>
+  <block id="aac46765e6c078c569d11a06fa32886b" category="list-text">选择以下任一项：</block>
+  <block id="7a93f17737c434a658952da4ac61c2e7" category="list-text">*自动删除与此策略匹配的文件(每天)：如果要删除与此策略匹配的文件，请选择此项。</block>
+  <block id="03679c9c05b6548cd278d5dc9b22d06d" category="list-text">*向此帐户上的BlueXP  用户发送有关此策略的电子邮件更新每个&lt;day/week/month&gt;*：如果要向此帐户上的BlueXP  用户发送有关此策略的电子邮件更新，请选择此选项。</block>
+  <block id="2a4930d89395c66bd221720bcaae06e3" category="list-text">*将电子邮件发送到每个&lt;Day&gt;至&lt;email address&gt;*：如果要将每个&lt;Day&gt;的电子邮件发送到特定的电子邮件地址，请选择此选项。</block>
+  <block id="41025e9c551610edae39a167ecbe1b73" category="list-text">选择 * 创建策略 * 。</block>
+  <block id="97079a3b4a44ca52d28b2807f91a5ec0" category="admonition">结果可能需要长达15分钟才能显示在"策略"页面上。</block>
 </blocks>
