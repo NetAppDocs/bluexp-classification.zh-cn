@@ -22,12 +22,7 @@
 
 优先级限制为link:concept-cloud-compliance.html["仅映射扫描"]；它不适用于地图扫描和分类扫描。
 
-要更改优先级：
-
-. 从BlueXP  分类菜单中，选择*Configuration*。
-. 选择要确定优先级的资源。
-. 从操作...选项中，选择*优先 扫描*。
-
+有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
 
 .重试所有扫描
 BlueXP  分类现在支持批量重试所有失败的扫描。
