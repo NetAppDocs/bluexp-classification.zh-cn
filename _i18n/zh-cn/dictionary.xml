@@ -3433,9 +3433,9 @@
   <block id="a9da1537a3e6bfb032d6a352bc5d82a7" category="paragraph">现在、BlueXP  分类除了支持仅映射扫描之外、还支持划分地图和分类扫描的优先级。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
   <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">您可以下载CSV文件的某个版本以在此浏览器中查看。此版本限制为10、000条记录。</block>
   <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">输入**报告名称**。</block>
-  <block id="1381344c0ad4a60786998569e040cb72" category="list-text">如果选择CSV作为报告类型，请选择**本地**在浏览器中下载报告。注意：此选项会将报告限制为前10、000行。此选项不需要其他选项。</block>
-  <block id="b73d8086c4fa1a5d2c97351fb3604a12" category="paragraph">要查看完整报告，请选择**工作环境**，然后从相应的下拉菜单中选择**工作环境**和**卷**。提供**目标文件夹路径**。</block>
   <block id="345e1412843bf20361636f064c2a0359" category="paragraph">您可以确定最重要扫描的优先级--仅映射或地图和分类。优先扫描的功能使您能够确保首先完成高优先级扫描。</block>
   <block id="634cb969225c406dc49fde5e0df02409" category="list-text">从操作选项中<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>，选择*优先 扫描*。</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025年4月14日</block>
+  <block id="e23f3c5ee576a6a524db07af25fc5e88" category="list-text">要下载完整的报告，请选择**工作环境**，然后从相应的下拉菜单中选择**工作环境**和**卷**。提供**目标文件夹路径**。</block>
+  <block id="b28b21b6561b4b84c07adb24f4618993" category="paragraph">要在浏览器中下载报告，请选择**本地**。注意：此选项将报告限制在前10,000行，并限制为**CSW**格式。如果选择**本地**，则不需要填写任何其他字段。</block>
 </blocks>
