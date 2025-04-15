@@ -3429,13 +3429,13 @@
   <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">在本地下载调查报告</block>
   <block id="a8539b02096aea65d2e102c01a482c71" category="paragraph">BlueXP  分类现在支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。</block>
   <block id="95403a677c140fea03f157c2edb41c85" category="paragraph">有关详细信息，请参见 <block ref="55ff936b35b23a6f6693627bfb444c62" category="inline-link-macro-rx"></block>。</block>
-  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">确定分类扫描的优先级</block>
-  <block id="a9da1537a3e6bfb032d6a352bc5d82a7" category="paragraph">现在、BlueXP  分类除了支持仅映射扫描之外、还支持划分地图和分类扫描的优先级。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
   <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">您可以下载CSV文件的某个版本以在此浏览器中查看。此版本限制为10、000条记录。</block>
   <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">输入**报告名称**。</block>
-  <block id="345e1412843bf20361636f064c2a0359" category="paragraph">您可以确定最重要扫描的优先级--仅映射或地图和分类。优先扫描的功能使您能够确保首先完成高优先级扫描。</block>
   <block id="634cb969225c406dc49fde5e0df02409" category="list-text">从操作选项中<block ref="2f43b42fd833d1e77420a8dae7419000" prefix=" " category="inline-code"></block>，选择*优先 扫描*。</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025年4月14日</block>
   <block id="e23f3c5ee576a6a524db07af25fc5e88" category="list-text">要下载完整的报告，请选择**工作环境**，然后从相应的下拉菜单中选择**工作环境**和**卷**。提供**目标文件夹路径**。</block>
   <block id="b28b21b6561b4b84c07adb24f4618993" category="paragraph">要在浏览器中下载报告，请选择**本地**。注意：此选项将报告限制在前10,000行，并限制为**CSW**格式。如果选择**本地**，则不需要填写任何其他字段。</block>
+  <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">确定仅映射扫描的优先级</block>
+  <block id="9267a4a221ce8d9176ea70d45543abf5" category="paragraph">您可以确定最重要的仅映射扫描的优先级、以确保首先完成高优先级扫描。</block>
+  <block id="f869ba288edefcc198633bd9bda2d3b8" category="paragraph">默认情况下、扫描会根据启动顺序进行排队。现在、您可以将扫描移动到队列的前面、从而确定扫描的优先级。可以确定多个扫描的优先级。优先级按先入先出的顺序指定、这意味着您优先处理的第一个扫描将移至队列的前端；您优先处理的第二个扫描将成为队列中的第二个扫描、依此类推。此功能仅限于仅映射扫描。它不适用于地图和分类扫描。</block>
 </blocks>
