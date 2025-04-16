@@ -194,11 +194,11 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 
 == BlueXP  分类分类的信息
 
-BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP分类索引的数据包括以下内容：
+BlueXP  分类可收集以下数据、为其编制索引并为其分配类别：
 
 * *关于文件的标准元数据*：文件类型、大小、创建和修改日期等。
-* *个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码。link:task-controlling-private-data.html#view-files-that-contain-personal-data["了解有关个人数据的更多信息"^](英文)
-* *敏感个人数据*：特殊类型的敏感个人信息(SPII)、如GDPR和其他隐私法规定义的健康数据、种族或政治观点。link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^](英文)
+* *个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码，BlueXP  分类使用文件中的特定字词、字符串和模式来识别这些信息。link:task-controlling-private-data.html#view-files-that-contain-personal-data["了解有关个人数据的更多信息"^](英文)
+* *敏感个人数据*：《一般数据保护条例》(GDPR)和其他隐私法规定义的特殊类型的敏感个人信息(SPII)、例如健康数据、种族或政治观点。link:task-controlling-private-data.html#view-files-that-contain-sensitive-personal-data["了解有关敏感个人数据的更多信息"^](英文)
 * *类别*：BlueXP  分类将其扫描的数据划分为不同类型的类别。类别是基于 AI 对每个文件的内容和元数据的分析而得出的主题。link:task-controlling-private-data.html#view-files-by-categories["了解有关类别的更多信息"^](英文)
 * *Types*：BlueXP  分类采用它扫描的数据并按文件类型进行细分。link:task-controlling-private-data.html#view-files-by-file-types["了解有关类型的更多信息"^](英文)
 * *名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。link:task-generating-compliance-reports.html["了解如何响应数据主体访问请求"^](英文)

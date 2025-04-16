@@ -285,7 +285,6 @@
   <block id="4aa06a2b4191eee9b59686458a3cf0e5" category="section-title">BlueXP分类扫描数据的速度</block>
   <block id="9ece336caf3d2b843dafc984e27b323e" category="paragraph">扫描速度受网络延迟、磁盘延迟、网络带宽、环境大小和文件分发大小的影响。</block>
   <block id="41723bb4585becfa9d2ed4726536b953" category="section-title">BlueXP  分类分类的信息</block>
-  <block id="28e66615c1e04c19b63a24061d462220" category="paragraph">BlueXP分类可收集数据(文件)、编制索引并为其分配类别。BlueXP分类索引的数据包括以下内容：</block>
   <block id="6cd355a083ac0c0abfe0db956ac0ab54" category="list-text">*关于文件的标准元数据*：文件类型、大小、创建和修改日期等。</block>
   <block id="8c6847c1a3fee83b5a17b582397de2ec" category="inline-link-macro">了解有关个人数据的更多信息</block>
   <block id="902c63c889818696415465bcf8e0b76b" category="inline-link-macro">了解有关敏感个人数据的更多信息</block>
@@ -762,9 +761,7 @@
   <block id="d37bdc46b0a428edd8f0ab35c24067ea" category="paragraph">在设置某些数据源(如下所列)时、您需要输入Active Directory凭据、以便BlueXP分类扫描CIFS卷。这种集成提供了BlueXP分类、其中包含驻留在这些数据源中的数据的文件所有者和权限详细信息。为这些数据源输入的Active Directory可能与您在此处输入的全局Active Directory凭据不同。BlueXP分类将在所有集成的Active Directory中查找用户和权限详细信息。</block>
   <block id="7e7d69dec0250fdcf96317ada370e511" category="paragraph">此集成在BlueXP分类的以下位置提供追加信息 ：</block>
   <block id="b2c97ae425dd751b0e48a3acae79cf4a" category="inline-link-macro">筛选器</block>
-  <block id="13b1a6e1bb1b3f8696189ada6b422170" category="list-text">您可以使用"文件所有者"<block ref="8f117870d9a34eabfa5286947f602d95" category="inline-link-macro-rx"></block>、并在"调查"窗格中查看文件元数据中的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。</block>
   <block id="5f91c0845412e72586ca4ccff087de46" category="inline-link-macro">完整文件权限</block>
-  <block id="cd4d01ef1bbc41dd6c1a648ca6b131c3" category="list-text">单击"查看所有权限"按钮时、您可以查看<block ref="bb7ccaeb199c0a6d94b809bfbddc428e" category="inline-link-macro-rx"></block>每个文件和目录的。</block>
   <block id="81e5b92aee0f8f905eee80ff5eb977c0" category="inline-link-macro">监管信息板</block>
   <block id="42489059db009c868dd8059af06dcec7" category="list-text">在中<block ref="f7adeeb4ba56b793f51d27ca048d717a" category="inline-link-macro-rx"></block>，“打开权限”面板将显示有关数据的更多详细信息。</block>
   <block id="84f064335aeff156ccda8eb3c64109d6" category="admonition">本地用户 SID 和未知域中的 SID 不会转换为实际用户名。</block>
@@ -1585,7 +1582,6 @@
   <block id="cc75424be9093c04dbea9cfae5ba1d31" category="inline-link-macro">操作状态窗格</block>
   <block id="24a56762deabf31ff2c2a9b817d1ffbe" category="paragraph">您可以在中查看JSON报告生成进度<block ref="4c82c0e227c501a62216c678b91b4aee" category="inline-link-macro-rx"></block>。</block>
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="doc">调查存储在组织中的数据</block>
-  <block id="615e6d6aa74682391d600dc61fe1090c" category="inline-xref">有关数据调查报告的详细信息、请访问此处</block>
   <block id="d3720958611294d50237fe72870e0c02" category="inline-image-macro">在调查页面中细化结果时可用筛选器的屏幕截图。</block>
   <block id="3fd10935177bff66373986bc384c0307" category="paragraph"><block ref="3fd10935177bff66373986bc384c0307" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1be522c5c4e210c9a7f92f7f83637d7e" category="paragraph">使用以下筛选器查看数据中包含的敏感信息量。</block>
@@ -1646,7 +1642,6 @@
   <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">注意</block>
   <block id="04a8c17bf0b1e2cd69db6fba82b59dc0" category="inline-image-macro">显示数据调查页面中文件的元数据详细信息的屏幕截图。</block>
   <block id="c545ce144b1f4d763f30d9b729c1590c" category="paragraph"><block ref="c545ce144b1f4d763f30d9b729c1590c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="aa4ba8b621d22449a2723e4175ff5c9d" category="inline-link-macro">创建策略</block>
   <block id="70762168244eed6d4b30ab53961acada" category="inline-link-macro">了解如何执行此操作</block>
   <block id="50cdf86b563a0d781f053c4a23d816c2" category="paragraph">请注意、如果您看到的是SID (安全标识符)、而不是用户名和组名、则应将Active Directory集成到BlueXP分类中。<block ref="a543108cc451095d486457d9ff215fd0" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="47b3f14316e807b37aaa42895464d283" category="inline-image-macro">显示详细文件权限的屏幕截图。</block>
@@ -2812,7 +2807,6 @@
   <block id="552c9ad11d5dffc1189fa270ca015445" category="section-title">1.26.6版</block>
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增强功能。</block>
   <block id="e2175eca7cd7227e608f98540d53af5e" category="paragraph">此版本还删除了以下选项：</block>
-  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参阅 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>。</block>
   <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参阅 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>。</block>
   <block id="c8684cf4ccd502e49d1d79ff9936bc98" category="section-title">2023年11月6日</block>
   <block id="0778a32085af8830c408efb93cb7239f" category="section-title">1.26.3版</block>
@@ -3035,7 +3029,6 @@
   <block id="4ece5b80f66f48ae87ab10eeb6098ee4" category="cell">仅映射扫描</block>
   <block id="199f10f735e14c906492368f8756c40f" category="list-text">执行仅映射扫描时、BlueXP  分类每天可扫描100-150 Tib的数据。</block>
   <block id="2035b28633c5d248f8b4834a49bb61e4" category="list-text">执行地图和分类扫描时、BlueXP  分类每天可扫描15-40 Tib的数据。</block>
-  <block id="f7bdd4178a7e1813735f80fdd04c8365" category="list-text">* 重复文件 * —在要扫描的数据源的其他位置复制的文件。<block ref="4919d6fe6d27551fddf3eb8948477168" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="b74906233eebd14b41614d235251d36a" category="list-text">从BlueXP  左侧导航菜单中、选择*监管&gt;分类*。</block>
   <block id="f3bf83f2c7aadc341ac1678567775abc" category="list-text">要映射所有卷，请选择*映射所有卷*。</block>
   <block id="c854572c2f5a5368403f0ee57aa1bb29" category="list-text">要映射所有卷并对其进行分类，请选择*映射所有卷并对其进行分类*。</block>
@@ -3159,8 +3152,6 @@
   <block id="80160ca28dec2acced2205422a937338" category="list-text">**对扫描进行映射和分类**提供对数据的深入扫描。</block>
   <block id="0333308d9a0f15321e19f3c056bf0f53" category="inline-link-macro">映射扫描与分类扫描有何区别？</block>
   <block id="2483e5b7a57a542363d0099bcc6987a3" category="paragraph">有关映射扫描和分类扫描之间差异的详细信息，请参见<block ref="323939a2597e9b17834689d82c0946fb" category="inline-link-macro-rx"></block>。</block>
-  <block id="84234483faf50fc9614a55cd04f072de" category="list-text">*个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码。<block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="1b225330889a9259efe1962dc624d2f9" category="list-text">*敏感个人数据*：特殊类型的敏感个人信息(SPII)、如GDPR和其他隐私法规定义的健康数据、种族或政治观点。<block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="33145ff55ab3cd82966af5880e24a1e4" category="paragraph">BlueXP分类可在云端或内部部署一个服务器或集群、无论您选择在何处。这些服务器通过标准协议连接到数据源、并为Elasticsearch集群中的结果编制索引、该集群也部署在相同的服务器上。这样便可支持多云、跨云、私有云和内部环境。</block>
   <block id="170f4a7996b0fbdd91306273246a1b86" category="paragraph">当您在SaaS模式下使用BlueXP  时、将通过HTTPS提供与BlueXP  的连接、并且在您的浏览器和BlueXP  分类实例之间发送的私有数据将通过使用TLS 1.2的端到端加密得到保护、这意味着NetApp和第三方无法读取这些数据。</block>
   <block id="a5e2d801acd4eba6ae154178a10ef60b" category="paragraph">BlueXP  分类可在您的BlueXP  系统和存储系统旁边部署另一层AI。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。BlueXP分类利用人工智能和自然语言处理、而不是通常围绕正则表达式和模式匹配构建的替代解决方案。</block>
@@ -3371,7 +3362,6 @@
   <block id="b7f6a3bebde141b211f7f03ea94b59a0" category="paragraph">您可以从BlueXP  分类UI的许多区域导航到此页面、包括监管和合规性信息板以及这些页面上已选择的筛选器。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。</block>
   <block id="503f38415f575979b1abb29789cbda50" category="list-text">从BlueXP  分类菜单中，选择*Investigation *。</block>
   <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">在"数据调查"页面上、执行以下任一操作：</block>
-  <block id="9dd4d7f07b73e6aaac505f7417738860" category="list-text">要在精炼后将页面内容下载为报告、请选择按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block><block ref="99402c37b738da126a6c16dce45a83da" category="inline-xref-macro-rx"></block>(英文)</block>
   <block id="112a92421a821122ddfd7d3b0735b4ec" category="list-text">要查看文件(非结构化数据)、目录(文件夹和文件共享)或数据库(结构化数据)中的数据、请选择顶部的选项卡之一。</block>
   <block id="de1f3a62aada6a5e03bde4ce908b4d24" category="list-text">要按数字或字母顺序对结果进行排序、请选择每列顶部的控件。</block>
   <block id="3575ec00f80ae9ff26cf47ff8300221a" category="list-text">要进一步细化结果、请选择左侧筛选器窗格中的多个筛选器之一。</block>
@@ -3391,7 +3381,6 @@
   <block id="6926f90beadfdb901f306772787c7f05" category="paragraph">*按分析状态过滤数据*</block>
   <block id="0fdacc8c067979a1926a265cd399f05a" category="paragraph"><block ref="d865d9e7da9a534ddb8c0b18eca2435c" category="inline-link-macro-rx"></block>有关使用扫描分析事件进行筛选时调查页面中显示的项目的更多信息。</block>
   <block id="c2d41b84903ff9433b055cd311767824" category="paragraph">*按重复项筛选数据*</block>
-  <block id="deb92d356adf2bc4203235e994269d9a" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="ea156c161a340e4bbece1f1483afe558" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
   <block id="1f54ce0e770f5c76ff9e305bb20ea41a" category="paragraph">并非所有信息都可用于所有数据源-仅适用于该数据源。例如、卷名称和权限与数据库文件无关。</block>
   <block id="efcf64fabaf1cd0d5d0c35cfea3e25d9" category="list-text">在右侧的"数据调查"列表中、为任何单个文件选择右侧的脱机脱机脱字符<block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block>、以查看文件元数据。</block>
   <block id="887f8cc0eb69a50c3835261bb514ecb7" category="section-title">查看用户对文件和目录的权限</block>
@@ -3438,4 +3427,15 @@
   <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">确定仅映射扫描的优先级</block>
   <block id="9267a4a221ce8d9176ea70d45543abf5" category="paragraph">您可以确定最重要的仅映射扫描的优先级、以确保首先完成高优先级扫描。</block>
   <block id="f869ba288edefcc198633bd9bda2d3b8" category="paragraph">默认情况下、扫描会根据启动顺序进行排队。现在、您可以将扫描移动到队列的前面、从而确定扫描的优先级。可以确定多个扫描的优先级。优先级按先入先出的顺序指定、这意味着您优先处理的第一个扫描将移至队列的前端；您优先处理的第二个扫描将成为队列中的第二个扫描、依此类推。此功能仅限于仅映射扫描。它不适用于地图和分类扫描。</block>
+  <block id="038d75fbb28c2dd7e9ed9904fea7fadc" category="paragraph">BlueXP  分类可收集以下数据、为其编制索引并为其分配类别：</block>
+  <block id="16e3e664a20bb6964ad08fde07c76933" category="list-text">*个人数据*：个人身份信息(Pi2)，如电子邮件地址、身份号码或信用卡号码，BlueXP  分类使用文件中的特定字词、字符串和模式来识别这些信息。<block ref="fc496cc858c0e8dff4419012ba17c358" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="e60672f803602bf222f416a6205b3b39" category="list-text">*敏感个人数据*：《一般数据保护条例》(GDPR)和其他隐私法规定义的特殊类型的敏感个人信息(SPII)、例如健康数据、种族或政治观点。<block ref="6221f6509a9900ea9a8146767340b3a8" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="88afcfed766d9b57a4ac8bafd19ac517" category="list-text">您可以使用"文件所有者"<block ref="7e65b91b29e94a0af38cb668206b021e" category="inline-link-macro-rx"></block>、并在"调查"窗格中查看文件元数据中的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。</block>
+  <block id="5c2ead81821547f3130352184807c230" category="list-text">单击"查看所有权限"按钮时、您可以查看<block ref="3e9bb1533fcbed587af1c2c23ff12e21" category="inline-link-macro-rx"></block>每个文件和目录的。</block>
+  <block id="5791d2ebf242b348a1cbfa550a356083" category="list-text">* 重复文件 * —在要扫描的数据源的其他位置复制的文件。<block ref="4f528c73ac5ca4ef85380f36d4dccad7" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="3cdcb2a793341ff20e0d4057a0538e49" category="list-text">要在精炼后将页面内容下载为报告、请选择按钮。<block ref="776643a36a44cc5a62e686055f0484c6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="115993abd6a23a5a17d07cec8fbc4b6e" category="cell">选择一个或多个策略。转到<block ref="6160b7a55bd427b3fb91de138d9f467e" category="inline-link-macro-rx"></block>以查看现有策略列表并创建您自己的自定义策略。</block>
+  <block id="b07926c5eabcf7b05f3a674e478e6b18" category="inline-link-macro">创建策略</block>
+  <block id="3ee1fee226155df3d1aec325193a3b4a" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="e4856c4af761ccf18001e0febd54584c" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
+  <block id="1c3cd11405c2cc34d1b337f6a930a0e5" category="list-text">在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参阅 <block ref="0b922dd9827c419654172323345089b8" category="inline-link-macro-rx"></block>。</block>
 </blocks>

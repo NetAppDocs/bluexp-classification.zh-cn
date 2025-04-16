@@ -329,7 +329,7 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 此版本还删除了以下选项：
 
 * 已禁用用于激活审核日志收集的选项。
-* 在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参阅 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["调查存储在组织中的数据"]。
+* 在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参阅 link:task-investigate-data.html["调查存储在组织中的数据"]。
 * 已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参阅 link:task-org-private-data.html["组织您的私有数据"]。
 
 

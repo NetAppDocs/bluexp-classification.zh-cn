@@ -30,7 +30,7 @@ NOTE: 只有在选择对数据源执行完整分类扫描后，才可以使用�
 .步骤
 . 从BlueXP  分类菜单中，选择*Investigation *。
 . 在"数据调查"页面上、执行以下任一操作：
-. 要在精炼后将页面内容下载为报告、请选择按钮。image:button_download.png["下载按钮"]<<Data Investigation Report,有关数据调查报告的详细信息、请访问此处>>(英文)
+. 要在精炼后将页面内容下载为报告、请选择按钮。image:button_download.png["下载按钮"]
 +
 image:screenshot_compliance_investigation_filtered.png["在调查页面中细化结果时可用筛选器的屏幕截图。"]
 
@@ -161,7 +161,7 @@ BlueXP分类不会从以下数据源中提取"上次访问时间"：SharePoint O
 | 筛选器 | 详细信息 
 
 
-| 策略 | 选择一个或多个策略。转到link:task-using-policies.html["此处"^]以查看现有策略列表并创建您自己的自定义策略。 
+| 策略 | 选择一个或多个策略。转到link:task-using-policies.html["此处"]以查看现有策略列表并创建您自己的自定义策略。 
 |===
 *按分析状态过滤数据*
 
