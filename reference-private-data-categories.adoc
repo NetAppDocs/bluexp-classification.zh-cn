@@ -356,7 +356,7 @@ BlueXP分类会扫描所有文件以查看类别和元数据洞察力、并在�
 
 但是、当BlueXP分类检测到个人身份信息(PII)或执行DSAR搜索时、仅支持以下文件格式：
 
-`+.CSV, .DCM, .DICOM, .DOC, .DOCX, .JSON, .PDF, .PPTX, .RTF, .TXT, .XLS, .XLSX, Docs, Sheets, and Slides+`
+`+.CSV, .DCM, .DOC, .DOCX, .JSON, .PDF, .PPTX, .RTF, .TXT, .XLS, .XLSX, Docs, Sheets, and Slides+`
 
 
 

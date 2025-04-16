@@ -340,7 +340,6 @@
   <block id="5f4ceba489dc56da6edff02213d6e21c" category="section-title">支持哪些文件类型？</block>
   <block id="bc90c1660d729d86ab10b8018a956932" category="paragraph">BlueXP分类会扫描所有文件以查看类别和元数据洞察力、并在信息板的文件类型部分中显示所有文件类型。</block>
   <block id="6352911cc42108d1f16863e618ef84d4" category="paragraph">当BlueXP分类检测到个人身份信息(PII)或执行DSAR搜索时、仅支持以下文件格式：</block>
-  <block id="0adefa52dc5e774fb8bd1c62fec82b84" category="paragraph"><block ref="0b3e64f511542d0a580dfbeb6d666614" prefix="" category="inline-code"></block></block>
   <block id="d288c89eadda3d7c229b7316faf2209a" category="section-title">BlueXP分类可捕获哪些类型的数据和元数据？</block>
   <block id="724ba2aee906c26a6c05f56bbf0dd434" category="paragraph">通过BlueXP分类、您可以对数据源运行常规"映射"扫描或完整的"分类"扫描。映射仅提供数据的概览，而 " 分类 " 则提供数据的深度扫描。由于无法访问文件以查看数据源中的数据，因此可以非常快速地对数据源进行映射。</block>
   <block id="00fb8639b6c2826bd3fceaa0d36399d8" category="paragraph">快速扫描后、您可以生成数据映射报告。本报告概述了存储在企业数据源中的数据、可帮助您确定资源利用率、迁移、备份、安全性和合规性流程。</block>
@@ -3438,4 +3437,5 @@
   <block id="b07926c5eabcf7b05f3a674e478e6b18" category="inline-link-macro">创建策略</block>
   <block id="3ee1fee226155df3d1aec325193a3b4a" category="paragraph">除了向您显示文件所在的工作环境和卷之外、元数据还会显示更多信息、包括文件权限、文件所有者以及此文件是否存在重复项。如果您计划使用、此信息非常有用<block ref="e4856c4af761ccf18001e0febd54584c" category="inline-link-macro-rx"></block>、因为您可以查看可用于筛选数据的所有信息。</block>
   <block id="1c3cd11405c2cc34d1b337f6a930a0e5" category="list-text">在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、请参阅 <block ref="0b922dd9827c419654172323345089b8" category="inline-link-macro-rx"></block>。</block>
+  <block id="993d0cb387fd8414eea2cd1b17bc3b81" category="paragraph"><block ref="52b8cfc50608d81c1431f72921eeb174" prefix="" category="inline-code"></block></block>
 </blocks>
