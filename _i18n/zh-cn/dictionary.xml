@@ -2676,36 +2676,24 @@
   <block id="e3cf1613fe34f89ac1f2966a0222877f" category="paragraph">"合规性信息板"中的*Policies*选项卡列出了此BlueXP分类实例中可用的所有预定义策略和自定义策略。</block>
   <block id="967b04771a3458159d11dd8932d09129" category="inline-image-macro">BlueXP分类信息板中的"Policies"选项卡的屏幕截图。</block>
   <block id="d44d997087e7d999102d47f4839b74ac" category="paragraph"><block ref="d44d997087e7d999102d47f4839b74ac" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="351501516e0a13df2ed4813f5d93864d" category="paragraph">此外、策略将显示在"调查"页面的筛选器列表中。</block>
   <block id="c939d1291c3b87bc95f09e9b4065138e" category="section-title">在调查页面中查看策略结果</block>
-  <block id="fb5c8861ae16ebacc4ef4cf4a3f9746a" category="paragraph">要在调查页面中显示策略的结果，请单击特定策略的按钮，<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>然后选择*Investigate results*。</block>
   <block id="eade099275ce51bdec585f23e50846c7" category="inline-image-macro">从"Policies"(策略)选项卡中选择"Investigate results"(调查特定策略的结果)的屏幕截图。</block>
   <block id="b87f575df2628b12c3d997954b369392" category="paragraph"><block ref="b87f575df2628b12c3d997954b369392" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f617da6b50728500642eb376ab97b6f4" category="section-title">创建自定义策略</block>
   <block id="e6860b78555fc79d4429acb5534cf51b" category="paragraph">您可以创建自己的自定义策略，为特定于您的组织的搜索提供结果。系统将返回与搜索条件匹配的所有文件和目录(共享和文件夹)的结果。</block>
-  <block id="96a46d654233ac39fd6e31dda8fc4dae" category="inline-image-macro">显示如何将筛选的查询另存为策略的屏幕截图。</block>
-  <block id="9f769a1d4cd3d0c8d7378f6050100e35" category="paragraph"><block ref="9f769a1d4cd3d0c8d7378f6050100e35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="19948385b78770f8de2200aa21288a6a" category="list-text">(可选)选中此框以自动删除与策略参数匹配的文件。</block>
   <block id="ab3a166dafa7696427031860a8ba2694" category="inline-image-macro">显示如何配置和保存策略的屏幕截图。</block>
   <block id="9b07697830dbb49b6ea67bff8f36ad42" category="paragraph"><block ref="9b07697830dbb49b6ea67bff8f36ad42" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f124f85896ac18194a54f85b2d21b888" category="paragraph">新策略将显示在策略选项卡中。</block>
   <block id="ad3a8f7c032ad4e96e6372989c781a41" category="section-title">编辑策略</block>
-  <block id="ac8bfe24ca06e9a43f31e7975b6980a8" category="paragraph">您可以修改先前创建的现有策略的任何条件。如果要更改查询(使用筛选器定义的项)以添加或删除某些参数、则此功能尤其有用。</block>
-  <block id="7037cf1f24072122891243e88abfb12e" category="paragraph">对于预定义策略、您只能修改是否发送电子邮件通知以及是否添加AIP标签。不能更改任何其他值。</block>
-  <block id="a12113b6b49f31212d0614b3ea69ea2b" category="list-text">在策略列表页面中、单击要更改的策略的*编辑*。</block>
   <block id="46cca5a0b236597ecbbc433af09a7cdd" category="inline-image-macro">显示如何对现有策略启动编辑的屏幕截图。</block>
   <block id="3056771597dc5384f17bbb61e33a97e3" category="paragraph"><block ref="3056771597dc5384f17bbb61e33a97e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9edd844856e16adcca10bdc9965cd880" category="list-text">如果您只想更改此页面上的项(名称、问题描述 、是否发送电子邮件通知以及是否添加了AIP标签)、请进行更改并单击*保存策略*。</block>
-  <block id="d0cb19a0fd724606f26b87b211d86b49" category="paragraph">如果要更改已保存查询的筛选器、请单击*编辑查询*。</block>
   <block id="cc9419324ea7def41675382a6f26c64b" category="inline-image-macro">在编辑策略页面上选择编辑查询按钮的屏幕截图。</block>
   <block id="1c5fef5f58eb8467fc88591877ccc7e3" category="paragraph"><block ref="1c5fef5f58eb8467fc88591877ccc7e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f83e3b5da3e9770bafefd94e5a39763" category="list-text">在定义该查询的调查页面中、通过添加、删除或自定义筛选器来编辑查询、然后单击*保存更改*。</block>
   <block id="7cbe4840b4a3a2fdf1f9286da7e2b284" category="inline-image-macro">显示如何通过更改筛选器设置来编辑查询的屏幕截图。</block>
   <block id="289758d7ef2e573a0ee7824d5814b945" category="paragraph"><block ref="289758d7ef2e573a0ee7824d5814b945" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6a5816406505d9f49c1bfa13c98461f7" category="paragraph">策略将立即更改。为该策略定义的用于发送电子邮件、添加AIP标签或删除文件的任何操作都将在下一个内部发生。</block>
   <block id="5d82deb8cba9afb6516c37ca8c24a8ad" category="section-title">删除策略</block>
   <block id="975f1d83956c13d06e3328fcb12a0a3f" category="paragraph">如果您不再需要任何已创建的自定义策略、则可以将其删除。您无法删除任何预定义策略。</block>
-  <block id="19d4814f3bce80460384b97290bb64be" category="paragraph">要删除策略，请单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>特定策略的按钮，单击*Delete Policy*，然后在确认对话框中再次单击*Delete Policy*。</block>
   <block id="91f5ccbaa42a010696c34306e0121702" category="section-title">预定义策略列表</block>
   <block id="d1d0b0240f763b10942cc206a4f4e980" category="paragraph">BlueXP分类提供了以下系统定义的策略：</block>
   <block id="49ee3087348e8d44e1feda1917443987" category="cell">名称</block>
@@ -3469,4 +3457,19 @@
   <block id="bc95bc80ebf2858c233b2627b019d9e4" category="cell">加拿大社会保险号码(单)</block>
   <block id="00acd555cd21235c4d1b966ed1be4a74" category="cell">英国ID (Nino)</block>
   <block id="03624a0e3cf06ce697a55ae458b36245" category="cell">美国德州驾驶证</block>
+  <block id="1a29dcb31a65b43c01aeec2246fa49c7" category="summary">策略可通过筛选器在"调查"页面中为常见请求的合规性查询提供搜索结果。BlueXP  分类可根据常见请求提供一组预定义策略、您也可以创建自己的策略。</block>
+  <block id="f83468943a92a9d70fe55b7e87c65a05" category="paragraph">策略也会显示在"调查"页面的筛选器列表中。</block>
+  <block id="b41d9199442d75740188052cd48beb29" category="paragraph">要在调查页面中显示策略的结果，请选择特定策略的按钮，<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>然后选择*Investigate results*。</block>
+  <block id="9501674588409f4d41d4dd0d16106531" category="inline-link-macro">筛选调查页面中的数据</block>
+  <block id="5905cce43eb3cf5df34ad20687132905" category="list-text">在调查选项卡中、通过选择要使用的筛选器来定义搜索。有关详细信息、请参见。 <block ref="fc016879136ae59a01dc15bd1e0ae029" category="inline-link-macro-rx"></block></block>
+  <block id="e85bfe3f1de43636e78e3933cf709057" category="list-text">将所有过滤器特性设置为您喜欢的特性后，选择*从此搜索中创建策略*。</block>
+  <block id="f9eedf2a2f5e1bb65bd48f67cc11775f" category="inline-image-macro">显示如何将筛选的查询另存为策略的屏幕截图。</block>
+  <block id="74f8b507d44a9c9de5bc7494adb05585" category="paragraph"><block ref="74f8b507d44a9c9de5bc7494adb05585" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e61d888eb37f48ad33d55cec612a0679" category="paragraph">您可以修改现有策略的条件以更改查询(使用筛选器定义的项目)、从而添加或删除某些参数。</block>
+  <block id="d9a6afbd4a5c10947a68b413c4cad163" category="paragraph">您不能修改预定义策略。</block>
+  <block id="a126111bf84a962c10c82c54b7053f09" category="list-text">从“策略列表”页中，为要更改的策略选择*Edit Policy*。</block>
+  <block id="a63db0f06bb77419a1c9810effb58b9a" category="list-text">更改名称和说明字段。要仅更改这些字段，请选择*保存策略*。</block>
+  <block id="b661e4ea30af73a913aed1e7ae647f4a" category="paragraph">要更改已保存查询的过滤器，请选择*Edit Query*。</block>
+  <block id="1c76b2a61ae25c65703ed4c7e9a61c05" category="list-text">在定义该查询的“调查”页面中，通过添加、删除或自定义筛选器来编辑查询，然后选择*保存更改*。</block>
+  <block id="fc0a103843396ed5e93bb76396799d13" category="paragraph">要删除策略，请选择<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>特定策略的按钮，选择*Delete Policy*，然后在确认对话框中再次选择*Delete Policy*。</block>
 </blocks>
