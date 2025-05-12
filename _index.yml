@@ -41,7 +41,7 @@ indexpage:
       url: task-investigate-data.html#check-for-duplicate-files-in-your-storage-systems
     - title: 筛选数据以查看特定文件
       url: task-investigate-data.html
-    - title: 创建策略以查看排名靠前的搜索结果
+    - title: 创建保存的搜索
       url: task-using-policies.html
     - title: 生成合规性报告
       url: task-generating-compliance-reports.html

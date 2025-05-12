@@ -1,0 +1,41 @@
+= 1.43 版
+:allow-uri-read: 
+
+
+
+
+=== 1.43 版
+
+此BlueXP  分类版本包括：
+
+.确定分类扫描的优先级
+现在、BlueXP  分类除了支持仅映射扫描之外、还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。
+
+有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
+
+.支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别
+BlueXP  分类扫描现在可识别加拿大所有省份和地区的银行信息、护照号码、社会保险号、驾驶证号和健康卡号的个人身份信息数据类别。
+
+有关详细信息，请参见xref:reference-private-data-categories.adoc#types-of-personal-data[个人数据类别]。
+
+.自定义分类(预览)
+BlueXP  分类现在支持对地图和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描以捕获组织特定的数据、以确保符合正则表达式。此功能当前处于预览状态。
+
+有关详细信息，请参见 xref:task-custom-classification.adoc[添加自定义分类]。
+
+.已保存搜索选项卡
+**策略**选项卡已重命名xref:task-using-policies.html[**保存的搜索**]。功能相同。
+
+.将扫描事件发送到审核日志
+现在，可以将BlueXP  扫描事件发送到xref:task-audit-data-sense-actions.html[审核日志]。BlueXP  分类还支持将分类事件(扫描启动和结束时)发送到link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  时间表"^]。只有工作环境才支持将分类扫描事件发送到BlueXP  时间线。
+
+.安全更新
+* Keras软件包已更新、可缓解漏洞(BDSA-2025-0107和BDSA-2025-1984)。
+* 已更新Docker容器配置。容器无法再访问主机的网络接口来创建原始网络数据包。通过减少不必要的访问、此更新可缓解潜在的安全风险。
+
+
+.性能增强
+已实施代码增强功能、以减少RAM使用量并提高BlueXP  分类的整体性能。
+
+.错误修复
+已修复导致StorageGRID扫描失败、无法加载调查页面筛选器选项以及无法下载数据发现评估进行高容量评估的错误。

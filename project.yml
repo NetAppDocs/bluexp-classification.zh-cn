@@ -65,9 +65,11 @@ sidebar:
       url: "/task-controlling-private-data.html"
     - title: 私有数据的类别
       url: "/reference-private-data-categories.html"
+    - title: 创建自定义扫描
+      url: "/task-custom-classification.html"
     - title: 调查您的数据
       url: "/task-investigate-data.html"
-    - title: 为数据分配策略
+    - title: 创建保存的搜索
       url: "/task-using-policies.html"
     - title: 更改扫描设置
       url: "/task-managing-repo-scanning.html"

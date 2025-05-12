@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task-custom-classification.html 
+keywords: custom classification, customize, regular expression, keyword, regex 
+summary: 通过BlueXP  分类、您可以自定义敏感信息的搜索、并根据与您的组织相关的各个模式和关键字来定制服务。 
+---
+= 在BlueXP  分类中创建自定义分类
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+通过BlueXP  分类、您可以为敏感信息创建自定义搜索。搜索范围可以是一个正则表达式或一组邻近关键字。
+
+
+
+== 创建自定义分类
+
+自定义分类仅适用于"映射和分类"扫描、而不适用于"仅映射"扫描。此功能当前处于预览状态。
+
+.步骤
+. 选择**自定义分类**选项卡。
+. 选择**添加新的群集器**。
+. 为新分类器添加名称和说明。
+. 要将自定义添加为正则表达式，请选择**自定义正则表达式**，然后选择**下一步**。
++
+.. 对于正则表达式、请添加模式以检测数据的特定信息。例如，以201开头的12位ID将是\b201\f\d(9)b。选择**验证**以确认输入的语法。
+
+
+
+
+新的自定义设置将在下次计划扫描时捕获。要查看结果，请参见xref:task-generating-compliance-reports.html[生成合规性报告]。
