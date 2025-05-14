@@ -16,14 +16,14 @@ summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象�
 [role="lead"]
 完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。
 
+
+IMPORTANT: 以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。
+
++从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 link:task-scanning-storagegrid.html["扫描StorageGRID数据"]。
+
 []
 ====
-*NOTE*使用核心BlueXP  中的BlueXP  分类，您现在可以扫描StorageGRID数据。请参阅。link:task-scanning-storagegrid.html["扫描StorageGRID数据"]此处的其余信息仅与BlueXP  分类原有版本1.3及更早版本相关。
-
-====
-
-
-== 快速入门
+===快速入门
 
 按照以下步骤快速入门，或者向下滚动到其余部分以了解完整详细信息。
 
@@ -46,9 +46,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 [role="quick-margin-para"]
 选择要扫描的存储分段、BlueXP分类将开始扫描它们。
 
-
-
-== 查看对象存储要求
+===查看对象存储要求
 
 在启用BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。
 
@@ -56,9 +54,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 * 您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。
 
 
-
-
-== 部署BlueXP分类实例
+===部署BlueXP  分类实例
 
 如果尚未部署实例、请部署BlueXP分类。
 
@@ -68,9 +64,7 @@ link:task-deploy-cloud-compliance.html["部署BlueXP分类"^]如果尚未部署�
 
 只要该实例具有Internet连接、BlueXP分类软件的升级就会自动进行。
 
-
-
-== 将对象存储服务添加到BlueXP分类
+===将对象存储服务添加到BlueXP  分类
 
 添加对象存储服务。
 
@@ -94,9 +88,7 @@ image:screenshot_compliance_add_object_storage.png["对话框的屏幕截图，�
 .结果
 新的对象存储服务将添加到工作环境列表中。
 
-
-
-== 启用和禁用对象存储分段上的合规性扫描
+===对对象存储分段启用和禁用合规性扫描
 
 在对象存储服务上启用BlueXP分类后、下一步是配置要扫描的分段。BlueXP分类可发现这些分段、并在您创建的工作环境中显示它们。
 
@@ -127,3 +119,5 @@ image:screenshot_compliance_object_storage_select_buckets.png["选择要扫描�
 
 .结果
 BlueXP分类开始扫描您启用的分段。如果存在任何错误，它们将显示在状态列中，并显示修复此错误所需的操作。
+
+====

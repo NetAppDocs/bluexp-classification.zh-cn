@@ -144,7 +144,7 @@ image:screenshot_add_keywords_result.png["在\"调查结果\"窗格中显示自�
 如果在构建正则表达式时需要帮助，请参阅 https://regex101.com/["正则表达式101."^]。选择*PYTHYTH*作为风味，以查看BlueXP分类将与正则表达式匹配的结果类型。 https://pythonium.net/regex["Python Regex测试程序页面"^]通过以图形方式显示模式、也很有用。
 
 
-NOTE: 目前、我们不允许在创建正则表达式时使用模式标志-这意味着您不应使用"/"。
+NOTE: 创建正则表达式时、BlueXP  分类不支持模式标志。这意味着您不应使用"/"。
 
 .步骤
 . 在_Classification settings_选项卡中、单击*添加新的类元*以启动_Add Custom Classifier_向导。

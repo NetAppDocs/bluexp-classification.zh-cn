@@ -218,8 +218,8 @@ image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕
 
 . 转到BlueXP分类实例所在的源AWS帐户、然后选择附加到该实例的IAM角色。
 +
-.. 将 * 最大 CLI/API 会话持续时间 * 从 1 小时更改为 12 小时，然后保存此更改。
-.. 单击 * 附加策略 * ，然后单击 * 创建策略 * 。
+.. 将*最大CLI/API会话持续时间*从1小时更改为12小时。保存更改。
+.. 选择*attach policies*，然后选择*Create policy*。
 .. 创建一个包含 "STS ： AssumeRole" 操作的策略，并指定您在目标帐户中创建的角色的 ARN 。
 +
 [source, json]
@@ -248,11 +248,11 @@ image:screenshot_iam_create_role.gif["用于创建IAM角色的AWS页面的屏幕
 }
 ----
 +
-BlueXP分类实例配置文件帐户现在可以访问其他AWS帐户。
+BlueXP  分类实例配置文件帐户可以访问其他AWS帐户。
 
 
 
-. 转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意、BlueXP分类可能需要几分钟时间来同步新帐户的工作环境并显示此信息。
+. 导航到*Amazon S3 Configuration*页面，此时将显示新的AWS帐户。请注意、BlueXP分类可能需要几分钟时间来同步新帐户的工作环境并显示此信息。
 +
 image:screenshot_activate_and_select_buckets.png["显示如何激活BlueXP分类的屏幕截图。"]
 

@@ -47,7 +47,6 @@
   <block id="dfd993077bb353282906702dc3143ec7" category="list-text">*NTP注意事项*：NetApp建议将BlueXP分类系统配置为使用网络时间协议(NTP)服务。BlueXP分类系统和BlueXP Connector系统之间的时间必须同步。</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="doc">版本：1.</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="paragraph-title">扫描StorageGRID数据</block>
-  <block id="83bceb987dd495cde1a148944580e473" category="paragraph">BlueXP  分类现在可以在StorageGRID中扫描数据。</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="doc">1.36 版</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="paragraph-title">支持RHEL 9.4</block>
@@ -105,10 +104,7 @@
   <block id="bc2de28feb42e568f3e122df8d001559" category="summary">BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="doc">了解BlueXP分类</block>
   <block id="87fce6273ae6270f06beebf56898bc70" category="paragraph">BlueXP分类(Cloud Data Sense)是一项适用于BlueXP的数据监管服务、可扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
-  <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">重要说明</block>
   <block id="9b17860ccc87d28d839931769a5af6ee" category="inline-link-macro">请参见已弃用功能的列表</block>
-  <block id="e8f4baffb4918527d8701a12a84b8d92" category="paragraph"><block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="705e8077ff3af41dc9b8a84050d869d1" category="paragraph">一直使用旧版1.3或更早版本的用户将继续使用该版本、直到其订阅到期为止。</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="71e39030d4b3b241d51a6ce6c9ce8bd7" category="paragraph">BlueXP分类使用人工智能(AI)、自然语言处理(NLL)和机器学习(ML)来了解它扫描的内容、以便提取实体并对内容进行相应的分类。这样、BlueXP分类就可以提供以下功能区域。</block>
   <block id="84869a8fd0e55b1142c336faf2aa6794" category="inline-link">详细了解BlueXP分类的用例</block>
@@ -150,7 +146,6 @@
   <block id="0db2daf3d07a81feeb571f78c0af87fa" category="list-text">SQL Server （ MSSQL ）</block>
   <block id="33131c83033941e511576a90476300a6" category="paragraph">BlueXP分类支持NFS 3.x、4.0和4.1以及CIFS 1.x、2.0、2.1和3.0。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="1d4f5c4d2298eeba0567ba65029151d4" category="paragraph">BlueXP分类现在可免费使用。不需要分类许可证或付费订阅。</block>
   <block id="bcf2e25b0a67b74f2ef04fa33cb52b61" category="section-title">基础架构成本</block>
   <block id="73e82d6326f541ace82886b5c0cd44eb" category="inline-xref">为每个云提供商部署的实例类型</block>
   <block id="79de69a9c27339b7e2c0888ade6a7ff9" category="list-text">在云中安装BlueXP分类需要部署云实例、这会导致从部署该实例的云提供商处收取费用。请参阅。 <block ref="a640e98c8584c0b162d717c76dd083cd" category="inline-xref-macro-rx"></block>如果您在内部系统上安装BlueXP分类、则不需要任何费用。</block>
@@ -1212,7 +1207,6 @@
   <block id="3080c7bbf6707274907b8ec2e97fb7a8" category="list-text">如果您使用代理访问Internet：</block>
   <block id="872a9ee7c158e8dd5094c5c93dcffc57" category="list-text">您需要代理服务器信息(IP地址或主机名、连接端口、连接方案：HTTPS或http、用户名和密码)。</block>
   <block id="60e3e1e8b520c28183ebe86bd433deda" category="list-text">如果代理正在执行TLS截取、您需要知道BlueXP分类Linux系统上存储TLS CA证书的路径。</block>
-  <block id="48439ae905464923337d7464952d3315" category="list-text">代理必须不透明-我们目前不支持透明代理。</block>
   <block id="b9a11b90960ff803269429887ab4cff3" category="list-text">用户必须是本地用户。不支持域用户。</block>
   <block id="d66d1b16789175829b23ed7e745d66dd" category="list-text">验证脱机环境是否满足所需的<block ref="9eb48ce3a280aa134b4c3aab7ed78a68" category="inline-xref-macro-rx"></block>。</block>
   <block id="2fdc544d6ce29e3a29dd3b9cb532c792" category="list-text">从下载BlueXP  分类软件<block ref="0a75c5e2697813218978a09f1ac8297e" category="inline-link-rx"></block>。您应选择的文件名为* datasENSE-installer-datas.tar.gz*&lt;version&gt;。</block>
@@ -1749,7 +1743,6 @@
   <block id="d4da00138f887427e0760f21c97fa0cf" category="inline-link">正则表达式101.</block>
   <block id="f535e41ec22971f3dc912b4a0c3e1502" category="inline-link">Python Regex测试程序页面</block>
   <block id="2858913580d22c83f2ed3c5bf98afa04" category="paragraph">如果在构建正则表达式时需要帮助，请参阅<block ref="44042c0043421e388aa50c9206936192" category="inline-link-rx"></block>。选择*PYTHYTH*作为风味，以查看BlueXP分类将与正则表达式匹配的结果类型。<block ref="16efc9dbee1da4ffa610197a33616f3b" category="inline-link-rx"></block>通过以图形方式显示模式、也很有用。</block>
-  <block id="c010468930979e106d9f7ed3eb1af1fb" category="admonition">目前、我们不允许在创建正则表达式时使用模式标志-这意味着您不应使用"/"。</block>
   <block id="e847e3f6aa6025fb9b99c6a029827fc3" category="paragraph">您输入的名称将在BlueXP分类UI中显示为符合分类器要求的已扫描文件的标题、并在"调查"页面中显示为筛选器的名称。您还可以选中"屏蔽系统中检测到的结果"复选框、以便完整结果不会显示在UI中。例如、您可能希望执行此操作以隐藏完整的信用卡号或类似的个人数据。</block>
   <block id="0931f142421f2e217723300078e3b8b7" category="paragraph"><block ref="0931f142421f2e217723300078e3b8b7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfc0ae4804b6b33aec281efa7221c9f8" category="list-text">在_Select数据分析工具_页面中、选择*自定义正则表达式*作为要用于定义分类器的方法、然后单击*下一步*。</block>
@@ -1952,7 +1945,6 @@
   <block id="209f3dabc722accc7b4db77a133ef209" category="list-text">*正在初始化*(浅蓝色圆点)：已激活映射或分类配置。在启动"待处理队列"状态之前、此状态会显示几秒钟。</block>
   <block id="fbbc6bcf9c53aaad4b5476065f315bb1" category="list-text">*待处理队列*(橙色圆点)：扫描任务正在等待在扫描队列中列出。</block>
   <block id="ea7971f9c02e5fa9234d7af5cd0b34c7" category="list-text">*已排队*(橙色圆点)：任务已成功添加到扫描队列。当卷在队列中的位置到达时、系统将开始对卷进行映射或分类。</block>
-  <block id="863f25b6c394057a4286fa671cfd048b" category="list-text">*正在运行*(绿点)：正在对选定存储库执行队列中的扫描任务。</block>
   <block id="1110cfca2e7c6a5f3e560597c03abeab" category="list-text">*完成*(绿点)：存储库扫描已完成。</block>
   <block id="da30b4408b5e1540ac02763204c943ad" category="list-text">*暂停*(灰点)：您选择了“暂停”选项以暂停扫描。虽然卷中的更改不会显示在系统中、但扫描的洞察力仍会显示出来。</block>
   <block id="7eac8ad7bb67a204924dcc6a4113f103" category="list-text">*错误*(红点)：由于遇到问题，扫描无法完成。如果需要完成操作、则错误会显示在工具提示中的"Required action"列下。否则、系统将显示"error"状态并尝试恢复。完成后、状态将发生变化。</block>
@@ -2252,7 +2244,6 @@
   <block id="8263235be1a4b9bb6cc92b057406f2e5" category="inline-link-macro">从BlueXP分类中删除Google Drive帐户</block>
   <block id="3ef1f7ef6e40406c6da9ebbf30881295" category="paragraph">由于只有一个用户的Google Drive文件属于一个Google Drive帐户，因此如果您要停止从用户的Google Drive帐户扫描文件，则应停止扫描<block ref="5f8a68577631fb4846e68096e5a718cb" category="inline-link-macro-rx"></block>。</block>
   <block id="3cdb36967a02a71e0d639c6d71d16ac3" category="summary">完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。</block>
-  <block id="fec0b5d2f5737f21e60a6e49ddb4e55f" category="paragraph">*NOTE*使用核心BlueXP  中的BlueXP  分类，您现在可以扫描StorageGRID数据。请参阅。<block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>此处的其余信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
   <block id="9c2468c732c2a3c37f5718ed3927f188" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block>查看对象存储前提条件</block>
   <block id="fd28e251418a49d4390ec8a9b6592efc" category="paragraph">您需要具有端点 URL 才能连接到对象存储服务。</block>
   <block id="ab799d9194a97ef175cc77104273ab42" category="paragraph">您需要具有对象存储提供程序的访问密钥和机密密钥、以便BlueXP分类可以访问分段。</block>
@@ -2260,11 +2251,9 @@
   <block id="53ab1a83968fb0e47aaf2604fd097f22" category="paragraph">将对象存储服务添加到BlueXP分类。</block>
   <block id="0cf30da5b3284b65f1bd1464a838ef7e" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block>选择要扫描的存储分段</block>
   <block id="52f14d27aed58bd63ec13b8bfc948c58" category="paragraph">选择要扫描的存储分段、BlueXP分类将开始扫描它们。</block>
-  <block id="763a21e3ec238bca68eb25847cf75843" category="section-title">查看对象存储要求</block>
   <block id="bb0a1704cdb3aa4652bac58b0632ab23" category="section-title">部署BlueXP分类实例</block>
   <block id="a9dd30151c7008ee5251686104cfa16e" category="paragraph">如果您正在扫描可通过Internet访问的S3对象存储中<block ref="15df3adeb2abcc06430d6dc64cee819e" category="inline-link-macro-rx"></block>的数据，则可以<block ref="8faa540c15177bc62b151869f0948a64" category="inline-link-macro-rx"></block>或。</block>
   <block id="4375ee40e1ca16fdfd2b33b0cda0950b" category="paragraph">如果要从安装在无法访问Internet的非公开站点上的S3对象存储扫描数据，则需要<block ref="3beeea1c5d12940092999048e1c30313" category="inline-link-macro-rx"></block>。这还要求在同一内部位置部署BlueXP Connector。</block>
-  <block id="56ae4518d3461ca7113dcd16c3bba1b2" category="section-title">将对象存储服务添加到BlueXP分类</block>
   <block id="0065ab04ebf28ab82ddb160d51d486e6" category="paragraph">添加对象存储服务。</block>
   <block id="58dc807771e7cb80307d5179257d8cf5" category="list-text">在工作环境配置页面中，单击 * 添加数据源 * &gt; * 添加对象存储服务 * 。</block>
   <block id="2ae3db9ae42d46e9ee88cc1d2d220b4c" category="paragraph"><block ref="2ae3db9ae42d46e9ee88cc1d2d220b4c" category="inline-image-macro-rx" type="image"></block></block>
@@ -2275,7 +2264,6 @@
   <block id="0c4f4678d993733c2bd7d96ae60765f7" category="inline-image-macro">对话框的屏幕截图，您可以在其中输入值以访问对象存储服务。</block>
   <block id="03f9825aedaceb15d936539d5826b1bc" category="paragraph"><block ref="03f9825aedaceb15d936539d5826b1bc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b759adaed99740d09f74e6100b8e27ba" category="paragraph">新的对象存储服务将添加到工作环境列表中。</block>
-  <block id="eee95a219b81e97bc6cd4730c01adbe3" category="section-title">启用和禁用对象存储分段上的合规性扫描</block>
   <block id="5f7d2531317684863a8928345cd2c72a" category="paragraph">在对象存储服务上启用BlueXP分类后、下一步是配置要扫描的分段。BlueXP分类可发现这些分段、并在您创建的工作环境中显示它们。</block>
   <block id="dd5853b89ec447e9d731b556d5117bd6" category="list-text">在配置页面中，单击对象存储服务工作环境中的 * 配置 * 。</block>
   <block id="3a1e5c5f142364cc7ce3c01995fb5473" category="inline-image-macro">单击工作环境的配置以选择要扫描的分段的屏幕截图。</block>
@@ -2388,10 +2376,7 @@
   <block id="4d73a075dbf1c56303ccda451f26cc3a" category="list-text">将 * 最大 CLI/API 会话持续时间 * 从 1 小时更改为 12 小时，然后保存此更改。</block>
   <block id="bf900745b27a9974d0ab2716c4bd344b" category="list-text">附加BlueXP分类IAM策略。确保它具有所需的权限。</block>
   <block id="4597627cb1a7d2c232d7dccad558ecc5" category="list-text">转到BlueXP分类实例所在的源AWS帐户、然后选择附加到该实例的IAM角色。</block>
-  <block id="d7bd77c61ee265322fab9869a5ec2219" category="list-text">单击 * 附加策略 * ，然后单击 * 创建策略 * 。</block>
   <block id="fa35ffe79ce8cfa3c54cab66d30042aa" category="list-text">创建一个包含 "STS ： AssumeRole" 操作的策略，并指定您在目标帐户中创建的角色的 ARN 。</block>
-  <block id="610a92d28e43a9b9b43a80355ed30a91" category="paragraph">BlueXP分类实例配置文件帐户现在可以访问其他AWS帐户。</block>
-  <block id="e69e174193783e78e5a975c45a55a239" category="list-text">转到 * Amazon S3 Configuration* 页面，此时将显示新的 AWS 帐户。请注意、BlueXP分类可能需要几分钟时间来同步新帐户的工作环境并显示此信息。</block>
   <block id="5ddf3d39694a5e23e1408c6a384f7690" category="inline-image-macro">显示如何激活BlueXP分类的屏幕截图。</block>
   <block id="1069eb13437b93173072d2dc7525f109" category="paragraph"><block ref="1069eb13437b93173072d2dc7525f109" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0a8fba705f708c47d0163310db2499dc" category="list-text">单击*激活BlueXP分类并选择存储分段*，然后选择要扫描的存储分段。</block>
@@ -2597,7 +2582,6 @@
   <block id="f38e65de4ce9c990f949a6ec4d679e75" category="paragraph">当某些关键策略返回结果时、BlueXP分类可以向您帐户中的BlueXP用户发送电子邮件警报、以便您可以获得通知来保护数据。您可以选择每天，每周或每月发送电子邮件通知。您还可以选择将电子邮件警报发送到不在您的BlueXP帐户中的任何其他电子邮件地址(最多20个电子邮件地址)。</block>
   <block id="7b58cd26f9f4676d5e7fb384e4fd3990" category="paragraph">您可以在创建策略或编辑任何策略时配置此设置。</block>
   <block id="b1b39ff951119dbc880b7e58c9b4a20d" category="paragraph">按照以下步骤向现有策略添加电子邮件更新。</block>
-  <block id="3c3de0aaf926f01f683c589f53bc3c61" category="list-text">从“策略列表”页面中，单击要添加(或更改)电子邮件设置的策略的*Edit*。</block>
   <block id="f154ff37f26bd2fd659d7f91a7811456" category="inline-image-macro">显示如何编辑现有策略的屏幕截图。</block>
   <block id="a5413bbfccb4a705e3449d1ed68885e6" category="paragraph"><block ref="a5413bbfccb4a705e3449d1ed68885e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0f45f5e9392cad0f6f0647364c3255a6" category="list-text">在编辑策略页面中：</block>
@@ -2605,8 +2589,6 @@
   <block id="abf0f7e6ece371db4b19fea5e49a4de2" category="list-text">如果您希望向其他用户发送通知电子邮件、请选中"发送电子邮件"框、选择电子邮件的发送间隔、并最多输入20个电子邮件地址。</block>
   <block id="ba7f20906bacf4fde87c14d7628aaec2" category="inline-image-macro">屏幕截图显示了如何为策略选择要发送的电子邮件条目的方式。</block>
   <block id="9cc0943710c206f20a91720ffe09f7bf" category="paragraph"><block ref="9cc0943710c206f20a91720ffe09f7bf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c6c5f991e4c7c528d0820b49c9f25a83" category="list-text">单击*保存策略*，策略问题描述中将显示发送电子邮件的间隔。</block>
-  <block id="43389b2e24ac398a192138fd526fdba4" category="paragraph">如果策略有任何结果、则会立即发送第一封电子邮件、但前提是任何文件符合策略标准。通知电子邮件不会发送任何个人信息。此电子邮件指示存在与策略条件匹配的文件、并提供指向策略结果的链接。</block>
   <block id="58471452eb2d1a8a501510aba48d9a3f" category="section-title">使用策略自动删除源文件</block>
   <block id="9b1a6cef9d9c4c8a2827dbad6747aa84" category="paragraph">您可以创建自定义策略以删除与此策略匹配的文件。例如、您可能希望删除包含敏感信息且在过去30天内被BlueXP分类发现的文件。</block>
   <block id="809f64202f1380bfa162de2b48ae05c0" category="paragraph">只有帐户管理员可以创建一个策略来自动删除文件。</block>
@@ -2718,8 +2700,6 @@
   <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>(英文)</block>
   <block id="c630754f942c555264fff115d6b5e9b2" category="section-title">2024年1月10日</block>
   <block id="536149161458a7a77ae5b72258f34e48" category="section-title">1.27 版</block>
-  <block id="be8658cdca9524eb49f00560785f3ab7" category="paragraph-title">现在、除了项目总数之外、调查页面结果还会显示总大小</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">现在、"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="paragraph-title">将其他组ID配置为"对组织开放"</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">将其他组ID添加为"对组织开放"</block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">现在、您可以在NFS中将组ID配置为直接从BlueXP分类中视为"对组织开放"(如果组最初未设置该权限)。附加了这些组ID的所有文件和文件夹将在"调查详细信息"页面中显示为"开放给组织"。请参见操作说明<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
@@ -2936,12 +2916,9 @@
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">要重试所有失败的扫描，请选择*重试所有扫描*。</block>
   <block id="a2cf857a70e312df7b376e0516470728" category="list-text">要重试特定扫描，请选择资源，然后从操作...选项中选择*Retry scAN*。</block>
   <block id="e59c558837a0bee73ac15f544f275cae" category="paragraph">使用与原始扫描相同的配置重试扫描。如果扫描再次失败、您可以根据需要重试多次。</block>
-  <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">默认情况下、扫描会根据启动顺序进行排队。现在、您可以将扫描移动到队列的前面、从而确定扫描的优先级。可以确定多个扫描的优先级。优先级按先入先出的顺序指定、这意味着您优先处理的第一个扫描将移至队列的前端；您优先处理的第二个扫描将成为队列中的第二个扫描、依此类推。</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">优先权是一次性授予的。按默认顺序自动重新选择映射数据。</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">仅映射扫描</block>
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">重试所有扫描</block>
-  <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">BlueXP  分类现在支持批量重试所有失败的扫描。</block>
-  <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">现在可以使用**重试全部**功能在批处理操作中重新尝试扫描。如果分类扫描因网络中断等临时问题而失败、您可以使用一个按钮同时重试所有扫描、而不是逐个重试。可以根据需要多次重试扫描。</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">重试所有扫描：</block>
   <block id="b12f5b59c684a779545a1b1213dd66bc" category="paragraph">您可以在BlueXP  分类中执行两种类型的扫描：</block>
   <block id="942a04054c6b1ae7f7628fd51272bc4f" category="cell">对扫描进行映射和分类</block>
@@ -2994,7 +2971,6 @@
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">1.41 版</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此BlueXP  分类版本包括一些常规改进和错误修复。它还包括：</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">扫描状态</block>
-  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">现在、BlueXP  分类可跟踪卷上_initial-_映射和分类扫描的实时进度。单独的渐进式条可跟踪映射和分类扫描、显示扫描总文件的百分比。您也可以将鼠标悬停在进度条上以查看扫描的文件数和总文件数。跟踪扫描状态可更深入地了解扫描进度、使您能够更好地规划扫描并了解资源分配。</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">要查看扫描的状态，请导航到BlueXP  分类中的**配置**，然后选择**工作环境配置**。每个卷的进度将以行显示。</block>
   <block id="126d0a183cd7ef5a42d98232cfc78c9e" category="admonition">您只能在"数据调查"页面上查看一次扫描的前10、000个结果或500页。</block>
   <block id="9fb67493aa2d989d001de2e7c4462b4e" category="paragraph">要查看有权访问文件或目录的所有用户或组的列表及其权限类型，请选择*查看所有权限*。此按钮仅适用于CIFS共享中的数据。</block>
@@ -3058,7 +3034,6 @@
   <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">这些文件将拆分为具有固定行数或记录数的文件：</block>
   <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200、000条记录</block>
   <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON—100、000条记录</block>
-  <block id="717dba055ce0e5275de4fbe6a15bb3f7" category="paragraph">从2024年5月起、BlueXP版本1.31将作为BlueXP中的核心功能免费提供。不需要分类许可证或订阅。我们已将BlueXP  分类功能重点放在NetApp存储系统上、因此已弃用某些未使用或未充分利用的功能。</block>
   <block id="781c4c76cc2b33e7ebecd0ec7ae9a2c7" category="section-title">BlueXP  分类扫描的工作原理</block>
   <block id="474cf46df0c1e9c8d98c2f529a0b080b" category="paragraph">概括地说、BlueXP  分类扫描的工作原理如下：</block>
   <block id="20d2a2e8543925af69154c91d0f12b74" category="list-text">您可以对一个或多个数据源启用高级别映射(称为_Mapping only_扫描)或深度扫描(称为_Map &amp; Classic_扫描)。</block>
@@ -3315,9 +3290,7 @@
   <block id="33fc2a8f6921fec02571495993aa2c6c" category="doc">1.42 版</block>
   <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">此BlueXP  分类版本包括：</block>
   <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">针对工作环境进行批量扫描</block>
-  <block id="57e954d06c81eea089fcb04e61b1c429" category="paragraph">BlueXP  分类现在支持对工作环境执行批量操作。您可以选择启用映射扫描、启用映射和分类扫描、禁用扫描或跨工作环境中的卷创建自定义配置。如果您为单个卷进行选择、则会覆盖批量选择。要执行批量操作，请导航到**配置**页并进行选择。</block>
   <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">在本地下载调查报告</block>
-  <block id="a8539b02096aea65d2e102c01a482c71" category="paragraph">BlueXP  分类现在支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。</block>
   <block id="95403a677c140fea03f157c2edb41c85" category="paragraph">有关详细信息，请参见 <block ref="55ff936b35b23a6f6693627bfb444c62" category="inline-link-macro-rx"></block>。</block>
   <block id="84acc1c8e6e80bda04b6eac437f19154" category="admonition">您可以下载CSV文件的某个版本以在此浏览器中查看。此版本限制为10、000条记录。</block>
   <block id="05035e3bc31af3e060bb6a5ed03e7988" category="list-text">输入**报告名称**。</block>
@@ -3375,13 +3348,10 @@
   <block id="422ba0edf6ed9e7533f09398a27021dc" category="admonition">此信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="doc">1.43 版</block>
   <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">确定分类扫描的优先级</block>
-  <block id="0dc348cb820b479010800e3c6cddc127" category="paragraph">现在、BlueXP  分类除了支持仅映射扫描之外、还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
   <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别</block>
-  <block id="25afe4e8f395663d2442297e33aa8a20" category="paragraph">BlueXP  分类扫描现在可识别加拿大所有省份和地区的银行信息、护照号码、社会保险号、驾驶证号和健康卡号的个人身份信息数据类别。</block>
   <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">个人数据类别</block>
   <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">有关详细信息，请参见<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>。</block>
   <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">自定义分类(预览)</block>
-  <block id="e43dc9231ca750651c1b2d09176b0bc3" category="paragraph">BlueXP  分类现在支持对地图和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描以捕获组织特定的数据、以确保符合正则表达式。此功能当前处于预览状态。</block>
   <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">添加自定义分类</block>
   <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">有关详细信息，请参见 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">已保存搜索选项卡</block>
@@ -3504,5 +3474,37 @@
   <block id="60be04fe141df250bce893e57d19600d" category="sidebar">创建保存的搜索</block>
   <block id="cbace44a9d78dedfcb62fa58fee0378f" category="sidebar">创建自定义扫描</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">将扫描事件发送到BlueXP  时间线</block>
-  <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">BlueXP  分类现在支持将分类事件(扫描启动和结束时)发送到<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
+  <block id="3c857514c210414567713ffec9077aff" category="paragraph">BlueXP  分类支持在StorageGRID中扫描数据。</block>
+  <block id="cb79cf2c786ed3992ebf9c4489793af5" category="paragraph">默认情况下、扫描会根据启动顺序进行排队。通过确定扫描优先级的功能、您可以将扫描移动到队列的前端。可以确定多个扫描的优先级。优先级按先入先出的顺序指定、这意味着您优先处理的第一个扫描将移至队列的前端；您优先处理的第二个扫描将成为队列中的第二个扫描、依此类推。</block>
+  <block id="fc758db0d443b9a8e3de231c43de89d5" category="paragraph">BlueXP  分类支持批量重试所有失败的扫描。</block>
+  <block id="ce19c0b7b750b810547f423b2290cfd8" category="paragraph">可以使用**重试全部**功能在批处理操作中重新尝试扫描。如果分类扫描因网络中断等临时问题而失败、您可以使用一个按钮同时重试所有扫描、而不是逐个重试。可以根据需要多次重试扫描。</block>
+  <block id="6a5c0bfd72f9b6c51f4f17f0d32a0bf5" category="paragraph">BlueXP  分类可跟踪卷上_initial-_映射和分类扫描的实时进度。单独的渐进式条可跟踪映射和分类扫描、显示扫描总文件的百分比。您也可以将鼠标悬停在进度条上以查看扫描的文件数和总文件数。跟踪扫描状态可更深入地了解扫描进度、使您能够更好地规划扫描并了解资源分配。</block>
+  <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP  分类支持对工作环境执行批量操作。您可以选择启用映射扫描、启用映射和分类扫描、禁用扫描或跨工作环境中的卷创建自定义配置。如果您为单个卷进行选择、则会覆盖批量选择。要执行批量操作，请导航到**配置**页并进行选择。</block>
+  <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  分类支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。</block>
+  <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">除了仅映射扫描之外、BlueXP  分类还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
+  <block id="ae255a27ba2651659f967ba73acaf7ff" category="paragraph">BlueXP  分类扫描可识别加拿大所有省份和地区的银行信息、护照号码、社会保险号、驾驶证号和健康卡号的个人身份信息数据类别。</block>
+  <block id="99d324505a57bb8cfa4f2be38690da37" category="paragraph">BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描以捕获组织特定的数据、以确保符合正则表达式。此功能当前处于预览状态。</block>
+  <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  分类支持将分类事件(扫描启动和结束时)发送到<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
+  <block id="c90892d942290d1e3f7e24962cdcf860" category="admonition">从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。</block>
+  <block id="c75e25f64e8cd1943eed51ff64a1b8cf" category="paragraph">+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。<block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="9688e61f362299cd1c72fb3dac40d459" category="paragraph">BlueXP  分类可免费使用。不需要分类许可证或付费订阅。</block>
+  <block id="c9592ef6d87170043628925b775e21a9" category="list-text">代理必须是不透明的。BlueXP  类型目前不支持透明代理。</block>
+  <block id="1baa4497e4f5fcbb6d939687ae9bf242" category="admonition">创建正则表达式时、BlueXP  分类不支持模式标志。这意味着您不应使用"/"。</block>
+  <block id="478002532c0e9d87506035f8afb96c61" category="list-text">*正在运行*(绿点)：队列中的扫描任务正在选定存储库上进行中。</block>
+  <block id="2d018dff61f63f937cfb5d226fca5491" category="admonition">以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
+  <block id="8410773aea4e8f5fda4e98ce13c101df" category="paragraph">+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
+  <block id="247847c7f8a374d1ec15dd635dc10755" category="paragraph">===快速入门</block>
+  <block id="f502c96b3152f0f8804a4a20142b8076" category="paragraph">===查看对象存储要求</block>
+  <block id="f8df4d0a70cf080f5c409b0c2484ccd3" category="paragraph">===部署BlueXP  分类实例</block>
+  <block id="587be5e803069c9a812c8a5d853e293f" category="paragraph">===将对象存储服务添加到BlueXP  分类</block>
+  <block id="d84a69103d33679879ff8ef5b35b5b1e" category="paragraph">===对对象存储分段启用和禁用合规性扫描</block>
+  <block id="cdde1a1bd8cf3465f2f0be76f0538e93" category="list-text">将*最大CLI/API会话持续时间*从1小时更改为12小时。保存更改。</block>
+  <block id="21c270b5c383cf7064093b0641efa2a2" category="list-text">选择*attach policies*，然后选择*Create policy*。</block>
+  <block id="5e4a3a973c4b69d34bc9fa0a170ac878" category="paragraph">BlueXP  分类实例配置文件帐户可以访问其他AWS帐户。</block>
+  <block id="e1e416906cce6cd47dad2d742e509440" category="list-text">导航到*Amazon S3 Configuration*页面，此时将显示新的AWS帐户。请注意、BlueXP分类可能需要几分钟时间来同步新帐户的工作环境并显示此信息。</block>
+  <block id="23385cfa4aad421683dffdb4290709df" category="list-text">从“策略列表”页面中，为要添加(或更改)电子邮件设置的策略选择*Edit*。</block>
+  <block id="4d758655ac5ea7a312073b18e9cbcdff" category="list-text">选择*保存策略*，电子邮件的发送间隔将显示在策略说明中。</block>
+  <block id="3c3eb995ad4feba61dadfbcae0576ca4" category="paragraph">如果任何文件符合策略条件、则会发送电子邮件。通知电子邮件不会发送任何个人信息。此电子邮件指示存在与策略条件匹配的文件、并提供指向策略结果的链接。</block>
+  <block id="fe2063e5676e0308022c99eb2466140c" category="paragraph-title">除了项目总数之外、调查页面结果还会显示总大小</block>
+  <block id="6cff48344cb111c0fcdb424ba18c6bcf" category="paragraph">"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
 </blocks>
