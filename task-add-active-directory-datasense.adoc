@@ -116,4 +116,4 @@ image:screenshot_compliance_active_directory_added.png["显示BlueXP中集成的
 
 如果需要修改 Active Directory 集成中的任何值，请单击 * 编辑 * 按钮并进行更改。
 
-如果不再需要集成，也可以单击按钮，然后单击*Remove Active Directory*来删除它image:screenshot_gallery_options.gif["更多按钮"]。
+您也可以选择按钮删除集成，然后选择image:button-gallery-options.gif["更多按钮"]*Remove Active Directory*。

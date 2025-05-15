@@ -149,7 +149,7 @@ BlueXP分类可生成PDF报告、您可以根据需要查看该报告并将其�
 +
 image:screenshot-compliance-report-buttons.png["监管信息板的屏幕截图、显示了如何启动数据映射报告。"]
 
-. 要自定义报告第一页上显示的公司名称，请从BlueXP  分类页面的右上角选择。image:screenshot_gallery_options.gif["\"更多\"按钮"]然后选择*更改公司名称*。下次生成报告时、报告将包含新名称。
+. 要自定义报告第一页上显示的公司名称，请从BlueXP  分类页面的右上角选择。image:button-gallery-options.gif["\"更多\"按钮"]然后选择*更改公司名称*。下次生成报告时、报告将包含新名称。
 
 
 .结果

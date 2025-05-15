@@ -797,7 +797,6 @@
   <block id="bbc0bef191e546654d479088a63463e8" category="section-title">管理Active Directory集成</block>
   <block id="ca3e2e8380ad6cedd810ec4fc49fa9e7" category="paragraph">如果需要修改 Active Directory 集成中的任何值，请单击 * 编辑 * 按钮并进行更改。</block>
   <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">更多按钮</block>
-  <block id="e0beb155f64410441b0e76c0d0350422" category="paragraph">如果不再需要集成，也可以单击按钮，然后单击*Remove Active Directory*来删除它<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="0ee0dd7645f9fd01a3094af2719826bf" category="summary">当组ID附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
   <block id="54f4d6ea6929f3157249a7232005ba31" category="paragraph">当组ID (Group ID、GID)附加到NFS文件共享中的文件或文件夹时、它们会定义文件或文件夹的权限、例如它们是否"对组织开放"。如果某些组ID (GID)最初未设置为"开放给组织"权限级别、则可以将该权限添加到GID中、以使连接了该GID的任何文件和文件夹被视为"对组织开放"。</block>
   <block id="85755c2c4a65adf46f4aed267e145acd" category="paragraph">在进行此更改并重新选择BlueXP分类后、附加了这些组ID的所有文件和文件夹都会在"调查详细信息"页面中显示此权限、它们也会显示在您要显示文件权限的报告中。</block>
@@ -961,7 +960,6 @@
   <block id="5de07b40dee2a8b07f30a0fd66bd33fa" category="section-title">查看前提条件</block>
   <block id="78b65cf97b25c47011081025c212c7c0" category="paragraph">在云中部署BlueXP分类之前、请查看以下前提条件、以确保您的配置受支持。在云中部署BlueXP分类时、它与连接器位于同一子网中。</block>
   <block id="a3c7cd542dbae9813f2f591e1d616bf8" category="list-text">从BlueXP分类启用出站Internet访问</block>
-  <block id="a215e2fc4fb56a1de009d0523096d557" category="list-text">BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。代理必须不透明-我们目前不支持透明代理。</block>
   <block id="6a942fef40095cafe3b15d4e4f2a1ab3" category="paragraph">根据您是在AWS、Azure还是GCP中部署BlueXP分类、查看下表。</block>
   <block id="4ea85be63fc1085d8a7d469d21ced42a" category="open-title">AWS所需的端点</block>
   <block id="b8724da75fb917e992576b17378e66b3" category="cell">端点</block>
@@ -1652,7 +1650,6 @@
   <block id="4c119835311ae84a5afed96ff0102202" category="summary">如果需要、您可以停止BlueXP分类以扫描一个或多个工作环境、数据库、文件共享组、OneDrive帐户、Google Drive帐户、 或SharePoint帐户。</block>
   <block id="1b37870dae094b28860019e52e52b4ff" category="doc">从BlueXP分类中删除OneDrive、SharePoint或Google Drive帐户</block>
   <block id="433023fd6c6c23d39387bf9b74dda504" category="paragraph">如果您不再需要扫描特定OneDrive帐户、特定SharePoint帐户或Google Drive帐户中的用户文件、则可以从BlueXP分类界面中删除该帐户并停止所有扫描。</block>
-  <block id="9d1c29dc777962e9fef8dd6f8f0fd186" category="list-text">从_Configuration_页面中、单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>OneDrive、SharePoint或Google Drive帐户行中的按钮、然后单击*删除OneDrive帐户*、*删除SharePoint帐户*或*删除Google Drive帐户*。</block>
   <block id="9a7ec6e6b57682d3f33ce7ea4bef0f5a" category="inline-image-macro">扫描配置页面中的删除 OneDrive 按钮的屏幕截图。</block>
   <block id="1bd56f7fb7715259e9afebe5fa03e87f" category="paragraph"><block ref="1bd56f7fb7715259e9afebe5fa03e87f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="94c6852fcc39c16d9167a10bb916b459" category="list-text">单击确认对话框中的 * 删除帐户 * 。</block>
@@ -1660,18 +1657,15 @@
   <block id="d5df7f1adc0549d5d2d0ee68a72f9535" category="paragraph">如果需要、您可以停止BlueXP分类以扫描一个或多个工作环境、数据库或文件共享组。</block>
   <block id="f2a38a886f233571decf9ce6bf113922" category="section-title">停用工作环境的合规性扫描</block>
   <block id="fc92855a6c0e88610803c1973a785908" category="paragraph">当您停用扫描时、BlueXP分类不再扫描工作环境中的数据、它会从BlueXP分类实例中删除已编制索引的合规性洞察信息(不会删除工作环境本身中的数据)。</block>
-  <block id="b23c9bc520892f0b32a5b14652f531a4" category="list-text">在_Configuration_页面中，单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>工作环境行中的按钮，然后单击*Deactivate Data Sense *。</block>
   <block id="a07772f300fa1187741adbb9b0ee2c93" category="inline-image-macro">可在其中选择停用BlueXP分类的操作图标的屏幕截图。从 " 画布 " 页面选择工作环境后，此选项将可用。</block>
   <block id="10f0cbf4c3001c6cbff3244aad2777b0" category="paragraph"><block ref="10f0cbf4c3001c6cbff3244aad2777b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="849e144b677eb32e7e98186935864d3b" category="admonition">您也可以在选择工作环境时从服务面板为工作环境禁用合规性扫描。</block>
   <block id="29c23a4578d5d41743894525117283bb" category="section-title">从BlueXP分类中删除数据库</block>
   <block id="5f41cf1c2ac9e53c33bdb8764109a714" category="paragraph">如果不再需要扫描某个数据库、可以从BlueXP分类界面中将其删除并停止所有扫描。</block>
-  <block id="c129bc0408ce8224fad586d944537ce4" category="list-text">在_Configuration_页中，单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>数据库行中的按钮，然后单击*Remove DB Server*。</block>
   <block id="3d04e82ecfc4b95e7eb8eaf404dffadc" category="inline-image-macro">扫描配置页面中的删除数据库服务器按钮的屏幕截图。</block>
   <block id="b695958db24ae26377f1c2e3a62b14eb" category="paragraph"><block ref="b695958db24ae26377f1c2e3a62b14eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2cc15b4049873c916d856924a44717cd" category="section-title">从BlueXP分类中删除一组文件共享</block>
   <block id="a9d369d1761364753b450ab895adcd47" category="paragraph">如果不再需要扫描文件共享组中的用户文件、可以从BlueXP分类界面中删除文件共享组并停止所有扫描。</block>
-  <block id="49fae8728abc8ffde6080b69c8a80552" category="list-text">在_Configuration_页面中，单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>文件共享组行中的按钮，然后单击*Remove File SharesGroup*。</block>
   <block id="899aa3cff4cde9f48d2fbceab4329349" category="inline-image-macro">扫描配置页面中的删除文件共享组按钮的屏幕截图。</block>
   <block id="23785f6732c3c514916bbd8928a06972" category="paragraph"><block ref="23785f6732c3c514916bbd8928a06972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4eeea4d2c00cd83e33db552c5d9445b2" category="list-text">单击确认对话框中的 * 删除共享组 * 。</block>
@@ -2351,9 +2345,7 @@
   <block id="a9ec5ce178b0bf158cc0b058a75222be" category="list-text">出现提示时，将IAM角色分配给具有<block ref="27b52f38738d689881a76b49c98ec7ec" category="inline-xref-macro-rx"></block>的BlueXP  分类实例。</block>
   <block id="9d71010686428b63401d21389a87983b" category="inline-image-macro">为BlueXP分类输入AWS IAM角色的屏幕截图</block>
   <block id="d6024ec0f0750e8f3ff480afef31e8a6" category="paragraph"><block ref="d6024ec0f0750e8f3ff480afef31e8a6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="909d8cdc7c100d1834d4de10094f43ca" category="list-text">单击 * 启用 * 。</block>
   <block id="0fe1279b28d533b32c08d839691ef653" category="inline-image-macro">三点</block>
-  <block id="e56ef2e2348492a4f0e1e9513b068cc4" category="admonition">您还可以从配置页中单击按钮并选择*激活BlueXP  分类*，为工作环境启用合规性扫描<block ref="a759a567ce9a72b21fd45f48f1f358c8" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="859a5985b2a5cefc45dc9f226a5d5ba7" category="paragraph">BlueXP将IAM角色分配给实例。</block>
   <block id="e18a75263bcb68f3fcffe930704c1b61" category="section-title">在 S3 存储分段上启用和禁用合规性扫描</block>
   <block id="a09f1d7b84a96466ba7bd8852ed92c89" category="paragraph">在BlueXP在Amazon S3上启用BlueXP分类后、下一步是配置要扫描的分段。</block>
@@ -2568,10 +2560,8 @@
   <block id="f93e118724d27bde2efdff3938b9b6df" category="paragraph">您需要使用的步骤取决于您是在云中还是在内部主机上部署BlueXP分类。</block>
   <block id="8d8f6d516c2b2976c4b330129843859b" category="section-title">从云部署中卸载BlueXP分类</block>
   <block id="809de3d4b48cba202a3e92df9b5646ca" category="paragraph">如果不再需要使用BlueXP分类、则可以从云提供商环境中卸载和删除BlueXP分类实例。</block>
-  <block id="fb718f900bda591d59ded552d9f94de8" category="list-text">在BlueXP  分类页面顶部，单击，然后单击<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>*卸载Data Sense *。</block>
   <block id="36c78ffc00f44e6669853141b4757135" category="inline-image-macro">用于卸载BlueXP分类软件的按钮的屏幕截图。</block>
   <block id="f4b93d0f798b3e20a2411b62607f9933" category="paragraph"><block ref="f4b93d0f798b3e20a2411b62607f9933" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7b608a074398a486bc744655598680ea" category="list-text">在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。</block>
   <block id="f10f83db534963d9efae7a297e100091" category="list-text">转到云提供商的控制台并删除BlueXP分类实例。此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_</block>
   <block id="961ca08e58e9f85191f5707bc4dac07a" category="paragraph">此操作将删除此实例以及BlueXP分类收集的所有关联数据。</block>
   <block id="a3b42cd70d6e63a58b881566f7a8992b" category="section-title">从内部部署中卸载BlueXP分类</block>
@@ -2627,7 +2617,6 @@
   <block id="a620f7ab4fc25849a31718c76e9d7fa1" category="list-text">单击*保存策略*，标签将显示在策略问题描述中。</block>
   <block id="bb59c9be972bc7568c57f54fdc257244" category="admonition">如果为策略配置了标签、但该标签已从AIP中删除、则该标签名称将变为关闭、并且不再分配该标签。</block>
   <block id="7cbe4840b4a3a2fdf1f9286da7e2b284" category="inline-image-macro">显示如何通过更改筛选器设置来编辑查询的屏幕截图。</block>
-  <block id="289758d7ef2e573a0ee7824d5814b945" category="paragraph"><block ref="289758d7ef2e573a0ee7824d5814b945" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fe2e5277ceed073489ebfe172d4ae0e3" category="summary">从调查结果窗格对多个文件运行操作时，例如删除 100 个文件，此过程可能需要一些时间。您可以在"操作状态"窗格中监控这些异步操作的状态、以便知道何时将其应用于所有文件。</block>
   <block id="c06ccfe24df0bff683583f82911916e0" category="paragraph">从"调查结果"窗格对多个文件运行异步操作时、例如移动或删除100个文件、此过程可能需要一些时间。您可以在_Action Status_窗格中监控这些操作的状态、以便了解何时将其应用于所有文件。</block>
   <block id="81e4b26a6519cffe24195e5edc407992" category="paragraph">这样，您就可以查看已成功完成的操作，当前正在执行的操作以及失败的操作，以便诊断和修复任何问题。请注意、移动单个文件等快速完成的短操作不会显示在操作状态窗格中。</block>
@@ -3084,7 +3073,6 @@
   <block id="1f4e12eb3b2fcb4ce87b8ed675d3270c" category="list-text">通过将PiII迁移到更安全的数据存储来保护包含个人或敏感个人信息的数据</block>
   <block id="51fa6e6a2210eb170b2beeb8f80f89c1" category="list-text">选择*数据发现评估报告*。</block>
   <block id="a4d3102e7150e95ee7150787c5049f47" category="list-text">选择*完整数据映射概述报告*。</block>
-  <block id="163b2c36f19b004df4f67d322c1b39af" category="list-text">要自定义报告第一页上显示的公司名称，请从BlueXP  分类页面的右上角选择。<block ref="205cf72ce215a0005a3d486daae4dd1a" category="inline-image-macro-rx" type="image"></block>然后选择*更改公司名称*。下次生成报告时、报告将包含新名称。</block>
   <block id="4cbb02ef6d1ee9902b65e08b42b83a08" category="list-text">要查看每个类别中的项目总数、请将光标置于栏的每个部分上方。</block>
   <block id="78e705dbea0d34c81ef33941cfdd7c20" category="list-text">要查看每个类别中的文件总数、请将光标置于每个框上方。</block>
   <block id="d2bc42c21eb303e3f8120f5a184e4544" category="list-text">在"数据期限"图表中、要查看有关数据期限的详细信息、请将光标置于图表中的某个点上方。</block>
@@ -3343,14 +3331,11 @@
   <block id="03624a0e3cf06ce697a55ae458b36245" category="cell">美国德州驾驶证</block>
   <block id="9501674588409f4d41d4dd0d16106531" category="inline-link-macro">筛选调查页面中的数据</block>
   <block id="5905cce43eb3cf5df34ad20687132905" category="list-text">在调查选项卡中、通过选择要使用的筛选器来定义搜索。有关详细信息、请参见。 <block ref="fc016879136ae59a01dc15bd1e0ae029" category="inline-link-macro-rx"></block></block>
-  <block id="b661e4ea30af73a913aed1e7ae647f4a" category="paragraph">要更改已保存查询的过滤器，请选择*Edit Query*。</block>
-  <block id="1c76b2a61ae25c65703ed4c7e9a61c05" category="list-text">在定义该查询的“调查”页面中，通过添加、删除或自定义筛选器来编辑查询，然后选择*保存更改*。</block>
   <block id="422ba0edf6ed9e7533f09398a27021dc" category="admonition">此信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="doc">1.43 版</block>
   <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">确定分类扫描的优先级</block>
   <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别</block>
   <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">个人数据类别</block>
-  <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">有关详细信息，请参见<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>。</block>
   <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">自定义分类(预览)</block>
   <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">添加自定义分类</block>
   <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">有关详细信息，请参见 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>。</block>
@@ -3384,13 +3369,7 @@
   <block id="4b760cb0a54b4c608b7deaa08d52f3c3" category="paragraph">您还可以创建自定义搜索词来标识您的组织特定的个人数据。有关详细信息，请参见 <block ref="702fa1a9e503f253a2dc3aea49d5216d" category="inline-link-macro-rx"></block>。</block>
   <block id="8158b41ed99f0be207895156b4fd03bd" category="summary">通过BlueXP  分类、您可以自定义敏感信息的搜索、并根据与您的组织相关的各个模式和关键字来定制服务。</block>
   <block id="926b3e1d2d3aa955040f8e96a0925024" category="doc">在BlueXP  分类中创建自定义分类</block>
-  <block id="af7f216eaafef04c270699dedfe55516" category="paragraph">通过BlueXP  分类、您可以为敏感信息创建自定义搜索。搜索范围可以是一个正则表达式或一组邻近关键字。</block>
   <block id="166182078c23275fb3140bd76772894f" category="paragraph">自定义分类仅适用于"映射和分类"扫描、而不适用于"仅映射"扫描。此功能当前处于预览状态。</block>
-  <block id="b89901231bd925d9935358eec83c9df7" category="list-text">选择**自定义分类**选项卡。</block>
-  <block id="5d432ccfd60759dfe3a05c1d88a50e46" category="list-text">选择**添加新的群集器**。</block>
-  <block id="ea013d14af755e66761c80272239aa1e" category="list-text">为新分类器添加名称和说明。</block>
-  <block id="325f2f8229424a3bb88f7fe6dd21f8b4" category="list-text">要将自定义添加为正则表达式，请选择**自定义正则表达式**，然后选择**下一步**。</block>
-  <block id="ddd5fb759ffdfbba04862c2c259765f4" category="list-text">对于正则表达式、请添加模式以检测数据的特定信息。例如，以201开头的12位ID将是\b201\f\d(9)b。选择**验证**以确认输入的语法。</block>
   <block id="92dbbe7b48f44c4348b9a878f60f182e" category="paragraph">新的自定义设置将在下次计划扫描时捕获。要查看结果，请参见<block ref="9d0d45f702bd2dff4853a9920dd0f534" category="inline-xref-macro-rx"></block>。</block>
   <block id="e7f93c0af13ca637e6c3fbeb56fe4b0e" category="section-title">按标记、标签、分配的用户和保存的搜索筛选数据</block>
   <block id="aee7ea78cb12c6ff572cb9b321122abb" category="paragraph">使用以下筛选器按标记、AIP标签、分配的用户或保存的搜索查看数据。</block>
@@ -3428,9 +3407,6 @@
   <block id="fe486103d58cea4a39fc7665524d91e6" category="inline-image-macro">BlueXP  分类信息板中已保存搜索选项卡的屏幕截图。</block>
   <block id="dd41d48f516ceca9030eb4c406ca3b2e" category="paragraph"><block ref="dd41d48f516ceca9030eb4c406ca3b2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c11c94eebf65aa39aa6d92e551d37495" category="section-title">在调查页面中查看已保存的搜索结果</block>
-  <block id="4b6b79df55f75139d5245dc368dd69d7" category="paragraph">要在调查页面中显示已保存搜索的结果，请选择特定搜索的按钮，<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>然后选择*Investigate results*。</block>
-  <block id="01ce7df905c02100d7e171845d5a1d11" category="inline-image-macro">从"Saced Search"(等宽搜索)选项卡中选择"Investigate results"(调查特定搜索的结果)的屏幕截图。</block>
-  <block id="e664b44f91d2913f94b75e8da606bb74" category="paragraph"><block ref="e664b44f91d2913f94b75e8da606bb74" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d060dc50372bab90fa0b80c2aadbfc5" category="section-title">创建自定义保存的搜索</block>
   <block id="2dea09c1d3d4ee9b98ba67f3ee736c6a" category="paragraph">您可以创建自己的自定义保存搜索、为您的组织特定的查询提供结果。系统将返回与搜索条件匹配的所有文件和目录(共享和文件夹)的结果。</block>
   <block id="edb2c0af042dce0faebc0fd23a6ea82a" category="list-text">将所有筛选器特性设置为您的喜好后，选择*创建保存的搜索*。</block>
@@ -3439,19 +3415,10 @@
   <block id="2b24c965e18291acdf6309cabec1d801" category="list-text">为保存的搜索命名并添加说明。此名称必须是唯一的。</block>
   <block id="acc1c25043aba44082aef8a6ae1f7bb7" category="inline-image-macro">屏幕截图、显示如何配置保存的搜索并进行保存。</block>
   <block id="781917d30539d353b2392b65ccd962ee" category="paragraph"><block ref="781917d30539d353b2392b65ccd962ee" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dcc0446437d20a68ade85cece45a944d" category="paragraph">新保存的搜索将显示在已保存搜索选项卡中。</block>
   <block id="3abded291c3a14b09750019f607a5b6a" category="section-title">编辑保存的搜索</block>
-  <block id="25ab9ca41b65162f7d35a80b0fc2b62f" category="paragraph">您可以修改自定义创建的已保存搜索的条件、以更改查询(使用筛选器定义的项目)、从而添加或删除某些参数。</block>
   <block id="f2fb75e2f90578baaf8bd1c45bde6750" category="paragraph">您不能修改默认保存的搜索。</block>
-  <block id="8d5758ea88aa628e96b2a9850a9a3e84" category="list-text">从“保存的搜索”页面中，选择要更改的搜索的*编辑保存的搜索*。</block>
   <block id="58fd62d6cd14d93ae1f32c61f323f99b" category="inline-image-macro">显示编辑保存的搜索的屏幕截图。</block>
-  <block id="800f72354e7a5ac3462a802bf4f659e0" category="paragraph"><block ref="800f72354e7a5ac3462a802bf4f659e0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b8c30944f6cac36547bcb3821964aeb1" category="list-text">更改名称和说明字段。要仅更改这些字段，请选择*保存*。</block>
-  <block id="78b0d515ab4a6a13088dd6bd09b0146e" category="inline-image-macro">在"编辑保存的搜索"页面上选择"编辑查询"按钮的屏幕截图。</block>
-  <block id="e25b5282c5072b0a5171d238083a696e" category="paragraph"><block ref="e25b5282c5072b0a5171d238083a696e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="60f69955f740d1c69cb05d0a389fa16f" category="section-title">删除保存的搜索</block>
-  <block id="c3f66c3ed396df4f45cc4a2247c6ff1a" category="paragraph">如果您不再需要任何自定义保存的搜索、则可以将其删除。您无法删除默认保存的搜索</block>
-  <block id="0fa5b5589241b6543c9b17d2f21e75ca" category="paragraph">要删除保存的搜索，请选择<block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block>特定搜索的按钮，选择*删除保存的搜索*，然后在确认对话框中再次选择*删除搜索*。</block>
   <block id="c073cb4c943cd12dd3dc252f8b94f4f4" category="section-title">默认搜索</block>
   <block id="408f496a5a85521adc16cc6b351cc71a" category="paragraph">BlueXP  分类提供以下系统定义的搜索查询：</block>
   <block id="e2824fba3c46b207f277094775a6de03" category="list-text">**数据使用者名称-高风险**</block>
@@ -3482,8 +3449,6 @@
   <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP  分类支持对工作环境执行批量操作。您可以选择启用映射扫描、启用映射和分类扫描、禁用扫描或跨工作环境中的卷创建自定义配置。如果您为单个卷进行选择、则会覆盖批量选择。要执行批量操作，请导航到**配置**页并进行选择。</block>
   <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  分类支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。</block>
   <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">除了仅映射扫描之外、BlueXP  分类还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
-  <block id="ae255a27ba2651659f967ba73acaf7ff" category="paragraph">BlueXP  分类扫描可识别加拿大所有省份和地区的银行信息、护照号码、社会保险号、驾驶证号和健康卡号的个人身份信息数据类别。</block>
-  <block id="99d324505a57bb8cfa4f2be38690da37" category="paragraph">BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描以捕获组织特定的数据、以确保符合正则表达式。此功能当前处于预览状态。</block>
   <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  分类支持将分类事件(扫描启动和结束时)发送到<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
   <block id="c90892d942290d1e3f7e24962cdcf860" category="admonition">从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。</block>
   <block id="c75e25f64e8cd1943eed51ff64a1b8cf" category="paragraph">+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。<block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
@@ -3493,11 +3458,6 @@
   <block id="478002532c0e9d87506035f8afb96c61" category="list-text">*正在运行*(绿点)：队列中的扫描任务正在选定存储库上进行中。</block>
   <block id="2d018dff61f63f937cfb5d226fca5491" category="admonition">以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
   <block id="8410773aea4e8f5fda4e98ce13c101df" category="paragraph">+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
-  <block id="247847c7f8a374d1ec15dd635dc10755" category="paragraph">===快速入门</block>
-  <block id="f502c96b3152f0f8804a4a20142b8076" category="paragraph">===查看对象存储要求</block>
-  <block id="f8df4d0a70cf080f5c409b0c2484ccd3" category="paragraph">===部署BlueXP  分类实例</block>
-  <block id="587be5e803069c9a812c8a5d853e293f" category="paragraph">===将对象存储服务添加到BlueXP  分类</block>
-  <block id="d84a69103d33679879ff8ef5b35b5b1e" category="paragraph">===对对象存储分段启用和禁用合规性扫描</block>
   <block id="cdde1a1bd8cf3465f2f0be76f0538e93" category="list-text">将*最大CLI/API会话持续时间*从1小时更改为12小时。保存更改。</block>
   <block id="21c270b5c383cf7064093b0641efa2a2" category="list-text">选择*attach policies*，然后选择*Create policy*。</block>
   <block id="5e4a3a973c4b69d34bc9fa0a170ac878" category="paragraph">BlueXP  分类实例配置文件帐户可以访问其他AWS帐户。</block>
@@ -3507,4 +3467,45 @@
   <block id="3c3eb995ad4feba61dadfbcae0576ca4" category="paragraph">如果任何文件符合策略条件、则会发送电子邮件。通知电子邮件不会发送任何个人信息。此电子邮件指示存在与策略条件匹配的文件、并提供指向策略结果的链接。</block>
   <block id="fe2063e5676e0308022c99eb2466140c" category="paragraph-title">除了项目总数之外、调查页面结果还会显示总大小</block>
   <block id="6cff48344cb111c0fcdb424ba18c6bcf" category="paragraph">"调查"页面中经过筛选的结果除了显示文件总数之外、还会显示项目的总大小。这有助于移动文件、删除文件等。</block>
+  <block id="162e654adac435300128c485423d9e97" category="paragraph">BlueXP  分类扫描可识别加拿大的可识别身份信息数据类别。这些类别包括加拿大所有省份和地区的银行信息、护照号码、社会保险号码、驾驶执照号码和健康卡号码。</block>
+  <block id="24b795aa1c931b8beb71a1bad521912d" category="paragraph">有关详细信息，请参见 <block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>。</block>
+  <block id="779a8744af84c09c0b82c029307690b7" category="paragraph">BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描、以便使用正则表达式捕获特定于您的组织的数据。此功能当前处于预览状态。</block>
+  <block id="59cb665cd7462a904eefb54d13262d58" category="paragraph">您也可以选择按钮删除集成，然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Remove Active Directory*。</block>
+  <block id="b26c3f06a8206b488da4691050c7d97f" category="list-text">要自定义报告第一页上显示的公司名称，请从BlueXP  分类页面的右上角选择。<block ref="b7ac54c4d55d285685809fbae424a873" category="inline-image-macro-rx" type="image"></block>然后选择*更改公司名称*。下次生成报告时、报告将包含新名称。</block>
+  <block id="cf137e3eb496726834d6c8c1ea2a0bb9" category="paragraph">通过BlueXP  分类、您可以为敏感信息创建自定义搜索。搜索范围可确定为正则表达式(正则表达式)。</block>
+  <block id="a5b2ff1ba11a4724aa08a612d83a1fa8" category="inline-image-macro">"自定义"分类页面的屏幕截图。</block>
+  <block id="78a1ca571ea767a4e4a68bf118e05ad9" category="list-text">选择**自定义分类**选项卡。<block ref="a4efbe791c666e4d565530b58bfb78eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="75397441bf4c14c2afae2e04e7cd5571" category="list-text">选择**添加新的群集器**按钮。</block>
+  <block id="5b43c46ad3b2d1720177cf5a7002d748" category="list-text">为新分类器添加名称和说明。</block>
+  <block id="0290a20bef89a572b708f13b5de6010d" category="list-text">要将自定义添加为正则表达式，请选择**自定义正则表达式**，然后选择**下一步**。</block>
+  <block id="ce6c93af63d5a72eb3c15bc99afe14ec" category="inline-image-macro">用于创建正则表达式的对话框的屏幕截图。</block>
+  <block id="2fbc1bcaba732168404159c46526458c" category="list-text">添加一个模式以检测数据的特定信息。选择**验证**以确认输入的语法。<block ref="931af7ddfc52cb7655deb8b332ab2e24" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6d7ee64f46753faf45fb70361a3d7659" category="list-text">选择**完成**以创建自定义分类。</block>
+  <block id="9f1c60681d04ca50a08671f2b8c80137" category="list-text">BlueXP分类需要出站Internet访问。如果您的虚拟或物理网络使用代理服务器进行Internet访问、请确保BlueXP分类实例具有出站Internet访问权限以联系以下端点。代理必须是不透明的。目前不支持透明代理。</block>
+  <block id="00529b4fa5e7b481a817fc96cf13bc09" category="list-text">从_Configuration_页面中、选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>OneDrive、SharePoint或Google Drive帐户行中的按钮、然后选择*删除OneDrive帐户*、*删除SharePoint帐户*或*删除Google Drive帐户*。</block>
+  <block id="ff4b8a9404d87f321503ee453d569c7d" category="list-text">在_Configuration_页面中，选择工作环境行中的按钮，然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Deactivate Data sSense。</block>
+  <block id="33a74c27f54695807d7c17126606dd9b" category="list-text">从_Configuration_页中，选择数据库行中的按钮，然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Remove DB Server*。</block>
+  <block id="c16ad793ec0335438d151ae80a49d06f" category="list-text">从_Configuration_页面中，选择File Shares"组行中的按钮，然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Remove File Shares*。</block>
+  <block id="763a21e3ec238bca68eb25847cf75843" category="section-title">查看对象存储要求</block>
+  <block id="56ae4518d3461ca7113dcd16c3bba1b2" category="section-title">将对象存储服务添加到BlueXP分类</block>
+  <block id="eee95a219b81e97bc6cd4730c01adbe3" category="section-title">启用和禁用对象存储分段上的合规性扫描</block>
+  <block id="71377237946a16cc4981e8007b83be9b" category="list-text">选择 * 启用 * 。</block>
+  <block id="70d6b08c88906fcec4b2b02cb10b8c51" category="admonition">您也可以从配置页中选择按钮，然后选择*Activate BlueXP  classificates*，为工作环境启用合规性扫描<block ref="31135726bc5ec70729152e8a36c2ff64" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="5c90cc26dd42f9d3c2debeeef6f5b7cf" category="list-text">在BlueXP  分类页的顶部，选择然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Uninstall Data Sense *。</block>
+  <block id="3455f1fb9a5d72859b5d3a372dc8f0fa" category="list-text">在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP  分类实例与BlueXP  连接器的连接，然后选择*Uninstall*。</block>
+  <block id="6cf3fc600b47594541f48cafd63826ff" category="paragraph">要在调查页面中显示已保存搜索的结果，请选择特定搜索的按钮，<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>然后选择*Investigate results*。</block>
+  <block id="9038bf96038481d40955e45169d29a59" category="inline-image-macro">从已保存搜索选项卡中选择调查特定搜索的结果的屏幕截图。</block>
+  <block id="fddc772362fed7ea80a47e67e7402818" category="paragraph"><block ref="fddc772362fed7ea80a47e67e7402818" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b138d8858b38a706ce0767ce149141a0" category="paragraph">创建搜索后，可以在**保存的搜索**选项卡中查看搜索。</block>
+  <block id="a587a9446f42488cf1642071d4869a8c" category="paragraph">您可以修改已保存搜索的查询条件(即定义的筛选器)、以添加或删除某些参数。</block>
+  <block id="1f365f0c7b9035143441d12790522996" category="list-text">从“已保存搜索”页面中，选择要更改的搜索的*Edit Search*。</block>
+  <block id="b8cea04bdaadb30a2fd83edd55a654bc" category="paragraph"><block ref="b8cea04bdaadb30a2fd83edd55a654bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="477f1d0a65eedc4c654d176f7d5a42ac" category="list-text">更改名称和说明字段。要仅更改名称和说明字段，请选择*保存搜索*。</block>
+  <block id="fc109e463007a1ca000c686897a1b120" category="paragraph">要更改已保存搜索的过滤器，请选择*Edit query*。</block>
+  <block id="80adc8081e510902a4fced484a4b4e31" category="inline-image-macro">"编辑保存的搜索"页面上的"编辑查询"按钮的屏幕截图。</block>
+  <block id="6d6f7ce4f444057f277e9b33ee68299e" category="paragraph"><block ref="6d6f7ce4f444057f277e9b33ee68299e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c2b73796ac55b3236efc8e54183ebf12" category="list-text">在调查页面中、编辑查询。您可以添加、删除或修改筛选器。要完成更改，请选择*保存此搜索的查询*。</block>
+  <block id="ddbd2f5304c626fb501329931a8611ab" category="paragraph"><block ref="ddbd2f5304c626fb501329931a8611ab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fd5e575afc5674cda5e381f7413c374" category="paragraph">如果您不再需要任何自定义保存的搜索、则可以将其删除。您无法删除默认保存的搜索。</block>
+  <block id="400d8a42346f426cc27b0acd4383c48b" category="paragraph">要删除已保存的搜索，请选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>特定搜索的按钮，选择*删除搜索*，然后在确认对话框中再次选择*删除搜索*。</block>
 </blocks>

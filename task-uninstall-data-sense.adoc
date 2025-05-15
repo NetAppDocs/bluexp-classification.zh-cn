@@ -24,11 +24,11 @@ summary: 您可以卸载BlueXP分类软件以解决问题或从主机中永久�
 
 如果不再需要使用BlueXP分类、则可以从云提供商环境中卸载和删除BlueXP分类实例。
 
-. 在BlueXP  分类页面顶部，单击，然后单击image:screenshot_gallery_options.gif["更多按钮"]*卸载Data Sense *。
+. 在BlueXP  分类页的顶部，选择然后选择image:button-gallery-options.gif["更多按钮"]*Uninstall Data Sense *。
 +
 image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按钮的屏幕截图。"]
 
-. 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。
+. 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP  分类实例与BlueXP  连接器的连接，然后选择*Uninstall*。
 . 转到云提供商的控制台并删除BlueXP分类实例。此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_
 +
 此操作将删除此实例以及BlueXP分类收集的所有关联数据。
@@ -41,11 +41,11 @@ image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按�
 
 如果不再需要使用BlueXP分类、或者您的问题描述 需要重新安装、则可以从主机卸载BlueXP分类。
 
-. 在BlueXP  分类页面顶部，单击，然后单击image:screenshot_gallery_options.gif["更多按钮"]*卸载Data Sense *。
+. 在BlueXP  分类页的顶部，选择然后选择image:button-gallery-options.gif["更多按钮"]*Uninstall Data Sense *。
 +
 image:screenshot_compliance_uninstall.png["用于卸载BlueXP分类软件的按钮的屏幕截图。"]
 
-. 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP分类实例与BlueXP Connector的连接，然后单击*Uninstall*。
+. 在_Uninstall Data Sense _对话框中，键入*uninstall*确认要断开BlueXP  分类实例与BlueXP  连接器的连接，然后选择*Uninstall*。
 . 要从主机卸载此软件、请在BlueXP  分类主机上运行此 `cleanup.sh`脚本、例如：
 +
 [source, cli]

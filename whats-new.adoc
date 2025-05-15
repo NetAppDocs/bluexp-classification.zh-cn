@@ -32,12 +32,12 @@ summary: 了解BlueXP分类中的新增功能。
 有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
 
 .支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别
-BlueXP  分类扫描可识别加拿大所有省份和地区的银行信息、护照号码、社会保险号、驾驶证号和健康卡号的个人身份信息数据类别。
+BlueXP  分类扫描可识别加拿大的可识别身份信息数据类别。这些类别包括加拿大所有省份和地区的银行信息、护照号码、社会保险号码、驾驶执照号码和健康卡号码。
 
-有关详细信息，请参见xref:reference-private-data-categories.adoc#types-of-personal-data[个人数据类别]。
+有关详细信息，请参见 xref:reference-private-data-categories.adoc#types-of-personal-data[个人数据类别]。
 
 .自定义分类(预览)
-BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描以捕获组织特定的数据、以确保符合正则表达式。此功能当前处于预览状态。
+BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描、以便使用正则表达式捕获特定于您的组织的数据。此功能当前处于预览状态。
 
 有关详细信息，请参见 xref:task-custom-classification.adoc[添加自定义分类]。
 
