@@ -17,9 +17,7 @@ summary: '完成几个步骤、即可开始使用BlueXP分类直接扫描对象�
 完成几个步骤、即可开始使用BlueXP分类直接扫描对象存储中的数据。BlueXP分类可以扫描使用Simple Storage Service (S3)协议的任何对象存储服务中的数据。其中包括NetApp StorageGRID 、IBM云对象存储、Linode、B2云存储、Amazon S3等。
 
 
-IMPORTANT: 以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。
-
-+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 link:task-scanning-storagegrid.html["扫描StorageGRID数据"]。
+IMPORTANT: 以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 link:task-scanning-storagegrid.html["扫描StorageGRID数据"]。
 
 
 

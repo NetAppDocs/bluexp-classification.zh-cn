@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-deploy-compliance-onprem.html 
-keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, linux, ubuntu, cloud compliance access, privacy, compliance, on-premises, classification, pii, bluexp classification, docker, podman, install bluexp classification, cloud data sense, cds, rhel, linux host 
+keywords: cloud compliance, data sense, get started, deploy cloud data sense, outbound internet, endpoints, cloud compliance internet, web browser connectivity, linux, ubuntu, cloud compliance access, privacy, compliance, on-premises 
 summary: 完成几个步骤、在网络中的Linux主机或云中可访问Internet的Linux主机上安装BlueXP分类。在此安装过程中、您需要在网络或云中手动部署Linux主机。 
 ---
 = 在可访问Internet的主机上安装BlueXP分类
@@ -312,7 +312,7 @@ https://youtu.be/XiPLaJpfJEI["观看此视频"^]以了解如何安装BlueXP  �
 
 请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它会写入到 `/opt/netapp/install_logs/`。link:task-audit-data-sense-actions.html["请单击此处查看更多详细信息"](英文)
 
-.您需要的内容
+.开始之前
 * 验证您的Linux系统是否符合<<准备 Linux 主机系统,主机要求>>。
 * 确认系统已安装两个必备软件包(Docker Engine或Podman以及Python 3)。
 * 确保您在 Linux 系统上具有 root 权限。

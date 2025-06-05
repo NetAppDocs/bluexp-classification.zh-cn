@@ -1106,7 +1106,6 @@
   <block id="c4c8ed9ed1210b4b825ecd4522c73de9" category="paragraph">在脱机环境中的单个内部主机上安装BlueXP分类软件时、请按照以下步骤进行操作。</block>
   <block id="5c2d28b4f3a99b0fe3968b98ea7d88e5" category="inline-link-macro">请单击此处查看更多详细信息</block>
   <block id="f221652320e994dc66aab1d5d6da5fb7" category="paragraph">请注意、安装BlueXP分类时会记录所有安装活动。如果在安装期间遇到任何问题、您可以查看安装审核日志的内容。它会写入到<block ref="fd35ff247277f8b2076573900f968fde" prefix=" " category="inline-code"></block>。<block ref="c7911c51adef419f386feff4cec8acf6" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的内容</block>
   <block id="d709c500efa2b07b31dad2acb1fc7b92" category="list-text">验证您的Linux系统是否符合<block ref="2d54aecca24274aa47c2fb620cd7d497" category="inline-xref-macro-rx"></block>。</block>
   <block id="fc33df80766251e78dbe2beb48ec9528" category="list-text">确认已安装两个必备软件包(Docker Engine或Podman以及Python 3)。</block>
   <block id="7e1fecc0c3cbd38b434a0a6232a69c06" category="list-text">确保您在 Linux 系统上具有 root 权限。</block>
@@ -3446,14 +3445,11 @@
   <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  分类支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。</block>
   <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">除了仅映射扫描之外、BlueXP  分类还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。</block>
   <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  分类支持将分类事件(扫描启动和结束时)发送到<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
-  <block id="c90892d942290d1e3f7e24962cdcf860" category="admonition">从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。</block>
-  <block id="c75e25f64e8cd1943eed51ff64a1b8cf" category="paragraph">+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。<block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="9688e61f362299cd1c72fb3dac40d459" category="paragraph">BlueXP  分类可免费使用。不需要分类许可证或付费订阅。</block>
   <block id="c9592ef6d87170043628925b775e21a9" category="list-text">代理必须是不透明的。BlueXP  类型目前不支持透明代理。</block>
   <block id="1baa4497e4f5fcbb6d939687ae9bf242" category="admonition">创建正则表达式时、BlueXP  分类不支持模式标志。这意味着您不应使用"/"。</block>
   <block id="478002532c0e9d87506035f8afb96c61" category="list-text">*正在运行*(绿点)：队列中的扫描任务正在选定存储库上进行中。</block>
   <block id="2d018dff61f63f937cfb5d226fca5491" category="admonition">以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。</block>
-  <block id="8410773aea4e8f5fda4e98ce13c101df" category="paragraph">+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
   <block id="cdde1a1bd8cf3465f2f0be76f0538e93" category="list-text">将*最大CLI/API会话持续时间*从1小时更改为12小时。保存更改。</block>
   <block id="21c270b5c383cf7064093b0641efa2a2" category="list-text">选择*attach policies*，然后选择*Create policy*。</block>
   <block id="5e4a3a973c4b69d34bc9fa0a170ac878" category="paragraph">BlueXP  分类实例配置文件帐户可以访问其他AWS帐户。</block>
@@ -3507,4 +3503,6 @@
   <block id="4e256f8808c26162477f8001f045469e" category="list-text">在BlueXP  分类页的顶部，选择然后选择<block ref="aa89719a78a5f0c3ea3c4b3d03b565b2" category="inline-image-macro-rx" type="image"></block>*Uninstall Classification (卸载分类)*。</block>
   <block id="af7b04d89717e4fa9eec9f8310536047" category="paragraph"><block ref="af7b04d89717e4fa9eec9f8310536047" category="inline-image-macro-rx" type="image"></block></block>
   <block id="87cb261b2c6248958390f5e6c3919b1c" category="list-text">在_Uninstall Classification _对话框中，键入*uninstall*以确认要断开BlueXP  分类实例与BlueXP  连接器的连接，然后选择*Uninstall*。</block>
+  <block id="699184717a21749f96a420118357783a" category="admonition">从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。<block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="6dfc47fd75f488d4315e13098508d320" category="admonition">以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
 </blocks>

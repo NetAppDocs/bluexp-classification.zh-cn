@@ -5,8 +5,8 @@ keywords: artificial intelligence, ai, compliance, cloud compliance, dsar, perso
 summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。 
 ---
 = 了解BlueXP分类
-:hardbreaks:
 :allow-uri-read: 
+:no-hardbreaks: 
 :nofooter: 
 :icons: font
 :linkattrs: 
@@ -17,9 +17,7 @@ summary: BlueXP分类是BlueXP的一项数据监管服务、用于扫描企业�
 BlueXP分类(Cloud Data Sense)是一项适用于BlueXP的数据监管服务、可扫描企业内部和云数据源、以便对数据进行映射和分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
 
-IMPORTANT: 从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。
-
-+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。link:reference-free-paid.html["请参见已弃用功能的列表"](英文)
+IMPORTANT: 从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。link:reference-free-paid.html["请参见已弃用功能的列表"](英文)
 
 
 

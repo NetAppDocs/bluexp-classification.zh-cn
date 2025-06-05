@@ -192,7 +192,7 @@ BlueXP分类采用它扫描的数据并将其划分为不同类型的类别。�
 
 更新自定义类别后、BlueXP分类将重新开始扫描所有数据源。扫描完成后、新结果将显示在BlueXP分类合规性信息板中的"类别"部分下、以及调查页面中的"类别"筛选器中。link:task-controlling-private-data.html#view-files-by-categories["请参见如何按类别查看文件"](英文)
 
-.您需要的内容
+.开始之前
 您至少需要创建25个培训文件、这些文件包含您希望BlueXP分类识别的数据类别的示例。支持以下文件类型：
 
 `+.CSV, .DOC, .DOCX, .GZ, .JSON, .PDF, .PPTX, .RTF, .TXT, .XLS, .XLSX, Docs, Sheets, and Slides+`
