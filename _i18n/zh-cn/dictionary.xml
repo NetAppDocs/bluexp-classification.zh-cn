@@ -881,7 +881,6 @@
   <block id="e22f9909ed0cc14af3ae41c9e280cf13" category="cell">列出了工作环境中特定大小范围内的文件数。</block>
   <block id="f12b42eece54a56ffab836a42eb37488" category="cell">文件类型</block>
   <block id="7d8121f1bc518fb0e6e184fba09d6b2b" category="cell">列出了工作环境中存储的每种类型的文件的总文件数和已用容量。</block>
-  <block id="97f34c43cfd5abbd752382f17f44c9a2" category="list-text">从BlueXP菜单中、单击*监管&gt;分类*。</block>
   <block id="fb5cbffc5e8f979523247654de6b0102" category="inline-image-macro">监管信息板的屏幕截图、显示了如何启动数据映射报告。</block>
   <block id="9fdf01a1261d4a4e788383c1af9adaf2" category="paragraph">BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其发送给其他组。</block>
   <block id="46bd1bd2277d77e6f044cdb7a6983fc6" category="inline-image-macro">"更多"按钮</block>
@@ -2994,20 +2993,15 @@
   <block id="2cb533e4202a16a29d8a35f975b18546" category="list-text">选择*监管*。</block>
   <block id="59fb9b8d21a1200f68a3255348e5aad7" category="paragraph">此时将显示监管信息板。</block>
   <block id="cd44aff9043f042044d20fa9200a9168" category="section-title">查看节省机会</block>
-  <block id="64d5cdb36e33cae106a6b70c95fdc6de" category="paragraph">您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。</block>
   <block id="d7fc3a438d308cfbcbd8fa3231391419" category="list-text">从BlueXP  分类菜单中，选择*监管*。</block>
   <block id="9da3158754790a2bd5d492ff265be3c4" category="section-title">创建数据发现评估报告</block>
   <block id="310db9cf8ba2482b63b9ab1efe7fe48c" category="paragraph">数据发现评估报告对扫描的环境进行了深入分析、以显示关注的方面和可能的补救步骤。结果基于数据的映射和分类。本报告的目标是提高对数据集三个重要方面的认识：</block>
   <block id="ba8c35e924f949589fd6e14b916db6fc" category="paragraph">您可以使用此报告执行以下操作：</block>
   <block id="b1d35e9ba32779b24fcef34132e15f8c" category="paragraph"><block ref="b1d35e9ba32779b24fcef34132e15f8c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96929b0f4dead0308876154107c4bcb8" category="section-title">创建数据映射概述报告</block>
-  <block id="bfb48ff12b1469d0b2731ba4b39d8082" category="paragraph">"数据映射概述报告"概述了企业数据源中存储的数据、可帮助您制定迁移、备份、安全性和合规性流程决策。该报告首先列出了概述、总结了您的所有工作环境和数据源、然后对每个工作环境进行了分析。</block>
   <block id="a1fe048fbf4d3c352f8807ca8e61a815" category="paragraph"><block ref="a1fe048fbf4d3c352f8807ca8e61a815" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6374c84804cec753d099290142ab1465" category="section-title">查看按数据敏感度列出的前几个数据存储库</block>
-  <block id="6a0a0aa77d6678b0ac42141cf2b473bc" category="list-text">要筛选将显示在调查页面中的结果、请选择条形图中的每个区域、然后进行进一步调查。</block>
   <block id="b2c12a3831282ab991643e16075afb77" category="section-title">查看敏感数据和广泛的权限</block>
-  <block id="dd0ba7576314f49b14e69d557e1760b4" category="list-text">从最严格的限制权限到水平axix上最宽松的限制。</block>
-  <block id="115db9a4d58348c93542384adcf071b0" category="list-text">从敏感度最低的数据到垂直轴上最敏感的数据。</block>
   <block id="a72b82c1583cb44d3bde15fd3b45db0a" category="list-text">要筛选调查页面中显示的结果、请选择一个框并进一步调查。</block>
   <block id="912072af1bc9d9c75e7bd16ebc45d2eb" category="section-title">查看按打开权限类型列出的数据</block>
   <block id="aba1ea5ecac0b70b83e6fef3deec34cf" category="section-title">查看数据的使用期限和大小</block>
@@ -3061,7 +3055,6 @@
   <block id="d39106ddc0b9af9f51dbea48d0d9dfca" category="list-text">对于内部ONTAP系统：Connector位于内部。</block>
   <block id="04bf12fbff5cef799199f1d030acd3aa" category="paragraph">如果这些位置有数据，则可能需要使用<block ref="bc298eaca29e4bff3f0d222b24813861" category="inline-link-rx"></block>。</block>
   <block id="47f5b0791caa2598c4559bb5afa675a9" category="paragraph">这是您应该开始调查的地方。从监管信息板中、您可以选择一个区域进行进一步调查。</block>
-  <block id="56bcd47afb74823d33fc490b9ced87a3" category="list-text">在监管信息板的每个节省商机图块中、选择*优化存储*以在调查页面中查看筛选的结果。您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。</block>
   <block id="dfd23906ba391609b608a93fdd40fdb2" category="admonition">如果您的任何数据源实施了数据分层、则可以在_stale Data_类别中确定已驻留在对象存储中的旧数据。</block>
   <block id="483d6c5447c876cec7c9f20a2f16d52e" category="list-text">通过更改保留策略或移动或删除某些数据(陈旧、重复或非业务数据)来降低存储成本</block>
   <block id="5672e2463aa066853c9eb4cf4b3e3fa8" category="list-text">通过修订全局组管理策略来保护具有广泛权限的数据</block>
@@ -3071,7 +3064,6 @@
   <block id="4cbb02ef6d1ee9902b65e08b42b83a08" category="list-text">要查看每个类别中的项目总数、请将光标置于栏的每个部分上方。</block>
   <block id="78e705dbea0d34c81ef33941cfdd7c20" category="list-text">要查看每个类别中的文件总数、请将光标置于每个框上方。</block>
   <block id="d2bc42c21eb303e3f8120f5a184e4544" category="list-text">在"数据期限"图表中、要查看有关数据期限的详细信息、请将光标置于图表中的某个点上方。</block>
-  <block id="1848496efeb9b0561b54c93d4ca7403e" category="list-text">单击*监管*、然后单击*数据发现评估报告*按钮。</block>
   <block id="9566c25add5b83fcc4806bd8bb57a21a" category="paragraph">默认情况下、BlueXP分类信息板显示所有工作环境、数据库和数据源的合规性和监管数据。如果要查看仅包含某些工作环境的数据的报告、您可以进行筛选以仅查看这些报告。</block>
   <block id="2f426ddd581281bfd34e83b37e971e66" category="paragraph">以下报告可用于BlueXP分类：</block>
   <block id="46e3b95cc12c4fba5a55ddd543dff215" category="list-text">*数据发现评估报告*：对扫描的环境进行高级别分析，以突出显示系统的发现结果，并显示关注的方面和可能的补救步骤。</block>
@@ -3180,7 +3172,6 @@
   <block id="8596fbd0d6e4b9782a36919493e0f086" category="paragraph"><block ref="2d2ba3511c6805480e0a015c44902c12" category="inline-link-rx"></block>以了解如何安装BlueXP  分类。</block>
   <block id="e3dd4dfda4973beedb5de6104236142b" category="paragraph">请注意、安装程序会执行预检查、以确保满足您的系统和网络要求、以便成功安装。<block ref="dea23cd1830b75045583053d44b9aee3" category="inline-link-rx"></block>了解预检消息和含义。</block>
   <block id="7ec81e7bd855030d276d5e61de219e52" category="paragraph"><block ref="c0e59dce73248da1782dbe9a4a61e5dc" category="inline-link-rx"></block>了解如何运行前提条件脚本并解读结果。</block>
-  <block id="f408cd0243ef931fdcfb337c2ad2d6f0" category="paragraph">如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。</block>
   <block id="5d438f8104cebc11a4ee47fcd2dd6a70" category="paragraph">"数据映射概述"报告的"按敏感度级别排列的前四个数据存储库"区域列出了包含最敏感项的前四个数据存储库(工作环境和数据源)。每个工作环境的条形图分为：</block>
   <block id="2f2ce99b32f61c21863fbe7701f9ad08" category="paragraph">"数据映射概述"报告的"敏感数据和宽权限"区域显示了包含敏感数据且具有宽权限的文件的百分比。此图表显示了以下类型的权限：</block>
   <block id="5464eb098727418ca8f11c507edc4361" category="paragraph">"数据映射概述"报告的_Open Permissions _区域显示正在扫描的所有文件中存在的每种权限类型的百分比。此图表显示了以下类型的权限：</block>
@@ -3355,10 +3346,8 @@
   <block id="16e486f23dded8263d11848df3764b93" category="list-text">操作类型(删除、复制、移动、创建保存的搜索、更新保存的搜索、重新扫描文件、下载JSON报告等)</block>
   <block id="3c60fc446538a7e633556a56c0270a7b" category="list-text">保存的搜索名称</block>
   <block id="3d8e42b0b0efcc9caab1fb0b9309b99c" category="section-title">查看包含最多结果的已保存搜索</block>
-  <block id="32362fe63acb7ffc63175566121ad596" category="paragraph">在_saved sSearchs_选项卡中、结果数最多的搜索将显示在列表顶部。</block>
   <block id="1a2cb7ec85630ab674f28989b04d5180" category="inline-link-macro">创建保存的搜索</block>
   <block id="bb3af25bd7c0b9f324e3747796764e22" category="paragraph">有关已保存搜索的详细信息，请参见<block ref="c97fce4c2b55d75df91ca91c522727ac" category="inline-link-macro-rx"></block>。</block>
-  <block id="4e4a6277c9744cd4cca07da9aa9ccae0" category="list-text">在Goverance信息板中、找到已保存搜索磁贴。选择已保存搜索的名称、以在调查页面中显示结果。</block>
   <block id="315e89aa08d31a5d6e5b7e5ee124e27f" category="list-text">选择*查看全部*以查看所有可用的已保存搜索列表。在_saved sSearchs_区域中、结果数最多的搜索将显示在列表顶部。</block>
   <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">创建自定义分类</block>
   <block id="4b760cb0a54b4c608b7deaa08d52f3c3" category="paragraph">您还可以创建自定义搜索词来标识您的组织特定的个人数据。有关详细信息，请参见 <block ref="702fa1a9e503f253a2dc3aea49d5216d" category="inline-link-macro-rx"></block>。</block>
@@ -3505,4 +3494,37 @@
   <block id="87cb261b2c6248958390f5e6c3919b1c" category="list-text">在_Uninstall Classification _对话框中，键入*uninstall*以确认要断开BlueXP  分类实例与BlueXP  连接器的连接，然后选择*Uninstall*。</block>
   <block id="699184717a21749f96a420118357783a" category="admonition">从1.31版开始、BlueXP  分类作为BlueXP  的核心功能提供。无需额外付费。不需要分类许可证或订阅。+如果您使用的是旧版版本1.3或更早版本、则该版本将一直有效、直到您的订阅到期为止。<block ref="95fdf30a79e4e089c8e09026a1472ebd" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="6dfc47fd75f488d4315e13098508d320" category="admonition">以下信息仅与BlueXP  分类原有版本1.3及更早版本相关。+从1.31版开始、BlueXP  分类是核心BlueXP  产品的一部分。有关详细信息，请参见 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>。</block>
+  <block id="1c4322a2b157ac1326426ebdbd680c74" category="doc">1.44 版</block>
+  <block id="c7ea7ba68a180dd7fffb65d260820bdf" category="paragraph-title">改进了治理仪表板的更新时间</block>
+  <block id="4a225b50559fc3e5c91e7a224bca4f82" category="paragraph">治理仪表板各个组件的更新时间已得到改进。下表显示了每个组件的更新频率。</block>
+  <block id="2cb05e4bb7830be982f0922fed86b4cd" category="cell">组件</block>
+  <block id="b5c592ebd16824471b1dac54611da0f9" category="cell">更新时间</block>
+  <block id="e1f57d0c474bedaae9c88fad138dcfd0" category="cell">24 小时</block>
+  <block id="b70528883a2d1dce278c3b16e0f8c608" category="cell">数据概述</block>
+  <block id="4adcc26418f545df76ab44c53fc55702" category="cell">5 分钟</block>
+  <block id="6db4df856c2ad3b66b59b98767190ee4" category="cell">重复文件</block>
+  <block id="6619a70f8ab8877e4131643fb8ded723" category="cell">2 小时</block>
+  <block id="8c8fee331e9f3e5231bff4fd3c702b79" category="cell">非业务数据</block>
+  <block id="e804ac99d8e193e9d3e3437979ce7bdf" category="cell">保存的搜索</block>
+  <block id="8b15c77295fd06496b4e5497d3038948" category="cell">敏感数据和广泛权限</block>
+  <block id="3c321d8be960cf9c4e3de3feeb79454d" category="cell">陈旧数据</block>
+  <block id="66f1eb6a68ea177f7b25f4befa2afcb5" category="cell">按敏感度级别划分的顶级数据存储库</block>
+  <block id="b97835ec7267635dbdb6a030bb594b9b" category="inline-xref-macro">查看有关组织中存储的数据的监管详细信息</block>
+  <block id="af67ad5f0d1d3f928958a66c7475e1df" category="paragraph">您可以查看上次更新时间，并手动更新“重复文件”、“非业务数据”、“已保存的搜索”、“过时数据”和“按敏感度级别排名靠前的数据存储库”组件。有关“治理”仪表板的更多信息，请参阅<block ref="e2440d776a494477c2f83bc685289508" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="98b92205e576b5e6498a01750fffbf6b" category="paragraph-title">性能和安全改进</block>
+  <block id="890d5712449921f1a6ffa08636045ac2" category="paragraph">我们已经进行了增强以提高 BlueXP 分类的性能、内存消耗和安全性。</block>
+  <block id="cb000a9ed4aba8f6a1db1f518019d44e" category="paragraph">Redis 已升级，以提高 BlueXP 分类的可靠性。BlueXP分类现在使用 Elasticsearch 来提高扫描期间文件数量报告的准确性。</block>
+  <block id="4ce11cec26d762df6394f69d055da8f3" category="paragraph">控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。</block>
+  <block id="85e39e757382e56d6d92190ad9864b64" category="paragraph">“节省机会”组件显示您可以删除或分层到更便宜的对象存储的数据。“节省机会”中的数据每 2 小时更新一次，您可以手动更新。</block>
+  <block id="70de9418b6d77c7f4c2d4632b262c0df" category="list-text">在监管信息板的每个节省商机图块中、选择*优化存储*以在调查页面中查看筛选的结果。要发现您应该删除或分层到较便宜的存储的任何数据，请调查_节省机会_。</block>
+  <block id="cc3d8cff4beaca4e220fce51a1bf5a47" category="paragraph">在_saved sSearchs_选项卡中、结果数最多的搜索将显示在列表顶部。该数据每两小时更新一次。</block>
+  <block id="4fc6cd03aea7b0463c849034a115a4ed" category="list-text">在治理仪表板中，找到“已保存的搜索”图块。选择已保存搜索的名称、以在调查页面中显示结果。</block>
+  <block id="9ba59392053c707a2008110979a1d5d3" category="paragraph">"数据映射概述报告"概述了企业数据源中存储的数据、可帮助您制定迁移、备份、安全性和合规性流程决策。该报告总结了所有工作环境和数据来源，并对每个工作环境进行了分析。</block>
+  <block id="9e8b7662071d4d301b9e642a55a32479" category="paragraph">如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。当 BlueXP 分类部署在云中时，您需要通过 SSH 连接到 BlueXP 分类实例来下载 .pdf 文件。</block>
+  <block id="5a95c74f5018b079fee6514d5db4aaf2" category="paragraph">该数据每两小时刷新一次，可以手动刷新。</block>
+  <block id="6407e93c650ddb85c8f2aa5be83f216b" category="list-text">要过滤调查页面中显示的结果，请选择栏中的每个区域并进一步调查。</block>
+  <block id="a68d116e41811f0ca6fb6aefa908afd9" category="list-text">从横轴上最严格的权限到最宽松的限制。</block>
+  <block id="c0ff25971ba3c6cce0ab70a7e99e54ad" category="list-text">纵轴上从最不敏感的数据到最敏感的数据。</block>
+  <block id="77a197972f7313e7a09a6a077fc9f4c2" category="list-text">选择*治理*，然后选择*数据发现评估报告*按钮。</block>
+  <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">2025 年 6 月 9 日</block>
 </blocks>

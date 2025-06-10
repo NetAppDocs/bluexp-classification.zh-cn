@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-controlling-governance-data.html 
-keywords: savings, stale data, non-business data, duplicate data, age or data, size of data, highlights, data discovery assessment report, data mapping overview report, data repositories, sensitive data, wide permissions, open permissions, age of data, size of data, classification, categories, file types, costs of data 
+keywords: savings, stale data, non-business data, duplicate data, highlights, data discovery assessment report, data mapping overview report, data repositories, sensitive data, wide permissions, open permissions, age of data, size of data, classification, categories, file types, costs of data 
 summary: 控制与组织存储资源上的数据相关的成本。BlueXP分类可确定系统中陈旧数据、非业务数据、重复文件和非常大的文件的数量、以便您可以决定是删除某些文件还是将其分层到成本较低的对象存储。 
 ---
 = 查看有关组织中存储的BlueXP  分类数据的监管详细信息
@@ -40,11 +40,11 @@ image:screenshot_compliance_governance_dashboard.png["BlueXP分类监管信息�
 
 === 查看节省机会
 
-您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。
+“节省机会”组件显示您可以删除或分层到更便宜的对象存储的数据。“节省机会”中的数据每 2 小时更新一次，您可以手动更新。
 
 .步骤
 . 从BlueXP  分类菜单中，选择*监管*。
-. 在监管信息板的每个节省商机图块中、选择*优化存储*以在调查页面中查看筛选的结果。您可能需要调查 _saving opportunities_ 区域中的项目，以确定是否存在任何数据，您应该删除这些数据，或者将这些数据分层到成本较低的对象存储中。
+. 在监管信息板的每个节省商机图块中、选择*优化存储*以在调查页面中查看筛选的结果。要发现您应该删除或分层到较便宜的存储的任何数据，请调查_节省机会_。
 +
 ** * 陈旧数据 * —上次修改时间超过 3 年的数据。
 ** * 非业务数据 * - 根据类别或文件类型视为与业务无关的数据。其中包括：
@@ -70,13 +70,13 @@ NOTE: 如果您的任何数据源实施了数据分层、则可以在_stale Data
 
 === 查看包含最多结果的已保存搜索
 
-在_saved sSearchs_选项卡中、结果数最多的搜索将显示在列表顶部。
+在_saved sSearchs_选项卡中、结果数最多的搜索将显示在列表顶部。该数据每两小时更新一次。
 
 有关已保存搜索的详细信息，请参见link:task-using-policies.html["创建保存的搜索"]。
 
 .步骤
 . 从BlueXP  分类菜单中，选择*监管*。
-. 在Goverance信息板中、找到已保存搜索磁贴。选择已保存搜索的名称、以在调查页面中显示结果。
+. 在治理仪表板中，找到“已保存的搜索”图块。选择已保存搜索的名称、以在调查页面中显示结果。
 . 选择*查看全部*以查看所有可用的已保存搜索列表。在_saved sSearchs_区域中、结果数最多的搜索将显示在列表顶部。
 
 
@@ -122,7 +122,7 @@ BlueXP分类可生成PDF报告、您可以根据需要查看该报告并将其�
 
 == 创建数据映射概述报告
 
-"数据映射概述报告"概述了企业数据源中存储的数据、可帮助您制定迁移、备份、安全性和合规性流程决策。该报告首先列出了概述、总结了您的所有工作环境和数据源、然后对每个工作环境进行了分析。
+"数据映射概述报告"概述了企业数据源中存储的数据、可帮助您制定迁移、备份、安全性和合规性流程决策。该报告总结了所有工作环境和数据来源，并对每个工作环境进行了分析。
 
 此报告包含以下信息：
 
@@ -155,7 +155,7 @@ image:screenshot-compliance-report-buttons.png["监管信息板的屏幕截图�
 .结果
 BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其发送给其他组。
 
-如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。在云中部署BlueXP分类时、您需要通过SSH连接到BlueXP分类实例才能下载.pdf文件。
+如果报告大于1 MB、.pdf文件将保留在BlueXP分类实例中、您将看到一条有关确切位置的弹出消息。如果BlueXP分类安装在内部环境中的Linux计算机上、或者安装在云中部署的Linux计算机上、则可以直接导航到.pdf文件。当 BlueXP 分类部署在云中时，您需要通过 SSH 连接到 BlueXP 分类实例来下载 .pdf 文件。
 
 
 
@@ -168,9 +168,11 @@ BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其�
 * 敏感的个人数据
 
 
+该数据每两小时刷新一次，可以手动刷新。
+
 .步骤
 . 要查看每个类别中的项目总数、请将光标置于栏的每个部分上方。
-. 要筛选将显示在调查页面中的结果、请选择条形图中的每个区域、然后进行进一步调查。
+. 要过滤调查页面中显示的结果，请选择栏中的每个区域并进一步调查。
 
 
 
@@ -179,8 +181,8 @@ BlueXP分类可生成.pdf报告、您可以根据需要查看该报告并将其�
 
 "数据映射概述"报告的"敏感数据和宽权限"区域显示了包含敏感数据且具有宽权限的文件的百分比。此图表显示了以下类型的权限：
 
-* 从最严格的限制权限到水平axix上最宽松的限制。
-* 从敏感度最低的数据到垂直轴上最敏感的数据。
+* 从横轴上最严格的权限到最宽松的限制。
+* 纵轴上从最不敏感的数据到最敏感的数据。
 
 
 .步骤
@@ -235,8 +237,8 @@ NOTE: 如果您的任何数据源实施了数据分层、则可能会在_age of 
 有关详细信息、请参见 link:task-controlling-private-data.html["按类别查看文件"] 。
 
 .步骤
-. 从BlueXP菜单中、单击*监管>分类*。
-. 单击*监管*、然后单击*数据发现评估报告*按钮。
+. 从BlueXP  菜单中，选择*监管>分类*。
+. 选择*治理*，然后选择*数据发现评估报告*按钮。
 
 
 .结果
