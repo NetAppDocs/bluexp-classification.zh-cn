@@ -532,30 +532,23 @@
   <block id="04857641e7994338feb506f5b60ebeb0" category="section-title">GCP实例类型</block>
   <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="inline-link">N2-standard-16</block>
   <block id="dd654e120269d83d0f32a6f695b8bab9" category="cell"><block ref="fc953708959f6784e56436278d753426" category="inline-link-rx"></block>(默认) n2D-standard-16 n1-standard-16</block>
-  <block id="5d8aef9555e5438ddeff623786db2956" category="summary">已知限制用于说明此产品版本不支持的功能或无法与其正确交互的功能。仔细审查这些限制。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
-  <block id="c1625cb64a88ae7881c639831171f44b" category="section-title">BlueXP分类版本删除了选项</block>
   <block id="01bd3cbe95ecfc71aaa7abc34ae52e07" category="paragraph">2023年12月(1.26.6版)版本删除了以下选项：</block>
   <block id="bd387dbe20d15a2a0ff5e7602549388e" category="list-text">已禁用用于激活审核日志收集的选项。</block>
-  <block id="a8a28cc44c1c782e3e832f304d4dfbd7" category="list-text">在目录调查期间、无法使用按目录计算个人身份信息(Personal可识别信息、个人身份信息、Personal可识别信息、</block>
   <block id="6b1b1c56d9e50ead02cb1c15240f6672" category="list-text">已禁用使用Azure信息保护(AIP)标签集成数据的选项。</block>
-  <block id="b36af7206dcf373bd9775c24677a5fc3" category="section-title">BlueXP分类扫描限制</block>
   <block id="38e601196e9a43492efa5f85f3672de2" category="section-title">BlueXP分类仅扫描卷下的一个共享</block>
   <block id="831362c8f190190a797ae86ca7a487e2" category="paragraph">如果在一个卷下有多个文件共享、BlueXP分类会扫描层次结构最高的共享。例如、如果您有如下共享：</block>
   <block id="e62fb7061d96488f28377b9b7c87a5f3" category="list-text">/a</block>
   <block id="dad5a0a365c61f8a86cad9dfc25f8b3a" category="list-text">/A/B</block>
   <block id="d5343bbc43034721eddff6ba04503653" category="list-text">/C</block>
   <block id="597702d739dab1871c93af7fab02812e" category="list-text">/D/E</block>
-  <block id="fcd814b0d6047e85c49b02424cb204bc" category="paragraph">然后将扫描/A中的数据。不会扫描/C和/D中的数据。</block>
   <block id="7aebfa1e2291377e040de92d7f7f335f" category="paragraph-title">临时解决策</block>
   <block id="14776bef68fe86f58d1665f68b865288" category="paragraph">临时解决策可确保您正在扫描卷中所有共享的数据。请按照以下步骤操作：</block>
   <block id="07ac6c7be4fcc2c3e85390641ca1f547" category="list-text">在工作环境中、添加要扫描的卷。</block>
   <block id="4246bf7edec387ea5212cff7b1dbe300" category="list-text">在BlueXP分类完成卷扫描后、转到_Data Investigation _页面并创建筛选器以查看正在扫描的共享：</block>
-  <block id="460ff5a5e64ec3903817c107c3cb45f7" category="paragraph">您将按"工作环境名称"和"目录类型=共享"筛选数据、以查看正在扫描的共享。</block>
   <block id="2094d1ac9663a79b428d9e79aedd0f59" category="list-text">获取卷中存在的共享的完整列表、以便查看哪些共享未被扫描。</block>
   <block id="316879df6c55d2fcb2fbb99ae1421271" category="inline-link-macro">将其余共享添加到共享组</block>
   <block id="6365c8ecbac772805c308b501098968e" category="list-text"><block ref="3c14a300450508449fa4ac656dc2d2d2" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="312913ed4c4493306983760e524a18bf" category="paragraph">您需要逐个添加所有共享、例如：</block>
   <block id="5bf592857864b6327e9f9e7ac8b12e7e" category="list-text">对具有多个共享的工作环境中的每个卷执行以下步骤。</block>
   <block id="31af9dbc59d95015ad9e14c7d979d66b" category="summary">有时、您可能需要登录到BlueXP分类系统、以便访问日志文件或编辑配置文件。</block>
   <block id="c079e3a087379d135bc6228cdbf4538d" category="doc">登录到BlueXP分类系统</block>
@@ -2948,7 +2941,6 @@
   <block id="da912e25717291a31093b36e55bb8641" category="list-text">要禁用存储分段上的扫描，请选择*off*。</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025年2月19日</block>
   <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版</block>
-  <block id="e69d7b651771ff110228ddae78e71631" category="list-text">必须在主机系统上启用高级矢量扩展(AVX)。</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高了分类模型的准确性</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">的机器学习模型准确性<block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>提高了11%。</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">1.41 版</block>
@@ -3527,4 +3519,16 @@
   <block id="c0ff25971ba3c6cce0ab70a7e99e54ad" category="list-text">纵轴上从最不敏感的数据到最敏感的数据。</block>
   <block id="77a197972f7313e7a09a6a077fc9f4c2" category="list-text">选择*治理*，然后选择*数据发现评估报告*按钮。</block>
   <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">2025 年 6 月 9 日</block>
+  <block id="d4113e36e86a18cdd4a4813e9e66b30e" category="list-text">必须在主机系统上启用高级矢量扩展 (AVX2)。</block>
+  <block id="e07933db8e0e899d5b0b2536a835fbbe" category="summary">已知限制标识了此版本产品不支持的功能或不能与其正确互操作的功能。仔细审查这些限制。</block>
+  <block id="74541a5ab63d560e7b65e9ce0447a3ab" category="paragraph">已知限制标识了此版本中不受支持或无法正确互操作的功能。仔细审查这些限制。</block>
+  <block id="e382ea6fac43656c8a7e81cfe409b1b6" category="section-title">BlueXP 分类禁用选项</block>
+  <block id="26bd123fab8351108bdebb31f296711d" category="list-text">在目录调查期间，无法使用目录计算个人身份信息 (PII) 数据数量的选项。</block>
+  <block id="259d623d79dc59a6e00d957b305ff81e" category="section-title">BlueXP分类扫描</block>
+  <block id="00adfecaef292fa2ffd7212bdcb5ad50" category="paragraph">BlueXP 分类扫描存在以下限制。</block>
+  <block id="3c3575798e25d7752d9a8983b437fdcc" category="paragraph">在此配置中，仅扫描 /A 中的数据。不扫描 /C 和 /D 中的数据。</block>
+  <block id="b48a7f1f3b627d536d2fde26516f5e38" category="paragraph">通过“工作环境名称”和“目录类型 = 共享”过滤数据，以查看正在扫描哪个共享。</block>
+  <block id="13bb1a0d5dd0d8923eac81793d8de810" category="paragraph">单独添加所有共享，例如：</block>
+  <block id="5215d51f00cbd59bd4f5379564dd2607" category="section-title">上次访问的时间戳</block>
+  <block id="ba9f5402880018fda0707ce102d53b4e" category="paragraph">当 BlueXP 分类对目录进行扫描时，该扫描会影响目录的“上次访问时间”字段。当您查看“上次访问时间”字段时，该元数据会反映扫描的日期和时间，或者用户上次访问该目录的时间。</block>
 </blocks>
