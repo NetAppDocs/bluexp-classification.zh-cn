@@ -687,7 +687,6 @@
   <block id="cf270e40d273f9e7fd7c3061729060c3" category="cell">培训</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="cell">支持</block>
   <block id="1cdcde584710eee44415045aa08434f5" category="cell">投诉和服务单</block>
-  <block id="fd23f2a479ed0b74592359ca0f2e8fc1" category="paragraph">此外，还会对以下元数据进行分类，并使用相同的受支持语言进行标识：</block>
   <block id="01ff99864c73c43a845fe1b26d70c372" category="list-text">应用程序数据</block>
   <block id="0fa5a9c40f7f4a1f5dc486811f7a9a68" category="list-text">归档文件</block>
   <block id="b22f0418e8ac915eb66f829d262d14a2" category="list-text">音频</block>
@@ -713,8 +712,6 @@
   <block id="554cfab3938e21d9270bd6b75931f96f" category="list-text">视频</block>
   <block id="6acc6b028214373f8cc2b2f2cd1be70c" category="list-text">零字节文件</block>
   <block id="ba2688508d4961c3340fa3a979e0a164" category="section-title">文件类型</block>
-  <block id="e28941ad3ee4450d4e082c1ed4ac7223" category="paragraph">BlueXP分类会扫描所有文件以查看类别和元数据洞察力、并在信息板的文件类型部分显示所有文件类型。</block>
-  <block id="e4ef3ccfa363c6ab883bef97f62feda4" category="paragraph">但是、当BlueXP分类检测到个人身份信息(PII)或执行DSAR搜索时、仅支持以下文件格式：</block>
   <block id="80890af19007fc709ba59342ca8b0385" category="section-title">发现的信息准确性</block>
   <block id="28fda5ce8d3d029d75bd23c4faaf51cb" category="paragraph">NetApp无法保证BlueXP分类确定的个人数据和敏感个人数据的100%准确性。您应始终通过查看数据来验证此信息。</block>
   <block id="9d203da310dab1f086a98748da39c625" category="paragraph">根据我们的测试、下表显示了BlueXP分类所发现的信息的准确性。我们将其细分为 _precis度 _ 和 _recall_ ：</block>
@@ -2627,14 +2624,12 @@
   <block id="8339f3b73dd5a0afa74d7cfbebd1b2c2" category="section-title">2024年11月4日</block>
   <block id="a1fe52ea216874a5214f41ae7e5bbd63" category="section-title">2024年10月10日</block>
   <block id="28dc8814bfe656bc8e29052d1508b999" category="section-title">2024年9月2日</block>
-  <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024年8月5日</block>
   <block id="3b506912c9fbc6e924c90fcd67f9e81d" category="section-title">1.34 版</block>
   <block id="70d1ac1a529ac546d3e60b81ee464a1d" category="paragraph">此BlueXP  分类版本包含以下更新。</block>
   <block id="44a73383773bebac3194e73bd06397a8" category="paragraph-title">从CentOS更改为Ubuntu</block>
   <block id="6a1611bc2c4a6c8c16154f81c0323dc2" category="paragraph">BlueXP  Classification已将适用于Microsoft Azure和Google Cloud Platform (GCP)的Linux操作系统从CentOS 7.9更新为Ubuntu 22.04。</block>
   <block id="d70ebaa1f93a5c2b07653dd485593661" category="inline-link">在可访问Internet的Linux主机上安装并准备Linux主机系统</block>
   <block id="e6b6c1b590b016ecf7556d1571a4309e" category="paragraph">有关部署的详细信息，请参见<block ref="ba79134a77255d2e97755d6f7b772847" category="inline-link-rx"></block>。</block>
-  <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024年7月1日</block>
   <block id="29ca6f4adc7aee37872328bb347b7543" category="section-title">1.33 版</block>
   <block id="d61892207457d808cffbfc18b9dcd8ad" category="paragraph-title">支持Ubuntu</block>
   <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">此版本支持Ubuntu 24.04 Linux平台。</block>
@@ -2643,7 +2638,6 @@
   <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="paragraph-title">信息板中的其他数据</block>
   <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">此版本更新了映射扫描期间显示在"监管"、"合规性"和"调查"信息板中的数据。</block>
   <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">映射扫描与分类扫描之间有何区别</block>
-  <block id="4497f9fd188a9629ea47d91a3f025c8c" category="section-title">2024年6月5日</block>
   <block id="decdab3311a7d521fe764d5d580ddd35" category="section-title">1.32 版</block>
   <block id="7910c8307cac3d62eca8ac0d42301b38" category="paragraph-title">配置页面中的新建映射状态列</block>
   <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">此版本现在会在配置页面中显示一个新的映射状态列。新列可帮助您确定映射正在运行、已排队、已暂停还是更多。</block>
@@ -2655,7 +2649,6 @@
   <block id="ac229efd3fa61c5457dcab252996be0b" category="paragraph">BlueXP分类现已作为BlueXP中的核心功能提供、无需额外付费即可处理高达500 TiB的扫描数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。</block>
   <block id="3607a722a9a09bb6d405f4d84609e858" category="inline-link-macro">详细了解已弃用的功能</block>
   <block id="1a50d9154328b370f6d9bbbab041964a" category="paragraph"><block ref="671322b9b43cc49264f86b21ef88a11d" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="4434c8a49854e6484f6c158999be4e10" category="section-title">2024年4月1日</block>
   <block id="e6a70634d4a42783e6d5918eff0a0ab6" category="section-title">1.30 版</block>
   <block id="1f2986b833ebc6f322deb045aeee0ad8" category="paragraph-title">增加了对RHEL v8.8和v9.3 BlueXP分类的支持</block>
   <block id="bed0a63060826a7b1ed8cba91cb12ba6" category="paragraph">除了先前支持的9.x (需要Podman、而不是Docker引擎)之外、此版本还支持Red Hat Enterprise Linux v8.8和v9.3。这适用于BlueXP分类的任何手动内部安装。</block>
@@ -2667,7 +2660,6 @@
   <block id="747585a36be1e14a4dd3ff25c4bf1e48" category="paragraph-title">自动升级</block>
   <block id="5908128f01988745be85a67845195980" category="paragraph">如果您在可访问Internet的系统上部署了BlueXP分类、则系统将自动升级。以前、升级发生在自上次用户活动以来经过的特定时间之后。在此版本中、如果本地时间介于1：00 AM到5：00 AM之间、则BlueXP  分类会自动升级。如果本地时间不在这些时间内、则升级将在自上次用户活动后经过一段特定时间后进行。有关详细信息，请参见<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>。</block>
   <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">如果您部署的BlueXP分类不能访问Internet、则需要手动升级。有关详细信息，请参见<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>。</block>
-  <block id="9ee51d75827fcf6a985ed40e7418fea6" category="section-title">2024年3月4日</block>
   <block id="512d4a337ec357edd106a616e83b1a1f" category="section-title">1.29 版</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="paragraph-title">现在、您可以排除驻留在特定数据源目录中的扫描数据</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果希望BlueXP分类排除驻留在特定数据源目录中的扫描数据、则可以将这些目录名称添加到BlueXP分类处理的配置文件中。通过此功能、您可以避免扫描不必要的目录或可能导致返回误报的个人数据结果的目录。</block>
@@ -2685,17 +2677,14 @@
   <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增强功能。</block>
   <block id="e2175eca7cd7227e608f98540d53af5e" category="paragraph">此版本还删除了以下选项：</block>
   <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">已禁用使用Azure信息保护(AIP)标签集成数据的选项。请参阅 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>。</block>
-  <block id="c8684cf4ccd502e49d1d79ff9936bc98" category="section-title">2023年11月6日</block>
   <block id="0778a32085af8830c408efb93cb7239f" category="section-title">1.26.3版</block>
   <block id="e25bae53fb1951841531279fa78ee63a" category="paragraph">此版本已修复以下问题</block>
   <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修复了在信息板中显示系统扫描的文件数时出现的不一致问题。</block>
   <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">通过处理和报告名称和元数据中包含特殊字符的文件和目录、改进了扫描行为。</block>
-  <block id="e5899cce271b544ee6441231f3c8cb3f" category="section-title">2023年10月4日</block>
   <block id="a7dfa38887a337aec315ca23d79dc622" category="section-title">1.26 版</block>
   <block id="74246010013353726bd9ff99866fa7d4" category="paragraph-title">支持在RHEL版本9上进行BlueXP分类的内部安装</block>
   <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux版本8和9不支持Docker引擎；BlueXP分类安装需要此引擎。现在、我们支持在使用Podman版本4或更高版本作为容器基础架构的RHEL 9.0、9.1和9.2上安装BlueXP分类。如果您的环境要求使用最新版本的RHEL、现在可以在使用Podman时安装BlueXP分类(1.26或更高版本)。</block>
   <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">目前、在使用RHEL 9.x时、我们不支持非公开站点安装或分布式扫描环境(使用主扫描程序节点和远程扫描程序节点)</block>
-  <block id="133c04bb5f03e7d4a910bcf2f7193ebd" category="section-title">2023年9月5日</block>
   <block id="3f1982a78707e6a0e0433cad5b5a037d" category="section-title">1.25 版</block>
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="paragraph-title">中小型部署暂时不可用</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">在AWS中部署BlueXP分类实例时、选择*部署&gt;配置*并选择小型或中型实例的选项目前不可用。您仍然可以通过选择*Deploy &gt; DEPLE*来使用较大实例大小来部署实例。</block>
@@ -2719,7 +2708,6 @@
   <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">通过BlueXP分类API、您可以执行操作、创建查询以及导出有关正在扫描的数据的信息。可使用Swagger获取交互式文档。文档分为多个类别、包括调查、合规性、监管和配置。每个类别都是BlueXP分类UI中各个选项卡的参考。</block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">详细了解BlueXP分类API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>(英文)</block>
-  <block id="6a7140fd5370f297d9a834d30e26ffde" category="section-title">2023年6月6日</block>
   <block id="5a78709b3e68f78b25a72a31cfcaa8f0" category="section-title">1.23 版</block>
   <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="paragraph-title">现在、搜索数据主题名称时支持日语</block>
   <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">"数据调查"页面中的"数据主题"筛选器</block>
@@ -2731,7 +2719,6 @@
   <block id="b5ba343fa4469021dbdf64181a67e909" category="paragraph-title">可以将BlueXP分类配置为FPolicy收集器、以便从ONTAP系统接收FPolicy事件</block>
   <block id="cf39647f74e2ee71e92d2dcb020dab2d" category="paragraph">您可以在BlueXP分类系统上为工作环境中的卷上检测到的文件访问事件收集文件访问审核日志。BlueXP分类可以捕获以下类型的FPolicy事件以及对文件执行操作的用户：创建、读取、写入、删除、重命名、 Change owner/permissions和Change SACL/DACL。</block>
   <block id="e1161f065b10936afc930fd3d9d0c76f" category="paragraph-title">现在、非公开站点支持Data sense BYOL许可证</block>
-  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
   <block id="288d139ea0d21561e65bec74c2f7c646" category="section-title">1.22 版</block>
   <block id="e4279e9f497576fcde3caeb67ed0f96d" category="paragraph-title">新的数据发现评估报告</block>
   <block id="5b9233dec22bab321ca47a360d9950b6" category="inline-link">请参见如何生成和使用数据发现评估报告</block>
@@ -2739,7 +2726,6 @@
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">请参见可用的实例类型和限制</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="paragraph-title">现在、可以使用独立脚本在安装BlueXP分类之前对Linux系统进行资格认定</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">如果要独立于运行BlueXP  分类安装来验证Linux系统是否满足所有前提条件、您可以下载一个单独的脚本、该脚本仅测试前提条件。<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>(英文)。</block>
-  <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="321553493f3e3f76105c5f5c5633b4c1" category="section-title">1.21 版</block>
   <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="paragraph-title">新增了一项功能、可从BlueXP分类UI添加您自己的自定义类别</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">预定义的类别</block>
@@ -2757,7 +2743,6 @@
   <block id="013efea19f002683e016d90789038d6e" category="list-title">安装增强功能</block>
   <block id="27bfd524829d2f58c611b9380403face" category="list-text">现在、不能访问Internet的站点(非公开站点)的BlueXP分类安装程序会执行预检查、以确保您的系统和网络要求已满足、以便成功安装。</block>
   <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">安装审核日志文件将立即保存；它们将写入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>。</block>
-  <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023年2月5日</block>
   <block id="4d892f9a0cb70711d12ffb41d4d77d8b" category="section-title">1.20 版</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="paragraph-title">能够将基于策略的通知电子邮件发送到任何电子邮件地址</block>
   <block id="af415967f6e10a35f69e4fdddc729da2" category="paragraph">在早期版本的BlueXP分类中、当某些关键策略返回结果时、您可以向帐户中的BlueXP用户发送电子邮件警报。通过此功能、您可以在未联机时收到通知以保护数据。现在、您还可以将策略中的电子邮件警报发送给不在您的BlueXP帐户中的任何其他用户、最多20个电子邮件地址。</block>
@@ -2772,7 +2757,6 @@
   <block id="cab6c5a0928827eecbe652fb21944075" category="paragraph-title">已将新的"部分成功"状态添加到"操作状态"面板中</block>
   <block id="d889002fb629aff0cd2d82543e5f378b" category="inline-link">请参见如何查看操作状态面板</block>
   <block id="451e723f277a39328c39e790b3d47ebc" category="paragraph">新的"部分成功"状态表示BlueXP分类操作已完成、某些项目失败、而某些项目成功、例如、当您移动或删除100个文件时。此外、"已完成"状态已重命名为"成功"。过去、"已完成"状态可能会列出成功和失败的操作。现在、"成功"状态意味着所有项目上的所有操作都成功。<block ref="81392bd70242cc4257015d9eb2f1d43a" category="inline-link-rx"></block>(英文)。</block>
-  <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023年1月9日</block>
   <block id="58080b77f4121259ffde5ce32650fff6" category="section-title">1.19 版</block>
   <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="paragraph-title">可以查看包含敏感数据且过于宽松的文件图表</block>
   <block id="738f7059231d5fe5c1e22879f52682fd" category="paragraph-title">数据调查页面提供了三个新筛选器</block>
@@ -3518,7 +3502,6 @@
   <block id="a68d116e41811f0ca6fb6aefa908afd9" category="list-text">从横轴上最严格的权限到最宽松的限制。</block>
   <block id="c0ff25971ba3c6cce0ab70a7e99e54ad" category="list-text">纵轴上从最不敏感的数据到最敏感的数据。</block>
   <block id="77a197972f7313e7a09a6a077fc9f4c2" category="list-text">选择*治理*，然后选择*数据发现评估报告*按钮。</block>
-  <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">2025 年 6 月 9 日</block>
   <block id="d4113e36e86a18cdd4a4813e9e66b30e" category="list-text">必须在主机系统上启用高级矢量扩展 (AVX2)。</block>
   <block id="e07933db8e0e899d5b0b2536a835fbbe" category="summary">已知限制标识了此版本产品不支持的功能或不能与其正确互操作的功能。仔细审查这些限制。</block>
   <block id="74541a5ab63d560e7b65e9ce0447a3ab" category="paragraph">已知限制标识了此版本中不受支持或无法正确互操作的功能。仔细审查这些限制。</block>
@@ -3531,4 +3514,20 @@
   <block id="13bb1a0d5dd0d8923eac81793d8de810" category="paragraph">单独添加所有共享，例如：</block>
   <block id="5215d51f00cbd59bd4f5379564dd2607" category="section-title">上次访问的时间戳</block>
   <block id="ba9f5402880018fda0707ce102d53b4e" category="paragraph">当 BlueXP 分类对目录进行扫描时，该扫描会影响目录的“上次访问时间”字段。当您查看“上次访问时间”字段时，该元数据会反映扫描的日期和时间，或者用户上次访问该目录的时间。</block>
+  <block id="f8479f3d69c2063127c42c5c37486b19" category="paragraph">以下元数据也使用相同的受支持语言进行分类和识别：</block>
+  <block id="efb48152c99d5498d08b6785efe95423" category="paragraph">BlueXP分类会扫描所有文件以查看类别和元数据洞察力、并在信息板的文件类型部分显示所有文件类型。当 BlueXP 分类检测到个人身份信息 (PII) 或执行 DSAR 搜索时，仅支持以下文件格式：</block>
+  <block id="0e42c2b565849349fc544a0196ef1b6a" category="section-title">2025年6月10日</block>
+  <block id="d7cf77b2e56bc33512915804de4711b6" category="section-title">2024年8月5日</block>
+  <block id="65f1f74c15350fb3342360320ff8c717" category="section-title">2024年7月1日</block>
+  <block id="e4aecca06323b10cc72f8605553dacea" category="section-title">2024年6月5日</block>
+  <block id="9c0269454c5c35ffc377aed6baf6d638" category="section-title">2024年4月1日</block>
+  <block id="b8a98fcc40c83e855fb31eabe2a4360d" category="section-title">2024年3月4日</block>
+  <block id="544cac1ecf4d7d5eb4b8b563c0d90c5a" category="section-title">2023年11月6日</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023年10月4日</block>
+  <block id="b9d5019337501d72be4adcf007f7d84c" category="section-title">2023年9月5日</block>
+  <block id="40d3210136139f5fa0cdf31aed565820" category="section-title">2023年6月6日</block>
+  <block id="70c95406986fbb3626df1a393daf99ce" category="section-title">2023年4月3日</block>
+  <block id="d673bedebce5131101d3c3583efe3e40" category="section-title">2023年3月7日</block>
+  <block id="7d04cce0092e695d038c8ac0c2c6c212" category="section-title">2023年2月5日</block>
+  <block id="98dafe2aa2310496897ef8155a1d9413" category="section-title">2023年1月9日</block>
 </blocks>
