@@ -175,10 +175,8 @@
   <block id="555b1e52bb127041158dea54f3685aaf" category="list-text">在默认实例不可用的区域中、BlueXP分类在备用实例上运行。<block ref="e3d4e40a766f2ed64294b1dd26c6e095" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="005b996ef864c5e5d692c055b435643b" category="list-text">此实例名为 _CloudCompliance_ ，并与生成的哈希（ UUID ）串联在一起。例如： _CloudCompliance" — 16bb6564-38AD-4080-9a92 — 36f5fd2f71c7_</block>
   <block id="d05dbd72313077420069ae49fe175de1" category="list-text">每个连接器仅部署一个BlueXP分类实例。</block>
-  <block id="b9542475929b3c8ff209e88bb948446b" category="paragraph">您还可以在内部的Linux主机上或首选云提供商的主机上部署BlueXP分类。无论您选择哪种安装方法，软件的工作方式都完全相同。只要该实例可以访问Internet、BlueXP分类软件的升级就会自动进行。</block>
   <block id="5509f198213f653cadd8f4de67a143bf" category="admonition">实例应始终保持运行状态、因为BlueXP分类会持续扫描数据。</block>
   <block id="6b58a1f82ed5bb7a99f52822509a4519" category="paragraph">*部署在不同的实例类型*</block>
-  <block id="df08805f9a68769e5aca6dccacac7494" category="paragraph">您可以在CPU更少、RAM更少的系统上部署BlueXP  分类。</block>
   <block id="360d214e899b88b8fe54a260668c2f48" category="cell">规格</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="cell">限制</block>
   <block id="5d4d8771b47d6c5166952822e552f082" category="cell">超大</block>
@@ -3530,4 +3528,8 @@
   <block id="d673bedebce5131101d3c3583efe3e40" category="section-title">2023年3月7日</block>
   <block id="7d04cce0092e695d038c8ac0c2c6c212" category="section-title">2023年2月5日</block>
   <block id="98dafe2aa2310496897ef8155a1d9413" category="section-title">2023年1月9日</block>
+  <block id="5545319db9091a71ae7b48d6f230c126" category="paragraph">您还可以在内部的Linux主机上或首选云提供商的主机上部署BlueXP分类。无论您选择哪种安装方法，软件的工作方式都完全相同。只要实例可以访问互联网，BlueXP 分类软件的升级就会自动进行。</block>
+  <block id="16d42e00c386e70a3a7df4333dbd3a1d" category="paragraph">查看实例类型的以下规范：</block>
+  <block id="b6312fd76a50f60b989ce722e432d447" category="paragraph">您可以在卷级别或数据库模式级别启用和禁用扫描。</block>
+  <block id="5ef007aec2cc80b49f082c5ae4dba4dc" category="list-text">**仅映射扫描**仅提供数据的概览，并对选定的数据源执行。仅映射扫描比映射和分类扫描花费的时间更少，因为它们不访问文件来查看其中的数据。您可能希望先确定研究领域、然后对这些领域执行地图和分类扫描。</block>
 </blocks>
