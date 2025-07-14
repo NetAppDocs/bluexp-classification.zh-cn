@@ -2,4 +2,4 @@
 :allow-uri-read: 
 
 
-+如果要确保文件"上次访问时间"在BlueXP分类扫描中保持不变、建议用户在CIFS中具有写入属性权限或在NFS中具有写入权限。如果可能、我们建议将Active Directory配置的用户设置为组织中有权访问所有文件的父组的一部分。
++ 如果您想确保文件的“上次访问时间”在BlueXP classification扫描后保持不变，建议用户在 CIFS 中拥有写入属性权限或在 NFS 中拥有写入权限。如果可能，请将 Active Directory 用户配置为组织中拥有所有文件权限的父组的一部分。

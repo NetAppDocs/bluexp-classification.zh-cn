@@ -21,6 +21,9 @@ summary: 您可以将全局Active Directory与BlueXP分类相集成、以增强B
 此集成在BlueXP分类的以下位置提供追加信息 ：
 
 * 您可以使用"文件所有者"link:task-investigate-data.html["筛选器"]、并在"调查"窗格中查看文件元数据中的结果。此文件所有者不包含 SID （安全标识符），而是使用实际用户名进行填充。
++
+您还可以查看有关文件所有者的更多详细信息：帐户名称、电子邮件地址和 SAM 帐户名称，或查看该用户拥有的项目。
+
 * 单击"查看所有权限"按钮时、您可以查看link:task-investigate-data.html["完整文件权限"]每个文件和目录的。
 * 在中link:task-controlling-governance-data.html["监管信息板"]，“打开权限”面板将显示有关数据的更多详细信息。
 
