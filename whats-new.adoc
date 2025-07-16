@@ -375,7 +375,10 @@ BlueXP  Classification已将适用于Microsoft Azure和Google Cloud Platform (G
 === 1.31 版
 
 .分类可作为BlueXP中的核心服务提供
-BlueXP分类现已作为BlueXP中的核心功能提供、无需额外付费即可处理高达500 TiB的扫描数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。
+BlueXP classification现在作为BlueXP中的一项核心功能提供，每个连接器最多可免费扫描 500 TiB 的数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。
+
+
+NOTE: BlueXP classification不限制其可扫描的数据量。每个连接器支持扫描和显示 500 TiB 的数据。要扫描超过 500 TiB 的数据， link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#connector-installation["安装另一个连接器"^]然后link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["部署另一个分类实例"] +BlueXP UI 显示来自单个连接器的数据。有关查看来自多个连接器的数据的提示，请参阅link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html#switch-between-connectors["使用多个连接器"^] 。
 
 link:reference-free-paid.html["详细了解已弃用的功能"](英文)
 

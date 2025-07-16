@@ -171,6 +171,9 @@ image:diagram_cloud_compliance_scan.png["显示在云提供商中运行的BlueXP
 您可以在卷级别或数据库模式级别启用和禁用扫描。
 
 
+NOTE: BlueXP classification不限制其可扫描的数据量。每个连接器支持扫描和显示 500 TiB 的数据。要扫描超过 500 TiB 的数据， link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#connector-installation["安装另一个连接器"^]然后link:https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["部署另一个分类实例"] +BlueXP UI 显示来自单个连接器的数据。有关查看来自多个连接器的数据的提示，请参阅link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html#switch-between-connectors["使用多个连接器"^] 。
+
+
 
 == 映射扫描与分类扫描之间的区别是什么
 
