@@ -11,9 +11,9 @@
 .改进了添加文件共享进行扫描的工作流程
 将文件共享添加到文件共享组的工作流程已简化。该流程现在还根据身份验证类型（Kerberos 或 NTLM）区分 CIFS 协议支持。
 
-有关详细信息，请参见 xref:task-scanning-file-shares.html[扫描文件共享]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-scanning-file-shares.html["扫描文件共享"]。
 
 .增强文件所有者信息
-现在，您可以查看“调查”选项卡中捕获文件的文件所有者的更多信息。在“调查”选项卡中查看文件的元数据时，找到文件所有者，然后选择“查看详细信息”即可查看用户名、电子邮件和 SAM 帐户名。您还可以查看此用户拥有的其他项目。此功能仅适用于具有 Active Directory 的工作环境。
+现在，您可以查看“调查”选项卡中捕获文件的文件所有者的更多信息。在“调查”选项卡中查看文件的元数据时，找到文件所有者，然后选择“查看详细信息”以查看用户名、电子邮件和 SAM 帐户名。您还可以查看此用户拥有的其他项目。此功能仅适用于具有 Active Directory 的工作环境。
 
-有关详细信息，请参见 xref:task-investigate-data.html[调查存储在组织中的数据]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["调查存储在组织中的数据"]。

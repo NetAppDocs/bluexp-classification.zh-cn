@@ -20,9 +20,9 @@
 
 优先权是一次性授予的。按默认顺序自动重新选择映射数据。
 
-优先级限制为link:concept-cloud-compliance.html["仅映射扫描"]；它不适用于地图扫描和分类扫描。
+优先级限制为link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["仅映射扫描"^]；它不适用于地图扫描和分类扫描。
 
-有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"^]。
 
 .重试所有扫描
 BlueXP  分类支持批量重试所有失败的扫描。

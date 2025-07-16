@@ -29,12 +29,12 @@ summary: 了解BlueXP分类中的新增功能。
 .改进了添加文件共享进行扫描的工作流程
 将文件共享添加到文件共享组的工作流程已简化。该流程现在还根据身份验证类型（Kerberos 或 NTLM）区分 CIFS 协议支持。
 
-有关详细信息，请参见 xref:task-scanning-file-shares.html[扫描文件共享]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-scanning-file-shares.html["扫描文件共享"]。
 
 .增强文件所有者信息
-现在，您可以查看“调查”选项卡中捕获文件的文件所有者的更多信息。在“调查”选项卡中查看文件的元数据时，找到文件所有者，然后选择“查看详细信息”即可查看用户名、电子邮件和 SAM 帐户名。您还可以查看此用户拥有的其他项目。此功能仅适用于具有 Active Directory 的工作环境。
+现在，您可以查看“调查”选项卡中捕获文件的文件所有者的更多信息。在“调查”选项卡中查看文件的元数据时，找到文件所有者，然后选择“查看详细信息”以查看用户名、电子邮件和 SAM 帐户名。您还可以查看此用户拥有的其他项目。此功能仅适用于具有 Active Directory 的工作环境。
 
-有关详细信息，请参见 xref:task-investigate-data.html[调查存储在组织中的数据]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["调查存储在组织中的数据"]。
 
 
 
@@ -89,7 +89,7 @@ summary: 了解BlueXP分类中的新增功能。
 
 | 按敏感度级别划分的顶级数据存储库 | 2 小时 
 |===
-您可以查看上次更新时间，并手动更新“重复文件”、“非业务数据”、“已保存的搜索”、“过时数据”和“按敏感度级别排名靠前的数据存储库”组件。有关“治理”仪表板的更多信息，请参阅xref:task-controlling-governance-data.html[查看有关组织中存储的数据的监管详细信息] 。
+您可以查看上次更新时间，并手动更新“重复文件”、“非业务数据”、“已保存的搜索”、“过时数据”和“按敏感度级别排名靠前的数据存储库”组件。有关“治理”仪表板的更多信息，请参阅link:https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html["查看有关组织中存储的数据的监管详细信息"] 。
 
 .性能和安全改进
 我们已经进行了增强以提高 BlueXP 分类的性能、内存消耗和安全性。
@@ -110,20 +110,20 @@ Redis 已升级，以提高 BlueXP 分类的可靠性。BlueXP分类现在使用
 .确定分类扫描的优先级
 除了仅映射扫描之外、BlueXP  分类还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。
 
-有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
 
 .支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别
 BlueXP  分类扫描可识别加拿大的可识别身份信息数据类别。这些类别包括加拿大所有省份和地区的银行信息、护照号码、社会保险号码、驾驶执照号码和健康卡号码。
 
-有关详细信息，请参见 xref:reference-private-data-categories.adoc#types-of-personal-data[个人数据类别]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["个人数据类别"]。
 
 .自定义分类(预览)
 BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描、以便使用正则表达式捕获特定于您的组织的数据。此功能当前处于预览状态。
 
-有关详细信息，请参见 xref:task-custom-classification.adoc[添加自定义分类]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-custom-classification.html["添加自定义分类"]。
 
 .已保存搜索选项卡
-**策略**选项卡已重命名xref:task-using-policies.html[**保存的搜索**]。功能相同。
+**策略**选项卡已重命名link:https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html["**保存的搜索**"]。功能没有改变。
 
 .将扫描事件发送到BlueXP  时间线
 BlueXP  分类支持将分类事件(扫描启动和结束时)发送到link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  时间表"^]。
@@ -155,7 +155,7 @@ BlueXP  分类支持对工作环境执行批量操作。您可以选择启用�
 .在本地下载调查报告
 BlueXP  分类支持在本地下载数据调查报告以在浏览器中查看。如果您选择本地选项、则数据调查仅以CSV格式提供、并且仅显示前10、000行数据。
 
-有关详细信息，请参见 link:task-investigate-data.html#create-the-data-investigation-report["根据BlueXP  分类调查存储在您的组织中的数据"]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#create-the-data-investigation-report["根据BlueXP  分类调查存储在您的组织中的数据"]。
 
 
 
@@ -194,9 +194,9 @@ BlueXP  分类可跟踪卷上_initial-_映射和分类扫描的实时进度。�
 
 优先权是一次性授予的。按默认顺序自动重新选择映射数据。
 
-优先级限制为link:concept-cloud-compliance.html["仅映射扫描"]；它不适用于地图扫描和分类扫描。
+优先级限制为link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["仅映射扫描"^]；它不适用于地图扫描和分类扫描。
 
-有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"^]。
 
 .重试所有扫描
 BlueXP  分类支持批量重试所有失败的扫描。

@@ -11,20 +11,20 @@
 .确定分类扫描的优先级
 除了仅映射扫描之外、BlueXP  分类还支持划分地图和分类扫描的优先级、使您能够选择首先完成哪些扫描。在扫描开始期间和之前、支持对映射和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描优先级、则映射扫描和分类扫描都将确定优先级。
 
-有关详细信息，请参见 link:task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["确定扫描优先级"]。
 
 .支持加拿大个人身份信息(个人身份信息、个人身份信息)数据类别
 BlueXP  分类扫描可识别加拿大的可识别身份信息数据类别。这些类别包括加拿大所有省份和地区的银行信息、护照号码、社会保险号码、驾驶执照号码和健康卡号码。
 
-有关详细信息，请参见 xref:reference-private-data-categories.adoc#types-of-personal-data[个人数据类别]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["个人数据类别"]。
 
 .自定义分类(预览)
 BlueXP  分类支持对映射和分类扫描进行自定义分类。通过自定义分类、您可以定制BlueXP  扫描、以便使用正则表达式捕获特定于您的组织的数据。此功能当前处于预览状态。
 
-有关详细信息，请参见 xref:task-custom-classification.adoc[添加自定义分类]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/bluexp-classification/task-custom-classification.html["添加自定义分类"]。
 
 .已保存搜索选项卡
-**策略**选项卡已重命名xref:task-using-policies.html[**保存的搜索**]。功能相同。
+**策略**选项卡已重命名link:https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html["**保存的搜索**"]。功能没有改变。
 
 .将扫描事件发送到BlueXP  时间线
 BlueXP  分类支持将分类事件(扫描启动和结束时)发送到link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  时间表"^]。
