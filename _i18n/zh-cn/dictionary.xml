@@ -2971,7 +2971,6 @@
   <block id="a5e2d801acd4eba6ae154178a10ef60b" category="paragraph">BlueXP  分类可在您的BlueXP  系统和存储系统旁边部署另一层AI。然后、它会扫描卷、分段、数据库和其他存储帐户上的数据、并为找到的数据洞察力编制索引。BlueXP分类利用人工智能和自然语言处理、而不是通常围绕正则表达式和模式匹配构建的替代解决方案。</block>
   <block id="05f433c1debc0d95600d02d8fe22a000" category="paragraph"><block ref="c829fae802ee8a6cfaabb6949c6dbda2" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="7495d9f71402d3b1d20f08bd19ac6562" category="inline-link-macro">API 文档</block>
-  <block id="2f5a5a17121fb9d36eb3f88f8ea3cc54" category="paragraph">是的、BlueXP  分类为BlueXP  核心平台中的BlueXP  分类版本中支持的功能提供了一个REST API。请参阅。 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block></block>
   <block id="5cc30ec93f0fd1add7230b4f102dac70" category="section-title">BlueXP  分类是否可通过云市场获得？</block>
   <block id="c121c2d1b519c88dba382cf2cad15a89" category="paragraph">BlueXP  分类是BlueXP  核心功能的一部分，因此您不需要使用此服务的商城。</block>
   <block id="5c724eb0add446b6c005e415e92957ed" category="paragraph">以下问题与BlueXP  分类扫描性能和分析相关。</block>
@@ -3558,4 +3557,5 @@
   <block id="551fbc3b7472150a5293373b773972d7" category="cell">限制为 500 TiB*</block>
   <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{星号} 包括::_include/connector-limit.adoc[]</block>
   <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification现在作为BlueXP中的一项核心功能提供，每个连接器最多可免费扫描 500 TiB 的数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。</block>
+  <block id="3c6bee2e144dcf57c21b516f9adcdfef" category="paragraph">是的、BlueXP  分类为BlueXP  核心平台中的BlueXP  分类版本中支持的功能提供了一个REST API。请参阅。 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block></block>
 </blocks>
