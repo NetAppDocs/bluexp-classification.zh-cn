@@ -994,15 +994,10 @@
   <block id="7df445bf0c34cf36a966141745590030" category="open-title">在AWS中部署</block>
   <block id="23c0e03df230b1dfa0e16b9d275b80ea" category="list-text">从BlueXP左侧导航菜单中、单击*监管&gt;分类*。</block>
   <block id="d33aba60d91a201fe7b4bce522f9deb7" category="inline-image-macro">选择按钮以激活BlueXP分类的屏幕截图。</block>
-  <block id="c48b9bad2a3a25d6dad223ab11c5a33e" category="paragraph"><block ref="c48b9bad2a3a25d6dad223ab11c5a33e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cce26d229722c6ca9257990a7091d9c0" category="list-text">单击 * 激活数据感知 * 。</block>
-  <block id="2cf7dbc159875140b6f5ecc68994fa13" category="list-text">在_Installation_page中、单击*部署&gt;部署*以使用"大型"实例大小并启动云部署向导。</block>
   <block id="125c9895b0de4086b75bd6de17240096" category="list-text">向导将在完成部署步骤时显示进度。如果遇到任何问题、它将停止并提示输入。</block>
   <block id="6ccd3462f51e144ba54924a76ff58ce8" category="inline-image-macro">用于部署新实例的BlueXP分类向导的屏幕截图。</block>
   <block id="f7b6e8ebd5557b7030e15d04046f60e7" category="paragraph"><block ref="f7b6e8ebd5557b7030e15d04046f60e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bdfca0a21ad4ec182fb0ff0fe7b8bc6b" category="list-text">部署实例并安装BlueXP分类后，单击*继续配置*转到_Configuration_页面。</block>
   <block id="699be6723175322ef727a933c7b42bbd" category="open-title">在Azure中部署</block>
-  <block id="a09a5c1c3cb0d27dbac4cfa3c73c0ec8" category="list-text">单击*部署*以启动云部署向导。</block>
   <block id="473b6ff5a1c62a3a028f4dc37b9cbd6c" category="inline-image-macro">选择用于在云中部署BlueXP分类的按钮的屏幕截图。</block>
   <block id="1f61c6b070b23b20d4af173152567e3d" category="paragraph"><block ref="1f61c6b070b23b20d4af173152567e3d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="12714d8579e39a7357fefed194511b8a" category="open-title">在Google Cloud中部署</block>
@@ -3558,4 +3553,28 @@
   <block id="acdf9d63036f9706b8165f6f6a7117da" category="paragraph">{星号} 包括::_include/connector-limit.adoc[]</block>
   <block id="e8c9a8c8c457fc72bf3b116575089845" category="paragraph">BlueXP classification现在作为BlueXP中的一项核心功能提供，每个连接器最多可免费扫描 500 TiB 的数据。不需要分类许可证或付费订阅。由于我们将BlueXP分类功能的重点放在扫描具有此新版本的NetApp存储系统上、因此、某些原有功能仅供以前已支付许可证费用的客户使用。这些原有功能的使用将在已支付合同到期后过期。</block>
   <block id="3c6bee2e144dcf57c21b516f9adcdfef" category="paragraph">是的、BlueXP  分类为BlueXP  核心平台中的BlueXP  分类版本中支持的功能提供了一个REST API。请参阅。 <block ref="66d6eeee3cdd1145e7194200ace05e36" category="inline-link-macro-rx"></block></block>
+  <block id="b88a97dbbf0d94d8396d856054201821" category="summary">通过访问BlueXP中的服务开始使用BlueXP classification。</block>
+  <block id="5e2bda6842e62bee66b91379fc54ff14" category="doc">访问BlueXP classification</block>
+  <block id="18ab5404b1c9c78cdbe1208355c612b8" category="paragraph">您可以通过NetApp BlueXP访问BlueXP classification服务。</block>
+  <block id="827ffaa4071f763fcf2f165bc506ac67" category="inline-link-macro">了解有关登录到BlueXP的更多信息</block>
+  <block id="e85f8055ef2f47366302b6cd1e438fd5" category="paragraph">要登录BlueXP，您可以使用您的NetApp支持站点凭证，也可以使用您的电子邮件和密码注册NetApp云登录。<block ref="87311a7719bd09cd8d149ce0279338dd" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="34397c830c77af93d96e3ed470658d45" category="inline-link-macro">了解所有服务的 BlueXP 访问角色</block>
+  <block id="0a52c97ea3cc5973c99346826ec696eb" category="paragraph">特定任务需要特定的BlueXP用户角色。<block ref="8b4e96244237d791189f9a3329e43e34" category="inline-link-macro-rx"></block>(英文)</block>
+  <block id="7b9aeeb99181b7bca6291c8ca1c3ec58" category="inline-link-macro">您应该添加一个BlueXP连接器。</block>
+  <block id="4d1ee80ad087cea271c22d352e5e16cf" category="list-text"><block ref="4d1ee80ad087cea271c22d352e5e16cf" category="inline-link-macro-rx"></block></block>
+  <block id="d5686972367b277b3384920923b26bb8" category="inline-link-macro">了解哪种BlueXP classification部署样式适合您的工作负载。</block>
+  <block id="a7d2d849071dae06891079aa8c9ed283" category="list-text"><block ref="a7d2d849071dae06891079aa8c9ed283" category="inline-link-macro-rx"></block></block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP控制台</block>
+  <block id="899f21c9bd67afec8f9f3be01a8edddc" category="list-text">在 Web 浏览器中，导航至<block ref="046fd603b18837f482287e5ec741e5ed" category="inline-link-macro-rx"></block> 。</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">此时将显示NetApp BlueXP登录页面。</block>
+  <block id="ee852dbf3a138374521be3a3b6b5413d" category="list-text">Sign inBlueXP。</block>
+  <block id="94390442839b9d41b3d61bf8fbfa3412" category="list-text">从BlueXP左侧导航菜单中，选择 *治理* &gt; *分类*。</block>
+  <block id="9b78feb8a8a40d46d2fb12391c043b8e" category="list-text">如果这是您第一次访问BlueXP classification，则会出现登录页面。</block>
+  <block id="3c5000aadb8f3b41a943ceff25d45f92" category="paragraph">选择*在本地或云中部署分类*以开始部署您的分类实例。有关详细信息、请参见 <block ref="ac3bd67718326214ecb171be9412b196" category="inline-link-macro-rx"></block></block>
+  <block id="a65721c6a00f8c4af241338a11fd8f3f" category="paragraph"><block ref="a65721c6a00f8c4af241338a11fd8f3f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e694fa91cc3969b00d0ae997752b6422" category="paragraph">否则，将出现BlueXP classification仪表板。</block>
+  <block id="e142a6f5dd7278bd87df979071f43ac7" category="list-text">选择*在本地或云中部署分类*。</block>
+  <block id="dcc769ed0ea98e366058422f08990e15" category="list-text">从“安装”页面中，选择“部署”&gt;“部署”以使用“大型”实例大小并启动云部署向导。</block>
+  <block id="6082f95d47d2b6cd46c38a484f2b2e4f" category="list-text">当实例部署完毕， BlueXP classification安装完成后，选择*继续配置*进入_配置_页面。</block>
+  <block id="f08251ff59a66c2320f7263142413eac" category="list-text">选择*部署*以启动云部署向导。</block>
 </blocks>

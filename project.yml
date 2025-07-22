@@ -25,6 +25,8 @@ sidebar:
     entries:
     - title: 了解BlueXP分类
       url: "/concept-cloud-compliance.html"
+    - title: 访问BlueXP classification
+      url: "/task-access.html"
     - title: 部署BlueXP分类
       entries:
       - title: 您应使用哪种部署

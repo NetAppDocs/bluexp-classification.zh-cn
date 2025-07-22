@@ -337,9 +337,9 @@ https://youtu.be/XiPLaJpfJEI["观看此视频"^]以了解如何安装BlueXP  �
 tar -xzf DATASENSE-INSTALLER-V1.25.0.tar.gz
 ----
 . 在BlueXP中、选择*监管>分类*。
-. 单击 * 激活数据感知 * 。
+. 选择*在本地或云中部署分类*。
 +
-image:screenshot_cloud_compliance_deploy_start.png["选择按钮以激活BlueXP分类的屏幕截图。"]
+image:screenshot-deploy-classification.png["选择按钮以激活BlueXP分类的屏幕截图。"]
 
 . 根据您是在云中准备的实例上还是在内部准备的实例上安装BlueXP分类、单击相应的*部署*按钮以启动BlueXP分类安装。
 +
