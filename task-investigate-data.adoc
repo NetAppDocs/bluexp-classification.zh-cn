@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-investigate-data.html 
-keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies 
+keywords: personal files, personal data, sensitive personal files, sensitive personal data, health data, ethnic origin, political opinions, gdpr, email address, credit card, ip address, iban, national ID, identifier, password, sex, criminal, compliance, privacy, filter data, permissions, csv file, json file, highlights, policies,json, csv, data investigation, data investigation report, download report, file metadata, file permissions, duplicate files, saved search 
 summary: '您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。' 
 ---
 = 根据BlueXP  分类调查存储在您的组织中的数据
@@ -14,7 +14,7 @@ summary: '您可以通过在"数据调查"页面中查看详细信息来调查�
 
 
 [role="lead"]
-您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。
+通过查看数据调查页面中的详细信息来调查您组织的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。
 
 您可以从BlueXP  分类UI的许多区域导航到此页面、包括监管和合规性信息板以及这些页面上已选择的筛选器。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。
 
@@ -283,8 +283,8 @@ TIP: 您可以随时使用此页面中提供的"文件哈希"值并直接在"调
 
 这些文件将拆分为具有固定行数或记录数的文件：
 
-* JSON—100、000条记录
-* CSV - 200、000条记录
+* JSON - 每份报告 100,000 条记录，生成大约需要 5 分钟
+* CSV - 每份报告 200,000 条记录，生成大约需要 4 分钟
 +
 
 NOTE: 您可以下载CSV文件的某个版本以在此浏览器中查看。此版本限制为10、000条记录。

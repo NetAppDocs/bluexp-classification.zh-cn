@@ -2950,8 +2950,6 @@
   <block id="d3057f8e098d72850d91f222796050a1" category="section-title">查看数据中最易识别的数据分类</block>
   <block id="93a41f9744586b4edf90898527b71531" category="cell">从调查中将数据导出到NFS/CCIFS</block>
   <block id="81aef4d88b3543fe7ce12740f599c026" category="paragraph">这些文件将拆分为具有固定行数或记录数的文件：</block>
-  <block id="65c07610fb212d644f234075537bbc84" category="list-text">CSV - 200、000条记录</block>
-  <block id="8897cd6292ab12bb81d8704c400fca96" category="list-text">JSON—100、000条记录</block>
   <block id="781c4c76cc2b33e7ebecd0ec7ae9a2c7" category="section-title">BlueXP  分类扫描的工作原理</block>
   <block id="474cf46df0c1e9c8d98c2f529a0b080b" category="paragraph">概括地说、BlueXP  分类扫描的工作原理如下：</block>
   <block id="20d2a2e8543925af69154c91d0f12b74" category="list-text">您可以对一个或多个数据源启用高级别映射(称为_Mapping only_扫描)或深度扫描(称为_Map &amp; Classic_扫描)。</block>
@@ -3143,7 +3141,6 @@
   <block id="d7530ec47cb0f60bf26bff38cfcd4f1f" category="list-text">选择*Pause*暂停扫描卷，或选择*Resume*恢复扫描先前暂停的卷。</block>
   <block id="e28f00b8dd55b4a2626bbd4233f326a1" category="list-text">*数据分类深度扫描(地图和分类扫描)*：在整个环境中使用标准协议和只读权限进行BlueXP  分类扫描。系统会打开并扫描选定文件、以查看与业务相关的敏感数据、私有信息以及与勒索软件相关的问题。</block>
   <block id="e90444baa59788bd6471cf703b12a16e" category="summary">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。</block>
-  <block id="43b0fcc067500dde9cd348cfb2a4fb95" category="paragraph">您可以通过在"数据调查"页面中查看详细信息来调查组织中的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。</block>
   <block id="b7f6a3bebde141b211f7f03ea94b59a0" category="paragraph">您可以从BlueXP  分类UI的许多区域导航到此页面、包括监管和合规性信息板以及这些页面上已选择的筛选器。您可以将数据导出到CSV或JSON文件中、以供进一步分析或与他人共享。</block>
   <block id="503f38415f575979b1abb29789cbda50" category="list-text">从BlueXP  分类菜单中，选择*Investigation *。</block>
   <block id="262bd6cb4081a4bb1d5b7bb69c91cf84" category="list-text">在"数据调查"页面上、执行以下任一操作：</block>
@@ -3577,4 +3574,7 @@
   <block id="6082f95d47d2b6cd46c38a484f2b2e4f" category="list-text">当实例部署完毕， BlueXP classification安装完成后，选择*继续配置*进入_配置_页面。</block>
   <block id="f08251ff59a66c2320f7263142413eac" category="list-text">选择*部署*以启动云部署向导。</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="3047d0f529bebd6bfe17922e0ca45403" category="paragraph">通过查看数据调查页面中的详细信息来调查您组织的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。</block>
+  <block id="f93f654f18be890b72a6dc3853af2702" category="list-text">JSON - 每份报告 100,000 条记录，生成大约需要 5 分钟</block>
+  <block id="1685dbc95abdf5db3fea70bcbed67efa" category="list-text">CSV - 每份报告 200,000 条记录，生成大约需要 4 分钟</block>
 </blocks>
