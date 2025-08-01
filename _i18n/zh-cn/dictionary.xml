@@ -285,8 +285,6 @@
   <block id="b7753345b24c98f72b73e9e641a456d7" category="paragraph">出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。</block>
   <block id="def03cca1b6cd44fc1ef14e712a6c792" category="inline-link-macro">了解BlueXP分类所联系的端点</block>
   <block id="80cef547cabd3e510ea56f58ec10a12e" category="paragraph">如果您有严格的网络要求，<block ref="a5023c570d3c1110eead6b3e84b02871" category="inline-link-macro-rx"></block>。</block>
-  <block id="1e81701a0a647214aeef7f6f5b09394b" category="section-title">BlueXP  分类中的用户角色</block>
-  <block id="0fceee5053bfc73b3d9e3253ad7b8f0b" category="inline-link">BlueXP  IAM角色</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想快速了解问题解答，此常见问题解答会很有帮助。</block>
   <block id="aa2fb7dd454c7ccfa2e848f8e1ae91b3" category="doc">有关BlueXP分类的常见问题</block>
   <block id="d114fb433bcf7d5f0818cbc8249575fd" category="section-title">BlueXP分类服务</block>
@@ -965,7 +963,6 @@
   <block id="c35738c7864c7cbf5383db60bc7aceb3" category="open-title">GCP所需的端点</block>
   <block id="396224b62257ab9727288876f0e89ef6" category="list-text">确保BlueXP具有所需权限</block>
   <block id="9edd86f763fc6d21418429b5c63134af" category="inline-link">NetApp 提供的策略</block>
-  <block id="8f1a8cf43aa444c46e29ecb0349384d2" category="list-text">确保BlueXP有权为BlueXP分类实例部署资源和创建安全组。您可以在中找到最新的BlueXP  权限<block ref="12017b43c12237092f4f947467fd170e" category="inline-link-rx"></block>。</block>
   <block id="a8abb2cf85d3fffe4e0996a3ef7fdff4" category="list-text">确保BlueXP Connector可以访问BlueXP分类</block>
   <block id="b3da390fe73676b135519aad2bb0ac8d" category="list-text">确保连接器与BlueXP分类实例之间的连接。连接器的安全组必须允许通过端口443传入和传出BlueXP分类实例的流量。通过此连接、可以部署BlueXP分类实例、并可在合规性和监管选项卡中查看信息。在AWS和Azure中的政府地区支持BlueXP分类。</block>
   <block id="fd1958e5e74317f89c6c16bbca7d1446" category="inline-link">AWS 中连接器的规则</block>
@@ -1371,7 +1368,6 @@
   <block id="a3b67f96a0c9278d4984faae4a248582" category="inline-image-macro">为要运行的报告选择工作环境的屏幕截图。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
@@ -2427,8 +2423,6 @@
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">选择*添加NSS凭证*，然后按照NetApp 支持站点(NSS)鉴定提示进行操作。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择帮助图标，然后选择*Support*。</block>
   <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">“资源”页面应显示您的BlueXP  组织已注册支持。</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">屏幕截图、显示帐户序列号、绿色复选框以及注册支持的文本。</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">请注意、其他BlueXP用户如果没有将NetApp 支持站点 帐户与其BlueXP登录关联、则不会看到此相同的支持注册状态。但是、这并不意味着您的BlueXP  组织未注册支持。只要组织中有一个用户执行了这些步骤、您的组织就已注册。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是现有许可证和序列号但拥有_no_ nss帐户的现有NetApp客户、则需要创建一个NSS帐户并将其与BlueXP登录关联。</block>
@@ -3073,7 +3067,6 @@
   <block id="9ed967b138578dbb6c57d7b336d5c696" category="paragraph">BlueXP  分类可扫描您选择的存储库(卷、数据库架构或其他用户数据)中的数据、以确定个人数据和敏感数据。然后、BlueXP  分类会映射您的组织数据、对每个文件进行分类、并确定数据中的预定义模式。扫描的结果是个人信息，敏感个人信息，数据类别和文件类型的索引。</block>
   <block id="3779db1fb21572df76305e5ede3efad1" category="sidebar">扫描数据源概述</block>
   <block id="fc9679220132eb8e0f499680bbe8909a" category="list-text">*名称实体识别*：BlueXP  分类使用AI从文档中提取人们的自然名称。<block ref="8e814e02dddb19e3bb4166c15fc34470" category="inline-link-macro-rx"></block>(英文)</block>
-  <block id="e888dadabb0f55fe5c317b3b6754087e" category="paragraph">为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息、请参见<block ref="9e5b18f30859b96d93203df427b4bd3d" category="inline-link-rx"></block>(在标准模式下使用BlueXP  时)。</block>
   <block id="6f0ff027a4b5c5cccc90c166290d3013" category="cell">能够运行<block ref="c2177dc55e01ee229f523014b3bacb31" category="inline-link-macro-rx"></block></block>
   <block id="a7e6da043e68990d1e9627e5da9319c2" category="paragraph">有关详细信息，请参见 <block ref="8df90f52b87f57dd64f76114b6c4e6a8" category="inline-link-macro-rx"></block>。</block>
   <block id="3d0a52f701c42fc59411425fdc2a4746" category="paragraph">现在、在响应数据主体访问请求(Data Subject Access Request、DSAR)搜索主体名称时、可以输入日语名称。您可以使用生成的信息生成<block ref="413db830e9f14a03bda795e0ca85886f" category="inline-link-rx"></block>。您也可以在中输入日语名称<block ref="dc85c6bd448621c7d3e7987af7ac2483" category="inline-link-rx"></block>、以标识包含主题名称的文件。</block>
@@ -3577,4 +3570,14 @@
   <block id="3047d0f529bebd6bfe17922e0ca45403" category="paragraph">通过查看数据调查页面中的详细信息来调查您组织的数据。在查看监管信息板后、您可以在此处继续进行调查。在调查页面上、您可以使用多个筛选器之一筛选数据、以便仅显示您要查看的结果。您还可以查看文件元数据、文件和目录的权限、以及检查存储系统中是否存在重复文件。</block>
   <block id="f93f654f18be890b72a6dc3853af2702" category="list-text">JSON - 每份报告 100,000 条记录，生成大约需要 5 分钟</block>
   <block id="1685dbc95abdf5db3fea70bcbed67efa" category="list-text">CSV - 每份报告 200,000 条记录，生成大约需要 4 分钟</block>
+  <block id="b1be31d5cf6b0567551065ae3533caf1" category="list-text">确保BlueXP有权部署资源并为BlueXP classification实例创建安全组。</block>
+  <block id="d3846482b7a5f3467b05518965422219" category="inline-link-macro">Google Cloud 权限</block>
+  <block id="c46f60718e1e68e31a7a27b785a25a23" category="list-text"><block ref="c46f60718e1e68e31a7a27b785a25a23" category="inline-link-macro-rx"></block></block>
+  <block id="d2c0c7feb18d0e89bab9d23b6ec4c042" category="inline-link-macro">AWS 权限</block>
+  <block id="b08bb744ad1ab6a2ee30e20e034859bc" category="list-text"><block ref="b08bb744ad1ab6a2ee30e20e034859bc" category="inline-link-macro-rx"></block></block>
+  <block id="bf689424a4d3a62d9c0d40a07107c3d2" category="inline-link-macro">Azure 权限</block>
+  <block id="ff27171010c4f698d0174fb8b8ce6b5d" category="list-text"><block ref="ff27171010c4f698d0174fb8b8ce6b5d" category="inline-link-macro-rx"></block></block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多种方式为BlueXP及其云服务提供支持。我们提供全天候 (24/7) 的大量免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">屏幕截图显示了帐户序列号、绿色复选框和文本“已注册支持”。</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

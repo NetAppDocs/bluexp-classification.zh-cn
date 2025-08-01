@@ -212,9 +212,3 @@ BlueXP部署BlueXP分类实例、其中包含一个安全组、用于从连接�
 出站规则完全开放。要安装和升级BlueXP分类软件以及发送使用情况指标、需要访问Internet。
 
 如果您有严格的网络要求，link:task-deploy-cloud-compliance.html#review-prerequisites["了解BlueXP分类所联系的端点"^]。
-
-
-
-== BlueXP  分类中的用户角色
-
-为每个用户分配的角色在BlueXP  和BlueXP  分类中提供不同的功能。有关详细信息、请参见 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  IAM角色"](在标准模式下使用BlueXP  时)。
