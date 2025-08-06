@@ -1781,7 +1781,6 @@
   <block id="4582ba30b2499066be90a4bcea5ec4b6" category="paragraph">您可以将BlueXP分类正在扫描的源文件复制到任何NFS共享。NFS共享不需要与BlueXP  分类集成，您只需要知道NFS共享的名称，其中所有选定文件将以格式进行复制<block ref="5d0795d5bd729889f583de7b0928eaea" prefix=" " category="inline-code"></block>。</block>
   <block id="6ca416dc347d5360ab86e69583f4b2b0" category="admonition">您不能复制数据库中的文件。</block>
   <block id="ab24d4e851f3db949095d520c7a20014" category="inline-link-macro">了解用户对合规性信息的访问权限</block>
-  <block id="626f686c5ceb0252f691c5ea070f437b" category="list-text">您必须具有复制文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="1394fd88d929360313e8c80ec722b081" category="list-text">复制文件要求目标NFS共享允许从BlueXP分类实例进行访问。</block>
   <block id="11f3580c4a3b779649df6d1a5c193fdf" category="list-text">一次可以复制1到100、000个文件。</block>
   <block id="07fc1f9bea8dc1060003a2fea5aa3598" category="list-text">在数据调查结果窗格中，选择要复制的一个或多个文件，然后单击 * 复制 * 。</block>
@@ -1827,7 +1826,6 @@
   <block id="ed404bde5dfd762dd0759dcedd71cdd7" category="paragraph">您可以将BlueXP  分类正在扫描的源文件从任何受支持的非结构化数据源复制到特定目标位置的目录<block ref="bd72f78a08f0a83b7e3fbbae64df2fed" category="inline-link-rx"></block>)。初始复制后，文件中更改的任何数据将根据您配置的计划进行同步。</block>
   <block id="e4186dd0c6123ee83f2ac799b88930b1" category="paragraph">这对于将数据从一个源系统迁移到另一个源系统的情况非常有用。此操作使用<block ref="d9f5c10edef42cff18580599262fd784" category="inline-link-rx"></block>功能将数据从源复制并同步到目标。</block>
   <block id="59a46e0ea7e3441d068ab93e14650d6e" category="admonition">您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。</block>
-  <block id="2e23ab8075b914f073724aeeab7a7221" category="list-text">您必须具有复制和同步文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="2e5ce55dec2ff1c76b2eb8662089db85" category="list-text">所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。</block>
   <block id="5698905e8d060e455d19636040ff425c" category="inline-link">快速启动问题描述</block>
   <block id="9b9f495105111a0fa74c1500ac1b40e5" category="list-text">您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP  副本和同步要求<block ref="33fe85ab0bf4bd63d137fd0932246743" category="inline-link-rx"></block>。</block>
@@ -1852,7 +1850,6 @@
   <block id="c82ffa722bb30ecf26aa93c8c1f6491b" category="paragraph">或者、您也可以将痕迹文件保留在移动文件的位置。痕迹文件可帮助用户了解文件从其原始位置移动的原因。对于每个移动的文件，系统都会在源位置创建一个名为的b7b;<block ref="e5b81a76aedb2ddb1da7aba12de3e20b" prefix=" " category="inline-code"></block>您可以在对话框中添加要添加到痕迹文件的文本、以指示文件移动的位置以及文件移动的用户。</block>
   <block id="125161c62eedd013601db45d9716edf6" category="paragraph">请注意、移动文件时、源文件中的子目录结构会在目标共享上重新创建、以便于了解文件的移动位置。如果目标位置存在同名文件、则不会移动该文件。</block>
   <block id="4ae80798b0ef194ea50cfe00aa1b363c" category="admonition">您无法移动驻留在数据库中的文件。</block>
-  <block id="7253808b56101588fe6b9f8e3310f2de" category="list-text">您必须具有移动文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="3aa95927284ca0cd4e7737dd41a53153" category="list-text">源文件可以位于以下数据源中：内部ONTAP 、Cloud Volumes ONTAP 、Azure NetApp Files 、文件共享和SharePoint Online。</block>
   <block id="49bb7289b8abc33c271f634fc8149b1e" category="list-text">一次最多可以移动1、500万个文件。</block>
   <block id="71015deb6ac3269a57685acb827c23be" category="list-text">仅移动小于或等于50 MB的文件。</block>
@@ -1877,7 +1874,6 @@
   <block id="2a500e3681b7e207d0d6c159ff2008ab" category="list-text">对于CIFS数据—CIFS凭据需要具有写入权限。</block>
   <block id="e9d85b8e3ea5257d3468eb6f787a1fcd" category="list-text">对于S3数据- IAM角色必须包括以下权限：<block ref="ec68e11afcd3e390ebf5080e8af5b735" prefix=" " category="inline-code"></block>。</block>
   <block id="d771d7d12660fbeb94c2343ab606b51d" category="section-title">手动删除源文件</block>
-  <block id="b7f17bad276a0a849229c1ccd0d02ea8" category="list-text">您必须具有删除文件的权限。<block ref="755d8ea7a519899e64b990f74fdc72f2" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="982e0ea8ac129cb8e1614b1eb919a238" category="list-text">一次最多可以删除 100 ， 000 个文件。</block>
   <block id="d14aadac54b4954b4a906556c2e19bd5" category="list-text">在数据调查结果窗格中，选择要删除的一个或多个文件。</block>
   <block id="47a3f3156d581e80ad2e6dc38b57f4fd" category="inline-image-macro">显示如何从数据调查页面选择要删除的文件的屏幕截图以及删除按钮。</block>
@@ -3580,4 +3576,8 @@
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多种方式为BlueXP及其云服务提供支持。我们提供全天候 (24/7) 的大量免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">屏幕截图显示了帐户序列号、绿色复选框和文本“已注册支持”。</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="030c30fe65e7389b97e25493d1050cb5" category="list-text">您必须具有复制文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="cabac526d4cf33ef9b02b0693cd1699c" category="list-text">您必须具有复制和同步文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="3e3cb2a1aa38db84e1a7fbd4e46dd21b" category="list-text">您必须具有移动文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="25dc0f9bf48b7d09b459240afbf36637" category="list-text">您必须具有删除文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
 </blocks>

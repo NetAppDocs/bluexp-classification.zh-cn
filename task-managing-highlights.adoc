@@ -63,7 +63,7 @@ NOTE: 此信息仅与BlueXP  分类原有版本1.3及更早版本相关。
 TIP: 您不能复制数据库中的文件。
 
 .要求
-* 您必须具有复制文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
+* 您必须具有复制文件的权限。link:concept-cloud-compliance.html["了解用户对合规性信息的访问权限"] 。
 * 复制文件要求目标NFS共享允许从BlueXP分类实例进行访问。
 * 一次可以复制1到100、000个文件。
 
@@ -106,7 +106,7 @@ image:screenshot_compliance_copy_file.png["屏幕截图显示了从 \" 数据调
 * 注意： * 无法克隆 FlexGroup 卷，因为 FlexClone 不支持这些卷。
 
 .要求
-* 您必须具有复制文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
+* 您必须具有复制文件的权限。link:concept-cloud-compliance.html["了解用户对合规性信息的访问权限"] 。
 * 您必须至少选择20个文件。
 * 所有选定文件都必须来自同一个卷，并且该卷必须处于联机状态。
 * 卷必须来自 Cloud Volumes ONTAP 或内部 ONTAP 系统。当前不支持任何其他数据源。
@@ -160,7 +160,7 @@ image:screenshot_compliance_clone_files_dialog.png["显示复制文件对话框�
 TIP: 您不能复制和同步数据库， OneDrive 帐户或 SharePoint 帐户中的文件。
 
 .要求
-* 您必须具有复制和同步文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
+* 您必须具有复制和同步文件的权限。link:concept-cloud-compliance.html["了解用户对合规性信息的访问权限"] 。
 * 您必须至少选择20个文件。
 * 所有选定文件都必须来自同一源存储库（ ONTAP 卷， S3 存储分段， NFS 或 CIFS 共享等）。
 * 您需要激活BlueXP复制和同步服务、并至少配置一个数据代理、用于在源系统和目标系统之间传输文件。从开始查看BlueXP  副本和同步要求 https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["快速启动问题描述"^]。
@@ -218,7 +218,7 @@ BlueXP副本和同步UI将在BlueXP中打开。
 TIP: 您无法移动驻留在数据库中的文件。
 
 .要求
-* 您必须具有移动文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
+* 您必须具有移动文件的权限。link:concept-cloud-compliance.html["了解用户对合规性信息的访问权限"] 。
 * 源文件可以位于以下数据源中：内部ONTAP 、Cloud Volumes ONTAP 、Azure NetApp Files 、文件共享和SharePoint Online。
 * 一次最多可以移动1、500万个文件。
 * 仅移动小于或等于50 MB的文件。
@@ -270,7 +270,7 @@ TIP: 您不能删除数据库中的文件。支持所有其他数据源。
 === 手动删除源文件
 
 .要求
-* 您必须具有删除文件的权限。link:concept-cloud-compliance.html#user-roles["了解用户对合规性信息的访问权限"](英文)
+* 您必须具有删除文件的权限。link:concept-cloud-compliance.html["了解用户对合规性信息的访问权限"] 。
 * 一次最多可以删除 100 ， 000 个文件。
 
 
