@@ -2878,7 +2878,6 @@
   <block id="de112667eda744a4b358697bb7edc818" category="list-text">要对存储分段启用完整扫描，请选择*映射和分类*。</block>
   <block id="da912e25717291a31093b36e55bb8641" category="list-text">要禁用存储分段上的扫描，请选择*off*。</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025年2月19日</block>
-  <block id="84ea0db5b42f134872fbf35016e39cf9" category="list-text">Red Hat Enterprise Linux 8.8、8.10、9.0、9.1、9.2、9.3、9.4和9.5版</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高了分类模型的准确性</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">的机器学习模型准确性<block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>提高了11%。</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="doc">1.41 版</block>
@@ -3580,4 +3579,14 @@
   <block id="cabac526d4cf33ef9b02b0693cd1699c" category="list-text">您必须具有复制和同步文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
   <block id="3e3cb2a1aa38db84e1a7fbd4e46dd21b" category="list-text">您必须具有移动文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
   <block id="25dc0f9bf48b7d09b459240afbf36637" category="list-text">您必须具有删除文件的权限。<block ref="8ccbab5e2c8c15f4593085b049c7211e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d9e521087da6e40e92c4e4b4c7c7bfde" category="list-text">Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5 和 9.6。</block>
+  <block id="7a4e65e1bd3f1685ea059c893a13cb58" category="doc">1.46 版</block>
+  <block id="d221ee9585220af20b8b4e1420b1a705" category="paragraph">此BlueXP classification版本包括错误修复和以下更新：</block>
+  <block id="688ea6ebefec0ae0aaddb70ff5413e00" category="paragraph-title">BlueXP时间线中增强的扫描事件洞察</block>
+  <block id="e3f2c8a75408251f04a1059c3edcc328" category="paragraph">BlueXP时间线现在支持增强对BlueXP classification的扫描事件的洞察。时间线现在显示工作环境扫描的开始时间、工作环境的状态以及任何问题。共享和工作环境的状态仅适用于映射扫描。</block>
+  <block id="57bee919903f0c92a41c5582519db779" category="inline-link-macro">监控BlueXP操作</block>
+  <block id="6ae0edc3b3f0ae8b008d6d6252956898" category="paragraph">有关BlueXP时间线的更多信息，请参阅<block ref="985f72ec91ace369e4feac0016fa4020" category="inline-link-macro-rx"></block>。</block>
+  <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">支持 RHEL 9.6</block>
+  <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">此版本增加了对 Red Hat Enterprise Linux v9.6 的支持，用于手动本地安装BlueXP classification，包括暗站部署。</block>
+  <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">2025年8月11日</block>
 </blocks>
